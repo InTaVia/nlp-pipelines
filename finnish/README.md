@@ -6,9 +6,15 @@ The following tools have been used to annotate the Finnish texts.
 
 ### Nelli
 
+### Name-finder
+
 ### Reksi
 
-### Name-finder
+[Reksi service](https://github.com/SemanticComputing/reksi) is a tool and an API endpoint for named entity recognition and linking using a tool that consists of numerous regular expressions used to identify different information from text. The tool can also be used to link entities to corresponding ontologies and vocabularies provided that the user has predefined them. The service accepts text input, identifies named entities, and returns a resultset in JSON format. The resultset contains annotated text and a list of named entities, their types, locations, and optionally links to existing ontologies.
+
+Currently the tool is able to identify named entities from Finnish texts. The types of entities it can identify currently are references to dates (currently hardcoded between 1100 and 2090), social security numbers, numerous registry numbers, URLs, email addresses, phone numbers, measure units, money and currencies, IP addresses, statutes, directives, and their sections and clauses. More entity classes can be added via configuration file where each type of entity has a class name in square brackets and it is followed by adding a variable pattern that is set by user definable regular expression.
+
+The application executes each regular expression and collects entities they find from each sentence into the resultset. Before the resultset is transformed into JSON, the entities are disambiguated in favor of the longest match. This means that if there are several entities with overlapping locations, the longest matching entity is chosen by default. (The linking can enable better disambiguation but that will be considered later.)
 
 ### Gender guessing service
 
