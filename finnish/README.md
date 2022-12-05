@@ -16,7 +16,7 @@ The [Gender identification service](https://github.com/SemanticComputing/gender-
 
 ### Henko
 
-The [Person name ontology (HENKO)](https://version.aalto.fi/gitlab/seco/suomen-henkilonimisto) is a vast collection of Finnish person names. It consists of given and family names, their usage statistics, matronyms, patronyms, nobiliary particles, etc. from the 3rd century to present time. It contains approximately 54 000 person name records from the The Finnish Digital Agency, BiographySampo, Norssi High School Alumni, and AcademySampo. The data can be be brwoser using the [ONKI Light service](light.onki.fi/henko/).
+The [Person name ontology (HENKO)](https://version.aalto.fi/gitlab/seco/suomen-henkilonimisto) is a vast collection of Finnish person names. It consists of given and family names, their usage statistics, matronyms, patronyms, nobiliary particles, etc. from the 3rd century to present time. It contains approximately 54 000 person name records from the The Finnish Digital Agency, BiographySampo, Norssi High School Alumni, and AcademySampo. The data can be be brwoser using the [ONKI Light service](https://light.onki.fi/henko/).
 
 ### Wrappers
 
