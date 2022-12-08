@@ -31,20 +31,20 @@ The [Person name ontology (HENKO)](https://version.aalto.fi/gitlab/seco/suomen-h
 
 The rest of the tools have been published and produce data for Finnish language texts. They have been wrapped to use the common JSON dataformat schema.
 
-#### Finer
+#### Finer service wrapper
 
 The [FiNER service](https://github.com/SemanticComputing/finer-service) is a tool and an API endpoint for the named entity recognition tool [FiNER](https://korp.csc.fi/download/finnish-tagtools/). FiNER is a named entity recognition tool developed by the [FIN-CLARIN group](https://www.kielipankki.fi/organisaatio/fin-clarin/) at the University of Helsinki. The service accepts text input, identifies named entities, and returns FiNER's resultset in JSON format. The resultset contains annotated text and a list of named entities, their types, and locations.
 
 #### FinBER NER model
 
-#### Turku neural parser / Turku dependency parser
+#### Turku neural parser / Turku dependency parser wrapper
 
 [Turku neural parser / Turku dependency parser wrapper](https://github.com/SemanticComputing/finnish-dep-parser-wrapper) transforms results from CoNLL-u to the JSON format. It takes in text and passes the input to the service. The result is structured according to the tool's results.
 
 The [Turku dependency parser](https://github.com/TurkuNLP/Finnish-dep-parser) service is a tool and an API endpoint for tagging text with linguistic information and dependency grammar. Turku dependency parser is a tool developed by the [Turku NLP group](https://turkunlp.org) at the University of Turku. The service accepts text input and returns the dependency parser's result set in JSON format. 
 The [Turku Neural Parser](https://github.com/TurkuNLP/Turku-neural-parser-pipeline) is an updated version of the Turku-dependency-parser that utilizes neural networks to produce the same results for the same input as the original parser.
 
-#### LAS (Lexical analysis service)
+#### LAS wrapper
 
 The LAS wrapper is a JSON wrapper that packages the [Lexical Analysis Service (LAS)](http://demo.seco.tkk.fi/las/). LAS is a linguistic tool that can be used for morphological analysis of Finnish text.  LAS uses existing linguistic tools such as Omorfi that have support Finnish and many other
 languages. It consists of language recognition, lemmatization, morphological analysis, inflected form generation, and hyphenation. All functionalities are available as web services, supporting both the HTTP and WebSocket protocols. All services are additionally CORS-enabled and return results in JSON for easy integration into HTML5 web applications. The wrapper unifies and packages the output.
