@@ -45,3 +45,7 @@ The [Turku dependency parser](https://github.com/TurkuNLP/Finnish-dep-parser) se
 The [Turku Neural Parser](https://github.com/TurkuNLP/Turku-neural-parser-pipeline) is an updated version of the Turku-dependency-parser that utilizes neural networks to produce the same results for the same input as the original parser.
 
 #### LAS (Lexical analysis service)
+
+The LAS wrapper is a JSON wrapper that packages the [Lexical Analysis Service (LAS)](http://demo.seco.tkk.fi/las/). LAS is a linguistic tool that can be used for morphological analysis of Finnish text.  LAS uses existing linguistic tools such as Omorfi that have support Finnish and many other
+languages. It consists of language recognition, lemmatization, morphological analysis, inflected form generation, and hyphenation. All functionalities are available as web services, supporting both the HTTP and WebSocket protocols. All services are additionally CORS-enabled and return results in JSON for easy integration into HTML5 web applications. The wrapper unifies and packages the output.
+
