@@ -6,6 +6,7 @@
       {
         "ID": hashID,
         "surfaceForm": "",
+        "lemma": "",
         "locationEnd": 29,
         "locationStart": 15,
         "category": "PERSON|PLACE|TIME|ORGANIZATION",
