@@ -6,6 +6,8 @@ The following tools have been used to annotate the Finnish texts.
 
 ### Nelli
 
+[Nelli or Nelli-tagger]() is a named entity linking tool that extracts NEs using various NER tools and disambiguates them using a voting/scoring scheme. The tool combines the benefits of different NER tools and combination with entity linking, it can recognize and link entities to the user-specified dictionaries or ontologies. Here, the extracted entities at a specific location in text are compared to each other and the most popular result for the given location is selected. The scheme takes also into consideration linkage and length of the entity, considering it more precise if the entity label is longer and it has been linked to a user specified  ontology. The tool can also return entities that are not linked to an ontology. The tool can process text in xml-based formats or as plain text. The results are provided in JSON format.
+
 ### Name-finder
 
 The [Person name finder](https://github.com/SemanticComputing/person-name-finder) service is a tool and an API endpoint for identifying references to people and collecting context around them from texts. Person name finder uses the Person name ontology (HENKO) that is a vast storage of Finnish person names. The service accepts text input, identifies named entities, and returns results in JSON format. The resultset contains person name, links to the HENKO ontology, and optionally contextual information such as gender, titles, birth dates, etc.
