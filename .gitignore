@@ -1,5 +1,7 @@
 # Repository-Specific
 english/data/*
+.venv_*/
+.DS_Store
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

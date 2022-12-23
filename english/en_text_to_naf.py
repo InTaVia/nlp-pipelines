@@ -13,6 +13,7 @@ from nafparserpy.layers.elements import Span
 from nafparserpy.layers.srl import Predicate, Role
 
 from utils_wiki import get_wikipedia_article
+import utils_nlp as unlp
 
 
 def main():
@@ -37,26 +38,6 @@ class SRL_Output:
     arg_labels: List[List[str]] # each internal list has Bio Labels corresponding to the predicates by position in the list
     pred_arg_struct: Dict[int, SRL_Argument]
 
-
-def preprocess_and_clean_text(text: str) -> str:
-    clean_text = re.sub(r'[\r\n]+', " ", text)
-    clean_text = re.sub(r'"', ' " ', clean_text)
-    clean_text = re.sub(r'[\s]+', " ", clean_text)
-    return clean_text
-
-
-def create_naf_object(text: str, naf_name: str, naf_converter: Converter) -> NafParser:
-    """Reads in a Text, uses SpaCy as an NLP Pipeline and returns the annotations on NAF Format
-
-    Args:
-        text (str): The text to be parsed and strcuctured. Annotations added: 
-
-    Returns:
-        NafParser: The NAF object containing the SpaCy English annotations
-    """
-    naf_name = naf_name.lower().replace(" ", "_") + ".naf"
-    naf = naf_converter.process_text(text, naf_name, out_path=None)
-    return naf
     
 
 def get_naf_sentences(naf: NafParser) -> List[List[Wf]]:
@@ -181,17 +162,17 @@ def test_english_pipeline(query_tests: str = ["William the Silent"]):
             wiki_matches += 1
             
             # Apply different patterns to 'clean' the text
-            clean_text = preprocess_and_clean_text(text)
+            clean_text = unlp.preprocess_and_clean_text(text)
             
             # Process the text using SpaCy to NAF module
             naf_name = query.lower().replace(" ", "_") + ".naf"
-            naf = create_naf_object(clean_text, naf_name, naf_converter)
+            naf = unlp.create_naf_object(clean_text, naf_name, naf_converter)
             
             # Add AllenNLP SRL Layer
             naf = add_naf_srl_layer(naf, srl_predictor)
 
             # Write to Disk
-            naf_path = "english/data/naf"
+            naf_path = "./english/data/naf"
             if not os.path.exists(naf_path): os.mkdir(naf_path)
             naf_to_file(naf, naf_path, naf_name)
             
