@@ -20,9 +20,10 @@ import utils_nlp as unlp
 
 
 def main():
-    query_tests = ["William the Silent", "Albercht Durer", "Albert Einstein", "Octavio Paz", "Barack Obama", "Donald Trump"]
+    query_tests = ["William the Silent", "Albercht Durer", "Vincent van Gogh", "Constantijn Huygens", "Baruch Spinoza", "Erasmus of Rotterdam",
+                    "Christiaan Huygens", "Rembrandt van Rijn", "Antoni van Leeuwenhoek", "John von Neumann", "Johan de Witt"]
     # test_english_pipeline_naf(query_tests)
-    test_english_pipeline_json()
+    test_english_pipeline_json(query_tests)
 
 
 #### BEGIN English Pipeline

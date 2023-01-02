@@ -243,6 +243,6 @@ def add_json_srl_layer(sentences: List[str], srl_predictor: Predictor, token_obj
                     'locationEnd': token_objects[arg.end]['end_char'],
                     'category': arg.label
                 })
-            if len(pred_obj['arguments'] > 0):
+            if len(pred_obj['arguments']) > 0:
                 structured_layer.append(pred_obj)
     return structured_layer
