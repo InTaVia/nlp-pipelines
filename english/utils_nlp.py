@@ -1,12 +1,17 @@
 import re
-from typing import TypeVar, Dict, Any, List
+from typing import TypeVar, Dict, Any, List, Tuple
 from dataclasses import dataclass, asdict
 from collections import defaultdict
+
+from allennlp.predictors import Predictor
+
+from python_heideltime import Heideltime
+from bs4 import BeautifulSoup
+
 Converter = TypeVar('Converter')
 NafParser = TypeVar('NafParser')
 SpacyLanguage = TypeVar('SpacyLanguage')
 SpacyDoc = TypeVar('SpacyDoc')
-
 
 @dataclass 
 class TokenJSON:
@@ -21,6 +26,22 @@ class TokenJSON:
     MISC: List[str] = None
     FEATS: Dict[str, str] = None
 
+
+@dataclass
+class SRL_Argument:
+    predicate: Tuple[int, str] # (token_index, surface_form) in the text
+    text: str # argument text
+    label: str # argument label
+    start: int # token index where the argument starts
+    end: int # token index where the argument ends
+
+
+@dataclass
+class SRL_Output:
+    tokens: List[str]
+    predicates: List[Tuple[int, str]] # (token_index, surface_form) in the text
+    arg_labels: List[List[str]] # each internal list has Bio Labels corresponding to the predicates by position in the list
+    pred_arg_struct: Dict[int, SRL_Argument]
 
 
 def preprocess_and_clean_text(text: str) -> str:
@@ -97,9 +118,9 @@ def nlp_to_dict(nlp_dict: Dict[str, Any]) -> Dict[str, Any]:
         'data': {
             'text': nlp_dict['input_text'],
             'morphology': token_objs,
-            'entities': nlp_dict['entities'],
-            'time_exps': [],
-            'events': []
+            'entities': nlp_dict.get('entities', []),
+            'time_expressions': nlp_dict.get('time_expressions', []),
+            'semantic_roles': nlp_dict.get('semantic_roles', [])
         }
     }
 
@@ -137,3 +158,91 @@ def create_naf_object(text: str, naf_name: str, naf_converter: Converter) -> Naf
     naf_name = naf_name.lower().replace(" ", "_") + ".naf"
     naf = naf_converter.process_text(text, naf_name, out_path=None)
     return naf
+
+
+def add_time_expressions(text: str, heideltime_parser: Heideltime) -> Dict[str, Any]:
+    # Get Time Expressions
+    xml_timex3 = heideltime_parser.parse(text)
+    # Map the TIMEX Nodes into the Raw String Character Offsets
+    soup  = BeautifulSoup(xml_timex3, 'xml')
+    root = soup.find('TimeML')
+    span_end = 0
+    timex_all = []
+    try:
+        for timex in root.find_all('TIMEX3'):
+            span_begin = span_end + root.text[span_end:].index(timex.text) - 1
+            span_end = span_begin + len(timex.text)
+            timex_dict = {'ID': timex.get('tid'), 'category': timex.get('type'), 'value': timex.get('value'), 'surfaceForm': timex.text, 'locationStart': span_begin, 'locationEnd': span_end, 'method': 'HeidelTime'}
+            timex_all.append(timex_dict)
+        return timex_all
+    except:
+        return {}
+
+
+def allennlp_srl(text: str, srl_predictor: Predictor) -> SRL_Output:
+    output = srl_predictor.predict(text)
+    print("ALLEN TOKENS:", output['words'])
+
+    simplified_output = SRL_Output(output['words'], predicates=[], arg_labels=[], pred_arg_struct={})
+
+    for verb_obj in output['verbs']:
+        # print(f"\tVERB: {verb_obj['verb']} | ARGS: {verb_obj['tags']}")
+        predicate_index, predicate_arguments = 0, []
+        arg_tokens, arg_indices, arg_label = [], [], ""
+        for ix, bio_tag in enumerate(verb_obj['tags']):
+            if bio_tag == "B-V":
+                predicate_index = ix
+                if len(arg_label) > 0:
+                    predicate_arguments.append(SRL_Argument((predicate_index, verb_obj['verb']), " ".join(arg_tokens), arg_label, start=arg_indices[0], end=arg_indices[-1]))
+                    arg_label = ""
+                    arg_indices = []
+                    arg_tokens = []
+            elif bio_tag.startswith("B-"):
+                if len(arg_label) > 0:
+                    predicate_arguments.append(SRL_Argument((predicate_index, verb_obj['verb']), " ".join(arg_tokens), arg_label, start=arg_indices[0], end=arg_indices[-1]))
+                    arg_indices = []
+                    arg_tokens = []
+                arg_label = bio_tag[2:]
+                arg_tokens.append(output['words'][ix])
+                arg_indices.append(ix)
+            elif bio_tag.startswith("I-"):
+                arg_tokens.append(output['words'][ix])
+                arg_indices.append(ix)
+            elif bio_tag == "O" and len(arg_label) > 0:
+                predicate_arguments.append(SRL_Argument((predicate_index, verb_obj['verb']), " ".join(arg_tokens), arg_label, start=arg_indices[0], end=arg_indices[-1]))
+                arg_label = ""
+                arg_indices = []
+                arg_tokens = []
+
+        simplified_output.predicates.append((predicate_index, verb_obj['verb']))
+        simplified_output.arg_labels.append(verb_obj['tags'])
+        simplified_output.pred_arg_struct[predicate_index] = predicate_arguments
+        
+    return simplified_output
+
+
+
+def add_json_srl_layer(sentences: List[str], srl_predictor: Predictor, token_objects: List[Dict]) -> Dict[str, Any]:
+    structured_layer = []
+    for sentence in sentences:
+        srl_output = allennlp_srl(sentence, srl_predictor)
+        for i, (predicate_pos, arguments) in enumerate(srl_output.pred_arg_struct.items()):
+            pred_obj = {'predicateID': str(i), 
+                        'locationStart': token_objects[predicate_pos]['start_char'], 
+                        'locationEnd': token_objects[predicate_pos]['end_char'],
+                        'surfaceForm': token_objects[predicate_pos]['text'],
+                        'predicateLemma': token_objects[predicate_pos]['lemma'],
+                        'arguments': [],
+                        'method': 'allennlp_2.9.0'
+                        }
+            for arg in arguments:
+                pred_obj['arguments'].append({
+                    'argumentID': f"{i}_{arg.label}",
+                    'surfaceForm': arg.text,
+                    'locationStart': token_objects[arg.start]['start_char'],
+                    'locationEnd': token_objects[arg.end]['end_char'],
+                    'category': arg.label
+                })
+            if len(pred_obj['arguments'] > 0):
+                structured_layer.append(pred_obj)
+    return structured_layer

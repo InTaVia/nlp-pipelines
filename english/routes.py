@@ -1,6 +1,7 @@
 from flask import Blueprint, request, jsonify
 from spacy_to_naf.converter import Converter
 from allennlp.predictors import Predictor
+from python_heideltime import Heideltime
 import spacy
 from lxml import etree
 import utils_nlp as unlp
@@ -8,6 +9,9 @@ import utils_nlp as unlp
 naf_converter = Converter("en_core_web_sm", add_terms=True, add_deps=True, add_entities=True, add_chunks=True)
 nlp = spacy.load("en_core_web_sm")
 srl_predictor = Predictor.from_path("https://storage.googleapis.com/allennlp-public-models/structured-prediction-srl-bert.2020.12.15.tar.gz")
+heideltime_parser = Heideltime()
+heideltime_parser.set_language('ENGLISH')
+heideltime_parser.set_document_type('NARRATIVES')
 
 
 en_blueprint = Blueprint('english_api_routes', __name__, url_prefix='/api/en')
@@ -24,7 +28,9 @@ def get_structured_text():
     # Step 2: Basic Processing with SpaCy
     spacy_dict = unlp.run_spacy(clean_text, nlp)
     # Step 3: Run HeidelTime
-    # Step 4: Run AllenNLP SRL
+    nlp_dict['time_expressions'] = unlp.add_time_expressions(clean_text, heideltime_parser)
+    # Step 4: Run AllenNLP SRL TODO: the sentences shold be the NATURAL Strings not the Tokenized ones! For the offsets...
+    nlp_dict['semantic_roles'] = unlp.add_json_srl_layer(spacy_dict['sentences'], srl_predictor, spacy_dict['token_objs'])
     # Step N: Build General Dict
     nlp_dict['input_text'] = clean_text
     nlp_dict['token_objs'] = spacy_dict['token_objs']
