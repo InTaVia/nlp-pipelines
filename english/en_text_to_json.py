@@ -15,6 +15,7 @@ import utils_nlp as unlp
 def test_english_pipeline_json(query_tests: str = ["William the Silent"], json_path: str = "./english/data/json/"):
     nlp = spacy.load("en_core_web_sm")
     srl_predictor = Predictor.from_path("https://storage.googleapis.com/allennlp-public-models/structured-prediction-srl-bert.2020.12.15.tar.gz")
+    ner_predictor = Predictor.from_path("https://storage.googleapis.com/allennlp-public-models/ner-elmo.2021-02-12.tar.gz")
 
     heideltime_parser = Heideltime()
     heideltime_parser.set_language('ENGLISH')
@@ -42,6 +43,7 @@ def test_english_pipeline_json(query_tests: str = ["William the Silent"], json_p
             nlp_dict['input_text'] = clean_text
             nlp_dict['token_objs'] = spacy_dict['token_objs']
             nlp_dict['entities'] = spacy_dict['entities']
+            nlp_dict['entities'] += unlp.add_json_ner_allennlp(spacy_dict['sentences'], ner_predictor, spacy_dict['token_objs'])
             response = unlp.nlp_to_dict(nlp_dict)
             # Write to Disk
             if not os.path.exists(json_path): os.mkdir(json_path)

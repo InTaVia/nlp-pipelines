@@ -12,6 +12,7 @@ from nafparserpy.parser import NafParser
 from nafparserpy.layers.text import Wf
 from nafparserpy.layers.elements import Span
 from nafparserpy.layers.srl import Predicate, Role
+from nafparserpy.layers.time_expressions import TimeExpressions, Timex3
 
 from python_heideltime import Heideltime
 
@@ -22,7 +23,7 @@ import utils_nlp as unlp
 def main():
     query_tests = ["William the Silent", "Albercht Durer", "Vincent van Gogh", "Constantijn Huygens", "Baruch Spinoza", "Erasmus of Rotterdam",
                     "Christiaan Huygens", "Rembrandt van Rijn", "Antoni van Leeuwenhoek", "John von Neumann", "Johan de Witt"]
-    test_english_pipeline_naf(query_tests)
+    test_english_pipeline_naf()
 
 
 #### BEGIN English Pipeline
@@ -82,6 +83,32 @@ def add_naf_srl_layer(naf: NafParser, srl_predictor: Predictor) -> NafParser:
     return naf
 
 
+def add_naf_timexp_layer(naf: NafParser, heideltime_parser: Heideltime) -> NafParser:
+    naf_sentences = get_naf_sentences(naf)
+    token_ix = 0
+    init_spans2token, end_spans2token = {}, {}
+    for sent in naf_sentences:
+        for wf in sent:
+            init_spans2token[int(wf.offset)] = token_ix
+            end_spans2token[int(wf.offset) + int(wf.length)] = token_ix
+            token_ix += 1
+    timex_info = unlp.add_json_heideltime(naf.get('raw').text, heideltime_parser)
+    all_timex = []
+    for timex_obj in timex_info:
+        tokStart = init_spans2token.get(timex_obj['locationStart'])
+        tokEnd = end_spans2token.get(timex_obj['locationEnd'])
+        if tokStart and tokEnd:
+            all_timex.append(Timex3(
+                timex_obj['ID'].replace('t', 'x'),
+                timex_obj['category'],
+                Span.create([f"t{k+1}" for k in range(tokStart, tokEnd+1)])
+            ))
+    
+    naf.add_layer_from_elements("timeExpressions", all_timex)
+    return naf
+
+
+
 def naf_to_file(naf: NafParser, filepath: str, filename: str) -> NafParser:
     if not filename.endswith(".naf"): filename = filename + ".naf"
     naf.write(f"{filepath}/{filename}")
@@ -96,6 +123,11 @@ def test_english_pipeline_naf(query_tests: str = ["William the Silent"], naf_pat
 
     naf_converter = Converter("en_core_web_sm", add_terms=True, add_deps=True, add_entities=True, add_chunks=True)
     srl_predictor = Predictor.from_path("https://storage.googleapis.com/allennlp-public-models/structured-prediction-srl-bert.2020.12.15.tar.gz")
+    ner_predictor = Predictor.from_path("https://storage.googleapis.com/allennlp-public-models/ner-elmo.2021-02-12.tar.gz")
+
+    heideltime_parser = Heideltime()
+    heideltime_parser.set_language('ENGLISH')
+    heideltime_parser.set_document_type('NARRATIVES')
 
     wiki_matches = 0
 
@@ -117,6 +149,9 @@ def test_english_pipeline_naf(query_tests: str = ["William the Silent"], naf_pat
             
             # Add AllenNLP SRL Layer
             naf = add_naf_srl_layer(naf, srl_predictor)
+
+            # Add Heideltime Layer
+            timexps = add_naf_timexp_layer(naf, heideltime_parser)
 
             # Write to Disk
             if not os.path.exists(naf_path): os.mkdir(naf_path)

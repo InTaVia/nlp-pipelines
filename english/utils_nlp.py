@@ -12,6 +12,7 @@ Converter = TypeVar('Converter')
 NafParser = TypeVar('NafParser')
 SpacyLanguage = TypeVar('SpacyLanguage')
 SpacyDoc = TypeVar('SpacyDoc')
+InfoExtractor = TypeVar('InfoExtractor')
 
 @dataclass 
 class TokenJSON:
@@ -115,9 +116,11 @@ def nlp_token2json_token(nlp_token: Dict[str, Any]):
 def run_spacy(text: str, nlp: SpacyLanguage, nlp_processor: str = 'spacy') -> Dict:
     doc = nlp(text)
     spacy_info, spacy_tokens, spacy_sents = [], [], []
+    original_sents = []
     spacy_ents = []
     for sent_ix, sent in enumerate(doc.sents):
         spacy_sents.append(" ".join([t.text for t in sent]))
+        original_sents.append(sent)
         shifted_sentence = list(sent) + ['</END>']
         for tok_ix, (tok, next_tok) in enumerate(zip(sent, shifted_sentence[1:])):
             spacy_tokens.append(tok.text)
@@ -157,7 +160,7 @@ def run_spacy(text: str, nlp: SpacyLanguage, nlp_processor: str = 'spacy') -> Di
             spacy_ents.append({'ID': None, 'surfaceForm': ent.text, 'category': ent.label_.upper(), 'locationStart': doc[ent.start].idx, 'locationEnd': doc[ent.start].idx + len(ent.text), 
                                 'tokenStart': ent.start, 'tokenEnd': ent.end, 'method': nlp_processor})
 
-    return {'spacy_doc': doc,'sentences':spacy_sents, 'tokens': spacy_tokens, 'token_objs': spacy_info, 'entities': spacy_ents}
+    return {'spacy_doc': doc, 'sentences':spacy_sents, 'sentences_untokenized': original_sents,'tokens': spacy_tokens, 'token_objs': spacy_info, 'entities': spacy_ents}
 
 
 def allennlp_srl(text: str, srl_predictor: Predictor) -> SRL_Output:
