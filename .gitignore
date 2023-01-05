@@ -1,5 +1,5 @@
 # Repository-Specific
-english/data/*
+# english/data/*
 .venv_*/
 .DS_Store
 english/resources/

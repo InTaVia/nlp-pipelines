@@ -1,0 +1,816 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<NAF xml:lang="en" version="3.3.1">
+  <nafHeader>
+    <fileDesc filename="constantijn_huygens.naf.naf"/>
+    <linguisticProcessors layer="raw">
+      <lp name="spacy_to_naf" version="0.2.0" timestamp="2023-01-04T14:12:25+00:00"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="text">
+      <lp name="spacy_to_naf" version="0.2.0" timestamp="2023-01-04T14:12:25+00:00">
+        <lpDependency name="spaCy-model_en_core_web_sm" version="spaCy_version-3.2.1__model_version-3.2.0"/>
+      </lp>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="spacy_to_naf" version="0.2.0" timestamp="2023-01-04T14:12:25+00:00">
+        <lpDependency name="spaCy-model_en_core_web_sm" version="spaCy_version-3.2.1__model_version-3.2.0"/>
+      </lp>
+    </linguisticProcessors>
+    <linguisticProcessors layer="deps">
+      <lp name="spacy_to_naf" version="0.2.0" timestamp="2023-01-04T14:12:25+00:00">
+        <lpDependency name="spaCy-model_en_core_web_sm" version="spaCy_version-3.2.1__model_version-3.2.0"/>
+      </lp>
+    </linguisticProcessors>
+    <linguisticProcessors layer="entities">
+      <lp name="spacy_to_naf" version="0.2.0" timestamp="2023-01-04T14:12:25+00:00">
+        <lpDependency name="spaCy-model_en_core_web_sm" version="spaCy_version-3.2.1__model_version-3.2.0"/>
+      </lp>
+    </linguisticProcessors>
+    <linguisticProcessors layer="chunks">
+      <lp name="spacy_to_naf" version="0.2.0" timestamp="2023-01-04T14:12:25+00:00">
+        <lpDependency name="spaCy-model_en_core_web_sm" version="spaCy_version-3.2.1__model_version-3.2.0"/>
+      </lp>
+    </linguisticProcessors>
+    <linguisticProcessors layer="srl">
+      <lp name="AllenNLP" version="2.9.0" timestamp="2023-01-04T14:12:25+00:00">
+        <lpDependency name="structured-prediction-srl-bert" version="2020.12.15.tar.gz"/>
+      </lp>
+    </linguisticProcessors>
+  </nafHeader>
+  <raw><![CDATA[Sir Constantijn Huygens, Lord of Zuilichem ( HY-gənz, US also HOY-gənz, Dutch: [ˈkɔnstɑntɛin ˈɦœyɣə(n)s]; 4 September 1596 – 28 March 1687), was a Dutch Golden Age poet and composer. He was also secretary to two Princes of Orange: Frederick Henry and William II, and the father of the scientist Christiaan Huygens.]]></raw>
+  <text>
+    <wf id="w1" offset="0" length="3" sent="1"><![CDATA[Sir]]></wf>
+    <wf id="w2" offset="4" length="11" sent="1"><![CDATA[Constantijn]]></wf>
+    <wf id="w3" offset="16" length="7" sent="1"><![CDATA[Huygens]]></wf>
+    <wf id="w4" offset="23" length="1" sent="1"><![CDATA[,]]></wf>
+    <wf id="w5" offset="25" length="4" sent="1"><![CDATA[Lord]]></wf>
+    <wf id="w6" offset="30" length="2" sent="1"><![CDATA[of]]></wf>
+    <wf id="w7" offset="33" length="9" sent="1"><![CDATA[Zuilichem]]></wf>
+    <wf id="w8" offset="43" length="1" sent="1"><![CDATA[(]]></wf>
+    <wf id="w9" offset="45" length="2" sent="1"><![CDATA[HY]]></wf>
+    <wf id="w10" offset="47" length="1" sent="1"><![CDATA[-]]></wf>
+    <wf id="w11" offset="48" length="4" sent="1"><![CDATA[gənz]]></wf>
+    <wf id="w12" offset="52" length="1" sent="1"><![CDATA[,]]></wf>
+    <wf id="w13" offset="54" length="2" sent="1"><![CDATA[US]]></wf>
+    <wf id="w14" offset="57" length="4" sent="1"><![CDATA[also]]></wf>
+    <wf id="w15" offset="62" length="3" sent="1"><![CDATA[HOY]]></wf>
+    <wf id="w16" offset="65" length="1" sent="1"><![CDATA[-]]></wf>
+    <wf id="w17" offset="66" length="4" sent="1"><![CDATA[gənz]]></wf>
+    <wf id="w18" offset="70" length="1" sent="1"><![CDATA[,]]></wf>
+    <wf id="w19" offset="72" length="5" sent="1"><![CDATA[Dutch]]></wf>
+    <wf id="w20" offset="77" length="1" sent="1"><![CDATA[:]]></wf>
+    <wf id="w21" offset="79" length="1" sent="1"><![CDATA[[]]></wf>
+    <wf id="w22" offset="80" length="12" sent="1"><![CDATA[ˈkɔnstɑntɛin]]></wf>
+    <wf id="w23" offset="93" length="10" sent="1"><![CDATA[ˈɦœyɣə(n)s]]></wf>
+    <wf id="w24" offset="103" length="1" sent="1"><![CDATA[]]]></wf>
+    <wf id="w25" offset="104" length="1" sent="1"><![CDATA[;]]></wf>
+    <wf id="w26" offset="106" length="1" sent="1"><![CDATA[4]]></wf>
+    <wf id="w27" offset="108" length="9" sent="1"><![CDATA[September]]></wf>
+    <wf id="w28" offset="118" length="4" sent="1"><![CDATA[1596]]></wf>
+    <wf id="w29" offset="123" length="1" sent="1"><![CDATA[–]]></wf>
+    <wf id="w30" offset="125" length="2" sent="1"><![CDATA[28]]></wf>
+    <wf id="w31" offset="128" length="5" sent="1"><![CDATA[March]]></wf>
+    <wf id="w32" offset="134" length="4" sent="1"><![CDATA[1687]]></wf>
+    <wf id="w33" offset="138" length="1" sent="1"><![CDATA[)]]></wf>
+    <wf id="w34" offset="139" length="1" sent="1"><![CDATA[,]]></wf>
+    <wf id="w35" offset="141" length="3" sent="1"><![CDATA[was]]></wf>
+    <wf id="w36" offset="145" length="1" sent="1"><![CDATA[a]]></wf>
+    <wf id="w37" offset="147" length="5" sent="1"><![CDATA[Dutch]]></wf>
+    <wf id="w38" offset="153" length="6" sent="1"><![CDATA[Golden]]></wf>
+    <wf id="w39" offset="160" length="3" sent="1"><![CDATA[Age]]></wf>
+    <wf id="w40" offset="164" length="4" sent="1"><![CDATA[poet]]></wf>
+    <wf id="w41" offset="169" length="3" sent="1"><![CDATA[and]]></wf>
+    <wf id="w42" offset="173" length="8" sent="1"><![CDATA[composer]]></wf>
+    <wf id="w43" offset="181" length="1" sent="1"><![CDATA[.]]></wf>
+    <wf id="w44" offset="183" length="2" sent="2"><![CDATA[He]]></wf>
+    <wf id="w45" offset="186" length="3" sent="2"><![CDATA[was]]></wf>
+    <wf id="w46" offset="190" length="4" sent="2"><![CDATA[also]]></wf>
+    <wf id="w47" offset="195" length="9" sent="2"><![CDATA[secretary]]></wf>
+    <wf id="w48" offset="205" length="2" sent="2"><![CDATA[to]]></wf>
+    <wf id="w49" offset="208" length="3" sent="2"><![CDATA[two]]></wf>
+    <wf id="w50" offset="212" length="7" sent="2"><![CDATA[Princes]]></wf>
+    <wf id="w51" offset="220" length="2" sent="2"><![CDATA[of]]></wf>
+    <wf id="w52" offset="223" length="6" sent="2"><![CDATA[Orange]]></wf>
+    <wf id="w53" offset="229" length="1" sent="2"><![CDATA[:]]></wf>
+    <wf id="w54" offset="231" length="9" sent="2"><![CDATA[Frederick]]></wf>
+    <wf id="w55" offset="241" length="5" sent="2"><![CDATA[Henry]]></wf>
+    <wf id="w56" offset="247" length="3" sent="2"><![CDATA[and]]></wf>
+    <wf id="w57" offset="251" length="7" sent="2"><![CDATA[William]]></wf>
+    <wf id="w58" offset="259" length="2" sent="2"><![CDATA[II]]></wf>
+    <wf id="w59" offset="261" length="1" sent="2"><![CDATA[,]]></wf>
+    <wf id="w60" offset="263" length="3" sent="2"><![CDATA[and]]></wf>
+    <wf id="w61" offset="267" length="3" sent="2"><![CDATA[the]]></wf>
+    <wf id="w62" offset="271" length="6" sent="2"><![CDATA[father]]></wf>
+    <wf id="w63" offset="278" length="2" sent="2"><![CDATA[of]]></wf>
+    <wf id="w64" offset="281" length="3" sent="2"><![CDATA[the]]></wf>
+    <wf id="w65" offset="285" length="9" sent="2"><![CDATA[scientist]]></wf>
+    <wf id="w66" offset="295" length="10" sent="2"><![CDATA[Christiaan]]></wf>
+    <wf id="w67" offset="306" length="7" sent="2"><![CDATA[Huygens]]></wf>
+    <wf id="w68" offset="313" length="1" sent="2"><![CDATA[.]]></wf>
+  </text>
+  <terms>
+    <term id="t1" type="open" lemma="Sir" pos="PROPN" morphofeat="NNP">
+      <span>
+        <target id="w1"/>
+      </span>
+    </term>
+    <term id="t2" type="open" lemma="Constantijn" pos="PROPN" morphofeat="NNP">
+      <span>
+        <target id="w2"/>
+      </span>
+    </term>
+    <term id="t3" type="open" lemma="Huygens" pos="PROPN" morphofeat="NNP">
+      <span>
+        <target id="w3"/>
+      </span>
+    </term>
+    <term id="t4" type="open" lemma="," pos="PUNCT" morphofeat=",">
+      <span>
+        <target id="w4"/>
+      </span>
+    </term>
+    <term id="t5" type="open" lemma="Lord" pos="PROPN" morphofeat="NNP">
+      <span>
+        <target id="w5"/>
+      </span>
+    </term>
+    <term id="t6" type="open" lemma="of" pos="ADP" morphofeat="IN">
+      <span>
+        <target id="w6"/>
+      </span>
+    </term>
+    <term id="t7" type="open" lemma="Zuilichem" pos="PROPN" morphofeat="NNP">
+      <span>
+        <target id="w7"/>
+      </span>
+    </term>
+    <term id="t8" type="open" lemma="(" pos="PUNCT" morphofeat="-LRB-">
+      <span>
+        <target id="w8"/>
+      </span>
+    </term>
+    <term id="t9" type="open" lemma="HY" pos="PROPN" morphofeat="NNP">
+      <span>
+        <target id="w9"/>
+      </span>
+    </term>
+    <term id="t10" type="open" lemma="-" pos="PUNCT" morphofeat="HYPH">
+      <span>
+        <target id="w10"/>
+      </span>
+    </term>
+    <term id="t11" type="open" lemma="gənz" pos="NOUN" morphofeat="NN">
+      <span>
+        <target id="w11"/>
+      </span>
+    </term>
+    <term id="t12" type="open" lemma="," pos="PUNCT" morphofeat=",">
+      <span>
+        <target id="w12"/>
+      </span>
+    </term>
+    <term id="t13" type="open" lemma="US" pos="PROPN" morphofeat="NNP">
+      <span>
+        <target id="w13"/>
+      </span>
+    </term>
+    <term id="t14" type="open" lemma="also" pos="ADV" morphofeat="RB">
+      <span>
+        <target id="w14"/>
+      </span>
+    </term>
+    <term id="t15" type="open" lemma="HOY" pos="PROPN" morphofeat="NNP">
+      <span>
+        <target id="w15"/>
+      </span>
+    </term>
+    <term id="t16" type="open" lemma="-" pos="PUNCT" morphofeat="HYPH">
+      <span>
+        <target id="w16"/>
+      </span>
+    </term>
+    <term id="t17" type="open" lemma="gənz" pos="NOUN" morphofeat="NN">
+      <span>
+        <target id="w17"/>
+      </span>
+    </term>
+    <term id="t18" type="open" lemma="," pos="PUNCT" morphofeat=",">
+      <span>
+        <target id="w18"/>
+      </span>
+    </term>
+    <term id="t19" type="open" lemma="Dutch" pos="PROPN" morphofeat="NNP">
+      <span>
+        <target id="w19"/>
+      </span>
+    </term>
+    <term id="t20" type="open" lemma=":" pos="PUNCT" morphofeat=":">
+      <span>
+        <target id="w20"/>
+      </span>
+    </term>
+    <term id="t21" type="open" lemma="[" pos="X" morphofeat="XX">
+      <span>
+        <target id="w21"/>
+      </span>
+    </term>
+    <term id="t22" type="open" lemma="ˈkɔnstɑntɛin" pos="NOUN" morphofeat="NN">
+      <span>
+        <target id="w22"/>
+      </span>
+    </term>
+    <term id="t23" type="open" lemma="ˈɦœyɣə(n)s" pos="NUM" morphofeat="CD">
+      <span>
+        <target id="w23"/>
+      </span>
+    </term>
+    <term id="t24" type="open" lemma="]" pos="PUNCT" morphofeat="-RRB-">
+      <span>
+        <target id="w24"/>
+      </span>
+    </term>
+    <term id="t25" type="open" lemma=";" pos="PUNCT" morphofeat=":">
+      <span>
+        <target id="w25"/>
+      </span>
+    </term>
+    <term id="t26" type="open" lemma="4" pos="NUM" morphofeat="CD">
+      <span>
+        <target id="w26"/>
+      </span>
+    </term>
+    <term id="t27" type="open" lemma="September" pos="PROPN" morphofeat="NNP">
+      <span>
+        <target id="w27"/>
+      </span>
+    </term>
+    <term id="t28" type="open" lemma="1596" pos="NUM" morphofeat="CD">
+      <span>
+        <target id="w28"/>
+      </span>
+    </term>
+    <term id="t29" type="open" lemma="–" pos="PUNCT" morphofeat=":">
+      <span>
+        <target id="w29"/>
+      </span>
+    </term>
+    <term id="t30" type="open" lemma="28" pos="NUM" morphofeat="CD">
+      <span>
+        <target id="w30"/>
+      </span>
+    </term>
+    <term id="t31" type="open" lemma="March" pos="PROPN" morphofeat="NNP">
+      <span>
+        <target id="w31"/>
+      </span>
+    </term>
+    <term id="t32" type="open" lemma="1687" pos="NUM" morphofeat="CD">
+      <span>
+        <target id="w32"/>
+      </span>
+    </term>
+    <term id="t33" type="open" lemma=")" pos="PUNCT" morphofeat="-RRB-">
+      <span>
+        <target id="w33"/>
+      </span>
+    </term>
+    <term id="t34" type="open" lemma="," pos="PUNCT" morphofeat=",">
+      <span>
+        <target id="w34"/>
+      </span>
+    </term>
+    <term id="t35" type="open" lemma="be" pos="AUX" morphofeat="VBD">
+      <span>
+        <target id="w35"/>
+      </span>
+    </term>
+    <term id="t36" type="open" lemma="a" pos="DET" morphofeat="DT">
+      <span>
+        <target id="w36"/>
+      </span>
+    </term>
+    <term id="t37" type="open" lemma="Dutch" pos="PROPN" morphofeat="NNP">
+      <span>
+        <target id="w37"/>
+      </span>
+    </term>
+    <term id="t38" type="open" lemma="Golden" pos="PROPN" morphofeat="NNP">
+      <span>
+        <target id="w38"/>
+      </span>
+    </term>
+    <term id="t39" type="open" lemma="Age" pos="PROPN" morphofeat="NNP">
+      <span>
+        <target id="w39"/>
+      </span>
+    </term>
+    <term id="t40" type="open" lemma="poet" pos="NOUN" morphofeat="NN">
+      <span>
+        <target id="w40"/>
+      </span>
+    </term>
+    <term id="t41" type="open" lemma="and" pos="CCONJ" morphofeat="CC">
+      <span>
+        <target id="w41"/>
+      </span>
+    </term>
+    <term id="t42" type="open" lemma="composer" pos="NOUN" morphofeat="NN">
+      <span>
+        <target id="w42"/>
+      </span>
+    </term>
+    <term id="t43" type="open" lemma="." pos="PUNCT" morphofeat=".">
+      <span>
+        <target id="w43"/>
+      </span>
+    </term>
+    <term id="t44" type="open" lemma="he" pos="PRON" morphofeat="PRP">
+      <span>
+        <target id="w44"/>
+      </span>
+    </term>
+    <term id="t45" type="open" lemma="be" pos="AUX" morphofeat="VBD">
+      <span>
+        <target id="w45"/>
+      </span>
+    </term>
+    <term id="t46" type="open" lemma="also" pos="ADV" morphofeat="RB">
+      <span>
+        <target id="w46"/>
+      </span>
+    </term>
+    <term id="t47" type="open" lemma="secretary" pos="NOUN" morphofeat="NN">
+      <span>
+        <target id="w47"/>
+      </span>
+    </term>
+    <term id="t48" type="open" lemma="to" pos="ADP" morphofeat="IN">
+      <span>
+        <target id="w48"/>
+      </span>
+    </term>
+    <term id="t49" type="open" lemma="two" pos="NUM" morphofeat="CD">
+      <span>
+        <target id="w49"/>
+      </span>
+    </term>
+    <term id="t50" type="open" lemma="prince" pos="NOUN" morphofeat="NNS">
+      <span>
+        <target id="w50"/>
+      </span>
+    </term>
+    <term id="t51" type="open" lemma="of" pos="ADP" morphofeat="IN">
+      <span>
+        <target id="w51"/>
+      </span>
+    </term>
+    <term id="t52" type="open" lemma="Orange" pos="PROPN" morphofeat="NNP">
+      <span>
+        <target id="w52"/>
+      </span>
+    </term>
+    <term id="t53" type="open" lemma=":" pos="PUNCT" morphofeat=":">
+      <span>
+        <target id="w53"/>
+      </span>
+    </term>
+    <term id="t54" type="open" lemma="Frederick" pos="PROPN" morphofeat="NNP">
+      <span>
+        <target id="w54"/>
+      </span>
+    </term>
+    <term id="t55" type="open" lemma="Henry" pos="PROPN" morphofeat="NNP">
+      <span>
+        <target id="w55"/>
+      </span>
+    </term>
+    <term id="t56" type="open" lemma="and" pos="CCONJ" morphofeat="CC">
+      <span>
+        <target id="w56"/>
+      </span>
+    </term>
+    <term id="t57" type="open" lemma="William" pos="PROPN" morphofeat="NNP">
+      <span>
+        <target id="w57"/>
+      </span>
+    </term>
+    <term id="t58" type="open" lemma="II" pos="PROPN" morphofeat="NNP">
+      <span>
+        <target id="w58"/>
+      </span>
+    </term>
+    <term id="t59" type="open" lemma="," pos="PUNCT" morphofeat=",">
+      <span>
+        <target id="w59"/>
+      </span>
+    </term>
+    <term id="t60" type="open" lemma="and" pos="CCONJ" morphofeat="CC">
+      <span>
+        <target id="w60"/>
+      </span>
+    </term>
+    <term id="t61" type="open" lemma="the" pos="DET" morphofeat="DT">
+      <span>
+        <target id="w61"/>
+      </span>
+    </term>
+    <term id="t62" type="open" lemma="father" pos="NOUN" morphofeat="NN">
+      <span>
+        <target id="w62"/>
+      </span>
+    </term>
+    <term id="t63" type="open" lemma="of" pos="ADP" morphofeat="IN">
+      <span>
+        <target id="w63"/>
+      </span>
+    </term>
+    <term id="t64" type="open" lemma="the" pos="DET" morphofeat="DT">
+      <span>
+        <target id="w64"/>
+      </span>
+    </term>
+    <term id="t65" type="open" lemma="scientist" pos="NOUN" morphofeat="NN">
+      <span>
+        <target id="w65"/>
+      </span>
+    </term>
+    <term id="t66" type="open" lemma="Christiaan" pos="PROPN" morphofeat="NNP">
+      <span>
+        <target id="w66"/>
+      </span>
+    </term>
+    <term id="t67" type="open" lemma="Huygens" pos="PROPN" morphofeat="NNPS">
+      <span>
+        <target id="w67"/>
+      </span>
+    </term>
+    <term id="t68" type="open" lemma="." pos="PUNCT" morphofeat=".">
+      <span>
+        <target id="w68"/>
+      </span>
+    </term>
+  </terms>
+  <deps>
+    <dep from="t3" to="t1" rfunc="compound"/>
+    <dep from="t3" to="t2" rfunc="compound"/>
+    <dep from="t35" to="t3" rfunc="nsubj"/>
+    <dep from="t3" to="t4" rfunc="punct"/>
+    <dep from="t3" to="t5" rfunc="appos"/>
+    <dep from="t5" to="t6" rfunc="prep"/>
+    <dep from="t6" to="t7" rfunc="pobj"/>
+    <dep from="t11" to="t8" rfunc="punct"/>
+    <dep from="t11" to="t9" rfunc="compound"/>
+    <dep from="t11" to="t10" rfunc="punct"/>
+    <dep from="t3" to="t11" rfunc="appos"/>
+    <dep from="t3" to="t12" rfunc="punct"/>
+    <dep from="t17" to="t13" rfunc="nsubj"/>
+    <dep from="t17" to="t14" rfunc="advmod"/>
+    <dep from="t17" to="t15" rfunc="compound"/>
+    <dep from="t17" to="t16" rfunc="punct"/>
+    <dep from="t3" to="t17" rfunc="appos"/>
+    <dep from="t17" to="t18" rfunc="punct"/>
+    <dep from="t17" to="t19" rfunc="conj"/>
+    <dep from="t3" to="t20" rfunc="punct"/>
+    <dep from="t3" to="t21" rfunc="punct"/>
+    <dep from="t3" to="t22" rfunc="appos"/>
+    <dep from="t22" to="t23" rfunc="npadvmod"/>
+    <dep from="t3" to="t24" rfunc="punct"/>
+    <dep from="t3" to="t25" rfunc="punct"/>
+    <dep from="t27" to="t26" rfunc="nummod"/>
+    <dep from="t3" to="t27" rfunc="appos"/>
+    <dep from="t27" to="t28" rfunc="nummod"/>
+    <dep from="t27" to="t29" rfunc="punct"/>
+    <dep from="t31" to="t30" rfunc="nummod"/>
+    <dep from="t27" to="t31" rfunc="appos"/>
+    <dep from="t31" to="t32" rfunc="nummod"/>
+    <dep from="t31" to="t33" rfunc="punct"/>
+    <dep from="t3" to="t34" rfunc="punct"/>
+    <dep from="t40" to="t36" rfunc="det"/>
+    <dep from="t40" to="t37" rfunc="compound"/>
+    <dep from="t39" to="t38" rfunc="compound"/>
+    <dep from="t40" to="t39" rfunc="compound"/>
+    <dep from="t35" to="t40" rfunc="attr"/>
+    <dep from="t40" to="t41" rfunc="cc"/>
+    <dep from="t40" to="t42" rfunc="conj"/>
+    <dep from="t35" to="t43" rfunc="punct"/>
+    <dep from="t45" to="t44" rfunc="nsubj"/>
+    <dep from="t45" to="t46" rfunc="advmod"/>
+    <dep from="t45" to="t47" rfunc="attr"/>
+    <dep from="t47" to="t48" rfunc="prep"/>
+    <dep from="t50" to="t49" rfunc="nummod"/>
+    <dep from="t48" to="t50" rfunc="pobj"/>
+    <dep from="t50" to="t51" rfunc="prep"/>
+    <dep from="t51" to="t52" rfunc="pobj"/>
+    <dep from="t45" to="t53" rfunc="punct"/>
+    <dep from="t55" to="t54" rfunc="compound"/>
+    <dep from="t44" to="t55" rfunc="appos"/>
+    <dep from="t55" to="t56" rfunc="cc"/>
+    <dep from="t58" to="t57" rfunc="compound"/>
+    <dep from="t55" to="t58" rfunc="conj"/>
+    <dep from="t55" to="t59" rfunc="punct"/>
+    <dep from="t55" to="t60" rfunc="cc"/>
+    <dep from="t62" to="t61" rfunc="det"/>
+    <dep from="t55" to="t62" rfunc="conj"/>
+    <dep from="t62" to="t63" rfunc="prep"/>
+    <dep from="t65" to="t64" rfunc="det"/>
+    <dep from="t67" to="t65" rfunc="compound"/>
+    <dep from="t67" to="t66" rfunc="compound"/>
+    <dep from="t63" to="t67" rfunc="pobj"/>
+    <dep from="t45" to="t68" rfunc="punct"/>
+  </deps>
+  <entities>
+    <entity id="e1" type="PERSON">
+      <span>
+        <target id="t2"/>
+        <target id="t3"/>
+      </span>
+    </entity>
+    <entity id="e2" type="PERSON">
+      <span>
+        <target id="t7"/>
+      </span>
+    </entity>
+    <entity id="e3" type="GPE">
+      <span>
+        <target id="t13"/>
+      </span>
+    </entity>
+    <entity id="e4" type="NORP">
+      <span>
+        <target id="t19"/>
+      </span>
+    </entity>
+    <entity id="e5" type="DATE">
+      <span>
+        <target id="t27"/>
+        <target id="t28"/>
+      </span>
+    </entity>
+    <entity id="e6" type="DATE">
+      <span>
+        <target id="t31"/>
+        <target id="t32"/>
+      </span>
+    </entity>
+    <entity id="e7" type="NORP">
+      <span>
+        <target id="t37"/>
+      </span>
+    </entity>
+    <entity id="e8" type="CARDINAL">
+      <span>
+        <target id="t49"/>
+      </span>
+    </entity>
+    <entity id="e9" type="ORG">
+      <span>
+        <target id="t50"/>
+        <target id="t51"/>
+        <target id="t52"/>
+      </span>
+    </entity>
+    <entity id="e10" type="PERSON">
+      <span>
+        <target id="t54"/>
+        <target id="t55"/>
+      </span>
+    </entity>
+    <entity id="e11" type="PERSON">
+      <span>
+        <target id="t57"/>
+        <target id="t58"/>
+      </span>
+    </entity>
+    <entity id="e12" type="PERSON">
+      <span>
+        <target id="t66"/>
+        <target id="t67"/>
+      </span>
+    </entity>
+  </entities>
+  <chunks>
+    <chunk id="ch1" head="t3" phrase="NP">
+      <span>
+        <target id="t1"/>
+        <target id="t2"/>
+        <target id="t3"/>
+      </span>
+    </chunk>
+    <chunk id="ch2" head="t5" phrase="NP">
+      <span>
+        <target id="t5"/>
+      </span>
+    </chunk>
+    <chunk id="ch3" head="t7" phrase="NP">
+      <span>
+        <target id="t7"/>
+      </span>
+    </chunk>
+    <chunk id="ch4" head="t11" phrase="NP">
+      <span>
+        <target id="t8"/>
+        <target id="t9"/>
+        <target id="t10"/>
+        <target id="t11"/>
+      </span>
+    </chunk>
+    <chunk id="ch5" head="t13" phrase="NP">
+      <span>
+        <target id="t13"/>
+      </span>
+    </chunk>
+    <chunk id="ch6" head="t19" phrase="NP">
+      <span>
+        <target id="t19"/>
+      </span>
+    </chunk>
+    <chunk id="ch7" head="t22" phrase="NP">
+      <span>
+        <target id="t22"/>
+      </span>
+    </chunk>
+    <chunk id="ch8" head="t27" phrase="NP">
+      <span>
+        <target id="t26"/>
+        <target id="t27"/>
+      </span>
+    </chunk>
+    <chunk id="ch9" head="t31" phrase="NP">
+      <span>
+        <target id="t30"/>
+        <target id="t31"/>
+      </span>
+    </chunk>
+    <chunk id="ch10" head="t40" phrase="NP">
+      <span>
+        <target id="t36"/>
+        <target id="t37"/>
+        <target id="t38"/>
+        <target id="t39"/>
+        <target id="t40"/>
+      </span>
+    </chunk>
+    <chunk id="ch11" head="t42" phrase="NP">
+      <span>
+        <target id="t42"/>
+      </span>
+    </chunk>
+    <chunk id="ch12" head="t44" phrase="NP">
+      <span>
+        <target id="t44"/>
+      </span>
+    </chunk>
+    <chunk id="ch13" head="t47" phrase="NP">
+      <span>
+        <target id="t47"/>
+      </span>
+    </chunk>
+    <chunk id="ch14" head="t50" phrase="NP">
+      <span>
+        <target id="t49"/>
+        <target id="t50"/>
+      </span>
+    </chunk>
+    <chunk id="ch15" head="t52" phrase="NP">
+      <span>
+        <target id="t52"/>
+      </span>
+    </chunk>
+    <chunk id="ch16" head="t55" phrase="NP">
+      <span>
+        <target id="t54"/>
+        <target id="t55"/>
+      </span>
+    </chunk>
+    <chunk id="ch17" head="t58" phrase="NP">
+      <span>
+        <target id="t57"/>
+        <target id="t58"/>
+      </span>
+    </chunk>
+    <chunk id="ch18" head="t62" phrase="NP">
+      <span>
+        <target id="t61"/>
+        <target id="t62"/>
+      </span>
+    </chunk>
+    <chunk id="ch19" head="t67" phrase="NP">
+      <span>
+        <target id="t64"/>
+        <target id="t65"/>
+        <target id="t66"/>
+        <target id="t67"/>
+      </span>
+    </chunk>
+  </chunks>
+  <srl>
+    <predicate id="was">
+      <span>
+        <target id="t35"/>
+      </span>
+      <role id="ARG1">
+        <span>
+          <target id="t1"/>
+          <target id="t2"/>
+          <target id="t3"/>
+          <target id="t4"/>
+          <target id="t5"/>
+          <target id="t6"/>
+          <target id="t7"/>
+          <target id="t8"/>
+          <target id="t9"/>
+          <target id="t10"/>
+          <target id="t11"/>
+          <target id="t12"/>
+          <target id="t13"/>
+          <target id="t14"/>
+          <target id="t15"/>
+          <target id="t16"/>
+          <target id="t17"/>
+          <target id="t18"/>
+          <target id="t19"/>
+          <target id="t20"/>
+          <target id="t21"/>
+          <target id="t22"/>
+          <target id="t23"/>
+          <target id="t24"/>
+          <target id="t25"/>
+          <target id="t26"/>
+          <target id="t27"/>
+          <target id="t28"/>
+          <target id="t29"/>
+          <target id="t30"/>
+          <target id="t31"/>
+          <target id="t32"/>
+          <target id="t33"/>
+        </span>
+      </role>
+      <role id="ARG2">
+        <span>
+          <target id="t36"/>
+          <target id="t37"/>
+          <target id="t38"/>
+          <target id="t39"/>
+          <target id="t40"/>
+          <target id="t41"/>
+          <target id="t42"/>
+        </span>
+      </role>
+    </predicate>
+    <predicate id="was">
+      <span>
+        <target id="t45"/>
+      </span>
+      <role id="ARG1">
+        <span>
+          <target id="t44"/>
+        </span>
+      </role>
+      <role id="ARGM-ADV">
+        <span>
+          <target id="t46"/>
+        </span>
+      </role>
+      <role id="ARG2">
+        <span>
+          <target id="t47"/>
+          <target id="t48"/>
+          <target id="t49"/>
+          <target id="t50"/>
+          <target id="t51"/>
+          <target id="t52"/>
+          <target id="t53"/>
+          <target id="t54"/>
+          <target id="t55"/>
+          <target id="t56"/>
+          <target id="t57"/>
+          <target id="t58"/>
+          <target id="t59"/>
+          <target id="t60"/>
+          <target id="t61"/>
+          <target id="t62"/>
+          <target id="t63"/>
+          <target id="t64"/>
+          <target id="t65"/>
+          <target id="t66"/>
+          <target id="t67"/>
+        </span>
+      </role>
+    </predicate>
+  </srl>
+  <timeExpressions>
+    <timex3 id="x3" type="DATE">
+      <span>
+        <target id="t26"/>
+        <target id="t27"/>
+        <target id="t28"/>
+      </span>
+    </timex3>
+    <timex3 id="x8" type="DATE">
+      <span>
+        <target id="t30"/>
+        <target id="t31"/>
+        <target id="t32"/>
+      </span>
+    </timex3>
+  </timeExpressions>
+</NAF>

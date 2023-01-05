@@ -1,0 +1,5592 @@
+{
+  "status": "200",
+  "data": {
+    "text": "William the Silent (24 April 1533 \u2013 10 July 1584), also known as William the Taciturn (translated from Dutch: Willem de Zwijger), or, more commonly in the Netherlands, William of Orange (Dutch: Willem van Oranje), was the main leader of the Dutch Revolt against the Spanish Habsburgs that set off the Eighty Years' War (1568\u20131648) and resulted in the formal independence of the United Provinces in 1648. Born into the House of Nassau, he became Prince of Orange in 1544 and is thereby the founder of the Orange-Nassau branch and the ancestor of the monarchy of the Netherlands. In the Netherlands, he is also known as Father of the Fatherland (Pater Patriae) (Dutch: Vader des Vaderlands). A wealthy nobleman, William originally served the Habsburgs as a member of the court of Margaret of Parma, governor of the Spanish Netherlands. Unhappy with the centralisation of political power away from the local estates and with the Spanish persecution of Dutch Protestants, William joined the Dutch uprising and turned against his former masters. The most influential and politically capable of the rebels, he led the Dutch to several successes in the fight against the Spanish. Declared an outlaw by the Spanish king in 1580, he was assassinated by Balthasar G\u00e9rard in Delft in 1584.",
+    "morphology": [
+      {
+        "paragraph": null,
+        "sentence": 0,
+        "text": "William the Silent ( 24 April 1533 \u2013 10 July 1584 ) , also known as William the Taciturn ( translated from Dutch : Willem de Zwijger ) , or , more commonly in the Netherlands , William of Orange ( Dutch : Willem van Oranje ) , was the main leader of the Dutch Revolt against the Spanish Habsburgs that set off the Eighty Years ' War ( 1568\u20131648 ) and resulted in the formal independence of the United Provinces in 1648 .",
+        "words": [
+          {
+            "ID": 0,
+            "FORM": "William",
+            "LEMMA": "William",
+            "UPOS": "PROPN",
+            "XPOS": "NNP",
+            "HEAD": 48,
+            "DEPREL": "nsubj",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 0,
+              "EndChar": 7
+            },
+            "FEATS": {
+              "Number": "Sing"
+            }
+          },
+          {
+            "ID": 1,
+            "FORM": "the",
+            "LEMMA": "the",
+            "UPOS": "DET",
+            "XPOS": "DT",
+            "HEAD": 2,
+            "DEPREL": "det",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 8,
+              "EndChar": 11
+            },
+            "FEATS": {
+              "Definite": "Def",
+              "PronType": "Art"
+            }
+          },
+          {
+            "ID": 2,
+            "FORM": "Silent",
+            "LEMMA": "Silent",
+            "UPOS": "PROPN",
+            "XPOS": "NNP",
+            "HEAD": 0,
+            "DEPREL": "appos",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 12,
+              "EndChar": 18
+            },
+            "FEATS": {
+              "Number": "Sing"
+            }
+          },
+          {
+            "ID": 3,
+            "FORM": "(",
+            "LEMMA": "(",
+            "UPOS": "PUNCT",
+            "XPOS": "-LRB-",
+            "HEAD": 5,
+            "DEPREL": "punct",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": false,
+              "StartChar": 19,
+              "EndChar": 20
+            },
+            "FEATS": {
+              "PunctSide": "Ini",
+              "PunctType": "Brck"
+            }
+          },
+          {
+            "ID": 4,
+            "FORM": "24",
+            "LEMMA": "24",
+            "UPOS": "NUM",
+            "XPOS": "CD",
+            "HEAD": 5,
+            "DEPREL": "nummod",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 20,
+              "EndChar": 22
+            },
+            "FEATS": {
+              "NumType": "Card"
+            }
+          },
+          {
+            "ID": 5,
+            "FORM": "April",
+            "LEMMA": "April",
+            "UPOS": "PROPN",
+            "XPOS": "NNP",
+            "HEAD": 0,
+            "DEPREL": "parataxis",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 23,
+              "EndChar": 28
+            },
+            "FEATS": {
+              "Number": "Sing"
+            }
+          },
+          {
+            "ID": 6,
+            "FORM": "1533",
+            "LEMMA": "1533",
+            "UPOS": "NUM",
+            "XPOS": "CD",
+            "HEAD": 5,
+            "DEPREL": "nummod",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 29,
+              "EndChar": 33
+            },
+            "FEATS": {
+              "NumType": "Card"
+            }
+          },
+          {
+            "ID": 7,
+            "FORM": "\u2013",
+            "LEMMA": "\u2013",
+            "UPOS": "PUNCT",
+            "XPOS": "``",
+            "HEAD": 0,
+            "DEPREL": "punct",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 34,
+              "EndChar": 35
+            },
+            "FEATS": {
+              "PunctSide": "Ini",
+              "PunctType": "Quot"
+            }
+          },
+          {
+            "ID": 8,
+            "FORM": "10",
+            "LEMMA": "10",
+            "UPOS": "NUM",
+            "XPOS": "CD",
+            "HEAD": 9,
+            "DEPREL": "nummod",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 36,
+              "EndChar": 38
+            },
+            "FEATS": {
+              "NumType": "Card"
+            }
+          },
+          {
+            "ID": 9,
+            "FORM": "July",
+            "LEMMA": "July",
+            "UPOS": "PROPN",
+            "XPOS": "NNP",
+            "HEAD": 7,
+            "DEPREL": "npadvmod",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 39,
+              "EndChar": 43
+            },
+            "FEATS": {
+              "Number": "Sing"
+            }
+          },
+          {
+            "ID": 10,
+            "FORM": "1584",
+            "LEMMA": "1584",
+            "UPOS": "NUM",
+            "XPOS": "CD",
+            "HEAD": 9,
+            "DEPREL": "nummod",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": false,
+              "StartChar": 44,
+              "EndChar": 48
+            },
+            "FEATS": {
+              "NumType": "Card"
+            }
+          },
+          {
+            "ID": 11,
+            "FORM": ")",
+            "LEMMA": ")",
+            "UPOS": "PUNCT",
+            "XPOS": ",",
+            "HEAD": 0,
+            "DEPREL": "punct",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": false,
+              "StartChar": 48,
+              "EndChar": 49
+            },
+            "FEATS": {
+              "PunctType": "Comm"
+            }
+          },
+          {
+            "ID": 12,
+            "FORM": ",",
+            "LEMMA": ",",
+            "UPOS": "PUNCT",
+            "XPOS": ",",
+            "HEAD": 0,
+            "DEPREL": "punct",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 49,
+              "EndChar": 50
+            },
+            "FEATS": {
+              "PunctType": "Comm"
+            }
+          },
+          {
+            "ID": 13,
+            "FORM": "also",
+            "LEMMA": "also",
+            "UPOS": "ADV",
+            "XPOS": "RB",
+            "HEAD": 14,
+            "DEPREL": "advmod",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 51,
+              "EndChar": 55
+            },
+            "FEATS": {}
+          },
+          {
+            "ID": 14,
+            "FORM": "known",
+            "LEMMA": "know",
+            "UPOS": "VERB",
+            "XPOS": "VBN",
+            "HEAD": 0,
+            "DEPREL": "acl",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 56,
+              "EndChar": 61
+            },
+            "FEATS": {
+              "Aspect": "Perf",
+              "Tense": "Past",
+              "VerbForm": "Part"
+            }
+          },
+          {
+            "ID": 15,
+            "FORM": "as",
+            "LEMMA": "as",
+            "UPOS": "ADP",
+            "XPOS": "IN",
+            "HEAD": 14,
+            "DEPREL": "prep",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 62,
+              "EndChar": 64
+            },
+            "FEATS": {}
+          },
+          {
+            "ID": 16,
+            "FORM": "William",
+            "LEMMA": "William",
+            "UPOS": "PROPN",
+            "XPOS": "NNP",
+            "HEAD": 15,
+            "DEPREL": "pobj",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 65,
+              "EndChar": 72
+            },
+            "FEATS": {
+              "Number": "Sing"
+            }
+          },
+          {
+            "ID": 17,
+            "FORM": "the",
+            "LEMMA": "the",
+            "UPOS": "DET",
+            "XPOS": "DT",
+            "HEAD": 18,
+            "DEPREL": "det",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 73,
+              "EndChar": 76
+            },
+            "FEATS": {
+              "Definite": "Def",
+              "PronType": "Art"
+            }
+          },
+          {
+            "ID": 18,
+            "FORM": "Taciturn",
+            "LEMMA": "Taciturn",
+            "UPOS": "PROPN",
+            "XPOS": "NNP",
+            "HEAD": 16,
+            "DEPREL": "appos",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 77,
+              "EndChar": 85
+            },
+            "FEATS": {
+              "Number": "Sing"
+            }
+          },
+          {
+            "ID": 19,
+            "FORM": "(",
+            "LEMMA": "(",
+            "UPOS": "PUNCT",
+            "XPOS": "-LRB-",
+            "HEAD": 16,
+            "DEPREL": "punct",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": false,
+              "StartChar": 86,
+              "EndChar": 87
+            },
+            "FEATS": {
+              "PunctSide": "Ini",
+              "PunctType": "Brck"
+            }
+          },
+          {
+            "ID": 20,
+            "FORM": "translated",
+            "LEMMA": "translate",
+            "UPOS": "VERB",
+            "XPOS": "VBN",
+            "HEAD": 26,
+            "DEPREL": "acl",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 87,
+              "EndChar": 97
+            },
+            "FEATS": {
+              "Aspect": "Perf",
+              "Tense": "Past",
+              "VerbForm": "Part"
+            }
+          },
+          {
+            "ID": 21,
+            "FORM": "from",
+            "LEMMA": "from",
+            "UPOS": "ADP",
+            "XPOS": "IN",
+            "HEAD": 20,
+            "DEPREL": "prep",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 98,
+              "EndChar": 102
+            },
+            "FEATS": {}
+          },
+          {
+            "ID": 22,
+            "FORM": "Dutch",
+            "LEMMA": "Dutch",
+            "UPOS": "PROPN",
+            "XPOS": "NNP",
+            "HEAD": 21,
+            "DEPREL": "pobj",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": false,
+              "StartChar": 103,
+              "EndChar": 108
+            },
+            "FEATS": {
+              "Number": "Sing"
+            }
+          },
+          {
+            "ID": 23,
+            "FORM": ":",
+            "LEMMA": ":",
+            "UPOS": "PUNCT",
+            "XPOS": ":",
+            "HEAD": 26,
+            "DEPREL": "punct",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 108,
+              "EndChar": 109
+            },
+            "FEATS": {}
+          },
+          {
+            "ID": 24,
+            "FORM": "Willem",
+            "LEMMA": "Willem",
+            "UPOS": "PROPN",
+            "XPOS": "NNP",
+            "HEAD": 26,
+            "DEPREL": "nmod",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 110,
+              "EndChar": 116
+            },
+            "FEATS": {
+              "Number": "Sing"
+            }
+          },
+          {
+            "ID": 25,
+            "FORM": "de",
+            "LEMMA": "de",
+            "UPOS": "PROPN",
+            "XPOS": "NNP",
+            "HEAD": 26,
+            "DEPREL": "compound",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 117,
+              "EndChar": 119
+            },
+            "FEATS": {
+              "Number": "Sing"
+            }
+          },
+          {
+            "ID": 26,
+            "FORM": "Zwijger",
+            "LEMMA": "Zwijger",
+            "UPOS": "PROPN",
+            "XPOS": "NNP",
+            "HEAD": 16,
+            "DEPREL": "appos",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": false,
+              "StartChar": 120,
+              "EndChar": 127
+            },
+            "FEATS": {
+              "Number": "Sing"
+            }
+          },
+          {
+            "ID": 27,
+            "FORM": ")",
+            "LEMMA": ")",
+            "UPOS": "PUNCT",
+            "XPOS": "-RRB-",
+            "HEAD": 16,
+            "DEPREL": "punct",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": false,
+              "StartChar": 127,
+              "EndChar": 128
+            },
+            "FEATS": {
+              "PunctSide": "Fin",
+              "PunctType": "Brck"
+            }
+          },
+          {
+            "ID": 28,
+            "FORM": ",",
+            "LEMMA": ",",
+            "UPOS": "PUNCT",
+            "XPOS": "-RRB-",
+            "HEAD": 16,
+            "DEPREL": "punct",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 128,
+              "EndChar": 129
+            },
+            "FEATS": {
+              "PunctSide": "Fin",
+              "PunctType": "Brck"
+            }
+          },
+          {
+            "ID": 29,
+            "FORM": "or",
+            "LEMMA": "or",
+            "UPOS": "CCONJ",
+            "XPOS": "CC",
+            "HEAD": 16,
+            "DEPREL": "cc",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": false,
+              "StartChar": 130,
+              "EndChar": 132
+            },
+            "FEATS": {
+              "ConjType": "Cmp"
+            }
+          },
+          {
+            "ID": 30,
+            "FORM": ",",
+            "LEMMA": ",",
+            "UPOS": "PUNCT",
+            "XPOS": ",",
+            "HEAD": 16,
+            "DEPREL": "punct",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 132,
+              "EndChar": 133
+            },
+            "FEATS": {
+              "PunctType": "Comm"
+            }
+          },
+          {
+            "ID": 31,
+            "FORM": "more",
+            "LEMMA": "more",
+            "UPOS": "ADV",
+            "XPOS": "RBR",
+            "HEAD": 32,
+            "DEPREL": "advmod",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 134,
+              "EndChar": 138
+            },
+            "FEATS": {
+              "Degree": "Cmp"
+            }
+          },
+          {
+            "ID": 32,
+            "FORM": "commonly",
+            "LEMMA": "commonly",
+            "UPOS": "ADV",
+            "XPOS": "RB",
+            "HEAD": 16,
+            "DEPREL": "advmod",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 139,
+              "EndChar": 147
+            },
+            "FEATS": {}
+          },
+          {
+            "ID": 33,
+            "FORM": "in",
+            "LEMMA": "in",
+            "UPOS": "ADP",
+            "XPOS": "IN",
+            "HEAD": 16,
+            "DEPREL": "prep",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 148,
+              "EndChar": 150
+            },
+            "FEATS": {}
+          },
+          {
+            "ID": 34,
+            "FORM": "the",
+            "LEMMA": "the",
+            "UPOS": "DET",
+            "XPOS": "DT",
+            "HEAD": 35,
+            "DEPREL": "det",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 151,
+              "EndChar": 154
+            },
+            "FEATS": {
+              "Definite": "Def",
+              "PronType": "Art"
+            }
+          },
+          {
+            "ID": 35,
+            "FORM": "Netherlands",
+            "LEMMA": "Netherlands",
+            "UPOS": "PROPN",
+            "XPOS": "NNP",
+            "HEAD": 33,
+            "DEPREL": "pobj",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": false,
+              "StartChar": 155,
+              "EndChar": 166
+            },
+            "FEATS": {
+              "Number": "Sing"
+            }
+          },
+          {
+            "ID": 36,
+            "FORM": ",",
+            "LEMMA": ",",
+            "UPOS": "PUNCT",
+            "XPOS": ",",
+            "HEAD": 16,
+            "DEPREL": "punct",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 166,
+              "EndChar": 167
+            },
+            "FEATS": {
+              "PunctType": "Comm"
+            }
+          },
+          {
+            "ID": 37,
+            "FORM": "William",
+            "LEMMA": "William",
+            "UPOS": "PROPN",
+            "XPOS": "NNP",
+            "HEAD": 16,
+            "DEPREL": "conj",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 168,
+              "EndChar": 175
+            },
+            "FEATS": {
+              "Number": "Sing"
+            }
+          },
+          {
+            "ID": 38,
+            "FORM": "of",
+            "LEMMA": "of",
+            "UPOS": "ADP",
+            "XPOS": "IN",
+            "HEAD": 37,
+            "DEPREL": "prep",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 176,
+              "EndChar": 178
+            },
+            "FEATS": {}
+          },
+          {
+            "ID": 39,
+            "FORM": "Orange",
+            "LEMMA": "Orange",
+            "UPOS": "PROPN",
+            "XPOS": "NNP",
+            "HEAD": 38,
+            "DEPREL": "pobj",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 179,
+              "EndChar": 185
+            },
+            "FEATS": {
+              "Number": "Sing"
+            }
+          },
+          {
+            "ID": 40,
+            "FORM": "(",
+            "LEMMA": "(",
+            "UPOS": "PUNCT",
+            "XPOS": "-LRB-",
+            "HEAD": 37,
+            "DEPREL": "punct",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": false,
+              "StartChar": 186,
+              "EndChar": 187
+            },
+            "FEATS": {
+              "PunctSide": "Ini",
+              "PunctType": "Brck"
+            }
+          },
+          {
+            "ID": 41,
+            "FORM": "Dutch",
+            "LEMMA": "dutch",
+            "UPOS": "ADJ",
+            "XPOS": "JJ",
+            "HEAD": 45,
+            "DEPREL": "amod",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": false,
+              "StartChar": 187,
+              "EndChar": 192
+            },
+            "FEATS": {
+              "Degree": "Pos"
+            }
+          },
+          {
+            "ID": 42,
+            "FORM": ":",
+            "LEMMA": ":",
+            "UPOS": "PUNCT",
+            "XPOS": ":",
+            "HEAD": 45,
+            "DEPREL": "punct",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 192,
+              "EndChar": 193
+            },
+            "FEATS": {}
+          },
+          {
+            "ID": 43,
+            "FORM": "Willem",
+            "LEMMA": "Willem",
+            "UPOS": "PROPN",
+            "XPOS": "NNP",
+            "HEAD": 45,
+            "DEPREL": "compound",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 194,
+              "EndChar": 200
+            },
+            "FEATS": {
+              "Number": "Sing"
+            }
+          },
+          {
+            "ID": 44,
+            "FORM": "van",
+            "LEMMA": "van",
+            "UPOS": "PROPN",
+            "XPOS": "NNP",
+            "HEAD": 45,
+            "DEPREL": "compound",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 201,
+              "EndChar": 204
+            },
+            "FEATS": {
+              "Number": "Sing"
+            }
+          },
+          {
+            "ID": 45,
+            "FORM": "Oranje",
+            "LEMMA": "Oranje",
+            "UPOS": "PROPN",
+            "XPOS": "NNP",
+            "HEAD": 37,
+            "DEPREL": "appos",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": false,
+              "StartChar": 205,
+              "EndChar": 211
+            },
+            "FEATS": {
+              "Number": "Sing"
+            }
+          },
+          {
+            "ID": 46,
+            "FORM": ")",
+            "LEMMA": ")",
+            "UPOS": "PUNCT",
+            "XPOS": ",",
+            "HEAD": 14,
+            "DEPREL": "punct",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": false,
+              "StartChar": 211,
+              "EndChar": 212
+            },
+            "FEATS": {
+              "PunctType": "Comm"
+            }
+          },
+          {
+            "ID": 47,
+            "FORM": ",",
+            "LEMMA": ",",
+            "UPOS": "PUNCT",
+            "XPOS": ",",
+            "HEAD": 48,
+            "DEPREL": "punct",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 212,
+              "EndChar": 213
+            },
+            "FEATS": {
+              "PunctType": "Comm"
+            }
+          },
+          {
+            "ID": 48,
+            "FORM": "was",
+            "LEMMA": "be",
+            "UPOS": "AUX",
+            "XPOS": "VBD",
+            "HEAD": 48,
+            "DEPREL": "ROOT",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 214,
+              "EndChar": 217
+            },
+            "FEATS": {
+              "Mood": "Ind",
+              "Number": "Sing",
+              "Person": "3",
+              "Tense": "Past",
+              "VerbForm": "Fin"
+            }
+          },
+          {
+            "ID": 49,
+            "FORM": "the",
+            "LEMMA": "the",
+            "UPOS": "DET",
+            "XPOS": "DT",
+            "HEAD": 51,
+            "DEPREL": "det",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 218,
+              "EndChar": 221
+            },
+            "FEATS": {
+              "Definite": "Def",
+              "PronType": "Art"
+            }
+          },
+          {
+            "ID": 50,
+            "FORM": "main",
+            "LEMMA": "main",
+            "UPOS": "ADJ",
+            "XPOS": "JJ",
+            "HEAD": 51,
+            "DEPREL": "amod",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 222,
+              "EndChar": 226
+            },
+            "FEATS": {
+              "Degree": "Pos"
+            }
+          },
+          {
+            "ID": 51,
+            "FORM": "leader",
+            "LEMMA": "leader",
+            "UPOS": "NOUN",
+            "XPOS": "NN",
+            "HEAD": 48,
+            "DEPREL": "attr",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 227,
+              "EndChar": 233
+            },
+            "FEATS": {
+              "Number": "Sing"
+            }
+          },
+          {
+            "ID": 52,
+            "FORM": "of",
+            "LEMMA": "of",
+            "UPOS": "ADP",
+            "XPOS": "IN",
+            "HEAD": 51,
+            "DEPREL": "prep",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 234,
+              "EndChar": 236
+            },
+            "FEATS": {}
+          },
+          {
+            "ID": 53,
+            "FORM": "the",
+            "LEMMA": "the",
+            "UPOS": "DET",
+            "XPOS": "DT",
+            "HEAD": 55,
+            "DEPREL": "det",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 237,
+              "EndChar": 240
+            },
+            "FEATS": {
+              "Definite": "Def",
+              "PronType": "Art"
+            }
+          },
+          {
+            "ID": 54,
+            "FORM": "Dutch",
+            "LEMMA": "dutch",
+            "UPOS": "ADJ",
+            "XPOS": "JJ",
+            "HEAD": 55,
+            "DEPREL": "amod",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 241,
+              "EndChar": 246
+            },
+            "FEATS": {
+              "Degree": "Pos"
+            }
+          },
+          {
+            "ID": 55,
+            "FORM": "Revolt",
+            "LEMMA": "revolt",
+            "UPOS": "NOUN",
+            "XPOS": "NN",
+            "HEAD": 52,
+            "DEPREL": "pobj",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 247,
+              "EndChar": 253
+            },
+            "FEATS": {
+              "Number": "Sing"
+            }
+          },
+          {
+            "ID": 56,
+            "FORM": "against",
+            "LEMMA": "against",
+            "UPOS": "ADP",
+            "XPOS": "IN",
+            "HEAD": 55,
+            "DEPREL": "prep",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 254,
+              "EndChar": 261
+            },
+            "FEATS": {}
+          },
+          {
+            "ID": 57,
+            "FORM": "the",
+            "LEMMA": "the",
+            "UPOS": "DET",
+            "XPOS": "DT",
+            "HEAD": 59,
+            "DEPREL": "det",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 262,
+              "EndChar": 265
+            },
+            "FEATS": {
+              "Definite": "Def",
+              "PronType": "Art"
+            }
+          },
+          {
+            "ID": 58,
+            "FORM": "Spanish",
+            "LEMMA": "spanish",
+            "UPOS": "ADJ",
+            "XPOS": "JJ",
+            "HEAD": 59,
+            "DEPREL": "amod",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 266,
+              "EndChar": 273
+            },
+            "FEATS": {
+              "Degree": "Pos"
+            }
+          },
+          {
+            "ID": 59,
+            "FORM": "Habsburgs",
+            "LEMMA": "Habsburgs",
+            "UPOS": "PROPN",
+            "XPOS": "NNPS",
+            "HEAD": 56,
+            "DEPREL": "pobj",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 274,
+              "EndChar": 283
+            },
+            "FEATS": {
+              "Number": "Plur"
+            }
+          },
+          {
+            "ID": 60,
+            "FORM": "that",
+            "LEMMA": "that",
+            "UPOS": "PRON",
+            "XPOS": "WDT",
+            "HEAD": 61,
+            "DEPREL": "nsubj",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 284,
+              "EndChar": 288
+            },
+            "FEATS": {
+              "PronType": "Rel"
+            }
+          },
+          {
+            "ID": 61,
+            "FORM": "set",
+            "LEMMA": "set",
+            "UPOS": "VERB",
+            "XPOS": "VBD",
+            "HEAD": 55,
+            "DEPREL": "relcl",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 289,
+              "EndChar": 292
+            },
+            "FEATS": {
+              "Tense": "Past",
+              "VerbForm": "Fin"
+            }
+          },
+          {
+            "ID": 62,
+            "FORM": "off",
+            "LEMMA": "off",
+            "UPOS": "ADP",
+            "XPOS": "RP",
+            "HEAD": 61,
+            "DEPREL": "prt",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 293,
+              "EndChar": 296
+            },
+            "FEATS": {}
+          },
+          {
+            "ID": 63,
+            "FORM": "the",
+            "LEMMA": "the",
+            "UPOS": "DET",
+            "XPOS": "DT",
+            "HEAD": 65,
+            "DEPREL": "det",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 297,
+              "EndChar": 300
+            },
+            "FEATS": {
+              "Definite": "Def",
+              "PronType": "Art"
+            }
+          },
+          {
+            "ID": 64,
+            "FORM": "Eighty",
+            "LEMMA": "eighty",
+            "UPOS": "NUM",
+            "XPOS": "CD",
+            "HEAD": 65,
+            "DEPREL": "compound",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 301,
+              "EndChar": 307
+            },
+            "FEATS": {
+              "NumType": "Card"
+            }
+          },
+          {
+            "ID": 65,
+            "FORM": "Years",
+            "LEMMA": "Years",
+            "UPOS": "PROPN",
+            "XPOS": "NNPS",
+            "HEAD": 67,
+            "DEPREL": "poss",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": false,
+              "StartChar": 308,
+              "EndChar": 313
+            },
+            "FEATS": {
+              "Number": "Plur"
+            }
+          },
+          {
+            "ID": 66,
+            "FORM": "'",
+            "LEMMA": "'",
+            "UPOS": "PART",
+            "XPOS": "POS",
+            "HEAD": 65,
+            "DEPREL": "case",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 313,
+              "EndChar": 314
+            },
+            "FEATS": {}
+          },
+          {
+            "ID": 67,
+            "FORM": "War",
+            "LEMMA": "War",
+            "UPOS": "PROPN",
+            "XPOS": "NNP",
+            "HEAD": 61,
+            "DEPREL": "dobj",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 315,
+              "EndChar": 318
+            },
+            "FEATS": {
+              "Number": "Sing"
+            }
+          },
+          {
+            "ID": 68,
+            "FORM": "(",
+            "LEMMA": "(",
+            "UPOS": "PUNCT",
+            "XPOS": "-LRB-",
+            "HEAD": 67,
+            "DEPREL": "punct",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": false,
+              "StartChar": 319,
+              "EndChar": 320
+            },
+            "FEATS": {
+              "PunctSide": "Ini",
+              "PunctType": "Brck"
+            }
+          },
+          {
+            "ID": 69,
+            "FORM": "1568\u20131648",
+            "LEMMA": "1568\u20131648",
+            "UPOS": "NUM",
+            "XPOS": "CD",
+            "HEAD": 67,
+            "DEPREL": "npadvmod",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": false,
+              "StartChar": 320,
+              "EndChar": 329
+            },
+            "FEATS": {
+              "NumType": "Card"
+            }
+          },
+          {
+            "ID": 70,
+            "FORM": ")",
+            "LEMMA": ")",
+            "UPOS": "PUNCT",
+            "XPOS": "-RRB-",
+            "HEAD": 61,
+            "DEPREL": "punct",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 329,
+              "EndChar": 330
+            },
+            "FEATS": {
+              "PunctSide": "Fin",
+              "PunctType": "Brck"
+            }
+          },
+          {
+            "ID": 71,
+            "FORM": "and",
+            "LEMMA": "and",
+            "UPOS": "CCONJ",
+            "XPOS": "CC",
+            "HEAD": 61,
+            "DEPREL": "cc",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 331,
+              "EndChar": 334
+            },
+            "FEATS": {
+              "ConjType": "Cmp"
+            }
+          },
+          {
+            "ID": 72,
+            "FORM": "resulted",
+            "LEMMA": "result",
+            "UPOS": "VERB",
+            "XPOS": "VBD",
+            "HEAD": 61,
+            "DEPREL": "conj",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 335,
+              "EndChar": 343
+            },
+            "FEATS": {
+              "Tense": "Past",
+              "VerbForm": "Fin"
+            }
+          },
+          {
+            "ID": 73,
+            "FORM": "in",
+            "LEMMA": "in",
+            "UPOS": "ADP",
+            "XPOS": "IN",
+            "HEAD": 72,
+            "DEPREL": "prep",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 344,
+              "EndChar": 346
+            },
+            "FEATS": {}
+          },
+          {
+            "ID": 74,
+            "FORM": "the",
+            "LEMMA": "the",
+            "UPOS": "DET",
+            "XPOS": "DT",
+            "HEAD": 76,
+            "DEPREL": "det",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 347,
+              "EndChar": 350
+            },
+            "FEATS": {
+              "Definite": "Def",
+              "PronType": "Art"
+            }
+          },
+          {
+            "ID": 75,
+            "FORM": "formal",
+            "LEMMA": "formal",
+            "UPOS": "ADJ",
+            "XPOS": "JJ",
+            "HEAD": 76,
+            "DEPREL": "amod",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 351,
+              "EndChar": 357
+            },
+            "FEATS": {
+              "Degree": "Pos"
+            }
+          },
+          {
+            "ID": 76,
+            "FORM": "independence",
+            "LEMMA": "independence",
+            "UPOS": "NOUN",
+            "XPOS": "NN",
+            "HEAD": 73,
+            "DEPREL": "pobj",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 358,
+              "EndChar": 370
+            },
+            "FEATS": {
+              "Number": "Sing"
+            }
+          },
+          {
+            "ID": 77,
+            "FORM": "of",
+            "LEMMA": "of",
+            "UPOS": "ADP",
+            "XPOS": "IN",
+            "HEAD": 76,
+            "DEPREL": "prep",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 371,
+              "EndChar": 373
+            },
+            "FEATS": {}
+          },
+          {
+            "ID": 78,
+            "FORM": "the",
+            "LEMMA": "the",
+            "UPOS": "DET",
+            "XPOS": "DT",
+            "HEAD": 80,
+            "DEPREL": "det",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 374,
+              "EndChar": 377
+            },
+            "FEATS": {
+              "Definite": "Def",
+              "PronType": "Art"
+            }
+          },
+          {
+            "ID": 79,
+            "FORM": "United",
+            "LEMMA": "United",
+            "UPOS": "PROPN",
+            "XPOS": "NNP",
+            "HEAD": 80,
+            "DEPREL": "compound",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 378,
+              "EndChar": 384
+            },
+            "FEATS": {
+              "Number": "Sing"
+            }
+          },
+          {
+            "ID": 80,
+            "FORM": "Provinces",
+            "LEMMA": "Provinces",
+            "UPOS": "PROPN",
+            "XPOS": "NNPS",
+            "HEAD": 77,
+            "DEPREL": "pobj",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 385,
+              "EndChar": 394
+            },
+            "FEATS": {
+              "Number": "Plur"
+            }
+          },
+          {
+            "ID": 81,
+            "FORM": "in",
+            "LEMMA": "in",
+            "UPOS": "ADP",
+            "XPOS": "IN",
+            "HEAD": 76,
+            "DEPREL": "prep",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 395,
+              "EndChar": 397
+            },
+            "FEATS": {}
+          },
+          {
+            "ID": 82,
+            "FORM": "1648",
+            "LEMMA": "1648",
+            "UPOS": "NUM",
+            "XPOS": "CD",
+            "HEAD": 81,
+            "DEPREL": "pobj",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": false,
+              "StartChar": 398,
+              "EndChar": 402
+            },
+            "FEATS": {
+              "NumType": "Card"
+            }
+          },
+          {
+            "ID": 83,
+            "FORM": ".",
+            "LEMMA": ".",
+            "UPOS": "PUNCT",
+            "XPOS": ".",
+            "HEAD": 48,
+            "DEPREL": "punct",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 402,
+              "EndChar": 403
+            },
+            "FEATS": {
+              "PunctType": "Peri"
+            }
+          }
+        ]
+      },
+      {
+        "paragraph": null,
+        "sentence": 1,
+        "text": "Born into the House of Nassau , he became Prince of Orange in 1544 and is thereby the founder of the Orange - Nassau branch and the ancestor of the monarchy of the Netherlands .",
+        "words": [
+          {
+            "ID": 84,
+            "FORM": "Born",
+            "LEMMA": "bear",
+            "UPOS": "VERB",
+            "XPOS": "VBN",
+            "HEAD": 92,
+            "DEPREL": "advcl",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 404,
+              "EndChar": 408
+            },
+            "FEATS": {
+              "Aspect": "Perf",
+              "Tense": "Past",
+              "VerbForm": "Part"
+            }
+          },
+          {
+            "ID": 85,
+            "FORM": "into",
+            "LEMMA": "into",
+            "UPOS": "ADP",
+            "XPOS": "IN",
+            "HEAD": 84,
+            "DEPREL": "prep",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 409,
+              "EndChar": 413
+            },
+            "FEATS": {}
+          },
+          {
+            "ID": 86,
+            "FORM": "the",
+            "LEMMA": "the",
+            "UPOS": "DET",
+            "XPOS": "DT",
+            "HEAD": 87,
+            "DEPREL": "det",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 414,
+              "EndChar": 417
+            },
+            "FEATS": {
+              "Definite": "Def",
+              "PronType": "Art"
+            }
+          },
+          {
+            "ID": 87,
+            "FORM": "House",
+            "LEMMA": "House",
+            "UPOS": "PROPN",
+            "XPOS": "NNP",
+            "HEAD": 85,
+            "DEPREL": "pobj",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 418,
+              "EndChar": 423
+            },
+            "FEATS": {
+              "Number": "Sing"
+            }
+          },
+          {
+            "ID": 88,
+            "FORM": "of",
+            "LEMMA": "of",
+            "UPOS": "ADP",
+            "XPOS": "IN",
+            "HEAD": 87,
+            "DEPREL": "prep",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 424,
+              "EndChar": 426
+            },
+            "FEATS": {}
+          },
+          {
+            "ID": 89,
+            "FORM": "Nassau",
+            "LEMMA": "Nassau",
+            "UPOS": "PROPN",
+            "XPOS": "NNP",
+            "HEAD": 88,
+            "DEPREL": "pobj",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": false,
+              "StartChar": 427,
+              "EndChar": 433
+            },
+            "FEATS": {
+              "Number": "Sing"
+            }
+          },
+          {
+            "ID": 90,
+            "FORM": ",",
+            "LEMMA": ",",
+            "UPOS": "PUNCT",
+            "XPOS": ",",
+            "HEAD": 92,
+            "DEPREL": "punct",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 433,
+              "EndChar": 434
+            },
+            "FEATS": {
+              "PunctType": "Comm"
+            }
+          },
+          {
+            "ID": 91,
+            "FORM": "he",
+            "LEMMA": "he",
+            "UPOS": "PRON",
+            "XPOS": "PRP",
+            "HEAD": 92,
+            "DEPREL": "nsubj",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 435,
+              "EndChar": 437
+            },
+            "FEATS": {
+              "Case": "Nom",
+              "Gender": "Masc",
+              "Number": "Sing",
+              "Person": "3",
+              "PronType": "Prs"
+            }
+          },
+          {
+            "ID": 92,
+            "FORM": "became",
+            "LEMMA": "become",
+            "UPOS": "VERB",
+            "XPOS": "VBD",
+            "HEAD": 92,
+            "DEPREL": "ROOT",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 438,
+              "EndChar": 444
+            },
+            "FEATS": {
+              "Tense": "Past",
+              "VerbForm": "Fin"
+            }
+          },
+          {
+            "ID": 93,
+            "FORM": "Prince",
+            "LEMMA": "Prince",
+            "UPOS": "PROPN",
+            "XPOS": "NNP",
+            "HEAD": 92,
+            "DEPREL": "attr",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 445,
+              "EndChar": 451
+            },
+            "FEATS": {
+              "Number": "Sing"
+            }
+          },
+          {
+            "ID": 94,
+            "FORM": "of",
+            "LEMMA": "of",
+            "UPOS": "ADP",
+            "XPOS": "IN",
+            "HEAD": 93,
+            "DEPREL": "prep",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 452,
+              "EndChar": 454
+            },
+            "FEATS": {}
+          },
+          {
+            "ID": 95,
+            "FORM": "Orange",
+            "LEMMA": "Orange",
+            "UPOS": "PROPN",
+            "XPOS": "NNP",
+            "HEAD": 94,
+            "DEPREL": "pobj",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 455,
+              "EndChar": 461
+            },
+            "FEATS": {
+              "Number": "Sing"
+            }
+          },
+          {
+            "ID": 96,
+            "FORM": "in",
+            "LEMMA": "in",
+            "UPOS": "ADP",
+            "XPOS": "IN",
+            "HEAD": 92,
+            "DEPREL": "prep",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 462,
+              "EndChar": 464
+            },
+            "FEATS": {}
+          },
+          {
+            "ID": 97,
+            "FORM": "1544",
+            "LEMMA": "1544",
+            "UPOS": "NUM",
+            "XPOS": "CD",
+            "HEAD": 96,
+            "DEPREL": "pobj",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 465,
+              "EndChar": 469
+            },
+            "FEATS": {
+              "NumType": "Card"
+            }
+          },
+          {
+            "ID": 98,
+            "FORM": "and",
+            "LEMMA": "and",
+            "UPOS": "CCONJ",
+            "XPOS": "CC",
+            "HEAD": 92,
+            "DEPREL": "cc",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 470,
+              "EndChar": 473
+            },
+            "FEATS": {
+              "ConjType": "Cmp"
+            }
+          },
+          {
+            "ID": 99,
+            "FORM": "is",
+            "LEMMA": "be",
+            "UPOS": "AUX",
+            "XPOS": "VBZ",
+            "HEAD": 92,
+            "DEPREL": "conj",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 474,
+              "EndChar": 476
+            },
+            "FEATS": {
+              "Mood": "Ind",
+              "Number": "Sing",
+              "Person": "3",
+              "Tense": "Pres",
+              "VerbForm": "Fin"
+            }
+          },
+          {
+            "ID": 100,
+            "FORM": "thereby",
+            "LEMMA": "thereby",
+            "UPOS": "ADV",
+            "XPOS": "RB",
+            "HEAD": 99,
+            "DEPREL": "advmod",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 477,
+              "EndChar": 484
+            },
+            "FEATS": {}
+          },
+          {
+            "ID": 101,
+            "FORM": "the",
+            "LEMMA": "the",
+            "UPOS": "DET",
+            "XPOS": "DT",
+            "HEAD": 102,
+            "DEPREL": "det",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 485,
+              "EndChar": 488
+            },
+            "FEATS": {
+              "Definite": "Def",
+              "PronType": "Art"
+            }
+          },
+          {
+            "ID": 102,
+            "FORM": "founder",
+            "LEMMA": "founder",
+            "UPOS": "NOUN",
+            "XPOS": "NN",
+            "HEAD": 99,
+            "DEPREL": "attr",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 489,
+              "EndChar": 496
+            },
+            "FEATS": {
+              "Number": "Sing"
+            }
+          },
+          {
+            "ID": 103,
+            "FORM": "of",
+            "LEMMA": "of",
+            "UPOS": "ADP",
+            "XPOS": "IN",
+            "HEAD": 102,
+            "DEPREL": "prep",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 497,
+              "EndChar": 499
+            },
+            "FEATS": {}
+          },
+          {
+            "ID": 104,
+            "FORM": "the",
+            "LEMMA": "the",
+            "UPOS": "DET",
+            "XPOS": "DT",
+            "HEAD": 108,
+            "DEPREL": "det",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 500,
+              "EndChar": 503
+            },
+            "FEATS": {
+              "Definite": "Def",
+              "PronType": "Art"
+            }
+          },
+          {
+            "ID": 105,
+            "FORM": "Orange",
+            "LEMMA": "Orange",
+            "UPOS": "PROPN",
+            "XPOS": "NNP",
+            "HEAD": 107,
+            "DEPREL": "compound",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": false,
+              "StartChar": 504,
+              "EndChar": 510
+            },
+            "FEATS": {
+              "Number": "Sing"
+            }
+          },
+          {
+            "ID": 106,
+            "FORM": "-",
+            "LEMMA": "-",
+            "UPOS": "PUNCT",
+            "XPOS": "HYPH",
+            "HEAD": 107,
+            "DEPREL": "punct",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": false,
+              "StartChar": 510,
+              "EndChar": 511
+            },
+            "FEATS": {
+              "PunctType": "Dash"
+            }
+          },
+          {
+            "ID": 107,
+            "FORM": "Nassau",
+            "LEMMA": "Nassau",
+            "UPOS": "PROPN",
+            "XPOS": "NNP",
+            "HEAD": 108,
+            "DEPREL": "compound",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 511,
+              "EndChar": 517
+            },
+            "FEATS": {
+              "Number": "Sing"
+            }
+          },
+          {
+            "ID": 108,
+            "FORM": "branch",
+            "LEMMA": "branch",
+            "UPOS": "NOUN",
+            "XPOS": "NN",
+            "HEAD": 103,
+            "DEPREL": "pobj",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 518,
+              "EndChar": 524
+            },
+            "FEATS": {
+              "Number": "Sing"
+            }
+          },
+          {
+            "ID": 109,
+            "FORM": "and",
+            "LEMMA": "and",
+            "UPOS": "CCONJ",
+            "XPOS": "CC",
+            "HEAD": 102,
+            "DEPREL": "cc",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 525,
+              "EndChar": 528
+            },
+            "FEATS": {
+              "ConjType": "Cmp"
+            }
+          },
+          {
+            "ID": 110,
+            "FORM": "the",
+            "LEMMA": "the",
+            "UPOS": "DET",
+            "XPOS": "DT",
+            "HEAD": 111,
+            "DEPREL": "det",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 529,
+              "EndChar": 532
+            },
+            "FEATS": {
+              "Definite": "Def",
+              "PronType": "Art"
+            }
+          },
+          {
+            "ID": 111,
+            "FORM": "ancestor",
+            "LEMMA": "ancestor",
+            "UPOS": "NOUN",
+            "XPOS": "NN",
+            "HEAD": 102,
+            "DEPREL": "conj",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 533,
+              "EndChar": 541
+            },
+            "FEATS": {
+              "Number": "Sing"
+            }
+          },
+          {
+            "ID": 112,
+            "FORM": "of",
+            "LEMMA": "of",
+            "UPOS": "ADP",
+            "XPOS": "IN",
+            "HEAD": 111,
+            "DEPREL": "prep",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 542,
+              "EndChar": 544
+            },
+            "FEATS": {}
+          },
+          {
+            "ID": 113,
+            "FORM": "the",
+            "LEMMA": "the",
+            "UPOS": "DET",
+            "XPOS": "DT",
+            "HEAD": 114,
+            "DEPREL": "det",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 545,
+              "EndChar": 548
+            },
+            "FEATS": {
+              "Definite": "Def",
+              "PronType": "Art"
+            }
+          },
+          {
+            "ID": 114,
+            "FORM": "monarchy",
+            "LEMMA": "monarchy",
+            "UPOS": "NOUN",
+            "XPOS": "NN",
+            "HEAD": 112,
+            "DEPREL": "pobj",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 549,
+              "EndChar": 557
+            },
+            "FEATS": {
+              "Number": "Sing"
+            }
+          },
+          {
+            "ID": 115,
+            "FORM": "of",
+            "LEMMA": "of",
+            "UPOS": "ADP",
+            "XPOS": "IN",
+            "HEAD": 114,
+            "DEPREL": "prep",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 558,
+              "EndChar": 560
+            },
+            "FEATS": {}
+          },
+          {
+            "ID": 116,
+            "FORM": "the",
+            "LEMMA": "the",
+            "UPOS": "DET",
+            "XPOS": "DT",
+            "HEAD": 117,
+            "DEPREL": "det",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 561,
+              "EndChar": 564
+            },
+            "FEATS": {
+              "Definite": "Def",
+              "PronType": "Art"
+            }
+          },
+          {
+            "ID": 117,
+            "FORM": "Netherlands",
+            "LEMMA": "Netherlands",
+            "UPOS": "PROPN",
+            "XPOS": "NNPS",
+            "HEAD": 115,
+            "DEPREL": "pobj",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": false,
+              "StartChar": 565,
+              "EndChar": 576
+            },
+            "FEATS": {
+              "Number": "Plur"
+            }
+          },
+          {
+            "ID": 118,
+            "FORM": ".",
+            "LEMMA": ".",
+            "UPOS": "PUNCT",
+            "XPOS": ".",
+            "HEAD": 92,
+            "DEPREL": "punct",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 576,
+              "EndChar": 577
+            },
+            "FEATS": {
+              "PunctType": "Peri"
+            }
+          }
+        ]
+      },
+      {
+        "paragraph": null,
+        "sentence": 2,
+        "text": "In the Netherlands , he is also known as Father of the Fatherland ( Pater Patriae ) ( Dutch : Vader des Vaderlands ) .",
+        "words": [
+          {
+            "ID": 119,
+            "FORM": "In",
+            "LEMMA": "in",
+            "UPOS": "ADP",
+            "XPOS": "IN",
+            "HEAD": 126,
+            "DEPREL": "prep",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 578,
+              "EndChar": 580
+            },
+            "FEATS": {}
+          },
+          {
+            "ID": 120,
+            "FORM": "the",
+            "LEMMA": "the",
+            "UPOS": "DET",
+            "XPOS": "DT",
+            "HEAD": 121,
+            "DEPREL": "det",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 581,
+              "EndChar": 584
+            },
+            "FEATS": {
+              "Definite": "Def",
+              "PronType": "Art"
+            }
+          },
+          {
+            "ID": 121,
+            "FORM": "Netherlands",
+            "LEMMA": "Netherlands",
+            "UPOS": "PROPN",
+            "XPOS": "NNPS",
+            "HEAD": 119,
+            "DEPREL": "pobj",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": false,
+              "StartChar": 585,
+              "EndChar": 596
+            },
+            "FEATS": {
+              "Number": "Plur"
+            }
+          },
+          {
+            "ID": 122,
+            "FORM": ",",
+            "LEMMA": ",",
+            "UPOS": "PUNCT",
+            "XPOS": ",",
+            "HEAD": 126,
+            "DEPREL": "punct",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 596,
+              "EndChar": 597
+            },
+            "FEATS": {
+              "PunctType": "Comm"
+            }
+          },
+          {
+            "ID": 123,
+            "FORM": "he",
+            "LEMMA": "he",
+            "UPOS": "PRON",
+            "XPOS": "PRP",
+            "HEAD": 126,
+            "DEPREL": "nsubjpass",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 598,
+              "EndChar": 600
+            },
+            "FEATS": {
+              "Case": "Nom",
+              "Gender": "Masc",
+              "Number": "Sing",
+              "Person": "3",
+              "PronType": "Prs"
+            }
+          },
+          {
+            "ID": 124,
+            "FORM": "is",
+            "LEMMA": "be",
+            "UPOS": "AUX",
+            "XPOS": "VBZ",
+            "HEAD": 126,
+            "DEPREL": "auxpass",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 601,
+              "EndChar": 603
+            },
+            "FEATS": {
+              "Mood": "Ind",
+              "Number": "Sing",
+              "Person": "3",
+              "Tense": "Pres",
+              "VerbForm": "Fin"
+            }
+          },
+          {
+            "ID": 125,
+            "FORM": "also",
+            "LEMMA": "also",
+            "UPOS": "ADV",
+            "XPOS": "RB",
+            "HEAD": 126,
+            "DEPREL": "advmod",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 604,
+              "EndChar": 608
+            },
+            "FEATS": {}
+          },
+          {
+            "ID": 126,
+            "FORM": "known",
+            "LEMMA": "know",
+            "UPOS": "VERB",
+            "XPOS": "VBN",
+            "HEAD": 126,
+            "DEPREL": "ROOT",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 609,
+              "EndChar": 614
+            },
+            "FEATS": {
+              "Aspect": "Perf",
+              "Tense": "Past",
+              "VerbForm": "Part"
+            }
+          },
+          {
+            "ID": 127,
+            "FORM": "as",
+            "LEMMA": "as",
+            "UPOS": "ADP",
+            "XPOS": "IN",
+            "HEAD": 126,
+            "DEPREL": "prep",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 615,
+              "EndChar": 617
+            },
+            "FEATS": {}
+          },
+          {
+            "ID": 128,
+            "FORM": "Father",
+            "LEMMA": "Father",
+            "UPOS": "PROPN",
+            "XPOS": "NNP",
+            "HEAD": 127,
+            "DEPREL": "pobj",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 618,
+              "EndChar": 624
+            },
+            "FEATS": {
+              "Number": "Sing"
+            }
+          },
+          {
+            "ID": 129,
+            "FORM": "of",
+            "LEMMA": "of",
+            "UPOS": "ADP",
+            "XPOS": "IN",
+            "HEAD": 128,
+            "DEPREL": "prep",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 625,
+              "EndChar": 627
+            },
+            "FEATS": {}
+          },
+          {
+            "ID": 130,
+            "FORM": "the",
+            "LEMMA": "the",
+            "UPOS": "DET",
+            "XPOS": "DT",
+            "HEAD": 131,
+            "DEPREL": "det",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 628,
+              "EndChar": 631
+            },
+            "FEATS": {
+              "Definite": "Def",
+              "PronType": "Art"
+            }
+          },
+          {
+            "ID": 131,
+            "FORM": "Fatherland",
+            "LEMMA": "Fatherland",
+            "UPOS": "PROPN",
+            "XPOS": "NNP",
+            "HEAD": 129,
+            "DEPREL": "pobj",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 632,
+              "EndChar": 642
+            },
+            "FEATS": {
+              "Number": "Sing"
+            }
+          },
+          {
+            "ID": 132,
+            "FORM": "(",
+            "LEMMA": "(",
+            "UPOS": "PUNCT",
+            "XPOS": "-LRB-",
+            "HEAD": 131,
+            "DEPREL": "punct",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": false,
+              "StartChar": 643,
+              "EndChar": 644
+            },
+            "FEATS": {
+              "PunctSide": "Ini",
+              "PunctType": "Brck"
+            }
+          },
+          {
+            "ID": 133,
+            "FORM": "Pater",
+            "LEMMA": "Pater",
+            "UPOS": "PROPN",
+            "XPOS": "NNP",
+            "HEAD": 134,
+            "DEPREL": "nmod",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 644,
+              "EndChar": 649
+            },
+            "FEATS": {
+              "Number": "Sing"
+            }
+          },
+          {
+            "ID": 134,
+            "FORM": "Patriae",
+            "LEMMA": "Patriae",
+            "UPOS": "PROPN",
+            "XPOS": "NNP",
+            "HEAD": 131,
+            "DEPREL": "appos",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": false,
+              "StartChar": 650,
+              "EndChar": 657
+            },
+            "FEATS": {
+              "Number": "Sing"
+            }
+          },
+          {
+            "ID": 135,
+            "FORM": ")",
+            "LEMMA": ")",
+            "UPOS": "PUNCT",
+            "XPOS": "-RRB-",
+            "HEAD": 134,
+            "DEPREL": "punct",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 657,
+              "EndChar": 658
+            },
+            "FEATS": {
+              "PunctSide": "Fin",
+              "PunctType": "Brck"
+            }
+          },
+          {
+            "ID": 136,
+            "FORM": "(",
+            "LEMMA": "(",
+            "UPOS": "PUNCT",
+            "XPOS": "-LRB-",
+            "HEAD": 131,
+            "DEPREL": "punct",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": false,
+              "StartChar": 659,
+              "EndChar": 660
+            },
+            "FEATS": {
+              "PunctSide": "Ini",
+              "PunctType": "Brck"
+            }
+          },
+          {
+            "ID": 137,
+            "FORM": "Dutch",
+            "LEMMA": "dutch",
+            "UPOS": "ADJ",
+            "XPOS": "JJ",
+            "HEAD": 141,
+            "DEPREL": "amod",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": false,
+              "StartChar": 660,
+              "EndChar": 665
+            },
+            "FEATS": {
+              "Degree": "Pos"
+            }
+          },
+          {
+            "ID": 138,
+            "FORM": ":",
+            "LEMMA": ":",
+            "UPOS": "PUNCT",
+            "XPOS": ":",
+            "HEAD": 141,
+            "DEPREL": "punct",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 665,
+              "EndChar": 666
+            },
+            "FEATS": {}
+          },
+          {
+            "ID": 139,
+            "FORM": "Vader",
+            "LEMMA": "Vader",
+            "UPOS": "PROPN",
+            "XPOS": "NNP",
+            "HEAD": 141,
+            "DEPREL": "nmod",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 667,
+              "EndChar": 672
+            },
+            "FEATS": {
+              "Number": "Sing"
+            }
+          },
+          {
+            "ID": 140,
+            "FORM": "des",
+            "LEMMA": "des",
+            "UPOS": "X",
+            "XPOS": "FW",
+            "HEAD": 141,
+            "DEPREL": "nmod",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 673,
+              "EndChar": 676
+            },
+            "FEATS": {
+              "Foreign": "Yes"
+            }
+          },
+          {
+            "ID": 141,
+            "FORM": "Vaderlands",
+            "LEMMA": "Vaderlands",
+            "UPOS": "PROPN",
+            "XPOS": "NNP",
+            "HEAD": 131,
+            "DEPREL": "appos",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": false,
+              "StartChar": 677,
+              "EndChar": 687
+            },
+            "FEATS": {
+              "Number": "Sing"
+            }
+          },
+          {
+            "ID": 142,
+            "FORM": ")",
+            "LEMMA": ")",
+            "UPOS": "PUNCT",
+            "XPOS": ".",
+            "HEAD": 131,
+            "DEPREL": "punct",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": false,
+              "StartChar": 687,
+              "EndChar": 688
+            },
+            "FEATS": {
+              "PunctType": "Peri"
+            }
+          },
+          {
+            "ID": 143,
+            "FORM": ".",
+            "LEMMA": ".",
+            "UPOS": "PUNCT",
+            "XPOS": ".",
+            "HEAD": 128,
+            "DEPREL": "punct",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 688,
+              "EndChar": 689
+            },
+            "FEATS": {
+              "PunctType": "Peri"
+            }
+          }
+        ]
+      },
+      {
+        "paragraph": null,
+        "sentence": 3,
+        "text": "A wealthy nobleman , William originally served the Habsburgs as a member of the court of Margaret of Parma , governor of the Spanish Netherlands .",
+        "words": [
+          {
+            "ID": 144,
+            "FORM": "A",
+            "LEMMA": "a",
+            "UPOS": "DET",
+            "XPOS": "DT",
+            "HEAD": 146,
+            "DEPREL": "det",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 690,
+              "EndChar": 691
+            },
+            "FEATS": {
+              "Definite": "Ind",
+              "PronType": "Art"
+            }
+          },
+          {
+            "ID": 145,
+            "FORM": "wealthy",
+            "LEMMA": "wealthy",
+            "UPOS": "ADJ",
+            "XPOS": "JJ",
+            "HEAD": 146,
+            "DEPREL": "amod",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 692,
+              "EndChar": 699
+            },
+            "FEATS": {
+              "Degree": "Pos"
+            }
+          },
+          {
+            "ID": 146,
+            "FORM": "nobleman",
+            "LEMMA": "nobleman",
+            "UPOS": "NOUN",
+            "XPOS": "NN",
+            "HEAD": 150,
+            "DEPREL": "advcl",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": false,
+              "StartChar": 700,
+              "EndChar": 708
+            },
+            "FEATS": {
+              "Number": "Sing"
+            }
+          },
+          {
+            "ID": 147,
+            "FORM": ",",
+            "LEMMA": ",",
+            "UPOS": "PUNCT",
+            "XPOS": ",",
+            "HEAD": 150,
+            "DEPREL": "punct",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 708,
+              "EndChar": 709
+            },
+            "FEATS": {
+              "PunctType": "Comm"
+            }
+          },
+          {
+            "ID": 148,
+            "FORM": "William",
+            "LEMMA": "William",
+            "UPOS": "PROPN",
+            "XPOS": "NNP",
+            "HEAD": 150,
+            "DEPREL": "nsubj",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 710,
+              "EndChar": 717
+            },
+            "FEATS": {
+              "Number": "Sing"
+            }
+          },
+          {
+            "ID": 149,
+            "FORM": "originally",
+            "LEMMA": "originally",
+            "UPOS": "ADV",
+            "XPOS": "RB",
+            "HEAD": 150,
+            "DEPREL": "advmod",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 718,
+              "EndChar": 728
+            },
+            "FEATS": {}
+          },
+          {
+            "ID": 150,
+            "FORM": "served",
+            "LEMMA": "serve",
+            "UPOS": "VERB",
+            "XPOS": "VBD",
+            "HEAD": 150,
+            "DEPREL": "ROOT",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 729,
+              "EndChar": 735
+            },
+            "FEATS": {
+              "Tense": "Past",
+              "VerbForm": "Fin"
+            }
+          },
+          {
+            "ID": 151,
+            "FORM": "the",
+            "LEMMA": "the",
+            "UPOS": "DET",
+            "XPOS": "DT",
+            "HEAD": 152,
+            "DEPREL": "det",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 736,
+              "EndChar": 739
+            },
+            "FEATS": {
+              "Definite": "Def",
+              "PronType": "Art"
+            }
+          },
+          {
+            "ID": 152,
+            "FORM": "Habsburgs",
+            "LEMMA": "Habsburgs",
+            "UPOS": "PROPN",
+            "XPOS": "NNPS",
+            "HEAD": 150,
+            "DEPREL": "dobj",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 740,
+              "EndChar": 749
+            },
+            "FEATS": {
+              "Number": "Plur"
+            }
+          },
+          {
+            "ID": 153,
+            "FORM": "as",
+            "LEMMA": "as",
+            "UPOS": "ADP",
+            "XPOS": "IN",
+            "HEAD": 150,
+            "DEPREL": "prep",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 750,
+              "EndChar": 752
+            },
+            "FEATS": {}
+          },
+          {
+            "ID": 154,
+            "FORM": "a",
+            "LEMMA": "a",
+            "UPOS": "DET",
+            "XPOS": "DT",
+            "HEAD": 155,
+            "DEPREL": "det",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 753,
+              "EndChar": 754
+            },
+            "FEATS": {
+              "Definite": "Ind",
+              "PronType": "Art"
+            }
+          },
+          {
+            "ID": 155,
+            "FORM": "member",
+            "LEMMA": "member",
+            "UPOS": "NOUN",
+            "XPOS": "NN",
+            "HEAD": 153,
+            "DEPREL": "pobj",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 755,
+              "EndChar": 761
+            },
+            "FEATS": {
+              "Number": "Sing"
+            }
+          },
+          {
+            "ID": 156,
+            "FORM": "of",
+            "LEMMA": "of",
+            "UPOS": "ADP",
+            "XPOS": "IN",
+            "HEAD": 155,
+            "DEPREL": "prep",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 762,
+              "EndChar": 764
+            },
+            "FEATS": {}
+          },
+          {
+            "ID": 157,
+            "FORM": "the",
+            "LEMMA": "the",
+            "UPOS": "DET",
+            "XPOS": "DT",
+            "HEAD": 158,
+            "DEPREL": "det",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 765,
+              "EndChar": 768
+            },
+            "FEATS": {
+              "Definite": "Def",
+              "PronType": "Art"
+            }
+          },
+          {
+            "ID": 158,
+            "FORM": "court",
+            "LEMMA": "court",
+            "UPOS": "NOUN",
+            "XPOS": "NN",
+            "HEAD": 156,
+            "DEPREL": "pobj",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 769,
+              "EndChar": 774
+            },
+            "FEATS": {
+              "Number": "Sing"
+            }
+          },
+          {
+            "ID": 159,
+            "FORM": "of",
+            "LEMMA": "of",
+            "UPOS": "ADP",
+            "XPOS": "IN",
+            "HEAD": 158,
+            "DEPREL": "prep",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 775,
+              "EndChar": 777
+            },
+            "FEATS": {}
+          },
+          {
+            "ID": 160,
+            "FORM": "Margaret",
+            "LEMMA": "Margaret",
+            "UPOS": "PROPN",
+            "XPOS": "NNP",
+            "HEAD": 159,
+            "DEPREL": "pobj",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 778,
+              "EndChar": 786
+            },
+            "FEATS": {
+              "Number": "Sing"
+            }
+          },
+          {
+            "ID": 161,
+            "FORM": "of",
+            "LEMMA": "of",
+            "UPOS": "ADP",
+            "XPOS": "IN",
+            "HEAD": 160,
+            "DEPREL": "prep",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 787,
+              "EndChar": 789
+            },
+            "FEATS": {}
+          },
+          {
+            "ID": 162,
+            "FORM": "Parma",
+            "LEMMA": "Parma",
+            "UPOS": "PROPN",
+            "XPOS": "NNP",
+            "HEAD": 161,
+            "DEPREL": "pobj",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": false,
+              "StartChar": 790,
+              "EndChar": 795
+            },
+            "FEATS": {
+              "Number": "Sing"
+            }
+          },
+          {
+            "ID": 163,
+            "FORM": ",",
+            "LEMMA": ",",
+            "UPOS": "PUNCT",
+            "XPOS": ",",
+            "HEAD": 160,
+            "DEPREL": "punct",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 795,
+              "EndChar": 796
+            },
+            "FEATS": {
+              "PunctType": "Comm"
+            }
+          },
+          {
+            "ID": 164,
+            "FORM": "governor",
+            "LEMMA": "governor",
+            "UPOS": "NOUN",
+            "XPOS": "NN",
+            "HEAD": 160,
+            "DEPREL": "appos",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 797,
+              "EndChar": 805
+            },
+            "FEATS": {
+              "Number": "Sing"
+            }
+          },
+          {
+            "ID": 165,
+            "FORM": "of",
+            "LEMMA": "of",
+            "UPOS": "ADP",
+            "XPOS": "IN",
+            "HEAD": 164,
+            "DEPREL": "prep",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 806,
+              "EndChar": 808
+            },
+            "FEATS": {}
+          },
+          {
+            "ID": 166,
+            "FORM": "the",
+            "LEMMA": "the",
+            "UPOS": "DET",
+            "XPOS": "DT",
+            "HEAD": 168,
+            "DEPREL": "det",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 809,
+              "EndChar": 812
+            },
+            "FEATS": {
+              "Definite": "Def",
+              "PronType": "Art"
+            }
+          },
+          {
+            "ID": 167,
+            "FORM": "Spanish",
+            "LEMMA": "spanish",
+            "UPOS": "ADJ",
+            "XPOS": "JJ",
+            "HEAD": 168,
+            "DEPREL": "amod",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 813,
+              "EndChar": 820
+            },
+            "FEATS": {
+              "Degree": "Pos"
+            }
+          },
+          {
+            "ID": 168,
+            "FORM": "Netherlands",
+            "LEMMA": "Netherlands",
+            "UPOS": "PROPN",
+            "XPOS": "NNPS",
+            "HEAD": 165,
+            "DEPREL": "pobj",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": false,
+              "StartChar": 821,
+              "EndChar": 832
+            },
+            "FEATS": {
+              "Number": "Plur"
+            }
+          },
+          {
+            "ID": 169,
+            "FORM": ".",
+            "LEMMA": ".",
+            "UPOS": "PUNCT",
+            "XPOS": ".",
+            "HEAD": 150,
+            "DEPREL": "punct",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 832,
+              "EndChar": 833
+            },
+            "FEATS": {
+              "PunctType": "Peri"
+            }
+          }
+        ]
+      },
+      {
+        "paragraph": null,
+        "sentence": 4,
+        "text": "Unhappy with the centralisation of political power away from the local estates and with the Spanish persecution of Dutch Protestants , William joined the Dutch uprising and turned against his former masters .",
+        "words": [
+          {
+            "ID": 170,
+            "FORM": "Unhappy",
+            "LEMMA": "unhappy",
+            "UPOS": "ADJ",
+            "XPOS": "JJ",
+            "HEAD": 192,
+            "DEPREL": "advcl",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 834,
+              "EndChar": 841
+            },
+            "FEATS": {
+              "Degree": "Pos"
+            }
+          },
+          {
+            "ID": 171,
+            "FORM": "with",
+            "LEMMA": "with",
+            "UPOS": "ADP",
+            "XPOS": "IN",
+            "HEAD": 170,
+            "DEPREL": "prep",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 842,
+              "EndChar": 846
+            },
+            "FEATS": {}
+          },
+          {
+            "ID": 172,
+            "FORM": "the",
+            "LEMMA": "the",
+            "UPOS": "DET",
+            "XPOS": "DT",
+            "HEAD": 173,
+            "DEPREL": "det",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 847,
+              "EndChar": 850
+            },
+            "FEATS": {
+              "Definite": "Def",
+              "PronType": "Art"
+            }
+          },
+          {
+            "ID": 173,
+            "FORM": "centralisation",
+            "LEMMA": "centralisation",
+            "UPOS": "NOUN",
+            "XPOS": "NN",
+            "HEAD": 171,
+            "DEPREL": "pobj",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 851,
+              "EndChar": 865
+            },
+            "FEATS": {
+              "Number": "Sing"
+            }
+          },
+          {
+            "ID": 174,
+            "FORM": "of",
+            "LEMMA": "of",
+            "UPOS": "ADP",
+            "XPOS": "IN",
+            "HEAD": 173,
+            "DEPREL": "prep",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 866,
+              "EndChar": 868
+            },
+            "FEATS": {}
+          },
+          {
+            "ID": 175,
+            "FORM": "political",
+            "LEMMA": "political",
+            "UPOS": "ADJ",
+            "XPOS": "JJ",
+            "HEAD": 176,
+            "DEPREL": "amod",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 869,
+              "EndChar": 878
+            },
+            "FEATS": {
+              "Degree": "Pos"
+            }
+          },
+          {
+            "ID": 176,
+            "FORM": "power",
+            "LEMMA": "power",
+            "UPOS": "NOUN",
+            "XPOS": "NN",
+            "HEAD": 174,
+            "DEPREL": "pobj",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 879,
+              "EndChar": 884
+            },
+            "FEATS": {
+              "Number": "Sing"
+            }
+          },
+          {
+            "ID": 177,
+            "FORM": "away",
+            "LEMMA": "away",
+            "UPOS": "ADV",
+            "XPOS": "RB",
+            "HEAD": 173,
+            "DEPREL": "advmod",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 885,
+              "EndChar": 889
+            },
+            "FEATS": {}
+          },
+          {
+            "ID": 178,
+            "FORM": "from",
+            "LEMMA": "from",
+            "UPOS": "ADP",
+            "XPOS": "IN",
+            "HEAD": 177,
+            "DEPREL": "prep",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 890,
+              "EndChar": 894
+            },
+            "FEATS": {}
+          },
+          {
+            "ID": 179,
+            "FORM": "the",
+            "LEMMA": "the",
+            "UPOS": "DET",
+            "XPOS": "DT",
+            "HEAD": 181,
+            "DEPREL": "det",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 895,
+              "EndChar": 898
+            },
+            "FEATS": {
+              "Definite": "Def",
+              "PronType": "Art"
+            }
+          },
+          {
+            "ID": 180,
+            "FORM": "local",
+            "LEMMA": "local",
+            "UPOS": "ADJ",
+            "XPOS": "JJ",
+            "HEAD": 181,
+            "DEPREL": "amod",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 899,
+              "EndChar": 904
+            },
+            "FEATS": {
+              "Degree": "Pos"
+            }
+          },
+          {
+            "ID": 181,
+            "FORM": "estates",
+            "LEMMA": "estate",
+            "UPOS": "NOUN",
+            "XPOS": "NNS",
+            "HEAD": 178,
+            "DEPREL": "pobj",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 905,
+              "EndChar": 912
+            },
+            "FEATS": {
+              "Number": "Plur"
+            }
+          },
+          {
+            "ID": 182,
+            "FORM": "and",
+            "LEMMA": "and",
+            "UPOS": "CCONJ",
+            "XPOS": "CC",
+            "HEAD": 171,
+            "DEPREL": "cc",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 913,
+              "EndChar": 916
+            },
+            "FEATS": {
+              "ConjType": "Cmp"
+            }
+          },
+          {
+            "ID": 183,
+            "FORM": "with",
+            "LEMMA": "with",
+            "UPOS": "ADP",
+            "XPOS": "IN",
+            "HEAD": 171,
+            "DEPREL": "conj",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 917,
+              "EndChar": 921
+            },
+            "FEATS": {}
+          },
+          {
+            "ID": 184,
+            "FORM": "the",
+            "LEMMA": "the",
+            "UPOS": "DET",
+            "XPOS": "DT",
+            "HEAD": 186,
+            "DEPREL": "det",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 922,
+              "EndChar": 925
+            },
+            "FEATS": {
+              "Definite": "Def",
+              "PronType": "Art"
+            }
+          },
+          {
+            "ID": 185,
+            "FORM": "Spanish",
+            "LEMMA": "spanish",
+            "UPOS": "ADJ",
+            "XPOS": "JJ",
+            "HEAD": 186,
+            "DEPREL": "amod",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 926,
+              "EndChar": 933
+            },
+            "FEATS": {
+              "Degree": "Pos"
+            }
+          },
+          {
+            "ID": 186,
+            "FORM": "persecution",
+            "LEMMA": "persecution",
+            "UPOS": "NOUN",
+            "XPOS": "NN",
+            "HEAD": 183,
+            "DEPREL": "pobj",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 934,
+              "EndChar": 945
+            },
+            "FEATS": {
+              "Number": "Sing"
+            }
+          },
+          {
+            "ID": 187,
+            "FORM": "of",
+            "LEMMA": "of",
+            "UPOS": "ADP",
+            "XPOS": "IN",
+            "HEAD": 186,
+            "DEPREL": "prep",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 946,
+              "EndChar": 948
+            },
+            "FEATS": {}
+          },
+          {
+            "ID": 188,
+            "FORM": "Dutch",
+            "LEMMA": "dutch",
+            "UPOS": "ADJ",
+            "XPOS": "JJ",
+            "HEAD": 189,
+            "DEPREL": "amod",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 949,
+              "EndChar": 954
+            },
+            "FEATS": {
+              "Degree": "Pos"
+            }
+          },
+          {
+            "ID": 189,
+            "FORM": "Protestants",
+            "LEMMA": "Protestants",
+            "UPOS": "PROPN",
+            "XPOS": "NNPS",
+            "HEAD": 187,
+            "DEPREL": "pobj",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": false,
+              "StartChar": 955,
+              "EndChar": 966
+            },
+            "FEATS": {
+              "Number": "Plur"
+            }
+          },
+          {
+            "ID": 190,
+            "FORM": ",",
+            "LEMMA": ",",
+            "UPOS": "PUNCT",
+            "XPOS": ",",
+            "HEAD": 192,
+            "DEPREL": "punct",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 966,
+              "EndChar": 967
+            },
+            "FEATS": {
+              "PunctType": "Comm"
+            }
+          },
+          {
+            "ID": 191,
+            "FORM": "William",
+            "LEMMA": "William",
+            "UPOS": "PROPN",
+            "XPOS": "NNP",
+            "HEAD": 192,
+            "DEPREL": "nsubj",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 968,
+              "EndChar": 975
+            },
+            "FEATS": {
+              "Number": "Sing"
+            }
+          },
+          {
+            "ID": 192,
+            "FORM": "joined",
+            "LEMMA": "join",
+            "UPOS": "VERB",
+            "XPOS": "VBD",
+            "HEAD": 192,
+            "DEPREL": "ROOT",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 976,
+              "EndChar": 982
+            },
+            "FEATS": {
+              "Tense": "Past",
+              "VerbForm": "Fin"
+            }
+          },
+          {
+            "ID": 193,
+            "FORM": "the",
+            "LEMMA": "the",
+            "UPOS": "DET",
+            "XPOS": "DT",
+            "HEAD": 195,
+            "DEPREL": "det",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 983,
+              "EndChar": 986
+            },
+            "FEATS": {
+              "Definite": "Def",
+              "PronType": "Art"
+            }
+          },
+          {
+            "ID": 194,
+            "FORM": "Dutch",
+            "LEMMA": "dutch",
+            "UPOS": "ADJ",
+            "XPOS": "JJ",
+            "HEAD": 195,
+            "DEPREL": "amod",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 987,
+              "EndChar": 992
+            },
+            "FEATS": {
+              "Degree": "Pos"
+            }
+          },
+          {
+            "ID": 195,
+            "FORM": "uprising",
+            "LEMMA": "uprising",
+            "UPOS": "NOUN",
+            "XPOS": "NN",
+            "HEAD": 192,
+            "DEPREL": "dobj",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 993,
+              "EndChar": 1001
+            },
+            "FEATS": {
+              "Number": "Sing"
+            }
+          },
+          {
+            "ID": 196,
+            "FORM": "and",
+            "LEMMA": "and",
+            "UPOS": "CCONJ",
+            "XPOS": "CC",
+            "HEAD": 192,
+            "DEPREL": "cc",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 1002,
+              "EndChar": 1005
+            },
+            "FEATS": {
+              "ConjType": "Cmp"
+            }
+          },
+          {
+            "ID": 197,
+            "FORM": "turned",
+            "LEMMA": "turn",
+            "UPOS": "VERB",
+            "XPOS": "VBD",
+            "HEAD": 192,
+            "DEPREL": "conj",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 1006,
+              "EndChar": 1012
+            },
+            "FEATS": {
+              "Tense": "Past",
+              "VerbForm": "Fin"
+            }
+          },
+          {
+            "ID": 198,
+            "FORM": "against",
+            "LEMMA": "against",
+            "UPOS": "ADP",
+            "XPOS": "IN",
+            "HEAD": 197,
+            "DEPREL": "prep",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 1013,
+              "EndChar": 1020
+            },
+            "FEATS": {}
+          },
+          {
+            "ID": 199,
+            "FORM": "his",
+            "LEMMA": "his",
+            "UPOS": "PRON",
+            "XPOS": "PRP$",
+            "HEAD": 201,
+            "DEPREL": "poss",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 1021,
+              "EndChar": 1024
+            },
+            "FEATS": {
+              "Gender": "Masc",
+              "Number": "Sing",
+              "Person": "3",
+              "Poss": "Yes",
+              "PronType": "Prs"
+            }
+          },
+          {
+            "ID": 200,
+            "FORM": "former",
+            "LEMMA": "former",
+            "UPOS": "ADJ",
+            "XPOS": "JJ",
+            "HEAD": 201,
+            "DEPREL": "amod",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 1025,
+              "EndChar": 1031
+            },
+            "FEATS": {
+              "Degree": "Pos"
+            }
+          },
+          {
+            "ID": 201,
+            "FORM": "masters",
+            "LEMMA": "master",
+            "UPOS": "NOUN",
+            "XPOS": "NNS",
+            "HEAD": 198,
+            "DEPREL": "pobj",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": false,
+              "StartChar": 1032,
+              "EndChar": 1039
+            },
+            "FEATS": {
+              "Number": "Plur"
+            }
+          },
+          {
+            "ID": 202,
+            "FORM": ".",
+            "LEMMA": ".",
+            "UPOS": "PUNCT",
+            "XPOS": ".",
+            "HEAD": 192,
+            "DEPREL": "punct",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 1039,
+              "EndChar": 1040
+            },
+            "FEATS": {
+              "PunctType": "Peri"
+            }
+          }
+        ]
+      },
+      {
+        "paragraph": null,
+        "sentence": 5,
+        "text": "The most influential and politically capable of the rebels , he led the Dutch to several successes in the fight against the Spanish .",
+        "words": [
+          {
+            "ID": 203,
+            "FORM": "The",
+            "LEMMA": "the",
+            "UPOS": "DET",
+            "XPOS": "DT",
+            "HEAD": 205,
+            "DEPREL": "det",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 1041,
+              "EndChar": 1044
+            },
+            "FEATS": {
+              "Definite": "Def",
+              "PronType": "Art"
+            }
+          },
+          {
+            "ID": 204,
+            "FORM": "most",
+            "LEMMA": "most",
+            "UPOS": "ADV",
+            "XPOS": "RBS",
+            "HEAD": 205,
+            "DEPREL": "advmod",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 1045,
+              "EndChar": 1049
+            },
+            "FEATS": {
+              "Degree": "Sup"
+            }
+          },
+          {
+            "ID": 205,
+            "FORM": "influential",
+            "LEMMA": "influential",
+            "UPOS": "ADJ",
+            "XPOS": "JJ",
+            "HEAD": 214,
+            "DEPREL": "advcl",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 1050,
+              "EndChar": 1061
+            },
+            "FEATS": {
+              "Degree": "Pos"
+            }
+          },
+          {
+            "ID": 206,
+            "FORM": "and",
+            "LEMMA": "and",
+            "UPOS": "CCONJ",
+            "XPOS": "CC",
+            "HEAD": 205,
+            "DEPREL": "cc",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 1062,
+              "EndChar": 1065
+            },
+            "FEATS": {
+              "ConjType": "Cmp"
+            }
+          },
+          {
+            "ID": 207,
+            "FORM": "politically",
+            "LEMMA": "politically",
+            "UPOS": "ADV",
+            "XPOS": "RB",
+            "HEAD": 208,
+            "DEPREL": "advmod",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 1066,
+              "EndChar": 1077
+            },
+            "FEATS": {}
+          },
+          {
+            "ID": 208,
+            "FORM": "capable",
+            "LEMMA": "capable",
+            "UPOS": "ADJ",
+            "XPOS": "JJ",
+            "HEAD": 205,
+            "DEPREL": "conj",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 1078,
+              "EndChar": 1085
+            },
+            "FEATS": {
+              "Degree": "Pos"
+            }
+          },
+          {
+            "ID": 209,
+            "FORM": "of",
+            "LEMMA": "of",
+            "UPOS": "ADP",
+            "XPOS": "IN",
+            "HEAD": 205,
+            "DEPREL": "prep",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 1086,
+              "EndChar": 1088
+            },
+            "FEATS": {}
+          },
+          {
+            "ID": 210,
+            "FORM": "the",
+            "LEMMA": "the",
+            "UPOS": "DET",
+            "XPOS": "DT",
+            "HEAD": 211,
+            "DEPREL": "det",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 1089,
+              "EndChar": 1092
+            },
+            "FEATS": {
+              "Definite": "Def",
+              "PronType": "Art"
+            }
+          },
+          {
+            "ID": 211,
+            "FORM": "rebels",
+            "LEMMA": "rebel",
+            "UPOS": "NOUN",
+            "XPOS": "NNS",
+            "HEAD": 209,
+            "DEPREL": "pobj",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": false,
+              "StartChar": 1093,
+              "EndChar": 1099
+            },
+            "FEATS": {
+              "Number": "Plur"
+            }
+          },
+          {
+            "ID": 212,
+            "FORM": ",",
+            "LEMMA": ",",
+            "UPOS": "PUNCT",
+            "XPOS": ",",
+            "HEAD": 214,
+            "DEPREL": "punct",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 1099,
+              "EndChar": 1100
+            },
+            "FEATS": {
+              "PunctType": "Comm"
+            }
+          },
+          {
+            "ID": 213,
+            "FORM": "he",
+            "LEMMA": "he",
+            "UPOS": "PRON",
+            "XPOS": "PRP",
+            "HEAD": 214,
+            "DEPREL": "nsubj",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 1101,
+              "EndChar": 1103
+            },
+            "FEATS": {
+              "Case": "Nom",
+              "Gender": "Masc",
+              "Number": "Sing",
+              "Person": "3",
+              "PronType": "Prs"
+            }
+          },
+          {
+            "ID": 214,
+            "FORM": "led",
+            "LEMMA": "lead",
+            "UPOS": "VERB",
+            "XPOS": "VBD",
+            "HEAD": 214,
+            "DEPREL": "ROOT",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 1104,
+              "EndChar": 1107
+            },
+            "FEATS": {
+              "Tense": "Past",
+              "VerbForm": "Fin"
+            }
+          },
+          {
+            "ID": 215,
+            "FORM": "the",
+            "LEMMA": "the",
+            "UPOS": "DET",
+            "XPOS": "DT",
+            "HEAD": 216,
+            "DEPREL": "det",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 1108,
+              "EndChar": 1111
+            },
+            "FEATS": {
+              "Definite": "Def",
+              "PronType": "Art"
+            }
+          },
+          {
+            "ID": 216,
+            "FORM": "Dutch",
+            "LEMMA": "Dutch",
+            "UPOS": "PROPN",
+            "XPOS": "NNPS",
+            "HEAD": 214,
+            "DEPREL": "dobj",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 1112,
+              "EndChar": 1117
+            },
+            "FEATS": {
+              "Number": "Plur"
+            }
+          },
+          {
+            "ID": 217,
+            "FORM": "to",
+            "LEMMA": "to",
+            "UPOS": "ADP",
+            "XPOS": "IN",
+            "HEAD": 214,
+            "DEPREL": "prep",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 1118,
+              "EndChar": 1120
+            },
+            "FEATS": {}
+          },
+          {
+            "ID": 218,
+            "FORM": "several",
+            "LEMMA": "several",
+            "UPOS": "ADJ",
+            "XPOS": "JJ",
+            "HEAD": 219,
+            "DEPREL": "amod",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 1121,
+              "EndChar": 1128
+            },
+            "FEATS": {
+              "Degree": "Pos"
+            }
+          },
+          {
+            "ID": 219,
+            "FORM": "successes",
+            "LEMMA": "success",
+            "UPOS": "NOUN",
+            "XPOS": "NNS",
+            "HEAD": 217,
+            "DEPREL": "pobj",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 1129,
+              "EndChar": 1138
+            },
+            "FEATS": {
+              "Number": "Plur"
+            }
+          },
+          {
+            "ID": 220,
+            "FORM": "in",
+            "LEMMA": "in",
+            "UPOS": "ADP",
+            "XPOS": "IN",
+            "HEAD": 219,
+            "DEPREL": "prep",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 1139,
+              "EndChar": 1141
+            },
+            "FEATS": {}
+          },
+          {
+            "ID": 221,
+            "FORM": "the",
+            "LEMMA": "the",
+            "UPOS": "DET",
+            "XPOS": "DT",
+            "HEAD": 222,
+            "DEPREL": "det",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 1142,
+              "EndChar": 1145
+            },
+            "FEATS": {
+              "Definite": "Def",
+              "PronType": "Art"
+            }
+          },
+          {
+            "ID": 222,
+            "FORM": "fight",
+            "LEMMA": "fight",
+            "UPOS": "NOUN",
+            "XPOS": "NN",
+            "HEAD": 220,
+            "DEPREL": "pobj",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 1146,
+              "EndChar": 1151
+            },
+            "FEATS": {
+              "Number": "Sing"
+            }
+          },
+          {
+            "ID": 223,
+            "FORM": "against",
+            "LEMMA": "against",
+            "UPOS": "ADP",
+            "XPOS": "IN",
+            "HEAD": 222,
+            "DEPREL": "prep",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 1152,
+              "EndChar": 1159
+            },
+            "FEATS": {}
+          },
+          {
+            "ID": 224,
+            "FORM": "the",
+            "LEMMA": "the",
+            "UPOS": "DET",
+            "XPOS": "DT",
+            "HEAD": 225,
+            "DEPREL": "det",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 1160,
+              "EndChar": 1163
+            },
+            "FEATS": {
+              "Definite": "Def",
+              "PronType": "Art"
+            }
+          },
+          {
+            "ID": 225,
+            "FORM": "Spanish",
+            "LEMMA": "Spanish",
+            "UPOS": "PROPN",
+            "XPOS": "NNPS",
+            "HEAD": 223,
+            "DEPREL": "pobj",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": false,
+              "StartChar": 1164,
+              "EndChar": 1171
+            },
+            "FEATS": {
+              "Number": "Plur"
+            }
+          },
+          {
+            "ID": 226,
+            "FORM": ".",
+            "LEMMA": ".",
+            "UPOS": "PUNCT",
+            "XPOS": ".",
+            "HEAD": 214,
+            "DEPREL": "punct",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 1171,
+              "EndChar": 1172
+            },
+            "FEATS": {
+              "PunctType": "Peri"
+            }
+          }
+        ]
+      },
+      {
+        "paragraph": null,
+        "sentence": 6,
+        "text": "Declared an outlaw by the Spanish king in 1580 , he was assassinated by Balthasar G\u00e9rard in Delft in 1584 .",
+        "words": [
+          {
+            "ID": 227,
+            "FORM": "Declared",
+            "LEMMA": "declare",
+            "UPOS": "VERB",
+            "XPOS": "VBN",
+            "HEAD": 239,
+            "DEPREL": "advcl",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 1173,
+              "EndChar": 1181
+            },
+            "FEATS": {
+              "Aspect": "Perf",
+              "Tense": "Past",
+              "VerbForm": "Part"
+            }
+          },
+          {
+            "ID": 228,
+            "FORM": "an",
+            "LEMMA": "an",
+            "UPOS": "DET",
+            "XPOS": "DT",
+            "HEAD": 229,
+            "DEPREL": "det",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 1182,
+              "EndChar": 1184
+            },
+            "FEATS": {
+              "Definite": "Ind",
+              "PronType": "Art"
+            }
+          },
+          {
+            "ID": 229,
+            "FORM": "outlaw",
+            "LEMMA": "outlaw",
+            "UPOS": "NOUN",
+            "XPOS": "NN",
+            "HEAD": 227,
+            "DEPREL": "oprd",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 1185,
+              "EndChar": 1191
+            },
+            "FEATS": {
+              "Number": "Sing"
+            }
+          },
+          {
+            "ID": 230,
+            "FORM": "by",
+            "LEMMA": "by",
+            "UPOS": "ADP",
+            "XPOS": "IN",
+            "HEAD": 227,
+            "DEPREL": "agent",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 1192,
+              "EndChar": 1194
+            },
+            "FEATS": {}
+          },
+          {
+            "ID": 231,
+            "FORM": "the",
+            "LEMMA": "the",
+            "UPOS": "DET",
+            "XPOS": "DT",
+            "HEAD": 233,
+            "DEPREL": "det",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 1195,
+              "EndChar": 1198
+            },
+            "FEATS": {
+              "Definite": "Def",
+              "PronType": "Art"
+            }
+          },
+          {
+            "ID": 232,
+            "FORM": "Spanish",
+            "LEMMA": "spanish",
+            "UPOS": "ADJ",
+            "XPOS": "JJ",
+            "HEAD": 233,
+            "DEPREL": "amod",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 1199,
+              "EndChar": 1206
+            },
+            "FEATS": {
+              "Degree": "Pos"
+            }
+          },
+          {
+            "ID": 233,
+            "FORM": "king",
+            "LEMMA": "king",
+            "UPOS": "NOUN",
+            "XPOS": "NN",
+            "HEAD": 230,
+            "DEPREL": "pobj",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 1207,
+              "EndChar": 1211
+            },
+            "FEATS": {
+              "Number": "Sing"
+            }
+          },
+          {
+            "ID": 234,
+            "FORM": "in",
+            "LEMMA": "in",
+            "UPOS": "ADP",
+            "XPOS": "IN",
+            "HEAD": 227,
+            "DEPREL": "prep",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 1212,
+              "EndChar": 1214
+            },
+            "FEATS": {}
+          },
+          {
+            "ID": 235,
+            "FORM": "1580",
+            "LEMMA": "1580",
+            "UPOS": "NUM",
+            "XPOS": "CD",
+            "HEAD": 234,
+            "DEPREL": "pobj",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": false,
+              "StartChar": 1215,
+              "EndChar": 1219
+            },
+            "FEATS": {
+              "NumType": "Card"
+            }
+          },
+          {
+            "ID": 236,
+            "FORM": ",",
+            "LEMMA": ",",
+            "UPOS": "PUNCT",
+            "XPOS": ",",
+            "HEAD": 239,
+            "DEPREL": "punct",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 1219,
+              "EndChar": 1220
+            },
+            "FEATS": {
+              "PunctType": "Comm"
+            }
+          },
+          {
+            "ID": 237,
+            "FORM": "he",
+            "LEMMA": "he",
+            "UPOS": "PRON",
+            "XPOS": "PRP",
+            "HEAD": 239,
+            "DEPREL": "nsubjpass",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 1221,
+              "EndChar": 1223
+            },
+            "FEATS": {
+              "Case": "Nom",
+              "Gender": "Masc",
+              "Number": "Sing",
+              "Person": "3",
+              "PronType": "Prs"
+            }
+          },
+          {
+            "ID": 238,
+            "FORM": "was",
+            "LEMMA": "be",
+            "UPOS": "AUX",
+            "XPOS": "VBD",
+            "HEAD": 239,
+            "DEPREL": "auxpass",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 1224,
+              "EndChar": 1227
+            },
+            "FEATS": {
+              "Mood": "Ind",
+              "Number": "Sing",
+              "Person": "3",
+              "Tense": "Past",
+              "VerbForm": "Fin"
+            }
+          },
+          {
+            "ID": 239,
+            "FORM": "assassinated",
+            "LEMMA": "assassinate",
+            "UPOS": "VERB",
+            "XPOS": "VBN",
+            "HEAD": 239,
+            "DEPREL": "ROOT",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 1228,
+              "EndChar": 1240
+            },
+            "FEATS": {
+              "Aspect": "Perf",
+              "Tense": "Past",
+              "VerbForm": "Part"
+            }
+          },
+          {
+            "ID": 240,
+            "FORM": "by",
+            "LEMMA": "by",
+            "UPOS": "ADP",
+            "XPOS": "IN",
+            "HEAD": 239,
+            "DEPREL": "agent",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 1241,
+              "EndChar": 1243
+            },
+            "FEATS": {}
+          },
+          {
+            "ID": 241,
+            "FORM": "Balthasar",
+            "LEMMA": "Balthasar",
+            "UPOS": "PROPN",
+            "XPOS": "NNP",
+            "HEAD": 242,
+            "DEPREL": "compound",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 1244,
+              "EndChar": 1253
+            },
+            "FEATS": {
+              "Number": "Sing"
+            }
+          },
+          {
+            "ID": 242,
+            "FORM": "G\u00e9rard",
+            "LEMMA": "G\u00e9rard",
+            "UPOS": "PROPN",
+            "XPOS": "NNP",
+            "HEAD": 240,
+            "DEPREL": "pobj",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 1254,
+              "EndChar": 1260
+            },
+            "FEATS": {
+              "Number": "Sing"
+            }
+          },
+          {
+            "ID": 243,
+            "FORM": "in",
+            "LEMMA": "in",
+            "UPOS": "ADP",
+            "XPOS": "IN",
+            "HEAD": 239,
+            "DEPREL": "prep",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 1261,
+              "EndChar": 1263
+            },
+            "FEATS": {}
+          },
+          {
+            "ID": 244,
+            "FORM": "Delft",
+            "LEMMA": "Delft",
+            "UPOS": "PROPN",
+            "XPOS": "NNP",
+            "HEAD": 243,
+            "DEPREL": "pobj",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 1264,
+              "EndChar": 1269
+            },
+            "FEATS": {
+              "Number": "Sing"
+            }
+          },
+          {
+            "ID": 245,
+            "FORM": "in",
+            "LEMMA": "in",
+            "UPOS": "ADP",
+            "XPOS": "IN",
+            "HEAD": 239,
+            "DEPREL": "prep",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 1270,
+              "EndChar": 1272
+            },
+            "FEATS": {}
+          },
+          {
+            "ID": 246,
+            "FORM": "1584",
+            "LEMMA": "1584",
+            "UPOS": "NUM",
+            "XPOS": "CD",
+            "HEAD": 245,
+            "DEPREL": "pobj",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": false,
+              "StartChar": 1273,
+              "EndChar": 1277
+            },
+            "FEATS": {
+              "NumType": "Card"
+            }
+          },
+          {
+            "ID": 247,
+            "FORM": ".",
+            "LEMMA": ".",
+            "UPOS": "PUNCT",
+            "XPOS": ".",
+            "HEAD": 239,
+            "DEPREL": "punct",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": false,
+              "StartChar": 1277,
+              "EndChar": 1278
+            },
+            "FEATS": {
+              "PunctType": "Peri"
+            }
+          }
+        ]
+      }
+    ],
+    "entities": [
+      {
+        "ID": null,
+        "surfaceForm": "William the Silent",
+        "category": "PERSON",
+        "locationStart": 0,
+        "locationEnd": 18,
+        "tokenStart": 0,
+        "tokenEnd": 3,
+        "method": "spacy"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "24 April 1533 \u2013",
+        "category": "DATE",
+        "locationStart": 20,
+        "locationEnd": 35,
+        "tokenStart": 4,
+        "tokenEnd": 8,
+        "method": "spacy"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "William the Taciturn",
+        "category": "PERSON",
+        "locationStart": 65,
+        "locationEnd": 85,
+        "tokenStart": 16,
+        "tokenEnd": 19,
+        "method": "spacy"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "Dutch",
+        "category": "NORP",
+        "locationStart": 103,
+        "locationEnd": 108,
+        "tokenStart": 22,
+        "tokenEnd": 23,
+        "method": "spacy"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "Willem de Zwijger",
+        "category": "PERSON",
+        "locationStart": 110,
+        "locationEnd": 127,
+        "tokenStart": 24,
+        "tokenEnd": 27,
+        "method": "spacy"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "Netherlands",
+        "category": "GPE",
+        "locationStart": 155,
+        "locationEnd": 166,
+        "tokenStart": 35,
+        "tokenEnd": 36,
+        "method": "spacy"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "William of Orange",
+        "category": "PERSON",
+        "locationStart": 168,
+        "locationEnd": 185,
+        "tokenStart": 37,
+        "tokenEnd": 40,
+        "method": "spacy"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "Dutch",
+        "category": "NORP",
+        "locationStart": 187,
+        "locationEnd": 192,
+        "tokenStart": 41,
+        "tokenEnd": 42,
+        "method": "spacy"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "Willem van Oranje",
+        "category": "PERSON",
+        "locationStart": 194,
+        "locationEnd": 211,
+        "tokenStart": 43,
+        "tokenEnd": 46,
+        "method": "spacy"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "Dutch",
+        "category": "NORP",
+        "locationStart": 241,
+        "locationEnd": 246,
+        "tokenStart": 54,
+        "tokenEnd": 55,
+        "method": "spacy"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "Spanish",
+        "category": "NORP",
+        "locationStart": 266,
+        "locationEnd": 273,
+        "tokenStart": 58,
+        "tokenEnd": 59,
+        "method": "spacy"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "Habsburgs",
+        "category": "NORP",
+        "locationStart": 274,
+        "locationEnd": 283,
+        "tokenStart": 59,
+        "tokenEnd": 60,
+        "method": "spacy"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "the Eighty Years' War",
+        "category": "EVENT",
+        "locationStart": 297,
+        "locationEnd": 318,
+        "tokenStart": 63,
+        "tokenEnd": 68,
+        "method": "spacy"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "the United Provinces",
+        "category": "ORG",
+        "locationStart": 374,
+        "locationEnd": 394,
+        "tokenStart": 78,
+        "tokenEnd": 81,
+        "method": "spacy"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "1648",
+        "category": "DATE",
+        "locationStart": 398,
+        "locationEnd": 402,
+        "tokenStart": 82,
+        "tokenEnd": 83,
+        "method": "spacy"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "1544",
+        "category": "DATE",
+        "locationStart": 465,
+        "locationEnd": 469,
+        "tokenStart": 97,
+        "tokenEnd": 98,
+        "method": "spacy"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "Orange-Nassau",
+        "category": "ORG",
+        "locationStart": 504,
+        "locationEnd": 517,
+        "tokenStart": 105,
+        "tokenEnd": 108,
+        "method": "spacy"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "Netherlands",
+        "category": "GPE",
+        "locationStart": 565,
+        "locationEnd": 576,
+        "tokenStart": 117,
+        "tokenEnd": 118,
+        "method": "spacy"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "Netherlands",
+        "category": "GPE",
+        "locationStart": 585,
+        "locationEnd": 596,
+        "tokenStart": 121,
+        "tokenEnd": 122,
+        "method": "spacy"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "Father of the Fatherland",
+        "category": "PERSON",
+        "locationStart": 618,
+        "locationEnd": 642,
+        "tokenStart": 128,
+        "tokenEnd": 132,
+        "method": "spacy"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "Pater Patriae",
+        "category": "PERSON",
+        "locationStart": 644,
+        "locationEnd": 657,
+        "tokenStart": 133,
+        "tokenEnd": 135,
+        "method": "spacy"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "Dutch",
+        "category": "NORP",
+        "locationStart": 660,
+        "locationEnd": 665,
+        "tokenStart": 137,
+        "tokenEnd": 138,
+        "method": "spacy"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "Vader des Vaderlands",
+        "category": "PERSON",
+        "locationStart": 667,
+        "locationEnd": 687,
+        "tokenStart": 139,
+        "tokenEnd": 142,
+        "method": "spacy"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "William",
+        "category": "PERSON",
+        "locationStart": 710,
+        "locationEnd": 717,
+        "tokenStart": 148,
+        "tokenEnd": 149,
+        "method": "spacy"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "Habsburgs",
+        "category": "NORP",
+        "locationStart": 740,
+        "locationEnd": 749,
+        "tokenStart": 152,
+        "tokenEnd": 153,
+        "method": "spacy"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "Margaret",
+        "category": "PERSON",
+        "locationStart": 778,
+        "locationEnd": 786,
+        "tokenStart": 160,
+        "tokenEnd": 161,
+        "method": "spacy"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "Parma",
+        "category": "GPE",
+        "locationStart": 790,
+        "locationEnd": 795,
+        "tokenStart": 162,
+        "tokenEnd": 163,
+        "method": "spacy"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "Spanish",
+        "category": "NORP",
+        "locationStart": 813,
+        "locationEnd": 820,
+        "tokenStart": 167,
+        "tokenEnd": 168,
+        "method": "spacy"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "Netherlands",
+        "category": "GPE",
+        "locationStart": 821,
+        "locationEnd": 832,
+        "tokenStart": 168,
+        "tokenEnd": 169,
+        "method": "spacy"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "Spanish",
+        "category": "NORP",
+        "locationStart": 926,
+        "locationEnd": 933,
+        "tokenStart": 185,
+        "tokenEnd": 186,
+        "method": "spacy"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "Dutch",
+        "category": "NORP",
+        "locationStart": 949,
+        "locationEnd": 954,
+        "tokenStart": 188,
+        "tokenEnd": 189,
+        "method": "spacy"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "Protestants",
+        "category": "NORP",
+        "locationStart": 955,
+        "locationEnd": 966,
+        "tokenStart": 189,
+        "tokenEnd": 190,
+        "method": "spacy"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "William",
+        "category": "PERSON",
+        "locationStart": 968,
+        "locationEnd": 975,
+        "tokenStart": 191,
+        "tokenEnd": 192,
+        "method": "spacy"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "Dutch",
+        "category": "NORP",
+        "locationStart": 987,
+        "locationEnd": 992,
+        "tokenStart": 194,
+        "tokenEnd": 195,
+        "method": "spacy"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "Dutch",
+        "category": "NORP",
+        "locationStart": 1112,
+        "locationEnd": 1117,
+        "tokenStart": 216,
+        "tokenEnd": 217,
+        "method": "spacy"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "Spanish",
+        "category": "NORP",
+        "locationStart": 1164,
+        "locationEnd": 1171,
+        "tokenStart": 225,
+        "tokenEnd": 226,
+        "method": "spacy"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "Spanish",
+        "category": "NORP",
+        "locationStart": 1199,
+        "locationEnd": 1206,
+        "tokenStart": 232,
+        "tokenEnd": 233,
+        "method": "spacy"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "1580",
+        "category": "DATE",
+        "locationStart": 1215,
+        "locationEnd": 1219,
+        "tokenStart": 235,
+        "tokenEnd": 236,
+        "method": "spacy"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "Balthasar G\u00e9rard",
+        "category": "PERSON",
+        "locationStart": 1244,
+        "locationEnd": 1260,
+        "tokenStart": 241,
+        "tokenEnd": 243,
+        "method": "spacy"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "Delft",
+        "category": "GPE",
+        "locationStart": 1264,
+        "locationEnd": 1269,
+        "tokenStart": 244,
+        "tokenEnd": 245,
+        "method": "spacy"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "1584",
+        "category": "DATE",
+        "locationStart": 1273,
+        "locationEnd": 1277,
+        "tokenStart": 246,
+        "tokenEnd": 247,
+        "method": "spacy"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "United Provinces",
+        "category": "LOC",
+        "locationStart": 378,
+        "locationEnd": 394,
+        "tokenStart": 79,
+        "tokenEnd": 81,
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "Netherlands",
+        "category": "LOC",
+        "locationStart": 565,
+        "locationEnd": 576,
+        "tokenStart": 117,
+        "tokenEnd": 118,
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "Vader des Vaderlands",
+        "category": "ORG",
+        "locationStart": 667,
+        "locationEnd": 687,
+        "tokenStart": 139,
+        "tokenEnd": 142,
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "Spanish Netherlands",
+        "category": "LOC",
+        "locationStart": 813,
+        "locationEnd": 832,
+        "tokenStart": 167,
+        "tokenEnd": 169,
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "Dutch",
+        "category": "MISC",
+        "locationStart": 987,
+        "locationEnd": 992,
+        "tokenStart": 194,
+        "tokenEnd": 195,
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "Spanish",
+        "category": "MISC",
+        "locationStart": 1164,
+        "locationEnd": 1171,
+        "tokenStart": 225,
+        "tokenEnd": 226,
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "Delft",
+        "category": "LOC",
+        "locationStart": 1264,
+        "locationEnd": 1269,
+        "tokenStart": 244,
+        "tokenEnd": 245,
+        "method": "allennlp_2.9.0"
+      }
+    ],
+    "time_expressions": [
+      {
+        "ID": "t3",
+        "category": "DATE",
+        "value": "1533-04-24",
+        "surfaceForm": "24 April 1533",
+        "locationStart": 20,
+        "locationEnd": 33,
+        "method": "HeidelTime"
+      },
+      {
+        "ID": "t11",
+        "category": "DATE",
+        "value": "1584-07-10",
+        "surfaceForm": "10 July 1584",
+        "locationStart": 36,
+        "locationEnd": 48,
+        "method": "HeidelTime"
+      },
+      {
+        "ID": "t14",
+        "category": "DURATION",
+        "value": "P80Y",
+        "surfaceForm": "the Eighty Years",
+        "locationStart": 297,
+        "locationEnd": 313,
+        "method": "HeidelTime"
+      },
+      {
+        "ID": "t7",
+        "category": "DATE",
+        "value": "1568",
+        "surfaceForm": "1568",
+        "locationStart": 320,
+        "locationEnd": 324,
+        "method": "HeidelTime"
+      },
+      {
+        "ID": "t8",
+        "category": "DATE",
+        "value": "1648",
+        "surfaceForm": "1648",
+        "locationStart": 325,
+        "locationEnd": 329,
+        "method": "HeidelTime"
+      },
+      {
+        "ID": "t9",
+        "category": "DATE",
+        "value": "1648",
+        "surfaceForm": "1648",
+        "locationStart": 398,
+        "locationEnd": 402,
+        "method": "HeidelTime"
+      },
+      {
+        "ID": "t15",
+        "category": "DATE",
+        "value": "1544",
+        "surfaceForm": "1544",
+        "locationStart": 465,
+        "locationEnd": 469,
+        "method": "HeidelTime"
+      },
+      {
+        "ID": "t16",
+        "category": "DATE",
+        "value": "1580",
+        "surfaceForm": "1580",
+        "locationStart": 1215,
+        "locationEnd": 1219,
+        "method": "HeidelTime"
+      },
+      {
+        "ID": "t17",
+        "category": "DATE",
+        "value": "1584",
+        "surfaceForm": "1584",
+        "locationStart": 1273,
+        "locationEnd": 1277,
+        "method": "HeidelTime"
+      }
+    ],
+    "semantic_roles": [
+      {
+        "predicateID": "0",
+        "locationStart": 56,
+        "locationEnd": 61,
+        "surfaceForm": "known",
+        "predicateLemma": "know",
+        "arguments": [
+          {
+            "argumentID": "0_ARG1",
+            "surfaceForm": "William the Silent ( 24 April 1533 \u2013 10 July 1584 )",
+            "locationStart": 0,
+            "locationEnd": 49,
+            "category": "ARG1"
+          },
+          {
+            "argumentID": "0_ARGM-ADV",
+            "surfaceForm": "also",
+            "locationStart": 51,
+            "locationEnd": 55,
+            "category": "ARGM-ADV"
+          },
+          {
+            "argumentID": "0_ARG2",
+            "surfaceForm": "as William the Taciturn ( translated from Dutch : Willem de Zwijger",
+            "locationStart": 62,
+            "locationEnd": 127,
+            "category": "ARG2"
+          }
+        ],
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "predicateID": "1",
+        "locationStart": 87,
+        "locationEnd": 97,
+        "surfaceForm": "translated",
+        "predicateLemma": "translate",
+        "arguments": [
+          {
+            "argumentID": "1_ARG1",
+            "surfaceForm": "William the Taciturn",
+            "locationStart": 65,
+            "locationEnd": 85,
+            "category": "ARG1"
+          },
+          {
+            "argumentID": "1_ARG3",
+            "surfaceForm": "from Dutch",
+            "locationStart": 98,
+            "locationEnd": 108,
+            "category": "ARG3"
+          },
+          {
+            "argumentID": "1_ARG2",
+            "surfaceForm": "Willem de Zwijger",
+            "locationStart": 110,
+            "locationEnd": 127,
+            "category": "ARG2"
+          }
+        ],
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "predicateID": "2",
+        "locationStart": 214,
+        "locationEnd": 217,
+        "surfaceForm": "was",
+        "predicateLemma": "be",
+        "arguments": [
+          {
+            "argumentID": "2_ARG1",
+            "surfaceForm": "William the Silent ( 24 April 1533 \u2013 10 July 1584 ) , also known as William the Taciturn ( translated from Dutch : Willem de Zwijger ) , or , more commonly in the Netherlands , William of Orange ( Dutch : Willem van Oranje )",
+            "locationStart": 0,
+            "locationEnd": 212,
+            "category": "ARG1"
+          },
+          {
+            "argumentID": "2_ARG2",
+            "surfaceForm": "the main leader of the Dutch Revolt against the Spanish Habsburgs that set off the Eighty Years ' War ( 1568\u20131648 ) and resulted in the formal independence of the United Provinces in 1648",
+            "locationStart": 218,
+            "locationEnd": 402,
+            "category": "ARG2"
+          }
+        ],
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "predicateID": "3",
+        "locationStart": 289,
+        "locationEnd": 292,
+        "surfaceForm": "set",
+        "predicateLemma": "set",
+        "arguments": [
+          {
+            "argumentID": "3_ARG0",
+            "surfaceForm": "the Dutch Revolt against the Spanish Habsburgs",
+            "locationStart": 237,
+            "locationEnd": 283,
+            "category": "ARG0"
+          },
+          {
+            "argumentID": "3_R-ARG0",
+            "surfaceForm": "that",
+            "locationStart": 284,
+            "locationEnd": 288,
+            "category": "R-ARG0"
+          },
+          {
+            "argumentID": "3_ARG1",
+            "surfaceForm": "the Eighty Years ' War ( 1568\u20131648 )",
+            "locationStart": 297,
+            "locationEnd": 330,
+            "category": "ARG1"
+          }
+        ],
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "predicateID": "4",
+        "locationStart": 335,
+        "locationEnd": 343,
+        "surfaceForm": "resulted",
+        "predicateLemma": "result",
+        "arguments": [
+          {
+            "argumentID": "4_ARG1",
+            "surfaceForm": "the Dutch Revolt against the Spanish Habsburgs",
+            "locationStart": 237,
+            "locationEnd": 283,
+            "category": "ARG1"
+          },
+          {
+            "argumentID": "4_R-ARG1",
+            "surfaceForm": "that",
+            "locationStart": 284,
+            "locationEnd": 288,
+            "category": "R-ARG1"
+          },
+          {
+            "argumentID": "4_ARG2",
+            "surfaceForm": "in the formal independence of the United Provinces in 1648",
+            "locationStart": 344,
+            "locationEnd": 402,
+            "category": "ARG2"
+          }
+        ],
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "predicateID": "0",
+        "locationStart": 404,
+        "locationEnd": 408,
+        "surfaceForm": "Born",
+        "predicateLemma": "bear",
+        "arguments": [
+          {
+            "argumentID": "0_ARGM-GOL",
+            "surfaceForm": "into the House of Nassau",
+            "locationStart": 409,
+            "locationEnd": 433,
+            "category": "ARGM-GOL"
+          },
+          {
+            "argumentID": "0_ARG1",
+            "surfaceForm": "he",
+            "locationStart": 435,
+            "locationEnd": 437,
+            "category": "ARG1"
+          }
+        ],
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "predicateID": "1",
+        "locationStart": 438,
+        "locationEnd": 444,
+        "surfaceForm": "became",
+        "predicateLemma": "become",
+        "arguments": [
+          {
+            "argumentID": "1_R-ARG1",
+            "surfaceForm": "Born into the House of Nassau",
+            "locationStart": 404,
+            "locationEnd": 433,
+            "category": "R-ARG1"
+          },
+          {
+            "argumentID": "1_ARG1",
+            "surfaceForm": "he",
+            "locationStart": 435,
+            "locationEnd": 437,
+            "category": "ARG1"
+          },
+          {
+            "argumentID": "1_ARG2",
+            "surfaceForm": "Prince of Orange",
+            "locationStart": 445,
+            "locationEnd": 461,
+            "category": "ARG2"
+          },
+          {
+            "argumentID": "1_ARGM-TMP",
+            "surfaceForm": "in 1544",
+            "locationStart": 462,
+            "locationEnd": 469,
+            "category": "ARGM-TMP"
+          }
+        ],
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "predicateID": "2",
+        "locationStart": 474,
+        "locationEnd": 476,
+        "surfaceForm": "is",
+        "predicateLemma": "be",
+        "arguments": [
+          {
+            "argumentID": "2_R-ARG1",
+            "surfaceForm": "Born into the House of Nassau",
+            "locationStart": 404,
+            "locationEnd": 433,
+            "category": "R-ARG1"
+          },
+          {
+            "argumentID": "2_ARG1",
+            "surfaceForm": "he",
+            "locationStart": 435,
+            "locationEnd": 437,
+            "category": "ARG1"
+          },
+          {
+            "argumentID": "2_ARGM-ADV",
+            "surfaceForm": "thereby",
+            "locationStart": 477,
+            "locationEnd": 484,
+            "category": "ARGM-ADV"
+          },
+          {
+            "argumentID": "2_ARG2",
+            "surfaceForm": "the founder of the Orange - Nassau branch and the ancestor of the monarchy of the Netherlands",
+            "locationStart": 485,
+            "locationEnd": 576,
+            "category": "ARG2"
+          }
+        ],
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "predicateID": "1",
+        "locationStart": 609,
+        "locationEnd": 614,
+        "surfaceForm": "known",
+        "predicateLemma": "know",
+        "arguments": [
+          {
+            "argumentID": "1_ARGM-LOC",
+            "surfaceForm": "In the Netherlands",
+            "locationStart": 578,
+            "locationEnd": 596,
+            "category": "ARGM-LOC"
+          },
+          {
+            "argumentID": "1_ARG1",
+            "surfaceForm": "he",
+            "locationStart": 598,
+            "locationEnd": 600,
+            "category": "ARG1"
+          },
+          {
+            "argumentID": "1_ARGM-ADV",
+            "surfaceForm": "also",
+            "locationStart": 604,
+            "locationEnd": 608,
+            "category": "ARGM-ADV"
+          },
+          {
+            "argumentID": "1_ARG2",
+            "surfaceForm": "as Father of the Fatherland ( Pater Patriae ) ( Dutch : Vader des Vaderlands )",
+            "locationStart": 615,
+            "locationEnd": 688,
+            "category": "ARG2"
+          }
+        ],
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "predicateID": "0",
+        "locationStart": 729,
+        "locationEnd": 735,
+        "surfaceForm": "served",
+        "predicateLemma": "serve",
+        "arguments": [
+          {
+            "argumentID": "0_R-ARG0",
+            "surfaceForm": "A wealthy nobleman",
+            "locationStart": 690,
+            "locationEnd": 708,
+            "category": "R-ARG0"
+          },
+          {
+            "argumentID": "0_ARG0",
+            "surfaceForm": "William",
+            "locationStart": 710,
+            "locationEnd": 717,
+            "category": "ARG0"
+          },
+          {
+            "argumentID": "0_ARGM-TMP",
+            "surfaceForm": "originally",
+            "locationStart": 718,
+            "locationEnd": 728,
+            "category": "ARGM-TMP"
+          },
+          {
+            "argumentID": "0_ARG2",
+            "surfaceForm": "the Habsburgs",
+            "locationStart": 736,
+            "locationEnd": 749,
+            "category": "ARG2"
+          },
+          {
+            "argumentID": "0_ARG1",
+            "surfaceForm": "as a member of the court of Margaret of Parma , governor of the Spanish Netherlands",
+            "locationStart": 750,
+            "locationEnd": 832,
+            "category": "ARG1"
+          }
+        ],
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "predicateID": "0",
+        "locationStart": 976,
+        "locationEnd": 982,
+        "surfaceForm": "joined",
+        "predicateLemma": "join",
+        "arguments": [
+          {
+            "argumentID": "0_R-ARG0",
+            "surfaceForm": "Unhappy with the centralisation of political power away from the local estates and with the Spanish persecution of Dutch Protestants",
+            "locationStart": 834,
+            "locationEnd": 966,
+            "category": "R-ARG0"
+          },
+          {
+            "argumentID": "0_ARG0",
+            "surfaceForm": "William",
+            "locationStart": 968,
+            "locationEnd": 975,
+            "category": "ARG0"
+          },
+          {
+            "argumentID": "0_ARG1",
+            "surfaceForm": "the Dutch uprising",
+            "locationStart": 983,
+            "locationEnd": 1001,
+            "category": "ARG1"
+          }
+        ],
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "predicateID": "1",
+        "locationStart": 1006,
+        "locationEnd": 1012,
+        "surfaceForm": "turned",
+        "predicateLemma": "turn",
+        "arguments": [
+          {
+            "argumentID": "1_R-ARG1",
+            "surfaceForm": "Unhappy with the centralisation of political power away from the local estates and with the Spanish persecution of Dutch Protestants",
+            "locationStart": 834,
+            "locationEnd": 966,
+            "category": "R-ARG1"
+          },
+          {
+            "argumentID": "1_ARG1",
+            "surfaceForm": "William",
+            "locationStart": 968,
+            "locationEnd": 975,
+            "category": "ARG1"
+          },
+          {
+            "argumentID": "1_ARG2",
+            "surfaceForm": "against his former masters",
+            "locationStart": 1013,
+            "locationEnd": 1039,
+            "category": "ARG2"
+          }
+        ],
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "predicateID": "0",
+        "locationStart": 1104,
+        "locationEnd": 1107,
+        "surfaceForm": "led",
+        "predicateLemma": "lead",
+        "arguments": [
+          {
+            "argumentID": "0_R-ARG0",
+            "surfaceForm": "The most influential and politically capable of the rebels",
+            "locationStart": 1041,
+            "locationEnd": 1099,
+            "category": "R-ARG0"
+          },
+          {
+            "argumentID": "0_ARG0",
+            "surfaceForm": "he",
+            "locationStart": 1101,
+            "locationEnd": 1103,
+            "category": "ARG0"
+          },
+          {
+            "argumentID": "0_ARG1",
+            "surfaceForm": "the Dutch",
+            "locationStart": 1108,
+            "locationEnd": 1117,
+            "category": "ARG1"
+          },
+          {
+            "argumentID": "0_ARG4",
+            "surfaceForm": "to several successes in the fight against the Spanish",
+            "locationStart": 1118,
+            "locationEnd": 1171,
+            "category": "ARG4"
+          }
+        ],
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "predicateID": "0",
+        "locationStart": 1173,
+        "locationEnd": 1181,
+        "surfaceForm": "Declared",
+        "predicateLemma": "declare",
+        "arguments": [
+          {
+            "argumentID": "0_ARG1",
+            "surfaceForm": "an outlaw",
+            "locationStart": 1182,
+            "locationEnd": 1191,
+            "category": "ARG1"
+          },
+          {
+            "argumentID": "0_ARG0",
+            "surfaceForm": "by the Spanish king",
+            "locationStart": 1192,
+            "locationEnd": 1211,
+            "category": "ARG0"
+          },
+          {
+            "argumentID": "0_ARGM-TMP",
+            "surfaceForm": "in 1580",
+            "locationStart": 1212,
+            "locationEnd": 1219,
+            "category": "ARGM-TMP"
+          }
+        ],
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "predicateID": "2",
+        "locationStart": 1228,
+        "locationEnd": 1240,
+        "surfaceForm": "assassinated",
+        "predicateLemma": "assassinate",
+        "arguments": [
+          {
+            "argumentID": "2_ARGM-PRD",
+            "surfaceForm": "Declared an outlaw by the Spanish king in 1580",
+            "locationStart": 1173,
+            "locationEnd": 1219,
+            "category": "ARGM-PRD"
+          },
+          {
+            "argumentID": "2_ARG1",
+            "surfaceForm": "he",
+            "locationStart": 1221,
+            "locationEnd": 1223,
+            "category": "ARG1"
+          },
+          {
+            "argumentID": "2_ARG0",
+            "surfaceForm": "by Balthasar G\u00e9rard",
+            "locationStart": 1241,
+            "locationEnd": 1260,
+            "category": "ARG0"
+          },
+          {
+            "argumentID": "2_ARGM-LOC",
+            "surfaceForm": "in Delft",
+            "locationStart": 1261,
+            "locationEnd": 1269,
+            "category": "ARGM-LOC"
+          },
+          {
+            "argumentID": "2_ARGM-TMP",
+            "surfaceForm": "in 1584",
+            "locationStart": 1270,
+            "locationEnd": 1277,
+            "category": "ARGM-TMP"
+          }
+        ],
+        "method": "allennlp_2.9.0"
+      }
+    ]
+  }
+}

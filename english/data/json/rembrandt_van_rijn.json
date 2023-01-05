@@ -1,0 +1,1212 @@
+{
+  "status": "200",
+  "data": {
+    "text": "Titus van Rijn (22 September 1641 \u2013 4 September 1668) was the fourth and only surviving child of Rembrandt Harmenszoon van Rijn and Saskia van Uylenburgh. Titus is best known as a figure or model in his father's paintings and studies but also because of a legal case as preferential heir.",
+    "morphology": [
+      {
+        "paragraph": null,
+        "sentence": 0,
+        "text": "Titus van Rijn ( 22 September 1641 \u2013 4 September 1668 ) was the fourth and only surviving child of Rembrandt Harmenszoon van Rijn and Saskia van Uylenburgh .",
+        "words": [
+          {
+            "ID": 0,
+            "FORM": "Titus",
+            "LEMMA": "Titus",
+            "UPOS": "PROPN",
+            "XPOS": "NNP",
+            "HEAD": 2,
+            "DEPREL": "compound",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 0,
+              "EndChar": 5
+            },
+            "FEATS": {
+              "Number": "Sing"
+            }
+          },
+          {
+            "ID": 1,
+            "FORM": "van",
+            "LEMMA": "van",
+            "UPOS": "PROPN",
+            "XPOS": "NNP",
+            "HEAD": 2,
+            "DEPREL": "compound",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 6,
+              "EndChar": 9
+            },
+            "FEATS": {
+              "Number": "Sing"
+            }
+          },
+          {
+            "ID": 2,
+            "FORM": "Rijn",
+            "LEMMA": "Rijn",
+            "UPOS": "PROPN",
+            "XPOS": "NNP",
+            "HEAD": 12,
+            "DEPREL": "nsubj",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 10,
+              "EndChar": 14
+            },
+            "FEATS": {
+              "Number": "Sing"
+            }
+          },
+          {
+            "ID": 3,
+            "FORM": "(",
+            "LEMMA": "(",
+            "UPOS": "PUNCT",
+            "XPOS": "-LRB-",
+            "HEAD": 5,
+            "DEPREL": "punct",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": false,
+              "StartChar": 15,
+              "EndChar": 16
+            },
+            "FEATS": {
+              "PunctSide": "Ini",
+              "PunctType": "Brck"
+            }
+          },
+          {
+            "ID": 4,
+            "FORM": "22",
+            "LEMMA": "22",
+            "UPOS": "NUM",
+            "XPOS": "CD",
+            "HEAD": 5,
+            "DEPREL": "nummod",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 16,
+              "EndChar": 18
+            },
+            "FEATS": {
+              "NumType": "Card"
+            }
+          },
+          {
+            "ID": 5,
+            "FORM": "September",
+            "LEMMA": "September",
+            "UPOS": "PROPN",
+            "XPOS": "NNP",
+            "HEAD": 2,
+            "DEPREL": "appos",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 19,
+              "EndChar": 28
+            },
+            "FEATS": {
+              "Number": "Sing"
+            }
+          },
+          {
+            "ID": 6,
+            "FORM": "1641",
+            "LEMMA": "1641",
+            "UPOS": "NUM",
+            "XPOS": "CD",
+            "HEAD": 5,
+            "DEPREL": "nummod",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 29,
+              "EndChar": 33
+            },
+            "FEATS": {
+              "NumType": "Card"
+            }
+          },
+          {
+            "ID": 7,
+            "FORM": "\u2013",
+            "LEMMA": "\u2013",
+            "UPOS": "PUNCT",
+            "XPOS": "``",
+            "HEAD": 2,
+            "DEPREL": "punct",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 34,
+              "EndChar": 35
+            },
+            "FEATS": {
+              "PunctSide": "Ini",
+              "PunctType": "Quot"
+            }
+          },
+          {
+            "ID": 8,
+            "FORM": "4",
+            "LEMMA": "4",
+            "UPOS": "NUM",
+            "XPOS": "CD",
+            "HEAD": 9,
+            "DEPREL": "nummod",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 36,
+              "EndChar": 37
+            },
+            "FEATS": {
+              "NumType": "Card"
+            }
+          },
+          {
+            "ID": 9,
+            "FORM": "September",
+            "LEMMA": "September",
+            "UPOS": "PROPN",
+            "XPOS": "NNP",
+            "HEAD": 7,
+            "DEPREL": "npadvmod",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 38,
+              "EndChar": 47
+            },
+            "FEATS": {
+              "Number": "Sing"
+            }
+          },
+          {
+            "ID": 10,
+            "FORM": "1668",
+            "LEMMA": "1668",
+            "UPOS": "NUM",
+            "XPOS": "CD",
+            "HEAD": 9,
+            "DEPREL": "nummod",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": false,
+              "StartChar": 48,
+              "EndChar": 52
+            },
+            "FEATS": {
+              "NumType": "Card"
+            }
+          },
+          {
+            "ID": 11,
+            "FORM": ")",
+            "LEMMA": ")",
+            "UPOS": "PUNCT",
+            "XPOS": "-RRB-",
+            "HEAD": 2,
+            "DEPREL": "punct",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 52,
+              "EndChar": 53
+            },
+            "FEATS": {
+              "PunctSide": "Fin",
+              "PunctType": "Brck"
+            }
+          },
+          {
+            "ID": 12,
+            "FORM": "was",
+            "LEMMA": "be",
+            "UPOS": "AUX",
+            "XPOS": "VBD",
+            "HEAD": 12,
+            "DEPREL": "ROOT",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 54,
+              "EndChar": 57
+            },
+            "FEATS": {
+              "Mood": "Ind",
+              "Number": "Sing",
+              "Person": "3",
+              "Tense": "Past",
+              "VerbForm": "Fin"
+            }
+          },
+          {
+            "ID": 13,
+            "FORM": "the",
+            "LEMMA": "the",
+            "UPOS": "DET",
+            "XPOS": "DT",
+            "HEAD": 18,
+            "DEPREL": "det",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 58,
+              "EndChar": 61
+            },
+            "FEATS": {
+              "Definite": "Def",
+              "PronType": "Art"
+            }
+          },
+          {
+            "ID": 14,
+            "FORM": "fourth",
+            "LEMMA": "fourth",
+            "UPOS": "ADJ",
+            "XPOS": "JJ",
+            "HEAD": 18,
+            "DEPREL": "amod",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 62,
+              "EndChar": 68
+            },
+            "FEATS": {
+              "Degree": "Pos"
+            }
+          },
+          {
+            "ID": 15,
+            "FORM": "and",
+            "LEMMA": "and",
+            "UPOS": "CCONJ",
+            "XPOS": "CC",
+            "HEAD": 14,
+            "DEPREL": "cc",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 69,
+              "EndChar": 72
+            },
+            "FEATS": {
+              "ConjType": "Cmp"
+            }
+          },
+          {
+            "ID": 16,
+            "FORM": "only",
+            "LEMMA": "only",
+            "UPOS": "ADJ",
+            "XPOS": "JJ",
+            "HEAD": 14,
+            "DEPREL": "conj",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 73,
+              "EndChar": 77
+            },
+            "FEATS": {
+              "Degree": "Pos"
+            }
+          },
+          {
+            "ID": 17,
+            "FORM": "surviving",
+            "LEMMA": "survive",
+            "UPOS": "VERB",
+            "XPOS": "VBG",
+            "HEAD": 18,
+            "DEPREL": "amod",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 78,
+              "EndChar": 87
+            },
+            "FEATS": {
+              "Aspect": "Prog",
+              "Tense": "Pres",
+              "VerbForm": "Part"
+            }
+          },
+          {
+            "ID": 18,
+            "FORM": "child",
+            "LEMMA": "child",
+            "UPOS": "NOUN",
+            "XPOS": "NN",
+            "HEAD": 12,
+            "DEPREL": "attr",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 88,
+              "EndChar": 93
+            },
+            "FEATS": {
+              "Number": "Sing"
+            }
+          },
+          {
+            "ID": 19,
+            "FORM": "of",
+            "LEMMA": "of",
+            "UPOS": "ADP",
+            "XPOS": "IN",
+            "HEAD": 18,
+            "DEPREL": "prep",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 94,
+              "EndChar": 96
+            },
+            "FEATS": {}
+          },
+          {
+            "ID": 20,
+            "FORM": "Rembrandt",
+            "LEMMA": "Rembrandt",
+            "UPOS": "PROPN",
+            "XPOS": "NNP",
+            "HEAD": 23,
+            "DEPREL": "compound",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 97,
+              "EndChar": 106
+            },
+            "FEATS": {
+              "Number": "Sing"
+            }
+          },
+          {
+            "ID": 21,
+            "FORM": "Harmenszoon",
+            "LEMMA": "Harmenszoon",
+            "UPOS": "PROPN",
+            "XPOS": "NNP",
+            "HEAD": 23,
+            "DEPREL": "compound",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 107,
+              "EndChar": 118
+            },
+            "FEATS": {
+              "Number": "Sing"
+            }
+          },
+          {
+            "ID": 22,
+            "FORM": "van",
+            "LEMMA": "van",
+            "UPOS": "PROPN",
+            "XPOS": "NNP",
+            "HEAD": 23,
+            "DEPREL": "compound",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 119,
+              "EndChar": 122
+            },
+            "FEATS": {
+              "Number": "Sing"
+            }
+          },
+          {
+            "ID": 23,
+            "FORM": "Rijn",
+            "LEMMA": "Rijn",
+            "UPOS": "PROPN",
+            "XPOS": "NNP",
+            "HEAD": 19,
+            "DEPREL": "pobj",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 123,
+              "EndChar": 127
+            },
+            "FEATS": {
+              "Number": "Sing"
+            }
+          },
+          {
+            "ID": 24,
+            "FORM": "and",
+            "LEMMA": "and",
+            "UPOS": "CCONJ",
+            "XPOS": "CC",
+            "HEAD": 23,
+            "DEPREL": "cc",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 128,
+              "EndChar": 131
+            },
+            "FEATS": {
+              "ConjType": "Cmp"
+            }
+          },
+          {
+            "ID": 25,
+            "FORM": "Saskia",
+            "LEMMA": "Saskia",
+            "UPOS": "PROPN",
+            "XPOS": "NNP",
+            "HEAD": 27,
+            "DEPREL": "compound",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 132,
+              "EndChar": 138
+            },
+            "FEATS": {
+              "Number": "Sing"
+            }
+          },
+          {
+            "ID": 26,
+            "FORM": "van",
+            "LEMMA": "van",
+            "UPOS": "PROPN",
+            "XPOS": "NNP",
+            "HEAD": 27,
+            "DEPREL": "compound",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 139,
+              "EndChar": 142
+            },
+            "FEATS": {
+              "Number": "Sing"
+            }
+          },
+          {
+            "ID": 27,
+            "FORM": "Uylenburgh",
+            "LEMMA": "Uylenburgh",
+            "UPOS": "PROPN",
+            "XPOS": "NNP",
+            "HEAD": 23,
+            "DEPREL": "conj",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": false,
+              "StartChar": 143,
+              "EndChar": 153
+            },
+            "FEATS": {
+              "Number": "Sing"
+            }
+          },
+          {
+            "ID": 28,
+            "FORM": ".",
+            "LEMMA": ".",
+            "UPOS": "PUNCT",
+            "XPOS": ".",
+            "HEAD": 12,
+            "DEPREL": "punct",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 153,
+              "EndChar": 154
+            },
+            "FEATS": {
+              "PunctType": "Peri"
+            }
+          }
+        ]
+      },
+      {
+        "paragraph": null,
+        "sentence": 1,
+        "text": "Titus is best known as a figure or model in his father 's paintings and studies but also because of a legal case as preferential heir .",
+        "words": [
+          {
+            "ID": 29,
+            "FORM": "Titus",
+            "LEMMA": "Titus",
+            "UPOS": "PROPN",
+            "XPOS": "NNP",
+            "HEAD": 32,
+            "DEPREL": "nsubjpass",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 155,
+              "EndChar": 160
+            },
+            "FEATS": {
+              "Number": "Sing"
+            }
+          },
+          {
+            "ID": 30,
+            "FORM": "is",
+            "LEMMA": "be",
+            "UPOS": "AUX",
+            "XPOS": "VBZ",
+            "HEAD": 32,
+            "DEPREL": "auxpass",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 161,
+              "EndChar": 163
+            },
+            "FEATS": {
+              "Mood": "Ind",
+              "Number": "Sing",
+              "Person": "3",
+              "Tense": "Pres",
+              "VerbForm": "Fin"
+            }
+          },
+          {
+            "ID": 31,
+            "FORM": "best",
+            "LEMMA": "well",
+            "UPOS": "ADV",
+            "XPOS": "RBS",
+            "HEAD": 32,
+            "DEPREL": "advmod",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 164,
+              "EndChar": 168
+            },
+            "FEATS": {
+              "Degree": "Sup"
+            }
+          },
+          {
+            "ID": 32,
+            "FORM": "known",
+            "LEMMA": "know",
+            "UPOS": "VERB",
+            "XPOS": "VBN",
+            "HEAD": 32,
+            "DEPREL": "ROOT",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 169,
+              "EndChar": 174
+            },
+            "FEATS": {
+              "Aspect": "Perf",
+              "Tense": "Past",
+              "VerbForm": "Part"
+            }
+          },
+          {
+            "ID": 33,
+            "FORM": "as",
+            "LEMMA": "as",
+            "UPOS": "ADP",
+            "XPOS": "IN",
+            "HEAD": 32,
+            "DEPREL": "prep",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 175,
+              "EndChar": 177
+            },
+            "FEATS": {}
+          },
+          {
+            "ID": 34,
+            "FORM": "a",
+            "LEMMA": "a",
+            "UPOS": "DET",
+            "XPOS": "DT",
+            "HEAD": 35,
+            "DEPREL": "det",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 178,
+              "EndChar": 179
+            },
+            "FEATS": {
+              "Definite": "Ind",
+              "PronType": "Art"
+            }
+          },
+          {
+            "ID": 35,
+            "FORM": "figure",
+            "LEMMA": "figure",
+            "UPOS": "NOUN",
+            "XPOS": "NN",
+            "HEAD": 33,
+            "DEPREL": "pobj",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 180,
+              "EndChar": 186
+            },
+            "FEATS": {
+              "Number": "Sing"
+            }
+          },
+          {
+            "ID": 36,
+            "FORM": "or",
+            "LEMMA": "or",
+            "UPOS": "CCONJ",
+            "XPOS": "CC",
+            "HEAD": 35,
+            "DEPREL": "cc",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 187,
+              "EndChar": 189
+            },
+            "FEATS": {
+              "ConjType": "Cmp"
+            }
+          },
+          {
+            "ID": 37,
+            "FORM": "model",
+            "LEMMA": "model",
+            "UPOS": "NOUN",
+            "XPOS": "NN",
+            "HEAD": 35,
+            "DEPREL": "conj",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 190,
+              "EndChar": 195
+            },
+            "FEATS": {
+              "Number": "Sing"
+            }
+          },
+          {
+            "ID": 38,
+            "FORM": "in",
+            "LEMMA": "in",
+            "UPOS": "ADP",
+            "XPOS": "IN",
+            "HEAD": 32,
+            "DEPREL": "prep",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 196,
+              "EndChar": 198
+            },
+            "FEATS": {}
+          },
+          {
+            "ID": 39,
+            "FORM": "his",
+            "LEMMA": "his",
+            "UPOS": "PRON",
+            "XPOS": "PRP$",
+            "HEAD": 40,
+            "DEPREL": "poss",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 199,
+              "EndChar": 202
+            },
+            "FEATS": {
+              "Gender": "Masc",
+              "Number": "Sing",
+              "Person": "3",
+              "Poss": "Yes",
+              "PronType": "Prs"
+            }
+          },
+          {
+            "ID": 40,
+            "FORM": "father",
+            "LEMMA": "father",
+            "UPOS": "NOUN",
+            "XPOS": "NN",
+            "HEAD": 42,
+            "DEPREL": "poss",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": false,
+              "StartChar": 203,
+              "EndChar": 209
+            },
+            "FEATS": {
+              "Number": "Sing"
+            }
+          },
+          {
+            "ID": 41,
+            "FORM": "'s",
+            "LEMMA": "'s",
+            "UPOS": "PART",
+            "XPOS": "POS",
+            "HEAD": 40,
+            "DEPREL": "case",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 209,
+              "EndChar": 211
+            },
+            "FEATS": {}
+          },
+          {
+            "ID": 42,
+            "FORM": "paintings",
+            "LEMMA": "painting",
+            "UPOS": "NOUN",
+            "XPOS": "NNS",
+            "HEAD": 38,
+            "DEPREL": "pobj",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 212,
+              "EndChar": 221
+            },
+            "FEATS": {
+              "Number": "Plur"
+            }
+          },
+          {
+            "ID": 43,
+            "FORM": "and",
+            "LEMMA": "and",
+            "UPOS": "CCONJ",
+            "XPOS": "CC",
+            "HEAD": 42,
+            "DEPREL": "cc",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 222,
+              "EndChar": 225
+            },
+            "FEATS": {
+              "ConjType": "Cmp"
+            }
+          },
+          {
+            "ID": 44,
+            "FORM": "studies",
+            "LEMMA": "study",
+            "UPOS": "NOUN",
+            "XPOS": "NNS",
+            "HEAD": 42,
+            "DEPREL": "conj",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 226,
+              "EndChar": 233
+            },
+            "FEATS": {
+              "Number": "Plur"
+            }
+          },
+          {
+            "ID": 45,
+            "FORM": "but",
+            "LEMMA": "but",
+            "UPOS": "CCONJ",
+            "XPOS": "CC",
+            "HEAD": 32,
+            "DEPREL": "cc",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 234,
+              "EndChar": 237
+            },
+            "FEATS": {
+              "ConjType": "Cmp"
+            }
+          },
+          {
+            "ID": 46,
+            "FORM": "also",
+            "LEMMA": "also",
+            "UPOS": "ADV",
+            "XPOS": "RB",
+            "HEAD": 45,
+            "DEPREL": "advmod",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 238,
+              "EndChar": 242
+            },
+            "FEATS": {}
+          },
+          {
+            "ID": 47,
+            "FORM": "because",
+            "LEMMA": "because",
+            "UPOS": "SCONJ",
+            "XPOS": "IN",
+            "HEAD": 45,
+            "DEPREL": "prep",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 243,
+              "EndChar": 250
+            },
+            "FEATS": {}
+          },
+          {
+            "ID": 48,
+            "FORM": "of",
+            "LEMMA": "of",
+            "UPOS": "ADP",
+            "XPOS": "IN",
+            "HEAD": 47,
+            "DEPREL": "pcomp",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 251,
+              "EndChar": 253
+            },
+            "FEATS": {}
+          },
+          {
+            "ID": 49,
+            "FORM": "a",
+            "LEMMA": "a",
+            "UPOS": "DET",
+            "XPOS": "DT",
+            "HEAD": 51,
+            "DEPREL": "det",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 254,
+              "EndChar": 255
+            },
+            "FEATS": {
+              "Definite": "Ind",
+              "PronType": "Art"
+            }
+          },
+          {
+            "ID": 50,
+            "FORM": "legal",
+            "LEMMA": "legal",
+            "UPOS": "ADJ",
+            "XPOS": "JJ",
+            "HEAD": 51,
+            "DEPREL": "amod",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 256,
+              "EndChar": 261
+            },
+            "FEATS": {
+              "Degree": "Pos"
+            }
+          },
+          {
+            "ID": 51,
+            "FORM": "case",
+            "LEMMA": "case",
+            "UPOS": "NOUN",
+            "XPOS": "NN",
+            "HEAD": 47,
+            "DEPREL": "pobj",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 262,
+              "EndChar": 266
+            },
+            "FEATS": {
+              "Number": "Sing"
+            }
+          },
+          {
+            "ID": 52,
+            "FORM": "as",
+            "LEMMA": "as",
+            "UPOS": "ADP",
+            "XPOS": "IN",
+            "HEAD": 51,
+            "DEPREL": "prep",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 267,
+              "EndChar": 269
+            },
+            "FEATS": {}
+          },
+          {
+            "ID": 53,
+            "FORM": "preferential",
+            "LEMMA": "preferential",
+            "UPOS": "ADJ",
+            "XPOS": "JJ",
+            "HEAD": 54,
+            "DEPREL": "amod",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 270,
+              "EndChar": 282
+            },
+            "FEATS": {
+              "Degree": "Pos"
+            }
+          },
+          {
+            "ID": 54,
+            "FORM": "heir",
+            "LEMMA": "heir",
+            "UPOS": "NOUN",
+            "XPOS": "NN",
+            "HEAD": 52,
+            "DEPREL": "pobj",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": false,
+              "StartChar": 283,
+              "EndChar": 287
+            },
+            "FEATS": {
+              "Number": "Sing"
+            }
+          },
+          {
+            "ID": 55,
+            "FORM": ".",
+            "LEMMA": ".",
+            "UPOS": "PUNCT",
+            "XPOS": ".",
+            "HEAD": 32,
+            "DEPREL": "punct",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": false,
+              "StartChar": 287,
+              "EndChar": 288
+            },
+            "FEATS": {
+              "PunctType": "Peri"
+            }
+          }
+        ]
+      }
+    ],
+    "entities": [
+      {
+        "ID": null,
+        "surfaceForm": "Titus van Rijn",
+        "category": "PERSON",
+        "locationStart": 0,
+        "locationEnd": 14,
+        "tokenStart": 0,
+        "tokenEnd": 3,
+        "method": "spacy"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "22 September 1641 \u2013",
+        "category": "DATE",
+        "locationStart": 16,
+        "locationEnd": 35,
+        "tokenStart": 4,
+        "tokenEnd": 8,
+        "method": "spacy"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "fourth",
+        "category": "ORDINAL",
+        "locationStart": 62,
+        "locationEnd": 68,
+        "tokenStart": 14,
+        "tokenEnd": 15,
+        "method": "spacy"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "Rembrandt Harmenszoon van Rijn",
+        "category": "PERSON",
+        "locationStart": 97,
+        "locationEnd": 127,
+        "tokenStart": 20,
+        "tokenEnd": 24,
+        "method": "spacy"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "Saskia van Uylenburgh",
+        "category": "PERSON",
+        "locationStart": 132,
+        "locationEnd": 153,
+        "tokenStart": 25,
+        "tokenEnd": 28,
+        "method": "spacy"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "Titus",
+        "category": "PERSON",
+        "locationStart": 155,
+        "locationEnd": 160,
+        "tokenStart": 29,
+        "tokenEnd": 30,
+        "method": "spacy"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "Saskia van Uylenburgh",
+        "category": "PER",
+        "locationStart": 132,
+        "locationEnd": 153,
+        "tokenStart": 25,
+        "tokenEnd": 28,
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "Titus",
+        "category": "PER",
+        "locationStart": 155,
+        "locationEnd": 160,
+        "tokenStart": 29,
+        "tokenEnd": 30,
+        "method": "allennlp_2.9.0"
+      }
+    ],
+    "time_expressions": [
+      {
+        "ID": "t3",
+        "category": "DATE",
+        "value": "1641-09-22",
+        "surfaceForm": "22 September 1641",
+        "locationStart": 16,
+        "locationEnd": 33,
+        "method": "HeidelTime"
+      },
+      {
+        "ID": "t8",
+        "category": "DATE",
+        "value": "1668-09-04",
+        "surfaceForm": "4 September 1668",
+        "locationStart": 36,
+        "locationEnd": 52,
+        "method": "HeidelTime"
+      }
+    ],
+    "semantic_roles": [
+      {
+        "predicateID": "0",
+        "locationStart": 54,
+        "locationEnd": 57,
+        "surfaceForm": "was",
+        "predicateLemma": "be",
+        "arguments": [
+          {
+            "argumentID": "0_ARG1",
+            "surfaceForm": "Titus van Rijn ( 22 September 1641 \u2013 4 September 1668 )",
+            "locationStart": 0,
+            "locationEnd": 53,
+            "category": "ARG1"
+          },
+          {
+            "argumentID": "0_ARG2",
+            "surfaceForm": "the fourth and only surviving child of Rembrandt Harmenszoon van Rijn and Saskia van Uylenburgh",
+            "locationStart": 58,
+            "locationEnd": 153,
+            "category": "ARG2"
+          }
+        ],
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "predicateID": "1",
+        "locationStart": 78,
+        "locationEnd": 87,
+        "surfaceForm": "surviving",
+        "predicateLemma": "survive",
+        "arguments": [
+          {
+            "argumentID": "1_ARG0",
+            "surfaceForm": "child",
+            "locationStart": 88,
+            "locationEnd": 93,
+            "category": "ARG0"
+          }
+        ],
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "predicateID": "1",
+        "locationStart": 169,
+        "locationEnd": 174,
+        "surfaceForm": "known",
+        "predicateLemma": "know",
+        "arguments": [
+          {
+            "argumentID": "1_ARG1",
+            "surfaceForm": "Titus",
+            "locationStart": 155,
+            "locationEnd": 160,
+            "category": "ARG1"
+          },
+          {
+            "argumentID": "1_ARGM-MNR",
+            "surfaceForm": "best",
+            "locationStart": 164,
+            "locationEnd": 168,
+            "category": "ARGM-MNR"
+          },
+          {
+            "argumentID": "1_ARG2",
+            "surfaceForm": "as a figure or model in his father 's paintings and studies",
+            "locationStart": 175,
+            "locationEnd": 233,
+            "category": "ARG2"
+          }
+        ],
+        "method": "allennlp_2.9.0"
+      }
+    ]
+  }
+}
