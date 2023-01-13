@@ -223,7 +223,6 @@ def add_json_heideltime(text: str, heideltime_parser: Heideltime) -> List[Dict[s
 
 def add_json_flair_ner(flair_output: Dict[str, Any]) -> List[Dict[str, Any]]:
     ner_all = []
-    print(flair_output)
     doc_offset = 0
     for i, sent_objs in enumerate(flair_output['tagged_ner']):
         for ner_obj in sent_objs:
@@ -234,5 +233,5 @@ def add_json_flair_ner(flair_output: Dict[str, Any]) -> List[Dict[str, Any]]:
                     'locationEnd': doc_offset + ner_obj['end'], 
                     'method': 'flair_ner-dutch-large'
                     })
-        doc_offset += len(flair_output['sentences'][i])
+        doc_offset += len(flair_output['sentences'][i]) + 1
     return ner_all

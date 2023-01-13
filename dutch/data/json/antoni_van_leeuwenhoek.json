@@ -1496,24 +1496,24 @@
         "ID": 1,
         "category": "PER",
         "surfaceForm": "Van Leeuwenhoek",
-        "locationStart": 207,
-        "locationEnd": 222,
+        "locationStart": 208,
+        "locationEnd": 223,
         "method": "flair_ner-dutch-large"
       },
       {
         "ID": 2,
         "category": "ORG",
         "surfaceForm": "Royal Society",
-        "locationStart": 430,
-        "locationEnd": 443,
+        "locationStart": 432,
+        "locationEnd": 445,
         "method": "flair_ner-dutch-large"
       },
       {
         "ID": 2,
         "category": "LOC",
         "surfaceForm": "Londen",
-        "locationStart": 447,
-        "locationEnd": 453,
+        "locationStart": 449,
+        "locationEnd": 455,
         "method": "flair_ner-dutch-large"
       }
     ],
