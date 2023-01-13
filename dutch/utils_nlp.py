@@ -5,6 +5,10 @@ from collections import defaultdict
 from python_heideltime import Heideltime
 from bs4 import BeautifulSoup
 
+from flair.data import Sentence
+from flair.models import SequenceTagger
+from flair.tokenization import SegtokSentenceSplitter
+
 Converter = TypeVar('Converter')
 NafParser = TypeVar('NafParser')
 InfoExtractor = TypeVar('InfoExtractor')
@@ -132,7 +136,7 @@ def run_stanza(text: Union[str, List[List[str]]], nlp: StanzaPipeline) -> Dict:
             charends2token[tok.end_char] = tot_toks + 1
             tot_toks += 1
 
-        stanza_entities += [{'text': ent.text, 'label': ent.type, 'start': ent.start_char, 'end': ent.end_char, 'start_token': charstarts2token[ent.start_char], 'end_token': charends2token[ent.end_char]} for ent in s.ents]
+        stanza_entities += [{'method': 'stanza_nl', 'text': ent.text, 'label': ent.type, 'start': ent.start_char, 'end': ent.end_char, 'start_token': charstarts2token[ent.start_char], 'end_token': charends2token[ent.end_char]} for ent in s.ents]
         
         shifted_sentence = sentence_tokens + ['</END>']
         for ix, (tok, next_tok) in enumerate(zip(sentence_tokens, shifted_sentence[1:])):
@@ -175,6 +179,27 @@ def run_stanza(text: Union[str, List[List[str]]], nlp: StanzaPipeline) -> Dict:
     return {'stanza_doc': doc, 'sentences':stanza_sents, 'tokens': stanza_tokens, 'token_objs': stanza_info, 'entities': stanza_entities}
 
 
+def run_flair(text: str, tagger: SequenceTagger, splitter: SegtokSentenceSplitter) -> Dict:
+    if splitter:
+        sentences = splitter.split(text)
+        tagger.predict(sentences)
+        texts, ner = [], []
+        for sentence in sentences:
+            tagged_ents = []
+            for entity in sentence.get_spans('ner'):
+                tagged_ents.append({"text": entity.text, "start": entity.start_position, "end": entity.end_position, "entity": entity.get_label("ner").value, "score": entity.get_label("ner").score})
+            ner.append(tagged_ents)
+            texts.append(sentence.to_original_text())
+        return {'tagged_ner':  ner, 'sentences': texts}
+    else:
+        sentence = Sentence(text)
+        tagger.predict(sentence)
+        tagged_ents = []
+        for entity in sentence.get_spans('ner'):
+            tagged_ents.append({"text": entity.text, "start": entity.start_position, "end": entity.end_position, "entity": entity.get_label("ner").value, "score": entity.get_label("ner").score})
+        return {'tagged_ner': tagged_ents, 'sentences': [sentence.to_tokenized_string()]}
+
+
 ## Functions to Add JSON Layers (via Script or API)
 
 def add_json_heideltime(text: str, heideltime_parser: Heideltime) -> List[Dict[str, Any]]:
@@ -194,3 +219,20 @@ def add_json_heideltime(text: str, heideltime_parser: Heideltime) -> List[Dict[s
         return timex_all
     except:
         return []
+
+
+def add_json_flair_ner(flair_output: Dict[str, Any]) -> List[Dict[str, Any]]:
+    ner_all = []
+    print(flair_output)
+    doc_offset = 0
+    for i, sent_objs in enumerate(flair_output['tagged_ner']):
+        for ner_obj in sent_objs:
+            ner_all.append({'ID': i, 
+                    'category': ner_obj['entity'], 
+                    'surfaceForm': ner_obj['text'], 
+                    'locationStart': doc_offset + ner_obj['start'], 
+                    'locationEnd': doc_offset + ner_obj['end'], 
+                    'method': 'flair_ner-dutch-large'
+                    })
+        doc_offset += len(flair_output['sentences'][i])
+    return ner_all

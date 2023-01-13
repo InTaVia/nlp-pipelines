@@ -1330,6 +1330,7 @@
     ],
     "entities": [
       {
+        "method": "stanza_nl",
         "text": "Antoni van Leeuwenhoek",
         "label": "PER",
         "start": 0,
@@ -1338,6 +1339,7 @@
         "end_token": 3
       },
       {
+        "method": "stanza_nl",
         "text": "Anthoni",
         "label": "PER",
         "start": 29,
@@ -1346,6 +1348,7 @@
         "end_token": 7
       },
       {
+        "method": "stanza_nl",
         "text": "Anthonie",
         "label": "PER",
         "start": 38,
@@ -1354,6 +1357,7 @@
         "end_token": 9
       },
       {
+        "method": "stanza_nl",
         "text": "Antonie",
         "label": "PER",
         "start": 48,
@@ -1362,6 +1366,7 @@
         "end_token": 11
       },
       {
+        "method": "stanza_nl",
         "text": "Antony",
         "label": "PER",
         "start": 57,
@@ -1370,6 +1375,7 @@
         "end_token": 13
       },
       {
+        "method": "stanza_nl",
         "text": "Anthony",
         "label": "PER",
         "start": 65,
@@ -1378,6 +1384,7 @@
         "end_token": 15
       },
       {
+        "method": "stanza_nl",
         "text": "Delft",
         "label": "LOC",
         "start": 75,
@@ -1386,6 +1393,7 @@
         "end_token": 18
       },
       {
+        "method": "stanza_nl",
         "text": "Nederlands",
         "label": "MISC",
         "start": 134,
@@ -1394,6 +1402,7 @@
         "end_token": 32
       },
       {
+        "method": "stanza_nl",
         "text": "Van Leeuwenhoek",
         "label": "PER",
         "start": 208,
@@ -1402,6 +1411,7 @@
         "end_token": 44
       },
       {
+        "method": "stanza_nl",
         "text": "Royal Society",
         "label": "ORG",
         "start": 432,
@@ -1410,12 +1420,101 @@
         "end_token": 78
       },
       {
+        "method": "stanza_nl",
         "text": "Londen",
         "label": "LOC",
         "start": 449,
         "end": 455,
         "start_token": 79,
         "end_token": 80
+      },
+      {
+        "ID": 0,
+        "category": "PER",
+        "surfaceForm": "Antoni van Leeuwenhoek",
+        "locationStart": 0,
+        "locationEnd": 22,
+        "method": "flair_ner-dutch-large"
+      },
+      {
+        "ID": 0,
+        "category": "PER",
+        "surfaceForm": "Anthoni",
+        "locationStart": 29,
+        "locationEnd": 36,
+        "method": "flair_ner-dutch-large"
+      },
+      {
+        "ID": 0,
+        "category": "PER",
+        "surfaceForm": "Anthonie",
+        "locationStart": 38,
+        "locationEnd": 46,
+        "method": "flair_ner-dutch-large"
+      },
+      {
+        "ID": 0,
+        "category": "PER",
+        "surfaceForm": "Antonie",
+        "locationStart": 48,
+        "locationEnd": 55,
+        "method": "flair_ner-dutch-large"
+      },
+      {
+        "ID": 0,
+        "category": "PER",
+        "surfaceForm": "Antony",
+        "locationStart": 57,
+        "locationEnd": 63,
+        "method": "flair_ner-dutch-large"
+      },
+      {
+        "ID": 0,
+        "category": "PER",
+        "surfaceForm": "Anthony",
+        "locationStart": 65,
+        "locationEnd": 72,
+        "method": "flair_ner-dutch-large"
+      },
+      {
+        "ID": 0,
+        "category": "LOC",
+        "surfaceForm": "Delft",
+        "locationStart": 75,
+        "locationEnd": 80,
+        "method": "flair_ner-dutch-large"
+      },
+      {
+        "ID": 0,
+        "category": "MISC",
+        "surfaceForm": "Nederlands",
+        "locationStart": 134,
+        "locationEnd": 144,
+        "method": "flair_ner-dutch-large"
+      },
+      {
+        "ID": 1,
+        "category": "PER",
+        "surfaceForm": "Van Leeuwenhoek",
+        "locationStart": 207,
+        "locationEnd": 222,
+        "method": "flair_ner-dutch-large"
+      },
+      {
+        "ID": 2,
+        "category": "ORG",
+        "surfaceForm": "Royal Society",
+        "locationStart": 430,
+        "locationEnd": 443,
+        "method": "flair_ner-dutch-large"
+      },
+      {
+        "ID": 2,
+        "category": "LOC",
+        "surfaceForm": "Londen",
+        "locationStart": 447,
+        "locationEnd": 453,
+        "method": "flair_ner-dutch-large"
       }
     ],
     "time_expressions": [

@@ -5,6 +5,8 @@ from dataclasses import dataclass, asdict
 from collections import defaultdict
 import stanza
 from python_heideltime import Heideltime
+from flair.models import SequenceTagger
+from flair.tokenization import SegtokSentenceSplitter
 
 from utils_wiki import get_wikipedia_article
 import utils_nlp as unlp
@@ -17,6 +19,9 @@ def test_dutch_pipeline_json(query_tests: str = ["Antoni van Leeuwenhoek"], json
     heideltime_parser = Heideltime()
     heideltime_parser.set_language('DUTCH')
     heideltime_parser.set_document_type('NARRATIVES')
+
+    flair_tagger = SequenceTagger.load("flair/ner-dutch-large")
+    flair_splitter = SegtokSentenceSplitter()
 
     wiki_matches = 0
     for query in query_tests:
@@ -34,10 +39,14 @@ def test_dutch_pipeline_json(query_tests: str = ["Antoni van Leeuwenhoek"], json
             stanza_dict = unlp.run_stanza(clean_text, nlp)
             # Step 3: Run HeidelTime
             nlp_dict['time_expressions'] = unlp.add_json_heideltime(clean_text, heideltime_parser)
+            # Step 4: Run Flair for Better NER
+            flair_output = unlp.run_flair(clean_text, flair_tagger, flair_splitter)
+            flair_entities = unlp.add_json_flair_ner(flair_output)
             # Step N: Build General Dict
             nlp_dict['input_text'] = clean_text
             nlp_dict['token_objs'] = stanza_dict['token_objs']
             nlp_dict['entities'] = stanza_dict['entities']
+            nlp_dict['entities'] += flair_entities
             response = unlp.nlp_to_dict(nlp_dict)
             # Write to Disk
             if not os.path.exists(json_path): os.mkdir(json_path)
