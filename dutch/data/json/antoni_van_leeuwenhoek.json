@@ -1,0 +1,1452 @@
+{
+  "status": "200",
+  "data": {
+    "text": "Antoni van Leeuwenhoek (ook: Anthoni, Anthonie, Antonie, Antony, Anthony) (Delft, 24 oktober 1632 \u2013 aldaar, 26 augustus 1723) was een Nederlands handelsman, landmeter, wijnroeier, glasblazer en microbioloog. Van Leeuwenhoek is vooral bekend door zijn zelf gefabriceerde microscoop en zijn pionierswerk voor de celbiologie en de microbiologie. Vanaf 1674 deed hij vele ontdekkingen die bekend werden door zijn correspondentie met de Royal Society in Londen. ",
+    "morphology": [
+      {
+        "paragraph": null,
+        "sentence": 0,
+        "text": "Antoni van Leeuwenhoek ( ook :",
+        "words": [
+          {
+            "ID": 0,
+            "FORM": "Antoni",
+            "LEMMA": "Antoni",
+            "UPOS": "PROPN",
+            "XPOS": "SPEC|deeleigen",
+            "HEAD": 0,
+            "DEPREL": "root",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 0,
+              "EndChar": 6
+            },
+            "FEATS": null
+          },
+          {
+            "ID": 1,
+            "FORM": "van",
+            "LEMMA": "van",
+            "UPOS": "PROPN",
+            "XPOS": "SPEC|deeleigen",
+            "HEAD": 1,
+            "DEPREL": "flat",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 7,
+              "EndChar": 10
+            },
+            "FEATS": null
+          },
+          {
+            "ID": 2,
+            "FORM": "Leeuwenhoek",
+            "LEMMA": "Leeuwenhoek",
+            "UPOS": "PROPN",
+            "XPOS": "SPEC|deeleigen",
+            "HEAD": 1,
+            "DEPREL": "flat",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 11,
+              "EndChar": 22
+            },
+            "FEATS": null
+          },
+          {
+            "ID": 3,
+            "FORM": "(",
+            "LEMMA": "(",
+            "UPOS": "PUNCT",
+            "XPOS": "LET",
+            "HEAD": 5,
+            "DEPREL": "punct",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": false,
+              "StartChar": 23,
+              "EndChar": 24
+            },
+            "FEATS": null
+          },
+          {
+            "ID": 4,
+            "FORM": "ook",
+            "LEMMA": "ook",
+            "UPOS": "ADV",
+            "XPOS": "BW",
+            "HEAD": 1,
+            "DEPREL": "amod",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": false,
+              "StartChar": 24,
+              "EndChar": 27
+            },
+            "FEATS": null
+          },
+          {
+            "ID": 5,
+            "FORM": ":",
+            "LEMMA": ":",
+            "UPOS": "PUNCT",
+            "XPOS": "LET",
+            "HEAD": 1,
+            "DEPREL": "punct",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 27,
+              "EndChar": 28
+            },
+            "FEATS": null
+          }
+        ]
+      },
+      {
+        "paragraph": null,
+        "sentence": 1,
+        "text": "Anthoni , Anthonie , Antonie , Antony , Anthony ) ( Delft , 24 oktober 1632 \u2013 aldaar , 26 augustus 1723 ) was een Nederlands handelsman , landmeter , wijnroeier , glasblazer en microbioloog .",
+        "words": [
+          {
+            "ID": 6,
+            "FORM": "Anthoni",
+            "LEMMA": "Anthoni",
+            "UPOS": "PROPN",
+            "XPOS": "N|eigen|ev|basis|zijd|stan",
+            "HEAD": 27,
+            "DEPREL": "nsubj",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": false,
+              "StartChar": 29,
+              "EndChar": 36
+            },
+            "FEATS": "Gender=Com|Number=Sing"
+          },
+          {
+            "ID": 7,
+            "FORM": ",",
+            "LEMMA": ",",
+            "UPOS": "PUNCT",
+            "XPOS": "LET",
+            "HEAD": 3,
+            "DEPREL": "punct",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 36,
+              "EndChar": 37
+            },
+            "FEATS": null
+          },
+          {
+            "ID": 8,
+            "FORM": "Anthonie",
+            "LEMMA": "Anthonie",
+            "UPOS": "PROPN",
+            "XPOS": "N|eigen|ev|basis|zijd|stan",
+            "HEAD": 1,
+            "DEPREL": "conj",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": false,
+              "StartChar": 38,
+              "EndChar": 46
+            },
+            "FEATS": "Gender=Com|Number=Sing"
+          },
+          {
+            "ID": 9,
+            "FORM": ",",
+            "LEMMA": ",",
+            "UPOS": "PUNCT",
+            "XPOS": "LET",
+            "HEAD": 5,
+            "DEPREL": "punct",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 46,
+              "EndChar": 47
+            },
+            "FEATS": null
+          },
+          {
+            "ID": 10,
+            "FORM": "Antonie",
+            "LEMMA": "Antonie",
+            "UPOS": "PROPN",
+            "XPOS": "N|eigen|ev|basis|zijd|stan",
+            "HEAD": 1,
+            "DEPREL": "conj",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": false,
+              "StartChar": 48,
+              "EndChar": 55
+            },
+            "FEATS": "Gender=Com|Number=Sing"
+          },
+          {
+            "ID": 11,
+            "FORM": ",",
+            "LEMMA": ",",
+            "UPOS": "PUNCT",
+            "XPOS": "LET",
+            "HEAD": 7,
+            "DEPREL": "punct",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 55,
+              "EndChar": 56
+            },
+            "FEATS": null
+          },
+          {
+            "ID": 12,
+            "FORM": "Antony",
+            "LEMMA": "Antony",
+            "UPOS": "PROPN",
+            "XPOS": "N|eigen|ev|basis|zijd|stan",
+            "HEAD": 1,
+            "DEPREL": "conj",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": false,
+              "StartChar": 57,
+              "EndChar": 63
+            },
+            "FEATS": "Gender=Com|Number=Sing"
+          },
+          {
+            "ID": 13,
+            "FORM": ",",
+            "LEMMA": ",",
+            "UPOS": "PUNCT",
+            "XPOS": "LET",
+            "HEAD": 9,
+            "DEPREL": "punct",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 63,
+              "EndChar": 64
+            },
+            "FEATS": null
+          },
+          {
+            "ID": 14,
+            "FORM": "Anthony",
+            "LEMMA": "Anthony",
+            "UPOS": "PROPN",
+            "XPOS": "N|eigen|ev|basis|zijd|stan",
+            "HEAD": 1,
+            "DEPREL": "conj",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": false,
+              "StartChar": 65,
+              "EndChar": 72
+            },
+            "FEATS": "Gender=Com|Number=Sing"
+          },
+          {
+            "ID": 15,
+            "FORM": ")",
+            "LEMMA": ")",
+            "UPOS": "PUNCT",
+            "XPOS": "LET",
+            "HEAD": 9,
+            "DEPREL": "punct",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 72,
+              "EndChar": 73
+            },
+            "FEATS": null
+          },
+          {
+            "ID": 16,
+            "FORM": "(",
+            "LEMMA": "(",
+            "UPOS": "PUNCT",
+            "XPOS": "LET",
+            "HEAD": 12,
+            "DEPREL": "punct",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": false,
+              "StartChar": 74,
+              "EndChar": 75
+            },
+            "FEATS": null
+          },
+          {
+            "ID": 17,
+            "FORM": "Delft",
+            "LEMMA": "Delft",
+            "UPOS": "PROPN",
+            "XPOS": "N|eigen|ev|basis|onz|stan",
+            "HEAD": 1,
+            "DEPREL": "nmod",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": false,
+              "StartChar": 75,
+              "EndChar": 80
+            },
+            "FEATS": "Gender=Neut|Number=Sing"
+          },
+          {
+            "ID": 18,
+            "FORM": ",",
+            "LEMMA": ",",
+            "UPOS": "PUNCT",
+            "XPOS": "LET",
+            "HEAD": 14,
+            "DEPREL": "punct",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 80,
+              "EndChar": 81
+            },
+            "FEATS": null
+          },
+          {
+            "ID": 19,
+            "FORM": "24",
+            "LEMMA": "24",
+            "UPOS": "NUM",
+            "XPOS": "TW|hoofd|vrij",
+            "HEAD": 12,
+            "DEPREL": "parataxis",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 82,
+              "EndChar": 84
+            },
+            "FEATS": null
+          },
+          {
+            "ID": 20,
+            "FORM": "oktober",
+            "LEMMA": "oktober",
+            "UPOS": "PROPN",
+            "XPOS": "N|eigen|ev|basis|zijd|stan",
+            "HEAD": 14,
+            "DEPREL": "flat",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 85,
+              "EndChar": 92
+            },
+            "FEATS": "Gender=Com|Number=Sing"
+          },
+          {
+            "ID": 21,
+            "FORM": "1632",
+            "LEMMA": "1632",
+            "UPOS": "NUM",
+            "XPOS": "TW|hoofd|vrij",
+            "HEAD": 14,
+            "DEPREL": "flat",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 93,
+              "EndChar": 97
+            },
+            "FEATS": null
+          },
+          {
+            "ID": 22,
+            "FORM": "\u2013",
+            "LEMMA": "\u2013",
+            "UPOS": "PUNCT",
+            "XPOS": "LET",
+            "HEAD": 18,
+            "DEPREL": "punct",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 98,
+              "EndChar": 99
+            },
+            "FEATS": null
+          },
+          {
+            "ID": 23,
+            "FORM": "aldaar",
+            "LEMMA": "aldaar",
+            "UPOS": "ADV",
+            "XPOS": "BW",
+            "HEAD": 12,
+            "DEPREL": "parataxis",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": false,
+              "StartChar": 100,
+              "EndChar": 106
+            },
+            "FEATS": null
+          },
+          {
+            "ID": 24,
+            "FORM": ",",
+            "LEMMA": ",",
+            "UPOS": "PUNCT",
+            "XPOS": "LET",
+            "HEAD": 20,
+            "DEPREL": "punct",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 106,
+              "EndChar": 107
+            },
+            "FEATS": null
+          },
+          {
+            "ID": 25,
+            "FORM": "26",
+            "LEMMA": "26",
+            "UPOS": "NUM",
+            "XPOS": "TW|hoofd|vrij",
+            "HEAD": 18,
+            "DEPREL": "parataxis",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 108,
+              "EndChar": 110
+            },
+            "FEATS": null
+          },
+          {
+            "ID": 26,
+            "FORM": "augustus",
+            "LEMMA": "augustus",
+            "UPOS": "PROPN",
+            "XPOS": "N|eigen|ev|basis|zijd|stan",
+            "HEAD": 20,
+            "DEPREL": "flat",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 111,
+              "EndChar": 119
+            },
+            "FEATS": "Gender=Com|Number=Sing"
+          },
+          {
+            "ID": 27,
+            "FORM": "1723",
+            "LEMMA": "1723",
+            "UPOS": "NUM",
+            "XPOS": "TW|hoofd|vrij",
+            "HEAD": 20,
+            "DEPREL": "flat",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": false,
+              "StartChar": 120,
+              "EndChar": 124
+            },
+            "FEATS": null
+          },
+          {
+            "ID": 28,
+            "FORM": ")",
+            "LEMMA": ")",
+            "UPOS": "PUNCT",
+            "XPOS": "LET",
+            "HEAD": 18,
+            "DEPREL": "punct",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 124,
+              "EndChar": 125
+            },
+            "FEATS": null
+          },
+          {
+            "ID": 29,
+            "FORM": "was",
+            "LEMMA": "zijn",
+            "UPOS": "AUX",
+            "XPOS": "WW|pv|verl|ev",
+            "HEAD": 27,
+            "DEPREL": "cop",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 126,
+              "EndChar": 129
+            },
+            "FEATS": "Number=Sing|Tense=Past|VerbForm=Fin"
+          },
+          {
+            "ID": 30,
+            "FORM": "een",
+            "LEMMA": "een",
+            "UPOS": "DET",
+            "XPOS": "LID|onbep|stan|agr",
+            "HEAD": 27,
+            "DEPREL": "det",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 130,
+              "EndChar": 133
+            },
+            "FEATS": "Definite=Ind"
+          },
+          {
+            "ID": 31,
+            "FORM": "Nederlands",
+            "LEMMA": "Nederlands",
+            "UPOS": "ADJ",
+            "XPOS": "ADJ|prenom|basis|zonder",
+            "HEAD": 27,
+            "DEPREL": "amod",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 134,
+              "EndChar": 144
+            },
+            "FEATS": "Degree=Pos"
+          },
+          {
+            "ID": 32,
+            "FORM": "handelsman",
+            "LEMMA": "handelsman",
+            "UPOS": "NOUN",
+            "XPOS": "N|soort|ev|basis|zijd|stan",
+            "HEAD": 0,
+            "DEPREL": "root",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": false,
+              "StartChar": 145,
+              "EndChar": 155
+            },
+            "FEATS": "Gender=Com|Number=Sing"
+          },
+          {
+            "ID": 33,
+            "FORM": ",",
+            "LEMMA": ",",
+            "UPOS": "PUNCT",
+            "XPOS": "LET",
+            "HEAD": 29,
+            "DEPREL": "punct",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 155,
+              "EndChar": 156
+            },
+            "FEATS": null
+          },
+          {
+            "ID": 34,
+            "FORM": "landmeter",
+            "LEMMA": "landmeter",
+            "UPOS": "NOUN",
+            "XPOS": "N|soort|ev|basis|zijd|stan",
+            "HEAD": 27,
+            "DEPREL": "conj",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": false,
+              "StartChar": 157,
+              "EndChar": 166
+            },
+            "FEATS": "Gender=Com|Number=Sing"
+          },
+          {
+            "ID": 35,
+            "FORM": ",",
+            "LEMMA": ",",
+            "UPOS": "PUNCT",
+            "XPOS": "LET",
+            "HEAD": 31,
+            "DEPREL": "punct",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 166,
+              "EndChar": 167
+            },
+            "FEATS": null
+          },
+          {
+            "ID": 36,
+            "FORM": "wijnroeier",
+            "LEMMA": "wijnroeier",
+            "UPOS": "NOUN",
+            "XPOS": "N|soort|ev|basis|zijd|stan",
+            "HEAD": 29,
+            "DEPREL": "conj",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": false,
+              "StartChar": 168,
+              "EndChar": 178
+            },
+            "FEATS": "Gender=Com|Number=Sing"
+          },
+          {
+            "ID": 37,
+            "FORM": ",",
+            "LEMMA": ",",
+            "UPOS": "PUNCT",
+            "XPOS": "LET",
+            "HEAD": 33,
+            "DEPREL": "punct",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 178,
+              "EndChar": 179
+            },
+            "FEATS": null
+          },
+          {
+            "ID": 38,
+            "FORM": "glasblazer",
+            "LEMMA": "glasblazer",
+            "UPOS": "NOUN",
+            "XPOS": "N|soort|ev|basis|zijd|stan",
+            "HEAD": 29,
+            "DEPREL": "conj",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 180,
+              "EndChar": 190
+            },
+            "FEATS": "Gender=Com|Number=Sing"
+          },
+          {
+            "ID": 39,
+            "FORM": "en",
+            "LEMMA": "en",
+            "UPOS": "CCONJ",
+            "XPOS": "VG|neven",
+            "HEAD": 35,
+            "DEPREL": "cc",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 191,
+              "EndChar": 193
+            },
+            "FEATS": null
+          },
+          {
+            "ID": 40,
+            "FORM": "microbioloog",
+            "LEMMA": "microbioloog",
+            "UPOS": "NOUN",
+            "XPOS": "N|soort|ev|basis|zijd|stan",
+            "HEAD": 29,
+            "DEPREL": "conj",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": false,
+              "StartChar": 194,
+              "EndChar": 206
+            },
+            "FEATS": "Gender=Com|Number=Sing"
+          },
+          {
+            "ID": 41,
+            "FORM": ".",
+            "LEMMA": ".",
+            "UPOS": "PUNCT",
+            "XPOS": "LET",
+            "HEAD": 27,
+            "DEPREL": "punct",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 206,
+              "EndChar": 207
+            },
+            "FEATS": null
+          }
+        ]
+      },
+      {
+        "paragraph": null,
+        "sentence": 2,
+        "text": "Van Leeuwenhoek is vooral bekend door zijn zelf gefabriceerde microscoop en zijn pionierswerk voor de celbiologie en de microbiologie .",
+        "words": [
+          {
+            "ID": 42,
+            "FORM": "Van",
+            "LEMMA": "van",
+            "UPOS": "ADP",
+            "XPOS": "VZ|init",
+            "HEAD": 2,
+            "DEPREL": "case",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 208,
+              "EndChar": 211
+            },
+            "FEATS": null
+          },
+          {
+            "ID": 43,
+            "FORM": "Leeuwenhoek",
+            "LEMMA": "Leeuwenhoek",
+            "UPOS": "PROPN",
+            "XPOS": "SPEC|deeleigen",
+            "HEAD": 5,
+            "DEPREL": "obl",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 212,
+              "EndChar": 223
+            },
+            "FEATS": null
+          },
+          {
+            "ID": 44,
+            "FORM": "is",
+            "LEMMA": "zijn",
+            "UPOS": "AUX",
+            "XPOS": "WW|pv|tgw|ev",
+            "HEAD": 5,
+            "DEPREL": "cop",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 224,
+              "EndChar": 226
+            },
+            "FEATS": "Number=Sing|Tense=Pres|VerbForm=Fin"
+          },
+          {
+            "ID": 45,
+            "FORM": "vooral",
+            "LEMMA": "vooral",
+            "UPOS": "ADV",
+            "XPOS": "BW",
+            "HEAD": 5,
+            "DEPREL": "advmod",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 227,
+              "EndChar": 233
+            },
+            "FEATS": null
+          },
+          {
+            "ID": 46,
+            "FORM": "bekend",
+            "LEMMA": "bekend",
+            "UPOS": "ADJ",
+            "XPOS": "ADJ|vrij|basis|zonder",
+            "HEAD": 0,
+            "DEPREL": "root",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 234,
+              "EndChar": 240
+            },
+            "FEATS": "Degree=Pos"
+          },
+          {
+            "ID": 47,
+            "FORM": "door",
+            "LEMMA": "door",
+            "UPOS": "ADP",
+            "XPOS": "VZ|init",
+            "HEAD": 10,
+            "DEPREL": "case",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 241,
+              "EndChar": 245
+            },
+            "FEATS": null
+          },
+          {
+            "ID": 48,
+            "FORM": "zijn",
+            "LEMMA": "zijn",
+            "UPOS": "PRON",
+            "XPOS": "VNW|bez|det|stan|vol|3|ev|prenom|zonder|agr",
+            "HEAD": 10,
+            "DEPREL": "nmod:poss",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 246,
+              "EndChar": 250
+            },
+            "FEATS": "Person=3|Poss=Yes|PronType=Prs"
+          },
+          {
+            "ID": 49,
+            "FORM": "zelf",
+            "LEMMA": "zelf",
+            "UPOS": "ADV",
+            "XPOS": "BW",
+            "HEAD": 9,
+            "DEPREL": "advmod",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 251,
+              "EndChar": 255
+            },
+            "FEATS": null
+          },
+          {
+            "ID": 50,
+            "FORM": "gefabriceerde",
+            "LEMMA": "fabriceren",
+            "UPOS": "VERB",
+            "XPOS": "WW|vd|prenom|met-e",
+            "HEAD": 10,
+            "DEPREL": "acl",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 256,
+              "EndChar": 269
+            },
+            "FEATS": "VerbForm=Part"
+          },
+          {
+            "ID": 51,
+            "FORM": "microscoop",
+            "LEMMA": "microscoop",
+            "UPOS": "NOUN",
+            "XPOS": "N|soort|ev|basis|zijd|stan",
+            "HEAD": 5,
+            "DEPREL": "obl",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 270,
+              "EndChar": 280
+            },
+            "FEATS": "Gender=Com|Number=Sing"
+          },
+          {
+            "ID": 52,
+            "FORM": "en",
+            "LEMMA": "en",
+            "UPOS": "CCONJ",
+            "XPOS": "VG|neven",
+            "HEAD": 13,
+            "DEPREL": "cc",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 281,
+              "EndChar": 283
+            },
+            "FEATS": null
+          },
+          {
+            "ID": 53,
+            "FORM": "zijn",
+            "LEMMA": "zijn",
+            "UPOS": "PRON",
+            "XPOS": "VNW|bez|det|stan|vol|3|ev|prenom|zonder|agr",
+            "HEAD": 13,
+            "DEPREL": "nmod:poss",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 284,
+              "EndChar": 288
+            },
+            "FEATS": "Person=3|Poss=Yes|PronType=Prs"
+          },
+          {
+            "ID": 54,
+            "FORM": "pionierswerk",
+            "LEMMA": "pionier_werk",
+            "UPOS": "NOUN",
+            "XPOS": "N|soort|ev|basis|onz|stan",
+            "HEAD": 10,
+            "DEPREL": "conj",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 289,
+              "EndChar": 301
+            },
+            "FEATS": "Gender=Neut|Number=Sing"
+          },
+          {
+            "ID": 55,
+            "FORM": "voor",
+            "LEMMA": "voor",
+            "UPOS": "ADP",
+            "XPOS": "VZ|init",
+            "HEAD": 16,
+            "DEPREL": "case",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 302,
+              "EndChar": 306
+            },
+            "FEATS": null
+          },
+          {
+            "ID": 56,
+            "FORM": "de",
+            "LEMMA": "de",
+            "UPOS": "DET",
+            "XPOS": "LID|bep|stan|rest",
+            "HEAD": 16,
+            "DEPREL": "det",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 307,
+              "EndChar": 309
+            },
+            "FEATS": "Definite=Def"
+          },
+          {
+            "ID": 57,
+            "FORM": "celbiologie",
+            "LEMMA": "celbiologie",
+            "UPOS": "NOUN",
+            "XPOS": "N|soort|ev|basis|zijd|stan",
+            "HEAD": 13,
+            "DEPREL": "nmod",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 310,
+              "EndChar": 321
+            },
+            "FEATS": "Gender=Com|Number=Sing"
+          },
+          {
+            "ID": 58,
+            "FORM": "en",
+            "LEMMA": "en",
+            "UPOS": "CCONJ",
+            "XPOS": "VG|neven",
+            "HEAD": 19,
+            "DEPREL": "cc",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 322,
+              "EndChar": 324
+            },
+            "FEATS": null
+          },
+          {
+            "ID": 59,
+            "FORM": "de",
+            "LEMMA": "de",
+            "UPOS": "DET",
+            "XPOS": "LID|bep|stan|rest",
+            "HEAD": 19,
+            "DEPREL": "det",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 325,
+              "EndChar": 327
+            },
+            "FEATS": "Definite=Def"
+          },
+          {
+            "ID": 60,
+            "FORM": "microbiologie",
+            "LEMMA": "microbiologie",
+            "UPOS": "NOUN",
+            "XPOS": "N|soort|ev|basis|zijd|stan",
+            "HEAD": 16,
+            "DEPREL": "conj",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": false,
+              "StartChar": 328,
+              "EndChar": 341
+            },
+            "FEATS": "Gender=Com|Number=Sing"
+          },
+          {
+            "ID": 61,
+            "FORM": ".",
+            "LEMMA": ".",
+            "UPOS": "PUNCT",
+            "XPOS": "LET",
+            "HEAD": 5,
+            "DEPREL": "punct",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 341,
+              "EndChar": 342
+            },
+            "FEATS": null
+          }
+        ]
+      },
+      {
+        "paragraph": null,
+        "sentence": 3,
+        "text": "Vanaf 1674 deed hij vele ontdekkingen die bekend werden door zijn correspondentie met de Royal Society in Londen .",
+        "words": [
+          {
+            "ID": 62,
+            "FORM": "Vanaf",
+            "LEMMA": "vanaf",
+            "UPOS": "ADP",
+            "XPOS": "VZ|init",
+            "HEAD": 2,
+            "DEPREL": "case",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 343,
+              "EndChar": 348
+            },
+            "FEATS": null
+          },
+          {
+            "ID": 63,
+            "FORM": "1674",
+            "LEMMA": "1674",
+            "UPOS": "NUM",
+            "XPOS": "TW|hoofd|vrij",
+            "HEAD": 3,
+            "DEPREL": "obl",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 349,
+              "EndChar": 353
+            },
+            "FEATS": null
+          },
+          {
+            "ID": 64,
+            "FORM": "deed",
+            "LEMMA": "doen",
+            "UPOS": "VERB",
+            "XPOS": "WW|pv|verl|ev",
+            "HEAD": 0,
+            "DEPREL": "root",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 354,
+              "EndChar": 358
+            },
+            "FEATS": "Number=Sing|Tense=Past|VerbForm=Fin"
+          },
+          {
+            "ID": 65,
+            "FORM": "hij",
+            "LEMMA": "hij",
+            "UPOS": "PRON",
+            "XPOS": "VNW|pers|pron|nomin|vol|3|ev|masc",
+            "HEAD": 3,
+            "DEPREL": "nsubj",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 359,
+              "EndChar": 362
+            },
+            "FEATS": "Case=Nom|Person=3|PronType=Prs"
+          },
+          {
+            "ID": 66,
+            "FORM": "vele",
+            "LEMMA": "veel",
+            "UPOS": "ADV",
+            "XPOS": "VNW|onbep|grad|stan|prenom|met-e|agr|basis",
+            "HEAD": 6,
+            "DEPREL": "amod",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 363,
+              "EndChar": 367
+            },
+            "FEATS": null
+          },
+          {
+            "ID": 67,
+            "FORM": "ontdekkingen",
+            "LEMMA": "ontdekking",
+            "UPOS": "NOUN",
+            "XPOS": "N|soort|mv|basis",
+            "HEAD": 3,
+            "DEPREL": "obj",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 368,
+              "EndChar": 380
+            },
+            "FEATS": "Number=Plur"
+          },
+          {
+            "ID": 68,
+            "FORM": "die",
+            "LEMMA": "die",
+            "UPOS": "PRON",
+            "XPOS": "VNW|betr|pron|stan|vol|persoon|getal",
+            "HEAD": 8,
+            "DEPREL": "nsubj",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 381,
+              "EndChar": 384
+            },
+            "FEATS": "PronType=Rel"
+          },
+          {
+            "ID": 69,
+            "FORM": "bekend",
+            "LEMMA": "bekend",
+            "UPOS": "ADJ",
+            "XPOS": "ADJ|vrij|basis|zonder",
+            "HEAD": 6,
+            "DEPREL": "acl:relcl",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 385,
+              "EndChar": 391
+            },
+            "FEATS": "Degree=Pos"
+          },
+          {
+            "ID": 70,
+            "FORM": "werden",
+            "LEMMA": "worden",
+            "UPOS": "AUX",
+            "XPOS": "WW|pv|verl|mv",
+            "HEAD": 8,
+            "DEPREL": "aux:pass",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 392,
+              "EndChar": 398
+            },
+            "FEATS": "Number=Plur|Tense=Past|VerbForm=Fin"
+          },
+          {
+            "ID": 71,
+            "FORM": "door",
+            "LEMMA": "door",
+            "UPOS": "ADP",
+            "XPOS": "VZ|init",
+            "HEAD": 12,
+            "DEPREL": "case",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 399,
+              "EndChar": 403
+            },
+            "FEATS": null
+          },
+          {
+            "ID": 72,
+            "FORM": "zijn",
+            "LEMMA": "zijn",
+            "UPOS": "PRON",
+            "XPOS": "VNW|bez|det|stan|vol|3|ev|prenom|zonder|agr",
+            "HEAD": 12,
+            "DEPREL": "nmod:poss",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 404,
+              "EndChar": 408
+            },
+            "FEATS": "Person=3|Poss=Yes|PronType=Prs"
+          },
+          {
+            "ID": 73,
+            "FORM": "correspondentie",
+            "LEMMA": "correspondentie",
+            "UPOS": "NOUN",
+            "XPOS": "N|soort|ev|basis|zijd|stan",
+            "HEAD": 8,
+            "DEPREL": "obl",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 409,
+              "EndChar": 424
+            },
+            "FEATS": "Gender=Com|Number=Sing"
+          },
+          {
+            "ID": 74,
+            "FORM": "met",
+            "LEMMA": "met",
+            "UPOS": "ADP",
+            "XPOS": "VZ|init",
+            "HEAD": 15,
+            "DEPREL": "case",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 425,
+              "EndChar": 428
+            },
+            "FEATS": null
+          },
+          {
+            "ID": 75,
+            "FORM": "de",
+            "LEMMA": "de",
+            "UPOS": "DET",
+            "XPOS": "LID|bep|stan|rest",
+            "HEAD": 15,
+            "DEPREL": "det",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 429,
+              "EndChar": 431
+            },
+            "FEATS": "Definite=Def"
+          },
+          {
+            "ID": 76,
+            "FORM": "Royal",
+            "LEMMA": "Royal",
+            "UPOS": "PROPN",
+            "XPOS": "SPEC|deeleigen",
+            "HEAD": 12,
+            "DEPREL": "nmod",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 432,
+              "EndChar": 437
+            },
+            "FEATS": null
+          },
+          {
+            "ID": 77,
+            "FORM": "Society",
+            "LEMMA": "Society",
+            "UPOS": "PROPN",
+            "XPOS": "SPEC|deeleigen",
+            "HEAD": 15,
+            "DEPREL": "flat",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 438,
+              "EndChar": 445
+            },
+            "FEATS": null
+          },
+          {
+            "ID": 78,
+            "FORM": "in",
+            "LEMMA": "in",
+            "UPOS": "ADP",
+            "XPOS": "VZ|init",
+            "HEAD": 18,
+            "DEPREL": "case",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 446,
+              "EndChar": 448
+            },
+            "FEATS": null
+          },
+          {
+            "ID": 79,
+            "FORM": "Londen",
+            "LEMMA": "Londen",
+            "UPOS": "PROPN",
+            "XPOS": "N|eigen|ev|basis|onz|stan",
+            "HEAD": 15,
+            "DEPREL": "nmod",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": false,
+              "StartChar": 449,
+              "EndChar": 455
+            },
+            "FEATS": "Gender=Neut|Number=Sing"
+          },
+          {
+            "ID": 80,
+            "FORM": ".",
+            "LEMMA": ".",
+            "UPOS": "PUNCT",
+            "XPOS": "LET",
+            "HEAD": 3,
+            "DEPREL": "punct",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 455,
+              "EndChar": 456
+            },
+            "FEATS": null
+          }
+        ]
+      }
+    ],
+    "entities": [
+      {
+        "text": "Antoni van Leeuwenhoek",
+        "label": "PER",
+        "start": 0,
+        "end": 22,
+        "start_token": 0,
+        "end_token": 3
+      },
+      {
+        "text": "Anthoni",
+        "label": "PER",
+        "start": 29,
+        "end": 36,
+        "start_token": 6,
+        "end_token": 7
+      },
+      {
+        "text": "Anthonie",
+        "label": "PER",
+        "start": 38,
+        "end": 46,
+        "start_token": 8,
+        "end_token": 9
+      },
+      {
+        "text": "Antonie",
+        "label": "PER",
+        "start": 48,
+        "end": 55,
+        "start_token": 10,
+        "end_token": 11
+      },
+      {
+        "text": "Antony",
+        "label": "PER",
+        "start": 57,
+        "end": 63,
+        "start_token": 12,
+        "end_token": 13
+      },
+      {
+        "text": "Anthony",
+        "label": "PER",
+        "start": 65,
+        "end": 72,
+        "start_token": 14,
+        "end_token": 15
+      },
+      {
+        "text": "Delft",
+        "label": "LOC",
+        "start": 75,
+        "end": 80,
+        "start_token": 17,
+        "end_token": 18
+      },
+      {
+        "text": "Nederlands",
+        "label": "MISC",
+        "start": 134,
+        "end": 144,
+        "start_token": 31,
+        "end_token": 32
+      },
+      {
+        "text": "Van Leeuwenhoek",
+        "label": "PER",
+        "start": 208,
+        "end": 223,
+        "start_token": 42,
+        "end_token": 44
+      },
+      {
+        "text": "Royal Society",
+        "label": "ORG",
+        "start": 432,
+        "end": 445,
+        "start_token": 76,
+        "end_token": 78
+      },
+      {
+        "text": "Londen",
+        "label": "LOC",
+        "start": 449,
+        "end": 455,
+        "start_token": 79,
+        "end_token": 80
+      }
+    ],
+    "time_expressions": [
+      {
+        "ID": "t3",
+        "category": "DATE",
+        "value": "1632-10-24",
+        "surfaceForm": "24 oktober 1632",
+        "locationStart": 82,
+        "locationEnd": 97,
+        "method": "HeidelTime"
+      },
+      {
+        "ID": "t8",
+        "category": "DATE",
+        "value": "1723-08-26",
+        "surfaceForm": "26 augustus 1723",
+        "locationStart": 108,
+        "locationEnd": 124,
+        "method": "HeidelTime"
+      },
+      {
+        "ID": "t11",
+        "category": "DATE",
+        "value": "1674",
+        "surfaceForm": "1674",
+        "locationStart": 349,
+        "locationEnd": 353,
+        "method": "HeidelTime"
+      }
+    ],
+    "semantic_roles": []
+  }
+}

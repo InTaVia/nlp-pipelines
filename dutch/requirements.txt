@@ -1,0 +1,11 @@
+# Python 3.9.12
+bs4==0.0.1
+dataclasses==0.6
+datasets==2.4.0
+flair==0.11.3
+html5lib==1.1
+Levenshtein==0.20.8
+nafparserpy==0.3.1
+stanza==1.4.0
+spacy-to-naf==0.2.0
+wikipedia==1.4.0
