@@ -1,5 +1,5 @@
 import os
-import spacy, json
+import json
 from typing import Dict, Any, List, Tuple
 from dataclasses import dataclass, asdict
 from collections import defaultdict
@@ -35,7 +35,7 @@ def test_dutch_pipeline_json(query_tests: str = ["Antoni van Leeuwenhoek"], json
             json_name = doc_title.lower().replace(" ", "_") + ".json"
             # Step 1: Clean Text
             clean_text = unlp.preprocess_and_clean_text(text)
-            # Step 2: Basic Processing with SpaCy
+            # Step 2: Basic Processing with Stanza
             stanza_dict = unlp.run_stanza(clean_text, nlp)
             # Step 3: Run HeidelTime
             nlp_dict['time_expressions'] = unlp.add_json_heideltime(clean_text, heideltime_parser)
