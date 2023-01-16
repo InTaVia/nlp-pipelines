@@ -1,0 +1,2512 @@
+{
+  "status": "200",
+  "data": {
+    "text": "Slavoj \u017di\u017eek, slovenski filozof, kulturni kritik in psihoanalitik * 21. marec 1949, Ljubljana. Bil je profesor na evropski podiplomski \u0161oli, mednarodni direktor Birkbeck In\u0161tituta za humanisti\u010dne \u0161tudije in vi\u0161ji raziskovalec na In\u0161titutu za sociologijo Univerze v Ljubljani, Slovenija. \u017di\u017eek je doktoriral iz filozofije. Bil je imenovan \" Elvis filozofije \" in \" akademska rock zvezda. \" V mladih letih so ga zanimala dela Georga Wilhelma Friedricha Hegla, Karla Marxa in Friedricha Wilhelma Josepha Schellinga. Leta 1971 je na ljubljanski Filozofski fakulteti diplomiral iz filozofije in sociologije, na isti ustanovi pa \u0161e magistriral in doktoriral (1981). Drugi\u010d je doktoriral na temo psihoanalize v Parizu (Universite Paris-VII). Teko\u010de govori slovensko, srbsko, hrva\u0161ko, angle\u0161ko, francosko, nem\u0161ko in ima osnovno znanje italijan\u0161\u010dine.",
+    "morphology": [
+      {
+        "paragraph": null,
+        "sentence": 0,
+        "text": "Slavoj \u017di\u017eek , slovenski filozof , kulturni kritik in psihoanalitik * 21. marec 1949 , Ljubljana .",
+        "words": [
+          {
+            "ID": 0,
+            "FORM": "Slavoj",
+            "LEMMA": "Slavoj",
+            "UPOS": "PROPN",
+            "XPOS": "Npmsn",
+            "HEAD": 0,
+            "DEPREL": "root",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 0,
+              "EndChar": 6
+            },
+            "FEATS": "Case=Nom|Gender=Masc|Number=Sing"
+          },
+          {
+            "ID": 1,
+            "FORM": "\u017di\u017eek",
+            "LEMMA": "\u017di\u017eek",
+            "UPOS": "PROPN",
+            "XPOS": "Npmsn",
+            "HEAD": 1,
+            "DEPREL": "flat:name",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": false,
+              "StartChar": 7,
+              "EndChar": 12
+            },
+            "FEATS": "Case=Nom|Gender=Masc|Number=Sing"
+          },
+          {
+            "ID": 2,
+            "FORM": ",",
+            "LEMMA": ",",
+            "UPOS": "PUNCT",
+            "XPOS": "Z",
+            "HEAD": 5,
+            "DEPREL": "punct",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 12,
+              "EndChar": 13
+            },
+            "FEATS": null
+          },
+          {
+            "ID": 3,
+            "FORM": "slovenski",
+            "LEMMA": "slovenski",
+            "UPOS": "ADJ",
+            "XPOS": "Agpmsny",
+            "HEAD": 5,
+            "DEPREL": "amod",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 14,
+              "EndChar": 23
+            },
+            "FEATS": "Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing"
+          },
+          {
+            "ID": 4,
+            "FORM": "filozof",
+            "LEMMA": "filozof",
+            "UPOS": "NOUN",
+            "XPOS": "Ncmsn",
+            "HEAD": 1,
+            "DEPREL": "appos",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": false,
+              "StartChar": 24,
+              "EndChar": 31
+            },
+            "FEATS": "Case=Nom|Gender=Masc|Number=Sing"
+          },
+          {
+            "ID": 5,
+            "FORM": ",",
+            "LEMMA": ",",
+            "UPOS": "PUNCT",
+            "XPOS": "Z",
+            "HEAD": 8,
+            "DEPREL": "punct",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 31,
+              "EndChar": 32
+            },
+            "FEATS": null
+          },
+          {
+            "ID": 6,
+            "FORM": "kulturni",
+            "LEMMA": "kulturen",
+            "UPOS": "ADJ",
+            "XPOS": "Agpmsny",
+            "HEAD": 8,
+            "DEPREL": "amod",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 33,
+              "EndChar": 41
+            },
+            "FEATS": "Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing"
+          },
+          {
+            "ID": 7,
+            "FORM": "kritik",
+            "LEMMA": "kritik",
+            "UPOS": "NOUN",
+            "XPOS": "Ncmsn",
+            "HEAD": 5,
+            "DEPREL": "conj",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 42,
+              "EndChar": 48
+            },
+            "FEATS": "Case=Nom|Gender=Masc|Number=Sing"
+          },
+          {
+            "ID": 8,
+            "FORM": "in",
+            "LEMMA": "in",
+            "UPOS": "CCONJ",
+            "XPOS": "Cc",
+            "HEAD": 10,
+            "DEPREL": "cc",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 49,
+              "EndChar": 51
+            },
+            "FEATS": null
+          },
+          {
+            "ID": 9,
+            "FORM": "psihoanalitik",
+            "LEMMA": "psihoanalitik",
+            "UPOS": "NOUN",
+            "XPOS": "Ncmsn",
+            "HEAD": 5,
+            "DEPREL": "conj",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 52,
+              "EndChar": 65
+            },
+            "FEATS": "Case=Nom|Gender=Masc|Number=Sing"
+          },
+          {
+            "ID": 10,
+            "FORM": "*",
+            "LEMMA": "*",
+            "UPOS": "PUNCT",
+            "XPOS": "Z",
+            "HEAD": 13,
+            "DEPREL": "punct",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 66,
+              "EndChar": 67
+            },
+            "FEATS": null
+          },
+          {
+            "ID": 11,
+            "FORM": "21.",
+            "LEMMA": "21.",
+            "UPOS": "NUM",
+            "XPOS": "Mdo",
+            "HEAD": 13,
+            "DEPREL": "nummod",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 68,
+              "EndChar": 71
+            },
+            "FEATS": "NumForm=Digit|NumType=Ord"
+          },
+          {
+            "ID": 12,
+            "FORM": "marec",
+            "LEMMA": "marec",
+            "UPOS": "NOUN",
+            "XPOS": "Ncmsn",
+            "HEAD": 10,
+            "DEPREL": "nmod",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 72,
+              "EndChar": 77
+            },
+            "FEATS": "Case=Nom|Gender=Masc|Number=Sing"
+          },
+          {
+            "ID": 13,
+            "FORM": "1949",
+            "LEMMA": "1949",
+            "UPOS": "NUM",
+            "XPOS": "Mdc",
+            "HEAD": 13,
+            "DEPREL": "nummod",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": false,
+              "StartChar": 78,
+              "EndChar": 82
+            },
+            "FEATS": "NumForm=Digit|NumType=Card"
+          },
+          {
+            "ID": 14,
+            "FORM": ",",
+            "LEMMA": ",",
+            "UPOS": "PUNCT",
+            "XPOS": "Z",
+            "HEAD": 16,
+            "DEPREL": "punct",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 82,
+              "EndChar": 83
+            },
+            "FEATS": null
+          },
+          {
+            "ID": 15,
+            "FORM": "Ljubljana",
+            "LEMMA": "Ljubljana",
+            "UPOS": "PROPN",
+            "XPOS": "Npfsn",
+            "HEAD": 14,
+            "DEPREL": "conj",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": false,
+              "StartChar": 84,
+              "EndChar": 93
+            },
+            "FEATS": "Case=Nom|Gender=Fem|Number=Sing"
+          },
+          {
+            "ID": 16,
+            "FORM": ".",
+            "LEMMA": ".",
+            "UPOS": "PUNCT",
+            "XPOS": "Z",
+            "HEAD": 1,
+            "DEPREL": "punct",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 93,
+              "EndChar": 94
+            },
+            "FEATS": null
+          }
+        ]
+      },
+      {
+        "paragraph": null,
+        "sentence": 1,
+        "text": "Bil je profesor na evropski podiplomski \u0161oli , mednarodni direktor Birkbeck In\u0161tituta za humanisti\u010dne \u0161tudije in vi\u0161ji raziskovalec na In\u0161titutu za sociologijo Univerze v Ljubljani , Slovenija .",
+        "words": [
+          {
+            "ID": 17,
+            "FORM": "Bil",
+            "LEMMA": "biti",
+            "UPOS": "AUX",
+            "XPOS": "Va-p-sm",
+            "HEAD": 3,
+            "DEPREL": "cop",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 95,
+              "EndChar": 98
+            },
+            "FEATS": "Gender=Masc|Number=Sing|VerbForm=Part"
+          },
+          {
+            "ID": 18,
+            "FORM": "je",
+            "LEMMA": "biti",
+            "UPOS": "AUX",
+            "XPOS": "Va-r3s-n",
+            "HEAD": 3,
+            "DEPREL": "aux",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 99,
+              "EndChar": 101
+            },
+            "FEATS": "Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin"
+          },
+          {
+            "ID": 19,
+            "FORM": "profesor",
+            "LEMMA": "profesor",
+            "UPOS": "NOUN",
+            "XPOS": "Ncmsn",
+            "HEAD": 0,
+            "DEPREL": "root",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 102,
+              "EndChar": 110
+            },
+            "FEATS": "Case=Nom|Gender=Masc|Number=Sing"
+          },
+          {
+            "ID": 20,
+            "FORM": "na",
+            "LEMMA": "na",
+            "UPOS": "ADP",
+            "XPOS": "Sl",
+            "HEAD": 7,
+            "DEPREL": "case",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 111,
+              "EndChar": 113
+            },
+            "FEATS": "Case=Loc"
+          },
+          {
+            "ID": 21,
+            "FORM": "evropski",
+            "LEMMA": "evropski",
+            "UPOS": "ADJ",
+            "XPOS": "Agpfsl",
+            "HEAD": 7,
+            "DEPREL": "amod",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 114,
+              "EndChar": 122
+            },
+            "FEATS": "Case=Loc|Degree=Pos|Gender=Fem|Number=Sing"
+          },
+          {
+            "ID": 22,
+            "FORM": "podiplomski",
+            "LEMMA": "podiplomski",
+            "UPOS": "ADJ",
+            "XPOS": "Agpfsl",
+            "HEAD": 7,
+            "DEPREL": "amod",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 123,
+              "EndChar": 134
+            },
+            "FEATS": "Case=Loc|Degree=Pos|Gender=Fem|Number=Sing"
+          },
+          {
+            "ID": 23,
+            "FORM": "\u0161oli",
+            "LEMMA": "\u0161ola",
+            "UPOS": "NOUN",
+            "XPOS": "Ncfsl",
+            "HEAD": 3,
+            "DEPREL": "nmod",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": false,
+              "StartChar": 135,
+              "EndChar": 139
+            },
+            "FEATS": "Case=Loc|Gender=Fem|Number=Sing"
+          },
+          {
+            "ID": 24,
+            "FORM": ",",
+            "LEMMA": ",",
+            "UPOS": "PUNCT",
+            "XPOS": "Z",
+            "HEAD": 10,
+            "DEPREL": "punct",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 139,
+              "EndChar": 140
+            },
+            "FEATS": null
+          },
+          {
+            "ID": 25,
+            "FORM": "mednarodni",
+            "LEMMA": "mednaroden",
+            "UPOS": "ADJ",
+            "XPOS": "Agpmsny",
+            "HEAD": 10,
+            "DEPREL": "amod",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 141,
+              "EndChar": 151
+            },
+            "FEATS": "Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing"
+          },
+          {
+            "ID": 26,
+            "FORM": "direktor",
+            "LEMMA": "direktor",
+            "UPOS": "NOUN",
+            "XPOS": "Ncmsn",
+            "HEAD": 3,
+            "DEPREL": "conj",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 152,
+              "EndChar": 160
+            },
+            "FEATS": "Case=Nom|Gender=Masc|Number=Sing"
+          },
+          {
+            "ID": 27,
+            "FORM": "Birkbeck",
+            "LEMMA": "Birkbeck",
+            "UPOS": "PROPN",
+            "XPOS": "Npmsn",
+            "HEAD": 10,
+            "DEPREL": "nmod",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 161,
+              "EndChar": 169
+            },
+            "FEATS": "Case=Nom|Gender=Masc|Number=Sing"
+          },
+          {
+            "ID": 28,
+            "FORM": "In\u0161tituta",
+            "LEMMA": "in\u0161titut",
+            "UPOS": "NOUN",
+            "XPOS": "Ncmsg",
+            "HEAD": 11,
+            "DEPREL": "nmod",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 170,
+              "EndChar": 179
+            },
+            "FEATS": "Case=Gen|Gender=Masc|Number=Sing"
+          },
+          {
+            "ID": 29,
+            "FORM": "za",
+            "LEMMA": "za",
+            "UPOS": "ADP",
+            "XPOS": "Sa",
+            "HEAD": 15,
+            "DEPREL": "case",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 180,
+              "EndChar": 182
+            },
+            "FEATS": "Case=Acc"
+          },
+          {
+            "ID": 30,
+            "FORM": "humanisti\u010dne",
+            "LEMMA": "humanisti\u010den",
+            "UPOS": "ADJ",
+            "XPOS": "Agpfpa",
+            "HEAD": 15,
+            "DEPREL": "amod",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 183,
+              "EndChar": 195
+            },
+            "FEATS": "Case=Acc|Degree=Pos|Gender=Fem|Number=Plur"
+          },
+          {
+            "ID": 31,
+            "FORM": "\u0161tudije",
+            "LEMMA": "\u0161tudija",
+            "UPOS": "NOUN",
+            "XPOS": "Ncfpa",
+            "HEAD": 12,
+            "DEPREL": "nmod",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 196,
+              "EndChar": 203
+            },
+            "FEATS": "Case=Acc|Gender=Fem|Number=Plur"
+          },
+          {
+            "ID": 32,
+            "FORM": "in",
+            "LEMMA": "in",
+            "UPOS": "CCONJ",
+            "XPOS": "Cc",
+            "HEAD": 18,
+            "DEPREL": "cc",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 204,
+              "EndChar": 206
+            },
+            "FEATS": null
+          },
+          {
+            "ID": 33,
+            "FORM": "vi\u0161ji",
+            "LEMMA": "visok",
+            "UPOS": "ADJ",
+            "XPOS": "Agcmsny",
+            "HEAD": 18,
+            "DEPREL": "amod",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 207,
+              "EndChar": 212
+            },
+            "FEATS": "Case=Nom|Definite=Def|Degree=Cmp|Gender=Masc|Number=Sing"
+          },
+          {
+            "ID": 34,
+            "FORM": "raziskovalec",
+            "LEMMA": "raziskovalec",
+            "UPOS": "NOUN",
+            "XPOS": "Ncmsn",
+            "HEAD": 10,
+            "DEPREL": "conj",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 213,
+              "EndChar": 225
+            },
+            "FEATS": "Case=Nom|Gender=Masc|Number=Sing"
+          },
+          {
+            "ID": 35,
+            "FORM": "na",
+            "LEMMA": "na",
+            "UPOS": "ADP",
+            "XPOS": "Sl",
+            "HEAD": 20,
+            "DEPREL": "case",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 226,
+              "EndChar": 228
+            },
+            "FEATS": "Case=Loc"
+          },
+          {
+            "ID": 36,
+            "FORM": "In\u0161titutu",
+            "LEMMA": "in\u0161titut",
+            "UPOS": "NOUN",
+            "XPOS": "Ncmsl",
+            "HEAD": 18,
+            "DEPREL": "nmod",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 229,
+              "EndChar": 238
+            },
+            "FEATS": "Case=Loc|Gender=Masc|Number=Sing"
+          },
+          {
+            "ID": 37,
+            "FORM": "za",
+            "LEMMA": "za",
+            "UPOS": "ADP",
+            "XPOS": "Sa",
+            "HEAD": 22,
+            "DEPREL": "case",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 239,
+              "EndChar": 241
+            },
+            "FEATS": "Case=Acc"
+          },
+          {
+            "ID": 38,
+            "FORM": "sociologijo",
+            "LEMMA": "sociologija",
+            "UPOS": "NOUN",
+            "XPOS": "Ncfsa",
+            "HEAD": 20,
+            "DEPREL": "nmod",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 242,
+              "EndChar": 253
+            },
+            "FEATS": "Case=Acc|Gender=Fem|Number=Sing"
+          },
+          {
+            "ID": 39,
+            "FORM": "Univerze",
+            "LEMMA": "univerza",
+            "UPOS": "NOUN",
+            "XPOS": "Ncfsg",
+            "HEAD": 22,
+            "DEPREL": "nmod",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 254,
+              "EndChar": 262
+            },
+            "FEATS": "Case=Gen|Gender=Fem|Number=Sing"
+          },
+          {
+            "ID": 40,
+            "FORM": "v",
+            "LEMMA": "v",
+            "UPOS": "ADP",
+            "XPOS": "Sl",
+            "HEAD": 25,
+            "DEPREL": "case",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 263,
+              "EndChar": 264
+            },
+            "FEATS": "Case=Loc"
+          },
+          {
+            "ID": 41,
+            "FORM": "Ljubljani",
+            "LEMMA": "Ljubljana",
+            "UPOS": "PROPN",
+            "XPOS": "Npfsl",
+            "HEAD": 23,
+            "DEPREL": "nmod",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": false,
+              "StartChar": 265,
+              "EndChar": 274
+            },
+            "FEATS": "Case=Loc|Gender=Fem|Number=Sing"
+          },
+          {
+            "ID": 42,
+            "FORM": ",",
+            "LEMMA": ",",
+            "UPOS": "PUNCT",
+            "XPOS": "Z",
+            "HEAD": 27,
+            "DEPREL": "punct",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 274,
+              "EndChar": 275
+            },
+            "FEATS": null
+          },
+          {
+            "ID": 43,
+            "FORM": "Slovenija",
+            "LEMMA": "Slovenija",
+            "UPOS": "PROPN",
+            "XPOS": "Npfsn",
+            "HEAD": 25,
+            "DEPREL": "conj",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": false,
+              "StartChar": 276,
+              "EndChar": 285
+            },
+            "FEATS": "Case=Nom|Gender=Fem|Number=Sing"
+          },
+          {
+            "ID": 44,
+            "FORM": ".",
+            "LEMMA": ".",
+            "UPOS": "PUNCT",
+            "XPOS": "Z",
+            "HEAD": 3,
+            "DEPREL": "punct",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 285,
+              "EndChar": 286
+            },
+            "FEATS": null
+          }
+        ]
+      },
+      {
+        "paragraph": null,
+        "sentence": 2,
+        "text": "\u017di\u017eek je doktoriral iz filozofije .",
+        "words": [
+          {
+            "ID": 45,
+            "FORM": "\u017di\u017eek",
+            "LEMMA": "\u017di\u017eek",
+            "UPOS": "PROPN",
+            "XPOS": "Npmsn",
+            "HEAD": 3,
+            "DEPREL": "nsubj",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 287,
+              "EndChar": 292
+            },
+            "FEATS": "Case=Nom|Gender=Masc|Number=Sing"
+          },
+          {
+            "ID": 46,
+            "FORM": "je",
+            "LEMMA": "biti",
+            "UPOS": "AUX",
+            "XPOS": "Va-r3s-n",
+            "HEAD": 3,
+            "DEPREL": "aux",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 293,
+              "EndChar": 295
+            },
+            "FEATS": "Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin"
+          },
+          {
+            "ID": 47,
+            "FORM": "doktoriral",
+            "LEMMA": "doktorirati",
+            "UPOS": "VERB",
+            "XPOS": "Vmbp-sm",
+            "HEAD": 0,
+            "DEPREL": "root",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 296,
+              "EndChar": 306
+            },
+            "FEATS": "Gender=Masc|Number=Sing|VerbForm=Part"
+          },
+          {
+            "ID": 48,
+            "FORM": "iz",
+            "LEMMA": "iz",
+            "UPOS": "ADP",
+            "XPOS": "Sg",
+            "HEAD": 5,
+            "DEPREL": "case",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 307,
+              "EndChar": 309
+            },
+            "FEATS": "Case=Gen"
+          },
+          {
+            "ID": 49,
+            "FORM": "filozofije",
+            "LEMMA": "filozofija",
+            "UPOS": "NOUN",
+            "XPOS": "Ncfsg",
+            "HEAD": 3,
+            "DEPREL": "obl",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": false,
+              "StartChar": 310,
+              "EndChar": 320
+            },
+            "FEATS": "Case=Gen|Gender=Fem|Number=Sing"
+          },
+          {
+            "ID": 50,
+            "FORM": ".",
+            "LEMMA": ".",
+            "UPOS": "PUNCT",
+            "XPOS": "Z",
+            "HEAD": 3,
+            "DEPREL": "punct",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 320,
+              "EndChar": 321
+            },
+            "FEATS": null
+          }
+        ]
+      },
+      {
+        "paragraph": null,
+        "sentence": 3,
+        "text": "Bil je imenovan \" Elvis filozofije \" in \" akademska rock zvezda .",
+        "words": [
+          {
+            "ID": 51,
+            "FORM": "Bil",
+            "LEMMA": "biti",
+            "UPOS": "AUX",
+            "XPOS": "Va-p-sm",
+            "HEAD": 3,
+            "DEPREL": "cop",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 322,
+              "EndChar": 325
+            },
+            "FEATS": "Gender=Masc|Number=Sing|VerbForm=Part"
+          },
+          {
+            "ID": 52,
+            "FORM": "je",
+            "LEMMA": "biti",
+            "UPOS": "AUX",
+            "XPOS": "Va-r3s-n",
+            "HEAD": 3,
+            "DEPREL": "aux",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 326,
+              "EndChar": 328
+            },
+            "FEATS": "Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin"
+          },
+          {
+            "ID": 53,
+            "FORM": "imenovan",
+            "LEMMA": "imenovan",
+            "UPOS": "ADJ",
+            "XPOS": "Appmsnn",
+            "HEAD": 0,
+            "DEPREL": "root",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 329,
+              "EndChar": 337
+            },
+            "FEATS": "Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing|VerbForm=Part"
+          },
+          {
+            "ID": 54,
+            "FORM": "\"",
+            "LEMMA": "\"",
+            "UPOS": "PUNCT",
+            "XPOS": "Z",
+            "HEAD": 5,
+            "DEPREL": "punct",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 338,
+              "EndChar": 339
+            },
+            "FEATS": null
+          },
+          {
+            "ID": 55,
+            "FORM": "Elvis",
+            "LEMMA": "Elvis",
+            "UPOS": "PROPN",
+            "XPOS": "Npmsn",
+            "HEAD": 3,
+            "DEPREL": "nsubj",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 340,
+              "EndChar": 345
+            },
+            "FEATS": "Case=Nom|Gender=Masc|Number=Sing"
+          },
+          {
+            "ID": 56,
+            "FORM": "filozofije",
+            "LEMMA": "filozofija",
+            "UPOS": "NOUN",
+            "XPOS": "Ncfsg",
+            "HEAD": 5,
+            "DEPREL": "nmod",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 346,
+              "EndChar": 356
+            },
+            "FEATS": "Case=Gen|Gender=Fem|Number=Sing"
+          },
+          {
+            "ID": 57,
+            "FORM": "\"",
+            "LEMMA": "\"",
+            "UPOS": "PUNCT",
+            "XPOS": "Z",
+            "HEAD": 8,
+            "DEPREL": "punct",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 357,
+              "EndChar": 358
+            },
+            "FEATS": null
+          },
+          {
+            "ID": 58,
+            "FORM": "in",
+            "LEMMA": "in",
+            "UPOS": "CCONJ",
+            "XPOS": "Cc",
+            "HEAD": 12,
+            "DEPREL": "cc",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 359,
+              "EndChar": 361
+            },
+            "FEATS": null
+          },
+          {
+            "ID": 59,
+            "FORM": "\"",
+            "LEMMA": "\"",
+            "UPOS": "PUNCT",
+            "XPOS": "Z",
+            "HEAD": 12,
+            "DEPREL": "punct",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 362,
+              "EndChar": 363
+            },
+            "FEATS": null
+          },
+          {
+            "ID": 60,
+            "FORM": "akademska",
+            "LEMMA": "akademski",
+            "UPOS": "ADJ",
+            "XPOS": "Agpfsn",
+            "HEAD": 12,
+            "DEPREL": "amod",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 364,
+              "EndChar": 373
+            },
+            "FEATS": "Case=Nom|Degree=Pos|Gender=Fem|Number=Sing"
+          },
+          {
+            "ID": 61,
+            "FORM": "rock",
+            "LEMMA": "rock",
+            "UPOS": "NOUN",
+            "XPOS": "Ncmsn",
+            "HEAD": 12,
+            "DEPREL": "nmod",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 374,
+              "EndChar": 378
+            },
+            "FEATS": "Case=Nom|Gender=Masc|Number=Sing"
+          },
+          {
+            "ID": 62,
+            "FORM": "zvezda",
+            "LEMMA": "zvezda",
+            "UPOS": "NOUN",
+            "XPOS": "Ncfsn",
+            "HEAD": 5,
+            "DEPREL": "conj",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": false,
+              "StartChar": 379,
+              "EndChar": 385
+            },
+            "FEATS": "Case=Nom|Gender=Fem|Number=Sing"
+          },
+          {
+            "ID": 63,
+            "FORM": ".",
+            "LEMMA": ".",
+            "UPOS": "PUNCT",
+            "XPOS": "Z",
+            "HEAD": 3,
+            "DEPREL": "punct",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 385,
+              "EndChar": 386
+            },
+            "FEATS": null
+          }
+        ]
+      },
+      {
+        "paragraph": null,
+        "sentence": 4,
+        "text": "\" V mladih letih so ga zanimala dela Georga Wilhelma Friedricha Hegla , Karla Marxa in Friedricha Wilhelma Josepha Schellinga .",
+        "words": [
+          {
+            "ID": 64,
+            "FORM": "\"",
+            "LEMMA": "\"",
+            "UPOS": "PUNCT",
+            "XPOS": "Z",
+            "HEAD": 7,
+            "DEPREL": "punct",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 387,
+              "EndChar": 388
+            },
+            "FEATS": null
+          },
+          {
+            "ID": 65,
+            "FORM": "V",
+            "LEMMA": "v",
+            "UPOS": "ADP",
+            "XPOS": "Sl",
+            "HEAD": 4,
+            "DEPREL": "case",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 389,
+              "EndChar": 390
+            },
+            "FEATS": "Case=Loc"
+          },
+          {
+            "ID": 66,
+            "FORM": "mladih",
+            "LEMMA": "mlad",
+            "UPOS": "ADJ",
+            "XPOS": "Agpnpl",
+            "HEAD": 4,
+            "DEPREL": "amod",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 391,
+              "EndChar": 397
+            },
+            "FEATS": "Case=Loc|Degree=Pos|Gender=Neut|Number=Plur"
+          },
+          {
+            "ID": 67,
+            "FORM": "letih",
+            "LEMMA": "leto",
+            "UPOS": "NOUN",
+            "XPOS": "Ncnpl",
+            "HEAD": 7,
+            "DEPREL": "obl",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 398,
+              "EndChar": 403
+            },
+            "FEATS": "Case=Loc|Gender=Neut|Number=Plur"
+          },
+          {
+            "ID": 68,
+            "FORM": "so",
+            "LEMMA": "biti",
+            "UPOS": "AUX",
+            "XPOS": "Va-r3p-n",
+            "HEAD": 7,
+            "DEPREL": "aux",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 404,
+              "EndChar": 406
+            },
+            "FEATS": "Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin"
+          },
+          {
+            "ID": 69,
+            "FORM": "ga",
+            "LEMMA": "on",
+            "UPOS": "PRON",
+            "XPOS": "Pp3msa--y",
+            "HEAD": 7,
+            "DEPREL": "obj",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 407,
+              "EndChar": 409
+            },
+            "FEATS": "Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Variant=Short"
+          },
+          {
+            "ID": 70,
+            "FORM": "zanimala",
+            "LEMMA": "zanimati",
+            "UPOS": "VERB",
+            "XPOS": "Vmpp-pn",
+            "HEAD": 0,
+            "DEPREL": "root",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 410,
+              "EndChar": 418
+            },
+            "FEATS": "Aspect=Imp|Gender=Neut|Number=Plur|VerbForm=Part"
+          },
+          {
+            "ID": 71,
+            "FORM": "dela",
+            "LEMMA": "delo",
+            "UPOS": "NOUN",
+            "XPOS": "Ncnpn",
+            "HEAD": 7,
+            "DEPREL": "nsubj",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 419,
+              "EndChar": 423
+            },
+            "FEATS": "Case=Nom|Gender=Neut|Number=Plur"
+          },
+          {
+            "ID": 72,
+            "FORM": "Georga",
+            "LEMMA": "George",
+            "UPOS": "PROPN",
+            "XPOS": "Npmsg",
+            "HEAD": 8,
+            "DEPREL": "nmod",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 424,
+              "EndChar": 430
+            },
+            "FEATS": "Case=Gen|Gender=Masc|Number=Sing"
+          },
+          {
+            "ID": 73,
+            "FORM": "Wilhelma",
+            "LEMMA": "Wilhelm",
+            "UPOS": "PROPN",
+            "XPOS": "Npmsg",
+            "HEAD": 9,
+            "DEPREL": "flat:name",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 431,
+              "EndChar": 439
+            },
+            "FEATS": "Case=Gen|Gender=Masc|Number=Sing"
+          },
+          {
+            "ID": 74,
+            "FORM": "Friedricha",
+            "LEMMA": "Friedrich",
+            "UPOS": "PROPN",
+            "XPOS": "Npmsg",
+            "HEAD": 9,
+            "DEPREL": "flat:name",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 440,
+              "EndChar": 450
+            },
+            "FEATS": "Case=Gen|Gender=Masc|Number=Sing"
+          },
+          {
+            "ID": 75,
+            "FORM": "Hegla",
+            "LEMMA": "Hegel",
+            "UPOS": "PROPN",
+            "XPOS": "Npmsg",
+            "HEAD": 11,
+            "DEPREL": "flat:name",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": false,
+              "StartChar": 451,
+              "EndChar": 456
+            },
+            "FEATS": "Case=Gen|Gender=Masc|Number=Sing"
+          },
+          {
+            "ID": 76,
+            "FORM": ",",
+            "LEMMA": ",",
+            "UPOS": "PUNCT",
+            "XPOS": "Z",
+            "HEAD": 14,
+            "DEPREL": "punct",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 456,
+              "EndChar": 457
+            },
+            "FEATS": null
+          },
+          {
+            "ID": 77,
+            "FORM": "Karla",
+            "LEMMA": "Karel",
+            "UPOS": "PROPN",
+            "XPOS": "Npmsg",
+            "HEAD": 9,
+            "DEPREL": "conj",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 458,
+              "EndChar": 463
+            },
+            "FEATS": "Case=Gen|Gender=Masc|Number=Sing"
+          },
+          {
+            "ID": 78,
+            "FORM": "Marxa",
+            "LEMMA": "Marx",
+            "UPOS": "PROPN",
+            "XPOS": "Npmsg",
+            "HEAD": 14,
+            "DEPREL": "flat:name",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 464,
+              "EndChar": 469
+            },
+            "FEATS": "Case=Gen|Gender=Masc|Number=Sing"
+          },
+          {
+            "ID": 79,
+            "FORM": "in",
+            "LEMMA": "in",
+            "UPOS": "CCONJ",
+            "XPOS": "Cc",
+            "HEAD": 17,
+            "DEPREL": "cc",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 470,
+              "EndChar": 472
+            },
+            "FEATS": null
+          },
+          {
+            "ID": 80,
+            "FORM": "Friedricha",
+            "LEMMA": "Friedrich",
+            "UPOS": "PROPN",
+            "XPOS": "Npmsg",
+            "HEAD": 14,
+            "DEPREL": "conj",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 473,
+              "EndChar": 483
+            },
+            "FEATS": "Case=Gen|Gender=Masc|Number=Sing"
+          },
+          {
+            "ID": 81,
+            "FORM": "Wilhelma",
+            "LEMMA": "Wilhelm",
+            "UPOS": "PROPN",
+            "XPOS": "Npmsg",
+            "HEAD": 17,
+            "DEPREL": "flat:name",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 484,
+              "EndChar": 492
+            },
+            "FEATS": "Case=Gen|Gender=Masc|Number=Sing"
+          },
+          {
+            "ID": 82,
+            "FORM": "Josepha",
+            "LEMMA": "Joseph",
+            "UPOS": "PROPN",
+            "XPOS": "Npmsg",
+            "HEAD": 17,
+            "DEPREL": "flat:name",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 493,
+              "EndChar": 500
+            },
+            "FEATS": "Case=Gen|Gender=Masc|Number=Sing"
+          },
+          {
+            "ID": 83,
+            "FORM": "Schellinga",
+            "LEMMA": "Schelling",
+            "UPOS": "PROPN",
+            "XPOS": "Npmsg",
+            "HEAD": 19,
+            "DEPREL": "flat:name",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": false,
+              "StartChar": 501,
+              "EndChar": 511
+            },
+            "FEATS": "Case=Gen|Gender=Masc|Number=Sing"
+          },
+          {
+            "ID": 84,
+            "FORM": ".",
+            "LEMMA": ".",
+            "UPOS": "PUNCT",
+            "XPOS": "Z",
+            "HEAD": 7,
+            "DEPREL": "punct",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 511,
+              "EndChar": 512
+            },
+            "FEATS": null
+          }
+        ]
+      },
+      {
+        "paragraph": null,
+        "sentence": 5,
+        "text": "Leta 1971 je na ljubljanski Filozofski fakulteti diplomiral iz filozofije in sociologije , na isti ustanovi pa \u0161e magistriral in doktoriral ( 1981 ) .",
+        "words": [
+          {
+            "ID": 85,
+            "FORM": "Leta",
+            "LEMMA": "leto",
+            "UPOS": "NOUN",
+            "XPOS": "Ncnsg",
+            "HEAD": 8,
+            "DEPREL": "obl",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 513,
+              "EndChar": 517
+            },
+            "FEATS": "Case=Gen|Gender=Neut|Number=Sing"
+          },
+          {
+            "ID": 86,
+            "FORM": "1971",
+            "LEMMA": "1971",
+            "UPOS": "NUM",
+            "XPOS": "Mdc",
+            "HEAD": 1,
+            "DEPREL": "nummod",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 518,
+              "EndChar": 522
+            },
+            "FEATS": "NumForm=Digit|NumType=Card"
+          },
+          {
+            "ID": 87,
+            "FORM": "je",
+            "LEMMA": "biti",
+            "UPOS": "AUX",
+            "XPOS": "Va-r3s-n",
+            "HEAD": 8,
+            "DEPREL": "aux",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 523,
+              "EndChar": 525
+            },
+            "FEATS": "Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin"
+          },
+          {
+            "ID": 88,
+            "FORM": "na",
+            "LEMMA": "na",
+            "UPOS": "ADP",
+            "XPOS": "Sl",
+            "HEAD": 7,
+            "DEPREL": "case",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 526,
+              "EndChar": 528
+            },
+            "FEATS": "Case=Loc"
+          },
+          {
+            "ID": 89,
+            "FORM": "ljubljanski",
+            "LEMMA": "ljubljanski",
+            "UPOS": "ADJ",
+            "XPOS": "Agpfsl",
+            "HEAD": 7,
+            "DEPREL": "amod",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 529,
+              "EndChar": 540
+            },
+            "FEATS": "Case=Loc|Degree=Pos|Gender=Fem|Number=Sing"
+          },
+          {
+            "ID": 90,
+            "FORM": "Filozofski",
+            "LEMMA": "filozofski",
+            "UPOS": "ADJ",
+            "XPOS": "Agpfsl",
+            "HEAD": 7,
+            "DEPREL": "amod",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 541,
+              "EndChar": 551
+            },
+            "FEATS": "Case=Loc|Degree=Pos|Gender=Fem|Number=Sing"
+          },
+          {
+            "ID": 91,
+            "FORM": "fakulteti",
+            "LEMMA": "fakulteta",
+            "UPOS": "NOUN",
+            "XPOS": "Ncfsl",
+            "HEAD": 8,
+            "DEPREL": "obl",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 552,
+              "EndChar": 561
+            },
+            "FEATS": "Case=Loc|Gender=Fem|Number=Sing"
+          },
+          {
+            "ID": 92,
+            "FORM": "diplomiral",
+            "LEMMA": "diplomirati",
+            "UPOS": "VERB",
+            "XPOS": "Vmbp-sm",
+            "HEAD": 0,
+            "DEPREL": "root",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 562,
+              "EndChar": 572
+            },
+            "FEATS": "Gender=Masc|Number=Sing|VerbForm=Part"
+          },
+          {
+            "ID": 93,
+            "FORM": "iz",
+            "LEMMA": "iz",
+            "UPOS": "ADP",
+            "XPOS": "Sg",
+            "HEAD": 10,
+            "DEPREL": "case",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 573,
+              "EndChar": 575
+            },
+            "FEATS": "Case=Gen"
+          },
+          {
+            "ID": 94,
+            "FORM": "filozofije",
+            "LEMMA": "filozofija",
+            "UPOS": "NOUN",
+            "XPOS": "Ncfsg",
+            "HEAD": 8,
+            "DEPREL": "obl",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 576,
+              "EndChar": 586
+            },
+            "FEATS": "Case=Gen|Gender=Fem|Number=Sing"
+          },
+          {
+            "ID": 95,
+            "FORM": "in",
+            "LEMMA": "in",
+            "UPOS": "CCONJ",
+            "XPOS": "Cc",
+            "HEAD": 12,
+            "DEPREL": "cc",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 587,
+              "EndChar": 589
+            },
+            "FEATS": null
+          },
+          {
+            "ID": 96,
+            "FORM": "sociologije",
+            "LEMMA": "sociologija",
+            "UPOS": "NOUN",
+            "XPOS": "Ncfsg",
+            "HEAD": 10,
+            "DEPREL": "conj",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": false,
+              "StartChar": 590,
+              "EndChar": 601
+            },
+            "FEATS": "Case=Gen|Gender=Fem|Number=Sing"
+          },
+          {
+            "ID": 97,
+            "FORM": ",",
+            "LEMMA": ",",
+            "UPOS": "PUNCT",
+            "XPOS": "Z",
+            "HEAD": 19,
+            "DEPREL": "punct",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 601,
+              "EndChar": 602
+            },
+            "FEATS": null
+          },
+          {
+            "ID": 98,
+            "FORM": "na",
+            "LEMMA": "na",
+            "UPOS": "ADP",
+            "XPOS": "Sl",
+            "HEAD": 16,
+            "DEPREL": "case",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 603,
+              "EndChar": 605
+            },
+            "FEATS": "Case=Loc"
+          },
+          {
+            "ID": 99,
+            "FORM": "isti",
+            "LEMMA": "isti",
+            "UPOS": "DET",
+            "XPOS": "Pi-fsl",
+            "HEAD": 16,
+            "DEPREL": "det",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 606,
+              "EndChar": 610
+            },
+            "FEATS": "Case=Loc|Gender=Fem|Number=Sing|PronType=Ind"
+          },
+          {
+            "ID": 100,
+            "FORM": "ustanovi",
+            "LEMMA": "ustanova",
+            "UPOS": "NOUN",
+            "XPOS": "Ncfsl",
+            "HEAD": 19,
+            "DEPREL": "obl",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 611,
+              "EndChar": 619
+            },
+            "FEATS": "Case=Loc|Gender=Fem|Number=Sing"
+          },
+          {
+            "ID": 101,
+            "FORM": "pa",
+            "LEMMA": "pa",
+            "UPOS": "CCONJ",
+            "XPOS": "Cc",
+            "HEAD": 19,
+            "DEPREL": "advmod",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 620,
+              "EndChar": 622
+            },
+            "FEATS": null
+          },
+          {
+            "ID": 102,
+            "FORM": "\u0161e",
+            "LEMMA": "\u0161e",
+            "UPOS": "PART",
+            "XPOS": "Q",
+            "HEAD": 19,
+            "DEPREL": "advmod",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 623,
+              "EndChar": 625
+            },
+            "FEATS": null
+          },
+          {
+            "ID": 103,
+            "FORM": "magistriral",
+            "LEMMA": "magistrirati",
+            "UPOS": "VERB",
+            "XPOS": "Vmbp-sm",
+            "HEAD": 8,
+            "DEPREL": "parataxis",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 626,
+              "EndChar": 637
+            },
+            "FEATS": "Gender=Masc|Number=Sing|VerbForm=Part"
+          },
+          {
+            "ID": 104,
+            "FORM": "in",
+            "LEMMA": "in",
+            "UPOS": "CCONJ",
+            "XPOS": "Cc",
+            "HEAD": 21,
+            "DEPREL": "cc",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 638,
+              "EndChar": 640
+            },
+            "FEATS": null
+          },
+          {
+            "ID": 105,
+            "FORM": "doktoriral",
+            "LEMMA": "doktorirati",
+            "UPOS": "VERB",
+            "XPOS": "Vmbp-sm",
+            "HEAD": 19,
+            "DEPREL": "conj",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 641,
+              "EndChar": 651
+            },
+            "FEATS": "Gender=Masc|Number=Sing|VerbForm=Part"
+          },
+          {
+            "ID": 106,
+            "FORM": "(",
+            "LEMMA": "(",
+            "UPOS": "PUNCT",
+            "XPOS": "Z",
+            "HEAD": 23,
+            "DEPREL": "punct",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": false,
+              "StartChar": 652,
+              "EndChar": 653
+            },
+            "FEATS": null
+          },
+          {
+            "ID": 107,
+            "FORM": "1981",
+            "LEMMA": "1981",
+            "UPOS": "NUM",
+            "XPOS": "Mdc",
+            "HEAD": 21,
+            "DEPREL": "advmod",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": false,
+              "StartChar": 653,
+              "EndChar": 657
+            },
+            "FEATS": "NumForm=Digit|NumType=Card"
+          },
+          {
+            "ID": 108,
+            "FORM": ")",
+            "LEMMA": ")",
+            "UPOS": "PUNCT",
+            "XPOS": "Z",
+            "HEAD": 23,
+            "DEPREL": "punct",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": false,
+              "StartChar": 657,
+              "EndChar": 658
+            },
+            "FEATS": null
+          },
+          {
+            "ID": 109,
+            "FORM": ".",
+            "LEMMA": ".",
+            "UPOS": "PUNCT",
+            "XPOS": "Z",
+            "HEAD": 8,
+            "DEPREL": "punct",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 658,
+              "EndChar": 659
+            },
+            "FEATS": null
+          }
+        ]
+      },
+      {
+        "paragraph": null,
+        "sentence": 6,
+        "text": "Drugi\u010d je doktoriral na temo psihoanalize v Parizu ( Universite Paris - VII ) .",
+        "words": [
+          {
+            "ID": 110,
+            "FORM": "Drugi\u010d",
+            "LEMMA": "drugi\u010d",
+            "UPOS": "ADV",
+            "XPOS": "Rgp",
+            "HEAD": 3,
+            "DEPREL": "advmod",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 660,
+              "EndChar": 666
+            },
+            "FEATS": "Degree=Pos"
+          },
+          {
+            "ID": 111,
+            "FORM": "je",
+            "LEMMA": "biti",
+            "UPOS": "AUX",
+            "XPOS": "Va-r3s-n",
+            "HEAD": 3,
+            "DEPREL": "aux",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 667,
+              "EndChar": 669
+            },
+            "FEATS": "Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin"
+          },
+          {
+            "ID": 112,
+            "FORM": "doktoriral",
+            "LEMMA": "doktorirati",
+            "UPOS": "VERB",
+            "XPOS": "Vmbp-sm",
+            "HEAD": 0,
+            "DEPREL": "root",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 670,
+              "EndChar": 680
+            },
+            "FEATS": "Gender=Masc|Number=Sing|VerbForm=Part"
+          },
+          {
+            "ID": 113,
+            "FORM": "na",
+            "LEMMA": "na",
+            "UPOS": "ADP",
+            "XPOS": "Sa",
+            "HEAD": 5,
+            "DEPREL": "case",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 681,
+              "EndChar": 683
+            },
+            "FEATS": "Case=Acc"
+          },
+          {
+            "ID": 114,
+            "FORM": "temo",
+            "LEMMA": "tema",
+            "UPOS": "NOUN",
+            "XPOS": "Ncfsa",
+            "HEAD": 3,
+            "DEPREL": "obl",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 684,
+              "EndChar": 688
+            },
+            "FEATS": "Case=Acc|Gender=Fem|Number=Sing"
+          },
+          {
+            "ID": 115,
+            "FORM": "psihoanalize",
+            "LEMMA": "psihoanaliza",
+            "UPOS": "NOUN",
+            "XPOS": "Ncfsg",
+            "HEAD": 5,
+            "DEPREL": "nmod",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 689,
+              "EndChar": 701
+            },
+            "FEATS": "Case=Gen|Gender=Fem|Number=Sing"
+          },
+          {
+            "ID": 116,
+            "FORM": "v",
+            "LEMMA": "v",
+            "UPOS": "ADP",
+            "XPOS": "Sl",
+            "HEAD": 8,
+            "DEPREL": "case",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 702,
+              "EndChar": 703
+            },
+            "FEATS": "Case=Loc"
+          },
+          {
+            "ID": 117,
+            "FORM": "Parizu",
+            "LEMMA": "Pariz",
+            "UPOS": "PROPN",
+            "XPOS": "Npmsl",
+            "HEAD": 6,
+            "DEPREL": "nmod",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 704,
+              "EndChar": 710
+            },
+            "FEATS": "Case=Loc|Gender=Masc|Number=Sing"
+          },
+          {
+            "ID": 118,
+            "FORM": "(",
+            "LEMMA": "(",
+            "UPOS": "PUNCT",
+            "XPOS": "Z",
+            "HEAD": 10,
+            "DEPREL": "punct",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": false,
+              "StartChar": 711,
+              "EndChar": 712
+            },
+            "FEATS": null
+          },
+          {
+            "ID": 119,
+            "FORM": "Universite",
+            "LEMMA": "Universite",
+            "UPOS": "PROPN",
+            "XPOS": "Npmsn",
+            "HEAD": 8,
+            "DEPREL": "appos",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 712,
+              "EndChar": 722
+            },
+            "FEATS": "Case=Nom|Gender=Masc|Number=Sing"
+          },
+          {
+            "ID": 120,
+            "FORM": "Paris",
+            "LEMMA": "Paris",
+            "UPOS": "PROPN",
+            "XPOS": "Npmsn",
+            "HEAD": 10,
+            "DEPREL": "flat:foreign",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": false,
+              "StartChar": 723,
+              "EndChar": 728
+            },
+            "FEATS": "Case=Nom|Gender=Masc|Number=Sing"
+          },
+          {
+            "ID": 121,
+            "FORM": "-",
+            "LEMMA": "-",
+            "UPOS": "PUNCT",
+            "XPOS": "Z",
+            "HEAD": 13,
+            "DEPREL": "punct",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": false,
+              "StartChar": 728,
+              "EndChar": 729
+            },
+            "FEATS": null
+          },
+          {
+            "ID": 122,
+            "FORM": "VII",
+            "LEMMA": "VII",
+            "UPOS": "NUM",
+            "XPOS": "Mrc",
+            "HEAD": 10,
+            "DEPREL": "nummod",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": false,
+              "StartChar": 729,
+              "EndChar": 732
+            },
+            "FEATS": "NumForm=Roman|NumType=Card"
+          },
+          {
+            "ID": 123,
+            "FORM": ")",
+            "LEMMA": ")",
+            "UPOS": "PUNCT",
+            "XPOS": "Z",
+            "HEAD": 10,
+            "DEPREL": "punct",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": false,
+              "StartChar": 732,
+              "EndChar": 733
+            },
+            "FEATS": null
+          },
+          {
+            "ID": 124,
+            "FORM": ".",
+            "LEMMA": ".",
+            "UPOS": "PUNCT",
+            "XPOS": "Z",
+            "HEAD": 3,
+            "DEPREL": "punct",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 733,
+              "EndChar": 734
+            },
+            "FEATS": null
+          }
+        ]
+      },
+      {
+        "paragraph": null,
+        "sentence": 7,
+        "text": "Teko\u010de govori slovensko , srbsko , hrva\u0161ko , angle\u0161ko , francosko , nem\u0161ko in ima osnovno znanje italijan\u0161\u010dine .",
+        "words": [
+          {
+            "ID": 125,
+            "FORM": "Teko\u010de",
+            "LEMMA": "teko\u010de",
+            "UPOS": "ADV",
+            "XPOS": "Rgp",
+            "HEAD": 2,
+            "DEPREL": "advmod",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 735,
+              "EndChar": 741
+            },
+            "FEATS": "Degree=Pos"
+          },
+          {
+            "ID": 126,
+            "FORM": "govori",
+            "LEMMA": "govoriti",
+            "UPOS": "VERB",
+            "XPOS": "Vmpr3s",
+            "HEAD": 0,
+            "DEPREL": "root",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 742,
+              "EndChar": 748
+            },
+            "FEATS": "Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+          },
+          {
+            "ID": 127,
+            "FORM": "slovensko",
+            "LEMMA": "slovenski",
+            "UPOS": "ADJ",
+            "XPOS": "Agpnsn",
+            "HEAD": 2,
+            "DEPREL": "advcl",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": false,
+              "StartChar": 749,
+              "EndChar": 758
+            },
+            "FEATS": "Case=Nom|Degree=Pos|Gender=Neut|Number=Sing"
+          },
+          {
+            "ID": 128,
+            "FORM": ",",
+            "LEMMA": ",",
+            "UPOS": "PUNCT",
+            "XPOS": "Z",
+            "HEAD": 5,
+            "DEPREL": "punct",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 758,
+              "EndChar": 759
+            },
+            "FEATS": null
+          },
+          {
+            "ID": 129,
+            "FORM": "srbsko",
+            "LEMMA": "srbski",
+            "UPOS": "ADJ",
+            "XPOS": "Agpnsn",
+            "HEAD": 3,
+            "DEPREL": "conj",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": false,
+              "StartChar": 760,
+              "EndChar": 766
+            },
+            "FEATS": "Case=Nom|Degree=Pos|Gender=Neut|Number=Sing"
+          },
+          {
+            "ID": 130,
+            "FORM": ",",
+            "LEMMA": ",",
+            "UPOS": "PUNCT",
+            "XPOS": "Z",
+            "HEAD": 7,
+            "DEPREL": "punct",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 766,
+              "EndChar": 767
+            },
+            "FEATS": null
+          },
+          {
+            "ID": 131,
+            "FORM": "hrva\u0161ko",
+            "LEMMA": "hrva\u0161ki",
+            "UPOS": "ADJ",
+            "XPOS": "Agpnsn",
+            "HEAD": 3,
+            "DEPREL": "conj",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": false,
+              "StartChar": 768,
+              "EndChar": 775
+            },
+            "FEATS": "Case=Nom|Degree=Pos|Gender=Neut|Number=Sing"
+          },
+          {
+            "ID": 132,
+            "FORM": ",",
+            "LEMMA": ",",
+            "UPOS": "PUNCT",
+            "XPOS": "Z",
+            "HEAD": 9,
+            "DEPREL": "punct",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 775,
+              "EndChar": 776
+            },
+            "FEATS": null
+          },
+          {
+            "ID": 133,
+            "FORM": "angle\u0161ko",
+            "LEMMA": "angle\u0161ki",
+            "UPOS": "ADJ",
+            "XPOS": "Agpnsn",
+            "HEAD": 3,
+            "DEPREL": "conj",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": false,
+              "StartChar": 777,
+              "EndChar": 785
+            },
+            "FEATS": "Case=Nom|Degree=Pos|Gender=Neut|Number=Sing"
+          },
+          {
+            "ID": 134,
+            "FORM": ",",
+            "LEMMA": ",",
+            "UPOS": "PUNCT",
+            "XPOS": "Z",
+            "HEAD": 11,
+            "DEPREL": "punct",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 785,
+              "EndChar": 786
+            },
+            "FEATS": null
+          },
+          {
+            "ID": 135,
+            "FORM": "francosko",
+            "LEMMA": "francoski",
+            "UPOS": "ADJ",
+            "XPOS": "Agpnsn",
+            "HEAD": 3,
+            "DEPREL": "conj",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": false,
+              "StartChar": 787,
+              "EndChar": 796
+            },
+            "FEATS": "Case=Nom|Degree=Pos|Gender=Neut|Number=Sing"
+          },
+          {
+            "ID": 136,
+            "FORM": ",",
+            "LEMMA": ",",
+            "UPOS": "PUNCT",
+            "XPOS": "Z",
+            "HEAD": 13,
+            "DEPREL": "punct",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 796,
+              "EndChar": 797
+            },
+            "FEATS": null
+          },
+          {
+            "ID": 137,
+            "FORM": "nem\u0161ko",
+            "LEMMA": "nem\u0161ki",
+            "UPOS": "ADJ",
+            "XPOS": "Agpnsn",
+            "HEAD": 3,
+            "DEPREL": "conj",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 798,
+              "EndChar": 804
+            },
+            "FEATS": "Case=Nom|Degree=Pos|Gender=Neut|Number=Sing"
+          },
+          {
+            "ID": 138,
+            "FORM": "in",
+            "LEMMA": "in",
+            "UPOS": "CCONJ",
+            "XPOS": "Cc",
+            "HEAD": 15,
+            "DEPREL": "cc",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 805,
+              "EndChar": 807
+            },
+            "FEATS": null
+          },
+          {
+            "ID": 139,
+            "FORM": "ima",
+            "LEMMA": "imeti",
+            "UPOS": "VERB",
+            "XPOS": "Vmpr3s-n",
+            "HEAD": 2,
+            "DEPREL": "conj",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 808,
+              "EndChar": 811
+            },
+            "FEATS": "Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin"
+          },
+          {
+            "ID": 140,
+            "FORM": "osnovno",
+            "LEMMA": "osnoven",
+            "UPOS": "ADJ",
+            "XPOS": "Agpnsa",
+            "HEAD": 17,
+            "DEPREL": "amod",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 812,
+              "EndChar": 819
+            },
+            "FEATS": "Case=Acc|Degree=Pos|Gender=Neut|Number=Sing"
+          },
+          {
+            "ID": 141,
+            "FORM": "znanje",
+            "LEMMA": "znanje",
+            "UPOS": "NOUN",
+            "XPOS": "Ncnsa",
+            "HEAD": 15,
+            "DEPREL": "obj",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 820,
+              "EndChar": 826
+            },
+            "FEATS": "Case=Acc|Gender=Neut|Number=Sing"
+          },
+          {
+            "ID": 142,
+            "FORM": "italijan\u0161\u010dine",
+            "LEMMA": "italijan\u0161\u010dina",
+            "UPOS": "NOUN",
+            "XPOS": "Ncfsg",
+            "HEAD": 17,
+            "DEPREL": "nmod",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": false,
+              "StartChar": 827,
+              "EndChar": 840
+            },
+            "FEATS": "Case=Gen|Gender=Fem|Number=Sing"
+          },
+          {
+            "ID": 143,
+            "FORM": ".",
+            "LEMMA": ".",
+            "UPOS": "PUNCT",
+            "XPOS": "Z",
+            "HEAD": 2,
+            "DEPREL": "punct",
+            "DEPS": null,
+            "MISC": {
+              "SpaceAfter": true,
+              "StartChar": 840,
+              "EndChar": 841
+            },
+            "FEATS": null
+          }
+        ]
+      }
+    ],
+    "entities": [
+      {
+        "ID": null,
+        "surfaceForm": "Slavoj \u017di\u017eek",
+        "category": "PER",
+        "locationStart": 0,
+        "locationEnd": 12,
+        "tokenStart": 0,
+        "tokenEnd": 2,
+        "method": "classla"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "Ljubljana",
+        "category": "LOC",
+        "locationStart": 84,
+        "locationEnd": 93,
+        "tokenStart": 15,
+        "tokenEnd": 16,
+        "method": "classla"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "Birkbeck In\u0161tituta za humanisti\u010dne \u0161tudije",
+        "category": "ORG",
+        "locationStart": 161,
+        "locationEnd": 203,
+        "tokenStart": 27,
+        "tokenEnd": 32,
+        "method": "classla"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "In\u0161titutu za sociologijo Univerze v Ljubljani",
+        "category": "ORG",
+        "locationStart": 229,
+        "locationEnd": 274,
+        "tokenStart": 36,
+        "tokenEnd": 42,
+        "method": "classla"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "Slovenija",
+        "category": "LOC",
+        "locationStart": 276,
+        "locationEnd": 285,
+        "tokenStart": 43,
+        "tokenEnd": 44,
+        "method": "classla"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "\u017di\u017eek",
+        "category": "PER",
+        "locationStart": 287,
+        "locationEnd": 292,
+        "tokenStart": 45,
+        "tokenEnd": 46,
+        "method": "classla"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "Elvis filozofije",
+        "category": "MISC",
+        "locationStart": 340,
+        "locationEnd": 356,
+        "tokenStart": 55,
+        "tokenEnd": 57,
+        "method": "classla"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "Georga Wilhelma Friedricha Hegla",
+        "category": "PER",
+        "locationStart": 424,
+        "locationEnd": 456,
+        "tokenStart": 72,
+        "tokenEnd": 76,
+        "method": "classla"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "Karla Marxa",
+        "category": "PER",
+        "locationStart": 458,
+        "locationEnd": 469,
+        "tokenStart": 77,
+        "tokenEnd": 79,
+        "method": "classla"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "Friedricha Wilhelma",
+        "category": "PER",
+        "locationStart": 473,
+        "locationEnd": 492,
+        "tokenStart": 80,
+        "tokenEnd": 82,
+        "method": "classla"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "Josepha Schellinga",
+        "category": "PER",
+        "locationStart": 493,
+        "locationEnd": 511,
+        "tokenStart": 82,
+        "tokenEnd": 84,
+        "method": "classla"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "Filozofski fakulteti",
+        "category": "ORG",
+        "locationStart": 541,
+        "locationEnd": 561,
+        "tokenStart": 90,
+        "tokenEnd": 92,
+        "method": "classla"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "Parizu",
+        "category": "LOC",
+        "locationStart": 704,
+        "locationEnd": 710,
+        "tokenStart": 117,
+        "tokenEnd": 118,
+        "method": "classla"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "Universite Paris - VII",
+        "category": "MISC",
+        "locationStart": 712,
+        "locationEnd": 732,
+        "tokenStart": 119,
+        "tokenEnd": 123,
+        "method": "classla"
+      }
+    ],
+    "time_expressions": [],
+    "semantic_roles": []
+  }
+}
