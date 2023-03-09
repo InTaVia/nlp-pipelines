@@ -1,0 +1,1 @@
+For evaluation of the Named Entity Recognizer in English we make use of the existing human curated Wiki Gold dataset from the paper "Named Entity Recognition in Wikipedia" [Balasuriya et. al., 2009](https://aclanthology.org/W09-3302.pdf). We include the dile in this repo under `english/eval/wikigold/test.conllu`
