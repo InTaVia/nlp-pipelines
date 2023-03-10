@@ -12,7 +12,7 @@
         "method": "Some BERT model etc."
       }
     ],
-    "morphology" : [{
+    "morpho_syntax" : {"model": "model_name_version", "data": [{
       "paragraph": 0,
       "sentence": 0,
       "text": "string",
@@ -43,9 +43,9 @@
           }
         }
       ]
-    }],
-    "tokenization":["..."],
-    "text": "string"
+    }]},
+    "tokenization":{"model": "model_name_version", "data": ["List of str's = tokenized document"]},
+    "text": "raw_string"
   },
 "service": "Name of the service used",
 "timestamp": "yyyy-mm-dd"

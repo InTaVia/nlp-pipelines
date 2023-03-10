@@ -1,8 +1,7 @@
 import re
-from typing import TypeVar, Dict, Any, List, Tuple, Union
+from typing import TypeVar, Dict, Any, List, Union
 from dataclasses import dataclass, asdict
 from collections import defaultdict
-from bs4 import BeautifulSoup
 
 
 InfoExtractor = TypeVar('InfoExtractor')

@@ -1,0 +1,4 @@
+classla==1.1.0
+dataclasses==0.6
+Levenshtein==0.20.8
+wikipedia==1.4.0
