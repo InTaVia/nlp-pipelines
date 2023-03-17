@@ -1,12 +1,12 @@
 {
   "status": "200",
   "data": {
-    "text": "William the Silent (24 April 1533 \u2013 10 July 1584), also known as William the Taciturn (translated from Dutch: Willem de Zwijger), or, more commonly in the Netherlands, William of Orange (Dutch: Willem van Oranje), was the main leader of the Dutch Revolt against the Spanish Habsburgs that set off the Eighty Years' War (1568\u20131648) and resulted in the formal independence of the United Provinces in 1648. Born into the House of Nassau, he became Prince of Orange in 1544 and is thereby the founder of the Orange-Nassau branch and the ancestor of the monarchy of the Netherlands. In the Netherlands, he is also known as Father of the Fatherland (Pater Patriae) (Dutch: Vader des Vaderlands). A wealthy nobleman, William originally served the Habsburgs as a member of the court of Margaret of Parma, governor of the Spanish Netherlands. Unhappy with the centralisation of political power away from the local estates and with the Spanish persecution of Dutch Protestants, William joined the Dutch uprising and turned against his former masters. The most influential and politically capable of the rebels, he led the Dutch to several successes in the fight against the Spanish. Declared an outlaw by the Spanish king in 1580, he was assassinated by Balthasar G\u00e9rard in Delft in 1584.",
+    "text": "William the Silent (24 April 1533 \u2013 10 July 1584), also known as William the Taciturn (translated from Dutch: Willem de Zwijger), or, more commonly in the Netherlands, William of Orange (Dutch: Willem van Oranje), was the main leader of the Dutch revolt against the Spanish Habsburgs that set off the Eighty Years' War (1568\u20131648) and resulted in the formal independence of the United Provinces in 1648. Born into the House of Nassau, he became Prince of Orange in 1544 and is thereby the founder of the Orange-Nassau branch and the ancestor of the monarchy of the Netherlands. In the Netherlands, he is also known as Father of the Fatherland (Pater Patriae) (Dutch: Vader des Vaderlands). A wealthy nobleman, William originally served the Habsburgs as a member of the court of Margaret of Parma, governor of the Spanish Netherlands. Unhappy with the centralisation of political power away from the local estates and with the Spanish persecution of Dutch Protestants, William joined the Dutch uprising and turned against his former masters. The most influential and politically capable of the rebels, he led the Dutch to several successes in the fight against the Spanish. Declared an outlaw by the Spanish king in 1580, he was assassinated by Balthasar G\u00e9rard in Delft in 1584. ",
     "morphology": [
       {
         "paragraph": null,
         "sentence": 0,
-        "text": "William the Silent ( 24 April 1533 \u2013 10 July 1584 ) , also known as William the Taciturn ( translated from Dutch : Willem de Zwijger ) , or , more commonly in the Netherlands , William of Orange ( Dutch : Willem van Oranje ) , was the main leader of the Dutch Revolt against the Spanish Habsburgs that set off the Eighty Years ' War ( 1568\u20131648 ) and resulted in the formal independence of the United Provinces in 1648 .",
+        "text": "William the Silent ( 24 April 1533 \u2013 10 July 1584 ) , also known as William the Taciturn ( translated from Dutch : Willem de Zwijger ) , or , more commonly in the Netherlands , William of Orange ( Dutch : Willem van Oranje ) , was the main leader of the Dutch revolt against the Spanish Habsburgs that set off the Eighty Years ' War ( 1568\u20131648 ) and resulted in the formal independence of the United Provinces in 1648 .",
         "words": [
           {
             "ID": 0,
@@ -69,7 +69,7 @@
             "LEMMA": "(",
             "UPOS": "PUNCT",
             "XPOS": "-LRB-",
-            "HEAD": 5,
+            "HEAD": 0,
             "DEPREL": "punct",
             "DEPS": null,
             "MISC": {
@@ -107,7 +107,7 @@
             "UPOS": "PROPN",
             "XPOS": "NNP",
             "HEAD": 0,
-            "DEPREL": "parataxis",
+            "DEPREL": "appos",
             "DEPS": null,
             "MISC": {
               "SpaceAfter": true,
@@ -141,7 +141,7 @@
             "FORM": "\u2013",
             "LEMMA": "\u2013",
             "UPOS": "PUNCT",
-            "XPOS": "``",
+            "XPOS": ":",
             "HEAD": 0,
             "DEPREL": "punct",
             "DEPS": null,
@@ -150,10 +150,7 @@
               "StartChar": 34,
               "EndChar": 35
             },
-            "FEATS": {
-              "PunctSide": "Ini",
-              "PunctType": "Quot"
-            }
+            "FEATS": {}
           },
           {
             "ID": 8,
@@ -161,8 +158,8 @@
             "LEMMA": "10",
             "UPOS": "NUM",
             "XPOS": "CD",
-            "HEAD": 9,
-            "DEPREL": "nummod",
+            "HEAD": 0,
+            "DEPREL": "appos",
             "DEPS": null,
             "MISC": {
               "SpaceAfter": true,
@@ -179,8 +176,8 @@
             "LEMMA": "July",
             "UPOS": "PROPN",
             "XPOS": "NNP",
-            "HEAD": 7,
-            "DEPREL": "npadvmod",
+            "HEAD": 0,
+            "DEPREL": "appos",
             "DEPS": null,
             "MISC": {
               "SpaceAfter": true,
@@ -214,8 +211,8 @@
             "FORM": ")",
             "LEMMA": ")",
             "UPOS": "PUNCT",
-            "XPOS": ",",
-            "HEAD": 0,
+            "XPOS": "-RRB-",
+            "HEAD": 9,
             "DEPREL": "punct",
             "DEPS": null,
             "MISC": {
@@ -224,7 +221,8 @@
               "EndChar": 49
             },
             "FEATS": {
-              "PunctType": "Comm"
+              "PunctSide": "Fin",
+              "PunctType": "Brck"
             }
           },
           {
@@ -358,7 +356,7 @@
             "LEMMA": "(",
             "UPOS": "PUNCT",
             "XPOS": "-LRB-",
-            "HEAD": 16,
+            "HEAD": 20,
             "DEPREL": "punct",
             "DEPS": null,
             "MISC": {
@@ -377,7 +375,7 @@
             "LEMMA": "translate",
             "UPOS": "VERB",
             "XPOS": "VBN",
-            "HEAD": 26,
+            "HEAD": 0,
             "DEPREL": "acl",
             "DEPS": null,
             "MISC": {
@@ -431,7 +429,7 @@
             "LEMMA": ":",
             "UPOS": "PUNCT",
             "XPOS": ":",
-            "HEAD": 26,
+            "HEAD": 0,
             "DEPREL": "punct",
             "DEPS": null,
             "MISC": {
@@ -448,7 +446,7 @@
             "UPOS": "PROPN",
             "XPOS": "NNP",
             "HEAD": 26,
-            "DEPREL": "nmod",
+            "DEPREL": "compound",
             "DEPS": null,
             "MISC": {
               "SpaceAfter": true,
@@ -483,7 +481,7 @@
             "LEMMA": "Zwijger",
             "UPOS": "PROPN",
             "XPOS": "NNP",
-            "HEAD": 16,
+            "HEAD": 0,
             "DEPREL": "appos",
             "DEPS": null,
             "MISC": {
@@ -501,7 +499,7 @@
             "LEMMA": ")",
             "UPOS": "PUNCT",
             "XPOS": "-RRB-",
-            "HEAD": 16,
+            "HEAD": 26,
             "DEPREL": "punct",
             "DEPS": null,
             "MISC": {
@@ -519,8 +517,8 @@
             "FORM": ",",
             "LEMMA": ",",
             "UPOS": "PUNCT",
-            "XPOS": "-RRB-",
-            "HEAD": 16,
+            "XPOS": ",",
+            "HEAD": 0,
             "DEPREL": "punct",
             "DEPS": null,
             "MISC": {
@@ -529,8 +527,7 @@
               "EndChar": 129
             },
             "FEATS": {
-              "PunctSide": "Fin",
-              "PunctType": "Brck"
+              "PunctType": "Comm"
             }
           },
           {
@@ -539,7 +536,7 @@
             "LEMMA": "or",
             "UPOS": "CCONJ",
             "XPOS": "CC",
-            "HEAD": 16,
+            "HEAD": 0,
             "DEPREL": "cc",
             "DEPS": null,
             "MISC": {
@@ -557,7 +554,7 @@
             "LEMMA": ",",
             "UPOS": "PUNCT",
             "XPOS": ",",
-            "HEAD": 16,
+            "HEAD": 0,
             "DEPREL": "punct",
             "DEPS": null,
             "MISC": {
@@ -593,7 +590,7 @@
             "LEMMA": "commonly",
             "UPOS": "ADV",
             "XPOS": "RB",
-            "HEAD": 16,
+            "HEAD": 0,
             "DEPREL": "advmod",
             "DEPS": null,
             "MISC": {
@@ -609,7 +606,7 @@
             "LEMMA": "in",
             "UPOS": "ADP",
             "XPOS": "IN",
-            "HEAD": 16,
+            "HEAD": 0,
             "DEPREL": "prep",
             "DEPS": null,
             "MISC": {
@@ -662,7 +659,7 @@
             "LEMMA": ",",
             "UPOS": "PUNCT",
             "XPOS": ",",
-            "HEAD": 16,
+            "HEAD": 0,
             "DEPREL": "punct",
             "DEPS": null,
             "MISC": {
@@ -680,8 +677,8 @@
             "LEMMA": "William",
             "UPOS": "PROPN",
             "XPOS": "NNP",
-            "HEAD": 16,
-            "DEPREL": "conj",
+            "HEAD": 0,
+            "DEPREL": "appos",
             "DEPS": null,
             "MISC": {
               "SpaceAfter": true,
@@ -732,7 +729,7 @@
             "LEMMA": "(",
             "UPOS": "PUNCT",
             "XPOS": "-LRB-",
-            "HEAD": 37,
+            "HEAD": 41,
             "DEPREL": "punct",
             "DEPS": null,
             "MISC": {
@@ -748,11 +745,11 @@
           {
             "ID": 41,
             "FORM": "Dutch",
-            "LEMMA": "dutch",
-            "UPOS": "ADJ",
-            "XPOS": "JJ",
-            "HEAD": 45,
-            "DEPREL": "amod",
+            "LEMMA": "Dutch",
+            "UPOS": "PROPN",
+            "XPOS": "NNP",
+            "HEAD": 0,
+            "DEPREL": "appos",
             "DEPS": null,
             "MISC": {
               "SpaceAfter": false,
@@ -760,7 +757,7 @@
               "EndChar": 192
             },
             "FEATS": {
-              "Degree": "Pos"
+              "Number": "Sing"
             }
           },
           {
@@ -769,7 +766,7 @@
             "LEMMA": ":",
             "UPOS": "PUNCT",
             "XPOS": ":",
-            "HEAD": 45,
+            "HEAD": 0,
             "DEPREL": "punct",
             "DEPS": null,
             "MISC": {
@@ -821,7 +818,7 @@
             "LEMMA": "Oranje",
             "UPOS": "PROPN",
             "XPOS": "NNP",
-            "HEAD": 37,
+            "HEAD": 0,
             "DEPREL": "appos",
             "DEPS": null,
             "MISC": {
@@ -838,8 +835,8 @@
             "FORM": ")",
             "LEMMA": ")",
             "UPOS": "PUNCT",
-            "XPOS": ",",
-            "HEAD": 14,
+            "XPOS": "-RRB-",
+            "HEAD": 0,
             "DEPREL": "punct",
             "DEPS": null,
             "MISC": {
@@ -848,7 +845,8 @@
               "EndChar": 212
             },
             "FEATS": {
-              "PunctType": "Comm"
+              "PunctSide": "Fin",
+              "PunctType": "Brck"
             }
           },
           {
@@ -857,7 +855,7 @@
             "LEMMA": ",",
             "UPOS": "PUNCT",
             "XPOS": ",",
-            "HEAD": 48,
+            "HEAD": 0,
             "DEPREL": "punct",
             "DEPS": null,
             "MISC": {
@@ -1001,7 +999,7 @@
           },
           {
             "ID": 55,
-            "FORM": "Revolt",
+            "FORM": "revolt",
             "LEMMA": "revolt",
             "UPOS": "NOUN",
             "XPOS": "NN",
@@ -1075,7 +1073,7 @@
             "FORM": "Habsburgs",
             "LEMMA": "Habsburgs",
             "UPOS": "PROPN",
-            "XPOS": "NNPS",
+            "XPOS": "NNP",
             "HEAD": 56,
             "DEPREL": "pobj",
             "DEPS": null,
@@ -1085,7 +1083,7 @@
               "EndChar": 283
             },
             "FEATS": {
-              "Number": "Plur"
+              "Number": "Sing"
             }
           },
           {
@@ -1112,7 +1110,7 @@
             "LEMMA": "set",
             "UPOS": "VERB",
             "XPOS": "VBD",
-            "HEAD": 55,
+            "HEAD": 51,
             "DEPREL": "relcl",
             "DEPS": null,
             "MISC": {
@@ -1147,7 +1145,7 @@
             "LEMMA": "the",
             "UPOS": "DET",
             "XPOS": "DT",
-            "HEAD": 65,
+            "HEAD": 67,
             "DEPREL": "det",
             "DEPS": null,
             "MISC": {
@@ -1163,9 +1161,9 @@
           {
             "ID": 64,
             "FORM": "Eighty",
-            "LEMMA": "eighty",
-            "UPOS": "NUM",
-            "XPOS": "CD",
+            "LEMMA": "Eighty",
+            "UPOS": "PROPN",
+            "XPOS": "NNP",
             "HEAD": 65,
             "DEPREL": "compound",
             "DEPS": null,
@@ -1175,7 +1173,7 @@
               "EndChar": 307
             },
             "FEATS": {
-              "NumType": "Card"
+              "Number": "Sing"
             }
           },
           {
@@ -1256,7 +1254,7 @@
             "UPOS": "NUM",
             "XPOS": "CD",
             "HEAD": 67,
-            "DEPREL": "npadvmod",
+            "DEPREL": "appos",
             "DEPS": null,
             "MISC": {
               "SpaceAfter": false,
@@ -1273,7 +1271,7 @@
             "LEMMA": ")",
             "UPOS": "PUNCT",
             "XPOS": "-RRB-",
-            "HEAD": 61,
+            "HEAD": 67,
             "DEPREL": "punct",
             "DEPS": null,
             "MISC": {
@@ -1471,7 +1469,7 @@
             "LEMMA": "in",
             "UPOS": "ADP",
             "XPOS": "IN",
-            "HEAD": 76,
+            "HEAD": 72,
             "DEPREL": "prep",
             "DEPS": null,
             "MISC": {
@@ -2299,8 +2297,8 @@
             "LEMMA": "know",
             "UPOS": "VERB",
             "XPOS": "VBN",
-            "HEAD": 126,
-            "DEPREL": "ROOT",
+            "HEAD": 137,
+            "DEPREL": "ccomp",
             "DEPS": null,
             "MISC": {
               "SpaceAfter": true,
@@ -2406,7 +2404,7 @@
             "LEMMA": "(",
             "UPOS": "PUNCT",
             "XPOS": "-LRB-",
-            "HEAD": 131,
+            "HEAD": 128,
             "DEPREL": "punct",
             "DEPS": null,
             "MISC": {
@@ -2426,7 +2424,7 @@
             "UPOS": "PROPN",
             "XPOS": "NNP",
             "HEAD": 134,
-            "DEPREL": "nmod",
+            "DEPREL": "compound",
             "DEPS": null,
             "MISC": {
               "SpaceAfter": true,
@@ -2443,7 +2441,7 @@
             "LEMMA": "Patriae",
             "UPOS": "PROPN",
             "XPOS": "NNP",
-            "HEAD": 131,
+            "HEAD": 128,
             "DEPREL": "appos",
             "DEPS": null,
             "MISC": {
@@ -2461,7 +2459,7 @@
             "LEMMA": ")",
             "UPOS": "PUNCT",
             "XPOS": "-RRB-",
-            "HEAD": 134,
+            "HEAD": 126,
             "DEPREL": "punct",
             "DEPS": null,
             "MISC": {
@@ -2480,7 +2478,7 @@
             "LEMMA": "(",
             "UPOS": "PUNCT",
             "XPOS": "-LRB-",
-            "HEAD": 131,
+            "HEAD": 137,
             "DEPREL": "punct",
             "DEPS": null,
             "MISC": {
@@ -2496,11 +2494,11 @@
           {
             "ID": 137,
             "FORM": "Dutch",
-            "LEMMA": "dutch",
-            "UPOS": "ADJ",
-            "XPOS": "JJ",
-            "HEAD": 141,
-            "DEPREL": "amod",
+            "LEMMA": "Dutch",
+            "UPOS": "PROPN",
+            "XPOS": "NNP",
+            "HEAD": 137,
+            "DEPREL": "ROOT",
             "DEPS": null,
             "MISC": {
               "SpaceAfter": false,
@@ -2508,7 +2506,7 @@
               "EndChar": 665
             },
             "FEATS": {
-              "Degree": "Pos"
+              "Number": "Sing"
             }
           },
           {
@@ -2517,7 +2515,7 @@
             "LEMMA": ":",
             "UPOS": "PUNCT",
             "XPOS": ":",
-            "HEAD": 141,
+            "HEAD": 137,
             "DEPREL": "punct",
             "DEPS": null,
             "MISC": {
@@ -2534,7 +2532,7 @@
             "UPOS": "PROPN",
             "XPOS": "NNP",
             "HEAD": 141,
-            "DEPREL": "nmod",
+            "DEPREL": "compound",
             "DEPS": null,
             "MISC": {
               "SpaceAfter": true,
@@ -2549,10 +2547,10 @@
             "ID": 140,
             "FORM": "des",
             "LEMMA": "des",
-            "UPOS": "X",
-            "XPOS": "FW",
+            "UPOS": "PROPN",
+            "XPOS": "NNP",
             "HEAD": 141,
-            "DEPREL": "nmod",
+            "DEPREL": "compound",
             "DEPS": null,
             "MISC": {
               "SpaceAfter": true,
@@ -2560,7 +2558,7 @@
               "EndChar": 676
             },
             "FEATS": {
-              "Foreign": "Yes"
+              "Number": "Sing"
             }
           },
           {
@@ -2569,7 +2567,7 @@
             "LEMMA": "Vaderlands",
             "UPOS": "PROPN",
             "XPOS": "NNP",
-            "HEAD": 131,
+            "HEAD": 137,
             "DEPREL": "appos",
             "DEPS": null,
             "MISC": {
@@ -2586,8 +2584,8 @@
             "FORM": ")",
             "LEMMA": ")",
             "UPOS": "PUNCT",
-            "XPOS": ".",
-            "HEAD": 131,
+            "XPOS": "-RRB-",
+            "HEAD": 137,
             "DEPREL": "punct",
             "DEPS": null,
             "MISC": {
@@ -2596,7 +2594,8 @@
               "EndChar": 688
             },
             "FEATS": {
-              "PunctType": "Peri"
+              "PunctSide": "Fin",
+              "PunctType": "Brck"
             }
           },
           {
@@ -2605,7 +2604,7 @@
             "LEMMA": ".",
             "UPOS": "PUNCT",
             "XPOS": ".",
-            "HEAD": 128,
+            "HEAD": 137,
             "DEPREL": "punct",
             "DEPS": null,
             "MISC": {
@@ -2668,7 +2667,7 @@
             "UPOS": "NOUN",
             "XPOS": "NN",
             "HEAD": 150,
-            "DEPREL": "advcl",
+            "DEPREL": "nsubj",
             "DEPS": null,
             "MISC": {
               "SpaceAfter": false,
@@ -2774,7 +2773,7 @@
             "FORM": "Habsburgs",
             "LEMMA": "Habsburgs",
             "UPOS": "PROPN",
-            "XPOS": "NNPS",
+            "XPOS": "NNP",
             "HEAD": 150,
             "DEPREL": "dobj",
             "DEPS": null,
@@ -2784,7 +2783,7 @@
               "EndChar": 749
             },
             "FEATS": {
-              "Number": "Plur"
+              "Number": "Sing"
             }
           },
           {
@@ -2967,7 +2966,7 @@
             "LEMMA": ",",
             "UPOS": "PUNCT",
             "XPOS": ",",
-            "HEAD": 160,
+            "HEAD": 150,
             "DEPREL": "punct",
             "DEPS": null,
             "MISC": {
@@ -2985,8 +2984,8 @@
             "LEMMA": "governor",
             "UPOS": "NOUN",
             "XPOS": "NN",
-            "HEAD": 160,
-            "DEPREL": "appos",
+            "HEAD": 150,
+            "DEPREL": "npadvmod",
             "DEPS": null,
             "MISC": {
               "SpaceAfter": true,
@@ -3035,11 +3034,11 @@
           {
             "ID": 167,
             "FORM": "Spanish",
-            "LEMMA": "spanish",
-            "UPOS": "ADJ",
-            "XPOS": "JJ",
+            "LEMMA": "Spanish",
+            "UPOS": "PROPN",
+            "XPOS": "NNP",
             "HEAD": 168,
-            "DEPREL": "amod",
+            "DEPREL": "compound",
             "DEPS": null,
             "MISC": {
               "SpaceAfter": true,
@@ -3047,7 +3046,7 @@
               "EndChar": 820
             },
             "FEATS": {
-              "Degree": "Pos"
+              "Number": "Sing"
             }
           },
           {
@@ -3055,7 +3054,7 @@
             "FORM": "Netherlands",
             "LEMMA": "Netherlands",
             "UPOS": "PROPN",
-            "XPOS": "NNPS",
+            "XPOS": "NNP",
             "HEAD": 165,
             "DEPREL": "pobj",
             "DEPS": null,
@@ -3065,7 +3064,7 @@
               "EndChar": 832
             },
             "FEATS": {
-              "Number": "Plur"
+              "Number": "Sing"
             }
           },
           {
@@ -3411,11 +3410,11 @@
           {
             "ID": 188,
             "FORM": "Dutch",
-            "LEMMA": "dutch",
-            "UPOS": "ADJ",
-            "XPOS": "JJ",
+            "LEMMA": "Dutch",
+            "UPOS": "PROPN",
+            "XPOS": "NNP",
             "HEAD": 189,
-            "DEPREL": "amod",
+            "DEPREL": "compound",
             "DEPS": null,
             "MISC": {
               "SpaceAfter": true,
@@ -3423,7 +3422,7 @@
               "EndChar": 954
             },
             "FEATS": {
-              "Degree": "Pos"
+              "Number": "Sing"
             }
           },
           {
@@ -3803,7 +3802,7 @@
             "LEMMA": "of",
             "UPOS": "ADP",
             "XPOS": "IN",
-            "HEAD": 205,
+            "HEAD": 208,
             "DEPREL": "prep",
             "DEPS": null,
             "MISC": {
@@ -3933,7 +3932,7 @@
             "FORM": "Dutch",
             "LEMMA": "Dutch",
             "UPOS": "PROPN",
-            "XPOS": "NNPS",
+            "XPOS": "NNP",
             "HEAD": 214,
             "DEPREL": "dobj",
             "DEPS": null,
@@ -3943,7 +3942,7 @@
               "EndChar": 1117
             },
             "FEATS": {
-              "Number": "Plur"
+              "Number": "Sing"
             }
           },
           {
@@ -4091,7 +4090,7 @@
             "FORM": "Spanish",
             "LEMMA": "Spanish",
             "UPOS": "PROPN",
-            "XPOS": "NNPS",
+            "XPOS": "NNP",
             "HEAD": 223,
             "DEPREL": "pobj",
             "DEPS": null,
@@ -4101,7 +4100,7 @@
               "EndChar": 1171
             },
             "FEATS": {
-              "Number": "Plur"
+              "Number": "Sing"
             }
           },
           {
@@ -4134,7 +4133,7 @@
             "FORM": "Declared",
             "LEMMA": "declare",
             "UPOS": "VERB",
-            "XPOS": "VBN",
+            "XPOS": "VBD",
             "HEAD": 239,
             "DEPREL": "advcl",
             "DEPS": null,
@@ -4144,9 +4143,8 @@
               "EndChar": 1181
             },
             "FEATS": {
-              "Aspect": "Perf",
               "Tense": "Past",
-              "VerbForm": "Part"
+              "VerbForm": "Fin"
             }
           },
           {
@@ -4175,7 +4173,7 @@
             "UPOS": "NOUN",
             "XPOS": "NN",
             "HEAD": 227,
-            "DEPREL": "oprd",
+            "DEPREL": "dobj",
             "DEPS": null,
             "MISC": {
               "SpaceAfter": true,
@@ -4192,8 +4190,8 @@
             "LEMMA": "by",
             "UPOS": "ADP",
             "XPOS": "IN",
-            "HEAD": 227,
-            "DEPREL": "agent",
+            "HEAD": 229,
+            "DEPREL": "prep",
             "DEPS": null,
             "MISC": {
               "SpaceAfter": true,
@@ -4503,7 +4501,7 @@
             "DEPREL": "punct",
             "DEPS": null,
             "MISC": {
-              "SpaceAfter": false,
+              "SpaceAfter": true,
               "StartChar": 1277,
               "EndChar": 1278
             },
@@ -4527,12 +4525,22 @@
       },
       {
         "ID": null,
-        "surfaceForm": "24 April 1533 \u2013",
+        "surfaceForm": "24 April 1533",
         "category": "DATE",
         "locationStart": 20,
-        "locationEnd": 35,
+        "locationEnd": 33,
         "tokenStart": 4,
-        "tokenEnd": 8,
+        "tokenEnd": 7,
+        "method": "spacy"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "10 July 1584",
+        "category": "DATE",
+        "locationStart": 36,
+        "locationEnd": 48,
+        "tokenStart": 8,
+        "tokenEnd": 11,
         "method": "spacy"
       },
       {
@@ -4578,7 +4586,7 @@
       {
         "ID": null,
         "surfaceForm": "William of Orange",
-        "category": "PERSON",
+        "category": "ORG",
         "locationStart": 168,
         "locationEnd": 185,
         "tokenStart": 37,
@@ -4628,7 +4636,7 @@
       {
         "ID": null,
         "surfaceForm": "Habsburgs",
-        "category": "NORP",
+        "category": "PERSON",
         "locationStart": 274,
         "locationEnd": 283,
         "tokenStart": 59,
@@ -4638,11 +4646,21 @@
       {
         "ID": null,
         "surfaceForm": "the Eighty Years' War",
-        "category": "EVENT",
+        "category": "ORG",
         "locationStart": 297,
         "locationEnd": 318,
         "tokenStart": 63,
         "tokenEnd": 68,
+        "method": "spacy"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "1568\u20131648",
+        "category": "CARDINAL",
+        "locationStart": 320,
+        "locationEnd": 329,
+        "tokenStart": 69,
+        "tokenEnd": 70,
         "method": "spacy"
       },
       {
@@ -4667,6 +4685,26 @@
       },
       {
         "ID": null,
+        "surfaceForm": "the House of Nassau",
+        "category": "ORG",
+        "locationStart": 414,
+        "locationEnd": 433,
+        "tokenStart": 86,
+        "tokenEnd": 90,
+        "method": "spacy"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "Prince of Orange",
+        "category": "ORG",
+        "locationStart": 445,
+        "locationEnd": 461,
+        "tokenStart": 93,
+        "tokenEnd": 96,
+        "method": "spacy"
+      },
+      {
+        "ID": null,
         "surfaceForm": "1544",
         "category": "DATE",
         "locationStart": 465,
@@ -4677,11 +4715,11 @@
       },
       {
         "ID": null,
-        "surfaceForm": "Orange-Nassau",
+        "surfaceForm": "the Orange-Nassau",
         "category": "ORG",
-        "locationStart": 504,
+        "locationStart": 500,
         "locationEnd": 517,
-        "tokenStart": 105,
+        "tokenStart": 104,
         "tokenEnd": 108,
         "method": "spacy"
       },
@@ -4707,16 +4745,6 @@
       },
       {
         "ID": null,
-        "surfaceForm": "Father of the Fatherland",
-        "category": "PERSON",
-        "locationStart": 618,
-        "locationEnd": 642,
-        "tokenStart": 128,
-        "tokenEnd": 132,
-        "method": "spacy"
-      },
-      {
-        "ID": null,
         "surfaceForm": "Pater Patriae",
         "category": "PERSON",
         "locationStart": 644,
@@ -4737,16 +4765,6 @@
       },
       {
         "ID": null,
-        "surfaceForm": "Vader des Vaderlands",
-        "category": "PERSON",
-        "locationStart": 667,
-        "locationEnd": 687,
-        "tokenStart": 139,
-        "tokenEnd": 142,
-        "method": "spacy"
-      },
-      {
-        "ID": null,
         "surfaceForm": "William",
         "category": "PERSON",
         "locationStart": 710,
@@ -4758,7 +4776,7 @@
       {
         "ID": null,
         "surfaceForm": "Habsburgs",
-        "category": "NORP",
+        "category": "PERSON",
         "locationStart": 740,
         "locationEnd": 749,
         "tokenStart": 152,
@@ -4778,7 +4796,7 @@
       {
         "ID": null,
         "surfaceForm": "Parma",
-        "category": "GPE",
+        "category": "PERSON",
         "locationStart": 790,
         "locationEnd": 795,
         "tokenStart": 162,
@@ -4787,21 +4805,11 @@
       },
       {
         "ID": null,
-        "surfaceForm": "Spanish",
-        "category": "NORP",
-        "locationStart": 813,
-        "locationEnd": 820,
-        "tokenStart": 167,
-        "tokenEnd": 168,
-        "method": "spacy"
-      },
-      {
-        "ID": null,
-        "surfaceForm": "Netherlands",
+        "surfaceForm": "the Spanish Netherlands",
         "category": "GPE",
-        "locationStart": 821,
+        "locationStart": 809,
         "locationEnd": 832,
-        "tokenStart": 168,
+        "tokenStart": 166,
         "tokenEnd": 169,
         "method": "spacy"
       },
@@ -4823,16 +4831,6 @@
         "locationEnd": 954,
         "tokenStart": 188,
         "tokenEnd": 189,
-        "method": "spacy"
-      },
-      {
-        "ID": null,
-        "surfaceForm": "Protestants",
-        "category": "NORP",
-        "locationStart": 955,
-        "locationEnd": 966,
-        "tokenStart": 189,
-        "tokenEnd": 190,
         "method": "spacy"
       },
       {
@@ -4998,7 +4996,7 @@
     ],
     "time_expressions": [
       {
-        "ID": "t3",
+        "ID": "t9",
         "category": "DATE",
         "value": "1533-04-24",
         "surfaceForm": "24 April 1533",
@@ -5007,7 +5005,7 @@
         "method": "HeidelTime"
       },
       {
-        "ID": "t11",
+        "ID": "t10",
         "category": "DATE",
         "value": "1584-07-10",
         "surfaceForm": "10 July 1584",
@@ -5016,7 +5014,7 @@
         "method": "HeidelTime"
       },
       {
-        "ID": "t14",
+        "ID": "t15",
         "category": "DURATION",
         "value": "P80Y",
         "surfaceForm": "the Eighty Years",
@@ -5025,7 +5023,7 @@
         "method": "HeidelTime"
       },
       {
-        "ID": "t7",
+        "ID": "t3",
         "category": "DATE",
         "value": "1568",
         "surfaceForm": "1568",
@@ -5034,7 +5032,7 @@
         "method": "HeidelTime"
       },
       {
-        "ID": "t8",
+        "ID": "t4",
         "category": "DATE",
         "value": "1648",
         "surfaceForm": "1648",
@@ -5043,7 +5041,7 @@
         "method": "HeidelTime"
       },
       {
-        "ID": "t9",
+        "ID": "t5",
         "category": "DATE",
         "value": "1648",
         "surfaceForm": "1648",
@@ -5052,7 +5050,7 @@
         "method": "HeidelTime"
       },
       {
-        "ID": "t15",
+        "ID": "t16",
         "category": "DATE",
         "value": "1544",
         "surfaceForm": "1544",
@@ -5061,7 +5059,7 @@
         "method": "HeidelTime"
       },
       {
-        "ID": "t16",
+        "ID": "t17",
         "category": "DATE",
         "value": "1580",
         "surfaceForm": "1580",
@@ -5070,7 +5068,7 @@
         "method": "HeidelTime"
       },
       {
-        "ID": "t17",
+        "ID": "t18",
         "category": "DATE",
         "value": "1584",
         "surfaceForm": "1584",
@@ -5083,6 +5081,8 @@
       {
         "predicateID": "0",
         "locationStart": 56,
+        "tokenStart": 14,
+        "tokenEnd": 15,
         "locationEnd": 61,
         "surfaceForm": "known",
         "predicateLemma": "know",
@@ -5090,6 +5090,8 @@
           {
             "argumentID": "0_ARG1",
             "surfaceForm": "William the Silent ( 24 April 1533 \u2013 10 July 1584 )",
+            "tokenStart": 0,
+            "tokenEnd": 12,
             "locationStart": 0,
             "locationEnd": 49,
             "category": "ARG1"
@@ -5097,6 +5099,8 @@
           {
             "argumentID": "0_ARGM-ADV",
             "surfaceForm": "also",
+            "tokenStart": 13,
+            "tokenEnd": 14,
             "locationStart": 51,
             "locationEnd": 55,
             "category": "ARGM-ADV"
@@ -5104,6 +5108,8 @@
           {
             "argumentID": "0_ARG2",
             "surfaceForm": "as William the Taciturn ( translated from Dutch : Willem de Zwijger",
+            "tokenStart": 15,
+            "tokenEnd": 27,
             "locationStart": 62,
             "locationEnd": 127,
             "category": "ARG2"
@@ -5114,6 +5120,8 @@
       {
         "predicateID": "1",
         "locationStart": 87,
+        "tokenStart": 20,
+        "tokenEnd": 21,
         "locationEnd": 97,
         "surfaceForm": "translated",
         "predicateLemma": "translate",
@@ -5121,6 +5129,8 @@
           {
             "argumentID": "1_ARG1",
             "surfaceForm": "William the Taciturn",
+            "tokenStart": 16,
+            "tokenEnd": 19,
             "locationStart": 65,
             "locationEnd": 85,
             "category": "ARG1"
@@ -5128,6 +5138,8 @@
           {
             "argumentID": "1_ARG3",
             "surfaceForm": "from Dutch",
+            "tokenStart": 21,
+            "tokenEnd": 23,
             "locationStart": 98,
             "locationEnd": 108,
             "category": "ARG3"
@@ -5135,6 +5147,8 @@
           {
             "argumentID": "1_ARG2",
             "surfaceForm": "Willem de Zwijger",
+            "tokenStart": 24,
+            "tokenEnd": 27,
             "locationStart": 110,
             "locationEnd": 127,
             "category": "ARG2"
@@ -5145,6 +5159,8 @@
       {
         "predicateID": "2",
         "locationStart": 214,
+        "tokenStart": 48,
+        "tokenEnd": 49,
         "locationEnd": 217,
         "surfaceForm": "was",
         "predicateLemma": "be",
@@ -5152,13 +5168,17 @@
           {
             "argumentID": "2_ARG1",
             "surfaceForm": "William the Silent ( 24 April 1533 \u2013 10 July 1584 ) , also known as William the Taciturn ( translated from Dutch : Willem de Zwijger ) , or , more commonly in the Netherlands , William of Orange ( Dutch : Willem van Oranje )",
+            "tokenStart": 0,
+            "tokenEnd": 47,
             "locationStart": 0,
             "locationEnd": 212,
             "category": "ARG1"
           },
           {
             "argumentID": "2_ARG2",
-            "surfaceForm": "the main leader of the Dutch Revolt against the Spanish Habsburgs that set off the Eighty Years ' War ( 1568\u20131648 ) and resulted in the formal independence of the United Provinces in 1648",
+            "surfaceForm": "the main leader of the Dutch revolt against the Spanish Habsburgs that set off the Eighty Years ' War ( 1568\u20131648 ) and resulted in the formal independence of the United Provinces in 1648",
+            "tokenStart": 49,
+            "tokenEnd": 83,
             "locationStart": 218,
             "locationEnd": 402,
             "category": "ARG2"
@@ -5169,13 +5189,17 @@
       {
         "predicateID": "3",
         "locationStart": 289,
+        "tokenStart": 61,
+        "tokenEnd": 62,
         "locationEnd": 292,
         "surfaceForm": "set",
         "predicateLemma": "set",
         "arguments": [
           {
             "argumentID": "3_ARG0",
-            "surfaceForm": "the Dutch Revolt against the Spanish Habsburgs",
+            "surfaceForm": "the Dutch revolt against the Spanish Habsburgs",
+            "tokenStart": 53,
+            "tokenEnd": 60,
             "locationStart": 237,
             "locationEnd": 283,
             "category": "ARG0"
@@ -5183,6 +5207,8 @@
           {
             "argumentID": "3_R-ARG0",
             "surfaceForm": "that",
+            "tokenStart": 60,
+            "tokenEnd": 61,
             "locationStart": 284,
             "locationEnd": 288,
             "category": "R-ARG0"
@@ -5190,6 +5216,8 @@
           {
             "argumentID": "3_ARG1",
             "surfaceForm": "the Eighty Years ' War ( 1568\u20131648 )",
+            "tokenStart": 63,
+            "tokenEnd": 71,
             "locationStart": 297,
             "locationEnd": 330,
             "category": "ARG1"
@@ -5200,13 +5228,17 @@
       {
         "predicateID": "4",
         "locationStart": 335,
+        "tokenStart": 72,
+        "tokenEnd": 73,
         "locationEnd": 343,
         "surfaceForm": "resulted",
         "predicateLemma": "result",
         "arguments": [
           {
             "argumentID": "4_ARG1",
-            "surfaceForm": "the Dutch Revolt against the Spanish Habsburgs",
+            "surfaceForm": "the Dutch revolt against the Spanish Habsburgs",
+            "tokenStart": 53,
+            "tokenEnd": 60,
             "locationStart": 237,
             "locationEnd": 283,
             "category": "ARG1"
@@ -5214,6 +5246,8 @@
           {
             "argumentID": "4_R-ARG1",
             "surfaceForm": "that",
+            "tokenStart": 60,
+            "tokenEnd": 61,
             "locationStart": 284,
             "locationEnd": 288,
             "category": "R-ARG1"
@@ -5221,6 +5255,8 @@
           {
             "argumentID": "4_ARG2",
             "surfaceForm": "in the formal independence of the United Provinces in 1648",
+            "tokenStart": 73,
+            "tokenEnd": 83,
             "locationStart": 344,
             "locationEnd": 402,
             "category": "ARG2"
@@ -5231,6 +5267,8 @@
       {
         "predicateID": "0",
         "locationStart": 404,
+        "tokenStart": 84,
+        "tokenEnd": 85,
         "locationEnd": 408,
         "surfaceForm": "Born",
         "predicateLemma": "bear",
@@ -5238,6 +5276,8 @@
           {
             "argumentID": "0_ARGM-GOL",
             "surfaceForm": "into the House of Nassau",
+            "tokenStart": 85,
+            "tokenEnd": 90,
             "locationStart": 409,
             "locationEnd": 433,
             "category": "ARGM-GOL"
@@ -5245,6 +5285,8 @@
           {
             "argumentID": "0_ARG1",
             "surfaceForm": "he",
+            "tokenStart": 91,
+            "tokenEnd": 92,
             "locationStart": 435,
             "locationEnd": 437,
             "category": "ARG1"
@@ -5255,6 +5297,8 @@
       {
         "predicateID": "1",
         "locationStart": 438,
+        "tokenStart": 92,
+        "tokenEnd": 93,
         "locationEnd": 444,
         "surfaceForm": "became",
         "predicateLemma": "become",
@@ -5262,6 +5306,8 @@
           {
             "argumentID": "1_R-ARG1",
             "surfaceForm": "Born into the House of Nassau",
+            "tokenStart": 84,
+            "tokenEnd": 90,
             "locationStart": 404,
             "locationEnd": 433,
             "category": "R-ARG1"
@@ -5269,6 +5315,8 @@
           {
             "argumentID": "1_ARG1",
             "surfaceForm": "he",
+            "tokenStart": 91,
+            "tokenEnd": 92,
             "locationStart": 435,
             "locationEnd": 437,
             "category": "ARG1"
@@ -5276,6 +5324,8 @@
           {
             "argumentID": "1_ARG2",
             "surfaceForm": "Prince of Orange",
+            "tokenStart": 93,
+            "tokenEnd": 96,
             "locationStart": 445,
             "locationEnd": 461,
             "category": "ARG2"
@@ -5283,6 +5333,8 @@
           {
             "argumentID": "1_ARGM-TMP",
             "surfaceForm": "in 1544",
+            "tokenStart": 96,
+            "tokenEnd": 98,
             "locationStart": 462,
             "locationEnd": 469,
             "category": "ARGM-TMP"
@@ -5293,6 +5345,8 @@
       {
         "predicateID": "2",
         "locationStart": 474,
+        "tokenStart": 99,
+        "tokenEnd": 100,
         "locationEnd": 476,
         "surfaceForm": "is",
         "predicateLemma": "be",
@@ -5300,6 +5354,8 @@
           {
             "argumentID": "2_R-ARG1",
             "surfaceForm": "Born into the House of Nassau",
+            "tokenStart": 84,
+            "tokenEnd": 90,
             "locationStart": 404,
             "locationEnd": 433,
             "category": "R-ARG1"
@@ -5307,6 +5363,8 @@
           {
             "argumentID": "2_ARG1",
             "surfaceForm": "he",
+            "tokenStart": 91,
+            "tokenEnd": 92,
             "locationStart": 435,
             "locationEnd": 437,
             "category": "ARG1"
@@ -5314,6 +5372,8 @@
           {
             "argumentID": "2_ARGM-ADV",
             "surfaceForm": "thereby",
+            "tokenStart": 100,
+            "tokenEnd": 101,
             "locationStart": 477,
             "locationEnd": 484,
             "category": "ARGM-ADV"
@@ -5321,6 +5381,8 @@
           {
             "argumentID": "2_ARG2",
             "surfaceForm": "the founder of the Orange - Nassau branch and the ancestor of the monarchy of the Netherlands",
+            "tokenStart": 101,
+            "tokenEnd": 118,
             "locationStart": 485,
             "locationEnd": 576,
             "category": "ARG2"
@@ -5331,6 +5393,8 @@
       {
         "predicateID": "1",
         "locationStart": 609,
+        "tokenStart": 126,
+        "tokenEnd": 127,
         "locationEnd": 614,
         "surfaceForm": "known",
         "predicateLemma": "know",
@@ -5338,6 +5402,8 @@
           {
             "argumentID": "1_ARGM-LOC",
             "surfaceForm": "In the Netherlands",
+            "tokenStart": 119,
+            "tokenEnd": 122,
             "locationStart": 578,
             "locationEnd": 596,
             "category": "ARGM-LOC"
@@ -5345,6 +5411,8 @@
           {
             "argumentID": "1_ARG1",
             "surfaceForm": "he",
+            "tokenStart": 123,
+            "tokenEnd": 124,
             "locationStart": 598,
             "locationEnd": 600,
             "category": "ARG1"
@@ -5352,6 +5420,8 @@
           {
             "argumentID": "1_ARGM-ADV",
             "surfaceForm": "also",
+            "tokenStart": 125,
+            "tokenEnd": 126,
             "locationStart": 604,
             "locationEnd": 608,
             "category": "ARGM-ADV"
@@ -5359,6 +5429,8 @@
           {
             "argumentID": "1_ARG2",
             "surfaceForm": "as Father of the Fatherland ( Pater Patriae ) ( Dutch : Vader des Vaderlands )",
+            "tokenStart": 127,
+            "tokenEnd": 143,
             "locationStart": 615,
             "locationEnd": 688,
             "category": "ARG2"
@@ -5369,6 +5441,8 @@
       {
         "predicateID": "0",
         "locationStart": 729,
+        "tokenStart": 150,
+        "tokenEnd": 151,
         "locationEnd": 735,
         "surfaceForm": "served",
         "predicateLemma": "serve",
@@ -5376,6 +5450,8 @@
           {
             "argumentID": "0_R-ARG0",
             "surfaceForm": "A wealthy nobleman",
+            "tokenStart": 144,
+            "tokenEnd": 147,
             "locationStart": 690,
             "locationEnd": 708,
             "category": "R-ARG0"
@@ -5383,6 +5459,8 @@
           {
             "argumentID": "0_ARG0",
             "surfaceForm": "William",
+            "tokenStart": 148,
+            "tokenEnd": 149,
             "locationStart": 710,
             "locationEnd": 717,
             "category": "ARG0"
@@ -5390,6 +5468,8 @@
           {
             "argumentID": "0_ARGM-TMP",
             "surfaceForm": "originally",
+            "tokenStart": 149,
+            "tokenEnd": 150,
             "locationStart": 718,
             "locationEnd": 728,
             "category": "ARGM-TMP"
@@ -5397,6 +5477,8 @@
           {
             "argumentID": "0_ARG2",
             "surfaceForm": "the Habsburgs",
+            "tokenStart": 151,
+            "tokenEnd": 153,
             "locationStart": 736,
             "locationEnd": 749,
             "category": "ARG2"
@@ -5404,6 +5486,8 @@
           {
             "argumentID": "0_ARG1",
             "surfaceForm": "as a member of the court of Margaret of Parma , governor of the Spanish Netherlands",
+            "tokenStart": 153,
+            "tokenEnd": 169,
             "locationStart": 750,
             "locationEnd": 832,
             "category": "ARG1"
@@ -5414,6 +5498,8 @@
       {
         "predicateID": "0",
         "locationStart": 976,
+        "tokenStart": 192,
+        "tokenEnd": 193,
         "locationEnd": 982,
         "surfaceForm": "joined",
         "predicateLemma": "join",
@@ -5421,6 +5507,8 @@
           {
             "argumentID": "0_R-ARG0",
             "surfaceForm": "Unhappy with the centralisation of political power away from the local estates and with the Spanish persecution of Dutch Protestants",
+            "tokenStart": 170,
+            "tokenEnd": 190,
             "locationStart": 834,
             "locationEnd": 966,
             "category": "R-ARG0"
@@ -5428,6 +5516,8 @@
           {
             "argumentID": "0_ARG0",
             "surfaceForm": "William",
+            "tokenStart": 191,
+            "tokenEnd": 192,
             "locationStart": 968,
             "locationEnd": 975,
             "category": "ARG0"
@@ -5435,6 +5525,8 @@
           {
             "argumentID": "0_ARG1",
             "surfaceForm": "the Dutch uprising",
+            "tokenStart": 193,
+            "tokenEnd": 196,
             "locationStart": 983,
             "locationEnd": 1001,
             "category": "ARG1"
@@ -5445,6 +5537,8 @@
       {
         "predicateID": "1",
         "locationStart": 1006,
+        "tokenStart": 197,
+        "tokenEnd": 198,
         "locationEnd": 1012,
         "surfaceForm": "turned",
         "predicateLemma": "turn",
@@ -5452,6 +5546,8 @@
           {
             "argumentID": "1_R-ARG1",
             "surfaceForm": "Unhappy with the centralisation of political power away from the local estates and with the Spanish persecution of Dutch Protestants",
+            "tokenStart": 170,
+            "tokenEnd": 190,
             "locationStart": 834,
             "locationEnd": 966,
             "category": "R-ARG1"
@@ -5459,6 +5555,8 @@
           {
             "argumentID": "1_ARG1",
             "surfaceForm": "William",
+            "tokenStart": 191,
+            "tokenEnd": 192,
             "locationStart": 968,
             "locationEnd": 975,
             "category": "ARG1"
@@ -5466,6 +5564,8 @@
           {
             "argumentID": "1_ARG2",
             "surfaceForm": "against his former masters",
+            "tokenStart": 198,
+            "tokenEnd": 202,
             "locationStart": 1013,
             "locationEnd": 1039,
             "category": "ARG2"
@@ -5476,6 +5576,8 @@
       {
         "predicateID": "0",
         "locationStart": 1104,
+        "tokenStart": 214,
+        "tokenEnd": 215,
         "locationEnd": 1107,
         "surfaceForm": "led",
         "predicateLemma": "lead",
@@ -5483,6 +5585,8 @@
           {
             "argumentID": "0_R-ARG0",
             "surfaceForm": "The most influential and politically capable of the rebels",
+            "tokenStart": 203,
+            "tokenEnd": 212,
             "locationStart": 1041,
             "locationEnd": 1099,
             "category": "R-ARG0"
@@ -5490,6 +5594,8 @@
           {
             "argumentID": "0_ARG0",
             "surfaceForm": "he",
+            "tokenStart": 213,
+            "tokenEnd": 214,
             "locationStart": 1101,
             "locationEnd": 1103,
             "category": "ARG0"
@@ -5497,6 +5603,8 @@
           {
             "argumentID": "0_ARG1",
             "surfaceForm": "the Dutch",
+            "tokenStart": 215,
+            "tokenEnd": 217,
             "locationStart": 1108,
             "locationEnd": 1117,
             "category": "ARG1"
@@ -5504,6 +5612,8 @@
           {
             "argumentID": "0_ARG4",
             "surfaceForm": "to several successes in the fight against the Spanish",
+            "tokenStart": 217,
+            "tokenEnd": 226,
             "locationStart": 1118,
             "locationEnd": 1171,
             "category": "ARG4"
@@ -5514,6 +5624,8 @@
       {
         "predicateID": "0",
         "locationStart": 1173,
+        "tokenStart": 227,
+        "tokenEnd": 228,
         "locationEnd": 1181,
         "surfaceForm": "Declared",
         "predicateLemma": "declare",
@@ -5521,6 +5633,8 @@
           {
             "argumentID": "0_ARG1",
             "surfaceForm": "an outlaw",
+            "tokenStart": 228,
+            "tokenEnd": 230,
             "locationStart": 1182,
             "locationEnd": 1191,
             "category": "ARG1"
@@ -5528,6 +5642,8 @@
           {
             "argumentID": "0_ARG0",
             "surfaceForm": "by the Spanish king",
+            "tokenStart": 230,
+            "tokenEnd": 234,
             "locationStart": 1192,
             "locationEnd": 1211,
             "category": "ARG0"
@@ -5535,6 +5651,8 @@
           {
             "argumentID": "0_ARGM-TMP",
             "surfaceForm": "in 1580",
+            "tokenStart": 234,
+            "tokenEnd": 236,
             "locationStart": 1212,
             "locationEnd": 1219,
             "category": "ARGM-TMP"
@@ -5545,6 +5663,8 @@
       {
         "predicateID": "2",
         "locationStart": 1228,
+        "tokenStart": 239,
+        "tokenEnd": 240,
         "locationEnd": 1240,
         "surfaceForm": "assassinated",
         "predicateLemma": "assassinate",
@@ -5552,6 +5672,8 @@
           {
             "argumentID": "2_ARGM-PRD",
             "surfaceForm": "Declared an outlaw by the Spanish king in 1580",
+            "tokenStart": 227,
+            "tokenEnd": 236,
             "locationStart": 1173,
             "locationEnd": 1219,
             "category": "ARGM-PRD"
@@ -5559,6 +5681,8 @@
           {
             "argumentID": "2_ARG1",
             "surfaceForm": "he",
+            "tokenStart": 237,
+            "tokenEnd": 238,
             "locationStart": 1221,
             "locationEnd": 1223,
             "category": "ARG1"
@@ -5566,6 +5690,8 @@
           {
             "argumentID": "2_ARG0",
             "surfaceForm": "by Balthasar G\u00e9rard",
+            "tokenStart": 240,
+            "tokenEnd": 243,
             "locationStart": 1241,
             "locationEnd": 1260,
             "category": "ARG0"
@@ -5573,6 +5699,8 @@
           {
             "argumentID": "2_ARGM-LOC",
             "surfaceForm": "in Delft",
+            "tokenStart": 243,
+            "tokenEnd": 245,
             "locationStart": 1261,
             "locationEnd": 1269,
             "category": "ARGM-LOC"
@@ -5580,6 +5708,8 @@
           {
             "argumentID": "2_ARGM-TMP",
             "surfaceForm": "in 1584",
+            "tokenStart": 245,
+            "tokenEnd": 247,
             "locationStart": 1270,
             "locationEnd": 1277,
             "category": "ARGM-TMP"
@@ -5587,6 +5717,227 @@
         ],
         "method": "allennlp_2.9.0"
       }
-    ]
+    ],
+    "coreference": {
+      "0": [
+        {
+          "ID": "0_0",
+          "surfaceForm": "William the Silent",
+          "locationStart": 0,
+          "locationEnd": 18,
+          "tokenStart": 0,
+          "tokenEnd": 3,
+          "method": "allennlp_2.9.0"
+        },
+        {
+          "ID": "0_1",
+          "surfaceForm": "he",
+          "locationStart": 435,
+          "locationEnd": 437,
+          "tokenStart": 91,
+          "tokenEnd": 92,
+          "method": "allennlp_2.9.0"
+        },
+        {
+          "ID": "0_2",
+          "surfaceForm": "he",
+          "locationStart": 598,
+          "locationEnd": 600,
+          "tokenStart": 123,
+          "tokenEnd": 124,
+          "method": "allennlp_2.9.0"
+        },
+        {
+          "ID": "0_3",
+          "surfaceForm": "William",
+          "locationStart": 710,
+          "locationEnd": 717,
+          "tokenStart": 148,
+          "tokenEnd": 149,
+          "method": "allennlp_2.9.0"
+        },
+        {
+          "ID": "0_4",
+          "surfaceForm": "William",
+          "locationStart": 968,
+          "locationEnd": 975,
+          "tokenStart": 191,
+          "tokenEnd": 192,
+          "method": "allennlp_2.9.0"
+        },
+        {
+          "ID": "0_5",
+          "surfaceForm": "his",
+          "locationStart": 1021,
+          "locationEnd": 1024,
+          "tokenStart": 199,
+          "tokenEnd": 200,
+          "method": "allennlp_2.9.0"
+        },
+        {
+          "ID": "0_6",
+          "surfaceForm": "he",
+          "locationStart": 1101,
+          "locationEnd": 1103,
+          "tokenStart": 213,
+          "tokenEnd": 214,
+          "method": "allennlp_2.9.0"
+        },
+        {
+          "ID": "0_7",
+          "surfaceForm": "he",
+          "locationStart": 1221,
+          "locationEnd": 1223,
+          "tokenStart": 237,
+          "tokenEnd": 238,
+          "method": "allennlp_2.9.0"
+        }
+      ],
+      "1": [
+        {
+          "ID": "1_0",
+          "surfaceForm": "the Netherlands",
+          "locationStart": 151,
+          "locationEnd": 166,
+          "tokenStart": 34,
+          "tokenEnd": 36,
+          "method": "allennlp_2.9.0"
+        },
+        {
+          "ID": "1_1",
+          "surfaceForm": "the Netherlands",
+          "locationStart": 561,
+          "locationEnd": 576,
+          "tokenStart": 116,
+          "tokenEnd": 118,
+          "method": "allennlp_2.9.0"
+        },
+        {
+          "ID": "1_2",
+          "surfaceForm": "the Netherlands",
+          "locationStart": 581,
+          "locationEnd": 596,
+          "tokenStart": 120,
+          "tokenEnd": 122,
+          "method": "allennlp_2.9.0"
+        }
+      ],
+      "2": [
+        {
+          "ID": "2_0",
+          "surfaceForm": "Dutch",
+          "locationStart": 103,
+          "locationEnd": 108,
+          "tokenStart": 22,
+          "tokenEnd": 23,
+          "method": "allennlp_2.9.0"
+        },
+        {
+          "ID": "2_1",
+          "surfaceForm": "Dutch",
+          "locationStart": 660,
+          "locationEnd": 665,
+          "tokenStart": 137,
+          "tokenEnd": 138,
+          "method": "allennlp_2.9.0"
+        }
+      ],
+      "3": [
+        {
+          "ID": "3_0",
+          "surfaceForm": "the Spanish Habsburgs",
+          "locationStart": 262,
+          "locationEnd": 283,
+          "tokenStart": 57,
+          "tokenEnd": 60,
+          "method": "allennlp_2.9.0"
+        },
+        {
+          "ID": "3_1",
+          "surfaceForm": "the Habsburgs",
+          "locationStart": 736,
+          "locationEnd": 749,
+          "tokenStart": 151,
+          "tokenEnd": 153,
+          "method": "allennlp_2.9.0"
+        },
+        {
+          "ID": "3_2",
+          "surfaceForm": "his former masters",
+          "locationStart": 1021,
+          "locationEnd": 1039,
+          "tokenStart": 199,
+          "tokenEnd": 202,
+          "method": "allennlp_2.9.0"
+        },
+        {
+          "ID": "3_3",
+          "surfaceForm": "the Spanish",
+          "locationStart": 1160,
+          "locationEnd": 1171,
+          "tokenStart": 224,
+          "tokenEnd": 226,
+          "method": "allennlp_2.9.0"
+        }
+      ],
+      "4": [
+        {
+          "ID": "4_0",
+          "surfaceForm": "Dutch",
+          "locationStart": 241,
+          "locationEnd": 246,
+          "tokenStart": 54,
+          "tokenEnd": 55,
+          "method": "allennlp_2.9.0"
+        },
+        {
+          "ID": "4_1",
+          "surfaceForm": "Dutch",
+          "locationStart": 949,
+          "locationEnd": 954,
+          "tokenStart": 188,
+          "tokenEnd": 189,
+          "method": "allennlp_2.9.0"
+        },
+        {
+          "ID": "4_2",
+          "surfaceForm": "Dutch",
+          "locationStart": 987,
+          "locationEnd": 992,
+          "tokenStart": 194,
+          "tokenEnd": 195,
+          "method": "allennlp_2.9.0"
+        },
+        {
+          "ID": "4_3",
+          "surfaceForm": "the Dutch",
+          "locationStart": 1108,
+          "locationEnd": 1117,
+          "tokenStart": 215,
+          "tokenEnd": 217,
+          "method": "allennlp_2.9.0"
+        }
+      ],
+      "5": [
+        {
+          "ID": "5_0",
+          "surfaceForm": "the Dutch revolt against the Spanish Habsburgs",
+          "locationStart": 237,
+          "locationEnd": 283,
+          "tokenStart": 53,
+          "tokenEnd": 60,
+          "method": "allennlp_2.9.0"
+        },
+        {
+          "ID": "5_1",
+          "surfaceForm": "the Dutch uprising",
+          "locationStart": 983,
+          "locationEnd": 1001,
+          "tokenStart": 193,
+          "tokenEnd": 196,
+          "method": "allennlp_2.9.0"
+        }
+      ]
+    }
   }
 }

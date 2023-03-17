@@ -89,7 +89,8 @@ def nlp_to_dict(nlp_dict: Dict[str, Any]) -> Dict[str, Any]:
             'morphology': token_objs,
             'entities': nlp_dict.get('entities', []),
             'time_expressions': nlp_dict.get('time_expressions', []),
-            'semantic_roles': nlp_dict.get('semantic_roles', [])
+            'semantic_roles': nlp_dict.get('semantic_roles', []),
+            'coreference': nlp_dict.get('coreference', [])
         }
     }
 
@@ -204,7 +205,7 @@ def allennlp_srl(text: str, srl_predictor: Predictor) -> SRL_Output:
     return simplified_output
 
 
-def allennlp_ner(text: str, ner_predictor: Predictor, text_init_offset: int = 0) -> SRL_Output:
+def allennlp_ner(text: str, ner_predictor: Predictor, text_init_offset: int = 0) -> Tuple[List, List]:
     output = ner_predictor.predict(text)
     tokenized_sentence = output['words']
     sentence_entities = []
@@ -237,6 +238,17 @@ def allennlp_ner(text: str, ner_predictor: Predictor, text_init_offset: int = 0)
     
     return tokenized_sentence, sentence_entities
 
+def allennlp_coref(text: str, coref_predictor: Predictor) -> Tuple[List[str], Dict[str, Any]]:
+    allennlp_output = coref_predictor.predict(text)
+    tokens = allennlp_output["document"]
+    clusters = defaultdict(list)
+    for cluster_id, cluster_elems in enumerate(allennlp_output["clusters"]):
+        for j, (start, end) in enumerate(cluster_elems):
+            labeled_span = " ".join(tokens[start:end+1])
+            clusters[cluster_id].append({'ID': f"{cluster_id}_{j}",'surfaceForm': labeled_span, 'locationStart': None, 'locationEnd': None, 
+                                            'tokenStart': start, 'tokenEnd': end+1, 'method': 'allennlp_2.9.0'}) 
+    return tokens, clusters
+
 
 ## Functions to Add JSON Layers (via Script or API)
 
@@ -267,6 +279,8 @@ def add_json_srl_allennlp(sentences: List[str], srl_predictor: Predictor, token_
         for i, (predicate_pos, arguments) in enumerate(srl_output.pred_arg_struct.items()):
             pred_obj = {'predicateID': str(i), 
                         'locationStart': token_objects[doc_token_offset + predicate_pos]['start_char'], 
+                        'tokenStart': doc_token_offset + predicate_pos,
+                        'tokenEnd': doc_token_offset + predicate_pos + 1,
                         'locationEnd': token_objects[doc_token_offset + predicate_pos]['end_char'],
                         'surfaceForm': token_objects[doc_token_offset + predicate_pos]['text'],
                         'predicateLemma': token_objects[doc_token_offset + predicate_pos]['lemma'],
@@ -277,6 +291,8 @@ def add_json_srl_allennlp(sentences: List[str], srl_predictor: Predictor, token_
                 pred_obj['arguments'].append({
                     'argumentID': f"{i}_{arg.label}",
                     'surfaceForm': arg.text,
+                    'tokenStart': doc_token_offset + arg.start,
+                    'tokenEnd': doc_token_offset + arg.end+1,
                     'locationStart': token_objects[doc_token_offset + arg.start]['start_char'],
                     'locationEnd': token_objects[doc_token_offset + arg.end]['end_char'],
                     'category': arg.label
@@ -306,3 +322,30 @@ def add_json_ner_allennlp(sentences: List[str], ner_predictor: Predictor, token_
         doc_entities.append(entity)
 
     return doc_entities
+
+def add_json_coref_allennlp(sentences: List[str], coref_predictor: Predictor, token_objects: List[Dict]) -> List[Dict[str, Any]]:
+    doc_limit = 400 # We only take the first 400 tokens of the document to find coreferences there
+    doc_truncated = [] 
+    fake_paragraph_len = 0
+    for sentence in sentences:
+        fake_paragraph_len += len(sentence.split())
+        if fake_paragraph_len <= doc_limit:
+            doc_truncated.append(sentence)
+        else:
+            break
+    # Get Coreference for the whole Document
+    doc_truncated = " ".join(doc_truncated)
+    tokenized, doc_clusters = allennlp_coref(doc_truncated, coref_predictor)
+
+    try:
+        assert len(tokenized) == len(token_objects)
+        for _, entities in doc_clusters.items():
+            for entity in entities:
+                tok_start = entity['tokenStart']
+                tok_end = entity['tokenEnd']
+                entity['locationStart'] = token_objects[tok_start]['start_char']
+                entity['locationEnd'] = token_objects[tok_end - 1]['end_char']
+    except:
+        pass
+
+    return doc_clusters

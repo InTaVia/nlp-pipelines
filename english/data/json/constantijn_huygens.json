@@ -138,7 +138,7 @@
             "LEMMA": "(",
             "UPOS": "PUNCT",
             "XPOS": "-LRB-",
-            "HEAD": 2,
+            "HEAD": 10,
             "DEPREL": "punct",
             "DEPS": null,
             "MISC": {
@@ -154,11 +154,11 @@
           {
             "ID": 8,
             "FORM": "HY",
-            "LEMMA": "hy",
-            "UPOS": "X",
-            "XPOS": "FW",
-            "HEAD": 2,
-            "DEPREL": "appos",
+            "LEMMA": "HY",
+            "UPOS": "PROPN",
+            "XPOS": "NNP",
+            "HEAD": 10,
+            "DEPREL": "compound",
             "DEPS": null,
             "MISC": {
               "SpaceAfter": false,
@@ -166,17 +166,17 @@
               "EndChar": 47
             },
             "FEATS": {
-              "Foreign": "Yes"
+              "Number": "Sing"
             }
           },
           {
             "ID": 9,
             "FORM": "-",
             "LEMMA": "-",
-            "UPOS": "X",
-            "XPOS": "FW",
-            "HEAD": 2,
-            "DEPREL": "appos",
+            "UPOS": "PUNCT",
+            "XPOS": "HYPH",
+            "HEAD": 10,
+            "DEPREL": "punct",
             "DEPS": null,
             "MISC": {
               "SpaceAfter": false,
@@ -184,15 +184,15 @@
               "EndChar": 48
             },
             "FEATS": {
-              "Foreign": "Yes"
+              "PunctType": "Dash"
             }
           },
           {
             "ID": 10,
             "FORM": "g\u0259nz",
             "LEMMA": "g\u0259nz",
-            "UPOS": "X",
-            "XPOS": "FW",
+            "UPOS": "NOUN",
+            "XPOS": "NN",
             "HEAD": 2,
             "DEPREL": "appos",
             "DEPS": null,
@@ -202,7 +202,7 @@
               "EndChar": 52
             },
             "FEATS": {
-              "Foreign": "Yes"
+              "Number": "Sing"
             }
           },
           {
@@ -211,7 +211,7 @@
             "LEMMA": ",",
             "UPOS": "PUNCT",
             "XPOS": ",",
-            "HEAD": 10,
+            "HEAD": 2,
             "DEPREL": "punct",
             "DEPS": null,
             "MISC": {
@@ -229,8 +229,8 @@
             "LEMMA": "US",
             "UPOS": "PROPN",
             "XPOS": "NNP",
-            "HEAD": 10,
-            "DEPREL": "appos",
+            "HEAD": 16,
+            "DEPREL": "nsubj",
             "DEPS": null,
             "MISC": {
               "SpaceAfter": true,
@@ -247,7 +247,7 @@
             "LEMMA": "also",
             "UPOS": "ADV",
             "XPOS": "RB",
-            "HEAD": 14,
+            "HEAD": 16,
             "DEPREL": "advmod",
             "DEPS": null,
             "MISC": {
@@ -263,8 +263,8 @@
             "LEMMA": "HOY",
             "UPOS": "PROPN",
             "XPOS": "NNP",
-            "HEAD": 12,
-            "DEPREL": "appos",
+            "HEAD": 16,
+            "DEPREL": "compound",
             "DEPS": null,
             "MISC": {
               "SpaceAfter": false,
@@ -279,9 +279,9 @@
             "ID": 15,
             "FORM": "-",
             "LEMMA": "-",
-            "UPOS": "X",
-            "XPOS": "FW",
-            "HEAD": 14,
+            "UPOS": "PUNCT",
+            "XPOS": "HYPH",
+            "HEAD": 16,
             "DEPREL": "punct",
             "DEPS": null,
             "MISC": {
@@ -290,16 +290,16 @@
               "EndChar": 66
             },
             "FEATS": {
-              "Foreign": "Yes"
+              "PunctType": "Dash"
             }
           },
           {
             "ID": 16,
             "FORM": "g\u0259nz",
             "LEMMA": "g\u0259nz",
-            "UPOS": "X",
-            "XPOS": "FW",
-            "HEAD": 14,
+            "UPOS": "NOUN",
+            "XPOS": "NN",
+            "HEAD": 2,
             "DEPREL": "appos",
             "DEPS": null,
             "MISC": {
@@ -308,7 +308,7 @@
               "EndChar": 70
             },
             "FEATS": {
-              "Foreign": "Yes"
+              "Number": "Sing"
             }
           },
           {
@@ -353,7 +353,7 @@
             "LEMMA": ":",
             "UPOS": "PUNCT",
             "XPOS": ":",
-            "HEAD": 18,
+            "HEAD": 2,
             "DEPREL": "punct",
             "DEPS": null,
             "MISC": {
@@ -368,25 +368,23 @@
             "FORM": "[",
             "LEMMA": "[",
             "UPOS": "X",
-            "XPOS": "FW",
-            "HEAD": 18,
-            "DEPREL": "appos",
+            "XPOS": "XX",
+            "HEAD": 2,
+            "DEPREL": "punct",
             "DEPS": null,
             "MISC": {
               "SpaceAfter": false,
               "StartChar": 79,
               "EndChar": 80
             },
-            "FEATS": {
-              "Foreign": "Yes"
-            }
+            "FEATS": {}
           },
           {
             "ID": 21,
             "FORM": "\u02c8k\u0254nst\u0251nt\u025bin",
             "LEMMA": "\u02c8k\u0254nst\u0251nt\u025bin",
-            "UPOS": "X",
-            "XPOS": "FW",
+            "UPOS": "NOUN",
+            "XPOS": "NN",
             "HEAD": 2,
             "DEPREL": "appos",
             "DEPS": null,
@@ -396,17 +394,17 @@
               "EndChar": 92
             },
             "FEATS": {
-              "Foreign": "Yes"
+              "Number": "Sing"
             }
           },
           {
             "ID": 22,
             "FORM": "\u02c8\u0266\u0153y\u0263\u0259(n)s",
             "LEMMA": "\u02c8\u0266\u0153y\u0263\u0259(n)s",
-            "UPOS": "X",
-            "XPOS": "FW",
-            "HEAD": 2,
-            "DEPREL": "appos",
+            "UPOS": "NUM",
+            "XPOS": "CD",
+            "HEAD": 21,
+            "DEPREL": "npadvmod",
             "DEPS": null,
             "MISC": {
               "SpaceAfter": false,
@@ -414,7 +412,7 @@
               "EndChar": 103
             },
             "FEATS": {
-              "Foreign": "Yes"
+              "NumType": "Card"
             }
           },
           {
@@ -422,7 +420,7 @@
             "FORM": "]",
             "LEMMA": "]",
             "UPOS": "PUNCT",
-            "XPOS": ":",
+            "XPOS": "-RRB-",
             "HEAD": 2,
             "DEPREL": "punct",
             "DEPS": null,
@@ -431,7 +429,10 @@
               "StartChar": 103,
               "EndChar": 104
             },
-            "FEATS": {}
+            "FEATS": {
+              "PunctSide": "Fin",
+              "PunctType": "Brck"
+            }
           },
           {
             "ID": 24,
@@ -508,8 +509,8 @@
             "FORM": "\u2013",
             "LEMMA": "\u2013",
             "UPOS": "PUNCT",
-            "XPOS": "``",
-            "HEAD": 2,
+            "XPOS": ":",
+            "HEAD": 26,
             "DEPREL": "punct",
             "DEPS": null,
             "MISC": {
@@ -517,10 +518,7 @@
               "StartChar": 123,
               "EndChar": 124
             },
-            "FEATS": {
-              "PunctSide": "Ini",
-              "PunctType": "Quot"
-            }
+            "FEATS": {}
           },
           {
             "ID": 29,
@@ -546,8 +544,8 @@
             "LEMMA": "March",
             "UPOS": "PROPN",
             "XPOS": "NNP",
-            "HEAD": 28,
-            "DEPREL": "npadvmod",
+            "HEAD": 26,
+            "DEPREL": "appos",
             "DEPS": null,
             "MISC": {
               "SpaceAfter": true,
@@ -600,7 +598,7 @@
             "FORM": ",",
             "LEMMA": ",",
             "UPOS": "PUNCT",
-            "XPOS": "-RRB-",
+            "XPOS": ",",
             "HEAD": 2,
             "DEPREL": "punct",
             "DEPS": null,
@@ -610,8 +608,7 @@
               "EndChar": 140
             },
             "FEATS": {
-              "PunctSide": "Fin",
-              "PunctType": "Brck"
+              "PunctType": "Comm"
             }
           },
           {
@@ -658,11 +655,11 @@
           {
             "ID": 36,
             "FORM": "Dutch",
-            "LEMMA": "dutch",
-            "UPOS": "ADJ",
-            "XPOS": "JJ",
+            "LEMMA": "Dutch",
+            "UPOS": "PROPN",
+            "XPOS": "NNP",
             "HEAD": 39,
-            "DEPREL": "amod",
+            "DEPREL": "compound",
             "DEPS": null,
             "MISC": {
               "SpaceAfter": true,
@@ -670,7 +667,7 @@
               "EndChar": 152
             },
             "FEATS": {
-              "Degree": "Pos"
+              "Number": "Sing"
             }
           },
           {
@@ -903,9 +900,9 @@
           {
             "ID": 49,
             "FORM": "Princes",
-            "LEMMA": "Princes",
-            "UPOS": "PROPN",
-            "XPOS": "NNPS",
+            "LEMMA": "prince",
+            "UPOS": "NOUN",
+            "XPOS": "NNS",
             "HEAD": 47,
             "DEPREL": "pobj",
             "DEPS": null,
@@ -958,7 +955,7 @@
             "LEMMA": ":",
             "UPOS": "PUNCT",
             "XPOS": ":",
-            "HEAD": 49,
+            "HEAD": 44,
             "DEPREL": "punct",
             "DEPS": null,
             "MISC": {
@@ -992,7 +989,7 @@
             "LEMMA": "Henry",
             "UPOS": "PROPN",
             "XPOS": "NNP",
-            "HEAD": 49,
+            "HEAD": 43,
             "DEPREL": "appos",
             "DEPS": null,
             "MISC": {
@@ -1064,7 +1061,7 @@
             "LEMMA": ",",
             "UPOS": "PUNCT",
             "XPOS": ",",
-            "HEAD": 49,
+            "HEAD": 54,
             "DEPREL": "punct",
             "DEPS": null,
             "MISC": {
@@ -1082,7 +1079,7 @@
             "LEMMA": "and",
             "UPOS": "CCONJ",
             "XPOS": "CC",
-            "HEAD": 49,
+            "HEAD": 54,
             "DEPREL": "cc",
             "DEPS": null,
             "MISC": {
@@ -1119,7 +1116,7 @@
             "LEMMA": "father",
             "UPOS": "NOUN",
             "XPOS": "NN",
-            "HEAD": 49,
+            "HEAD": 54,
             "DEPREL": "conj",
             "DEPS": null,
             "MISC": {
@@ -1172,8 +1169,8 @@
             "LEMMA": "scientist",
             "UPOS": "NOUN",
             "XPOS": "NN",
-            "HEAD": 62,
-            "DEPREL": "pobj",
+            "HEAD": 66,
+            "DEPREL": "compound",
             "DEPS": null,
             "MISC": {
               "SpaceAfter": true,
@@ -1207,9 +1204,9 @@
             "FORM": "Huygens",
             "LEMMA": "Huygens",
             "UPOS": "PROPN",
-            "XPOS": "NNP",
-            "HEAD": 64,
-            "DEPREL": "appos",
+            "XPOS": "NNPS",
+            "HEAD": 62,
+            "DEPREL": "pobj",
             "DEPS": null,
             "MISC": {
               "SpaceAfter": false,
@@ -1217,7 +1214,7 @@
               "EndChar": 313
             },
             "FEATS": {
-              "Number": "Sing"
+              "Number": "Plur"
             }
           },
           {
@@ -1255,7 +1252,7 @@
       {
         "ID": null,
         "surfaceForm": "Zuilichem",
-        "category": "GPE",
+        "category": "PERSON",
         "locationStart": 33,
         "locationEnd": 42,
         "tokenStart": 6,
@@ -1284,12 +1281,22 @@
       },
       {
         "ID": null,
-        "surfaceForm": "4 September 1596 \u2013",
+        "surfaceForm": "September 1596",
         "category": "DATE",
-        "locationStart": 106,
-        "locationEnd": 124,
-        "tokenStart": 25,
-        "tokenEnd": 29,
+        "locationStart": 108,
+        "locationEnd": 122,
+        "tokenStart": 26,
+        "tokenEnd": 28,
+        "method": "spacy"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "March 1687",
+        "category": "DATE",
+        "locationStart": 128,
+        "locationEnd": 138,
+        "tokenStart": 30,
+        "tokenEnd": 32,
         "method": "spacy"
       },
       {
@@ -1310,6 +1317,16 @@
         "locationEnd": 211,
         "tokenStart": 48,
         "tokenEnd": 49,
+        "method": "spacy"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "Princes of Orange",
+        "category": "ORG",
+        "locationStart": 212,
+        "locationEnd": 229,
+        "tokenStart": 49,
+        "tokenEnd": 52,
         "method": "spacy"
       },
       {
@@ -1365,7 +1382,7 @@
     ],
     "time_expressions": [
       {
-        "ID": "t3",
+        "ID": "t6",
         "category": "DATE",
         "value": "1596-09-04",
         "surfaceForm": "4 September 1596",
@@ -1374,7 +1391,7 @@
         "method": "HeidelTime"
       },
       {
-        "ID": "t8",
+        "ID": "t7",
         "category": "DATE",
         "value": "1687-03-28",
         "surfaceForm": "28 March 1687",
@@ -1387,6 +1404,8 @@
       {
         "predicateID": "0",
         "locationStart": 141,
+        "tokenStart": 34,
+        "tokenEnd": 35,
         "locationEnd": 144,
         "surfaceForm": "was",
         "predicateLemma": "be",
@@ -1394,6 +1413,8 @@
           {
             "argumentID": "0_ARG1",
             "surfaceForm": "Sir Constantijn Huygens , Lord of Zuilichem ( HY - g\u0259nz , US also HOY - g\u0259nz , Dutch : [ \u02c8k\u0254nst\u0251nt\u025bin \u02c8\u0266\u0153y\u0263\u0259(n)s ] ; 4 September 1596 \u2013 28 March 1687 )",
+            "tokenStart": 0,
+            "tokenEnd": 33,
             "locationStart": 0,
             "locationEnd": 139,
             "category": "ARG1"
@@ -1401,6 +1422,8 @@
           {
             "argumentID": "0_ARG2",
             "surfaceForm": "a Dutch Golden Age poet and composer",
+            "tokenStart": 35,
+            "tokenEnd": 42,
             "locationStart": 145,
             "locationEnd": 181,
             "category": "ARG2"
@@ -1411,6 +1434,8 @@
       {
         "predicateID": "0",
         "locationStart": 186,
+        "tokenStart": 44,
+        "tokenEnd": 45,
         "locationEnd": 189,
         "surfaceForm": "was",
         "predicateLemma": "be",
@@ -1418,6 +1443,8 @@
           {
             "argumentID": "0_ARG1",
             "surfaceForm": "He",
+            "tokenStart": 43,
+            "tokenEnd": 44,
             "locationStart": 183,
             "locationEnd": 185,
             "category": "ARG1"
@@ -1425,6 +1452,8 @@
           {
             "argumentID": "0_ARGM-ADV",
             "surfaceForm": "also",
+            "tokenStart": 45,
+            "tokenEnd": 46,
             "locationStart": 190,
             "locationEnd": 194,
             "category": "ARGM-ADV"
@@ -1432,6 +1461,8 @@
           {
             "argumentID": "0_ARG2",
             "surfaceForm": "secretary to two Princes of Orange : Frederick Henry and William II , and the father of the scientist Christiaan Huygens",
+            "tokenStart": 46,
+            "tokenEnd": 67,
             "locationStart": 195,
             "locationEnd": 313,
             "category": "ARG2"
@@ -1439,6 +1470,28 @@
         ],
         "method": "allennlp_2.9.0"
       }
-    ]
+    ],
+    "coreference": {
+      "0": [
+        {
+          "ID": "0_0",
+          "surfaceForm": "Sir Constantijn Huygens , Lord of Zuilichem",
+          "locationStart": 0,
+          "locationEnd": 42,
+          "tokenStart": 0,
+          "tokenEnd": 7,
+          "method": "allennlp_2.9.0"
+        },
+        {
+          "ID": "0_1",
+          "surfaceForm": "He",
+          "locationStart": 183,
+          "locationEnd": 185,
+          "tokenStart": 43,
+          "tokenEnd": 44,
+          "method": "allennlp_2.9.0"
+        }
+      ]
+    }
   }
 }

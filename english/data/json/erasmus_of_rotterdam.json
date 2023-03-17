@@ -14,7 +14,7 @@
             "LEMMA": "Desiderius",
             "UPOS": "PROPN",
             "XPOS": "NNP",
-            "HEAD": 2,
+            "HEAD": 1,
             "DEPREL": "compound",
             "DEPS": null,
             "MISC": {
@@ -50,7 +50,7 @@
             "LEMMA": "Roterodamus",
             "UPOS": "PROPN",
             "XPOS": "NNP",
-            "HEAD": 27,
+            "HEAD": 3,
             "DEPREL": "nsubj",
             "DEPS": null,
             "MISC": {
@@ -66,26 +66,29 @@
             "ID": 3,
             "FORM": "(;",
             "LEMMA": "(;",
-            "UPOS": "PUNCT",
-            "XPOS": ":",
-            "HEAD": 2,
-            "DEPREL": "punct",
+            "UPOS": "VERB",
+            "XPOS": "VBD",
+            "HEAD": 11,
+            "DEPREL": "ccomp",
             "DEPS": null,
             "MISC": {
               "SpaceAfter": true,
               "StartChar": 31,
               "EndChar": 33
             },
-            "FEATS": {}
+            "FEATS": {
+              "Tense": "Past",
+              "VerbForm": "Fin"
+            }
           },
           {
             "ID": 4,
             "FORM": "Dutch",
             "LEMMA": "Dutch",
             "UPOS": "PROPN",
-            "XPOS": "NNP",
-            "HEAD": 2,
-            "DEPREL": "appos",
+            "XPOS": "NNPS",
+            "HEAD": 3,
+            "DEPREL": "acomp",
             "DEPS": null,
             "MISC": {
               "SpaceAfter": false,
@@ -93,7 +96,7 @@
               "EndChar": 39
             },
             "FEATS": {
-              "Number": "Sing"
+              "Number": "Plur"
             }
           },
           {
@@ -117,27 +120,25 @@
             "FORM": "[",
             "LEMMA": "[",
             "UPOS": "X",
-            "XPOS": "FW",
-            "HEAD": 4,
-            "DEPREL": "appos",
+            "XPOS": "XX",
+            "HEAD": 8,
+            "DEPREL": "punct",
             "DEPS": null,
             "MISC": {
               "SpaceAfter": false,
               "StartChar": 41,
               "EndChar": 42
             },
-            "FEATS": {
-              "Foreign": "Yes"
-            }
+            "FEATS": {}
           },
           {
             "ID": 7,
             "FORM": "\u02ccde\u02d0zi\u02c8de\u02d0ri\u028fs",
             "LEMMA": "\u02ccde\u02d0zi\u02c8de\u02d0ri\u028fs",
-            "UPOS": "X",
-            "XPOS": "FW",
-            "HEAD": 4,
-            "DEPREL": "nmod",
+            "UPOS": "PROPN",
+            "XPOS": "NNP",
+            "HEAD": 8,
+            "DEPREL": "compound",
             "DEPS": null,
             "MISC": {
               "SpaceAfter": true,
@@ -145,17 +146,17 @@
               "EndChar": 56
             },
             "FEATS": {
-              "Foreign": "Yes"
+              "Number": "Sing"
             }
           },
           {
             "ID": 8,
             "FORM": "e\u02c8r\u0251sm\u028fs",
             "LEMMA": "e\u02c8r\u0251sm\u028fs",
-            "UPOS": "X",
-            "XPOS": "FW",
-            "HEAD": 4,
-            "DEPREL": "appos",
+            "UPOS": "PROPN",
+            "XPOS": "NNP",
+            "HEAD": 3,
+            "DEPREL": "npadvmod",
             "DEPS": null,
             "MISC": {
               "SpaceAfter": false,
@@ -163,7 +164,7 @@
               "EndChar": 65
             },
             "FEATS": {
-              "Foreign": "Yes"
+              "Number": "Sing"
             }
           },
           {
@@ -171,8 +172,8 @@
             "FORM": "]",
             "LEMMA": "]",
             "UPOS": "PUNCT",
-            "XPOS": ":",
-            "HEAD": 4,
+            "XPOS": "-RRB-",
+            "HEAD": 3,
             "DEPREL": "punct",
             "DEPS": null,
             "MISC": {
@@ -180,7 +181,10 @@
               "StartChar": 65,
               "EndChar": 66
             },
-            "FEATS": {}
+            "FEATS": {
+              "PunctSide": "Fin",
+              "PunctType": "Brck"
+            }
           },
           {
             "ID": 10,
@@ -188,7 +192,7 @@
             "LEMMA": ";",
             "UPOS": "PUNCT",
             "XPOS": ":",
-            "HEAD": 4,
+            "HEAD": 11,
             "DEPREL": "punct",
             "DEPS": null,
             "MISC": {
@@ -204,8 +208,8 @@
             "LEMMA": "English",
             "UPOS": "PROPN",
             "XPOS": "NNP",
-            "HEAD": 4,
-            "DEPREL": "appos",
+            "HEAD": 27,
+            "DEPREL": "nsubj",
             "DEPS": null,
             "MISC": {
               "SpaceAfter": false,
@@ -290,7 +294,7 @@
             "LEMMA": "or",
             "UPOS": "CCONJ",
             "XPOS": "CC",
-            "HEAD": 13,
+            "HEAD": 15,
             "DEPREL": "cc",
             "DEPS": null,
             "MISC": {
@@ -308,7 +312,7 @@
             "LEMMA": "Erasmus",
             "UPOS": "PROPN",
             "XPOS": "NNP",
-            "HEAD": 13,
+            "HEAD": 15,
             "DEPREL": "conj",
             "DEPS": null,
             "MISC": {
@@ -326,7 +330,7 @@
             "LEMMA": ";",
             "UPOS": "PUNCT",
             "XPOS": ":",
-            "HEAD": 4,
+            "HEAD": 13,
             "DEPREL": "punct",
             "DEPS": null,
             "MISC": {
@@ -360,7 +364,7 @@
             "LEMMA": "October",
             "UPOS": "PROPN",
             "XPOS": "NNP",
-            "HEAD": 4,
+            "HEAD": 13,
             "DEPREL": "appos",
             "DEPS": null,
             "MISC": {
@@ -395,8 +399,8 @@
             "FORM": "\u2013",
             "LEMMA": "\u2013",
             "UPOS": "PUNCT",
-            "XPOS": "``",
-            "HEAD": 2,
+            "XPOS": ":",
+            "HEAD": 20,
             "DEPREL": "punct",
             "DEPS": null,
             "MISC": {
@@ -404,10 +408,7 @@
               "StartChar": 126,
               "EndChar": 127
             },
-            "FEATS": {
-              "PunctSide": "Ini",
-              "PunctType": "Quot"
-            }
+            "FEATS": {}
           },
           {
             "ID": 23,
@@ -415,8 +416,8 @@
             "LEMMA": "12",
             "UPOS": "NUM",
             "XPOS": "CD",
-            "HEAD": 24,
-            "DEPREL": "nummod",
+            "HEAD": 11,
+            "DEPREL": "punct",
             "DEPS": null,
             "MISC": {
               "SpaceAfter": true,
@@ -433,7 +434,7 @@
             "LEMMA": "July",
             "UPOS": "PROPN",
             "XPOS": "NNP",
-            "HEAD": 22,
+            "HEAD": 11,
             "DEPREL": "npadvmod",
             "DEPS": null,
             "MISC": {
@@ -469,7 +470,7 @@
             "LEMMA": ")",
             "UPOS": "PUNCT",
             "XPOS": "-RRB-",
-            "HEAD": 2,
+            "HEAD": 11,
             "DEPREL": "punct",
             "DEPS": null,
             "MISC": {
@@ -657,7 +658,7 @@
             "LEMMA": "consider",
             "UPOS": "VERB",
             "XPOS": "VBN",
-            "HEAD": 30,
+            "HEAD": 33,
             "DEPREL": "relcl",
             "DEPS": null,
             "MISC": {
@@ -1118,7 +1119,7 @@
             "LEMMA": "write",
             "UPOS": "VERB",
             "XPOS": "VBD",
-            "HEAD": 56,
+            "HEAD": 59,
             "DEPREL": "relcl",
             "DEPS": null,
             "MISC": {
@@ -1369,7 +1370,7 @@
             "UPOS": "NOUN",
             "XPOS": "NN",
             "HEAD": 72,
-            "DEPREL": "dobj",
+            "DEPREL": "dative",
             "DEPS": null,
             "MISC": {
               "SpaceAfter": true,
@@ -1386,7 +1387,7 @@
             "LEMMA": "\"",
             "UPOS": "PUNCT",
             "XPOS": "``",
-            "HEAD": 76,
+            "HEAD": 74,
             "DEPREL": "punct",
             "DEPS": null,
             "MISC": {
@@ -1405,8 +1406,8 @@
             "LEMMA": "Prince",
             "UPOS": "PROPN",
             "XPOS": "NNP",
-            "HEAD": 74,
-            "DEPREL": "appos",
+            "HEAD": 72,
+            "DEPREL": "dobj",
             "DEPS": null,
             "MISC": {
               "SpaceAfter": true,
@@ -1627,9 +1628,9 @@
           {
             "ID": 88,
             "FORM": "crowning",
-            "LEMMA": "crowning",
-            "UPOS": "ADJ",
-            "XPOS": "JJ",
+            "LEMMA": "crown",
+            "UPOS": "VERB",
+            "XPOS": "VBG",
             "HEAD": 89,
             "DEPREL": "amod",
             "DEPS": null,
@@ -1639,7 +1640,9 @@
               "EndChar": 480
             },
             "FEATS": {
-              "Degree": "Pos"
+              "Aspect": "Prog",
+              "Tense": "Pres",
+              "VerbForm": "Part"
             }
           },
           {
@@ -1737,7 +1740,7 @@
             "LEMMA": "\"",
             "UPOS": "PUNCT",
             "XPOS": "''",
-            "HEAD": 89,
+            "HEAD": 85,
             "DEPREL": "punct",
             "DEPS": null,
             "MISC": {
@@ -1837,7 +1840,7 @@
             "LEMMA": "for",
             "UPOS": "ADP",
             "XPOS": "IN",
-            "HEAD": 98,
+            "HEAD": 96,
             "DEPREL": "prep",
             "DEPS": null,
             "MISC": {
@@ -2003,7 +2006,7 @@
             "UPOS": "ADJ",
             "XPOS": "JJ",
             "HEAD": 111,
-            "DEPREL": "amod",
+            "DEPREL": "nmod",
             "DEPS": null,
             "MISC": {
               "SpaceAfter": true,
@@ -2145,7 +2148,7 @@
             "LEMMA": ",",
             "UPOS": "PUNCT",
             "XPOS": ",",
-            "HEAD": 111,
+            "HEAD": 115,
             "DEPREL": "punct",
             "DEPS": null,
             "MISC": {
@@ -2179,7 +2182,7 @@
             "LEMMA": "raise",
             "UPOS": "VERB",
             "XPOS": "VBD",
-            "HEAD": 111,
+            "HEAD": 115,
             "DEPREL": "relcl",
             "DEPS": null,
             "MISC": {
@@ -2377,8 +2380,8 @@
             "LEMMA": "Catholic",
             "UPOS": "PROPN",
             "XPOS": "NNP",
-            "HEAD": 130,
-            "DEPREL": "compound",
+            "HEAD": 127,
+            "DEPREL": "conj",
             "DEPS": null,
             "MISC": {
               "SpaceAfter": true,
@@ -2414,7 +2417,7 @@
             "UPOS": "PROPN",
             "XPOS": "NNP",
             "HEAD": 127,
-            "DEPREL": "conj",
+            "DEPREL": "appos",
             "DEPS": null,
             "MISC": {
               "SpaceAfter": false,
@@ -2432,7 +2435,7 @@
             "UPOS": "PROPN",
             "XPOS": "NNP",
             "HEAD": 127,
-            "DEPREL": "conj",
+            "DEPREL": "appos",
             "DEPS": null,
             "MISC": {
               "SpaceAfter": false,
@@ -2544,11 +2547,11 @@
           {
             "ID": 138,
             "FORM": "Free",
-            "LEMMA": "free",
-            "UPOS": "ADJ",
-            "XPOS": "JJ",
+            "LEMMA": "Free",
+            "UPOS": "PROPN",
+            "XPOS": "NNP",
             "HEAD": 139,
-            "DEPREL": "amod",
+            "DEPREL": "compound",
             "DEPS": null,
             "MISC": {
               "SpaceAfter": true,
@@ -2556,7 +2559,7 @@
               "EndChar": 773
             },
             "FEATS": {
-              "Degree": "Pos"
+              "Number": "Sing"
             }
           },
           {
@@ -2583,7 +2586,7 @@
             "LEMMA": ",",
             "UPOS": "PUNCT",
             "XPOS": ",",
-            "HEAD": 137,
+            "HEAD": 136,
             "DEPREL": "punct",
             "DEPS": null,
             "MISC": {
@@ -2601,8 +2604,8 @@
             "LEMMA": "in",
             "UPOS": "ADP",
             "XPOS": "IN",
-            "HEAD": 137,
-            "DEPREL": "conj",
+            "HEAD": 146,
+            "DEPREL": "prep",
             "DEPS": null,
             "MISC": {
               "SpaceAfter": true,
@@ -2614,9 +2617,9 @@
           {
             "ID": 142,
             "FORM": "Praise",
-            "LEMMA": "Praise",
-            "UPOS": "PROPN",
-            "XPOS": "NNP",
+            "LEMMA": "praise",
+            "UPOS": "NOUN",
+            "XPOS": "NN",
             "HEAD": 141,
             "DEPREL": "pobj",
             "DEPS": null,
@@ -2669,7 +2672,7 @@
             "LEMMA": ",",
             "UPOS": "PUNCT",
             "XPOS": ",",
-            "HEAD": 141,
+            "HEAD": 146,
             "DEPREL": "punct",
             "DEPS": null,
             "MISC": {
@@ -2684,11 +2687,11 @@
           {
             "ID": 146,
             "FORM": "Handbook",
-            "LEMMA": "handbook",
-            "UPOS": "NOUN",
-            "XPOS": "NN",
-            "HEAD": 141,
-            "DEPREL": "conj",
+            "LEMMA": "Handbook",
+            "UPOS": "PROPN",
+            "XPOS": "NNP",
+            "HEAD": 159,
+            "DEPREL": "nmod",
             "DEPS": null,
             "MISC": {
               "SpaceAfter": true,
@@ -2737,9 +2740,9 @@
           {
             "ID": 149,
             "FORM": "Christian",
-            "LEMMA": "Christian",
-            "UPOS": "PROPN",
-            "XPOS": "NNP",
+            "LEMMA": "christian",
+            "UPOS": "ADJ",
+            "XPOS": "JJ",
             "HEAD": 150,
             "DEPREL": "compound",
             "DEPS": null,
@@ -2749,7 +2752,7 @@
               "EndChar": 823
             },
             "FEATS": {
-              "Number": "Sing"
+              "Degree": "Pos"
             }
           },
           {
@@ -2795,7 +2798,7 @@
             "UPOS": "ADP",
             "XPOS": "IN",
             "HEAD": 146,
-            "DEPREL": "conj",
+            "DEPREL": "prep",
             "DEPS": null,
             "MISC": {
               "SpaceAfter": true,
@@ -2807,9 +2810,9 @@
           {
             "ID": 153,
             "FORM": "Civility",
-            "LEMMA": "civility",
-            "UPOS": "NOUN",
-            "XPOS": "NN",
+            "LEMMA": "Civility",
+            "UPOS": "PROPN",
+            "XPOS": "NNP",
             "HEAD": 152,
             "DEPREL": "pobj",
             "DEPS": null,
@@ -2862,7 +2865,7 @@
             "LEMMA": ",",
             "UPOS": "PUNCT",
             "XPOS": ",",
-            "HEAD": 152,
+            "HEAD": 155,
             "DEPREL": "punct",
             "DEPS": null,
             "MISC": {
@@ -2881,7 +2884,7 @@
             "UPOS": "PROPN",
             "XPOS": "NNP",
             "HEAD": 152,
-            "DEPREL": "conj",
+            "DEPREL": "pobj",
             "DEPS": null,
             "MISC": {
               "SpaceAfter": false,
@@ -2911,11 +2914,11 @@
           {
             "ID": 159,
             "FORM": "Foundations",
-            "LEMMA": "Foundations",
-            "UPOS": "PROPN",
-            "XPOS": "NNPS",
-            "HEAD": 157,
-            "DEPREL": "appos",
+            "LEMMA": "foundation",
+            "UPOS": "NOUN",
+            "XPOS": "NNS",
+            "HEAD": 136,
+            "DEPREL": "dobj",
             "DEPS": null,
             "MISC": {
               "SpaceAfter": true,
@@ -2964,11 +2967,11 @@
           {
             "ID": 162,
             "FORM": "Abundant",
-            "LEMMA": "abundant",
-            "UPOS": "ADJ",
-            "XPOS": "JJ",
+            "LEMMA": "Abundant",
+            "UPOS": "PROPN",
+            "XPOS": "NNP",
             "HEAD": 163,
-            "DEPREL": "amod",
+            "DEPREL": "compound",
             "DEPS": null,
             "MISC": {
               "SpaceAfter": true,
@@ -2976,7 +2979,7 @@
               "EndChar": 891
             },
             "FEATS": {
-              "Degree": "Pos"
+              "Number": "Sing"
             }
           },
           {
@@ -3003,7 +3006,7 @@
             "LEMMA": "and",
             "UPOS": "CCONJ",
             "XPOS": "CC",
-            "HEAD": 157,
+            "HEAD": 159,
             "DEPREL": "cc",
             "DEPS": null,
             "MISC": {
@@ -3057,7 +3060,7 @@
             "LEMMA": "work",
             "UPOS": "NOUN",
             "XPOS": "NNS",
-            "HEAD": 157,
+            "HEAD": 159,
             "DEPREL": "conj",
             "DEPS": null,
             "MISC": {
@@ -3764,10 +3767,10 @@
             "ID": 205,
             "FORM": "within",
             "LEMMA": "within",
-            "UPOS": "ADP",
-            "XPOS": "IN",
+            "UPOS": "ADV",
+            "XPOS": "RB",
             "HEAD": 204,
-            "DEPREL": "pobj",
+            "DEPREL": "pcomp",
             "DEPS": null,
             "MISC": {
               "SpaceAfter": false,
@@ -3951,7 +3954,7 @@
             "LEMMA": ",",
             "UPOS": "PUNCT",
             "XPOS": ",",
-            "HEAD": 214,
+            "HEAD": 212,
             "DEPREL": "punct",
             "DEPS": null,
             "MISC": {
@@ -3985,7 +3988,7 @@
             "LEMMA": "some",
             "UPOS": "DET",
             "XPOS": "DT",
-            "HEAD": 218,
+            "HEAD": 220,
             "DEPREL": "det",
             "DEPS": null,
             "MISC": {
@@ -4001,8 +4004,8 @@
             "LEMMA": "Reformers",
             "UPOS": "PROPN",
             "XPOS": "NNPS",
-            "HEAD": 222,
-            "DEPREL": "nsubj",
+            "HEAD": 220,
+            "DEPREL": "nmod",
             "DEPS": null,
             "MISC": {
               "SpaceAfter": true,
@@ -4037,9 +4040,9 @@
             "FORM": "Calvinists",
             "LEMMA": "Calvinists",
             "UPOS": "PROPN",
-            "XPOS": "NNPS",
-            "HEAD": 218,
-            "DEPREL": "appos",
+            "XPOS": "NNP",
+            "HEAD": 222,
+            "DEPREL": "nsubj",
             "DEPS": null,
             "MISC": {
               "SpaceAfter": false,
@@ -4047,7 +4050,7 @@
               "EndChar": 1216
             },
             "FEATS": {
-              "Number": "Plur"
+              "Number": "Sing"
             }
           },
           {
@@ -4056,7 +4059,7 @@
             "LEMMA": ")",
             "UPOS": "PUNCT",
             "XPOS": "-RRB-",
-            "HEAD": 218,
+            "HEAD": 220,
             "DEPREL": "punct",
             "DEPS": null,
             "MISC": {
@@ -4075,7 +4078,7 @@
             "LEMMA": "reject",
             "UPOS": "VERB",
             "XPOS": "VBD",
-            "HEAD": 214,
+            "HEAD": 212,
             "DEPREL": "relcl",
             "DEPS": null,
             "MISC": {
@@ -4240,7 +4243,7 @@
             "LEMMA": "his",
             "UPOS": "PRON",
             "XPOS": "PRP$",
-            "HEAD": 239,
+            "HEAD": 234,
             "DEPREL": "poss",
             "DEPS": null,
             "MISC": {
@@ -4316,7 +4319,7 @@
             "LEMMA": "(",
             "UPOS": "PUNCT",
             "XPOS": "-LRB-",
-            "HEAD": 236,
+            "HEAD": 234,
             "DEPREL": "punct",
             "DEPS": null,
             "MISC": {
@@ -4369,7 +4372,7 @@
             "LEMMA": ")",
             "UPOS": "PUNCT",
             "XPOS": "-RRB-",
-            "HEAD": 236,
+            "HEAD": 234,
             "DEPREL": "punct",
             "DEPS": null,
             "MISC": {
@@ -4405,7 +4408,7 @@
             "FORM": "disappointed",
             "LEMMA": "disappoint",
             "UPOS": "VERB",
-            "XPOS": "VBD",
+            "XPOS": "VBN",
             "HEAD": 240,
             "DEPREL": "ROOT",
             "DEPS": null,
@@ -4415,8 +4418,9 @@
               "EndChar": 1315
             },
             "FEATS": {
+              "Aspect": "Perf",
               "Tense": "Past",
-              "VerbForm": "Fin"
+              "VerbForm": "Part"
             }
           },
           {
@@ -4476,7 +4480,7 @@
             "FORM": "angered",
             "LEMMA": "anger",
             "UPOS": "VERB",
-            "XPOS": "VBD",
+            "XPOS": "VBN",
             "HEAD": 240,
             "DEPREL": "conj",
             "DEPS": null,
@@ -4486,8 +4490,9 @@
               "EndChar": 1333
             },
             "FEATS": {
+              "Aspect": "Perf",
               "Tense": "Past",
-              "VerbForm": "Fin"
+              "VerbForm": "Part"
             }
           },
           {
@@ -4496,7 +4501,7 @@
             "LEMMA": ",",
             "UPOS": "PUNCT",
             "XPOS": ",",
-            "HEAD": 244,
+            "HEAD": 240,
             "DEPREL": "punct",
             "DEPS": null,
             "MISC": {
@@ -4514,8 +4519,8 @@
             "LEMMA": "scholar",
             "UPOS": "NOUN",
             "XPOS": "NNS",
-            "HEAD": 244,
-            "DEPREL": "dobj",
+            "HEAD": 240,
+            "DEPREL": "npadvmod",
             "DEPS": null,
             "MISC": {
               "SpaceAfter": true,
@@ -4832,7 +4837,7 @@
             "LEMMA": "and",
             "UPOS": "CCONJ",
             "XPOS": "CC",
-            "HEAD": 252,
+            "HEAD": 259,
             "DEPREL": "cc",
             "DEPS": null,
             "MISC": {
@@ -4872,7 +4877,7 @@
             "LEMMA": "bury",
             "UPOS": "VERB",
             "XPOS": "VBN",
-            "HEAD": 252,
+            "HEAD": 259,
             "DEPREL": "conj",
             "DEPS": null,
             "MISC": {
@@ -5088,16 +5093,6 @@
     "entities": [
       {
         "ID": null,
-        "surfaceForm": "Desiderius Erasmus Roterodamus",
-        "category": "PERSON",
-        "locationStart": 0,
-        "locationEnd": 30,
-        "tokenStart": 0,
-        "tokenEnd": 3,
-        "method": "spacy"
-      },
-      {
-        "ID": null,
         "surfaceForm": "Dutch",
         "category": "NORP",
         "locationStart": 34,
@@ -5118,12 +5113,52 @@
       },
       {
         "ID": null,
-        "surfaceForm": "28 October 1466 \u2013",
-        "category": "DATE",
+        "surfaceForm": "Rotterdam",
+        "category": "PERSON",
+        "locationStart": 88,
+        "locationEnd": 97,
+        "tokenStart": 15,
+        "tokenEnd": 16,
+        "method": "spacy"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "Erasmus",
+        "category": "ORG",
+        "locationStart": 101,
+        "locationEnd": 108,
+        "tokenStart": 17,
+        "tokenEnd": 18,
+        "method": "spacy"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "28",
+        "category": "CARDINAL",
         "locationStart": 110,
-        "locationEnd": 127,
+        "locationEnd": 112,
         "tokenStart": 19,
-        "tokenEnd": 23,
+        "tokenEnd": 20,
+        "method": "spacy"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "October 1466",
+        "category": "DATE",
+        "locationStart": 113,
+        "locationEnd": 125,
+        "tokenStart": 20,
+        "tokenEnd": 22,
+        "method": "spacy"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "12 July 1536",
+        "category": "DATE",
+        "locationStart": 128,
+        "locationEnd": 140,
+        "tokenStart": 23,
+        "tokenEnd": 26,
         "method": "spacy"
       },
       {
@@ -5148,6 +5183,16 @@
       },
       {
         "ID": null,
+        "surfaceForm": "Renaissance",
+        "category": "ORG",
+        "locationStart": 253,
+        "locationEnd": 264,
+        "tokenStart": 45,
+        "tokenEnd": 46,
+        "method": "spacy"
+      },
+      {
+        "ID": null,
         "surfaceForm": "Catholic",
         "category": "NORP",
         "locationStart": 271,
@@ -5164,6 +5209,16 @@
         "locationEnd": 365,
         "tokenStart": 65,
         "tokenEnd": 66,
+        "method": "spacy"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "Humanists",
+        "category": "NORP",
+        "locationStart": 432,
+        "locationEnd": 441,
+        "tokenStart": 79,
+        "tokenEnd": 80,
         "method": "spacy"
       },
       {
@@ -5199,7 +5254,7 @@
       {
         "ID": null,
         "surfaceForm": "the New Testament",
-        "category": "WORK_OF_ART",
+        "category": "ORG",
         "locationStart": 620,
         "locationEnd": 637,
         "tokenStart": 113,
@@ -5208,82 +5263,32 @@
       },
       {
         "ID": null,
-        "surfaceForm": "Protestant",
-        "category": "NORP",
-        "locationStart": 695,
-        "locationEnd": 705,
-        "tokenStart": 126,
-        "tokenEnd": 127,
+        "surfaceForm": "the Protestant Reformation",
+        "category": "LOC",
+        "locationStart": 691,
+        "locationEnd": 717,
+        "tokenStart": 125,
+        "tokenEnd": 128,
         "method": "spacy"
       },
       {
         "ID": null,
-        "surfaceForm": "Catholic",
-        "category": "NORP",
+        "surfaceForm": "Catholic Counter-Reformation",
+        "category": "ORG",
         "locationStart": 722,
-        "locationEnd": 730,
+        "locationEnd": 750,
         "tokenStart": 129,
-        "tokenEnd": 130,
+        "tokenEnd": 133,
         "method": "spacy"
       },
       {
         "ID": null,
-        "surfaceForm": "On Free Will",
-        "category": "WORK_OF_ART",
-        "locationStart": 766,
-        "locationEnd": 778,
-        "tokenStart": 137,
-        "tokenEnd": 140,
-        "method": "spacy"
-      },
-      {
-        "ID": null,
-        "surfaceForm": "In Praise of Folly",
-        "category": "WORK_OF_ART",
-        "locationStart": 780,
-        "locationEnd": 798,
-        "tokenStart": 141,
-        "tokenEnd": 145,
-        "method": "spacy"
-      },
-      {
-        "ID": null,
-        "surfaceForm": "Handbook of a Christian Knight",
-        "category": "WORK_OF_ART",
-        "locationStart": 800,
-        "locationEnd": 830,
-        "tokenStart": 146,
-        "tokenEnd": 151,
-        "method": "spacy"
-      },
-      {
-        "ID": null,
-        "surfaceForm": "On Civility in Children",
-        "category": "WORK_OF_ART",
-        "locationStart": 832,
-        "locationEnd": 855,
-        "tokenStart": 152,
-        "tokenEnd": 156,
-        "method": "spacy"
-      },
-      {
-        "ID": null,
-        "surfaceForm": "Copia: Foundations of the Abundant Style",
-        "category": "WORK_OF_ART",
-        "locationStart": 857,
-        "locationEnd": 897,
-        "tokenStart": 157,
-        "tokenEnd": 164,
-        "method": "spacy"
-      },
-      {
-        "ID": null,
-        "surfaceForm": "Erasmus",
-        "category": "PERSON",
-        "locationStart": 920,
-        "locationEnd": 927,
-        "tokenStart": 169,
-        "tokenEnd": 170,
+        "surfaceForm": "Christian",
+        "category": "NORP",
+        "locationStart": 814,
+        "locationEnd": 823,
+        "tokenStart": 149,
+        "tokenEnd": 150,
         "method": "spacy"
       },
       {
@@ -5338,16 +5343,6 @@
       },
       {
         "ID": null,
-        "surfaceForm": "Erasmus",
-        "category": "PERSON",
-        "locationStart": 1359,
-        "locationEnd": 1366,
-        "tokenStart": 251,
-        "tokenEnd": 252,
-        "method": "spacy"
-      },
-      {
-        "ID": null,
         "surfaceForm": "Basel",
         "category": "GPE",
         "locationStart": 1384,
@@ -5368,18 +5363,8 @@
       },
       {
         "ID": null,
-        "surfaceForm": "Brabant",
-        "category": "GPE",
-        "locationStart": 1427,
-        "locationEnd": 1434,
-        "tokenStart": 263,
-        "tokenEnd": 264,
-        "method": "spacy"
-      },
-      {
-        "ID": null,
         "surfaceForm": "Basel Minster",
-        "category": "FAC",
+        "category": "GPE",
         "locationStart": 1453,
         "locationEnd": 1466,
         "tokenStart": 268,
@@ -5489,7 +5474,7 @@
     ],
     "time_expressions": [
       {
-        "ID": "t3",
+        "ID": "t6",
         "category": "DATE",
         "value": "1466-10-28",
         "surfaceForm": "28 October 1466",
@@ -5498,7 +5483,7 @@
         "method": "HeidelTime"
       },
       {
-        "ID": "t8",
+        "ID": "t7",
         "category": "DATE",
         "value": "1536-07-12",
         "surfaceForm": "12 July 1536",
@@ -5507,7 +5492,7 @@
         "method": "HeidelTime"
       },
       {
-        "ID": "t11",
+        "ID": "t12",
         "category": "DATE",
         "value": "1536",
         "surfaceForm": "1536",
@@ -5520,6 +5505,8 @@
       {
         "predicateID": "0",
         "locationStart": 31,
+        "tokenStart": 3,
+        "tokenEnd": 4,
         "locationEnd": 33,
         "surfaceForm": "(;",
         "predicateLemma": "(;",
@@ -5527,6 +5514,8 @@
           {
             "argumentID": "0_ARG1",
             "surfaceForm": "Desiderius Erasmus Roterodamus",
+            "tokenStart": 0,
+            "tokenEnd": 3,
             "locationStart": 0,
             "locationEnd": 30,
             "category": "ARG1"
@@ -5534,6 +5523,8 @@
           {
             "argumentID": "0_ARG2",
             "surfaceForm": "Dutch : [ \u02ccde\u02d0zi\u02c8de\u02d0ri\u028fs e\u02c8r\u0251sm\u028fs ] ; English : Erasmus of Rotterdam or Erasmus ;",
+            "tokenStart": 4,
+            "tokenEnd": 19,
             "locationStart": 34,
             "locationEnd": 109,
             "category": "ARG2"
@@ -5544,6 +5535,8 @@
       {
         "predicateID": "1",
         "locationStart": 142,
+        "tokenStart": 27,
+        "tokenEnd": 28,
         "locationEnd": 145,
         "surfaceForm": "was",
         "predicateLemma": "be",
@@ -5551,6 +5544,8 @@
           {
             "argumentID": "1_ARG1",
             "surfaceForm": "Desiderius Erasmus Roterodamus (; Dutch : [ \u02ccde\u02d0zi\u02c8de\u02d0ri\u028fs e\u02c8r\u0251sm\u028fs ] ; English : Erasmus of Rotterdam or Erasmus ; 28 October 1466 \u2013 12 July 1536 )",
+            "tokenStart": 0,
+            "tokenEnd": 27,
             "locationStart": 0,
             "locationEnd": 141,
             "category": "ARG1"
@@ -5558,6 +5553,8 @@
           {
             "argumentID": "1_ARG2",
             "surfaceForm": "a Dutch philosopher and Catholic theologian who is considered one of the greatest scholars of the northern Renaissance",
+            "tokenStart": 28,
+            "tokenEnd": 46,
             "locationStart": 146,
             "locationEnd": 264,
             "category": "ARG2"
@@ -5568,6 +5565,8 @@
       {
         "predicateID": "3",
         "locationStart": 197,
+        "tokenStart": 36,
+        "tokenEnd": 37,
         "locationEnd": 207,
         "surfaceForm": "considered",
         "predicateLemma": "consider",
@@ -5575,6 +5574,8 @@
           {
             "argumentID": "3_ARG1",
             "surfaceForm": "one of the greatest scholars of the northern Renaissance",
+            "tokenStart": 37,
+            "tokenEnd": 46,
             "locationStart": 208,
             "locationEnd": 264,
             "category": "ARG1"
@@ -5585,6 +5586,8 @@
       {
         "predicateID": "0",
         "locationStart": 291,
+        "tokenStart": 53,
+        "tokenEnd": 54,
         "locationEnd": 294,
         "surfaceForm": "was",
         "predicateLemma": "be",
@@ -5592,6 +5595,8 @@
           {
             "argumentID": "0_ARGM-PRD",
             "surfaceForm": "As a Catholic priest",
+            "tokenStart": 47,
+            "tokenEnd": 51,
             "locationStart": 266,
             "locationEnd": 286,
             "category": "ARGM-PRD"
@@ -5599,6 +5604,8 @@
           {
             "argumentID": "0_ARG1",
             "surfaceForm": "he",
+            "tokenStart": 52,
+            "tokenEnd": 53,
             "locationStart": 288,
             "locationEnd": 290,
             "category": "ARG1"
@@ -5606,6 +5613,8 @@
           {
             "argumentID": "0_ARG2",
             "surfaceForm": "an important figure in classical scholarship who wrote in a pure Latin style",
+            "tokenStart": 54,
+            "tokenEnd": 67,
             "locationStart": 295,
             "locationEnd": 371,
             "category": "ARG2"
@@ -5616,6 +5625,8 @@
       {
         "predicateID": "1",
         "locationStart": 344,
+        "tokenStart": 61,
+        "tokenEnd": 62,
         "locationEnd": 349,
         "surfaceForm": "wrote",
         "predicateLemma": "write",
@@ -5623,6 +5634,8 @@
           {
             "argumentID": "1_ARG0",
             "surfaceForm": "an important figure in classical scholarship",
+            "tokenStart": 54,
+            "tokenEnd": 60,
             "locationStart": 295,
             "locationEnd": 339,
             "category": "ARG0"
@@ -5630,6 +5643,8 @@
           {
             "argumentID": "1_R-ARG0",
             "surfaceForm": "who",
+            "tokenStart": 60,
+            "tokenEnd": 61,
             "locationStart": 340,
             "locationEnd": 343,
             "category": "R-ARG0"
@@ -5637,6 +5652,8 @@
           {
             "argumentID": "1_ARGM-MNR",
             "surfaceForm": "in a pure Latin style",
+            "tokenStart": 62,
+            "tokenEnd": 67,
             "locationStart": 350,
             "locationEnd": 371,
             "category": "ARGM-MNR"
@@ -5647,6 +5664,8 @@
       {
         "predicateID": "1",
         "locationStart": 396,
+        "tokenStart": 72,
+        "tokenEnd": 73,
         "locationEnd": 401,
         "surfaceForm": "given",
         "predicateLemma": "give",
@@ -5654,6 +5673,8 @@
           {
             "argumentID": "1_ARGM-LOC",
             "surfaceForm": "Among humanists",
+            "tokenStart": 68,
+            "tokenEnd": 70,
             "locationStart": 373,
             "locationEnd": 388,
             "category": "ARGM-LOC"
@@ -5661,6 +5682,8 @@
           {
             "argumentID": "1_ARG2",
             "surfaceForm": "he",
+            "tokenStart": 70,
+            "tokenEnd": 71,
             "locationStart": 389,
             "locationEnd": 391,
             "category": "ARG2"
@@ -5668,6 +5691,8 @@
           {
             "argumentID": "1_ARG1",
             "surfaceForm": "the sobriquet \" Prince of the Humanists \"",
+            "tokenStart": 73,
+            "tokenEnd": 81,
             "locationStart": 402,
             "locationEnd": 443,
             "category": "ARG1"
@@ -5678,6 +5703,8 @@
       {
         "predicateID": "4",
         "locationStart": 459,
+        "tokenStart": 85,
+        "tokenEnd": 86,
         "locationEnd": 465,
         "surfaceForm": "called",
         "predicateLemma": "call",
@@ -5685,6 +5712,8 @@
           {
             "argumentID": "4_ARGM-LOC",
             "surfaceForm": "Among humanists",
+            "tokenStart": 68,
+            "tokenEnd": 70,
             "locationStart": 373,
             "locationEnd": 388,
             "category": "ARGM-LOC"
@@ -5692,6 +5721,8 @@
           {
             "argumentID": "4_ARG1",
             "surfaceForm": "he",
+            "tokenStart": 70,
+            "tokenEnd": 71,
             "locationStart": 389,
             "locationEnd": 391,
             "category": "ARG1"
@@ -5699,6 +5730,8 @@
           {
             "argumentID": "4_ARG2",
             "surfaceForm": "\" the crowning glory of the Christian humanists \"",
+            "tokenStart": 86,
+            "tokenEnd": 95,
             "locationStart": 466,
             "locationEnd": 515,
             "category": "ARG2"
@@ -5709,13 +5742,17 @@
       {
         "predicateID": "5",
         "locationStart": 472,
+        "tokenStart": 88,
+        "tokenEnd": 89,
         "locationEnd": 480,
         "surfaceForm": "crowning",
-        "predicateLemma": "crowning",
+        "predicateLemma": "crown",
         "arguments": [
           {
             "argumentID": "5_ARG0",
             "surfaceForm": "glory",
+            "tokenStart": 89,
+            "tokenEnd": 90,
             "locationStart": 481,
             "locationEnd": 486,
             "category": "ARG0"
@@ -5726,6 +5763,8 @@
       {
         "predicateID": "0",
         "locationStart": 518,
+        "tokenStart": 96,
+        "tokenEnd": 97,
         "locationEnd": 523,
         "surfaceForm": "Using",
         "predicateLemma": "use",
@@ -5733,6 +5772,8 @@
           {
             "argumentID": "0_ARG1",
             "surfaceForm": "humanist techniques",
+            "tokenStart": 97,
+            "tokenEnd": 99,
             "locationStart": 524,
             "locationEnd": 543,
             "category": "ARG1"
@@ -5740,6 +5781,8 @@
           {
             "argumentID": "0_ARG2",
             "surfaceForm": "for working on texts",
+            "tokenStart": 99,
+            "tokenEnd": 103,
             "locationStart": 544,
             "locationEnd": 564,
             "category": "ARG2"
@@ -5747,6 +5790,8 @@
           {
             "argumentID": "0_ARG0",
             "surfaceForm": "he",
+            "tokenStart": 104,
+            "tokenEnd": 105,
             "locationStart": 566,
             "locationEnd": 568,
             "category": "ARG0"
@@ -5757,6 +5802,8 @@
       {
         "predicateID": "1",
         "locationStart": 548,
+        "tokenStart": 100,
+        "tokenEnd": 101,
         "locationEnd": 555,
         "surfaceForm": "working",
         "predicateLemma": "work",
@@ -5764,6 +5811,8 @@
           {
             "argumentID": "1_ARG1",
             "surfaceForm": "on texts",
+            "tokenStart": 101,
+            "tokenEnd": 103,
             "locationStart": 556,
             "locationEnd": 564,
             "category": "ARG1"
@@ -5774,6 +5823,8 @@
       {
         "predicateID": "2",
         "locationStart": 569,
+        "tokenStart": 105,
+        "tokenEnd": 106,
         "locationEnd": 577,
         "surfaceForm": "prepared",
         "predicateLemma": "prepare",
@@ -5781,6 +5832,8 @@
           {
             "argumentID": "2_R-ARG0",
             "surfaceForm": "Using humanist techniques for working on texts",
+            "tokenStart": 96,
+            "tokenEnd": 103,
             "locationStart": 518,
             "locationEnd": 564,
             "category": "R-ARG0"
@@ -5788,6 +5841,8 @@
           {
             "argumentID": "2_ARG0",
             "surfaceForm": "he",
+            "tokenStart": 104,
+            "tokenEnd": 105,
             "locationStart": 566,
             "locationEnd": 568,
             "category": "ARG0"
@@ -5795,6 +5850,8 @@
           {
             "argumentID": "2_ARG1",
             "surfaceForm": "important new Latin and Greek editions of the New Testament , which raised questions that would be influential in the Protestant Reformation and Catholic Counter - Reformation",
+            "tokenStart": 106,
+            "tokenEnd": 133,
             "locationStart": 578,
             "locationEnd": 750,
             "category": "ARG1"
@@ -5805,6 +5862,8 @@
       {
         "predicateID": "3",
         "locationStart": 645,
+        "tokenStart": 118,
+        "tokenEnd": 119,
         "locationEnd": 651,
         "surfaceForm": "raised",
         "predicateLemma": "raise",
@@ -5812,6 +5871,8 @@
           {
             "argumentID": "3_ARG0",
             "surfaceForm": "important new Latin and Greek editions of the New Testament",
+            "tokenStart": 106,
+            "tokenEnd": 116,
             "locationStart": 578,
             "locationEnd": 637,
             "category": "ARG0"
@@ -5819,6 +5880,8 @@
           {
             "argumentID": "3_R-ARG0",
             "surfaceForm": "which",
+            "tokenStart": 117,
+            "tokenEnd": 118,
             "locationStart": 639,
             "locationEnd": 644,
             "category": "R-ARG0"
@@ -5826,6 +5889,8 @@
           {
             "argumentID": "3_ARG1",
             "surfaceForm": "questions that would be influential in the Protestant Reformation and Catholic Counter - Reformation",
+            "tokenStart": 119,
+            "tokenEnd": 133,
             "locationStart": 652,
             "locationEnd": 750,
             "category": "ARG1"
@@ -5836,6 +5901,8 @@
       {
         "predicateID": "5",
         "locationStart": 673,
+        "tokenStart": 122,
+        "tokenEnd": 123,
         "locationEnd": 675,
         "surfaceForm": "be",
         "predicateLemma": "be",
@@ -5843,6 +5910,8 @@
           {
             "argumentID": "5_ARG1",
             "surfaceForm": "questions",
+            "tokenStart": 119,
+            "tokenEnd": 120,
             "locationStart": 652,
             "locationEnd": 661,
             "category": "ARG1"
@@ -5850,6 +5919,8 @@
           {
             "argumentID": "5_R-ARG1",
             "surfaceForm": "that",
+            "tokenStart": 120,
+            "tokenEnd": 121,
             "locationStart": 662,
             "locationEnd": 666,
             "category": "R-ARG1"
@@ -5857,6 +5928,8 @@
           {
             "argumentID": "5_ARGM-MOD",
             "surfaceForm": "would",
+            "tokenStart": 121,
+            "tokenEnd": 122,
             "locationStart": 667,
             "locationEnd": 672,
             "category": "ARGM-MOD"
@@ -5864,6 +5937,8 @@
           {
             "argumentID": "5_ARG2",
             "surfaceForm": "influential in the Protestant Reformation and Catholic Counter - Reformation",
+            "tokenStart": 123,
+            "tokenEnd": 133,
             "locationStart": 676,
             "locationEnd": 750,
             "category": "ARG2"
@@ -5874,6 +5949,8 @@
       {
         "predicateID": "0",
         "locationStart": 760,
+        "tokenStart": 136,
+        "tokenEnd": 137,
         "locationEnd": 765,
         "surfaceForm": "wrote",
         "predicateLemma": "write",
@@ -5881,6 +5958,8 @@
           {
             "argumentID": "0_ARG0",
             "surfaceForm": "He",
+            "tokenStart": 134,
+            "tokenEnd": 135,
             "locationStart": 752,
             "locationEnd": 754,
             "category": "ARG0"
@@ -5888,6 +5967,8 @@
           {
             "argumentID": "0_ARGM-ADV",
             "surfaceForm": "also",
+            "tokenStart": 135,
+            "tokenEnd": 136,
             "locationStart": 755,
             "locationEnd": 759,
             "category": "ARGM-ADV"
@@ -5895,6 +5976,8 @@
           {
             "argumentID": "0_ARG1",
             "surfaceForm": "On Free Will",
+            "tokenStart": 137,
+            "tokenEnd": 140,
             "locationStart": 766,
             "locationEnd": 778,
             "category": "ARG1"
@@ -5902,6 +5985,8 @@
           {
             "argumentID": "0_ARGM-LOC",
             "surfaceForm": "In Praise of Folly , Handbook of a Christian Knight",
+            "tokenStart": 141,
+            "tokenEnd": 151,
             "locationStart": 780,
             "locationEnd": 830,
             "category": "ARGM-LOC"
@@ -5909,6 +5994,8 @@
           {
             "argumentID": "0_ARG1",
             "surfaceForm": ", On Civility in Children , Copia : Foundations of the Abundant Style and many other works",
+            "tokenStart": 151,
+            "tokenEnd": 168,
             "locationStart": 830,
             "locationEnd": 918,
             "category": "ARG1"
@@ -5919,6 +6006,8 @@
       {
         "predicateID": "0",
         "locationStart": 928,
+        "tokenStart": 170,
+        "tokenEnd": 171,
         "locationEnd": 933,
         "surfaceForm": "lived",
         "predicateLemma": "live",
@@ -5926,6 +6015,8 @@
           {
             "argumentID": "0_ARG0",
             "surfaceForm": "Erasmus",
+            "tokenStart": 169,
+            "tokenEnd": 170,
             "locationStart": 920,
             "locationEnd": 927,
             "category": "ARG0"
@@ -5933,6 +6024,8 @@
           {
             "argumentID": "0_ARGM-LOC",
             "surfaceForm": "against the backdrop of the growing European religious Reformation",
+            "tokenStart": 171,
+            "tokenEnd": 180,
             "locationStart": 934,
             "locationEnd": 1000,
             "category": "ARGM-LOC"
@@ -5943,6 +6036,8 @@
       {
         "predicateID": "1",
         "locationStart": 962,
+        "tokenStart": 176,
+        "tokenEnd": 177,
         "locationEnd": 969,
         "surfaceForm": "growing",
         "predicateLemma": "grow",
@@ -5950,6 +6045,8 @@
           {
             "argumentID": "1_ARG1",
             "surfaceForm": "European religious Reformation",
+            "tokenStart": 177,
+            "tokenEnd": 180,
             "locationStart": 970,
             "locationEnd": 1000,
             "category": "ARG1"
@@ -5960,6 +6057,8 @@
       {
         "predicateID": "0",
         "locationStart": 1005,
+        "tokenStart": 182,
+        "tokenEnd": 183,
         "locationEnd": 1013,
         "surfaceForm": "remained",
         "predicateLemma": "remain",
@@ -5967,6 +6066,8 @@
           {
             "argumentID": "0_ARG1",
             "surfaceForm": "He",
+            "tokenStart": 181,
+            "tokenEnd": 182,
             "locationStart": 1002,
             "locationEnd": 1004,
             "category": "ARG1"
@@ -5974,6 +6075,8 @@
           {
             "argumentID": "0_ARG3",
             "surfaceForm": "a member of the Catholic Church",
+            "tokenStart": 183,
+            "tokenEnd": 189,
             "locationStart": 1014,
             "locationEnd": 1045,
             "category": "ARG3"
@@ -5981,6 +6084,8 @@
           {
             "argumentID": "0_ARGM-TMP",
             "surfaceForm": "all his life",
+            "tokenStart": 189,
+            "tokenEnd": 192,
             "locationStart": 1046,
             "locationEnd": 1058,
             "category": "ARGM-TMP"
@@ -5988,6 +6093,8 @@
           {
             "argumentID": "0_ARGM-ADV",
             "surfaceForm": "remaining committed to reforming the Church and its clerics ' abuses from within",
+            "tokenStart": 193,
+            "tokenEnd": 206,
             "locationStart": 1060,
             "locationEnd": 1139,
             "category": "ARGM-ADV"
@@ -5998,6 +6105,8 @@
       {
         "predicateID": "1",
         "locationStart": 1060,
+        "tokenStart": 193,
+        "tokenEnd": 194,
         "locationEnd": 1069,
         "surfaceForm": "remaining",
         "predicateLemma": "remain",
@@ -6005,6 +6114,8 @@
           {
             "argumentID": "1_ARG1",
             "surfaceForm": "He",
+            "tokenStart": 181,
+            "tokenEnd": 182,
             "locationStart": 1002,
             "locationEnd": 1004,
             "category": "ARG1"
@@ -6012,6 +6123,8 @@
           {
             "argumentID": "1_ARG3",
             "surfaceForm": "committed to reforming the Church and its clerics ' abuses from within",
+            "tokenStart": 194,
+            "tokenEnd": 206,
             "locationStart": 1070,
             "locationEnd": 1139,
             "category": "ARG3"
@@ -6022,6 +6135,8 @@
       {
         "predicateID": "2",
         "locationStart": 1083,
+        "tokenStart": 196,
+        "tokenEnd": 197,
         "locationEnd": 1092,
         "surfaceForm": "reforming",
         "predicateLemma": "reform",
@@ -6029,6 +6144,8 @@
           {
             "argumentID": "2_ARG0",
             "surfaceForm": "He",
+            "tokenStart": 181,
+            "tokenEnd": 182,
             "locationStart": 1002,
             "locationEnd": 1004,
             "category": "ARG0"
@@ -6036,6 +6153,8 @@
           {
             "argumentID": "2_ARG1",
             "surfaceForm": "the Church and its clerics ' abuses from within",
+            "tokenStart": 197,
+            "tokenEnd": 206,
             "locationStart": 1093,
             "locationEnd": 1139,
             "category": "ARG1"
@@ -6046,6 +6165,8 @@
       {
         "predicateID": "0",
         "locationStart": 1149,
+        "tokenStart": 209,
+        "tokenEnd": 210,
         "locationEnd": 1153,
         "surfaceForm": "held",
         "predicateLemma": "hold",
@@ -6053,6 +6174,8 @@
           {
             "argumentID": "0_ARG0",
             "surfaceForm": "He",
+            "tokenStart": 207,
+            "tokenEnd": 208,
             "locationStart": 1141,
             "locationEnd": 1143,
             "category": "ARG0"
@@ -6060,6 +6183,8 @@
           {
             "argumentID": "0_ARGM-ADV",
             "surfaceForm": "also",
+            "tokenStart": 208,
+            "tokenEnd": 209,
             "locationStart": 1144,
             "locationEnd": 1148,
             "category": "ARGM-ADV"
@@ -6067,6 +6192,8 @@
           {
             "argumentID": "0_ARG1",
             "surfaceForm": "to the doctrine of synergism , which some Reformers ( Calvinists ) rejected in favor of the doctrine of monergism",
+            "tokenStart": 210,
+            "tokenEnd": 230,
             "locationStart": 1154,
             "locationEnd": 1264,
             "category": "ARG1"
@@ -6077,6 +6204,8 @@
       {
         "predicateID": "1",
         "locationStart": 1218,
+        "tokenStart": 222,
+        "tokenEnd": 223,
         "locationEnd": 1226,
         "surfaceForm": "rejected",
         "predicateLemma": "reject",
@@ -6084,6 +6213,8 @@
           {
             "argumentID": "1_ARG1",
             "surfaceForm": "the doctrine of synergism",
+            "tokenStart": 211,
+            "tokenEnd": 215,
             "locationStart": 1157,
             "locationEnd": 1182,
             "category": "ARG1"
@@ -6091,6 +6222,8 @@
           {
             "argumentID": "1_R-ARG1",
             "surfaceForm": "which",
+            "tokenStart": 216,
+            "tokenEnd": 217,
             "locationStart": 1184,
             "locationEnd": 1189,
             "category": "R-ARG1"
@@ -6098,6 +6231,8 @@
           {
             "argumentID": "1_ARG0",
             "surfaceForm": "some Reformers ( Calvinists )",
+            "tokenStart": 217,
+            "tokenEnd": 222,
             "locationStart": 1190,
             "locationEnd": 1217,
             "category": "ARG0"
@@ -6105,6 +6240,8 @@
           {
             "argumentID": "1_ARGM-PRD",
             "surfaceForm": "in favor of the doctrine of monergism",
+            "tokenStart": 223,
+            "tokenEnd": 230,
             "locationStart": 1227,
             "locationEnd": 1264,
             "category": "ARGM-PRD"
@@ -6115,6 +6252,8 @@
       {
         "predicateID": "0",
         "locationStart": 1303,
+        "tokenStart": 240,
+        "tokenEnd": 241,
         "locationEnd": 1315,
         "surfaceForm": "disappointed",
         "predicateLemma": "disappoint",
@@ -6122,6 +6261,8 @@
           {
             "argumentID": "0_ARG0",
             "surfaceForm": "His middle - road ( via media ) approach",
+            "tokenStart": 231,
+            "tokenEnd": 240,
             "locationStart": 1266,
             "locationEnd": 1302,
             "category": "ARG0"
@@ -6129,6 +6270,8 @@
           {
             "argumentID": "0_ARG1",
             "surfaceForm": "scholars in both camps",
+            "tokenStart": 246,
+            "tokenEnd": 250,
             "locationStart": 1335,
             "locationEnd": 1357,
             "category": "ARG1"
@@ -6139,6 +6282,8 @@
       {
         "predicateID": "1",
         "locationStart": 1326,
+        "tokenStart": 244,
+        "tokenEnd": 245,
         "locationEnd": 1333,
         "surfaceForm": "angered",
         "predicateLemma": "anger",
@@ -6146,6 +6291,8 @@
           {
             "argumentID": "1_ARG0",
             "surfaceForm": "His middle - road ( via media ) approach",
+            "tokenStart": 231,
+            "tokenEnd": 240,
             "locationStart": 1266,
             "locationEnd": 1302,
             "category": "ARG0"
@@ -6153,6 +6300,8 @@
           {
             "argumentID": "1_ARGM-ADV",
             "surfaceForm": "even",
+            "tokenStart": 243,
+            "tokenEnd": 244,
             "locationStart": 1321,
             "locationEnd": 1325,
             "category": "ARGM-ADV"
@@ -6160,6 +6309,8 @@
           {
             "argumentID": "1_ARG1",
             "surfaceForm": "scholars in both camps",
+            "tokenStart": 246,
+            "tokenEnd": 250,
             "locationStart": 1335,
             "locationEnd": 1357,
             "category": "ARG1"
@@ -6170,6 +6321,8 @@
       {
         "predicateID": "0",
         "locationStart": 1367,
+        "tokenStart": 252,
+        "tokenEnd": 253,
         "locationEnd": 1371,
         "surfaceForm": "died",
         "predicateLemma": "die",
@@ -6177,6 +6330,8 @@
           {
             "argumentID": "0_ARG1",
             "surfaceForm": "Erasmus",
+            "tokenStart": 251,
+            "tokenEnd": 252,
             "locationStart": 1359,
             "locationEnd": 1366,
             "category": "ARG1"
@@ -6184,6 +6339,8 @@
           {
             "argumentID": "0_ARGM-MNR",
             "surfaceForm": "suddenly",
+            "tokenStart": 253,
+            "tokenEnd": 254,
             "locationStart": 1372,
             "locationEnd": 1380,
             "category": "ARGM-MNR"
@@ -6191,6 +6348,8 @@
           {
             "argumentID": "0_ARGM-LOC",
             "surfaceForm": "in Basel",
+            "tokenStart": 254,
+            "tokenEnd": 256,
             "locationStart": 1381,
             "locationEnd": 1389,
             "category": "ARGM-LOC"
@@ -6198,6 +6357,8 @@
           {
             "argumentID": "0_ARGM-TMP",
             "surfaceForm": "in 1536",
+            "tokenStart": 256,
+            "tokenEnd": 258,
             "locationStart": 1390,
             "locationEnd": 1397,
             "category": "ARGM-TMP"
@@ -6205,6 +6366,8 @@
           {
             "argumentID": "0_ARGM-TMP",
             "surfaceForm": "while preparing to return to Brabant",
+            "tokenStart": 258,
+            "tokenEnd": 264,
             "locationStart": 1398,
             "locationEnd": 1434,
             "category": "ARGM-TMP"
@@ -6215,6 +6378,8 @@
       {
         "predicateID": "1",
         "locationStart": 1404,
+        "tokenStart": 259,
+        "tokenEnd": 260,
         "locationEnd": 1413,
         "surfaceForm": "preparing",
         "predicateLemma": "prepare",
@@ -6222,6 +6387,8 @@
           {
             "argumentID": "1_ARG0",
             "surfaceForm": "Erasmus",
+            "tokenStart": 251,
+            "tokenEnd": 252,
             "locationStart": 1359,
             "locationEnd": 1366,
             "category": "ARG0"
@@ -6229,6 +6396,8 @@
           {
             "argumentID": "1_ARG2",
             "surfaceForm": "to return to Brabant",
+            "tokenStart": 260,
+            "tokenEnd": 264,
             "locationStart": 1414,
             "locationEnd": 1434,
             "category": "ARG2"
@@ -6239,6 +6408,8 @@
       {
         "predicateID": "2",
         "locationStart": 1417,
+        "tokenStart": 261,
+        "tokenEnd": 262,
         "locationEnd": 1423,
         "surfaceForm": "return",
         "predicateLemma": "return",
@@ -6246,6 +6417,8 @@
           {
             "argumentID": "2_ARG1",
             "surfaceForm": "Erasmus",
+            "tokenStart": 251,
+            "tokenEnd": 252,
             "locationStart": 1359,
             "locationEnd": 1366,
             "category": "ARG1"
@@ -6253,6 +6426,8 @@
           {
             "argumentID": "2_ARG4",
             "surfaceForm": "to Brabant",
+            "tokenStart": 262,
+            "tokenEnd": 264,
             "locationStart": 1424,
             "locationEnd": 1434,
             "category": "ARG4"
@@ -6263,6 +6438,8 @@
       {
         "predicateID": "4",
         "locationStart": 1443,
+        "tokenStart": 266,
+        "tokenEnd": 267,
         "locationEnd": 1449,
         "surfaceForm": "buried",
         "predicateLemma": "bury",
@@ -6270,6 +6447,8 @@
           {
             "argumentID": "4_ARG1",
             "surfaceForm": "Erasmus",
+            "tokenStart": 251,
+            "tokenEnd": 252,
             "locationStart": 1359,
             "locationEnd": 1366,
             "category": "ARG1"
@@ -6277,6 +6456,8 @@
           {
             "argumentID": "4_ARG2",
             "surfaceForm": "in Basel Minster , the former cathedral of the city",
+            "tokenStart": 267,
+            "tokenEnd": 277,
             "locationStart": 1450,
             "locationEnd": 1500,
             "category": "ARG2"
@@ -6284,6 +6465,158 @@
         ],
         "method": "allennlp_2.9.0"
       }
-    ]
+    ],
+    "coreference": {
+      "0": [
+        {
+          "ID": "0_0",
+          "surfaceForm": "Desiderius Erasmus Roterodamus",
+          "locationStart": 0,
+          "locationEnd": 30,
+          "tokenStart": 0,
+          "tokenEnd": 3,
+          "method": "allennlp_2.9.0"
+        },
+        {
+          "ID": "0_1",
+          "surfaceForm": "he",
+          "locationStart": 288,
+          "locationEnd": 290,
+          "tokenStart": 52,
+          "tokenEnd": 53,
+          "method": "allennlp_2.9.0"
+        },
+        {
+          "ID": "0_2",
+          "surfaceForm": "he",
+          "locationStart": 389,
+          "locationEnd": 391,
+          "tokenStart": 70,
+          "tokenEnd": 71,
+          "method": "allennlp_2.9.0"
+        },
+        {
+          "ID": "0_3",
+          "surfaceForm": "he",
+          "locationStart": 566,
+          "locationEnd": 568,
+          "tokenStart": 104,
+          "tokenEnd": 105,
+          "method": "allennlp_2.9.0"
+        },
+        {
+          "ID": "0_4",
+          "surfaceForm": "He",
+          "locationStart": 752,
+          "locationEnd": 754,
+          "tokenStart": 134,
+          "tokenEnd": 135,
+          "method": "allennlp_2.9.0"
+        },
+        {
+          "ID": "0_5",
+          "surfaceForm": "Erasmus",
+          "locationStart": 920,
+          "locationEnd": 927,
+          "tokenStart": 169,
+          "tokenEnd": 170,
+          "method": "allennlp_2.9.0"
+        },
+        {
+          "ID": "0_6",
+          "surfaceForm": "He",
+          "locationStart": 1002,
+          "locationEnd": 1004,
+          "tokenStart": 181,
+          "tokenEnd": 182,
+          "method": "allennlp_2.9.0"
+        },
+        {
+          "ID": "0_7",
+          "surfaceForm": "his",
+          "locationStart": 1050,
+          "locationEnd": 1053,
+          "tokenStart": 190,
+          "tokenEnd": 191,
+          "method": "allennlp_2.9.0"
+        },
+        {
+          "ID": "0_8",
+          "surfaceForm": "He",
+          "locationStart": 1141,
+          "locationEnd": 1143,
+          "tokenStart": 207,
+          "tokenEnd": 208,
+          "method": "allennlp_2.9.0"
+        },
+        {
+          "ID": "0_9",
+          "surfaceForm": "His",
+          "locationStart": 1266,
+          "locationEnd": 1269,
+          "tokenStart": 231,
+          "tokenEnd": 232,
+          "method": "allennlp_2.9.0"
+        },
+        {
+          "ID": "0_10",
+          "surfaceForm": "Erasmus",
+          "locationStart": 1359,
+          "locationEnd": 1366,
+          "tokenStart": 251,
+          "tokenEnd": 252,
+          "method": "allennlp_2.9.0"
+        }
+      ],
+      "1": [
+        {
+          "ID": "1_0",
+          "surfaceForm": "the Catholic Church",
+          "locationStart": 1026,
+          "locationEnd": 1045,
+          "tokenStart": 186,
+          "tokenEnd": 189,
+          "method": "allennlp_2.9.0"
+        },
+        {
+          "ID": "1_1",
+          "surfaceForm": "the Church",
+          "locationStart": 1093,
+          "locationEnd": 1103,
+          "tokenStart": 197,
+          "tokenEnd": 199,
+          "method": "allennlp_2.9.0"
+        },
+        {
+          "ID": "1_2",
+          "surfaceForm": "its",
+          "locationStart": 1108,
+          "locationEnd": 1111,
+          "tokenStart": 200,
+          "tokenEnd": 201,
+          "method": "allennlp_2.9.0"
+        }
+      ],
+      "2": [
+        {
+          "ID": "2_0",
+          "surfaceForm": "Basel",
+          "locationStart": 1384,
+          "locationEnd": 1389,
+          "tokenStart": 255,
+          "tokenEnd": 256,
+          "method": "allennlp_2.9.0"
+        },
+        {
+          "ID": "2_1",
+          "surfaceForm": "the city",
+          "locationStart": 1492,
+          "locationEnd": 1500,
+          "tokenStart": 275,
+          "tokenEnd": 277,
+          "method": "allennlp_2.9.0"
+        }
+      ]
+    }
   }
 }

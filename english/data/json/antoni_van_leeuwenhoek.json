@@ -14,7 +14,7 @@
             "LEMMA": "Antonie",
             "UPOS": "PROPN",
             "XPOS": "NNP",
-            "HEAD": 3,
+            "HEAD": 1,
             "DEPREL": "compound",
             "DEPS": null,
             "MISC": {
@@ -105,8 +105,8 @@
             "LEMMA": "AHN",
             "UPOS": "PROPN",
             "XPOS": "NNP",
-            "HEAD": 3,
-            "DEPREL": "appos",
+            "HEAD": 10,
+            "DEPREL": "nmod",
             "DEPS": null,
             "MISC": {
               "SpaceAfter": false,
@@ -121,10 +121,10 @@
             "ID": 6,
             "FORM": "-",
             "LEMMA": "-",
-            "UPOS": "X",
-            "XPOS": "FW",
-            "HEAD": 3,
-            "DEPREL": "appos",
+            "UPOS": "PUNCT",
+            "XPOS": "HYPH",
+            "HEAD": 5,
+            "DEPREL": "punct",
             "DEPS": null,
             "MISC": {
               "SpaceAfter": false,
@@ -132,16 +132,16 @@
               "EndChar": 38
             },
             "FEATS": {
-              "Foreign": "Yes"
+              "PunctType": "Dash"
             }
           },
           {
             "ID": 7,
             "FORM": "t\u0259",
             "LEMMA": "t\u0259",
-            "UPOS": "X",
-            "XPOS": "FW",
-            "HEAD": 15,
+            "UPOS": "PROPN",
+            "XPOS": "NNP",
+            "HEAD": 9,
             "DEPREL": "compound",
             "DEPS": null,
             "MISC": {
@@ -150,7 +150,7 @@
               "EndChar": 40
             },
             "FEATS": {
-              "Foreign": "Yes"
+              "Number": "Sing"
             }
           },
           {
@@ -159,7 +159,7 @@
             "LEMMA": "-",
             "UPOS": "PUNCT",
             "XPOS": "HYPH",
-            "HEAD": 15,
+            "HEAD": 9,
             "DEPREL": "punct",
             "DEPS": null,
             "MISC": {
@@ -175,10 +175,10 @@
             "ID": 9,
             "FORM": "nee",
             "LEMMA": "nee",
-            "UPOS": "X",
-            "XPOS": "FW",
-            "HEAD": 15,
-            "DEPREL": "compound",
+            "UPOS": "NOUN",
+            "XPOS": "NN",
+            "HEAD": 5,
+            "DEPREL": "appos",
             "DEPS": null,
             "MISC": {
               "SpaceAfter": true,
@@ -186,16 +186,16 @@
               "EndChar": 44
             },
             "FEATS": {
-              "Foreign": "Yes"
+              "Number": "Sing"
             }
           },
           {
             "ID": 10,
             "FORM": "vahn",
             "LEMMA": "vahn",
-            "UPOS": "X",
-            "XPOS": "FW",
-            "HEAD": 15,
+            "UPOS": "NOUN",
+            "XPOS": "NN",
+            "HEAD": 11,
             "DEPREL": "compound",
             "DEPS": null,
             "MISC": {
@@ -204,7 +204,7 @@
               "EndChar": 49
             },
             "FEATS": {
-              "Foreign": "Yes"
+              "Number": "Sing"
             }
           },
           {
@@ -213,8 +213,8 @@
             "LEMMA": "LAY",
             "UPOS": "PROPN",
             "XPOS": "NNP",
-            "HEAD": 15,
-            "DEPREL": "compound",
+            "HEAD": 3,
+            "DEPREL": "appos",
             "DEPS": null,
             "MISC": {
               "SpaceAfter": false,
@@ -229,9 +229,9 @@
             "ID": 12,
             "FORM": "-",
             "LEMMA": "-",
-            "UPOS": "X",
-            "XPOS": "FW",
-            "HEAD": 15,
+            "UPOS": "PUNCT",
+            "XPOS": "HYPH",
+            "HEAD": 13,
             "DEPREL": "punct",
             "DEPS": null,
             "MISC": {
@@ -240,17 +240,17 @@
               "EndChar": 54
             },
             "FEATS": {
-              "Foreign": "Yes"
+              "PunctType": "Dash"
             }
           },
           {
             "ID": 13,
             "FORM": "v\u0259n",
             "LEMMA": "v\u0259n",
-            "UPOS": "X",
-            "XPOS": "FW",
-            "HEAD": 15,
-            "DEPREL": "compound",
+            "UPOS": "NOUN",
+            "XPOS": "NN",
+            "HEAD": 11,
+            "DEPREL": "prep",
             "DEPS": null,
             "MISC": {
               "SpaceAfter": false,
@@ -258,7 +258,7 @@
               "EndChar": 57
             },
             "FEATS": {
-              "Foreign": "Yes"
+              "Number": "Sing"
             }
           },
           {
@@ -267,7 +267,7 @@
             "LEMMA": "-",
             "UPOS": "PUNCT",
             "XPOS": "HYPH",
-            "HEAD": 15,
+            "HEAD": 13,
             "DEPREL": "punct",
             "DEPS": null,
             "MISC": {
@@ -283,10 +283,10 @@
             "ID": 15,
             "FORM": "hook",
             "LEMMA": "hook",
-            "UPOS": "PROPN",
-            "XPOS": "NNP",
-            "HEAD": 3,
-            "DEPREL": "appos",
+            "UPOS": "NOUN",
+            "XPOS": "NN",
+            "HEAD": 13,
+            "DEPREL": "pobj",
             "DEPS": null,
             "MISC": {
               "SpaceAfter": false,
@@ -303,7 +303,7 @@
             "LEMMA": ",",
             "UPOS": "PUNCT",
             "XPOS": ",",
-            "HEAD": 15,
+            "HEAD": 3,
             "DEPREL": "punct",
             "DEPS": null,
             "MISC": {
@@ -319,19 +319,17 @@
             "ID": 17,
             "FORM": "-\u2060huuk",
             "LEMMA": "-\u2060huuk",
-            "UPOS": "X",
-            "XPOS": "FW",
+            "UPOS": "INTJ",
+            "XPOS": "UH",
             "HEAD": 3,
-            "DEPREL": "appos",
+            "DEPREL": "intj",
             "DEPS": null,
             "MISC": {
               "SpaceAfter": false,
               "StartChar": 64,
               "EndChar": 70
             },
-            "FEATS": {
-              "Foreign": "Yes"
-            }
+            "FEATS": {}
           },
           {
             "ID": 18,
@@ -388,27 +386,25 @@
             "FORM": "[",
             "LEMMA": "[",
             "UPOS": "X",
-            "XPOS": "FW",
-            "HEAD": 19,
-            "DEPREL": "appos",
+            "XPOS": "XX",
+            "HEAD": 22,
+            "DEPREL": "punct",
             "DEPS": null,
             "MISC": {
               "SpaceAfter": false,
               "StartChar": 79,
               "EndChar": 80
             },
-            "FEATS": {
-              "Foreign": "Yes"
-            }
+            "FEATS": {}
           },
           {
             "ID": 22,
             "FORM": "\u02c8\u0251nto\u02d0ni",
             "LEMMA": "\u02c8\u0251nto\u02d0ni",
-            "UPOS": "X",
-            "XPOS": "FW",
-            "HEAD": 19,
-            "DEPREL": "nmod",
+            "UPOS": "VERB",
+            "XPOS": "VB",
+            "HEAD": 3,
+            "DEPREL": "appos",
             "DEPS": null,
             "MISC": {
               "SpaceAfter": true,
@@ -416,17 +412,17 @@
               "EndChar": 88
             },
             "FEATS": {
-              "Foreign": "Yes"
+              "VerbForm": "Inf"
             }
           },
           {
             "ID": 23,
             "FORM": "v\u0251n",
             "LEMMA": "v\u0251n",
-            "UPOS": "X",
-            "XPOS": "FW",
+            "UPOS": "NOUN",
+            "XPOS": "NN",
             "HEAD": 22,
-            "DEPREL": "appos",
+            "DEPREL": "dobj",
             "DEPS": null,
             "MISC": {
               "SpaceAfter": true,
@@ -434,7 +430,7 @@
               "EndChar": 92
             },
             "FEATS": {
-              "Foreign": "Yes"
+              "Number": "Sing"
             }
           },
           {
@@ -442,27 +438,25 @@
             "FORM": "\u02c8le\u02d0u\u0259(n)\u02cc\u0266uk",
             "LEMMA": "\u02c8le\u02d0u\u0259(n)\u02cc\u0266uk",
             "UPOS": "X",
-            "XPOS": "FW",
-            "HEAD": 22,
-            "DEPREL": "appos",
+            "XPOS": "ADD",
+            "HEAD": 23,
+            "DEPREL": "nummod",
             "DEPS": null,
             "MISC": {
               "SpaceAfter": false,
               "StartChar": 93,
               "EndChar": 106
             },
-            "FEATS": {
-              "Foreign": "Yes"
-            }
+            "FEATS": {}
           },
           {
             "ID": 25,
             "FORM": "]",
             "LEMMA": "]",
-            "UPOS": "X",
-            "XPOS": "FW",
-            "HEAD": 22,
-            "DEPREL": "appos",
+            "UPOS": "PUNCT",
+            "XPOS": "-RRB-",
+            "HEAD": 23,
+            "DEPREL": "punct",
             "DEPS": null,
             "MISC": {
               "SpaceAfter": true,
@@ -470,7 +464,8 @@
               "EndChar": 107
             },
             "FEATS": {
-              "Foreign": "Yes"
+              "PunctSide": "Fin",
+              "PunctType": "Brck"
             }
           },
           {
@@ -498,7 +493,7 @@
             "LEMMA": "listen",
             "UPOS": "VERB",
             "XPOS": "VB",
-            "HEAD": 22,
+            "HEAD": 23,
             "DEPREL": "appos",
             "DEPS": null,
             "MISC": {
@@ -515,7 +510,7 @@
             "FORM": ")",
             "LEMMA": ")",
             "UPOS": "PUNCT",
-            "XPOS": ":",
+            "XPOS": "-RRB-",
             "HEAD": 27,
             "DEPREL": "punct",
             "DEPS": null,
@@ -524,7 +519,10 @@
               "StartChar": 115,
               "EndChar": 116
             },
-            "FEATS": {}
+            "FEATS": {
+              "PunctSide": "Fin",
+              "PunctType": "Brck"
+            }
           },
           {
             "ID": 29,
@@ -601,8 +599,8 @@
             "FORM": "\u2013",
             "LEMMA": "\u2013",
             "UPOS": "PUNCT",
-            "XPOS": "``",
-            "HEAD": 3,
+            "XPOS": ":",
+            "HEAD": 31,
             "DEPREL": "punct",
             "DEPS": null,
             "MISC": {
@@ -610,10 +608,7 @@
               "StartChar": 134,
               "EndChar": 135
             },
-            "FEATS": {
-              "PunctSide": "Ini",
-              "PunctType": "Quot"
-            }
+            "FEATS": {}
           },
           {
             "ID": 34,
@@ -621,7 +616,7 @@
             "LEMMA": "26",
             "UPOS": "NUM",
             "XPOS": "CD",
-            "HEAD": 35,
+            "HEAD": 31,
             "DEPREL": "nummod",
             "DEPS": null,
             "MISC": {
@@ -639,7 +634,7 @@
             "LEMMA": "August",
             "UPOS": "PROPN",
             "XPOS": "NNP",
-            "HEAD": 33,
+            "HEAD": 31,
             "DEPREL": "npadvmod",
             "DEPS": null,
             "MISC": {
@@ -675,7 +670,7 @@
             "LEMMA": ")",
             "UPOS": "PUNCT",
             "XPOS": "-RRB-",
-            "HEAD": 3,
+            "HEAD": 31,
             "DEPREL": "punct",
             "DEPS": null,
             "MISC": {
@@ -807,7 +802,7 @@
             "LEMMA": "in",
             "UPOS": "ADP",
             "XPOS": "IN",
-            "HEAD": 41,
+            "HEAD": 38,
             "DEPREL": "prep",
             "DEPS": null,
             "MISC": {
@@ -839,11 +834,11 @@
           {
             "ID": 46,
             "FORM": "Golden",
-            "LEMMA": "golden",
-            "UPOS": "ADJ",
-            "XPOS": "JJ",
+            "LEMMA": "Golden",
+            "UPOS": "PROPN",
+            "XPOS": "NNP",
             "HEAD": 47,
-            "DEPREL": "amod",
+            "DEPREL": "compound",
             "DEPS": null,
             "MISC": {
               "SpaceAfter": true,
@@ -851,15 +846,15 @@
               "EndChar": 209
             },
             "FEATS": {
-              "Degree": "Pos"
+              "Number": "Sing"
             }
           },
           {
             "ID": 47,
             "FORM": "Age",
-            "LEMMA": "age",
-            "UPOS": "NOUN",
-            "XPOS": "NN",
+            "LEMMA": "Age",
+            "UPOS": "PROPN",
+            "XPOS": "NNP",
             "HEAD": 44,
             "DEPREL": "pobj",
             "DEPS": null,
@@ -1248,7 +1243,7 @@
             "LEMMA": "\"",
             "UPOS": "PUNCT",
             "XPOS": "``",
-            "HEAD": 70,
+            "HEAD": 67,
             "DEPREL": "punct",
             "DEPS": null,
             "MISC": {
@@ -1357,7 +1352,7 @@
             "LEMMA": ",",
             "UPOS": "PUNCT",
             "XPOS": ",",
-            "HEAD": 70,
+            "HEAD": 66,
             "DEPREL": "punct",
             "DEPS": null,
             "MISC": {
@@ -1375,7 +1370,7 @@
             "LEMMA": "and",
             "UPOS": "CCONJ",
             "XPOS": "CC",
-            "HEAD": 70,
+            "HEAD": 66,
             "DEPREL": "cc",
             "DEPS": null,
             "MISC": {
@@ -1393,7 +1388,7 @@
             "LEMMA": "one",
             "UPOS": "NUM",
             "XPOS": "CD",
-            "HEAD": 70,
+            "HEAD": 66,
             "DEPREL": "conj",
             "DEPS": null,
             "MISC": {
@@ -1579,8 +1574,8 @@
             "LEMMA": "be",
             "UPOS": "AUX",
             "XPOS": "VBZ",
-            "HEAD": 86,
-            "DEPREL": "ROOT",
+            "HEAD": 88,
+            "DEPREL": "auxpass",
             "DEPS": null,
             "MISC": {
               "SpaceAfter": true,
@@ -1616,11 +1611,11 @@
           {
             "ID": 88,
             "FORM": "known",
-            "LEMMA": "known",
-            "UPOS": "ADJ",
-            "XPOS": "JJ",
-            "HEAD": 86,
-            "DEPREL": "acomp",
+            "LEMMA": "know",
+            "UPOS": "VERB",
+            "XPOS": "VBN",
+            "HEAD": 88,
+            "DEPREL": "ROOT",
             "DEPS": null,
             "MISC": {
               "SpaceAfter": true,
@@ -1628,7 +1623,9 @@
               "EndChar": 427
             },
             "FEATS": {
-              "Degree": "Pos"
+              "Aspect": "Perf",
+              "Tense": "Past",
+              "VerbForm": "Part"
             }
           },
           {
@@ -1672,9 +1669,9 @@
           {
             "ID": 91,
             "FORM": "pioneering",
-            "LEMMA": "pioneer",
-            "UPOS": "VERB",
-            "XPOS": "VBG",
+            "LEMMA": "pioneering",
+            "UPOS": "ADJ",
+            "XPOS": "JJ",
             "HEAD": 92,
             "DEPREL": "amod",
             "DEPS": null,
@@ -1684,9 +1681,7 @@
               "EndChar": 446
             },
             "FEATS": {
-              "Aspect": "Prog",
-              "Tense": "Pres",
-              "VerbForm": "Part"
+              "Degree": "Pos"
             }
           },
           {
@@ -1747,7 +1742,7 @@
             "LEMMA": "and",
             "UPOS": "CCONJ",
             "XPOS": "CC",
-            "HEAD": 89,
+            "HEAD": 93,
             "DEPREL": "cc",
             "DEPS": null,
             "MISC": {
@@ -1765,7 +1760,7 @@
             "LEMMA": "for",
             "UPOS": "ADP",
             "XPOS": "IN",
-            "HEAD": 89,
+            "HEAD": 93,
             "DEPREL": "conj",
             "DEPS": null,
             "MISC": {
@@ -1908,7 +1903,7 @@
             "LEMMA": "as",
             "UPOS": "ADP",
             "XPOS": "IN",
-            "HEAD": 103,
+            "HEAD": 101,
             "DEPREL": "prep",
             "DEPS": null,
             "MISC": {
@@ -1979,7 +1974,7 @@
             "LEMMA": ".",
             "UPOS": "PUNCT",
             "XPOS": ".",
-            "HEAD": 86,
+            "HEAD": 88,
             "DEPREL": "punct",
             "DEPS": null,
             "MISC": {
@@ -2058,7 +2053,7 @@
             "LEMMA": ",",
             "UPOS": "PUNCT",
             "XPOS": ",",
-            "HEAD": 111,
+            "HEAD": 118,
             "DEPREL": "punct",
             "DEPS": null,
             "MISC": {
@@ -2094,8 +2089,8 @@
             "LEMMA": "Republic",
             "UPOS": "PROPN",
             "XPOS": "NNP",
-            "HEAD": 111,
-            "DEPREL": "appos",
+            "HEAD": 118,
+            "DEPREL": "nsubj",
             "DEPS": null,
             "MISC": {
               "SpaceAfter": false,
@@ -2112,7 +2107,7 @@
             "LEMMA": ",",
             "UPOS": "PUNCT",
             "XPOS": ",",
-            "HEAD": 118,
+            "HEAD": 114,
             "DEPREL": "punct",
             "DEPS": null,
             "MISC": {
@@ -2148,8 +2143,8 @@
             "LEMMA": "Leeuwenhoek",
             "UPOS": "PROPN",
             "XPOS": "NNP",
-            "HEAD": 118,
-            "DEPREL": "nsubj",
+            "HEAD": 114,
+            "DEPREL": "appos",
             "DEPS": null,
             "MISC": {
               "SpaceAfter": true,
@@ -2238,7 +2233,7 @@
             "LEMMA": "in",
             "UPOS": "ADP",
             "XPOS": "IN",
-            "HEAD": 118,
+            "HEAD": 121,
             "DEPREL": "prep",
             "DEPS": null,
             "MISC": {
@@ -2744,9 +2739,9 @@
           {
             "ID": 149,
             "FORM": "1670s",
-            "LEMMA": "1670",
-            "UPOS": "NOUN",
-            "XPOS": "NNS",
+            "LEMMA": "1670s",
+            "UPOS": "NUM",
+            "XPOS": "CD",
             "HEAD": 147,
             "DEPREL": "pobj",
             "DEPS": null,
@@ -2756,7 +2751,7 @@
               "EndChar": 777
             },
             "FEATS": {
-              "Number": "Plur"
+              "NumType": "Card"
             }
           },
           {
@@ -3244,8 +3239,8 @@
             "ID": 176,
             "FORM": "discovery",
             "LEMMA": "discovery",
-            "UPOS": "NOUN",
-            "XPOS": "NN",
+            "UPOS": "PROPN",
+            "XPOS": "NNP",
             "HEAD": 174,
             "DEPREL": "conj",
             "DEPS": null,
@@ -3281,8 +3276,8 @@
             "ID": 178,
             "FORM": "c.",
             "LEMMA": "c.",
-            "UPOS": "NOUN",
-            "XPOS": "NN",
+            "UPOS": "PROPN",
+            "XPOS": "NNP",
             "HEAD": 171,
             "DEPREL": "appos",
             "DEPS": null,
@@ -3301,8 +3296,8 @@
             "LEMMA": "1590s\u20131720s",
             "UPOS": "NUM",
             "XPOS": "CD",
-            "HEAD": 171,
-            "DEPREL": "prep",
+            "HEAD": 178,
+            "DEPREL": "nummod",
             "DEPS": null,
             "MISC": {
               "SpaceAfter": false,
@@ -3319,7 +3314,7 @@
             "LEMMA": ")",
             "UPOS": "PUNCT",
             "XPOS": "-RRB-",
-            "HEAD": 171,
+            "HEAD": 162,
             "DEPREL": "punct",
             "DEPS": null,
             "MISC": {
@@ -3337,7 +3332,7 @@
             "FORM": ".",
             "LEMMA": ".",
             "UPOS": "PUNCT",
-            "XPOS": "-RRB-",
+            "XPOS": ".",
             "HEAD": 162,
             "DEPREL": "punct",
             "DEPS": null,
@@ -3347,8 +3342,7 @@
               "EndChar": 948
             },
             "FEATS": {
-              "PunctSide": "Fin",
-              "PunctType": "Brck"
+              "PunctType": "Peri"
             }
           }
         ]
@@ -3417,9 +3411,9 @@
           {
             "ID": 185,
             "FORM": "lensed",
-            "LEMMA": "lensed",
-            "UPOS": "ADJ",
-            "XPOS": "JJ",
+            "LEMMA": "lense",
+            "UPOS": "VERB",
+            "XPOS": "VBN",
             "HEAD": 186,
             "DEPREL": "amod",
             "DEPS": null,
@@ -3429,7 +3423,9 @@
               "EndChar": 968
             },
             "FEATS": {
-              "Degree": "Pos"
+              "Aspect": "Perf",
+              "Tense": "Past",
+              "VerbForm": "Part"
             }
           },
           {
@@ -3546,8 +3542,8 @@
             "ID": 192,
             "FORM": "make",
             "LEMMA": "make",
-            "UPOS": "NOUN",
-            "XPOS": "NN",
+            "UPOS": "VERB",
+            "XPOS": "VB",
             "HEAD": 190,
             "DEPREL": "conj",
             "DEPS": null,
@@ -3557,7 +3553,7 @@
               "EndChar": 1007
             },
             "FEATS": {
-              "Number": "Sing"
+              "VerbForm": "Inf"
             }
           },
           {
@@ -3919,9 +3915,9 @@
           {
             "ID": 213,
             "FORM": "dierkens",
-            "LEMMA": "dierkens",
-            "UPOS": "X",
-            "XPOS": "FW",
+            "LEMMA": "dierken",
+            "UPOS": "NOUN",
+            "XPOS": "NNS",
             "HEAD": 212,
             "DEPREL": "pobj",
             "DEPS": null,
@@ -3931,7 +3927,7 @@
               "EndChar": 1126
             },
             "FEATS": {
-              "Foreign": "Yes"
+              "Number": "Plur"
             }
           },
           {
@@ -3955,9 +3951,9 @@
           {
             "ID": 215,
             "FORM": "diertgens",
-            "LEMMA": "diertgens",
-            "UPOS": "X",
-            "XPOS": "FW",
+            "LEMMA": "diertgen",
+            "UPOS": "NOUN",
+            "XPOS": "NNS",
             "HEAD": 213,
             "DEPREL": "conj",
             "DEPS": null,
@@ -3967,7 +3963,7 @@
               "EndChar": 1137
             },
             "FEATS": {
-              "Foreign": "Yes"
+              "Number": "Plur"
             }
           },
           {
@@ -3991,9 +3987,9 @@
           {
             "ID": 217,
             "FORM": "diertjes",
-            "LEMMA": "diertjes",
-            "UPOS": "X",
-            "XPOS": "FW",
+            "LEMMA": "diertje",
+            "UPOS": "NOUN",
+            "XPOS": "NNS",
             "HEAD": 215,
             "DEPREL": "conj",
             "DEPS": null,
@@ -4003,7 +3999,7 @@
               "EndChar": 1149
             },
             "FEATS": {
-              "Foreign": "Yes"
+              "Number": "Plur"
             }
           },
           {
@@ -4012,7 +4008,7 @@
             "LEMMA": "(",
             "UPOS": "PUNCT",
             "XPOS": "-LRB-",
-            "HEAD": 217,
+            "HEAD": 205,
             "DEPREL": "punct",
             "DEPS": null,
             "MISC": {
@@ -4031,8 +4027,8 @@
             "LEMMA": "dutch",
             "UPOS": "ADJ",
             "XPOS": "JJ",
-            "HEAD": 217,
-            "DEPREL": "amod",
+            "HEAD": 205,
+            "DEPREL": "appos",
             "DEPS": null,
             "MISC": {
               "SpaceAfter": true,
@@ -4065,7 +4061,7 @@
             "LEMMA": "\"",
             "UPOS": "PUNCT",
             "XPOS": "``",
-            "HEAD": 220,
+            "HEAD": 223,
             "DEPREL": "punct",
             "DEPS": null,
             "MISC": {
@@ -4137,9 +4133,9 @@
             "ID": 225,
             "FORM": "[",
             "LEMMA": "[",
-            "UPOS": "PUNCT",
-            "XPOS": "-LRB-",
-            "HEAD": 220,
+            "UPOS": "X",
+            "XPOS": "XX",
+            "HEAD": 226,
             "DEPREL": "punct",
             "DEPS": null,
             "MISC": {
@@ -4147,10 +4143,7 @@
               "StartChar": 1179,
               "EndChar": 1180
             },
-            "FEATS": {
-              "PunctSide": "Ini",
-              "PunctType": "Brck"
-            }
+            "FEATS": {}
           },
           {
             "ID": 226,
@@ -4158,8 +4151,8 @@
             "LEMMA": "translate",
             "UPOS": "VERB",
             "XPOS": "VBN",
-            "HEAD": 220,
-            "DEPREL": "pcomp",
+            "HEAD": 205,
+            "DEPREL": "relcl",
             "DEPS": null,
             "MISC": {
               "SpaceAfter": true,
@@ -4246,7 +4239,7 @@
             "LEMMA": ",",
             "UPOS": "PUNCT",
             "XPOS": ",",
-            "HEAD": 230,
+            "HEAD": 226,
             "DEPREL": "punct",
             "DEPS": null,
             "MISC": {
@@ -4264,7 +4257,7 @@
             "LEMMA": "from",
             "UPOS": "ADP",
             "XPOS": "IN",
-            "HEAD": 230,
+            "HEAD": 226,
             "DEPREL": "prep",
             "DEPS": null,
             "MISC": {
@@ -4315,8 +4308,8 @@
             "FORM": "=",
             "LEMMA": "=",
             "UPOS": "PUNCT",
-            "XPOS": ":",
-            "HEAD": 234,
+            "XPOS": "NFP",
+            "HEAD": 238,
             "DEPREL": "punct",
             "DEPS": null,
             "MISC": {
@@ -4332,7 +4325,7 @@
             "LEMMA": "\"",
             "UPOS": "PUNCT",
             "XPOS": "``",
-            "HEAD": 234,
+            "HEAD": 238,
             "DEPREL": "punct",
             "DEPS": null,
             "MISC": {
@@ -4369,8 +4362,8 @@
             "LEMMA": "animal",
             "UPOS": "NOUN",
             "XPOS": "NN",
-            "HEAD": 234,
-            "DEPREL": "appos",
+            "HEAD": 196,
+            "DEPREL": "attr",
             "DEPS": null,
             "MISC": {
               "SpaceAfter": true,
@@ -4387,7 +4380,7 @@
             "LEMMA": "\"",
             "UPOS": "PUNCT",
             "XPOS": "''",
-            "HEAD": 234,
+            "HEAD": 238,
             "DEPREL": "punct",
             "DEPS": null,
             "MISC": {
@@ -4406,7 +4399,7 @@
             "LEMMA": "]",
             "UPOS": "PUNCT",
             "XPOS": "-RRB-",
-            "HEAD": 234,
+            "HEAD": 196,
             "DEPREL": "punct",
             "DEPS": null,
             "MISC": {
@@ -4425,7 +4418,7 @@
             "LEMMA": ")",
             "UPOS": "PUNCT",
             "XPOS": "-RRB-",
-            "HEAD": 213,
+            "HEAD": 196,
             "DEPREL": "punct",
             "DEPS": null,
             "MISC": {
@@ -4443,7 +4436,7 @@
             "FORM": ".",
             "LEMMA": ".",
             "UPOS": "PUNCT",
-            "XPOS": "-RRB-",
+            "XPOS": ".",
             "HEAD": 196,
             "DEPREL": "punct",
             "DEPS": null,
@@ -4453,8 +4446,7 @@
               "EndChar": 1264
             },
             "FEATS": {
-              "PunctSide": "Fin",
-              "PunctType": "Brck"
+              "PunctType": "Peri"
             }
           }
         ]
@@ -4755,7 +4747,7 @@
             "LEMMA": "\"",
             "UPOS": "PUNCT",
             "XPOS": "''",
-            "HEAD": 257,
+            "HEAD": 261,
             "DEPREL": "punct",
             "DEPS": null,
             "MISC": {
@@ -5009,7 +5001,7 @@
             "LEMMA": "in",
             "UPOS": "ADP",
             "XPOS": "IN",
-            "HEAD": 269,
+            "HEAD": 271,
             "DEPREL": "prep",
             "DEPS": null,
             "MISC": {
@@ -5324,7 +5316,7 @@
             "UPOS": "NOUN",
             "XPOS": "NNS",
             "HEAD": 287,
-            "DEPREL": "appos",
+            "DEPREL": "conj",
             "DEPS": null,
             "MISC": {
               "SpaceAfter": false,
@@ -5341,7 +5333,7 @@
             "LEMMA": ",",
             "UPOS": "PUNCT",
             "XPOS": ",",
-            "HEAD": 287,
+            "HEAD": 289,
             "DEPREL": "punct",
             "DEPS": null,
             "MISC": {
@@ -5359,8 +5351,8 @@
             "LEMMA": "spermatozoa",
             "UPOS": "NOUN",
             "XPOS": "NN",
-            "HEAD": 287,
-            "DEPREL": "appos",
+            "HEAD": 289,
+            "DEPREL": "conj",
             "DEPS": null,
             "MISC": {
               "SpaceAfter": false,
@@ -5377,7 +5369,7 @@
             "LEMMA": ",",
             "UPOS": "PUNCT",
             "XPOS": ",",
-            "HEAD": 287,
+            "HEAD": 291,
             "DEPREL": "punct",
             "DEPS": null,
             "MISC": {
@@ -5431,8 +5423,8 @@
             "LEMMA": "cell",
             "UPOS": "NOUN",
             "XPOS": "NNS",
-            "HEAD": 287,
-            "DEPREL": "appos",
+            "HEAD": 291,
+            "DEPREL": "conj",
             "DEPS": null,
             "MISC": {
               "SpaceAfter": false,
@@ -5449,7 +5441,7 @@
             "LEMMA": ",",
             "UPOS": "PUNCT",
             "XPOS": ",",
-            "HEAD": 287,
+            "HEAD": 295,
             "DEPREL": "punct",
             "DEPS": null,
             "MISC": {
@@ -5467,8 +5459,8 @@
             "LEMMA": "crystal",
             "UPOS": "NOUN",
             "XPOS": "NNS",
-            "HEAD": 287,
-            "DEPREL": "appos",
+            "HEAD": 295,
+            "DEPREL": "conj",
             "DEPS": null,
             "MISC": {
               "SpaceAfter": true,
@@ -5502,7 +5494,7 @@
             "UPOS": "ADJ",
             "XPOS": "JJ",
             "HEAD": 300,
-            "DEPREL": "amod",
+            "DEPREL": "compound",
             "DEPS": null,
             "MISC": {
               "SpaceAfter": true,
@@ -5537,7 +5529,7 @@
             "LEMMA": ",",
             "UPOS": "PUNCT",
             "XPOS": ",",
-            "HEAD": 287,
+            "HEAD": 297,
             "DEPREL": "punct",
             "DEPS": null,
             "MISC": {
@@ -5555,7 +5547,7 @@
             "LEMMA": "and",
             "UPOS": "CCONJ",
             "XPOS": "CC",
-            "HEAD": 287,
+            "HEAD": 297,
             "DEPREL": "cc",
             "DEPS": null,
             "MISC": {
@@ -5573,8 +5565,8 @@
             "LEMMA": "among",
             "UPOS": "ADP",
             "XPOS": "IN",
-            "HEAD": 287,
-            "DEPREL": "conj",
+            "HEAD": 282,
+            "DEPREL": "prep",
             "DEPS": null,
             "MISC": {
               "SpaceAfter": true,
@@ -5696,7 +5688,7 @@
             "LEMMA": "in",
             "UPOS": "ADP",
             "XPOS": "IN",
-            "HEAD": 307,
+            "HEAD": 309,
             "DEPREL": "prep",
             "DEPS": null,
             "MISC": {
@@ -6029,7 +6021,7 @@
             "LEMMA": "to",
             "UPOS": "ADP",
             "XPOS": "IN",
-            "HEAD": 323,
+            "HEAD": 327,
             "DEPREL": "prep",
             "DEPS": null,
             "MISC": {
@@ -6227,7 +6219,7 @@
             "LEMMA": ",",
             "UPOS": "PUNCT",
             "XPOS": ",",
-            "HEAD": 328,
+            "HEAD": 334,
             "DEPREL": "punct",
             "DEPS": null,
             "MISC": {
@@ -6245,7 +6237,7 @@
             "LEMMA": "and",
             "UPOS": "CCONJ",
             "XPOS": "CC",
-            "HEAD": 328,
+            "HEAD": 334,
             "DEPREL": "cc",
             "DEPS": null,
             "MISC": {
@@ -6263,7 +6255,7 @@
             "LEMMA": "to",
             "UPOS": "ADP",
             "XPOS": "IN",
-            "HEAD": 328,
+            "HEAD": 334,
             "DEPREL": "conj",
             "DEPS": null,
             "MISC": {
@@ -6386,11 +6378,21 @@
       {
         "ID": null,
         "surfaceForm": "Antonie Philips van Leeuwenhoek",
-        "category": "PERSON",
+        "category": "ORG",
         "locationStart": 0,
         "locationEnd": 31,
         "tokenStart": 0,
         "tokenEnd": 4,
+        "method": "spacy"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "-\u2060huuk",
+        "category": "ORG",
+        "locationStart": 64,
+        "locationEnd": 70,
+        "tokenStart": 17,
+        "tokenEnd": 18,
         "method": "spacy"
       },
       {
@@ -6405,12 +6407,32 @@
       },
       {
         "ID": null,
-        "surfaceForm": "24 October 1632 \u2013",
-        "category": "DATE",
+        "surfaceForm": "24",
+        "category": "CARDINAL",
         "locationStart": 118,
-        "locationEnd": 135,
+        "locationEnd": 120,
         "tokenStart": 30,
-        "tokenEnd": 34,
+        "tokenEnd": 31,
+        "method": "spacy"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "October 1632",
+        "category": "DATE",
+        "locationStart": 121,
+        "locationEnd": 133,
+        "tokenStart": 31,
+        "tokenEnd": 33,
+        "method": "spacy"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "August 1723",
+        "category": "DATE",
+        "locationStart": 139,
+        "locationEnd": 150,
+        "tokenStart": 35,
+        "tokenEnd": 37,
         "method": "spacy"
       },
       {
@@ -6426,7 +6448,7 @@
       {
         "ID": null,
         "surfaceForm": "the Golden Age",
-        "category": "DATE",
+        "category": "LOC",
         "locationStart": 199,
         "locationEnd": 213,
         "tokenStart": 45,
@@ -6445,6 +6467,16 @@
       },
       {
         "ID": null,
+        "surfaceForm": "one",
+        "category": "CARDINAL",
+        "locationStart": 346,
+        "locationEnd": 349,
+        "tokenStart": 76,
+        "tokenEnd": 77,
+        "method": "spacy"
+      },
+      {
+        "ID": null,
         "surfaceForm": "first",
         "category": "ORDINAL",
         "locationStart": 357,
@@ -6456,7 +6488,7 @@
       {
         "ID": null,
         "surfaceForm": "Van Leeuwenhoek",
-        "category": "PERSON",
+        "category": "ORG",
         "locationStart": 398,
         "locationEnd": 413,
         "tokenStart": 84,
@@ -6485,16 +6517,6 @@
       },
       {
         "ID": null,
-        "surfaceForm": "van Leeuwenhoek",
-        "category": "PERSON",
-        "locationStart": 594,
-        "locationEnd": 609,
-        "tokenStart": 116,
-        "tokenEnd": 118,
-        "method": "spacy"
-      },
-      {
-        "ID": null,
         "surfaceForm": "1654",
         "category": "DATE",
         "locationStart": 670,
@@ -6515,12 +6537,22 @@
       },
       {
         "ID": null,
-        "surfaceForm": "the Golden Age",
-        "category": "DATE",
+        "surfaceForm": "one",
+        "category": "CARDINAL",
+        "locationStart": 846,
+        "locationEnd": 849,
+        "tokenStart": 163,
+        "tokenEnd": 164,
+        "method": "spacy"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "the Golden Age of",
+        "category": "EVENT",
         "locationStart": 881,
-        "locationEnd": 895,
+        "locationEnd": 898,
         "tokenStart": 169,
-        "tokenEnd": 172,
+        "tokenEnd": 173,
         "method": "spacy"
       },
       {
@@ -6535,12 +6567,12 @@
       },
       {
         "ID": null,
-        "surfaceForm": "c. 1590s\u20131720s)",
-        "category": "DATE",
+        "surfaceForm": "c. 1590s\u20131720s",
+        "category": "PERSON",
         "locationStart": 932,
-        "locationEnd": 947,
+        "locationEnd": 946,
         "tokenStart": 178,
-        "tokenEnd": 181,
+        "tokenEnd": 180,
         "method": "spacy"
       },
       {
@@ -6586,7 +6618,7 @@
       {
         "ID": null,
         "surfaceForm": "Latin",
-        "category": "LANGUAGE",
+        "category": "NORP",
         "locationStart": 1225,
         "locationEnd": 1230,
         "tokenStart": 233,
@@ -6611,6 +6643,16 @@
         "locationEnd": 1473,
         "tokenStart": 280,
         "tokenEnd": 281,
+        "method": "spacy"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "spermatozoa",
+        "category": "GPE",
+        "locationStart": 1539,
+        "locationEnd": 1550,
+        "tokenStart": 291,
+        "tokenEnd": 292,
         "method": "spacy"
       },
       {
@@ -6776,7 +6818,7 @@
     ],
     "time_expressions": [
       {
-        "ID": "t3",
+        "ID": "t6",
         "category": "DATE",
         "value": "1632-10-24",
         "surfaceForm": "24 October 1632",
@@ -6785,7 +6827,7 @@
         "method": "HeidelTime"
       },
       {
-        "ID": "t8",
+        "ID": "t7",
         "category": "DATE",
         "value": "1723-08-26",
         "surfaceForm": "26 August 1723",
@@ -6794,7 +6836,7 @@
         "method": "HeidelTime"
       },
       {
-        "ID": "t11",
+        "ID": "t12",
         "category": "DATE",
         "value": "1654",
         "surfaceForm": "1654",
@@ -6803,7 +6845,7 @@
         "method": "HeidelTime"
       },
       {
-        "ID": "t12",
+        "ID": "t13",
         "category": "DATE",
         "value": "167",
         "surfaceForm": "the 1670s",
@@ -6812,7 +6854,7 @@
         "method": "HeidelTime"
       },
       {
-        "ID": "t13",
+        "ID": "t14",
         "category": "DATE",
         "value": "159",
         "surfaceForm": "1590s",
@@ -6821,7 +6863,7 @@
         "method": "HeidelTime"
       },
       {
-        "ID": "t14",
+        "ID": "t15",
         "category": "DATE",
         "value": "172",
         "surfaceForm": "1720s",
@@ -6830,7 +6872,7 @@
         "method": "HeidelTime"
       },
       {
-        "ID": "t15",
+        "ID": "t16",
         "category": "DATE",
         "value": "PRESENT_REF",
         "surfaceForm": "now",
@@ -6843,6 +6885,8 @@
       {
         "predicateID": "1",
         "locationStart": 152,
+        "tokenStart": 38,
+        "tokenEnd": 39,
         "locationEnd": 155,
         "surfaceForm": "was",
         "predicateLemma": "be",
@@ -6850,6 +6894,8 @@
           {
             "argumentID": "1_ARG1",
             "surfaceForm": "Antonie Philips van Leeuwenhoek ( AHN - t\u0259 - nee vahn LAY - v\u0259n - hook , -\u2060huuk ; Dutch : [ \u02c8\u0251nto\u02d0ni v\u0251n \u02c8le\u02d0u\u0259(n)\u02cc\u0266uk ] ( listen ) ; 24 October 1632 \u2013 26 August 1723 )",
+            "tokenStart": 0,
+            "tokenEnd": 38,
             "locationStart": 0,
             "locationEnd": 151,
             "category": "ARG1"
@@ -6857,6 +6903,8 @@
           {
             "argumentID": "1_ARG2",
             "surfaceForm": "a Dutch microbiologist and microscopist in the Golden Age of Dutch science and technology",
+            "tokenStart": 39,
+            "tokenEnd": 53,
             "locationStart": 156,
             "locationEnd": 245,
             "category": "ARG2"
@@ -6867,6 +6915,8 @@
       {
         "predicateID": "0",
         "locationStart": 262,
+        "tokenStart": 58,
+        "tokenEnd": 59,
         "locationEnd": 268,
         "surfaceForm": "taught",
         "predicateLemma": "teach",
@@ -6874,6 +6924,8 @@
           {
             "argumentID": "0_ARGM-MNR",
             "surfaceForm": "self",
+            "tokenStart": 56,
+            "tokenEnd": 57,
             "locationStart": 257,
             "locationEnd": 261,
             "category": "ARGM-MNR"
@@ -6881,6 +6933,8 @@
           {
             "argumentID": "0_ARG2",
             "surfaceForm": "man",
+            "tokenStart": 59,
+            "tokenEnd": 60,
             "locationStart": 269,
             "locationEnd": 272,
             "category": "ARG2"
@@ -6891,6 +6945,8 @@
       {
         "predicateID": "2",
         "locationStart": 300,
+        "tokenStart": 66,
+        "tokenEnd": 67,
         "locationEnd": 305,
         "surfaceForm": "known",
         "predicateLemma": "know",
@@ -6898,6 +6954,8 @@
           {
             "argumentID": "2_R-ARG1",
             "surfaceForm": "A largely self - taught man in science",
+            "tokenStart": 54,
+            "tokenEnd": 62,
             "locationStart": 247,
             "locationEnd": 283,
             "category": "R-ARG1"
@@ -6905,6 +6963,8 @@
           {
             "argumentID": "2_ARG1",
             "surfaceForm": "he",
+            "tokenStart": 63,
+            "tokenEnd": 64,
             "locationStart": 285,
             "locationEnd": 287,
             "category": "ARG1"
@@ -6912,6 +6972,8 @@
           {
             "argumentID": "2_ARGM-MNR",
             "surfaceForm": "commonly",
+            "tokenStart": 65,
+            "tokenEnd": 66,
             "locationStart": 291,
             "locationEnd": 299,
             "category": "ARGM-MNR"
@@ -6919,6 +6981,8 @@
           {
             "argumentID": "2_ARG2",
             "surfaceForm": "as \" the Father of Microbiology \" , and one of the first microscopists and microbiologists",
+            "tokenStart": 67,
+            "tokenEnd": 83,
             "locationStart": 306,
             "locationEnd": 396,
             "category": "ARG2"
@@ -6929,6 +6993,8 @@
       {
         "predicateID": "0",
         "locationStart": 414,
+        "tokenStart": 86,
+        "tokenEnd": 87,
         "locationEnd": 416,
         "surfaceForm": "is",
         "predicateLemma": "be",
@@ -6936,6 +7002,8 @@
           {
             "argumentID": "0_ARG1",
             "surfaceForm": "Van Leeuwenhoek",
+            "tokenStart": 84,
+            "tokenEnd": 86,
             "locationStart": 398,
             "locationEnd": 413,
             "category": "ARG1"
@@ -6943,6 +7011,8 @@
           {
             "argumentID": "0_ARG2",
             "surfaceForm": "best known for his pioneering work in microscopy and for his contributions toward the establishment of microbiology as a scientific discipline",
+            "tokenStart": 87,
+            "tokenEnd": 108,
             "locationStart": 417,
             "locationEnd": 559,
             "category": "ARG2"
@@ -6953,13 +7023,17 @@
       {
         "predicateID": "1",
         "locationStart": 422,
+        "tokenStart": 88,
+        "tokenEnd": 89,
         "locationEnd": 427,
         "surfaceForm": "known",
-        "predicateLemma": "known",
+        "predicateLemma": "know",
         "arguments": [
           {
             "argumentID": "1_ARG1",
             "surfaceForm": "Van Leeuwenhoek",
+            "tokenStart": 84,
+            "tokenEnd": 86,
             "locationStart": 398,
             "locationEnd": 413,
             "category": "ARG1"
@@ -6967,6 +7041,8 @@
           {
             "argumentID": "1_ARGM-MNR",
             "surfaceForm": "best",
+            "tokenStart": 87,
+            "tokenEnd": 88,
             "locationStart": 417,
             "locationEnd": 421,
             "category": "ARGM-MNR"
@@ -6974,6 +7050,8 @@
           {
             "argumentID": "1_ARG2",
             "surfaceForm": "for his pioneering work in microscopy and for his contributions toward the establishment of microbiology as a scientific discipline",
+            "tokenStart": 89,
+            "tokenEnd": 108,
             "locationStart": 428,
             "locationEnd": 559,
             "category": "ARG2"
@@ -6984,6 +7062,8 @@
       {
         "predicateID": "0",
         "locationStart": 561,
+        "tokenStart": 109,
+        "tokenEnd": 110,
         "locationEnd": 567,
         "surfaceForm": "Raised",
         "predicateLemma": "raise",
@@ -6991,6 +7071,8 @@
           {
             "argumentID": "0_ARGM-LOC",
             "surfaceForm": "in Delft , Dutch Republic",
+            "tokenStart": 110,
+            "tokenEnd": 115,
             "locationStart": 568,
             "locationEnd": 592,
             "category": "ARGM-LOC"
@@ -6998,6 +7080,8 @@
           {
             "argumentID": "0_ARG0",
             "surfaceForm": "van Leeuwenhoek",
+            "tokenStart": 116,
+            "tokenEnd": 118,
             "locationStart": 594,
             "locationEnd": 609,
             "category": "ARG0"
@@ -7008,6 +7092,8 @@
       {
         "predicateID": "1",
         "locationStart": 610,
+        "tokenStart": 118,
+        "tokenEnd": 119,
         "locationEnd": 616,
         "surfaceForm": "worked",
         "predicateLemma": "work",
@@ -7015,6 +7101,8 @@
           {
             "argumentID": "1_R-ARG0",
             "surfaceForm": "Raised in Delft , Dutch Republic",
+            "tokenStart": 109,
+            "tokenEnd": 115,
             "locationStart": 561,
             "locationEnd": 592,
             "category": "R-ARG0"
@@ -7022,6 +7110,8 @@
           {
             "argumentID": "1_ARG0",
             "surfaceForm": "van Leeuwenhoek",
+            "tokenStart": 116,
+            "tokenEnd": 118,
             "locationStart": 594,
             "locationEnd": 609,
             "category": "ARG0"
@@ -7029,6 +7119,8 @@
           {
             "argumentID": "1_ARG1",
             "surfaceForm": "as a draper",
+            "tokenStart": 119,
+            "tokenEnd": 122,
             "locationStart": 617,
             "locationEnd": 628,
             "category": "ARG1"
@@ -7036,6 +7128,8 @@
           {
             "argumentID": "1_ARGM-TMP",
             "surfaceForm": "in his youth",
+            "tokenStart": 122,
+            "tokenEnd": 125,
             "locationStart": 629,
             "locationEnd": 641,
             "category": "ARGM-TMP"
@@ -7046,6 +7140,8 @@
       {
         "predicateID": "2",
         "locationStart": 646,
+        "tokenStart": 126,
+        "tokenEnd": 127,
         "locationEnd": 653,
         "surfaceForm": "founded",
         "predicateLemma": "found",
@@ -7053,6 +7149,8 @@
           {
             "argumentID": "2_R-ARG0",
             "surfaceForm": "Raised in Delft , Dutch Republic",
+            "tokenStart": 109,
+            "tokenEnd": 115,
             "locationStart": 561,
             "locationEnd": 592,
             "category": "R-ARG0"
@@ -7060,6 +7158,8 @@
           {
             "argumentID": "2_ARG0",
             "surfaceForm": "van Leeuwenhoek",
+            "tokenStart": 116,
+            "tokenEnd": 118,
             "locationStart": 594,
             "locationEnd": 609,
             "category": "ARG0"
@@ -7067,6 +7167,8 @@
           {
             "argumentID": "2_ARG1",
             "surfaceForm": "his own shop",
+            "tokenStart": 127,
+            "tokenEnd": 130,
             "locationStart": 654,
             "locationEnd": 666,
             "category": "ARG1"
@@ -7074,6 +7176,8 @@
           {
             "argumentID": "2_ARGM-TMP",
             "surfaceForm": "in 1654",
+            "tokenStart": 130,
+            "tokenEnd": 132,
             "locationStart": 667,
             "locationEnd": 674,
             "category": "ARGM-TMP"
@@ -7084,6 +7188,8 @@
       {
         "predicateID": "0",
         "locationStart": 679,
+        "tokenStart": 134,
+        "tokenEnd": 135,
         "locationEnd": 685,
         "surfaceForm": "became",
         "predicateLemma": "become",
@@ -7091,6 +7197,8 @@
           {
             "argumentID": "0_ARG1",
             "surfaceForm": "He",
+            "tokenStart": 133,
+            "tokenEnd": 134,
             "locationStart": 676,
             "locationEnd": 678,
             "category": "ARG1"
@@ -7098,6 +7206,8 @@
           {
             "argumentID": "0_ARG2",
             "surfaceForm": "well recognized in municipal politics",
+            "tokenStart": 135,
+            "tokenEnd": 140,
             "locationStart": 686,
             "locationEnd": 723,
             "category": "ARG2"
@@ -7108,6 +7218,8 @@
       {
         "predicateID": "1",
         "locationStart": 691,
+        "tokenStart": 136,
+        "tokenEnd": 137,
         "locationEnd": 701,
         "surfaceForm": "recognized",
         "predicateLemma": "recognize",
@@ -7115,6 +7227,8 @@
           {
             "argumentID": "1_ARG1",
             "surfaceForm": "He",
+            "tokenStart": 133,
+            "tokenEnd": 134,
             "locationStart": 676,
             "locationEnd": 678,
             "category": "ARG1"
@@ -7122,6 +7236,8 @@
           {
             "argumentID": "1_ARGM-MNR",
             "surfaceForm": "well",
+            "tokenStart": 135,
+            "tokenEnd": 136,
             "locationStart": 686,
             "locationEnd": 690,
             "category": "ARGM-MNR"
@@ -7129,6 +7245,8 @@
           {
             "argumentID": "1_ARGM-LOC",
             "surfaceForm": "in municipal politics",
+            "tokenStart": 137,
+            "tokenEnd": 140,
             "locationStart": 702,
             "locationEnd": 723,
             "category": "ARGM-LOC"
@@ -7139,6 +7257,8 @@
       {
         "predicateID": "2",
         "locationStart": 728,
+        "tokenStart": 141,
+        "tokenEnd": 142,
         "locationEnd": 737,
         "surfaceForm": "developed",
         "predicateLemma": "develop",
@@ -7146,6 +7266,8 @@
           {
             "argumentID": "2_ARG0",
             "surfaceForm": "He",
+            "tokenStart": 133,
+            "tokenEnd": 134,
             "locationStart": 676,
             "locationEnd": 678,
             "category": "ARG0"
@@ -7153,6 +7275,8 @@
           {
             "argumentID": "2_ARG1",
             "surfaceForm": "an interest in lensmaking",
+            "tokenStart": 142,
+            "tokenEnd": 146,
             "locationStart": 738,
             "locationEnd": 763,
             "category": "ARG1"
@@ -7163,6 +7287,8 @@
       {
         "predicateID": "0",
         "locationStart": 782,
+        "tokenStart": 152,
+        "tokenEnd": 153,
         "locationEnd": 789,
         "surfaceForm": "started",
         "predicateLemma": "start",
@@ -7170,6 +7296,8 @@
           {
             "argumentID": "0_ARGM-LOC",
             "surfaceForm": "In the 1670s",
+            "tokenStart": 147,
+            "tokenEnd": 150,
             "locationStart": 765,
             "locationEnd": 777,
             "category": "ARGM-LOC"
@@ -7177,6 +7305,8 @@
           {
             "argumentID": "0_ARG0",
             "surfaceForm": "he",
+            "tokenStart": 151,
+            "tokenEnd": 152,
             "locationStart": 779,
             "locationEnd": 781,
             "category": "ARG0"
@@ -7184,6 +7314,8 @@
           {
             "argumentID": "0_ARG1",
             "surfaceForm": "to explore microbial life with his microscope",
+            "tokenStart": 153,
+            "tokenEnd": 160,
             "locationStart": 790,
             "locationEnd": 835,
             "category": "ARG1"
@@ -7194,6 +7326,8 @@
       {
         "predicateID": "1",
         "locationStart": 793,
+        "tokenStart": 154,
+        "tokenEnd": 155,
         "locationEnd": 800,
         "surfaceForm": "explore",
         "predicateLemma": "explore",
@@ -7201,6 +7335,8 @@
           {
             "argumentID": "1_ARG0",
             "surfaceForm": "he",
+            "tokenStart": 151,
+            "tokenEnd": 152,
             "locationStart": 779,
             "locationEnd": 781,
             "category": "ARG0"
@@ -7208,6 +7344,8 @@
           {
             "argumentID": "1_ARG1",
             "surfaceForm": "microbial life",
+            "tokenStart": 155,
+            "tokenEnd": 157,
             "locationStart": 801,
             "locationEnd": 815,
             "category": "ARG1"
@@ -7215,6 +7353,8 @@
           {
             "argumentID": "1_ARGM-MNR",
             "surfaceForm": "with his microscope",
+            "tokenStart": 157,
+            "tokenEnd": 160,
             "locationStart": 816,
             "locationEnd": 835,
             "category": "ARGM-MNR"
@@ -7225,6 +7365,8 @@
       {
         "predicateID": "0",
         "locationStart": 842,
+        "tokenStart": 162,
+        "tokenEnd": 163,
         "locationEnd": 845,
         "surfaceForm": "was",
         "predicateLemma": "be",
@@ -7232,6 +7374,8 @@
           {
             "argumentID": "0_ARG1",
             "surfaceForm": "This",
+            "tokenStart": 161,
+            "tokenEnd": 162,
             "locationStart": 837,
             "locationEnd": 841,
             "category": "ARG1"
@@ -7239,6 +7383,8 @@
           {
             "argumentID": "0_ARG2",
             "surfaceForm": "one of the notable achievements of the Golden Age of Dutch exploration and discovery ( c. 1590s\u20131720s )",
+            "tokenStart": 163,
+            "tokenEnd": 181,
             "locationStart": 846,
             "locationEnd": 947,
             "category": "ARG2"
@@ -7249,6 +7395,8 @@
       {
         "predicateID": "0",
         "locationStart": 949,
+        "tokenStart": 182,
+        "tokenEnd": 183,
         "locationEnd": 954,
         "surfaceForm": "Using",
         "predicateLemma": "use",
@@ -7256,6 +7404,8 @@
           {
             "argumentID": "0_ARG1",
             "surfaceForm": "single - lensed microscopes of his own design and make",
+            "tokenStart": 183,
+            "tokenEnd": 193,
             "locationStart": 955,
             "locationEnd": 1007,
             "category": "ARG1"
@@ -7263,6 +7413,8 @@
           {
             "argumentID": "0_ARG0",
             "surfaceForm": "van Leeuwenhoek",
+            "tokenStart": 194,
+            "tokenEnd": 196,
             "locationStart": 1009,
             "locationEnd": 1024,
             "category": "ARG0"
@@ -7273,13 +7425,17 @@
       {
         "predicateID": "1",
         "locationStart": 962,
+        "tokenStart": 185,
+        "tokenEnd": 186,
         "locationEnd": 968,
         "surfaceForm": "lensed",
-        "predicateLemma": "lensed",
+        "predicateLemma": "lense",
         "arguments": [
           {
             "argumentID": "1_ARGM-MNR",
             "surfaceForm": "single",
+            "tokenStart": 183,
+            "tokenEnd": 184,
             "locationStart": 955,
             "locationEnd": 961,
             "category": "ARGM-MNR"
@@ -7287,6 +7443,8 @@
           {
             "argumentID": "1_ARG1",
             "surfaceForm": "microscopes",
+            "tokenStart": 186,
+            "tokenEnd": 187,
             "locationStart": 969,
             "locationEnd": 980,
             "category": "ARG1"
@@ -7297,6 +7455,8 @@
       {
         "predicateID": "2",
         "locationStart": 1003,
+        "tokenStart": 192,
+        "tokenEnd": 193,
         "locationEnd": 1007,
         "surfaceForm": "make",
         "predicateLemma": "make",
@@ -7304,6 +7464,8 @@
           {
             "argumentID": "2_ARG0",
             "surfaceForm": "his",
+            "tokenStart": 188,
+            "tokenEnd": 189,
             "locationStart": 984,
             "locationEnd": 987,
             "category": "ARG0"
@@ -7311,6 +7473,8 @@
           {
             "argumentID": "2_ARGM-REC",
             "surfaceForm": "own",
+            "tokenStart": 189,
+            "tokenEnd": 190,
             "locationStart": 988,
             "locationEnd": 991,
             "category": "ARGM-REC"
@@ -7321,6 +7485,8 @@
       {
         "predicateID": "3",
         "locationStart": 1025,
+        "tokenStart": 196,
+        "tokenEnd": 197,
         "locationEnd": 1028,
         "surfaceForm": "was",
         "predicateLemma": "be",
@@ -7328,6 +7494,8 @@
           {
             "argumentID": "3_R-ARG1",
             "surfaceForm": "Using single - lensed microscopes of his own design and make",
+            "tokenStart": 182,
+            "tokenEnd": 193,
             "locationStart": 949,
             "locationEnd": 1007,
             "category": "R-ARG1"
@@ -7335,6 +7503,8 @@
           {
             "argumentID": "3_ARG1",
             "surfaceForm": "van Leeuwenhoek",
+            "tokenStart": 194,
+            "tokenEnd": 196,
             "locationStart": 1009,
             "locationEnd": 1024,
             "category": "ARG1"
@@ -7342,6 +7512,8 @@
           {
             "argumentID": "3_ARG2",
             "surfaceForm": "the first to observe and to experiment with microbes , which he originally referred to as dierkens , diertgens or diertjes ( Dutch for \" small animals \" [ translated into English as animalcules , from Latin animalculum = \" tiny animal \" ] )",
+            "tokenStart": 197,
+            "tokenEnd": 242,
             "locationStart": 1029,
             "locationEnd": 1263,
             "category": "ARG2"
@@ -7352,6 +7524,8 @@
       {
         "predicateID": "4",
         "locationStart": 1042,
+        "tokenStart": 200,
+        "tokenEnd": 201,
         "locationEnd": 1049,
         "surfaceForm": "observe",
         "predicateLemma": "observe",
@@ -7359,6 +7533,8 @@
           {
             "argumentID": "4_ARG0",
             "surfaceForm": "the first",
+            "tokenStart": 197,
+            "tokenEnd": 199,
             "locationStart": 1029,
             "locationEnd": 1038,
             "category": "ARG0"
@@ -7366,6 +7542,8 @@
           {
             "argumentID": "4_ARG1",
             "surfaceForm": "microbes , which he originally referred to as dierkens , diertgens or diertjes ( Dutch for \" small animals \" [ translated into English as animalcules , from Latin animalculum = \" tiny animal \" ] )",
+            "tokenStart": 205,
+            "tokenEnd": 242,
             "locationStart": 1073,
             "locationEnd": 1263,
             "category": "ARG1"
@@ -7376,6 +7554,8 @@
       {
         "predicateID": "5",
         "locationStart": 1057,
+        "tokenStart": 203,
+        "tokenEnd": 204,
         "locationEnd": 1067,
         "surfaceForm": "experiment",
         "predicateLemma": "experiment",
@@ -7383,6 +7563,8 @@
           {
             "argumentID": "5_ARG0",
             "surfaceForm": "the first",
+            "tokenStart": 197,
+            "tokenEnd": 199,
             "locationStart": 1029,
             "locationEnd": 1038,
             "category": "ARG0"
@@ -7390,6 +7572,8 @@
           {
             "argumentID": "5_ARG1",
             "surfaceForm": "with microbes , which he originally referred to as dierkens , diertgens or diertjes ( Dutch for \" small animals \" [ translated into English as animalcules , from Latin animalculum = \" tiny animal \" ] )",
+            "tokenStart": 204,
+            "tokenEnd": 242,
             "locationStart": 1068,
             "locationEnd": 1263,
             "category": "ARG1"
@@ -7400,6 +7584,8 @@
       {
         "predicateID": "6",
         "locationStart": 1103,
+        "tokenStart": 210,
+        "tokenEnd": 211,
         "locationEnd": 1111,
         "surfaceForm": "referred",
         "predicateLemma": "refer",
@@ -7407,6 +7593,8 @@
           {
             "argumentID": "6_ARG0",
             "surfaceForm": "he",
+            "tokenStart": 208,
+            "tokenEnd": 209,
             "locationStart": 1089,
             "locationEnd": 1091,
             "category": "ARG0"
@@ -7414,6 +7602,8 @@
           {
             "argumentID": "6_ARGM-TMP",
             "surfaceForm": "originally",
+            "tokenStart": 209,
+            "tokenEnd": 210,
             "locationStart": 1092,
             "locationEnd": 1102,
             "category": "ARGM-TMP"
@@ -7421,6 +7611,8 @@
           {
             "argumentID": "6_ARG1",
             "surfaceForm": "to",
+            "tokenStart": 211,
+            "tokenEnd": 212,
             "locationStart": 1112,
             "locationEnd": 1114,
             "category": "ARG1"
@@ -7428,6 +7620,8 @@
           {
             "argumentID": "6_ARG2",
             "surfaceForm": "as dierkens , diertgens or diertjes ( Dutch for \" small animals \" [ translated into English as animalcules , from Latin animalculum = \" tiny animal \"",
+            "tokenStart": 212,
+            "tokenEnd": 240,
             "locationStart": 1115,
             "locationEnd": 1260,
             "category": "ARG2"
@@ -7438,6 +7632,8 @@
       {
         "predicateID": "7",
         "locationStart": 1180,
+        "tokenStart": 226,
+        "tokenEnd": 227,
         "locationEnd": 1190,
         "surfaceForm": "translated",
         "predicateLemma": "translate",
@@ -7445,6 +7641,8 @@
           {
             "argumentID": "7_ARG1",
             "surfaceForm": "Dutch for \" small animals \"",
+            "tokenStart": 219,
+            "tokenEnd": 225,
             "locationStart": 1151,
             "locationEnd": 1178,
             "category": "ARG1"
@@ -7452,6 +7650,8 @@
           {
             "argumentID": "7_ARG2",
             "surfaceForm": "into English",
+            "tokenStart": 227,
+            "tokenEnd": 229,
             "locationStart": 1191,
             "locationEnd": 1203,
             "category": "ARG2"
@@ -7459,6 +7659,8 @@
           {
             "argumentID": "7_ARG2",
             "surfaceForm": "as animalcules",
+            "tokenStart": 229,
+            "tokenEnd": 231,
             "locationStart": 1204,
             "locationEnd": 1218,
             "category": "ARG2"
@@ -7466,6 +7668,8 @@
           {
             "argumentID": "7_ARG2",
             "surfaceForm": "from Latin animalculum = \" tiny animal \"",
+            "tokenStart": 232,
+            "tokenEnd": 240,
             "locationStart": 1220,
             "locationEnd": 1260,
             "category": "ARG2"
@@ -7476,6 +7680,8 @@
       {
         "predicateID": "0",
         "locationStart": 1268,
+        "tokenStart": 244,
+        "tokenEnd": 245,
         "locationEnd": 1271,
         "surfaceForm": "was",
         "predicateLemma": "be",
@@ -7483,6 +7689,8 @@
           {
             "argumentID": "0_ARG1",
             "surfaceForm": "He",
+            "tokenStart": 243,
+            "tokenEnd": 244,
             "locationStart": 1265,
             "locationEnd": 1267,
             "category": "ARG1"
@@ -7490,6 +7698,8 @@
           {
             "argumentID": "0_ARG2",
             "surfaceForm": "the first to relatively determine their size",
+            "tokenStart": 245,
+            "tokenEnd": 252,
             "locationStart": 1272,
             "locationEnd": 1316,
             "category": "ARG2"
@@ -7500,6 +7710,8 @@
       {
         "predicateID": "1",
         "locationStart": 1296,
+        "tokenStart": 249,
+        "tokenEnd": 250,
         "locationEnd": 1305,
         "surfaceForm": "determine",
         "predicateLemma": "determine",
@@ -7507,6 +7719,8 @@
           {
             "argumentID": "1_ARG0",
             "surfaceForm": "the first",
+            "tokenStart": 245,
+            "tokenEnd": 247,
             "locationStart": 1272,
             "locationEnd": 1281,
             "category": "ARG0"
@@ -7514,6 +7728,8 @@
           {
             "argumentID": "1_ARGM-MNR",
             "surfaceForm": "relatively",
+            "tokenStart": 248,
+            "tokenEnd": 249,
             "locationStart": 1285,
             "locationEnd": 1295,
             "category": "ARGM-MNR"
@@ -7521,6 +7737,8 @@
           {
             "argumentID": "1_ARG1",
             "surfaceForm": "their size",
+            "tokenStart": 250,
+            "tokenEnd": 252,
             "locationStart": 1306,
             "locationEnd": 1316,
             "category": "ARG1"
@@ -7531,6 +7749,8 @@
       {
         "predicateID": "1",
         "locationStart": 1354,
+        "tokenStart": 261,
+        "tokenEnd": 262,
         "locationEnd": 1362,
         "surfaceForm": "referred",
         "predicateLemma": "refer",
@@ -7538,6 +7758,8 @@
           {
             "argumentID": "1_ARGM-TMP",
             "surfaceForm": "now",
+            "tokenStart": 260,
+            "tokenEnd": 261,
             "locationStart": 1350,
             "locationEnd": 1353,
             "category": "ARGM-TMP"
@@ -7545,6 +7767,8 @@
           {
             "argumentID": "1_ARG1",
             "surfaceForm": "to",
+            "tokenStart": 262,
+            "tokenEnd": 263,
             "locationStart": 1363,
             "locationEnd": 1365,
             "category": "ARG1"
@@ -7552,6 +7776,8 @@
           {
             "argumentID": "1_ARG2",
             "surfaceForm": "as unicellular organisms",
+            "tokenStart": 263,
+            "tokenEnd": 266,
             "locationStart": 1366,
             "locationEnd": 1390,
             "category": "ARG2"
@@ -7559,6 +7785,8 @@
           {
             "argumentID": "1_ARGM-ADV",
             "surfaceForm": "although he observed multicellular organisms in pond water",
+            "tokenStart": 267,
+            "tokenEnd": 275,
             "locationStart": 1392,
             "locationEnd": 1450,
             "category": "ARGM-ADV"
@@ -7569,6 +7797,8 @@
       {
         "predicateID": "2",
         "locationStart": 1404,
+        "tokenStart": 269,
+        "tokenEnd": 270,
         "locationEnd": 1412,
         "surfaceForm": "observed",
         "predicateLemma": "observe",
@@ -7576,6 +7806,8 @@
           {
             "argumentID": "2_ARG0",
             "surfaceForm": "he",
+            "tokenStart": 268,
+            "tokenEnd": 269,
             "locationStart": 1401,
             "locationEnd": 1403,
             "category": "ARG0"
@@ -7583,6 +7815,8 @@
           {
             "argumentID": "2_ARG1",
             "surfaceForm": "multicellular organisms",
+            "tokenStart": 270,
+            "tokenEnd": 272,
             "locationStart": 1413,
             "locationEnd": 1436,
             "category": "ARG1"
@@ -7590,6 +7824,8 @@
           {
             "argumentID": "2_ARGM-LOC",
             "surfaceForm": "in pond water",
+            "tokenStart": 272,
+            "tokenEnd": 275,
             "locationStart": 1437,
             "locationEnd": 1450,
             "category": "ARGM-LOC"
@@ -7600,6 +7836,8 @@
       {
         "predicateID": "0",
         "locationStart": 1455,
+        "tokenStart": 277,
+        "tokenEnd": 278,
         "locationEnd": 1458,
         "surfaceForm": "was",
         "predicateLemma": "be",
@@ -7607,6 +7845,8 @@
           {
             "argumentID": "0_ARG1",
             "surfaceForm": "He",
+            "tokenStart": 276,
+            "tokenEnd": 277,
             "locationStart": 1452,
             "locationEnd": 1454,
             "category": "ARG1"
@@ -7614,6 +7854,8 @@
           {
             "argumentID": "0_ARGM-ADV",
             "surfaceForm": "also",
+            "tokenStart": 278,
+            "tokenEnd": 279,
             "locationStart": 1459,
             "locationEnd": 1463,
             "category": "ARGM-ADV"
@@ -7621,6 +7863,8 @@
           {
             "argumentID": "0_ARG2",
             "surfaceForm": "the first to document microscopic observations of muscle fibers , bacteria , spermatozoa , red blood cells , crystals in gouty tophi , and among the first to see blood flow in capillaries",
+            "tokenStart": 279,
+            "tokenEnd": 312,
             "locationStart": 1464,
             "locationEnd": 1646,
             "category": "ARG2"
@@ -7631,6 +7875,8 @@
       {
         "predicateID": "1",
         "locationStart": 1477,
+        "tokenStart": 282,
+        "tokenEnd": 283,
         "locationEnd": 1485,
         "surfaceForm": "document",
         "predicateLemma": "document",
@@ -7638,6 +7884,8 @@
           {
             "argumentID": "1_ARG0",
             "surfaceForm": "the first",
+            "tokenStart": 279,
+            "tokenEnd": 281,
             "locationStart": 1464,
             "locationEnd": 1473,
             "category": "ARG0"
@@ -7645,6 +7893,8 @@
           {
             "argumentID": "1_ARG1",
             "surfaceForm": "microscopic observations of muscle fibers , bacteria , spermatozoa , red blood cells , crystals in gouty tophi",
+            "tokenStart": 283,
+            "tokenEnd": 301,
             "locationStart": 1486,
             "locationEnd": 1592,
             "category": "ARG1"
@@ -7655,6 +7905,8 @@
       {
         "predicateID": "2",
         "locationStart": 1617,
+        "tokenStart": 307,
+        "tokenEnd": 308,
         "locationEnd": 1620,
         "surfaceForm": "see",
         "predicateLemma": "see",
@@ -7662,6 +7914,8 @@
           {
             "argumentID": "2_ARG0",
             "surfaceForm": "the first",
+            "tokenStart": 304,
+            "tokenEnd": 306,
             "locationStart": 1604,
             "locationEnd": 1613,
             "category": "ARG0"
@@ -7669,6 +7923,8 @@
           {
             "argumentID": "2_ARG1",
             "surfaceForm": "blood flow in capillaries",
+            "tokenStart": 308,
+            "tokenEnd": 312,
             "locationStart": 1621,
             "locationEnd": 1646,
             "category": "ARG1"
@@ -7679,6 +7935,8 @@
       {
         "predicateID": "1",
         "locationStart": 1681,
+        "tokenStart": 318,
+        "tokenEnd": 319,
         "locationEnd": 1686,
         "surfaceForm": "write",
         "predicateLemma": "write",
@@ -7686,6 +7944,8 @@
           {
             "argumentID": "1_ARG0",
             "surfaceForm": "van Leeuwenhoek",
+            "tokenStart": 314,
+            "tokenEnd": 316,
             "locationStart": 1657,
             "locationEnd": 1672,
             "category": "ARG0"
@@ -7693,6 +7953,8 @@
           {
             "argumentID": "1_ARGM-NEG",
             "surfaceForm": "not",
+            "tokenStart": 317,
+            "tokenEnd": 318,
             "locationStart": 1677,
             "locationEnd": 1680,
             "category": "ARGM-NEG"
@@ -7700,6 +7962,8 @@
           {
             "argumentID": "1_ARG1",
             "surfaceForm": "any books",
+            "tokenStart": 319,
+            "tokenEnd": 321,
             "locationStart": 1687,
             "locationEnd": 1696,
             "category": "ARG1"
@@ -7710,6 +7974,8 @@
       {
         "predicateID": "2",
         "locationStart": 1701,
+        "tokenStart": 323,
+        "tokenEnd": 324,
         "locationEnd": 1710,
         "surfaceForm": "described",
         "predicateLemma": "describe",
@@ -7717,6 +7983,8 @@
           {
             "argumentID": "2_ARGM-ADV",
             "surfaceForm": "Although van Leeuwenhoek did not write any books",
+            "tokenStart": 313,
+            "tokenEnd": 321,
             "locationStart": 1648,
             "locationEnd": 1696,
             "category": "ARGM-ADV"
@@ -7724,6 +7992,8 @@
           {
             "argumentID": "2_ARG0",
             "surfaceForm": "he",
+            "tokenStart": 322,
+            "tokenEnd": 323,
             "locationStart": 1698,
             "locationEnd": 1700,
             "category": "ARG0"
@@ -7731,6 +8001,8 @@
           {
             "argumentID": "2_ARG1",
             "surfaceForm": "his discoveries",
+            "tokenStart": 324,
+            "tokenEnd": 326,
             "locationStart": 1711,
             "locationEnd": 1726,
             "category": "ARG1"
@@ -7738,6 +8010,8 @@
           {
             "argumentID": "2_ARGM-LOC",
             "surfaceForm": "in letters to the Royal Society , which published many of his letters , and to persons in several European countries",
+            "tokenStart": 326,
+            "tokenEnd": 347,
             "locationStart": 1727,
             "locationEnd": 1841,
             "category": "ARGM-LOC"
@@ -7748,6 +8022,8 @@
       {
         "predicateID": "3",
         "locationStart": 1766,
+        "tokenStart": 334,
+        "tokenEnd": 335,
         "locationEnd": 1775,
         "surfaceForm": "published",
         "predicateLemma": "publish",
@@ -7755,6 +8031,8 @@
           {
             "argumentID": "3_ARG0",
             "surfaceForm": "the Royal Society",
+            "tokenStart": 329,
+            "tokenEnd": 332,
             "locationStart": 1741,
             "locationEnd": 1758,
             "category": "ARG0"
@@ -7762,6 +8040,8 @@
           {
             "argumentID": "3_R-ARG0",
             "surfaceForm": "which",
+            "tokenStart": 333,
+            "tokenEnd": 334,
             "locationStart": 1760,
             "locationEnd": 1765,
             "category": "R-ARG0"
@@ -7769,6 +8049,8 @@
           {
             "argumentID": "3_ARG1",
             "surfaceForm": "many of his letters",
+            "tokenStart": 335,
+            "tokenEnd": 339,
             "locationStart": 1776,
             "locationEnd": 1795,
             "category": "ARG1"
@@ -7776,6 +8058,248 @@
         ],
         "method": "allennlp_2.9.0"
       }
-    ]
+    ],
+    "coreference": {
+      "0": [
+        {
+          "ID": "0_0",
+          "surfaceForm": "Dutch",
+          "locationStart": 158,
+          "locationEnd": 163,
+          "tokenStart": 40,
+          "tokenEnd": 41,
+          "method": "allennlp_2.9.0"
+        },
+        {
+          "ID": "0_1",
+          "surfaceForm": "Dutch",
+          "locationStart": 217,
+          "locationEnd": 222,
+          "tokenStart": 49,
+          "tokenEnd": 50,
+          "method": "allennlp_2.9.0"
+        },
+        {
+          "ID": "0_2",
+          "surfaceForm": "Dutch",
+          "locationStart": 899,
+          "locationEnd": 904,
+          "tokenStart": 173,
+          "tokenEnd": 174,
+          "method": "allennlp_2.9.0"
+        }
+      ],
+      "1": [
+        {
+          "ID": "1_0",
+          "surfaceForm": "A largely self - taught man in science",
+          "locationStart": 247,
+          "locationEnd": 283,
+          "tokenStart": 54,
+          "tokenEnd": 62,
+          "method": "allennlp_2.9.0"
+        },
+        {
+          "ID": "1_1",
+          "surfaceForm": "he",
+          "locationStart": 285,
+          "locationEnd": 287,
+          "tokenStart": 63,
+          "tokenEnd": 64,
+          "method": "allennlp_2.9.0"
+        },
+        {
+          "ID": "1_2",
+          "surfaceForm": "Van Leeuwenhoek",
+          "locationStart": 398,
+          "locationEnd": 413,
+          "tokenStart": 84,
+          "tokenEnd": 86,
+          "method": "allennlp_2.9.0"
+        },
+        {
+          "ID": "1_3",
+          "surfaceForm": "his",
+          "locationStart": 432,
+          "locationEnd": 435,
+          "tokenStart": 90,
+          "tokenEnd": 91,
+          "method": "allennlp_2.9.0"
+        },
+        {
+          "ID": "1_4",
+          "surfaceForm": "his",
+          "locationStart": 474,
+          "locationEnd": 477,
+          "tokenStart": 97,
+          "tokenEnd": 98,
+          "method": "allennlp_2.9.0"
+        },
+        {
+          "ID": "1_5",
+          "surfaceForm": "van Leeuwenhoek",
+          "locationStart": 594,
+          "locationEnd": 609,
+          "tokenStart": 116,
+          "tokenEnd": 118,
+          "method": "allennlp_2.9.0"
+        },
+        {
+          "ID": "1_6",
+          "surfaceForm": "his",
+          "locationStart": 632,
+          "locationEnd": 635,
+          "tokenStart": 123,
+          "tokenEnd": 124,
+          "method": "allennlp_2.9.0"
+        },
+        {
+          "ID": "1_7",
+          "surfaceForm": "his",
+          "locationStart": 654,
+          "locationEnd": 657,
+          "tokenStart": 127,
+          "tokenEnd": 128,
+          "method": "allennlp_2.9.0"
+        },
+        {
+          "ID": "1_8",
+          "surfaceForm": "He",
+          "locationStart": 676,
+          "locationEnd": 678,
+          "tokenStart": 133,
+          "tokenEnd": 134,
+          "method": "allennlp_2.9.0"
+        },
+        {
+          "ID": "1_9",
+          "surfaceForm": "he",
+          "locationStart": 779,
+          "locationEnd": 781,
+          "tokenStart": 151,
+          "tokenEnd": 152,
+          "method": "allennlp_2.9.0"
+        },
+        {
+          "ID": "1_10",
+          "surfaceForm": "his",
+          "locationStart": 821,
+          "locationEnd": 824,
+          "tokenStart": 158,
+          "tokenEnd": 159,
+          "method": "allennlp_2.9.0"
+        },
+        {
+          "ID": "1_11",
+          "surfaceForm": "his",
+          "locationStart": 984,
+          "locationEnd": 987,
+          "tokenStart": 188,
+          "tokenEnd": 189,
+          "method": "allennlp_2.9.0"
+        },
+        {
+          "ID": "1_12",
+          "surfaceForm": "van Leeuwenhoek",
+          "locationStart": 1009,
+          "locationEnd": 1024,
+          "tokenStart": 194,
+          "tokenEnd": 196,
+          "method": "allennlp_2.9.0"
+        },
+        {
+          "ID": "1_13",
+          "surfaceForm": "he",
+          "locationStart": 1089,
+          "locationEnd": 1091,
+          "tokenStart": 208,
+          "tokenEnd": 209,
+          "method": "allennlp_2.9.0"
+        },
+        {
+          "ID": "1_14",
+          "surfaceForm": "He",
+          "locationStart": 1265,
+          "locationEnd": 1267,
+          "tokenStart": 243,
+          "tokenEnd": 244,
+          "method": "allennlp_2.9.0"
+        },
+        {
+          "ID": "1_15",
+          "surfaceForm": "he",
+          "locationStart": 1401,
+          "locationEnd": 1403,
+          "tokenStart": 268,
+          "tokenEnd": 269,
+          "method": "allennlp_2.9.0"
+        },
+        {
+          "ID": "1_16",
+          "surfaceForm": "He",
+          "locationStart": 1452,
+          "locationEnd": 1454,
+          "tokenStart": 276,
+          "tokenEnd": 277,
+          "method": "allennlp_2.9.0"
+        },
+        {
+          "ID": "1_17",
+          "surfaceForm": "van Leeuwenhoek",
+          "locationStart": 1657,
+          "locationEnd": 1672,
+          "tokenStart": 314,
+          "tokenEnd": 316,
+          "method": "allennlp_2.9.0"
+        },
+        {
+          "ID": "1_18",
+          "surfaceForm": "he",
+          "locationStart": 1698,
+          "locationEnd": 1700,
+          "tokenStart": 322,
+          "tokenEnd": 323,
+          "method": "allennlp_2.9.0"
+        },
+        {
+          "ID": "1_19",
+          "surfaceForm": "his",
+          "locationStart": 1711,
+          "locationEnd": 1714,
+          "tokenStart": 324,
+          "tokenEnd": 325,
+          "method": "allennlp_2.9.0"
+        },
+        {
+          "ID": "1_20",
+          "surfaceForm": "his",
+          "locationStart": 1784,
+          "locationEnd": 1787,
+          "tokenStart": 337,
+          "tokenEnd": 338,
+          "method": "allennlp_2.9.0"
+        }
+      ],
+      "2": [
+        {
+          "ID": "2_0",
+          "surfaceForm": "started",
+          "locationStart": 782,
+          "locationEnd": 789,
+          "tokenStart": 152,
+          "tokenEnd": 153,
+          "method": "allennlp_2.9.0"
+        },
+        {
+          "ID": "2_1",
+          "surfaceForm": "This",
+          "locationStart": 837,
+          "locationEnd": 841,
+          "tokenStart": 161,
+          "tokenEnd": 162,
+          "method": "allennlp_2.9.0"
+        }
+      ]
+    }
   }
 }

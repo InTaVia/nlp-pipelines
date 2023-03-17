@@ -15,7 +15,7 @@
             "UPOS": "PROPN",
             "XPOS": "NNP",
             "HEAD": 2,
-            "DEPREL": "nmod",
+            "DEPREL": "compound",
             "DEPS": null,
             "MISC": {
               "SpaceAfter": true,
@@ -30,19 +30,17 @@
             "ID": 1,
             "FORM": "de",
             "LEMMA": "de",
-            "UPOS": "PROPN",
-            "XPOS": "NNP",
+            "UPOS": "ADP",
+            "XPOS": "IN",
             "HEAD": 2,
-            "DEPREL": "compound",
+            "DEPREL": "nmod",
             "DEPS": null,
             "MISC": {
               "SpaceAfter": true,
               "StartChar": 6,
               "EndChar": 8
             },
-            "FEATS": {
-              "Number": "Sing"
-            }
+            "FEATS": {}
           },
           {
             "ID": 2,
@@ -123,7 +121,7 @@
             "LEMMA": ":",
             "UPOS": "PUNCT",
             "XPOS": ":",
-            "HEAD": 5,
+            "HEAD": 2,
             "DEPREL": "punct",
             "DEPS": null,
             "MISC": {
@@ -137,25 +135,28 @@
             "ID": 7,
             "FORM": "[",
             "LEMMA": "[",
-            "UPOS": "X",
-            "XPOS": "XX",
-            "HEAD": 5,
-            "DEPREL": "appos",
+            "UPOS": "PUNCT",
+            "XPOS": "-LRB-",
+            "HEAD": 10,
+            "DEPREL": "punct",
             "DEPS": null,
             "MISC": {
               "SpaceAfter": false,
               "StartChar": 36,
               "EndChar": 37
             },
-            "FEATS": {}
+            "FEATS": {
+              "PunctSide": "Ini",
+              "PunctType": "Brck"
+            }
           },
           {
             "ID": 8,
             "FORM": "\u02c8jo\u02d0\u0266\u0251n",
             "LEMMA": "\u02c8jo\u02d0\u0266\u0251n",
-            "UPOS": "X",
-            "XPOS": "FW",
-            "HEAD": 5,
+            "UPOS": "NOUN",
+            "XPOS": "NNS",
+            "HEAD": 10,
             "DEPREL": "nmod",
             "DEPS": null,
             "MISC": {
@@ -164,7 +165,7 @@
               "EndChar": 44
             },
             "FEATS": {
-              "Foreign": "Yes"
+              "Number": "Plur"
             }
           },
           {
@@ -173,8 +174,8 @@
             "LEMMA": "d\u0259",
             "UPOS": "X",
             "XPOS": "FW",
-            "HEAD": 5,
-            "DEPREL": "nmod",
+            "HEAD": 8,
+            "DEPREL": "intj",
             "DEPS": null,
             "MISC": {
               "SpaceAfter": true,
@@ -189,9 +190,9 @@
             "ID": 10,
             "FORM": "\u02c8\u028b\u026at",
             "LEMMA": "\u02c8\u028b\u026at",
-            "UPOS": "X",
-            "XPOS": "FW",
-            "HEAD": 5,
+            "UPOS": "PROPN",
+            "XPOS": "NNP",
+            "HEAD": 2,
             "DEPREL": "appos",
             "DEPS": null,
             "MISC": {
@@ -200,7 +201,7 @@
               "EndChar": 52
             },
             "FEATS": {
-              "Foreign": "Yes"
+              "Number": "Sing"
             }
           },
           {
@@ -208,8 +209,8 @@
             "FORM": "]",
             "LEMMA": "]",
             "UPOS": "PUNCT",
-            "XPOS": ":",
-            "HEAD": 5,
+            "XPOS": "-RRB-",
+            "HEAD": 10,
             "DEPREL": "punct",
             "DEPS": null,
             "MISC": {
@@ -217,7 +218,10 @@
               "StartChar": 52,
               "EndChar": 53
             },
-            "FEATS": {}
+            "FEATS": {
+              "PunctSide": "Fin",
+              "PunctType": "Brck"
+            }
           },
           {
             "ID": 12,
@@ -225,7 +229,7 @@
             "LEMMA": ";",
             "UPOS": "PUNCT",
             "XPOS": ":",
-            "HEAD": 5,
+            "HEAD": 2,
             "DEPREL": "punct",
             "DEPS": null,
             "MISC": {
@@ -259,8 +263,8 @@
             "LEMMA": "September",
             "UPOS": "PROPN",
             "XPOS": "NNP",
-            "HEAD": 5,
-            "DEPREL": "appos",
+            "HEAD": 2,
+            "DEPREL": "npadvmod",
             "DEPS": null,
             "MISC": {
               "SpaceAfter": true,
@@ -294,8 +298,8 @@
             "FORM": "\u2013",
             "LEMMA": "\u2013",
             "UPOS": "PUNCT",
-            "XPOS": "``",
-            "HEAD": 2,
+            "XPOS": ":",
+            "HEAD": 14,
             "DEPREL": "punct",
             "DEPS": null,
             "MISC": {
@@ -303,10 +307,7 @@
               "StartChar": 73,
               "EndChar": 74
             },
-            "FEATS": {
-              "PunctSide": "Ini",
-              "PunctType": "Quot"
-            }
+            "FEATS": {}
           },
           {
             "ID": 17,
@@ -314,7 +315,7 @@
             "LEMMA": "20",
             "UPOS": "NUM",
             "XPOS": "CD",
-            "HEAD": 18,
+            "HEAD": 14,
             "DEPREL": "nummod",
             "DEPS": null,
             "MISC": {
@@ -329,10 +330,10 @@
           {
             "ID": 18,
             "FORM": "August",
-            "LEMMA": "august",
-            "UPOS": "NOUN",
-            "XPOS": "NN",
-            "HEAD": 16,
+            "LEMMA": "August",
+            "UPOS": "PROPN",
+            "XPOS": "NNP",
+            "HEAD": 14,
             "DEPREL": "npadvmod",
             "DEPS": null,
             "MISC": {
@@ -368,7 +369,7 @@
             "LEMMA": ")",
             "UPOS": "PUNCT",
             "XPOS": "-RRB-",
-            "HEAD": 2,
+            "HEAD": 14,
             "DEPREL": "punct",
             "DEPS": null,
             "MISC": {
@@ -386,8 +387,8 @@
             "FORM": ",",
             "LEMMA": ",",
             "UPOS": "PUNCT",
-            "XPOS": "-RRB-",
-            "HEAD": 2,
+            "XPOS": ",",
+            "HEAD": 14,
             "DEPREL": "punct",
             "DEPS": null,
             "MISC": {
@@ -396,17 +397,16 @@
               "EndChar": 91
             },
             "FEATS": {
-              "PunctSide": "Fin",
-              "PunctType": "Brck"
+              "PunctType": "Comm"
             }
           },
           {
             "ID": 22,
             "FORM": "lord",
             "LEMMA": "lord",
-            "UPOS": "NOUN",
-            "XPOS": "NN",
-            "HEAD": 2,
+            "UPOS": "PROPN",
+            "XPOS": "NNP",
+            "HEAD": 14,
             "DEPREL": "appos",
             "DEPS": null,
             "MISC": {
@@ -456,19 +456,17 @@
             "ID": 25,
             "FORM": "en",
             "LEMMA": "en",
-            "UPOS": "X",
-            "XPOS": "FW",
-            "HEAD": 28,
-            "DEPREL": "compound",
+            "UPOS": "ADP",
+            "XPOS": "IN",
+            "HEAD": 24,
+            "DEPREL": "prep",
             "DEPS": null,
             "MISC": {
               "SpaceAfter": true,
               "StartChar": 106,
               "EndChar": 108
             },
-            "FEATS": {
-              "Foreign": "Yes"
-            }
+            "FEATS": {}
           },
           {
             "ID": 26,
@@ -512,8 +510,8 @@
             "LEMMA": "Linschoten",
             "UPOS": "PROPN",
             "XPOS": "NNP",
-            "HEAD": 24,
-            "DEPREL": "appos",
+            "HEAD": 23,
+            "DEPREL": "pobj",
             "DEPS": null,
             "MISC": {
               "SpaceAfter": false,
@@ -549,7 +547,7 @@
             "UPOS": "PROPN",
             "XPOS": "NNP",
             "HEAD": 28,
-            "DEPREL": "appos",
+            "DEPREL": "conj",
             "DEPS": null,
             "MISC": {
               "SpaceAfter": false,
@@ -566,7 +564,7 @@
             "LEMMA": ",",
             "UPOS": "PUNCT",
             "XPOS": ",",
-            "HEAD": 28,
+            "HEAD": 30,
             "DEPREL": "punct",
             "DEPS": null,
             "MISC": {
@@ -584,8 +582,8 @@
             "LEMMA": "Hekendorp",
             "UPOS": "PROPN",
             "XPOS": "NNP",
-            "HEAD": 24,
-            "DEPREL": "npadvmod",
+            "HEAD": 30,
+            "DEPREL": "conj",
             "DEPS": null,
             "MISC": {
               "SpaceAfter": true,
@@ -600,19 +598,17 @@
             "ID": 33,
             "FORM": "en",
             "LEMMA": "en",
-            "UPOS": "X",
-            "XPOS": "FW",
-            "HEAD": 34,
-            "DEPREL": "nmod",
+            "UPOS": "ADP",
+            "XPOS": "IN",
+            "HEAD": 32,
+            "DEPREL": "prep",
             "DEPS": null,
             "MISC": {
               "SpaceAfter": true,
               "StartChar": 150,
               "EndChar": 152
             },
-            "FEATS": {
-              "Foreign": "Yes"
-            }
+            "FEATS": {}
           },
           {
             "ID": 34,
@@ -620,8 +616,8 @@
             "LEMMA": "IJsselvere",
             "UPOS": "PROPN",
             "XPOS": "NNP",
-            "HEAD": 32,
-            "DEPREL": "appos",
+            "HEAD": 33,
+            "DEPREL": "pobj",
             "DEPS": null,
             "MISC": {
               "SpaceAfter": false,
@@ -638,7 +634,7 @@
             "LEMMA": ",",
             "UPOS": "PUNCT",
             "XPOS": ",",
-            "HEAD": 2,
+            "HEAD": 28,
             "DEPREL": "punct",
             "DEPS": null,
             "MISC": {
@@ -895,7 +891,7 @@
             "LEMMA": "in",
             "UPOS": "ADP",
             "XPOS": "IN",
-            "HEAD": 36,
+            "HEAD": 44,
             "DEPREL": "prep",
             "DEPS": null,
             "MISC": {
@@ -928,8 +924,8 @@
             "ID": 51,
             "FORM": "mid-17th",
             "LEMMA": "mid-17th",
-            "UPOS": "ADJ",
-            "XPOS": "JJ",
+            "UPOS": "NUM",
+            "XPOS": "CD",
             "HEAD": 52,
             "DEPREL": "amod",
             "DEPS": null,
@@ -939,7 +935,7 @@
               "EndChar": 253
             },
             "FEATS": {
-              "Degree": "Pos"
+              "NumType": "Card"
             }
           },
           {
@@ -966,7 +962,7 @@
             "LEMMA": ",",
             "UPOS": "PUNCT",
             "XPOS": ",",
-            "HEAD": 52,
+            "HEAD": 39,
             "DEPREL": "punct",
             "DEPS": null,
             "MISC": {
@@ -1000,11 +996,11 @@
           {
             "ID": 55,
             "FORM": "First",
-            "LEMMA": "first",
-            "UPOS": "ADJ",
-            "XPOS": "JJ",
+            "LEMMA": "First",
+            "UPOS": "PROPN",
+            "XPOS": "NNP",
             "HEAD": 57,
-            "DEPREL": "amod",
+            "DEPREL": "compound",
             "DEPS": null,
             "MISC": {
               "SpaceAfter": true,
@@ -1012,7 +1008,7 @@
               "EndChar": 272
             },
             "FEATS": {
-              "Degree": "Pos"
+              "Number": "Sing"
             }
           },
           {
@@ -1039,7 +1035,7 @@
             "LEMMA": "Period",
             "UPOS": "PROPN",
             "XPOS": "NNP",
-            "HEAD": 52,
+            "HEAD": 39,
             "DEPREL": "appos",
             "DEPS": null,
             "MISC": {
@@ -1351,7 +1347,7 @@
             "LEMMA": "european",
             "UPOS": "ADJ",
             "XPOS": "JJ",
-            "HEAD": 78,
+            "HEAD": 75,
             "DEPREL": "amod",
             "DEPS": null,
             "MISC": {
@@ -1366,11 +1362,11 @@
           {
             "ID": 75,
             "FORM": "trading",
-            "LEMMA": "trade",
-            "UPOS": "VERB",
-            "XPOS": "VBG",
+            "LEMMA": "trading",
+            "UPOS": "NOUN",
+            "XPOS": "NN",
             "HEAD": 78,
-            "DEPREL": "amod",
+            "DEPREL": "nmod",
             "DEPS": null,
             "MISC": {
               "SpaceAfter": true,
@@ -1378,9 +1374,7 @@
               "EndChar": 401
             },
             "FEATS": {
-              "Aspect": "Prog",
-              "Tense": "Pres",
-              "VerbForm": "Part"
+              "Number": "Sing"
             }
           },
           {
@@ -1444,7 +1438,7 @@
             "FORM": "\u2013",
             "LEMMA": "\u2013",
             "UPOS": "PUNCT",
-            "XPOS": "``",
+            "XPOS": ":",
             "HEAD": 36,
             "DEPREL": "punct",
             "DEPS": null,
@@ -1453,10 +1447,7 @@
               "StartChar": 422,
               "EndChar": 423
             },
-            "FEATS": {
-              "PunctSide": "Ini",
-              "PunctType": "Quot"
-            }
+            "FEATS": {}
           },
           {
             "ID": 80,
@@ -1496,8 +1487,8 @@
             "LEMMA": "refer",
             "UPOS": "VERB",
             "XPOS": "VBN",
-            "HEAD": 79,
-            "DEPREL": "acl",
+            "HEAD": 36,
+            "DEPREL": "dep",
             "DEPS": null,
             "MISC": {
               "SpaceAfter": true,
@@ -1532,7 +1523,7 @@
             "LEMMA": "as",
             "UPOS": "ADP",
             "XPOS": "IN",
-            "HEAD": 83,
+            "HEAD": 82,
             "DEPREL": "prep",
             "DEPS": null,
             "MISC": {
@@ -1638,7 +1629,7 @@
       {
         "paragraph": null,
         "sentence": 1,
-        "text": "De Witt controlled the Dutch political system from around 1650 until shortly before his murder and cannibalisation by a pro - Orangist mob in 1672.As",
+        "text": "De Witt controlled the Dutch political system from around 1650 until shortly before his murder and cannibalisation by a pro - Orangist mob in 1672.As a leading republican of the Dutch States Party , de Witt opposed the House of Orange - Nassau and the Orangists and preferred a shift of power from the central government to the regenten .",
         "words": [
           {
             "ID": 90,
@@ -1824,7 +1815,7 @@
             "LEMMA": "until",
             "UPOS": "ADP",
             "XPOS": "IN",
-            "HEAD": 97,
+            "HEAD": 92,
             "DEPREL": "prep",
             "DEPS": null,
             "MISC": {
@@ -1857,7 +1848,7 @@
             "UPOS": "ADP",
             "XPOS": "IN",
             "HEAD": 100,
-            "DEPREL": "pcomp",
+            "DEPREL": "prep",
             "DEPS": null,
             "MISC": {
               "SpaceAfter": true,
@@ -2071,8 +2062,8 @@
             "LEMMA": "1672.as",
             "UPOS": "NUM",
             "XPOS": "CD",
-            "HEAD": 92,
-            "DEPREL": "prep",
+            "HEAD": 113,
+            "DEPREL": "pobj",
             "DEPS": null,
             "MISC": {
               "SpaceAfter": true,
@@ -2082,14 +2073,7 @@
             "FEATS": {
               "NumType": "Card"
             }
-          }
-        ]
-      },
-      {
-        "paragraph": null,
-        "sentence": 2,
-        "text": "a leading republican of the Dutch States Party",
-        "words": [
+          },
           {
             "ID": 115,
             "FORM": "a",
@@ -2135,8 +2119,8 @@
             "LEMMA": "republican",
             "UPOS": "NOUN",
             "XPOS": "NN",
-            "HEAD": 117,
-            "DEPREL": "ROOT",
+            "HEAD": 100,
+            "DEPREL": "pobj",
             "DEPS": null,
             "MISC": {
               "SpaceAfter": true,
@@ -2188,7 +2172,7 @@
             "LEMMA": "Dutch",
             "UPOS": "PROPN",
             "XPOS": "NNP",
-            "HEAD": 122,
+            "HEAD": 121,
             "DEPREL": "compound",
             "DEPS": null,
             "MISC": {
@@ -2205,7 +2189,7 @@
             "FORM": "States",
             "LEMMA": "States",
             "UPOS": "PROPN",
-            "XPOS": "NNPS",
+            "XPOS": "NNP",
             "HEAD": 122,
             "DEPREL": "compound",
             "DEPS": null,
@@ -2215,7 +2199,7 @@
               "EndChar": 662
             },
             "FEATS": {
-              "Number": "Plur"
+              "Number": "Sing"
             }
           },
           {
@@ -2235,21 +2219,14 @@
             "FEATS": {
               "Number": "Sing"
             }
-          }
-        ]
-      },
-      {
-        "paragraph": null,
-        "sentence": 3,
-        "text": ", de Witt opposed the House of Orange - Nassau and the Orangists and preferred a shift of power from the central government to the regenten .",
-        "words": [
+          },
           {
             "ID": 123,
             "FORM": ",",
             "LEMMA": ",",
             "UPOS": "PUNCT",
             "XPOS": ",",
-            "HEAD": 126,
+            "HEAD": 117,
             "DEPREL": "punct",
             "DEPS": null,
             "MISC": {
@@ -2285,8 +2262,8 @@
             "LEMMA": "Witt",
             "UPOS": "PROPN",
             "XPOS": "NNP",
-            "HEAD": 126,
-            "DEPREL": "nsubj",
+            "HEAD": 117,
+            "DEPREL": "appos",
             "DEPS": null,
             "MISC": {
               "SpaceAfter": true,
@@ -2303,8 +2280,8 @@
             "LEMMA": "oppose",
             "UPOS": "VERB",
             "XPOS": "VBD",
-            "HEAD": 126,
-            "DEPREL": "ROOT",
+            "HEAD": 92,
+            "DEPREL": "conj",
             "DEPS": null,
             "MISC": {
               "SpaceAfter": true,
@@ -2429,7 +2406,7 @@
             "LEMMA": "and",
             "UPOS": "CCONJ",
             "XPOS": "CC",
-            "HEAD": 128,
+            "HEAD": 132,
             "DEPREL": "cc",
             "DEPS": null,
             "MISC": {
@@ -2466,7 +2443,7 @@
             "LEMMA": "Orangists",
             "UPOS": "PROPN",
             "XPOS": "NNPS",
-            "HEAD": 128,
+            "HEAD": 132,
             "DEPREL": "conj",
             "DEPS": null,
             "MISC": {
@@ -2663,7 +2640,7 @@
             "LEMMA": "to",
             "UPOS": "ADP",
             "XPOS": "IN",
-            "HEAD": 139,
+            "HEAD": 137,
             "DEPREL": "prep",
             "DEPS": null,
             "MISC": {
@@ -2716,7 +2693,7 @@
             "LEMMA": ".",
             "UPOS": "PUNCT",
             "XPOS": ".",
-            "HEAD": 126,
+            "HEAD": 92,
             "DEPREL": "punct",
             "DEPS": null,
             "MISC": {
@@ -2732,7 +2709,7 @@
       },
       {
         "paragraph": null,
-        "sentence": 4,
+        "sentence": 2,
         "text": "However , his neglect of the Dutch army ( as the regents focused only on merchant vessels , thinking they could avoid war ) proved disastrous when the Dutch Republic suffered numerous early defeats in the Rampjaar ( 1672 ) .",
         "words": [
           {
@@ -2886,7 +2863,7 @@
             "LEMMA": "(",
             "UPOS": "PUNCT",
             "XPOS": "-LRB-",
-            "HEAD": 162,
+            "HEAD": 153,
             "DEPREL": "punct",
             "DEPS": null,
             "MISC": {
@@ -2959,7 +2936,7 @@
             "UPOS": "VERB",
             "XPOS": "VBD",
             "HEAD": 153,
-            "DEPREL": "parataxis",
+            "DEPREL": "advcl",
             "DEPS": null,
             "MISC": {
               "SpaceAfter": true,
@@ -3045,7 +3022,7 @@
             "LEMMA": ",",
             "UPOS": "PUNCT",
             "XPOS": ",",
-            "HEAD": 162,
+            "HEAD": 153,
             "DEPREL": "punct",
             "DEPS": null,
             "MISC": {
@@ -3063,8 +3040,8 @@
             "LEMMA": "think",
             "UPOS": "VERB",
             "XPOS": "VBG",
-            "HEAD": 162,
-            "DEPREL": "advcl",
+            "HEAD": 153,
+            "DEPREL": "acl",
             "DEPS": null,
             "MISC": {
               "SpaceAfter": true,
@@ -3158,7 +3135,7 @@
             "LEMMA": ")",
             "UPOS": "PUNCT",
             "XPOS": "-RRB-",
-            "HEAD": 162,
+            "HEAD": 153,
             "DEPREL": "punct",
             "DEPS": null,
             "MISC": {
@@ -3411,7 +3388,7 @@
             "LEMMA": "(",
             "UPOS": "PUNCT",
             "XPOS": "-LRB-",
-            "HEAD": 186,
+            "HEAD": 180,
             "DEPREL": "punct",
             "DEPS": null,
             "MISC": {
@@ -3430,7 +3407,7 @@
             "LEMMA": "1672",
             "UPOS": "NUM",
             "XPOS": "CD",
-            "HEAD": 186,
+            "HEAD": 180,
             "DEPREL": "npadvmod",
             "DEPS": null,
             "MISC": {
@@ -3448,7 +3425,7 @@
             "LEMMA": ")",
             "UPOS": "PUNCT",
             "XPOS": "-RRB-",
-            "HEAD": 186,
+            "HEAD": 180,
             "DEPREL": "punct",
             "DEPS": null,
             "MISC": {
@@ -3466,7 +3443,7 @@
             "FORM": ".",
             "LEMMA": ".",
             "UPOS": "PUNCT",
-            "XPOS": "-RRB-",
+            "XPOS": ".",
             "HEAD": 174,
             "DEPREL": "punct",
             "DEPS": null,
@@ -3476,15 +3453,14 @@
               "EndChar": 1024
             },
             "FEATS": {
-              "PunctSide": "Fin",
-              "PunctType": "Brck"
+              "PunctType": "Peri"
             }
           }
         ]
       },
       {
         "paragraph": null,
-        "sentence": 5,
+        "sentence": 3,
         "text": "In the hysteria that followed the effortless invasion by an alliance of England , France and some German states he and his brother Cornelis de Witt were blamed and lynched in The Hague , with their corpses at least partially eaten by the rioters .",
         "words": [
           {
@@ -3600,10 +3576,10 @@
             "ID": 197,
             "FORM": "effortless",
             "LEMMA": "effortless",
-            "UPOS": "ADJ",
-            "XPOS": "JJ",
+            "UPOS": "NOUN",
+            "XPOS": "NN",
             "HEAD": 198,
-            "DEPREL": "amod",
+            "DEPREL": "compound",
             "DEPS": null,
             "MISC": {
               "SpaceAfter": true,
@@ -3611,7 +3587,7 @@
               "EndChar": 1069
             },
             "FEATS": {
-              "Degree": "Pos"
+              "Number": "Sing"
             }
           },
           {
@@ -3638,7 +3614,7 @@
             "LEMMA": "by",
             "UPOS": "ADP",
             "XPOS": "IN",
-            "HEAD": 198,
+            "HEAD": 195,
             "DEPREL": "prep",
             "DEPS": null,
             "MISC": {
@@ -4112,10 +4088,10 @@
             "ID": 225,
             "FORM": "with",
             "LEMMA": "with",
-            "UPOS": "SCONJ",
+            "UPOS": "ADP",
             "XPOS": "IN",
-            "HEAD": 231,
-            "DEPREL": "mark",
+            "HEAD": 218,
+            "DEPREL": "prep",
             "DEPS": null,
             "MISC": {
               "SpaceAfter": true,
@@ -4151,8 +4127,8 @@
             "LEMMA": "corpse",
             "UPOS": "NOUN",
             "XPOS": "NNS",
-            "HEAD": 231,
-            "DEPREL": "nsubj",
+            "HEAD": 225,
+            "DEPREL": "pobj",
             "DEPS": null,
             "MISC": {
               "SpaceAfter": true,
@@ -4219,8 +4195,8 @@
             "LEMMA": "eat",
             "UPOS": "VERB",
             "XPOS": "VBN",
-            "HEAD": 220,
-            "DEPREL": "conj",
+            "HEAD": 227,
+            "DEPREL": "acl",
             "DEPS": null,
             "MISC": {
               "SpaceAfter": true,
@@ -4308,7 +4284,7 @@
       },
       {
         "paragraph": null,
-        "sentence": 6,
+        "sentence": 4,
         "text": "These cannibals were never prosecuted , and some historians claim William of Orange may have incited them .",
         "words": [
           {
@@ -4666,32 +4642,52 @@
       },
       {
         "ID": null,
-        "surfaceForm": "24 September 1625 \u2013",
-        "category": "DATE",
-        "locationStart": 55,
-        "locationEnd": 74,
-        "tokenStart": 13,
-        "tokenEnd": 17,
+        "surfaceForm": "September 1625",
+        "category": "EVENT",
+        "locationStart": 58,
+        "locationEnd": 72,
+        "tokenStart": 14,
+        "tokenEnd": 16,
         "method": "spacy"
       },
       {
         "ID": null,
-        "surfaceForm": "Zuid- en Noord-Linschoten",
-        "category": "GPE",
-        "locationStart": 100,
+        "surfaceForm": "August 1672",
+        "category": "DATE",
+        "locationStart": 78,
+        "locationEnd": 89,
+        "tokenStart": 18,
+        "tokenEnd": 20,
+        "method": "spacy"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "Noord-Linschoten",
+        "category": "ORG",
+        "locationStart": 109,
         "locationEnd": 125,
-        "tokenStart": 24,
+        "tokenStart": 26,
         "tokenEnd": 29,
         "method": "spacy"
       },
       {
         "ID": null,
-        "surfaceForm": "Hekendorp en IJsselvere",
-        "category": "GPE",
+        "surfaceForm": "Snelrewaard",
+        "category": "ORG",
+        "locationStart": 127,
+        "locationEnd": 138,
+        "tokenStart": 30,
+        "tokenEnd": 31,
+        "method": "spacy"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "Hekendorp",
+        "category": "ORG",
         "locationStart": 140,
-        "locationEnd": 163,
+        "locationEnd": 149,
         "tokenStart": 32,
-        "tokenEnd": 35,
+        "tokenEnd": 33,
         "method": "spacy"
       },
       {
@@ -4726,12 +4722,12 @@
       },
       {
         "ID": null,
-        "surfaceForm": "First",
-        "category": "ORDINAL",
-        "locationStart": 267,
-        "locationEnd": 272,
-        "tokenStart": 55,
-        "tokenEnd": 56,
+        "surfaceForm": "the First Stadtholderless Period",
+        "category": "ORG",
+        "locationStart": 263,
+        "locationEnd": 295,
+        "tokenStart": 54,
+        "tokenEnd": 58,
         "method": "spacy"
       },
       {
@@ -4742,16 +4738,6 @@
         "locationEnd": 393,
         "tokenStart": 74,
         "tokenEnd": 75,
-        "method": "spacy"
-      },
-      {
-        "ID": null,
-        "surfaceForm": "the Dutch Golden Age",
-        "category": "DATE",
-        "locationStart": 452,
-        "locationEnd": 472,
-        "tokenStart": 85,
-        "tokenEnd": 89,
         "method": "spacy"
       },
       {
@@ -4786,6 +4772,26 @@
       },
       {
         "ID": null,
+        "surfaceForm": "1672.As",
+        "category": "CARDINAL",
+        "locationStart": 614,
+        "locationEnd": 621,
+        "tokenStart": 114,
+        "tokenEnd": 115,
+        "method": "spacy"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "republican",
+        "category": "NORP",
+        "locationStart": 632,
+        "locationEnd": 642,
+        "tokenStart": 117,
+        "tokenEnd": 118,
+        "method": "spacy"
+      },
+      {
+        "ID": null,
         "surfaceForm": "the Dutch States Party",
         "category": "ORG",
         "locationStart": 646,
@@ -4806,8 +4812,18 @@
       },
       {
         "ID": null,
-        "surfaceForm": "Orangists",
+        "surfaceForm": "the House of Orange-Nassau",
         "category": "ORG",
+        "locationStart": 686,
+        "locationEnd": 712,
+        "tokenStart": 127,
+        "tokenEnd": 133,
+        "method": "spacy"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "Orangists",
+        "category": "NORP",
         "locationStart": 721,
         "locationEnd": 730,
         "tokenStart": 135,
@@ -4837,7 +4853,7 @@
       {
         "ID": null,
         "surfaceForm": "Rampjaar",
-        "category": "WORK_OF_ART",
+        "category": "ORG",
         "locationStart": 1008,
         "locationEnd": 1016,
         "tokenStart": 186,
@@ -4906,32 +4922,22 @@
       },
       {
         "ID": null,
+        "surfaceForm": "William of Orange",
+        "category": "ORG",
+        "locationStart": 1335,
+        "locationEnd": 1352,
+        "tokenStart": 246,
+        "tokenEnd": 249,
+        "method": "spacy"
+      },
+      {
+        "ID": null,
         "surfaceForm": "Dutch Golden Age",
         "category": "MISC",
         "locationStart": 456,
         "locationEnd": 472,
         "tokenStart": 86,
         "tokenEnd": 89,
-        "method": "allennlp_2.9.0"
-      },
-      {
-        "ID": null,
-        "surfaceForm": "Orangist",
-        "category": "ORG",
-        "locationStart": 598,
-        "locationEnd": 606,
-        "tokenStart": 111,
-        "tokenEnd": 112,
-        "method": "allennlp_2.9.0"
-      },
-      {
-        "ID": null,
-        "surfaceForm": "Orangist",
-        "category": "ORG",
-        "locationStart": 598,
-        "locationEnd": 606,
-        "tokenStart": 111,
-        "tokenEnd": 112,
         "method": "allennlp_2.9.0"
       },
       {
@@ -4977,7 +4983,7 @@
     ],
     "time_expressions": [
       {
-        "ID": "t3",
+        "ID": "t7",
         "category": "DATE",
         "value": "1625-09-24",
         "surfaceForm": "24 September 1625",
@@ -4986,7 +4992,7 @@
         "method": "HeidelTime"
       },
       {
-        "ID": "t9",
+        "ID": "t8",
         "category": "DATE",
         "value": "1672-08-20",
         "surfaceForm": "20 August 1672",
@@ -4995,7 +5001,7 @@
         "method": "HeidelTime"
       },
       {
-        "ID": "t7",
+        "ID": "t4",
         "category": "DATE",
         "value": "16",
         "surfaceForm": "17th century",
@@ -5004,7 +5010,7 @@
         "method": "HeidelTime"
       },
       {
-        "ID": "t12",
+        "ID": "t11",
         "category": "DATE",
         "value": "PRESENT_REF",
         "surfaceForm": "now",
@@ -5013,7 +5019,7 @@
         "method": "HeidelTime"
       },
       {
-        "ID": "t13",
+        "ID": "t14",
         "category": "DATE",
         "value": "1650",
         "surfaceForm": "1650",
@@ -5022,7 +5028,7 @@
         "method": "HeidelTime"
       },
       {
-        "ID": "t14",
+        "ID": "t15",
         "category": "DATE",
         "value": "1672",
         "surfaceForm": "1672",
@@ -5031,7 +5037,7 @@
         "method": "HeidelTime"
       },
       {
-        "ID": "t15",
+        "ID": "t16",
         "category": "DATE",
         "value": "1672",
         "surfaceForm": "1672",
@@ -5044,6 +5050,8 @@
       {
         "predicateID": "0",
         "locationStart": 45,
+        "tokenStart": 9,
+        "tokenEnd": 10,
         "locationEnd": 47,
         "surfaceForm": "d\u0259",
         "predicateLemma": "d\u0259",
@@ -5051,6 +5059,8 @@
           {
             "argumentID": "0_ARG1",
             "surfaceForm": "\u02c8\u028b\u026at ]",
+            "tokenStart": 10,
+            "tokenEnd": 12,
             "locationStart": 48,
             "locationEnd": 53,
             "category": "ARG1"
@@ -5061,6 +5071,8 @@
       {
         "predicateID": "1",
         "locationStart": 165,
+        "tokenStart": 36,
+        "tokenEnd": 37,
         "locationEnd": 168,
         "surfaceForm": "was",
         "predicateLemma": "be",
@@ -5068,6 +5080,8 @@
           {
             "argumentID": "1_ARG1",
             "surfaceForm": "Johan de Witt ( Dutch pronunciation : [ \u02c8jo\u02d0\u0266\u0251n d\u0259 \u02c8\u028b\u026at ] ; 24 September 1625 \u2013 20 August 1672 ) , lord of Zuid- en Noord - Linschoten , Snelrewaard , Hekendorp en IJsselvere",
+            "tokenStart": 0,
+            "tokenEnd": 35,
             "locationStart": 0,
             "locationEnd": 163,
             "category": "ARG1"
@@ -5075,6 +5089,8 @@
           {
             "argumentID": "1_ARG2",
             "surfaceForm": "a Dutch statesman and a major political figure in the Dutch Republic",
+            "tokenStart": 37,
+            "tokenEnd": 49,
             "locationStart": 169,
             "locationEnd": 237,
             "category": "ARG2"
@@ -5082,6 +5098,8 @@
           {
             "argumentID": "1_ARGM-TMP",
             "surfaceForm": "in the mid-17th century , the First Stadtholderless Period , when its flourishing sea trade in a period of globalization made the republic a leading European trading and seafaring power \u2013 now commonly referred to as the Dutch Golden Age",
+            "tokenStart": 49,
+            "tokenEnd": 89,
             "locationStart": 238,
             "locationEnd": 472,
             "category": "ARGM-TMP"
@@ -5092,6 +5110,8 @@
       {
         "predicateID": "2",
         "locationStart": 306,
+        "tokenStart": 61,
+        "tokenEnd": 62,
         "locationEnd": 317,
         "surfaceForm": "flourishing",
         "predicateLemma": "flourish",
@@ -5099,6 +5119,8 @@
           {
             "argumentID": "2_ARG1",
             "surfaceForm": "sea trade",
+            "tokenStart": 62,
+            "tokenEnd": 64,
             "locationStart": 318,
             "locationEnd": 327,
             "category": "ARG1"
@@ -5106,6 +5128,8 @@
           {
             "argumentID": "2_ARGM-TMP",
             "surfaceForm": "in a period of globalization",
+            "tokenStart": 64,
+            "tokenEnd": 69,
             "locationStart": 328,
             "locationEnd": 356,
             "category": "ARGM-TMP"
@@ -5116,6 +5140,8 @@
       {
         "predicateID": "3",
         "locationStart": 357,
+        "tokenStart": 69,
+        "tokenEnd": 70,
         "locationEnd": 361,
         "surfaceForm": "made",
         "predicateLemma": "make",
@@ -5123,6 +5149,8 @@
           {
             "argumentID": "3_ARGM-TMP",
             "surfaceForm": "the First Stadtholderless Period",
+            "tokenStart": 54,
+            "tokenEnd": 58,
             "locationStart": 263,
             "locationEnd": 295,
             "category": "ARGM-TMP"
@@ -5130,6 +5158,8 @@
           {
             "argumentID": "3_R-ARGM-TMP",
             "surfaceForm": "when",
+            "tokenStart": 59,
+            "tokenEnd": 60,
             "locationStart": 297,
             "locationEnd": 301,
             "category": "R-ARGM-TMP"
@@ -5137,6 +5167,8 @@
           {
             "argumentID": "3_ARG0",
             "surfaceForm": "its flourishing sea trade in a period of globalization",
+            "tokenStart": 60,
+            "tokenEnd": 69,
             "locationStart": 302,
             "locationEnd": 356,
             "category": "ARG0"
@@ -5144,6 +5176,8 @@
           {
             "argumentID": "3_ARG1",
             "surfaceForm": "the republic a leading European trading and seafaring power \u2013 now commonly referred to as the Dutch Golden Age",
+            "tokenStart": 70,
+            "tokenEnd": 89,
             "locationStart": 362,
             "locationEnd": 472,
             "category": "ARG1"
@@ -5154,6 +5188,8 @@
       {
         "predicateID": "4",
         "locationStart": 377,
+        "tokenStart": 73,
+        "tokenEnd": 74,
         "locationEnd": 384,
         "surfaceForm": "leading",
         "predicateLemma": "lead",
@@ -5161,6 +5197,8 @@
           {
             "argumentID": "4_ARG0",
             "surfaceForm": "European trading",
+            "tokenStart": 74,
+            "tokenEnd": 76,
             "locationStart": 385,
             "locationEnd": 401,
             "category": "ARG0"
@@ -5168,6 +5206,8 @@
           {
             "argumentID": "4_ARG0",
             "surfaceForm": "power",
+            "tokenStart": 78,
+            "tokenEnd": 79,
             "locationStart": 416,
             "locationEnd": 421,
             "category": "ARG0"
@@ -5178,6 +5218,8 @@
       {
         "predicateID": "5",
         "locationStart": 406,
+        "tokenStart": 77,
+        "tokenEnd": 78,
         "locationEnd": 415,
         "surfaceForm": "seafaring",
         "predicateLemma": "seafare",
@@ -5185,6 +5227,8 @@
           {
             "argumentID": "5_ARG0",
             "surfaceForm": "power",
+            "tokenStart": 78,
+            "tokenEnd": 79,
             "locationStart": 416,
             "locationEnd": 421,
             "category": "ARG0"
@@ -5195,6 +5239,8 @@
       {
         "predicateID": "6",
         "locationStart": 437,
+        "tokenStart": 82,
+        "tokenEnd": 83,
         "locationEnd": 445,
         "surfaceForm": "referred",
         "predicateLemma": "refer",
@@ -5202,6 +5248,8 @@
           {
             "argumentID": "6_ARGM-TMP",
             "surfaceForm": "now",
+            "tokenStart": 80,
+            "tokenEnd": 81,
             "locationStart": 424,
             "locationEnd": 427,
             "category": "ARGM-TMP"
@@ -5209,6 +5257,8 @@
           {
             "argumentID": "6_ARGM-MNR",
             "surfaceForm": "commonly",
+            "tokenStart": 81,
+            "tokenEnd": 82,
             "locationStart": 428,
             "locationEnd": 436,
             "category": "ARGM-MNR"
@@ -5216,6 +5266,8 @@
           {
             "argumentID": "6_ARG1",
             "surfaceForm": "to",
+            "tokenStart": 83,
+            "tokenEnd": 84,
             "locationStart": 446,
             "locationEnd": 448,
             "category": "ARG1"
@@ -5223,6 +5275,8 @@
           {
             "argumentID": "6_ARG2",
             "surfaceForm": "as the Dutch Golden Age",
+            "tokenStart": 84,
+            "tokenEnd": 89,
             "locationStart": 449,
             "locationEnd": 472,
             "category": "ARG2"
@@ -5233,6 +5287,8 @@
       {
         "predicateID": "0",
         "locationStart": 482,
+        "tokenStart": 92,
+        "tokenEnd": 93,
         "locationEnd": 492,
         "surfaceForm": "controlled",
         "predicateLemma": "control",
@@ -5240,6 +5296,8 @@
           {
             "argumentID": "0_ARG0",
             "surfaceForm": "De Witt",
+            "tokenStart": 90,
+            "tokenEnd": 92,
             "locationStart": 474,
             "locationEnd": 481,
             "category": "ARG0"
@@ -5247,6 +5305,8 @@
           {
             "argumentID": "0_ARG1",
             "surfaceForm": "the Dutch political system",
+            "tokenStart": 93,
+            "tokenEnd": 97,
             "locationStart": 493,
             "locationEnd": 519,
             "category": "ARG1"
@@ -5254,23 +5314,38 @@
           {
             "argumentID": "0_ARGM-TMP",
             "surfaceForm": "from around 1650",
+            "tokenStart": 97,
+            "tokenEnd": 100,
             "locationStart": 520,
             "locationEnd": 536,
+            "category": "ARGM-TMP"
+          },
+          {
+            "argumentID": "0_ARGM-TMP",
+            "surfaceForm": "until shortly before his murder and cannibalisation by a pro - Orangist mob in 1672.As a leading republican of the Dutch States Party",
+            "tokenStart": 100,
+            "tokenEnd": 123,
+            "locationStart": 537,
+            "locationEnd": 668,
             "category": "ARGM-TMP"
           }
         ],
         "method": "allennlp_2.9.0"
       },
       {
-        "predicateID": "0",
+        "predicateID": "1",
         "locationStart": 624,
+        "tokenStart": 116,
+        "tokenEnd": 117,
         "locationEnd": 631,
         "surfaceForm": "leading",
         "predicateLemma": "lead",
         "arguments": [
           {
-            "argumentID": "0_ARG0",
+            "argumentID": "1_ARG0",
             "surfaceForm": "republican",
+            "tokenStart": 117,
+            "tokenEnd": 118,
             "locationStart": 632,
             "locationEnd": 642,
             "category": "ARG0"
@@ -5279,22 +5354,37 @@
         "method": "allennlp_2.9.0"
       },
       {
-        "predicateID": "0",
+        "predicateID": "2",
         "locationStart": 678,
+        "tokenStart": 126,
+        "tokenEnd": 127,
         "locationEnd": 685,
         "surfaceForm": "opposed",
         "predicateLemma": "oppose",
         "arguments": [
           {
-            "argumentID": "0_ARG0",
+            "argumentID": "2_ARGM-TMP",
+            "surfaceForm": "murder and cannibalisation by a pro - Orangist mob in 1672.As a",
+            "tokenStart": 104,
+            "tokenEnd": 116,
+            "locationStart": 562,
+            "locationEnd": 623,
+            "category": "ARGM-TMP"
+          },
+          {
+            "argumentID": "2_ARG0",
             "surfaceForm": "de Witt",
+            "tokenStart": 124,
+            "tokenEnd": 126,
             "locationStart": 670,
             "locationEnd": 677,
             "category": "ARG0"
           },
           {
-            "argumentID": "0_ARG1",
+            "argumentID": "2_ARG1",
             "surfaceForm": "the House of Orange - Nassau and the Orangists",
+            "tokenStart": 127,
+            "tokenEnd": 136,
             "locationStart": 686,
             "locationEnd": 730,
             "category": "ARG1"
@@ -5303,22 +5393,28 @@
         "method": "allennlp_2.9.0"
       },
       {
-        "predicateID": "1",
+        "predicateID": "3",
         "locationStart": 735,
+        "tokenStart": 137,
+        "tokenEnd": 138,
         "locationEnd": 744,
         "surfaceForm": "preferred",
         "predicateLemma": "prefer",
         "arguments": [
           {
-            "argumentID": "1_ARG0",
+            "argumentID": "3_ARG0",
             "surfaceForm": "de Witt",
+            "tokenStart": 124,
+            "tokenEnd": 126,
             "locationStart": 670,
             "locationEnd": 677,
             "category": "ARG0"
           },
           {
-            "argumentID": "1_ARG1",
+            "argumentID": "3_ARG1",
             "surfaceForm": "a shift of power from the central government to the regenten",
+            "tokenStart": 138,
+            "tokenEnd": 149,
             "locationStart": 745,
             "locationEnd": 805,
             "category": "ARG1"
@@ -5329,6 +5425,8 @@
       {
         "predicateID": "0",
         "locationStart": 862,
+        "tokenStart": 162,
+        "tokenEnd": 163,
         "locationEnd": 869,
         "surfaceForm": "focused",
         "predicateLemma": "focus",
@@ -5336,6 +5434,8 @@
           {
             "argumentID": "0_ARG0",
             "surfaceForm": "the regents",
+            "tokenStart": 160,
+            "tokenEnd": 162,
             "locationStart": 850,
             "locationEnd": 861,
             "category": "ARG0"
@@ -5343,6 +5443,8 @@
           {
             "argumentID": "0_ARG2",
             "surfaceForm": "only on merchant vessels",
+            "tokenStart": 163,
+            "tokenEnd": 167,
             "locationStart": 870,
             "locationEnd": 894,
             "category": "ARG2"
@@ -5350,6 +5452,8 @@
           {
             "argumentID": "0_ARGM-PRD",
             "surfaceForm": "thinking they could avoid war",
+            "tokenStart": 168,
+            "tokenEnd": 173,
             "locationStart": 896,
             "locationEnd": 925,
             "category": "ARGM-PRD"
@@ -5360,6 +5464,8 @@
       {
         "predicateID": "1",
         "locationStart": 896,
+        "tokenStart": 168,
+        "tokenEnd": 169,
         "locationEnd": 904,
         "surfaceForm": "thinking",
         "predicateLemma": "think",
@@ -5367,6 +5473,8 @@
           {
             "argumentID": "1_ARG0",
             "surfaceForm": "the regents",
+            "tokenStart": 160,
+            "tokenEnd": 162,
             "locationStart": 850,
             "locationEnd": 861,
             "category": "ARG0"
@@ -5374,6 +5482,8 @@
           {
             "argumentID": "1_ARG1",
             "surfaceForm": "they could avoid war",
+            "tokenStart": 169,
+            "tokenEnd": 173,
             "locationStart": 905,
             "locationEnd": 925,
             "category": "ARG1"
@@ -5384,6 +5494,8 @@
       {
         "predicateID": "3",
         "locationStart": 916,
+        "tokenStart": 171,
+        "tokenEnd": 172,
         "locationEnd": 921,
         "surfaceForm": "avoid",
         "predicateLemma": "avoid",
@@ -5391,6 +5503,8 @@
           {
             "argumentID": "3_ARG0",
             "surfaceForm": "they",
+            "tokenStart": 169,
+            "tokenEnd": 170,
             "locationStart": 905,
             "locationEnd": 909,
             "category": "ARG0"
@@ -5398,6 +5512,8 @@
           {
             "argumentID": "3_ARGM-MOD",
             "surfaceForm": "could",
+            "tokenStart": 170,
+            "tokenEnd": 171,
             "locationStart": 910,
             "locationEnd": 915,
             "category": "ARGM-MOD"
@@ -5405,6 +5521,8 @@
           {
             "argumentID": "3_ARG1",
             "surfaceForm": "war",
+            "tokenStart": 172,
+            "tokenEnd": 173,
             "locationStart": 922,
             "locationEnd": 925,
             "category": "ARG1"
@@ -5415,6 +5533,8 @@
       {
         "predicateID": "4",
         "locationStart": 927,
+        "tokenStart": 174,
+        "tokenEnd": 175,
         "locationEnd": 933,
         "surfaceForm": "proved",
         "predicateLemma": "prove",
@@ -5422,6 +5542,8 @@
           {
             "argumentID": "4_ARGM-DIS",
             "surfaceForm": "However",
+            "tokenStart": 150,
+            "tokenEnd": 151,
             "locationStart": 807,
             "locationEnd": 814,
             "category": "ARGM-DIS"
@@ -5429,6 +5551,8 @@
           {
             "argumentID": "4_ARG1",
             "surfaceForm": "disastrous",
+            "tokenStart": 175,
+            "tokenEnd": 176,
             "locationStart": 934,
             "locationEnd": 944,
             "category": "ARG1"
@@ -5436,6 +5560,8 @@
           {
             "argumentID": "4_ARGM-TMP",
             "surfaceForm": "when the Dutch Republic suffered numerous early defeats in the Rampjaar ( 1672 )",
+            "tokenStart": 176,
+            "tokenEnd": 190,
             "locationStart": 945,
             "locationEnd": 1023,
             "category": "ARGM-TMP"
@@ -5446,6 +5572,8 @@
       {
         "predicateID": "5",
         "locationStart": 969,
+        "tokenStart": 180,
+        "tokenEnd": 181,
         "locationEnd": 977,
         "surfaceForm": "suffered",
         "predicateLemma": "suffer",
@@ -5453,6 +5581,8 @@
           {
             "argumentID": "5_ARGM-TMP",
             "surfaceForm": "when",
+            "tokenStart": 176,
+            "tokenEnd": 177,
             "locationStart": 945,
             "locationEnd": 949,
             "category": "ARGM-TMP"
@@ -5460,6 +5590,8 @@
           {
             "argumentID": "5_ARG0",
             "surfaceForm": "the Dutch Republic",
+            "tokenStart": 177,
+            "tokenEnd": 180,
             "locationStart": 950,
             "locationEnd": 968,
             "category": "ARG0"
@@ -5467,6 +5599,8 @@
           {
             "argumentID": "5_ARG1",
             "surfaceForm": "numerous early defeats in the Rampjaar ( 1672 )",
+            "tokenStart": 181,
+            "tokenEnd": 190,
             "locationStart": 978,
             "locationEnd": 1023,
             "category": "ARG1"
@@ -5477,6 +5611,8 @@
       {
         "predicateID": "0",
         "locationStart": 1046,
+        "tokenStart": 195,
+        "tokenEnd": 196,
         "locationEnd": 1054,
         "surfaceForm": "followed",
         "predicateLemma": "follow",
@@ -5484,6 +5620,8 @@
           {
             "argumentID": "0_ARG1",
             "surfaceForm": "the hysteria",
+            "tokenStart": 192,
+            "tokenEnd": 194,
             "locationStart": 1028,
             "locationEnd": 1040,
             "category": "ARG1"
@@ -5491,6 +5629,8 @@
           {
             "argumentID": "0_R-ARG1",
             "surfaceForm": "that",
+            "tokenStart": 194,
+            "tokenEnd": 195,
             "locationStart": 1041,
             "locationEnd": 1045,
             "category": "R-ARG1"
@@ -5498,6 +5638,8 @@
           {
             "argumentID": "0_ARG2",
             "surfaceForm": "the effortless invasion by an alliance of England , France and some German states",
+            "tokenStart": 196,
+            "tokenEnd": 210,
             "locationStart": 1055,
             "locationEnd": 1135,
             "category": "ARG2"
@@ -5508,6 +5650,8 @@
       {
         "predicateID": "2",
         "locationStart": 1177,
+        "tokenStart": 218,
+        "tokenEnd": 219,
         "locationEnd": 1183,
         "surfaceForm": "blamed",
         "predicateLemma": "blame",
@@ -5515,6 +5659,8 @@
           {
             "argumentID": "2_ARGM-LOC",
             "surfaceForm": "In the hysteria that followed the effortless invasion by an alliance of England , France and some German states",
+            "tokenStart": 191,
+            "tokenEnd": 210,
             "locationStart": 1025,
             "locationEnd": 1135,
             "category": "ARGM-LOC"
@@ -5522,6 +5668,8 @@
           {
             "argumentID": "2_ARG1",
             "surfaceForm": "he and his brother Cornelis de Witt",
+            "tokenStart": 210,
+            "tokenEnd": 217,
             "locationStart": 1136,
             "locationEnd": 1171,
             "category": "ARG1"
@@ -5529,6 +5677,8 @@
           {
             "argumentID": "2_ARGM-LOC",
             "surfaceForm": "in The Hague",
+            "tokenStart": 221,
+            "tokenEnd": 224,
             "locationStart": 1196,
             "locationEnd": 1208,
             "category": "ARGM-LOC"
@@ -5536,6 +5686,8 @@
           {
             "argumentID": "2_ARGM-MNR",
             "surfaceForm": "with their corpses at least partially eaten by the rioters",
+            "tokenStart": 225,
+            "tokenEnd": 235,
             "locationStart": 1210,
             "locationEnd": 1268,
             "category": "ARGM-MNR"
@@ -5546,6 +5698,8 @@
       {
         "predicateID": "3",
         "locationStart": 1188,
+        "tokenStart": 220,
+        "tokenEnd": 221,
         "locationEnd": 1195,
         "surfaceForm": "lynched",
         "predicateLemma": "lynch",
@@ -5553,6 +5707,8 @@
           {
             "argumentID": "3_ARGM-LOC",
             "surfaceForm": "In the hysteria that followed the effortless invasion by an alliance of England , France and some German states",
+            "tokenStart": 191,
+            "tokenEnd": 210,
             "locationStart": 1025,
             "locationEnd": 1135,
             "category": "ARGM-LOC"
@@ -5560,6 +5716,8 @@
           {
             "argumentID": "3_ARG1",
             "surfaceForm": "he and his brother Cornelis de Witt",
+            "tokenStart": 210,
+            "tokenEnd": 217,
             "locationStart": 1136,
             "locationEnd": 1171,
             "category": "ARG1"
@@ -5567,6 +5725,8 @@
           {
             "argumentID": "3_ARGM-LOC",
             "surfaceForm": "in The Hague",
+            "tokenStart": 221,
+            "tokenEnd": 224,
             "locationStart": 1196,
             "locationEnd": 1208,
             "category": "ARGM-LOC"
@@ -5574,6 +5734,8 @@
           {
             "argumentID": "3_ARGM-MNR",
             "surfaceForm": "with their corpses at least partially eaten by the rioters",
+            "tokenStart": 225,
+            "tokenEnd": 235,
             "locationStart": 1210,
             "locationEnd": 1268,
             "category": "ARGM-MNR"
@@ -5584,6 +5746,8 @@
       {
         "predicateID": "4",
         "locationStart": 1248,
+        "tokenStart": 231,
+        "tokenEnd": 232,
         "locationEnd": 1253,
         "surfaceForm": "eaten",
         "predicateLemma": "eat",
@@ -5591,6 +5755,8 @@
           {
             "argumentID": "4_ARG1",
             "surfaceForm": "their corpses",
+            "tokenStart": 226,
+            "tokenEnd": 228,
             "locationStart": 1215,
             "locationEnd": 1228,
             "category": "ARG1"
@@ -5598,6 +5764,8 @@
           {
             "argumentID": "4_ARGM-EXT",
             "surfaceForm": "at least partially",
+            "tokenStart": 228,
+            "tokenEnd": 231,
             "locationStart": 1229,
             "locationEnd": 1247,
             "category": "ARGM-EXT"
@@ -5605,6 +5773,8 @@
           {
             "argumentID": "4_ARG0",
             "surfaceForm": "by the rioters",
+            "tokenStart": 232,
+            "tokenEnd": 235,
             "locationStart": 1254,
             "locationEnd": 1268,
             "category": "ARG0"
@@ -5615,6 +5785,8 @@
       {
         "predicateID": "1",
         "locationStart": 1297,
+        "tokenStart": 240,
+        "tokenEnd": 241,
         "locationEnd": 1307,
         "surfaceForm": "prosecuted",
         "predicateLemma": "prosecute",
@@ -5622,6 +5794,8 @@
           {
             "argumentID": "1_ARG1",
             "surfaceForm": "These cannibals",
+            "tokenStart": 236,
+            "tokenEnd": 238,
             "locationStart": 1270,
             "locationEnd": 1285,
             "category": "ARG1"
@@ -5629,6 +5803,8 @@
           {
             "argumentID": "1_ARGM-TMP",
             "surfaceForm": "never",
+            "tokenStart": 239,
+            "tokenEnd": 240,
             "locationStart": 1291,
             "locationEnd": 1296,
             "category": "ARGM-TMP"
@@ -5639,6 +5815,8 @@
       {
         "predicateID": "2",
         "locationStart": 1329,
+        "tokenStart": 245,
+        "tokenEnd": 246,
         "locationEnd": 1334,
         "surfaceForm": "claim",
         "predicateLemma": "claim",
@@ -5646,6 +5824,8 @@
           {
             "argumentID": "2_ARG0",
             "surfaceForm": "some historians",
+            "tokenStart": 243,
+            "tokenEnd": 245,
             "locationStart": 1313,
             "locationEnd": 1328,
             "category": "ARG0"
@@ -5653,6 +5833,8 @@
           {
             "argumentID": "2_ARG1",
             "surfaceForm": "William of Orange may have incited them",
+            "tokenStart": 246,
+            "tokenEnd": 253,
             "locationStart": 1335,
             "locationEnd": 1374,
             "category": "ARG1"
@@ -5663,6 +5845,8 @@
       {
         "predicateID": "5",
         "locationStart": 1362,
+        "tokenStart": 251,
+        "tokenEnd": 252,
         "locationEnd": 1369,
         "surfaceForm": "incited",
         "predicateLemma": "incite",
@@ -5670,6 +5854,8 @@
           {
             "argumentID": "5_ARG0",
             "surfaceForm": "William of Orange",
+            "tokenStart": 246,
+            "tokenEnd": 249,
             "locationStart": 1335,
             "locationEnd": 1352,
             "category": "ARG0"
@@ -5677,6 +5863,8 @@
           {
             "argumentID": "5_ARGM-MOD",
             "surfaceForm": "may",
+            "tokenStart": 249,
+            "tokenEnd": 250,
             "locationStart": 1353,
             "locationEnd": 1356,
             "category": "ARGM-MOD"
@@ -5684,6 +5872,8 @@
           {
             "argumentID": "5_ARG1",
             "surfaceForm": "them",
+            "tokenStart": 252,
+            "tokenEnd": 253,
             "locationStart": 1370,
             "locationEnd": 1374,
             "category": "ARG1"
@@ -5691,6 +5881,180 @@
         ],
         "method": "allennlp_2.9.0"
       }
-    ]
+    ],
+    "coreference": {
+      "0": [
+        {
+          "ID": "0_0",
+          "surfaceForm": "the Dutch Republic",
+          "locationStart": 219,
+          "locationEnd": 237,
+          "tokenStart": 46,
+          "tokenEnd": 49,
+          "method": "allennlp_2.9.0"
+        },
+        {
+          "ID": "0_1",
+          "surfaceForm": "its",
+          "locationStart": 302,
+          "locationEnd": 305,
+          "tokenStart": 60,
+          "tokenEnd": 61,
+          "method": "allennlp_2.9.0"
+        },
+        {
+          "ID": "0_2",
+          "surfaceForm": "the republic",
+          "locationStart": 362,
+          "locationEnd": 374,
+          "tokenStart": 70,
+          "tokenEnd": 72,
+          "method": "allennlp_2.9.0"
+        },
+        {
+          "ID": "0_3",
+          "surfaceForm": "the Dutch Republic",
+          "locationStart": 950,
+          "locationEnd": 968,
+          "tokenStart": 177,
+          "tokenEnd": 180,
+          "method": "allennlp_2.9.0"
+        }
+      ],
+      "1": [
+        {
+          "ID": "1_0",
+          "surfaceForm": "Johan de Witt",
+          "locationStart": 0,
+          "locationEnd": 13,
+          "tokenStart": 0,
+          "tokenEnd": 3,
+          "method": "allennlp_2.9.0"
+        },
+        {
+          "ID": "1_1",
+          "surfaceForm": "De Witt",
+          "locationStart": 474,
+          "locationEnd": 481,
+          "tokenStart": 90,
+          "tokenEnd": 92,
+          "method": "allennlp_2.9.0"
+        },
+        {
+          "ID": "1_2",
+          "surfaceForm": "his",
+          "locationStart": 558,
+          "locationEnd": 561,
+          "tokenStart": 103,
+          "tokenEnd": 104,
+          "method": "allennlp_2.9.0"
+        },
+        {
+          "ID": "1_3",
+          "surfaceForm": "de Witt",
+          "locationStart": 670,
+          "locationEnd": 677,
+          "tokenStart": 124,
+          "tokenEnd": 126,
+          "method": "allennlp_2.9.0"
+        },
+        {
+          "ID": "1_4",
+          "surfaceForm": "his",
+          "locationStart": 816,
+          "locationEnd": 819,
+          "tokenStart": 152,
+          "tokenEnd": 153,
+          "method": "allennlp_2.9.0"
+        },
+        {
+          "ID": "1_5",
+          "surfaceForm": "he",
+          "locationStart": 1136,
+          "locationEnd": 1138,
+          "tokenStart": 210,
+          "tokenEnd": 211,
+          "method": "allennlp_2.9.0"
+        },
+        {
+          "ID": "1_6",
+          "surfaceForm": "his",
+          "locationStart": 1143,
+          "locationEnd": 1146,
+          "tokenStart": 212,
+          "tokenEnd": 213,
+          "method": "allennlp_2.9.0"
+        }
+      ],
+      "2": [
+        {
+          "ID": "2_0",
+          "surfaceForm": "the regenten",
+          "locationStart": 793,
+          "locationEnd": 805,
+          "tokenStart": 147,
+          "tokenEnd": 149,
+          "method": "allennlp_2.9.0"
+        },
+        {
+          "ID": "2_1",
+          "surfaceForm": "the regents",
+          "locationStart": 850,
+          "locationEnd": 861,
+          "tokenStart": 160,
+          "tokenEnd": 162,
+          "method": "allennlp_2.9.0"
+        },
+        {
+          "ID": "2_2",
+          "surfaceForm": "they",
+          "locationStart": 905,
+          "locationEnd": 909,
+          "tokenStart": 169,
+          "tokenEnd": 170,
+          "method": "allennlp_2.9.0"
+        }
+      ],
+      "3": [
+        {
+          "ID": "3_0",
+          "surfaceForm": "he and his brother Cornelis de Witt",
+          "locationStart": 1136,
+          "locationEnd": 1171,
+          "tokenStart": 210,
+          "tokenEnd": 217,
+          "method": "allennlp_2.9.0"
+        },
+        {
+          "ID": "3_1",
+          "surfaceForm": "their",
+          "locationStart": 1215,
+          "locationEnd": 1220,
+          "tokenStart": 226,
+          "tokenEnd": 227,
+          "method": "allennlp_2.9.0"
+        }
+      ],
+      "4": [
+        {
+          "ID": "4_0",
+          "surfaceForm": "These cannibals",
+          "locationStart": 1270,
+          "locationEnd": 1285,
+          "tokenStart": 236,
+          "tokenEnd": 238,
+          "method": "allennlp_2.9.0"
+        },
+        {
+          "ID": "4_1",
+          "surfaceForm": "them",
+          "locationStart": 1370,
+          "locationEnd": 1374,
+          "tokenStart": 252,
+          "tokenEnd": 253,
+          "method": "allennlp_2.9.0"
+        }
+      ]
+    }
   }
 }

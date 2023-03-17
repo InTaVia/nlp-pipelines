@@ -68,7 +68,7 @@
             "LEMMA": "(",
             "UPOS": "PUNCT",
             "XPOS": "-LRB-",
-            "HEAD": 5,
+            "HEAD": 2,
             "DEPREL": "punct",
             "DEPS": null,
             "MISC": {
@@ -140,7 +140,7 @@
             "FORM": "\u2013",
             "LEMMA": "\u2013",
             "UPOS": "PUNCT",
-            "XPOS": "``",
+            "XPOS": ":",
             "HEAD": 2,
             "DEPREL": "punct",
             "DEPS": null,
@@ -149,10 +149,7 @@
               "StartChar": 34,
               "EndChar": 35
             },
-            "FEATS": {
-              "PunctSide": "Ini",
-              "PunctType": "Quot"
-            }
+            "FEATS": {}
           },
           {
             "ID": 8,
@@ -178,8 +175,8 @@
             "LEMMA": "September",
             "UPOS": "PROPN",
             "XPOS": "NNP",
-            "HEAD": 7,
-            "DEPREL": "npadvmod",
+            "HEAD": 2,
+            "DEPREL": "appos",
             "DEPS": null,
             "MISC": {
               "SpaceAfter": true,
@@ -214,7 +211,7 @@
             "LEMMA": ")",
             "UPOS": "PUNCT",
             "XPOS": "-RRB-",
-            "HEAD": 2,
+            "HEAD": 9,
             "DEPREL": "punct",
             "DEPS": null,
             "MISC": {
@@ -308,8 +305,8 @@
             "ID": 16,
             "FORM": "only",
             "LEMMA": "only",
-            "UPOS": "ADJ",
-            "XPOS": "JJ",
+            "UPOS": "ADV",
+            "XPOS": "RB",
             "HEAD": 14,
             "DEPREL": "conj",
             "DEPS": null,
@@ -318,9 +315,7 @@
               "StartChar": 73,
               "EndChar": 77
             },
-            "FEATS": {
-              "Degree": "Pos"
-            }
+            "FEATS": {}
           },
           {
             "ID": 17,
@@ -328,8 +323,8 @@
             "LEMMA": "survive",
             "UPOS": "VERB",
             "XPOS": "VBG",
-            "HEAD": 18,
-            "DEPREL": "amod",
+            "HEAD": 14,
+            "DEPREL": "conj",
             "DEPS": null,
             "MISC": {
               "SpaceAfter": true,
@@ -718,7 +713,7 @@
             "LEMMA": "in",
             "UPOS": "ADP",
             "XPOS": "IN",
-            "HEAD": 32,
+            "HEAD": 35,
             "DEPREL": "prep",
             "DEPS": null,
             "MISC": {
@@ -878,7 +873,7 @@
             "LEMMA": "because",
             "UPOS": "SCONJ",
             "XPOS": "IN",
-            "HEAD": 45,
+            "HEAD": 32,
             "DEPREL": "prep",
             "DEPS": null,
             "MISC": {
@@ -1045,12 +1040,22 @@
       },
       {
         "ID": null,
-        "surfaceForm": "22 September 1641 \u2013",
+        "surfaceForm": "September 1641",
         "category": "DATE",
-        "locationStart": 16,
-        "locationEnd": 35,
-        "tokenStart": 4,
-        "tokenEnd": 8,
+        "locationStart": 19,
+        "locationEnd": 33,
+        "tokenStart": 5,
+        "tokenEnd": 7,
+        "method": "spacy"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "September 1668",
+        "category": "DATE",
+        "locationStart": 38,
+        "locationEnd": 52,
+        "tokenStart": 9,
+        "tokenEnd": 11,
         "method": "spacy"
       },
       {
@@ -1065,32 +1070,22 @@
       },
       {
         "ID": null,
-        "surfaceForm": "Rembrandt Harmenszoon van Rijn",
-        "category": "PERSON",
+        "surfaceForm": "Rembrandt",
+        "category": "NORP",
         "locationStart": 97,
-        "locationEnd": 127,
+        "locationEnd": 106,
         "tokenStart": 20,
-        "tokenEnd": 24,
+        "tokenEnd": 21,
         "method": "spacy"
       },
       {
         "ID": null,
-        "surfaceForm": "Saskia van Uylenburgh",
-        "category": "PERSON",
+        "surfaceForm": "Saskia",
+        "category": "GPE",
         "locationStart": 132,
-        "locationEnd": 153,
+        "locationEnd": 138,
         "tokenStart": 25,
-        "tokenEnd": 28,
-        "method": "spacy"
-      },
-      {
-        "ID": null,
-        "surfaceForm": "Titus",
-        "category": "PERSON",
-        "locationStart": 155,
-        "locationEnd": 160,
-        "tokenStart": 29,
-        "tokenEnd": 30,
+        "tokenEnd": 26,
         "method": "spacy"
       },
       {
@@ -1116,7 +1111,7 @@
     ],
     "time_expressions": [
       {
-        "ID": "t3",
+        "ID": "t5",
         "category": "DATE",
         "value": "1641-09-22",
         "surfaceForm": "22 September 1641",
@@ -1125,7 +1120,7 @@
         "method": "HeidelTime"
       },
       {
-        "ID": "t8",
+        "ID": "t6",
         "category": "DATE",
         "value": "1668-09-04",
         "surfaceForm": "4 September 1668",
@@ -1138,6 +1133,8 @@
       {
         "predicateID": "0",
         "locationStart": 54,
+        "tokenStart": 12,
+        "tokenEnd": 13,
         "locationEnd": 57,
         "surfaceForm": "was",
         "predicateLemma": "be",
@@ -1145,6 +1142,8 @@
           {
             "argumentID": "0_ARG1",
             "surfaceForm": "Titus van Rijn ( 22 September 1641 \u2013 4 September 1668 )",
+            "tokenStart": 0,
+            "tokenEnd": 12,
             "locationStart": 0,
             "locationEnd": 53,
             "category": "ARG1"
@@ -1152,6 +1151,8 @@
           {
             "argumentID": "0_ARG2",
             "surfaceForm": "the fourth and only surviving child of Rembrandt Harmenszoon van Rijn and Saskia van Uylenburgh",
+            "tokenStart": 13,
+            "tokenEnd": 28,
             "locationStart": 58,
             "locationEnd": 153,
             "category": "ARG2"
@@ -1162,6 +1163,8 @@
       {
         "predicateID": "1",
         "locationStart": 78,
+        "tokenStart": 17,
+        "tokenEnd": 18,
         "locationEnd": 87,
         "surfaceForm": "surviving",
         "predicateLemma": "survive",
@@ -1169,6 +1172,8 @@
           {
             "argumentID": "1_ARG0",
             "surfaceForm": "child",
+            "tokenStart": 18,
+            "tokenEnd": 19,
             "locationStart": 88,
             "locationEnd": 93,
             "category": "ARG0"
@@ -1179,6 +1184,8 @@
       {
         "predicateID": "1",
         "locationStart": 169,
+        "tokenStart": 32,
+        "tokenEnd": 33,
         "locationEnd": 174,
         "surfaceForm": "known",
         "predicateLemma": "know",
@@ -1186,6 +1193,8 @@
           {
             "argumentID": "1_ARG1",
             "surfaceForm": "Titus",
+            "tokenStart": 29,
+            "tokenEnd": 30,
             "locationStart": 155,
             "locationEnd": 160,
             "category": "ARG1"
@@ -1193,6 +1202,8 @@
           {
             "argumentID": "1_ARGM-MNR",
             "surfaceForm": "best",
+            "tokenStart": 31,
+            "tokenEnd": 32,
             "locationStart": 164,
             "locationEnd": 168,
             "category": "ARGM-MNR"
@@ -1200,6 +1211,8 @@
           {
             "argumentID": "1_ARG2",
             "surfaceForm": "as a figure or model in his father 's paintings and studies",
+            "tokenStart": 33,
+            "tokenEnd": 45,
             "locationStart": 175,
             "locationEnd": 233,
             "category": "ARG2"
@@ -1207,6 +1220,57 @@
         ],
         "method": "allennlp_2.9.0"
       }
-    ]
+    ],
+    "coreference": {
+      "0": [
+        {
+          "ID": "0_0",
+          "surfaceForm": "Titus van Rijn",
+          "locationStart": 0,
+          "locationEnd": 14,
+          "tokenStart": 0,
+          "tokenEnd": 3,
+          "method": "allennlp_2.9.0"
+        },
+        {
+          "ID": "0_1",
+          "surfaceForm": "Titus",
+          "locationStart": 155,
+          "locationEnd": 160,
+          "tokenStart": 29,
+          "tokenEnd": 30,
+          "method": "allennlp_2.9.0"
+        },
+        {
+          "ID": "0_2",
+          "surfaceForm": "his",
+          "locationStart": 199,
+          "locationEnd": 202,
+          "tokenStart": 39,
+          "tokenEnd": 40,
+          "method": "allennlp_2.9.0"
+        }
+      ],
+      "1": [
+        {
+          "ID": "1_0",
+          "surfaceForm": "Rembrandt Harmenszoon van Rijn",
+          "locationStart": 97,
+          "locationEnd": 127,
+          "tokenStart": 20,
+          "tokenEnd": 24,
+          "method": "allennlp_2.9.0"
+        },
+        {
+          "ID": "1_1",
+          "surfaceForm": "his father 's",
+          "locationStart": 199,
+          "locationEnd": 211,
+          "tokenStart": 39,
+          "tokenEnd": 42,
+          "method": "allennlp_2.9.0"
+        }
+      ]
+    }
   }
 }

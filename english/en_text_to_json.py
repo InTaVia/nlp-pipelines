@@ -16,6 +16,7 @@ def test_english_pipeline_json(query_tests: str = ["William the Silent"], json_p
     nlp = spacy.load("en_core_web_sm")
     srl_predictor = Predictor.from_path("https://storage.googleapis.com/allennlp-public-models/structured-prediction-srl-bert.2020.12.15.tar.gz")
     ner_predictor = Predictor.from_path("https://storage.googleapis.com/allennlp-public-models/ner-elmo.2021-02-12.tar.gz")
+    coref_predictor = Predictor.from_path("https://storage.googleapis.com/allennlp-public-models/coref-spanbert-large-2021.03.10.tar.gz")
 
     heideltime_parser = Heideltime()
     heideltime_parser.set_language('ENGLISH')
@@ -39,6 +40,8 @@ def test_english_pipeline_json(query_tests: str = ["William the Silent"], json_p
             nlp_dict['time_expressions'] = unlp.add_json_heideltime(clean_text, heideltime_parser)
             # Step 4: Run AllenNLP SRL
             nlp_dict['semantic_roles'] = unlp.add_json_srl_allennlp(spacy_dict['sentences'], srl_predictor, spacy_dict['token_objs'])
+            # Step 5: Run AllenNLP Coref
+            nlp_dict['coreference'] = unlp.add_json_coref_allennlp(spacy_dict['sentences'], coref_predictor, spacy_dict['token_objs'])
             # Step N: Build General Dict
             nlp_dict['input_text'] = clean_text
             nlp_dict['token_objs'] = spacy_dict['token_objs']
