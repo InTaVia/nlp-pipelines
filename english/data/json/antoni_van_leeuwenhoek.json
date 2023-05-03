@@ -6697,6 +6697,56 @@
       },
       {
         "ID": null,
+        "surfaceForm": "Antonie Philips van Leeuwenhoek",
+        "category": "PER",
+        "locationStart": 0,
+        "locationEnd": 31,
+        "tokenStart": 0,
+        "tokenEnd": 4,
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "AHN",
+        "category": "ORG",
+        "locationStart": 34,
+        "locationEnd": 37,
+        "tokenStart": 5,
+        "tokenEnd": 6,
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "Dutch",
+        "category": "MISC",
+        "locationStart": 72,
+        "locationEnd": 77,
+        "tokenStart": 19,
+        "tokenEnd": 20,
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "Dutch",
+        "category": "MISC",
+        "locationStart": 158,
+        "locationEnd": 163,
+        "tokenStart": 40,
+        "tokenEnd": 41,
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "Golden Age",
+        "category": "MISC",
+        "locationStart": 203,
+        "locationEnd": 213,
+        "tokenStart": 46,
+        "tokenEnd": 48,
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "ID": null,
         "surfaceForm": "Dutch",
         "category": "MISC",
         "locationStart": 217,
@@ -6727,12 +6777,22 @@
       },
       {
         "ID": null,
-        "surfaceForm": "van Leeuwenhoek",
-        "category": "PER",
-        "locationStart": 594,
-        "locationEnd": 609,
-        "tokenStart": 116,
-        "tokenEnd": 118,
+        "surfaceForm": "Delft",
+        "category": "LOC",
+        "locationStart": 571,
+        "locationEnd": 576,
+        "tokenStart": 111,
+        "tokenEnd": 112,
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "Dutch Republic",
+        "category": "LOC",
+        "locationStart": 578,
+        "locationEnd": 592,
+        "tokenStart": 113,
+        "tokenEnd": 115,
         "method": "allennlp_2.9.0"
       },
       {
@@ -6747,12 +6807,12 @@
       },
       {
         "ID": null,
-        "surfaceForm": "van Leeuwenhoek",
-        "category": "PER",
-        "locationStart": 594,
-        "locationEnd": 609,
-        "tokenStart": 116,
-        "tokenEnd": 118,
+        "surfaceForm": "Golden Age",
+        "category": "MISC",
+        "locationStart": 885,
+        "locationEnd": 895,
+        "tokenStart": 170,
+        "tokenEnd": 172,
         "method": "allennlp_2.9.0"
       },
       {
@@ -6767,12 +6827,32 @@
       },
       {
         "ID": null,
-        "surfaceForm": "Latin",
+        "surfaceForm": "van Leeuwenhoek",
+        "category": "PER",
+        "locationStart": 1009,
+        "locationEnd": 1024,
+        "tokenStart": 194,
+        "tokenEnd": 196,
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "Dutch",
         "category": "MISC",
-        "locationStart": 1225,
-        "locationEnd": 1230,
-        "tokenStart": 233,
-        "tokenEnd": 234,
+        "locationStart": 1151,
+        "locationEnd": 1156,
+        "tokenStart": 219,
+        "tokenEnd": 220,
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "English",
+        "category": "MISC",
+        "locationStart": 1196,
+        "locationEnd": 1203,
+        "tokenStart": 228,
+        "tokenEnd": 229,
         "method": "allennlp_2.9.0"
       },
       {
@@ -6787,22 +6867,22 @@
       },
       {
         "ID": null,
-        "surfaceForm": "Latin",
-        "category": "MISC",
-        "locationStart": 1225,
-        "locationEnd": 1230,
-        "tokenStart": 233,
-        "tokenEnd": 234,
+        "surfaceForm": "van Leeuwenhoek",
+        "category": "PER",
+        "locationStart": 1657,
+        "locationEnd": 1672,
+        "tokenStart": 314,
+        "tokenEnd": 316,
         "method": "allennlp_2.9.0"
       },
       {
         "ID": null,
-        "surfaceForm": "Latin",
-        "category": "MISC",
-        "locationStart": 1225,
-        "locationEnd": 1230,
-        "tokenStart": 233,
-        "tokenEnd": 234,
+        "surfaceForm": "Royal Society",
+        "category": "ORG",
+        "locationStart": 1745,
+        "locationEnd": 1758,
+        "tokenStart": 330,
+        "tokenEnd": 332,
         "method": "allennlp_2.9.0"
       },
       {

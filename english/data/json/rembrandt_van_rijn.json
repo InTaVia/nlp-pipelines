@@ -1090,6 +1090,26 @@
       },
       {
         "ID": null,
+        "surfaceForm": "Titus van Rijn",
+        "category": "PER",
+        "locationStart": 0,
+        "locationEnd": 14,
+        "tokenStart": 0,
+        "tokenEnd": 3,
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "Rembrandt Harmenszoon van Rijn",
+        "category": "PER",
+        "locationStart": 97,
+        "locationEnd": 127,
+        "tokenStart": 20,
+        "tokenEnd": 24,
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "ID": null,
         "surfaceForm": "Saskia van Uylenburgh",
         "category": "PER",
         "locationStart": 132,

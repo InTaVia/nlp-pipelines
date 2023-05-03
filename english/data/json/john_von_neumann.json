@@ -13702,22 +13702,82 @@
       },
       {
         "ID": null,
-        "surfaceForm": "American",
-        "category": "MISC",
-        "locationStart": 143,
-        "locationEnd": 151,
-        "tokenStart": 34,
-        "tokenEnd": 35,
+        "surfaceForm": "John von Neumann",
+        "category": "PER",
+        "locationStart": 0,
+        "locationEnd": 16,
+        "tokenStart": 0,
+        "tokenEnd": 3,
         "method": "allennlp_2.9.0"
       },
       {
         "ID": null,
-        "surfaceForm": "American",
+        "surfaceForm": "von NOY",
+        "category": "PER",
+        "locationStart": 19,
+        "locationEnd": 26,
+        "tokenStart": 4,
+        "tokenEnd": 6,
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "m\u0259n",
+        "category": "ORG",
+        "locationStart": 27,
+        "locationEnd": 30,
+        "tokenStart": 7,
+        "tokenEnd": 8,
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "Hungarian",
         "category": "MISC",
-        "locationStart": 143,
-        "locationEnd": 151,
-        "tokenStart": 34,
-        "tokenEnd": 35,
+        "locationStart": 32,
+        "locationEnd": 41,
+        "tokenStart": 9,
+        "tokenEnd": 10,
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "Neumann J\u00e1nos Lajos",
+        "category": "PER",
+        "locationStart": 43,
+        "locationEnd": 62,
+        "tokenStart": 11,
+        "tokenEnd": 14,
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "\u02c8n\u0252jm\u0252n",
+        "category": "ORG",
+        "locationStart": 64,
+        "locationEnd": 71,
+        "tokenStart": 15,
+        "tokenEnd": 16,
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "\u02c8l\u0252jo\u0283",
+        "category": "ORG",
+        "locationStart": 80,
+        "locationEnd": 86,
+        "tokenStart": 17,
+        "tokenEnd": 18,
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "Hungarian",
+        "category": "MISC",
+        "locationStart": 133,
+        "locationEnd": 142,
+        "tokenStart": 32,
+        "tokenEnd": 33,
         "method": "allennlp_2.9.0"
       },
       {
@@ -13734,10 +13794,10 @@
         "ID": null,
         "surfaceForm": "Von Neumann",
         "category": "PER",
-        "locationStart": 941,
-        "locationEnd": 952,
-        "tokenStart": 170,
-        "tokenEnd": 172,
+        "locationStart": 495,
+        "locationEnd": 506,
+        "tokenStart": 95,
+        "tokenEnd": 97,
         "method": "allennlp_2.9.0"
       },
       {
@@ -13772,12 +13832,22 @@
       },
       {
         "ID": null,
-        "surfaceForm": "The Computer and the Brain",
-        "category": "MISC",
-        "locationStart": 1655,
-        "locationEnd": 1681,
-        "tokenStart": 295,
-        "tokenEnd": 300,
+        "surfaceForm": "National Academy of Sciences",
+        "category": "ORG",
+        "locationStart": 1840,
+        "locationEnd": 1868,
+        "tokenStart": 331,
+        "tokenEnd": 335,
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "G\u00f6ttingen",
+        "category": "LOC",
+        "locationStart": 1977,
+        "locationEnd": 1986,
+        "tokenStart": 358,
+        "tokenEnd": 359,
         "method": "allennlp_2.9.0"
       },
       {
@@ -13792,6 +13862,16 @@
       },
       {
         "ID": null,
+        "surfaceForm": "Berlin",
+        "category": "LOC",
+        "locationStart": 2088,
+        "locationEnd": 2094,
+        "tokenStart": 380,
+        "tokenEnd": 381,
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "ID": null,
         "surfaceForm": "Princeton",
         "category": "LOC",
         "locationStart": 2104,
@@ -13802,12 +13882,42 @@
       },
       {
         "ID": null,
-        "surfaceForm": "Stanislaw Ulam",
+        "surfaceForm": "World War II",
+        "category": "MISC",
+        "locationStart": 2180,
+        "locationEnd": 2192,
+        "tokenStart": 397,
+        "tokenEnd": 400,
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "von Neumann",
         "category": "PER",
-        "locationStart": 2294,
-        "locationEnd": 2308,
-        "tokenStart": 415,
-        "tokenEnd": 417,
+        "locationStart": 2194,
+        "locationEnd": 2205,
+        "tokenStart": 401,
+        "tokenEnd": 403,
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "Manhattan Project",
+        "category": "ORG",
+        "locationStart": 2220,
+        "locationEnd": 2237,
+        "tokenStart": 406,
+        "tokenEnd": 408,
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "Edward Teller",
+        "category": "PER",
+        "locationStart": 2265,
+        "locationEnd": 2278,
+        "tokenStart": 411,
+        "tokenEnd": 413,
         "method": "allennlp_2.9.0"
       },
       {
@@ -13818,6 +13928,46 @@
         "locationEnd": 2308,
         "tokenStart": 415,
         "tokenEnd": 417,
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "Office of Scientific Research and Development",
+        "category": "ORG",
+        "locationStart": 2722,
+        "locationEnd": 2767,
+        "tokenStart": 493,
+        "tokenEnd": 499,
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "Army",
+        "category": "ORG",
+        "locationStart": 2773,
+        "locationEnd": 2777,
+        "tokenStart": 501,
+        "tokenEnd": 502,
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "Ballistic Research Laboratory",
+        "category": "ORG",
+        "locationStart": 2780,
+        "locationEnd": 2809,
+        "tokenStart": 503,
+        "tokenEnd": 506,
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "Armed Forces Special Weapons Project",
+        "category": "ORG",
+        "locationStart": 2815,
+        "locationEnd": 2851,
+        "tokenStart": 508,
+        "tokenEnd": 513,
         "method": "allennlp_2.9.0"
       },
       {
@@ -13828,6 +13978,26 @@
         "locationEnd": 2889,
         "tokenStart": 515,
         "tokenEnd": 519,
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "Defense Department",
+        "category": "ORG",
+        "locationStart": 2974,
+        "locationEnd": 2992,
+        "tokenStart": 538,
+        "tokenEnd": 540,
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "Strategic Missile Evaluation Committee",
+        "category": "ORG",
+        "locationStart": 3018,
+        "locationEnd": 3056,
+        "tokenStart": 543,
+        "tokenEnd": 547,
         "method": "allennlp_2.9.0"
       },
       {
@@ -13852,6 +14022,36 @@
       },
       {
         "ID": null,
+        "surfaceForm": "Bernard Schriever",
+        "category": "PER",
+        "locationStart": 3256,
+        "locationEnd": 3273,
+        "tokenStart": 582,
+        "tokenEnd": 584,
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "Trevor Gardner",
+        "category": "PER",
+        "locationStart": 3278,
+        "locationEnd": 3292,
+        "tokenStart": 585,
+        "tokenEnd": 587,
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "United States",
+        "category": "LOC",
+        "locationStart": 3346,
+        "locationEnd": 3359,
+        "tokenStart": 596,
+        "tokenEnd": 598,
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "ID": null,
         "surfaceForm": "ICBM",
         "category": "MISC",
         "locationStart": 3367,
@@ -13868,6 +14068,16 @@
         "locationEnd": 3515,
         "tokenStart": 624,
         "tokenEnd": 625,
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "Hungarian",
+        "category": "MISC",
+        "locationStart": 3522,
+        "locationEnd": 3531,
+        "tokenStart": 628,
+        "tokenEnd": 629,
         "method": "allennlp_2.9.0"
       },
       {

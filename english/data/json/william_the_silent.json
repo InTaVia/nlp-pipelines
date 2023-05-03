@@ -4925,12 +4925,162 @@
       },
       {
         "ID": null,
+        "surfaceForm": "William the Silent",
+        "category": "PER",
+        "locationStart": 0,
+        "locationEnd": 18,
+        "tokenStart": 0,
+        "tokenEnd": 3,
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "William the Taciturn",
+        "category": "MISC",
+        "locationStart": 65,
+        "locationEnd": 85,
+        "tokenStart": 16,
+        "tokenEnd": 19,
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "Dutch",
+        "category": "MISC",
+        "locationStart": 103,
+        "locationEnd": 108,
+        "tokenStart": 22,
+        "tokenEnd": 23,
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "Willem de Zwijger",
+        "category": "PER",
+        "locationStart": 110,
+        "locationEnd": 127,
+        "tokenStart": 24,
+        "tokenEnd": 27,
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "Netherlands",
+        "category": "LOC",
+        "locationStart": 155,
+        "locationEnd": 166,
+        "tokenStart": 35,
+        "tokenEnd": 36,
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "William of Orange",
+        "category": "LOC",
+        "locationStart": 168,
+        "locationEnd": 185,
+        "tokenStart": 37,
+        "tokenEnd": 40,
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "Dutch",
+        "category": "MISC",
+        "locationStart": 187,
+        "locationEnd": 192,
+        "tokenStart": 41,
+        "tokenEnd": 42,
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "Willem van Oranje",
+        "category": "PER",
+        "locationStart": 194,
+        "locationEnd": 211,
+        "tokenStart": 43,
+        "tokenEnd": 46,
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "Dutch",
+        "category": "MISC",
+        "locationStart": 241,
+        "locationEnd": 246,
+        "tokenStart": 54,
+        "tokenEnd": 55,
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "Spanish Habsburgs",
+        "category": "MISC",
+        "locationStart": 266,
+        "locationEnd": 283,
+        "tokenStart": 58,
+        "tokenEnd": 60,
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "Eighty Years ' War",
+        "category": "MISC",
+        "locationStart": 301,
+        "locationEnd": 318,
+        "tokenStart": 64,
+        "tokenEnd": 68,
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "ID": null,
         "surfaceForm": "United Provinces",
         "category": "LOC",
         "locationStart": 378,
         "locationEnd": 394,
         "tokenStart": 79,
         "tokenEnd": 81,
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "House of Nassau",
+        "category": "ORG",
+        "locationStart": 418,
+        "locationEnd": 433,
+        "tokenStart": 87,
+        "tokenEnd": 90,
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "of Orange",
+        "category": "LOC",
+        "locationStart": 452,
+        "locationEnd": 461,
+        "tokenStart": 94,
+        "tokenEnd": 96,
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "Orange",
+        "category": "MISC",
+        "locationStart": 504,
+        "locationEnd": 510,
+        "tokenStart": 105,
+        "tokenEnd": 106,
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "Nassau",
+        "category": "LOC",
+        "locationStart": 511,
+        "locationEnd": 517,
+        "tokenStart": 107,
+        "tokenEnd": 108,
         "method": "allennlp_2.9.0"
       },
       {
@@ -4945,12 +5095,92 @@
       },
       {
         "ID": null,
+        "surfaceForm": "Netherlands",
+        "category": "LOC",
+        "locationStart": 585,
+        "locationEnd": 596,
+        "tokenStart": 121,
+        "tokenEnd": 122,
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "the Fatherland",
+        "category": "MISC",
+        "locationStart": 628,
+        "locationEnd": 642,
+        "tokenStart": 130,
+        "tokenEnd": 132,
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "Pater Patriae",
+        "category": "PER",
+        "locationStart": 644,
+        "locationEnd": 657,
+        "tokenStart": 133,
+        "tokenEnd": 135,
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "Dutch",
+        "category": "MISC",
+        "locationStart": 660,
+        "locationEnd": 665,
+        "tokenStart": 137,
+        "tokenEnd": 138,
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "ID": null,
         "surfaceForm": "Vader des Vaderlands",
         "category": "ORG",
         "locationStart": 667,
         "locationEnd": 687,
         "tokenStart": 139,
         "tokenEnd": 142,
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "William",
+        "category": "PER",
+        "locationStart": 710,
+        "locationEnd": 717,
+        "tokenStart": 148,
+        "tokenEnd": 149,
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "Habsburgs",
+        "category": "MISC",
+        "locationStart": 740,
+        "locationEnd": 749,
+        "tokenStart": 152,
+        "tokenEnd": 153,
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "Margaret",
+        "category": "PER",
+        "locationStart": 778,
+        "locationEnd": 786,
+        "tokenStart": 160,
+        "tokenEnd": 161,
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "Parma",
+        "category": "LOC",
+        "locationStart": 790,
+        "locationEnd": 795,
+        "tokenStart": 162,
+        "tokenEnd": 163,
         "method": "allennlp_2.9.0"
       },
       {
@@ -4965,6 +5195,36 @@
       },
       {
         "ID": null,
+        "surfaceForm": "Spanish",
+        "category": "MISC",
+        "locationStart": 926,
+        "locationEnd": 933,
+        "tokenStart": 185,
+        "tokenEnd": 186,
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "Dutch Protestants",
+        "category": "MISC",
+        "locationStart": 949,
+        "locationEnd": 966,
+        "tokenStart": 188,
+        "tokenEnd": 190,
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "William",
+        "category": "PER",
+        "locationStart": 968,
+        "locationEnd": 975,
+        "tokenStart": 191,
+        "tokenEnd": 192,
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "ID": null,
         "surfaceForm": "Dutch",
         "category": "MISC",
         "locationStart": 987,
@@ -4975,12 +5235,42 @@
       },
       {
         "ID": null,
+        "surfaceForm": "Dutch",
+        "category": "MISC",
+        "locationStart": 1112,
+        "locationEnd": 1117,
+        "tokenStart": 216,
+        "tokenEnd": 217,
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "ID": null,
         "surfaceForm": "Spanish",
         "category": "MISC",
         "locationStart": 1164,
         "locationEnd": 1171,
         "tokenStart": 225,
         "tokenEnd": 226,
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "Spanish",
+        "category": "MISC",
+        "locationStart": 1199,
+        "locationEnd": 1206,
+        "tokenStart": 232,
+        "tokenEnd": 233,
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "Balthasar G\u00e9rard",
+        "category": "PER",
+        "locationStart": 1244,
+        "locationEnd": 1260,
+        "tokenStart": 241,
+        "tokenEnd": 243,
         "method": "allennlp_2.9.0"
       },
       {
