@@ -316,10 +316,10 @@ def add_json_ner_allennlp(sentences: List[str], ner_predictor: Predictor, token_
             doc_tok_end = entity['tokenEnd']
             entity['locationStart'] = token_objects[doc_tok_start]['start_char']
             entity['locationEnd'] = token_objects[doc_tok_end - 1]['end_char']
+            # Append to Document-level list fo entities
+            doc_entities.append(entity)
         # Update Document Offset
         doc_token_offset += len(tokenized)
-        # Append to Document-level list fo entities
-        doc_entities.append(entity)
 
     return doc_entities
 
