@@ -3,20 +3,23 @@
 from __future__ import annotations
 from pathlib import Path
 from string import punctuation
+from typing import Union
 
 punctset = set(punctuation)
 
 
-def read_conll(filename: str | Path) -> dict[str, list[tuple[str, str]]]:
+def read_conll(filename: Union[str, Path]) -> dict[str, list[tuple[str, str]]]:
     filename = Path(filename)
-    sentences = {}
+    #  sentences: dict[str, list[tuple[str, str]]] = {}
+    sentences = dict()
     sentence: list[str] = []
     sentence_parts: list[tuple[str, str]] = []
     for line in filename.open():
         line = line.strip()
         if not line:
             fixed_parts = _fix_conll_punctuation(sentence_parts)
-            sentences[' '.join(sentence)] = fixed_parts
+            fixed_quot = _fix_quote_symbols(fixed_parts)
+            sentences[' '.join(sentence)] = fixed_quot
             sentence = []
             sentence_parts = []
             continue
@@ -82,3 +85,20 @@ def _search_contiguous_punct(
         if part[0] == search_term:
             return True
     return False
+
+
+def _fix_quote_symbols(ents: list[tuple[str, str]]) -> list[tuple[str, str]]:
+    new_ents = []
+    skip = False
+    for i1, i2 in zip(ents, ents[1:] + [('###', None)]):
+        if skip:
+            skip = False
+            continue
+        if i2[0] == '###':
+            new_ents.append(i1)
+        elif i1[0] == '&' and i2[0] == 'quot':
+            new_ents.append(('&quot', 'O'))
+            skip = True
+        else:
+            new_ents.append(i1)
+    return new_ents
