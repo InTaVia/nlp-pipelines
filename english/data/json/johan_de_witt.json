@@ -4932,12 +4932,182 @@
       },
       {
         "ID": null,
+        "surfaceForm": "Johan de Witt",
+        "category": "PER",
+        "locationStart": 0,
+        "locationEnd": 13,
+        "tokenStart": 0,
+        "tokenEnd": 3,
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "Dutch",
+        "category": "MISC",
+        "locationStart": 15,
+        "locationEnd": 20,
+        "tokenStart": 4,
+        "tokenEnd": 5,
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "Zuid- en Noord",
+        "category": "MISC",
+        "locationStart": 100,
+        "locationEnd": 114,
+        "tokenStart": 24,
+        "tokenEnd": 27,
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "Linschoten",
+        "category": "PER",
+        "locationStart": 115,
+        "locationEnd": 125,
+        "tokenStart": 28,
+        "tokenEnd": 29,
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "Snelrewaard",
+        "category": "PER",
+        "locationStart": 127,
+        "locationEnd": 138,
+        "tokenStart": 30,
+        "tokenEnd": 31,
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "Hekendorp en IJsselvere",
+        "category": "PER",
+        "locationStart": 140,
+        "locationEnd": 163,
+        "tokenStart": 32,
+        "tokenEnd": 35,
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "Dutch",
+        "category": "MISC",
+        "locationStart": 171,
+        "locationEnd": 176,
+        "tokenStart": 38,
+        "tokenEnd": 39,
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "Dutch Republic",
+        "category": "LOC",
+        "locationStart": 223,
+        "locationEnd": 237,
+        "tokenStart": 47,
+        "tokenEnd": 49,
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "First Stadtholderless Period",
+        "category": "MISC",
+        "locationStart": 267,
+        "locationEnd": 295,
+        "tokenStart": 55,
+        "tokenEnd": 58,
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "European",
+        "category": "MISC",
+        "locationStart": 385,
+        "locationEnd": 393,
+        "tokenStart": 74,
+        "tokenEnd": 75,
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "ID": null,
         "surfaceForm": "Dutch Golden Age",
         "category": "MISC",
         "locationStart": 456,
         "locationEnd": 472,
         "tokenStart": 86,
         "tokenEnd": 89,
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "De Witt",
+        "category": "PER",
+        "locationStart": 474,
+        "locationEnd": 481,
+        "tokenStart": 90,
+        "tokenEnd": 92,
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "Dutch",
+        "category": "MISC",
+        "locationStart": 497,
+        "locationEnd": 502,
+        "tokenStart": 94,
+        "tokenEnd": 95,
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "Orangist",
+        "category": "ORG",
+        "locationStart": 598,
+        "locationEnd": 606,
+        "tokenStart": 111,
+        "tokenEnd": 112,
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "Dutch States Party",
+        "category": "ORG",
+        "locationStart": 650,
+        "locationEnd": 668,
+        "tokenStart": 120,
+        "tokenEnd": 123,
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "de Witt",
+        "category": "PER",
+        "locationStart": 670,
+        "locationEnd": 677,
+        "tokenStart": 124,
+        "tokenEnd": 126,
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "House of Orange",
+        "category": "ORG",
+        "locationStart": 690,
+        "locationEnd": 705,
+        "tokenStart": 128,
+        "tokenEnd": 131,
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "Nassau",
+        "category": "ORG",
+        "locationStart": 706,
+        "locationEnd": 712,
+        "tokenStart": 132,
+        "tokenEnd": 133,
         "method": "allennlp_2.9.0"
       },
       {
@@ -4952,12 +5122,72 @@
       },
       {
         "ID": null,
+        "surfaceForm": "Dutch",
+        "category": "MISC",
+        "locationStart": 835,
+        "locationEnd": 840,
+        "tokenStart": 156,
+        "tokenEnd": 157,
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "Dutch Republic",
+        "category": "LOC",
+        "locationStart": 954,
+        "locationEnd": 968,
+        "tokenStart": 178,
+        "tokenEnd": 180,
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "ID": null,
         "surfaceForm": "Rampjaar",
         "category": "MISC",
         "locationStart": 1008,
         "locationEnd": 1016,
         "tokenStart": 186,
         "tokenEnd": 187,
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "England",
+        "category": "LOC",
+        "locationStart": 1097,
+        "locationEnd": 1104,
+        "tokenStart": 203,
+        "tokenEnd": 204,
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "France",
+        "category": "LOC",
+        "locationStart": 1106,
+        "locationEnd": 1112,
+        "tokenStart": 205,
+        "tokenEnd": 206,
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "German",
+        "category": "MISC",
+        "locationStart": 1122,
+        "locationEnd": 1128,
+        "tokenStart": 208,
+        "tokenEnd": 209,
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "Cornelis de Witt",
+        "category": "PER",
+        "locationStart": 1155,
+        "locationEnd": 1171,
+        "tokenStart": 214,
+        "tokenEnd": 217,
         "method": "allennlp_2.9.0"
       },
       {

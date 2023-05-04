@@ -12493,12 +12493,42 @@
       },
       {
         "ID": null,
-        "surfaceForm": "Western",
+        "surfaceForm": "Vincent Willem van Gogh",
+        "category": "PER",
+        "locationStart": 0,
+        "locationEnd": 23,
+        "tokenStart": 0,
+        "tokenEnd": 4,
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "Dutch",
         "category": "MISC",
-        "locationStart": 212,
-        "locationEnd": 219,
-        "tokenStart": 44,
-        "tokenEnd": 45,
+        "locationStart": 25,
+        "locationEnd": 30,
+        "tokenStart": 5,
+        "tokenEnd": 6,
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "Dutch Post",
+        "category": "ORG",
+        "locationStart": 105,
+        "locationEnd": 115,
+        "tokenStart": 27,
+        "tokenEnd": 29,
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "Impressionist",
+        "category": "MISC",
+        "locationStart": 116,
+        "locationEnd": 129,
+        "tokenStart": 30,
+        "tokenEnd": 31,
         "method": "allennlp_2.9.0"
       },
       {
@@ -12513,22 +12543,12 @@
       },
       {
         "ID": null,
-        "surfaceForm": "Western",
-        "category": "MISC",
-        "locationStart": 212,
-        "locationEnd": 219,
-        "tokenStart": 44,
-        "tokenEnd": 45,
-        "method": "allennlp_2.9.0"
-      },
-      {
-        "ID": null,
-        "surfaceForm": "Western",
-        "category": "MISC",
-        "locationStart": 212,
-        "locationEnd": 219,
-        "tokenStart": 44,
-        "tokenEnd": 45,
+        "surfaceForm": "Born",
+        "category": "LOC",
+        "locationStart": 726,
+        "locationEnd": 730,
+        "tokenStart": 139,
+        "tokenEnd": 140,
         "method": "allennlp_2.9.0"
       },
       {
@@ -12553,12 +12573,22 @@
       },
       {
         "ID": null,
-        "surfaceForm": "Belgium",
-        "category": "LOC",
-        "locationStart": 1054,
-        "locationEnd": 1061,
-        "tokenStart": 204,
-        "tokenEnd": 205,
+        "surfaceForm": "Protestant",
+        "category": "MISC",
+        "locationStart": 991,
+        "locationEnd": 1001,
+        "tokenStart": 197,
+        "tokenEnd": 198,
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "Roman Catholic",
+        "category": "MISC",
+        "locationStart": 1030,
+        "locationEnd": 1044,
+        "tokenStart": 201,
+        "tokenEnd": 203,
         "method": "allennlp_2.9.0"
       },
       {
@@ -12583,42 +12613,52 @@
       },
       {
         "ID": null,
-        "surfaceForm": "Theo",
-        "category": "PER",
-        "locationStart": 1197,
-        "locationEnd": 1201,
-        "tokenStart": 231,
-        "tokenEnd": 232,
-        "method": "allennlp_2.9.0"
-      },
-      {
-        "ID": null,
-        "surfaceForm": "Impressionist",
-        "category": "MISC",
-        "locationStart": 1562,
-        "locationEnd": 1575,
-        "tokenStart": 301,
-        "tokenEnd": 302,
-        "method": "allennlp_2.9.0"
-      },
-      {
-        "ID": null,
-        "surfaceForm": "Impressionist",
-        "category": "MISC",
-        "locationStart": 1562,
-        "locationEnd": 1575,
-        "tokenStart": 301,
-        "tokenEnd": 302,
-        "method": "allennlp_2.9.0"
-      },
-      {
-        "ID": null,
-        "surfaceForm": "South of France",
+        "surfaceForm": "Paris",
         "category": "LOC",
-        "locationStart": 1785,
-        "locationEnd": 1800,
-        "tokenStart": 340,
-        "tokenEnd": 343,
+        "locationStart": 1442,
+        "locationEnd": 1447,
+        "tokenStart": 277,
+        "tokenEnd": 278,
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "\u00c9mile Bernard",
+        "category": "PER",
+        "locationStart": 1500,
+        "locationEnd": 1513,
+        "tokenStart": 290,
+        "tokenEnd": 292,
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "Paul Gauguin",
+        "category": "PER",
+        "locationStart": 1518,
+        "locationEnd": 1530,
+        "tokenStart": 293,
+        "tokenEnd": 295,
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "Impressionist",
+        "category": "MISC",
+        "locationStart": 1562,
+        "locationEnd": 1575,
+        "tokenStart": 301,
+        "tokenEnd": 302,
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "Arles",
+        "category": "LOC",
+        "locationStart": 1772,
+        "locationEnd": 1777,
+        "tokenStart": 337,
+        "tokenEnd": 338,
         "method": "allennlp_2.9.0"
       },
       {
@@ -12663,6 +12703,56 @@
       },
       {
         "ID": null,
+        "surfaceForm": "Auberge Ravoux",
+        "category": "LOC",
+        "locationStart": 2352,
+        "locationEnd": 2366,
+        "tokenStart": 447,
+        "tokenEnd": 449,
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "Auvers",
+        "category": "LOC",
+        "locationStart": 2370,
+        "locationEnd": 2376,
+        "tokenStart": 450,
+        "tokenEnd": 451,
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "sur",
+        "category": "LOC",
+        "locationStart": 2377,
+        "locationEnd": 2380,
+        "tokenStart": 452,
+        "tokenEnd": 453,
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "Oise",
+        "category": "LOC",
+        "locationStart": 2381,
+        "locationEnd": 2385,
+        "tokenStart": 454,
+        "tokenEnd": 455,
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "Paris",
+        "category": "LOC",
+        "locationStart": 2391,
+        "locationEnd": 2396,
+        "tokenStart": 456,
+        "tokenEnd": 457,
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "ID": null,
         "surfaceForm": "Paul Gachet",
         "category": "PER",
         "locationStart": 2447,
@@ -12693,32 +12783,42 @@
       },
       {
         "ID": null,
+        "surfaceForm": "Fauves",
+        "category": "PER",
+        "locationStart": 2943,
+        "locationEnd": 2949,
+        "tokenStart": 564,
+        "tokenEnd": 565,
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "German Expressionists",
+        "category": "MISC",
+        "locationStart": 2954,
+        "locationEnd": 2975,
+        "tokenStart": 566,
+        "tokenEnd": 568,
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "ID": null,
         "surfaceForm": "Van Gogh",
         "category": "PER",
-        "locationStart": 2619,
-        "locationEnd": 2627,
-        "tokenStart": 503,
-        "tokenEnd": 505,
+        "locationStart": 3197,
+        "locationEnd": 3205,
+        "tokenStart": 604,
+        "tokenEnd": 606,
         "method": "allennlp_2.9.0"
       },
       {
         "ID": null,
-        "surfaceForm": "German Expressionists",
-        "category": "MISC",
-        "locationStart": 2954,
-        "locationEnd": 2975,
-        "tokenStart": 566,
-        "tokenEnd": 568,
-        "method": "allennlp_2.9.0"
-      },
-      {
-        "ID": null,
-        "surfaceForm": "German Expressionists",
-        "category": "MISC",
-        "locationStart": 2954,
-        "locationEnd": 2975,
-        "tokenStart": 566,
-        "tokenEnd": 568,
+        "surfaceForm": "Van Gogh Museum",
+        "category": "LOC",
+        "locationStart": 3336,
+        "locationEnd": 3351,
+        "tokenStart": 634,
+        "tokenEnd": 637,
         "method": "allennlp_2.9.0"
       },
       {

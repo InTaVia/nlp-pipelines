@@ -11855,12 +11855,82 @@
       },
       {
         "ID": null,
+        "surfaceForm": "Baruch ( de ) Spinoza",
+        "category": "PER",
+        "locationStart": 0,
+        "locationEnd": 19,
+        "tokenStart": 0,
+        "tokenEnd": 5,
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "Dutch",
+        "category": "MISC",
+        "locationStart": 64,
+        "locationEnd": 69,
+        "tokenStart": 16,
+        "tokenEnd": 17,
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "Portuguese",
+        "category": "MISC",
+        "locationStart": 85,
+        "locationEnd": 95,
+        "tokenStart": 19,
+        "tokenEnd": 20,
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "Jewish",
+        "category": "MISC",
+        "locationStart": 96,
+        "locationEnd": 102,
+        "tokenStart": 21,
+        "tokenEnd": 22,
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "Amsterdam",
+        "category": "LOC",
+        "locationStart": 119,
+        "locationEnd": 128,
+        "tokenStart": 26,
+        "tokenEnd": 27,
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "Latinized",
+        "category": "MISC",
+        "locationStart": 156,
+        "locationEnd": 165,
+        "tokenStart": 32,
+        "tokenEnd": 33,
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "ID": null,
         "surfaceForm": "Benedictus de Spinoza",
         "category": "PER",
         "locationStart": 175,
         "locationEnd": 196,
         "tokenStart": 35,
         "tokenEnd": 38,
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "Enlightenment",
+        "category": "MISC",
+        "locationStart": 246,
+        "locationEnd": 259,
+        "tokenStart": 48,
+        "tokenEnd": 49,
         "method": "allennlp_2.9.0"
       },
       {
@@ -11875,6 +11945,66 @@
       },
       {
         "ID": null,
+        "surfaceForm": "Stoicism",
+        "category": "PER",
+        "locationStart": 517,
+        "locationEnd": 525,
+        "tokenStart": 98,
+        "tokenEnd": 99,
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "Jewish Rationalism",
+        "category": "MISC",
+        "locationStart": 527,
+        "locationEnd": 545,
+        "tokenStart": 100,
+        "tokenEnd": 102,
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "Machiavelli",
+        "category": "PER",
+        "locationStart": 547,
+        "locationEnd": 558,
+        "tokenStart": 103,
+        "tokenEnd": 104,
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "Hobbes",
+        "category": "PER",
+        "locationStart": 560,
+        "locationEnd": 566,
+        "tokenStart": 105,
+        "tokenEnd": 106,
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "Descartes",
+        "category": "PER",
+        "locationStart": 568,
+        "locationEnd": 577,
+        "tokenStart": 107,
+        "tokenEnd": 108,
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "Spinoza",
+        "category": "PER",
+        "locationStart": 637,
+        "locationEnd": 644,
+        "tokenStart": 120,
+        "tokenEnd": 121,
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "ID": null,
         "surfaceForm": "Dutch Golden Age",
         "category": "MISC",
         "locationStart": 690,
@@ -11885,12 +12015,52 @@
       },
       {
         "ID": null,
+        "surfaceForm": "Spinoza",
+        "category": "PER",
+        "locationStart": 708,
+        "locationEnd": 715,
+        "tokenStart": 132,
+        "tokenEnd": 133,
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "Portuguese",
+        "category": "MISC",
+        "locationStart": 734,
+        "locationEnd": 744,
+        "tokenStart": 137,
+        "tokenEnd": 138,
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "Jewish",
+        "category": "MISC",
+        "locationStart": 745,
+        "locationEnd": 751,
+        "tokenStart": 139,
+        "tokenEnd": 140,
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "ID": null,
         "surfaceForm": "Amsterdam",
         "category": "LOC",
         "locationStart": 765,
         "locationEnd": 774,
         "tokenStart": 142,
         "tokenEnd": 143,
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "Hebrew Bible",
+        "category": "MISC",
+        "locationStart": 850,
+        "locationEnd": 862,
+        "tokenStart": 154,
+        "tokenEnd": 156,
         "method": "allennlp_2.9.0"
       },
       {
@@ -11907,10 +12077,30 @@
         "ID": null,
         "surfaceForm": "Jewish",
         "category": "MISC",
+        "locationStart": 893,
+        "locationEnd": 899,
+        "tokenStart": 163,
+        "tokenEnd": 164,
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "Jewish",
+        "category": "MISC",
         "locationStart": 1011,
         "locationEnd": 1017,
         "tokenStart": 184,
         "tokenEnd": 185,
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "Spinoza",
+        "category": "PER",
+        "locationStart": 1159,
+        "locationEnd": 1166,
+        "tokenStart": 213,
+        "tokenEnd": 214,
         "method": "allennlp_2.9.0"
       },
       {
@@ -11925,12 +12115,22 @@
       },
       {
         "ID": null,
-        "surfaceForm": "Christiaan Huygens",
+        "surfaceForm": "Spinoza",
         "category": "PER",
-        "locationStart": 1346,
-        "locationEnd": 1364,
-        "tokenStart": 243,
-        "tokenEnd": 245,
+        "locationStart": 1203,
+        "locationEnd": 1210,
+        "tokenStart": 221,
+        "tokenEnd": 222,
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "Constantijn",
+        "category": "PER",
+        "locationStart": 1330,
+        "locationEnd": 1341,
+        "tokenStart": 241,
+        "tokenEnd": 242,
         "method": "allennlp_2.9.0"
       },
       {
@@ -11945,12 +12145,22 @@
       },
       {
         "ID": null,
-        "surfaceForm": "Christiaan Huygens",
-        "category": "PER",
-        "locationStart": 1346,
-        "locationEnd": 1364,
-        "tokenStart": 243,
-        "tokenEnd": 245,
+        "surfaceForm": "Christian",
+        "category": "MISC",
+        "locationStart": 1644,
+        "locationEnd": 1653,
+        "tokenStart": 296,
+        "tokenEnd": 297,
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "Nieuwe Kerk",
+        "category": "LOC",
+        "locationStart": 1668,
+        "locationEnd": 1679,
+        "tokenStart": 299,
+        "tokenEnd": 301,
         "method": "allennlp_2.9.0"
       },
       {
@@ -11961,6 +12171,16 @@
         "locationEnd": 1692,
         "tokenStart": 302,
         "tokenEnd": 304,
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "Spinoza",
+        "category": "PER",
+        "locationStart": 1730,
+        "locationEnd": 1737,
+        "tokenStart": 314,
+        "tokenEnd": 315,
         "method": "allennlp_2.9.0"
       },
       {
@@ -11981,6 +12201,16 @@
         "locationEnd": 1968,
         "tokenStart": 356,
         "tokenEnd": 357,
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "Catholic Church",
+        "category": "LOC",
+        "locationStart": 2081,
+        "locationEnd": 2096,
+        "tokenStart": 380,
+        "tokenEnd": 382,
         "method": "allennlp_2.9.0"
       },
       {
@@ -12015,6 +12245,36 @@
       },
       {
         "ID": null,
+        "surfaceForm": "Spinoza",
+        "category": "PER",
+        "locationStart": 2437,
+        "locationEnd": 2444,
+        "tokenStart": 438,
+        "tokenEnd": 439,
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "Theologico",
+        "category": "MISC",
+        "locationStart": 2497,
+        "locationEnd": 2507,
+        "tokenStart": 449,
+        "tokenEnd": 450,
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "Political Treatise",
+        "category": "MISC",
+        "locationStart": 2508,
+        "locationEnd": 2526,
+        "tokenStart": 451,
+        "tokenEnd": 453,
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "ID": null,
         "surfaceForm": "Ethics",
         "category": "MISC",
         "locationStart": 2536,
@@ -12025,12 +12285,52 @@
       },
       {
         "ID": null,
-        "surfaceForm": "The Hebrew Grammar",
+        "surfaceForm": "Spinoza",
+        "category": "PER",
+        "locationStart": 2582,
+        "locationEnd": 2589,
+        "tokenStart": 466,
+        "tokenEnd": 467,
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "Short Treatise",
         "category": "MISC",
-        "locationStart": 2904,
-        "locationEnd": 2922,
-        "tokenStart": 521,
-        "tokenEnd": 524,
+        "locationStart": 2715,
+        "locationEnd": 2729,
+        "tokenStart": 487,
+        "tokenEnd": 489,
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "Emendation of the Intellect",
+        "category": "MISC",
+        "locationStart": 2754,
+        "locationEnd": 2781,
+        "tokenStart": 494,
+        "tokenEnd": 498,
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "Spinoza",
+        "category": "PER",
+        "locationStart": 2829,
+        "locationEnd": 2836,
+        "tokenStart": 508,
+        "tokenEnd": 509,
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "The Principles of Cartesian Philosophy",
+        "category": "MISC",
+        "locationStart": 2861,
+        "locationEnd": 2899,
+        "tokenStart": 515,
+        "tokenEnd": 520,
         "method": "allennlp_2.9.0"
       },
       {
@@ -12041,6 +12341,26 @@
         "locationEnd": 2922,
         "tokenStart": 521,
         "tokenEnd": 524,
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "Theologico",
+        "category": "ORG",
+        "locationStart": 3067,
+        "locationEnd": 3077,
+        "tokenStart": 552,
+        "tokenEnd": 553,
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "Political Treatise",
+        "category": "MISC",
+        "locationStart": 3078,
+        "locationEnd": 3096,
+        "tokenStart": 554,
+        "tokenEnd": 556,
         "method": "allennlp_2.9.0"
       },
       {
@@ -12051,6 +12371,26 @@
         "locationEnd": 3239,
         "tokenStart": 580,
         "tokenEnd": 582,
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "Descartes",
+        "category": "PER",
+        "locationStart": 3310,
+        "locationEnd": 3319,
+        "tokenStart": 595,
+        "tokenEnd": 596,
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "Spinoza",
+        "category": "PER",
+        "locationStart": 3365,
+        "locationEnd": 3372,
+        "tokenStart": 605,
+        "tokenEnd": 606,
         "method": "allennlp_2.9.0"
       },
       {

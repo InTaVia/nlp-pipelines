@@ -1361,12 +1361,102 @@
       },
       {
         "ID": null,
+        "surfaceForm": "Constantijn Huygens",
+        "category": "PER",
+        "locationStart": 4,
+        "locationEnd": 23,
+        "tokenStart": 1,
+        "tokenEnd": 3,
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "Lord of Zuilichem",
+        "category": "ORG",
+        "locationStart": 25,
+        "locationEnd": 42,
+        "tokenStart": 4,
+        "tokenEnd": 7,
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "HY",
+        "category": "ORG",
+        "locationStart": 45,
+        "locationEnd": 47,
+        "tokenStart": 8,
+        "tokenEnd": 9,
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "g\u0259nz",
+        "category": "ORG",
+        "locationStart": 48,
+        "locationEnd": 52,
+        "tokenStart": 10,
+        "tokenEnd": 11,
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "US",
+        "category": "LOC",
+        "locationStart": 54,
+        "locationEnd": 56,
+        "tokenStart": 12,
+        "tokenEnd": 13,
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "Dutch",
+        "category": "MISC",
+        "locationStart": 72,
+        "locationEnd": 77,
+        "tokenStart": 18,
+        "tokenEnd": 19,
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "ID": null,
         "surfaceForm": "Dutch Golden Age",
         "category": "MISC",
         "locationStart": 147,
         "locationEnd": 163,
         "tokenStart": 36,
         "tokenEnd": 39,
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "Princes of Orange",
+        "category": "ORG",
+        "locationStart": 212,
+        "locationEnd": 229,
+        "tokenStart": 49,
+        "tokenEnd": 52,
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "Frederick Henry",
+        "category": "PER",
+        "locationStart": 231,
+        "locationEnd": 246,
+        "tokenStart": 53,
+        "tokenEnd": 55,
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "William II",
+        "category": "PER",
+        "locationStart": 251,
+        "locationEnd": 261,
+        "tokenStart": 56,
+        "tokenEnd": 58,
         "method": "allennlp_2.9.0"
       },
       {

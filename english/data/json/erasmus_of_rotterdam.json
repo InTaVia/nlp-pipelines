@@ -5373,12 +5373,92 @@
       },
       {
         "ID": null,
+        "surfaceForm": "Desiderius Erasmus Roterodamus",
+        "category": "PER",
+        "locationStart": 0,
+        "locationEnd": 30,
+        "tokenStart": 0,
+        "tokenEnd": 3,
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "Dutch",
+        "category": "MISC",
+        "locationStart": 34,
+        "locationEnd": 39,
+        "tokenStart": 4,
+        "tokenEnd": 5,
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "English",
+        "category": "MISC",
+        "locationStart": 68,
+        "locationEnd": 75,
+        "tokenStart": 11,
+        "tokenEnd": 12,
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "Erasmus of Rotterdam",
+        "category": "LOC",
+        "locationStart": 77,
+        "locationEnd": 97,
+        "tokenStart": 13,
+        "tokenEnd": 16,
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "Erasmus",
+        "category": "LOC",
+        "locationStart": 101,
+        "locationEnd": 108,
+        "tokenStart": 17,
+        "tokenEnd": 18,
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "Dutch",
+        "category": "MISC",
+        "locationStart": 148,
+        "locationEnd": 153,
+        "tokenStart": 29,
+        "tokenEnd": 30,
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "Catholic",
+        "category": "MISC",
+        "locationStart": 170,
+        "locationEnd": 178,
+        "tokenStart": 32,
+        "tokenEnd": 33,
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "ID": null,
         "surfaceForm": "Renaissance",
         "category": "ORG",
         "locationStart": 253,
         "locationEnd": 264,
         "tokenStart": 45,
         "tokenEnd": 46,
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "Catholic",
+        "category": "MISC",
+        "locationStart": 271,
+        "locationEnd": 279,
+        "tokenStart": 49,
+        "tokenEnd": 50,
         "method": "allennlp_2.9.0"
       },
       {
@@ -5393,12 +5473,72 @@
       },
       {
         "ID": null,
+        "surfaceForm": "Prince of the Humanists",
+        "category": "MISC",
+        "locationStart": 418,
+        "locationEnd": 441,
+        "tokenStart": 76,
+        "tokenEnd": 80,
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "ID": null,
         "surfaceForm": "Christian",
         "category": "MISC",
         "locationStart": 494,
         "locationEnd": 503,
         "tokenStart": 92,
         "tokenEnd": 93,
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "Latin",
+        "category": "MISC",
+        "locationStart": 592,
+        "locationEnd": 597,
+        "tokenStart": 108,
+        "tokenEnd": 109,
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "Greek",
+        "category": "MISC",
+        "locationStart": 602,
+        "locationEnd": 607,
+        "tokenStart": 110,
+        "tokenEnd": 111,
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "New Testament",
+        "category": "MISC",
+        "locationStart": 624,
+        "locationEnd": 637,
+        "tokenStart": 114,
+        "tokenEnd": 116,
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "Protestant Reformation",
+        "category": "MISC",
+        "locationStart": 695,
+        "locationEnd": 717,
+        "tokenStart": 126,
+        "tokenEnd": 128,
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "Catholic Counter",
+        "category": "MISC",
+        "locationStart": 722,
+        "locationEnd": 738,
+        "tokenStart": 129,
+        "tokenEnd": 131,
         "method": "allennlp_2.9.0"
       },
       {
@@ -5413,6 +5553,46 @@
       },
       {
         "ID": null,
+        "surfaceForm": "On Free Will",
+        "category": "MISC",
+        "locationStart": 766,
+        "locationEnd": 778,
+        "tokenStart": 137,
+        "tokenEnd": 140,
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "In Praise of Folly",
+        "category": "MISC",
+        "locationStart": 780,
+        "locationEnd": 798,
+        "tokenStart": 141,
+        "tokenEnd": 145,
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "Handbook of a Christian Knight",
+        "category": "MISC",
+        "locationStart": 800,
+        "locationEnd": 830,
+        "tokenStart": 146,
+        "tokenEnd": 151,
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "Civility in Children",
+        "category": "MISC",
+        "locationStart": 835,
+        "locationEnd": 855,
+        "tokenStart": 153,
+        "tokenEnd": 156,
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "ID": null,
         "surfaceForm": "Foundations of the Abundant Style",
         "category": "MISC",
         "locationStart": 864,
@@ -5423,12 +5603,42 @@
       },
       {
         "ID": null,
+        "surfaceForm": "Erasmus",
+        "category": "PER",
+        "locationStart": 920,
+        "locationEnd": 927,
+        "tokenStart": 169,
+        "tokenEnd": 170,
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "European",
+        "category": "MISC",
+        "locationStart": 970,
+        "locationEnd": 978,
+        "tokenStart": 177,
+        "tokenEnd": 178,
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "ID": null,
         "surfaceForm": "Reformation",
         "category": "MISC",
         "locationStart": 989,
         "locationEnd": 1000,
         "tokenStart": 179,
         "tokenEnd": 180,
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "Catholic Church",
+        "category": "LOC",
+        "locationStart": 1030,
+        "locationEnd": 1045,
+        "tokenStart": 187,
+        "tokenEnd": 189,
         "method": "allennlp_2.9.0"
       },
       {
@@ -5453,12 +5663,32 @@
       },
       {
         "ID": null,
-        "surfaceForm": "Calvinists",
-        "category": "MISC",
-        "locationStart": 1206,
-        "locationEnd": 1216,
-        "tokenStart": 220,
-        "tokenEnd": 221,
+        "surfaceForm": "Erasmus",
+        "category": "PER",
+        "locationStart": 1359,
+        "locationEnd": 1366,
+        "tokenStart": 251,
+        "tokenEnd": 252,
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "Basel",
+        "category": "LOC",
+        "locationStart": 1384,
+        "locationEnd": 1389,
+        "tokenStart": 255,
+        "tokenEnd": 256,
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "Brabant",
+        "category": "PER",
+        "locationStart": 1427,
+        "locationEnd": 1434,
+        "tokenStart": 263,
+        "tokenEnd": 264,
         "method": "allennlp_2.9.0"
       },
       {

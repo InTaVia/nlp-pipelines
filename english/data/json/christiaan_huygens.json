@@ -10733,6 +10733,86 @@
       },
       {
         "ID": null,
+        "surfaceForm": "Christiaan Huygens",
+        "category": "PER",
+        "locationStart": 0,
+        "locationEnd": 18,
+        "tokenStart": 0,
+        "tokenEnd": 2,
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "of Zeelhem",
+        "category": "LOC",
+        "locationStart": 25,
+        "locationEnd": 35,
+        "tokenStart": 4,
+        "tokenEnd": 6,
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "g\u0259nz",
+        "category": "PER",
+        "locationStart": 42,
+        "locationEnd": 46,
+        "tokenStart": 10,
+        "tokenEnd": 11,
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "US",
+        "category": "LOC",
+        "locationStart": 48,
+        "locationEnd": 50,
+        "tokenStart": 12,
+        "tokenEnd": 13,
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "Dutch",
+        "category": "MISC",
+        "locationStart": 66,
+        "locationEnd": 71,
+        "tokenStart": 18,
+        "tokenEnd": 19,
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "Huyghens",
+        "category": "PER",
+        "locationStart": 121,
+        "locationEnd": 129,
+        "tokenStart": 30,
+        "tokenEnd": 31,
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "Latin",
+        "category": "MISC",
+        "locationStart": 131,
+        "locationEnd": 136,
+        "tokenStart": 32,
+        "tokenEnd": 33,
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "Dutch",
+        "category": "MISC",
+        "locationStart": 183,
+        "locationEnd": 188,
+        "tokenStart": 46,
+        "tokenEnd": 47,
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "ID": null,
         "surfaceForm": "Scientific Revolution",
         "category": "MISC",
         "locationStart": 311,
@@ -10743,12 +10823,22 @@
       },
       {
         "ID": null,
-        "surfaceForm": "Titan",
+        "surfaceForm": "Huygens",
+        "category": "PER",
+        "locationStart": 346,
+        "locationEnd": 353,
+        "tokenStart": 76,
+        "tokenEnd": 77,
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "Saturn",
         "category": "MISC",
-        "locationStart": 519,
-        "locationEnd": 524,
-        "tokenStart": 107,
-        "tokenEnd": 108,
+        "locationStart": 482,
+        "locationEnd": 488,
+        "tokenStart": 100,
+        "tokenEnd": 101,
         "method": "allennlp_2.9.0"
       },
       {
@@ -10775,10 +10865,10 @@
         "ID": null,
         "surfaceForm": "Huygens",
         "category": "PER",
-        "locationStart": 765,
-        "locationEnd": 772,
-        "tokenStart": 148,
-        "tokenEnd": 149,
+        "locationStart": 1081,
+        "locationEnd": 1088,
+        "tokenStart": 201,
+        "tokenEnd": 202,
         "method": "allennlp_2.9.0"
       },
       {
@@ -10789,6 +10879,26 @@
         "locationEnd": 1187,
         "tokenStart": 213,
         "tokenEnd": 218,
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "Huygens",
+        "category": "PER",
+        "locationStart": 1252,
+        "locationEnd": 1259,
+        "tokenStart": 231,
+        "tokenEnd": 232,
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "De vi Centrifuga",
+        "category": "MISC",
+        "locationStart": 1355,
+        "locationEnd": 1371,
+        "tokenStart": 246,
+        "tokenEnd": 249,
         "method": "allennlp_2.9.0"
       },
       {
@@ -10809,6 +10919,36 @@
         "locationEnd": 1501,
         "tokenStart": 274,
         "tokenEnd": 278,
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "Newton",
+        "category": "PER",
+        "locationStart": 1566,
+        "locationEnd": 1572,
+        "tokenStart": 292,
+        "tokenEnd": 293,
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "Augustin",
+        "category": "PER",
+        "locationStart": 1610,
+        "locationEnd": 1618,
+        "tokenStart": 300,
+        "tokenEnd": 301,
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "Jean Fresnel",
+        "category": "PER",
+        "locationStart": 1619,
+        "locationEnd": 1631,
+        "tokenStart": 302,
+        "tokenEnd": 304,
         "method": "allennlp_2.9.0"
       },
       {
@@ -10853,12 +10993,12 @@
       },
       {
         "ID": null,
-        "surfaceForm": "Horologium Oscillatorium",
-        "category": "MISC",
-        "locationStart": 1984,
-        "locationEnd": 2008,
-        "tokenStart": 364,
-        "tokenEnd": 366,
+        "surfaceForm": "Huygens",
+        "category": "PER",
+        "locationStart": 2221,
+        "locationEnd": 2228,
+        "tokenStart": 410,
+        "tokenEnd": 411,
         "method": "allennlp_2.9.0"
       },
       {
@@ -10875,10 +11015,40 @@
         "ID": null,
         "surfaceForm": "Saturn",
         "category": "PER",
+        "locationStart": 2339,
+        "locationEnd": 2345,
+        "tokenStart": 428,
+        "tokenEnd": 429,
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "Titan",
+        "category": "PER",
+        "locationStart": 2355,
+        "locationEnd": 2360,
+        "tokenStart": 432,
+        "tokenEnd": 433,
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "Saturn",
+        "category": "PER",
         "locationStart": 2391,
         "locationEnd": 2397,
         "tokenStart": 440,
         "tokenEnd": 441,
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "Huygens",
+        "category": "PER",
+        "locationStart": 2508,
+        "locationEnd": 2515,
+        "tokenStart": 466,
+        "tokenEnd": 467,
         "method": "allennlp_2.9.0"
       },
       {
@@ -10893,12 +11063,72 @@
       },
       {
         "ID": null,
+        "surfaceForm": "Huygens",
+        "category": "PER",
+        "locationStart": 2654,
+        "locationEnd": 2661,
+        "tokenStart": 492,
+        "tokenEnd": 493,
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "Van Rekeningh",
+        "category": "PER",
+        "locationStart": 2753,
+        "locationEnd": 2766,
+        "tokenStart": 510,
+        "tokenEnd": 512,
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "Spelen van Gluck",
+        "category": "ORG",
+        "locationStart": 2770,
+        "locationEnd": 2786,
+        "tokenStart": 513,
+        "tokenEnd": 516,
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "Frans van Schooten",
+        "category": "PER",
+        "locationStart": 2794,
+        "locationEnd": 2812,
+        "tokenStart": 518,
+        "tokenEnd": 521,
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "De Ratiociniis",
+        "category": "PER",
+        "locationStart": 2841,
+        "locationEnd": 2855,
+        "tokenStart": 525,
+        "tokenEnd": 527,
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "ID": null,
         "surfaceForm": "Ludo Aleae",
         "category": "MISC",
         "locationStart": 2859,
         "locationEnd": 2869,
         "tokenStart": 528,
         "tokenEnd": 530,
+        "method": "allennlp_2.9.0"
+      },
+      {
+        "ID": null,
+        "surfaceForm": "Huygens",
+        "category": "PER",
+        "locationStart": 2911,
+        "locationEnd": 2918,
+        "tokenStart": 540,
+        "tokenEnd": 541,
         "method": "allennlp_2.9.0"
       },
       {
