@@ -30,7 +30,7 @@ def test_slovenian_pipeline_json(query_tests: str, json_path: str = "./slovenian
             response = unlp.nlp_to_dict(nlp_dict)
             # Write to Disk
             if not os.path.exists(json_path): os.mkdir(json_path)
-            json.dump(response, open(f"{json_path}/{json_name}", "w"), indent=2)
+            json.dump(response, open(f"{json_path}/{json_name}", "w"), indent=2, ensure_ascii=False)
         else:
             print(f"Couldn't find {query}!")
 
