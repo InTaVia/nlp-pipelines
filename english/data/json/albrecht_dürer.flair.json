@@ -1,0 +1,3852 @@
+{
+  "status": "200",
+  "data": {
+    "text": "Albrecht Dürer (; German: [ˈʔalbʁɛçt ˈdyːʁɐ]; Hungarian: Ajtósi Adalbert; 21 May 1471 – 6 April 1528), sometimes spelled in English as Durer (without an umlaut) or Duerer, was a German painter, printmaker, and theorist of the German Renaissance. Born in Nuremberg, Dürer established his reputation and influence across Europe in his twenties due to his high-quality woodcut prints. He was in contact with the major Italian artists of his time, including Raphael, Giovanni Bellini, and Leonardo da Vinci, and from 1512 was patronized by Emperor Maximilian I. Dürer's vast body of work includes engravings, his preferred technique in his later prints, altarpieces, portraits and self-portraits, watercolours and books. The woodcuts series are more Gothic than the rest of his work. His well-known engravings include the three Meisterstiche (master prints) Knight, Death and the Devil (1513), Saint Jerome in his Study (1514), and Melencolia I (1514). His watercolours mark him as one of the first European landscape artists, while his woodcuts revolutionised the potential of that medium. Dürer's introduction of classical motifs into Northern art, through his knowledge of Italian artists and German humanists, has secured his reputation as one of the most important figures of the Northern Renaissance. This is reinforced by his theoretical treatises, which involve principles of mathematics, perspective, and ideal proportions.",
+    "morphology": {
+      "model": "flair_0.12.2",
+      "data": [
+        {
+          "paragraphID": 0,
+          "sentenceID": 0,
+          "text": "Albrecht Dürer (; German: [ˈʔalbʁɛçt ˈdyːʁɐ]; Hungarian: Ajtósi Adalbert; 21 May 1471 – 6 April 1528), sometimes spelled in English as Durer (without an umlaut) or Duerer, was a German painter, printmaker, and theorist of the German Renaissance.",
+          "docCharOffset": 1,
+          "docTokenOffset": 0,
+          "words": [
+            {
+              "ID": 0,
+              "FORM": "Albrecht"
+            },
+            {
+              "ID": 1,
+              "FORM": "Dürer"
+            },
+            {
+              "ID": 2,
+              "FORM": "("
+            },
+            {
+              "ID": 3,
+              "FORM": ";"
+            },
+            {
+              "ID": 4,
+              "FORM": "German"
+            },
+            {
+              "ID": 5,
+              "FORM": ":"
+            },
+            {
+              "ID": 6,
+              "FORM": "["
+            },
+            {
+              "ID": 7,
+              "FORM": "ˈ"
+            },
+            {
+              "ID": 8,
+              "FORM": "ʔ"
+            },
+            {
+              "ID": 9,
+              "FORM": "albʁɛçt"
+            },
+            {
+              "ID": 10,
+              "FORM": "ˈdyːʁɐ"
+            },
+            {
+              "ID": 11,
+              "FORM": "]"
+            },
+            {
+              "ID": 12,
+              "FORM": ";"
+            },
+            {
+              "ID": 13,
+              "FORM": "Hungarian"
+            },
+            {
+              "ID": 14,
+              "FORM": ":"
+            },
+            {
+              "ID": 15,
+              "FORM": "Ajtósi"
+            },
+            {
+              "ID": 16,
+              "FORM": "Adalbert"
+            },
+            {
+              "ID": 17,
+              "FORM": ";"
+            },
+            {
+              "ID": 18,
+              "FORM": "21"
+            },
+            {
+              "ID": 19,
+              "FORM": "May"
+            },
+            {
+              "ID": 20,
+              "FORM": "1471"
+            },
+            {
+              "ID": 21,
+              "FORM": "–"
+            },
+            {
+              "ID": 22,
+              "FORM": "6"
+            },
+            {
+              "ID": 23,
+              "FORM": "April"
+            },
+            {
+              "ID": 24,
+              "FORM": "1528"
+            },
+            {
+              "ID": 25,
+              "FORM": ")"
+            },
+            {
+              "ID": 26,
+              "FORM": ","
+            },
+            {
+              "ID": 27,
+              "FORM": "sometimes"
+            },
+            {
+              "ID": 28,
+              "FORM": "spelled"
+            },
+            {
+              "ID": 29,
+              "FORM": "in"
+            },
+            {
+              "ID": 30,
+              "FORM": "English"
+            },
+            {
+              "ID": 31,
+              "FORM": "as"
+            },
+            {
+              "ID": 32,
+              "FORM": "Durer"
+            },
+            {
+              "ID": 33,
+              "FORM": "("
+            },
+            {
+              "ID": 34,
+              "FORM": "without"
+            },
+            {
+              "ID": 35,
+              "FORM": "an"
+            },
+            {
+              "ID": 36,
+              "FORM": "umlaut"
+            },
+            {
+              "ID": 37,
+              "FORM": ")"
+            },
+            {
+              "ID": 38,
+              "FORM": "or"
+            },
+            {
+              "ID": 39,
+              "FORM": "Duerer"
+            },
+            {
+              "ID": 40,
+              "FORM": ","
+            },
+            {
+              "ID": 41,
+              "FORM": "was"
+            },
+            {
+              "ID": 42,
+              "FORM": "a"
+            },
+            {
+              "ID": 43,
+              "FORM": "German"
+            },
+            {
+              "ID": 44,
+              "FORM": "painter"
+            },
+            {
+              "ID": 45,
+              "FORM": ","
+            },
+            {
+              "ID": 46,
+              "FORM": "printmaker"
+            },
+            {
+              "ID": 47,
+              "FORM": ","
+            },
+            {
+              "ID": 48,
+              "FORM": "and"
+            },
+            {
+              "ID": 49,
+              "FORM": "theorist"
+            },
+            {
+              "ID": 50,
+              "FORM": "of"
+            },
+            {
+              "ID": 51,
+              "FORM": "the"
+            },
+            {
+              "ID": 52,
+              "FORM": "German"
+            },
+            {
+              "ID": 53,
+              "FORM": "Renaissance"
+            },
+            {
+              "ID": 54,
+              "FORM": "."
+            }
+          ]
+        },
+        {
+          "paragraphID": 0,
+          "sentenceID": 1,
+          "text": "Born in Nuremberg, Dürer established his reputation and influence across Europe in his twenties due to his high-quality woodcut prints.",
+          "docCharOffset": 246,
+          "docTokenOffset": 55,
+          "words": [
+            {
+              "ID": 0,
+              "FORM": "Born"
+            },
+            {
+              "ID": 1,
+              "FORM": "in"
+            },
+            {
+              "ID": 2,
+              "FORM": "Nuremberg"
+            },
+            {
+              "ID": 3,
+              "FORM": ","
+            },
+            {
+              "ID": 4,
+              "FORM": "Dürer"
+            },
+            {
+              "ID": 5,
+              "FORM": "established"
+            },
+            {
+              "ID": 6,
+              "FORM": "his"
+            },
+            {
+              "ID": 7,
+              "FORM": "reputation"
+            },
+            {
+              "ID": 8,
+              "FORM": "and"
+            },
+            {
+              "ID": 9,
+              "FORM": "influence"
+            },
+            {
+              "ID": 10,
+              "FORM": "across"
+            },
+            {
+              "ID": 11,
+              "FORM": "Europe"
+            },
+            {
+              "ID": 12,
+              "FORM": "in"
+            },
+            {
+              "ID": 13,
+              "FORM": "his"
+            },
+            {
+              "ID": 14,
+              "FORM": "twenties"
+            },
+            {
+              "ID": 15,
+              "FORM": "due"
+            },
+            {
+              "ID": 16,
+              "FORM": "to"
+            },
+            {
+              "ID": 17,
+              "FORM": "his"
+            },
+            {
+              "ID": 18,
+              "FORM": "high-quality"
+            },
+            {
+              "ID": 19,
+              "FORM": "woodcut"
+            },
+            {
+              "ID": 20,
+              "FORM": "prints"
+            },
+            {
+              "ID": 21,
+              "FORM": "."
+            }
+          ]
+        },
+        {
+          "paragraphID": 0,
+          "sentenceID": 2,
+          "text": "He was in contact with the major Italian artists of his time, including Raphael, Giovanni Bellini, and Leonardo da Vinci, and from 1512 was patronized by Emperor Maximilian I. Dürer's vast body of work includes engravings, his preferred technique in his later prints, altarpieces, portraits and self-portraits, watercolours and books.",
+          "docCharOffset": 381,
+          "docTokenOffset": 77,
+          "words": [
+            {
+              "ID": 0,
+              "FORM": "He"
+            },
+            {
+              "ID": 1,
+              "FORM": "was"
+            },
+            {
+              "ID": 2,
+              "FORM": "in"
+            },
+            {
+              "ID": 3,
+              "FORM": "contact"
+            },
+            {
+              "ID": 4,
+              "FORM": "with"
+            },
+            {
+              "ID": 5,
+              "FORM": "the"
+            },
+            {
+              "ID": 6,
+              "FORM": "major"
+            },
+            {
+              "ID": 7,
+              "FORM": "Italian"
+            },
+            {
+              "ID": 8,
+              "FORM": "artists"
+            },
+            {
+              "ID": 9,
+              "FORM": "of"
+            },
+            {
+              "ID": 10,
+              "FORM": "his"
+            },
+            {
+              "ID": 11,
+              "FORM": "time"
+            },
+            {
+              "ID": 12,
+              "FORM": ","
+            },
+            {
+              "ID": 13,
+              "FORM": "including"
+            },
+            {
+              "ID": 14,
+              "FORM": "Raphael"
+            },
+            {
+              "ID": 15,
+              "FORM": ","
+            },
+            {
+              "ID": 16,
+              "FORM": "Giovanni"
+            },
+            {
+              "ID": 17,
+              "FORM": "Bellini"
+            },
+            {
+              "ID": 18,
+              "FORM": ","
+            },
+            {
+              "ID": 19,
+              "FORM": "and"
+            },
+            {
+              "ID": 20,
+              "FORM": "Leonardo"
+            },
+            {
+              "ID": 21,
+              "FORM": "da"
+            },
+            {
+              "ID": 22,
+              "FORM": "Vinci"
+            },
+            {
+              "ID": 23,
+              "FORM": ","
+            },
+            {
+              "ID": 24,
+              "FORM": "and"
+            },
+            {
+              "ID": 25,
+              "FORM": "from"
+            },
+            {
+              "ID": 26,
+              "FORM": "1512"
+            },
+            {
+              "ID": 27,
+              "FORM": "was"
+            },
+            {
+              "ID": 28,
+              "FORM": "patronized"
+            },
+            {
+              "ID": 29,
+              "FORM": "by"
+            },
+            {
+              "ID": 30,
+              "FORM": "Emperor"
+            },
+            {
+              "ID": 31,
+              "FORM": "Maximilian"
+            },
+            {
+              "ID": 32,
+              "FORM": "I."
+            },
+            {
+              "ID": 33,
+              "FORM": "Dürer"
+            },
+            {
+              "ID": 34,
+              "FORM": "'s"
+            },
+            {
+              "ID": 35,
+              "FORM": "vast"
+            },
+            {
+              "ID": 36,
+              "FORM": "body"
+            },
+            {
+              "ID": 37,
+              "FORM": "of"
+            },
+            {
+              "ID": 38,
+              "FORM": "work"
+            },
+            {
+              "ID": 39,
+              "FORM": "includes"
+            },
+            {
+              "ID": 40,
+              "FORM": "engravings"
+            },
+            {
+              "ID": 41,
+              "FORM": ","
+            },
+            {
+              "ID": 42,
+              "FORM": "his"
+            },
+            {
+              "ID": 43,
+              "FORM": "preferred"
+            },
+            {
+              "ID": 44,
+              "FORM": "technique"
+            },
+            {
+              "ID": 45,
+              "FORM": "in"
+            },
+            {
+              "ID": 46,
+              "FORM": "his"
+            },
+            {
+              "ID": 47,
+              "FORM": "later"
+            },
+            {
+              "ID": 48,
+              "FORM": "prints"
+            },
+            {
+              "ID": 49,
+              "FORM": ","
+            },
+            {
+              "ID": 50,
+              "FORM": "altarpieces"
+            },
+            {
+              "ID": 51,
+              "FORM": ","
+            },
+            {
+              "ID": 52,
+              "FORM": "portraits"
+            },
+            {
+              "ID": 53,
+              "FORM": "and"
+            },
+            {
+              "ID": 54,
+              "FORM": "self-portraits"
+            },
+            {
+              "ID": 55,
+              "FORM": ","
+            },
+            {
+              "ID": 56,
+              "FORM": "watercolours"
+            },
+            {
+              "ID": 57,
+              "FORM": "and"
+            },
+            {
+              "ID": 58,
+              "FORM": "books"
+            },
+            {
+              "ID": 59,
+              "FORM": "."
+            }
+          ]
+        },
+        {
+          "paragraphID": 0,
+          "sentenceID": 3,
+          "text": "The woodcuts series are more Gothic than the rest of his work.",
+          "docCharOffset": 715,
+          "docTokenOffset": 137,
+          "words": [
+            {
+              "ID": 0,
+              "FORM": "The"
+            },
+            {
+              "ID": 1,
+              "FORM": "woodcuts"
+            },
+            {
+              "ID": 2,
+              "FORM": "series"
+            },
+            {
+              "ID": 3,
+              "FORM": "are"
+            },
+            {
+              "ID": 4,
+              "FORM": "more"
+            },
+            {
+              "ID": 5,
+              "FORM": "Gothic"
+            },
+            {
+              "ID": 6,
+              "FORM": "than"
+            },
+            {
+              "ID": 7,
+              "FORM": "the"
+            },
+            {
+              "ID": 8,
+              "FORM": "rest"
+            },
+            {
+              "ID": 9,
+              "FORM": "of"
+            },
+            {
+              "ID": 10,
+              "FORM": "his"
+            },
+            {
+              "ID": 11,
+              "FORM": "work"
+            },
+            {
+              "ID": 12,
+              "FORM": "."
+            }
+          ]
+        },
+        {
+          "paragraphID": 0,
+          "sentenceID": 4,
+          "text": "His well-known engravings include the three Meisterstiche (master prints) Knight, Death and the Devil (1513), Saint Jerome in his Study (1514), and Melencolia I (1514).",
+          "docCharOffset": 777,
+          "docTokenOffset": 150,
+          "words": [
+            {
+              "ID": 0,
+              "FORM": "His"
+            },
+            {
+              "ID": 1,
+              "FORM": "well-known"
+            },
+            {
+              "ID": 2,
+              "FORM": "engravings"
+            },
+            {
+              "ID": 3,
+              "FORM": "include"
+            },
+            {
+              "ID": 4,
+              "FORM": "the"
+            },
+            {
+              "ID": 5,
+              "FORM": "three"
+            },
+            {
+              "ID": 6,
+              "FORM": "Meisterstiche"
+            },
+            {
+              "ID": 7,
+              "FORM": "("
+            },
+            {
+              "ID": 8,
+              "FORM": "master"
+            },
+            {
+              "ID": 9,
+              "FORM": "prints"
+            },
+            {
+              "ID": 10,
+              "FORM": ")"
+            },
+            {
+              "ID": 11,
+              "FORM": "Knight"
+            },
+            {
+              "ID": 12,
+              "FORM": ","
+            },
+            {
+              "ID": 13,
+              "FORM": "Death"
+            },
+            {
+              "ID": 14,
+              "FORM": "and"
+            },
+            {
+              "ID": 15,
+              "FORM": "the"
+            },
+            {
+              "ID": 16,
+              "FORM": "Devil"
+            },
+            {
+              "ID": 17,
+              "FORM": "("
+            },
+            {
+              "ID": 18,
+              "FORM": "1513"
+            },
+            {
+              "ID": 19,
+              "FORM": ")"
+            },
+            {
+              "ID": 20,
+              "FORM": ","
+            },
+            {
+              "ID": 21,
+              "FORM": "Saint"
+            },
+            {
+              "ID": 22,
+              "FORM": "Jerome"
+            },
+            {
+              "ID": 23,
+              "FORM": "in"
+            },
+            {
+              "ID": 24,
+              "FORM": "his"
+            },
+            {
+              "ID": 25,
+              "FORM": "Study"
+            },
+            {
+              "ID": 26,
+              "FORM": "("
+            },
+            {
+              "ID": 27,
+              "FORM": "1514"
+            },
+            {
+              "ID": 28,
+              "FORM": ")"
+            },
+            {
+              "ID": 29,
+              "FORM": ","
+            },
+            {
+              "ID": 30,
+              "FORM": "and"
+            },
+            {
+              "ID": 31,
+              "FORM": "Melencolia"
+            },
+            {
+              "ID": 32,
+              "FORM": "I"
+            },
+            {
+              "ID": 33,
+              "FORM": "("
+            },
+            {
+              "ID": 34,
+              "FORM": "1514"
+            },
+            {
+              "ID": 35,
+              "FORM": ")"
+            },
+            {
+              "ID": 36,
+              "FORM": "."
+            }
+          ]
+        },
+        {
+          "paragraphID": 0,
+          "sentenceID": 5,
+          "text": "His watercolours mark him as one of the first European landscape artists, while his woodcuts revolutionised the potential of that medium.",
+          "docCharOffset": 945,
+          "docTokenOffset": 187,
+          "words": [
+            {
+              "ID": 0,
+              "FORM": "His"
+            },
+            {
+              "ID": 1,
+              "FORM": "watercolours"
+            },
+            {
+              "ID": 2,
+              "FORM": "mark"
+            },
+            {
+              "ID": 3,
+              "FORM": "him"
+            },
+            {
+              "ID": 4,
+              "FORM": "as"
+            },
+            {
+              "ID": 5,
+              "FORM": "one"
+            },
+            {
+              "ID": 6,
+              "FORM": "of"
+            },
+            {
+              "ID": 7,
+              "FORM": "the"
+            },
+            {
+              "ID": 8,
+              "FORM": "first"
+            },
+            {
+              "ID": 9,
+              "FORM": "European"
+            },
+            {
+              "ID": 10,
+              "FORM": "landscape"
+            },
+            {
+              "ID": 11,
+              "FORM": "artists"
+            },
+            {
+              "ID": 12,
+              "FORM": ","
+            },
+            {
+              "ID": 13,
+              "FORM": "while"
+            },
+            {
+              "ID": 14,
+              "FORM": "his"
+            },
+            {
+              "ID": 15,
+              "FORM": "woodcuts"
+            },
+            {
+              "ID": 16,
+              "FORM": "revolutionised"
+            },
+            {
+              "ID": 17,
+              "FORM": "the"
+            },
+            {
+              "ID": 18,
+              "FORM": "potential"
+            },
+            {
+              "ID": 19,
+              "FORM": "of"
+            },
+            {
+              "ID": 20,
+              "FORM": "that"
+            },
+            {
+              "ID": 21,
+              "FORM": "medium"
+            },
+            {
+              "ID": 22,
+              "FORM": "."
+            }
+          ]
+        },
+        {
+          "paragraphID": 0,
+          "sentenceID": 6,
+          "text": "Dürer's introduction of classical motifs into Northern art, through his knowledge of Italian artists and German humanists, has secured his reputation as one of the most important figures of the Northern Renaissance.",
+          "docCharOffset": 1082,
+          "docTokenOffset": 210,
+          "words": [
+            {
+              "ID": 0,
+              "FORM": "Dürer"
+            },
+            {
+              "ID": 1,
+              "FORM": "'s"
+            },
+            {
+              "ID": 2,
+              "FORM": "introduction"
+            },
+            {
+              "ID": 3,
+              "FORM": "of"
+            },
+            {
+              "ID": 4,
+              "FORM": "classical"
+            },
+            {
+              "ID": 5,
+              "FORM": "motifs"
+            },
+            {
+              "ID": 6,
+              "FORM": "into"
+            },
+            {
+              "ID": 7,
+              "FORM": "Northern"
+            },
+            {
+              "ID": 8,
+              "FORM": "art"
+            },
+            {
+              "ID": 9,
+              "FORM": ","
+            },
+            {
+              "ID": 10,
+              "FORM": "through"
+            },
+            {
+              "ID": 11,
+              "FORM": "his"
+            },
+            {
+              "ID": 12,
+              "FORM": "knowledge"
+            },
+            {
+              "ID": 13,
+              "FORM": "of"
+            },
+            {
+              "ID": 14,
+              "FORM": "Italian"
+            },
+            {
+              "ID": 15,
+              "FORM": "artists"
+            },
+            {
+              "ID": 16,
+              "FORM": "and"
+            },
+            {
+              "ID": 17,
+              "FORM": "German"
+            },
+            {
+              "ID": 18,
+              "FORM": "humanists"
+            },
+            {
+              "ID": 19,
+              "FORM": ","
+            },
+            {
+              "ID": 20,
+              "FORM": "has"
+            },
+            {
+              "ID": 21,
+              "FORM": "secured"
+            },
+            {
+              "ID": 22,
+              "FORM": "his"
+            },
+            {
+              "ID": 23,
+              "FORM": "reputation"
+            },
+            {
+              "ID": 24,
+              "FORM": "as"
+            },
+            {
+              "ID": 25,
+              "FORM": "one"
+            },
+            {
+              "ID": 26,
+              "FORM": "of"
+            },
+            {
+              "ID": 27,
+              "FORM": "the"
+            },
+            {
+              "ID": 28,
+              "FORM": "most"
+            },
+            {
+              "ID": 29,
+              "FORM": "important"
+            },
+            {
+              "ID": 30,
+              "FORM": "figures"
+            },
+            {
+              "ID": 31,
+              "FORM": "of"
+            },
+            {
+              "ID": 32,
+              "FORM": "the"
+            },
+            {
+              "ID": 33,
+              "FORM": "Northern"
+            },
+            {
+              "ID": 34,
+              "FORM": "Renaissance"
+            },
+            {
+              "ID": 35,
+              "FORM": "."
+            }
+          ]
+        },
+        {
+          "paragraphID": 0,
+          "sentenceID": 7,
+          "text": "This is reinforced by his theoretical treatises, which involve principles of mathematics, perspective, and ideal proportions.",
+          "docCharOffset": 1297,
+          "docTokenOffset": 246,
+          "words": [
+            {
+              "ID": 0,
+              "FORM": "This"
+            },
+            {
+              "ID": 1,
+              "FORM": "is"
+            },
+            {
+              "ID": 2,
+              "FORM": "reinforced"
+            },
+            {
+              "ID": 3,
+              "FORM": "by"
+            },
+            {
+              "ID": 4,
+              "FORM": "his"
+            },
+            {
+              "ID": 5,
+              "FORM": "theoretical"
+            },
+            {
+              "ID": 6,
+              "FORM": "treatises"
+            },
+            {
+              "ID": 7,
+              "FORM": ","
+            },
+            {
+              "ID": 8,
+              "FORM": "which"
+            },
+            {
+              "ID": 9,
+              "FORM": "involve"
+            },
+            {
+              "ID": 10,
+              "FORM": "principles"
+            },
+            {
+              "ID": 11,
+              "FORM": "of"
+            },
+            {
+              "ID": 12,
+              "FORM": "mathematics"
+            },
+            {
+              "ID": 13,
+              "FORM": ","
+            },
+            {
+              "ID": 14,
+              "FORM": "perspective"
+            },
+            {
+              "ID": 15,
+              "FORM": ","
+            },
+            {
+              "ID": 16,
+              "FORM": "and"
+            },
+            {
+              "ID": 17,
+              "FORM": "ideal"
+            },
+            {
+              "ID": 18,
+              "FORM": "proportions"
+            },
+            {
+              "ID": 19,
+              "FORM": "."
+            }
+          ]
+        }
+      ]
+    },
+    "tokenization": [
+      "Albrecht",
+      "Dürer",
+      "(",
+      ";",
+      "German",
+      ":",
+      "[",
+      "ˈ",
+      "ʔ",
+      "albʁɛçt",
+      "ˈdyːʁɐ",
+      "]",
+      ";",
+      "Hungarian",
+      ":",
+      "Ajtósi",
+      "Adalbert",
+      ";",
+      "21",
+      "May",
+      "1471",
+      "–",
+      "6",
+      "April",
+      "1528",
+      ")",
+      ",",
+      "sometimes",
+      "spelled",
+      "in",
+      "English",
+      "as",
+      "Durer",
+      "(",
+      "without",
+      "an",
+      "umlaut",
+      ")",
+      "or",
+      "Duerer",
+      ",",
+      "was",
+      "a",
+      "German",
+      "painter",
+      ",",
+      "printmaker",
+      ",",
+      "and",
+      "theorist",
+      "of",
+      "the",
+      "German",
+      "Renaissance",
+      ".",
+      "Born",
+      "in",
+      "Nuremberg",
+      ",",
+      "Dürer",
+      "established",
+      "his",
+      "reputation",
+      "and",
+      "influence",
+      "across",
+      "Europe",
+      "in",
+      "his",
+      "twenties",
+      "due",
+      "to",
+      "his",
+      "high-quality",
+      "woodcut",
+      "prints",
+      ".",
+      "He",
+      "was",
+      "in",
+      "contact",
+      "with",
+      "the",
+      "major",
+      "Italian",
+      "artists",
+      "of",
+      "his",
+      "time",
+      ",",
+      "including",
+      "Raphael",
+      ",",
+      "Giovanni",
+      "Bellini",
+      ",",
+      "and",
+      "Leonardo",
+      "da",
+      "Vinci",
+      ",",
+      "and",
+      "from",
+      "1512",
+      "was",
+      "patronized",
+      "by",
+      "Emperor",
+      "Maximilian",
+      "I.",
+      "Dürer",
+      "'s",
+      "vast",
+      "body",
+      "of",
+      "work",
+      "includes",
+      "engravings",
+      ",",
+      "his",
+      "preferred",
+      "technique",
+      "in",
+      "his",
+      "later",
+      "prints",
+      ",",
+      "altarpieces",
+      ",",
+      "portraits",
+      "and",
+      "self-portraits",
+      ",",
+      "watercolours",
+      "and",
+      "books",
+      ".",
+      "The",
+      "woodcuts",
+      "series",
+      "are",
+      "more",
+      "Gothic",
+      "than",
+      "the",
+      "rest",
+      "of",
+      "his",
+      "work",
+      ".",
+      "His",
+      "well-known",
+      "engravings",
+      "include",
+      "the",
+      "three",
+      "Meisterstiche",
+      "(",
+      "master",
+      "prints",
+      ")",
+      "Knight",
+      ",",
+      "Death",
+      "and",
+      "the",
+      "Devil",
+      "(",
+      "1513",
+      ")",
+      ",",
+      "Saint",
+      "Jerome",
+      "in",
+      "his",
+      "Study",
+      "(",
+      "1514",
+      ")",
+      ",",
+      "and",
+      "Melencolia",
+      "I",
+      "(",
+      "1514",
+      ")",
+      ".",
+      "His",
+      "watercolours",
+      "mark",
+      "him",
+      "as",
+      "one",
+      "of",
+      "the",
+      "first",
+      "European",
+      "landscape",
+      "artists",
+      ",",
+      "while",
+      "his",
+      "woodcuts",
+      "revolutionised",
+      "the",
+      "potential",
+      "of",
+      "that",
+      "medium",
+      ".",
+      "Dürer",
+      "'s",
+      "introduction",
+      "of",
+      "classical",
+      "motifs",
+      "into",
+      "Northern",
+      "art",
+      ",",
+      "through",
+      "his",
+      "knowledge",
+      "of",
+      "Italian",
+      "artists",
+      "and",
+      "German",
+      "humanists",
+      ",",
+      "has",
+      "secured",
+      "his",
+      "reputation",
+      "as",
+      "one",
+      "of",
+      "the",
+      "most",
+      "important",
+      "figures",
+      "of",
+      "the",
+      "Northern",
+      "Renaissance",
+      ".",
+      "This",
+      "is",
+      "reinforced",
+      "by",
+      "his",
+      "theoretical",
+      "treatises",
+      ",",
+      "which",
+      "involve",
+      "principles",
+      "of",
+      "mathematics",
+      ",",
+      "perspective",
+      ",",
+      "and",
+      "ideal",
+      "proportions",
+      "."
+    ],
+    "time_expressions": [],
+    "phrase_chunks": [
+      {
+        "ID": "chunk_0_0",
+        "sentenceID": 0,
+        "surfaceForm": "Albrecht Dürer",
+        "category": "NP",
+        "locationStart": 0,
+        "locationEnd": 14,
+        "tokenStart": 0,
+        "tokenEnd": 2,
+        "score": 0.9686327874660492,
+        "method": "flair_chunk_0.12.2"
+      },
+      {
+        "ID": "chunk_0_1",
+        "sentenceID": 0,
+        "surfaceForm": "German",
+        "category": "NP",
+        "locationStart": 18,
+        "locationEnd": 24,
+        "tokenStart": 4,
+        "tokenEnd": 5,
+        "score": 0.9978000521659851,
+        "method": "flair_chunk_0.12.2"
+      },
+      {
+        "ID": "chunk_0_2",
+        "sentenceID": 0,
+        "surfaceForm": "ˈʔalbʁɛçt ˈdyːʁɐ]",
+        "category": "NP",
+        "locationStart": 27,
+        "locationEnd": 44,
+        "tokenStart": 7,
+        "tokenEnd": 12,
+        "score": 0.8198221087455749,
+        "method": "flair_chunk_0.12.2"
+      },
+      {
+        "ID": "chunk_0_3",
+        "sentenceID": 0,
+        "surfaceForm": "Hungarian",
+        "category": "NP",
+        "locationStart": 46,
+        "locationEnd": 55,
+        "tokenStart": 13,
+        "tokenEnd": 14,
+        "score": 0.8983641266822815,
+        "method": "flair_chunk_0.12.2"
+      },
+      {
+        "ID": "chunk_0_4",
+        "sentenceID": 0,
+        "surfaceForm": "Ajtósi Adalbert",
+        "category": "NP",
+        "locationStart": 57,
+        "locationEnd": 72,
+        "tokenStart": 15,
+        "tokenEnd": 17,
+        "score": 0.9596618115901947,
+        "method": "flair_chunk_0.12.2"
+      },
+      {
+        "ID": "chunk_0_5",
+        "sentenceID": 0,
+        "surfaceForm": "21 May 1471",
+        "category": "NP",
+        "locationStart": 74,
+        "locationEnd": 85,
+        "tokenStart": 18,
+        "tokenEnd": 21,
+        "score": 0.8468480110168457,
+        "method": "flair_chunk_0.12.2"
+      },
+      {
+        "ID": "chunk_0_6",
+        "sentenceID": 0,
+        "surfaceForm": "6 April 1528",
+        "category": "NP",
+        "locationStart": 88,
+        "locationEnd": 100,
+        "tokenStart": 22,
+        "tokenEnd": 25,
+        "score": 0.8560543060302734,
+        "method": "flair_chunk_0.12.2"
+      },
+      {
+        "ID": "chunk_0_7",
+        "sentenceID": 0,
+        "surfaceForm": "sometimes spelled",
+        "category": "VP",
+        "locationStart": 103,
+        "locationEnd": 120,
+        "tokenStart": 27,
+        "tokenEnd": 29,
+        "score": 0.7764851152896881,
+        "method": "flair_chunk_0.12.2"
+      },
+      {
+        "ID": "chunk_0_8",
+        "sentenceID": 0,
+        "surfaceForm": "in",
+        "category": "PP",
+        "locationStart": 121,
+        "locationEnd": 123,
+        "tokenStart": 29,
+        "tokenEnd": 30,
+        "score": 0.9999624490737915,
+        "method": "flair_chunk_0.12.2"
+      },
+      {
+        "ID": "chunk_0_9",
+        "sentenceID": 0,
+        "surfaceForm": "English",
+        "category": "NP",
+        "locationStart": 124,
+        "locationEnd": 131,
+        "tokenStart": 30,
+        "tokenEnd": 31,
+        "score": 0.9945124387741089,
+        "method": "flair_chunk_0.12.2"
+      },
+      {
+        "ID": "chunk_0_10",
+        "sentenceID": 0,
+        "surfaceForm": "as",
+        "category": "PP",
+        "locationStart": 132,
+        "locationEnd": 134,
+        "tokenStart": 31,
+        "tokenEnd": 32,
+        "score": 0.9999663829803467,
+        "method": "flair_chunk_0.12.2"
+      },
+      {
+        "ID": "chunk_0_11",
+        "sentenceID": 0,
+        "surfaceForm": "Durer",
+        "category": "NP",
+        "locationStart": 135,
+        "locationEnd": 140,
+        "tokenStart": 32,
+        "tokenEnd": 33,
+        "score": 0.9997383952140808,
+        "method": "flair_chunk_0.12.2"
+      },
+      {
+        "ID": "chunk_0_12",
+        "sentenceID": 0,
+        "surfaceForm": "without",
+        "category": "PP",
+        "locationStart": 142,
+        "locationEnd": 149,
+        "tokenStart": 34,
+        "tokenEnd": 35,
+        "score": 0.9999188184738159,
+        "method": "flair_chunk_0.12.2"
+      },
+      {
+        "ID": "chunk_0_13",
+        "sentenceID": 0,
+        "surfaceForm": "an umlaut",
+        "category": "NP",
+        "locationStart": 150,
+        "locationEnd": 159,
+        "tokenStart": 35,
+        "tokenEnd": 37,
+        "score": 0.992465078830719,
+        "method": "flair_chunk_0.12.2"
+      },
+      {
+        "ID": "chunk_0_14",
+        "sentenceID": 0,
+        "surfaceForm": "Duerer",
+        "category": "NP",
+        "locationStart": 164,
+        "locationEnd": 170,
+        "tokenStart": 39,
+        "tokenEnd": 40,
+        "score": 0.999658465385437,
+        "method": "flair_chunk_0.12.2"
+      },
+      {
+        "ID": "chunk_0_15",
+        "sentenceID": 0,
+        "surfaceForm": "was",
+        "category": "VP",
+        "locationStart": 172,
+        "locationEnd": 175,
+        "tokenStart": 41,
+        "tokenEnd": 42,
+        "score": 0.9999858140945435,
+        "method": "flair_chunk_0.12.2"
+      },
+      {
+        "ID": "chunk_0_16",
+        "sentenceID": 0,
+        "surfaceForm": "a German painter, printmaker, and theorist",
+        "category": "NP",
+        "locationStart": 176,
+        "locationEnd": 218,
+        "tokenStart": 42,
+        "tokenEnd": 50,
+        "score": 0.8088734969496727,
+        "method": "flair_chunk_0.12.2"
+      },
+      {
+        "ID": "chunk_0_17",
+        "sentenceID": 0,
+        "surfaceForm": "of",
+        "category": "PP",
+        "locationStart": 219,
+        "locationEnd": 221,
+        "tokenStart": 50,
+        "tokenEnd": 51,
+        "score": 0.9999998807907104,
+        "method": "flair_chunk_0.12.2"
+      },
+      {
+        "ID": "chunk_0_18",
+        "sentenceID": 0,
+        "surfaceForm": "the German Renaissance",
+        "category": "NP",
+        "locationStart": 222,
+        "locationEnd": 244,
+        "tokenStart": 51,
+        "tokenEnd": 54,
+        "score": 0.997081975142161,
+        "method": "flair_chunk_0.12.2"
+      },
+      {
+        "ID": "chunk_1_0",
+        "sentenceID": 1,
+        "surfaceForm": "Born",
+        "category": "VP",
+        "locationStart": 0,
+        "locationEnd": 4,
+        "tokenStart": 0,
+        "tokenEnd": 1,
+        "score": 0.9999440908432007,
+        "method": "flair_chunk_0.12.2"
+      },
+      {
+        "ID": "chunk_1_1",
+        "sentenceID": 1,
+        "surfaceForm": "in",
+        "category": "PP",
+        "locationStart": 5,
+        "locationEnd": 7,
+        "tokenStart": 1,
+        "tokenEnd": 2,
+        "score": 0.9999072551727295,
+        "method": "flair_chunk_0.12.2"
+      },
+      {
+        "ID": "chunk_1_2",
+        "sentenceID": 1,
+        "surfaceForm": "Nuremberg",
+        "category": "NP",
+        "locationStart": 8,
+        "locationEnd": 17,
+        "tokenStart": 2,
+        "tokenEnd": 3,
+        "score": 0.9999141693115234,
+        "method": "flair_chunk_0.12.2"
+      },
+      {
+        "ID": "chunk_1_3",
+        "sentenceID": 1,
+        "surfaceForm": "Dürer",
+        "category": "NP",
+        "locationStart": 19,
+        "locationEnd": 24,
+        "tokenStart": 4,
+        "tokenEnd": 5,
+        "score": 0.9999713897705078,
+        "method": "flair_chunk_0.12.2"
+      },
+      {
+        "ID": "chunk_1_4",
+        "sentenceID": 1,
+        "surfaceForm": "established",
+        "category": "VP",
+        "locationStart": 25,
+        "locationEnd": 36,
+        "tokenStart": 5,
+        "tokenEnd": 6,
+        "score": 0.9999979734420776,
+        "method": "flair_chunk_0.12.2"
+      },
+      {
+        "ID": "chunk_1_5",
+        "sentenceID": 1,
+        "surfaceForm": "his reputation and influence",
+        "category": "NP",
+        "locationStart": 37,
+        "locationEnd": 65,
+        "tokenStart": 6,
+        "tokenEnd": 10,
+        "score": 0.9136980623006821,
+        "method": "flair_chunk_0.12.2"
+      },
+      {
+        "ID": "chunk_1_6",
+        "sentenceID": 1,
+        "surfaceForm": "across",
+        "category": "PP",
+        "locationStart": 66,
+        "locationEnd": 72,
+        "tokenStart": 10,
+        "tokenEnd": 11,
+        "score": 0.9999967813491821,
+        "method": "flair_chunk_0.12.2"
+      },
+      {
+        "ID": "chunk_1_7",
+        "sentenceID": 1,
+        "surfaceForm": "Europe",
+        "category": "NP",
+        "locationStart": 73,
+        "locationEnd": 79,
+        "tokenStart": 11,
+        "tokenEnd": 12,
+        "score": 0.9999853372573853,
+        "method": "flair_chunk_0.12.2"
+      },
+      {
+        "ID": "chunk_1_8",
+        "sentenceID": 1,
+        "surfaceForm": "in",
+        "category": "PP",
+        "locationStart": 80,
+        "locationEnd": 82,
+        "tokenStart": 12,
+        "tokenEnd": 13,
+        "score": 0.9999978542327881,
+        "method": "flair_chunk_0.12.2"
+      },
+      {
+        "ID": "chunk_1_9",
+        "sentenceID": 1,
+        "surfaceForm": "his twenties",
+        "category": "NP",
+        "locationStart": 83,
+        "locationEnd": 95,
+        "tokenStart": 13,
+        "tokenEnd": 15,
+        "score": 0.9999108910560608,
+        "method": "flair_chunk_0.12.2"
+      },
+      {
+        "ID": "chunk_1_10",
+        "sentenceID": 1,
+        "surfaceForm": "due",
+        "category": "ADVP",
+        "locationStart": 96,
+        "locationEnd": 99,
+        "tokenStart": 15,
+        "tokenEnd": 16,
+        "score": 0.7882871627807617,
+        "method": "flair_chunk_0.12.2"
+      },
+      {
+        "ID": "chunk_1_11",
+        "sentenceID": 1,
+        "surfaceForm": "to",
+        "category": "PP",
+        "locationStart": 100,
+        "locationEnd": 102,
+        "tokenStart": 16,
+        "tokenEnd": 17,
+        "score": 0.9370592832565308,
+        "method": "flair_chunk_0.12.2"
+      },
+      {
+        "ID": "chunk_1_12",
+        "sentenceID": 1,
+        "surfaceForm": "his high-quality woodcut prints",
+        "category": "NP",
+        "locationStart": 103,
+        "locationEnd": 134,
+        "tokenStart": 17,
+        "tokenEnd": 21,
+        "score": 0.9831155687570572,
+        "method": "flair_chunk_0.12.2"
+      },
+      {
+        "ID": "chunk_2_0",
+        "sentenceID": 2,
+        "surfaceForm": "He",
+        "category": "NP",
+        "locationStart": 0,
+        "locationEnd": 2,
+        "tokenStart": 0,
+        "tokenEnd": 1,
+        "score": 0.9999992847442627,
+        "method": "flair_chunk_0.12.2"
+      },
+      {
+        "ID": "chunk_2_1",
+        "sentenceID": 2,
+        "surfaceForm": "was",
+        "category": "VP",
+        "locationStart": 3,
+        "locationEnd": 6,
+        "tokenStart": 1,
+        "tokenEnd": 2,
+        "score": 0.9999911785125732,
+        "method": "flair_chunk_0.12.2"
+      },
+      {
+        "ID": "chunk_2_2",
+        "sentenceID": 2,
+        "surfaceForm": "in",
+        "category": "PP",
+        "locationStart": 7,
+        "locationEnd": 9,
+        "tokenStart": 2,
+        "tokenEnd": 3,
+        "score": 0.9999802112579346,
+        "method": "flair_chunk_0.12.2"
+      },
+      {
+        "ID": "chunk_2_3",
+        "sentenceID": 2,
+        "surfaceForm": "contact",
+        "category": "NP",
+        "locationStart": 10,
+        "locationEnd": 17,
+        "tokenStart": 3,
+        "tokenEnd": 4,
+        "score": 0.9999933242797852,
+        "method": "flair_chunk_0.12.2"
+      },
+      {
+        "ID": "chunk_2_4",
+        "sentenceID": 2,
+        "surfaceForm": "with",
+        "category": "PP",
+        "locationStart": 18,
+        "locationEnd": 22,
+        "tokenStart": 4,
+        "tokenEnd": 5,
+        "score": 0.9999997615814209,
+        "method": "flair_chunk_0.12.2"
+      },
+      {
+        "ID": "chunk_2_5",
+        "sentenceID": 2,
+        "surfaceForm": "the major Italian artists",
+        "category": "NP",
+        "locationStart": 23,
+        "locationEnd": 48,
+        "tokenStart": 5,
+        "tokenEnd": 9,
+        "score": 0.9968802183866501,
+        "method": "flair_chunk_0.12.2"
+      },
+      {
+        "ID": "chunk_2_6",
+        "sentenceID": 2,
+        "surfaceForm": "of",
+        "category": "PP",
+        "locationStart": 49,
+        "locationEnd": 51,
+        "tokenStart": 9,
+        "tokenEnd": 10,
+        "score": 0.9999967813491821,
+        "method": "flair_chunk_0.12.2"
+      },
+      {
+        "ID": "chunk_2_7",
+        "sentenceID": 2,
+        "surfaceForm": "his time",
+        "category": "NP",
+        "locationStart": 52,
+        "locationEnd": 60,
+        "tokenStart": 10,
+        "tokenEnd": 12,
+        "score": 0.9987435042858124,
+        "method": "flair_chunk_0.12.2"
+      },
+      {
+        "ID": "chunk_2_8",
+        "sentenceID": 2,
+        "surfaceForm": "including",
+        "category": "PP",
+        "locationStart": 62,
+        "locationEnd": 71,
+        "tokenStart": 13,
+        "tokenEnd": 14,
+        "score": 0.9996978044509888,
+        "method": "flair_chunk_0.12.2"
+      },
+      {
+        "ID": "chunk_2_9",
+        "sentenceID": 2,
+        "surfaceForm": "Raphael",
+        "category": "NP",
+        "locationStart": 72,
+        "locationEnd": 79,
+        "tokenStart": 14,
+        "tokenEnd": 15,
+        "score": 0.9067359566688538,
+        "method": "flair_chunk_0.12.2"
+      },
+      {
+        "ID": "chunk_2_10",
+        "sentenceID": 2,
+        "surfaceForm": "Giovanni Bellini",
+        "category": "NP",
+        "locationStart": 81,
+        "locationEnd": 97,
+        "tokenStart": 16,
+        "tokenEnd": 18,
+        "score": 0.8660743832588196,
+        "method": "flair_chunk_0.12.2"
+      },
+      {
+        "ID": "chunk_2_11",
+        "sentenceID": 2,
+        "surfaceForm": "Leonardo da Vinci",
+        "category": "NP",
+        "locationStart": 103,
+        "locationEnd": 120,
+        "tokenStart": 20,
+        "tokenEnd": 23,
+        "score": 0.9657686154047648,
+        "method": "flair_chunk_0.12.2"
+      },
+      {
+        "ID": "chunk_2_12",
+        "sentenceID": 2,
+        "surfaceForm": "from",
+        "category": "PP",
+        "locationStart": 126,
+        "locationEnd": 130,
+        "tokenStart": 25,
+        "tokenEnd": 26,
+        "score": 0.999983549118042,
+        "method": "flair_chunk_0.12.2"
+      },
+      {
+        "ID": "chunk_2_13",
+        "sentenceID": 2,
+        "surfaceForm": "1512",
+        "category": "NP",
+        "locationStart": 131,
+        "locationEnd": 135,
+        "tokenStart": 26,
+        "tokenEnd": 27,
+        "score": 0.999981164932251,
+        "method": "flair_chunk_0.12.2"
+      },
+      {
+        "ID": "chunk_2_14",
+        "sentenceID": 2,
+        "surfaceForm": "was patronized",
+        "category": "VP",
+        "locationStart": 136,
+        "locationEnd": 150,
+        "tokenStart": 27,
+        "tokenEnd": 29,
+        "score": 0.9623288810253143,
+        "method": "flair_chunk_0.12.2"
+      },
+      {
+        "ID": "chunk_2_15",
+        "sentenceID": 2,
+        "surfaceForm": "by",
+        "category": "PP",
+        "locationStart": 151,
+        "locationEnd": 153,
+        "tokenStart": 29,
+        "tokenEnd": 30,
+        "score": 0.9999998807907104,
+        "method": "flair_chunk_0.12.2"
+      },
+      {
+        "ID": "chunk_2_16",
+        "sentenceID": 2,
+        "surfaceForm": "Emperor Maximilian I. Dürer",
+        "category": "NP",
+        "locationStart": 154,
+        "locationEnd": 181,
+        "tokenStart": 30,
+        "tokenEnd": 34,
+        "score": 0.9860585331916809,
+        "method": "flair_chunk_0.12.2"
+      },
+      {
+        "ID": "chunk_2_17",
+        "sentenceID": 2,
+        "surfaceForm": "'s vast body",
+        "category": "NP",
+        "locationStart": 181,
+        "locationEnd": 193,
+        "tokenStart": 34,
+        "tokenEnd": 37,
+        "score": 0.9962267676989237,
+        "method": "flair_chunk_0.12.2"
+      },
+      {
+        "ID": "chunk_2_18",
+        "sentenceID": 2,
+        "surfaceForm": "of",
+        "category": "PP",
+        "locationStart": 194,
+        "locationEnd": 196,
+        "tokenStart": 37,
+        "tokenEnd": 38,
+        "score": 0.9999996423721313,
+        "method": "flair_chunk_0.12.2"
+      },
+      {
+        "ID": "chunk_2_19",
+        "sentenceID": 2,
+        "surfaceForm": "work",
+        "category": "NP",
+        "locationStart": 197,
+        "locationEnd": 201,
+        "tokenStart": 38,
+        "tokenEnd": 39,
+        "score": 0.9999990463256836,
+        "method": "flair_chunk_0.12.2"
+      },
+      {
+        "ID": "chunk_2_20",
+        "sentenceID": 2,
+        "surfaceForm": "includes",
+        "category": "VP",
+        "locationStart": 202,
+        "locationEnd": 210,
+        "tokenStart": 39,
+        "tokenEnd": 40,
+        "score": 0.9999773502349854,
+        "method": "flair_chunk_0.12.2"
+      },
+      {
+        "ID": "chunk_2_21",
+        "sentenceID": 2,
+        "surfaceForm": "engravings",
+        "category": "NP",
+        "locationStart": 211,
+        "locationEnd": 221,
+        "tokenStart": 40,
+        "tokenEnd": 41,
+        "score": 0.999970555305481,
+        "method": "flair_chunk_0.12.2"
+      },
+      {
+        "ID": "chunk_2_22",
+        "sentenceID": 2,
+        "surfaceForm": "his preferred technique",
+        "category": "NP",
+        "locationStart": 223,
+        "locationEnd": 246,
+        "tokenStart": 42,
+        "tokenEnd": 45,
+        "score": 0.9961445530255636,
+        "method": "flair_chunk_0.12.2"
+      },
+      {
+        "ID": "chunk_2_23",
+        "sentenceID": 2,
+        "surfaceForm": "in",
+        "category": "PP",
+        "locationStart": 247,
+        "locationEnd": 249,
+        "tokenStart": 45,
+        "tokenEnd": 46,
+        "score": 0.9999996423721313,
+        "method": "flair_chunk_0.12.2"
+      },
+      {
+        "ID": "chunk_2_24",
+        "sentenceID": 2,
+        "surfaceForm": "his later prints",
+        "category": "NP",
+        "locationStart": 250,
+        "locationEnd": 266,
+        "tokenStart": 46,
+        "tokenEnd": 49,
+        "score": 0.9694123864173889,
+        "method": "flair_chunk_0.12.2"
+      },
+      {
+        "ID": "chunk_2_25",
+        "sentenceID": 2,
+        "surfaceForm": "altarpieces",
+        "category": "NP",
+        "locationStart": 268,
+        "locationEnd": 279,
+        "tokenStart": 50,
+        "tokenEnd": 51,
+        "score": 0.999091625213623,
+        "method": "flair_chunk_0.12.2"
+      },
+      {
+        "ID": "chunk_2_26",
+        "sentenceID": 2,
+        "surfaceForm": "portraits",
+        "category": "NP",
+        "locationStart": 281,
+        "locationEnd": 290,
+        "tokenStart": 52,
+        "tokenEnd": 53,
+        "score": 0.9990078806877136,
+        "method": "flair_chunk_0.12.2"
+      },
+      {
+        "ID": "chunk_2_27",
+        "sentenceID": 2,
+        "surfaceForm": "self-portraits, watercolours and books",
+        "category": "NP",
+        "locationStart": 295,
+        "locationEnd": 333,
+        "tokenStart": 54,
+        "tokenEnd": 59,
+        "score": 0.9170249462127685,
+        "method": "flair_chunk_0.12.2"
+      },
+      {
+        "ID": "chunk_3_0",
+        "sentenceID": 3,
+        "surfaceForm": "The woodcuts series",
+        "category": "NP",
+        "locationStart": 0,
+        "locationEnd": 19,
+        "tokenStart": 0,
+        "tokenEnd": 3,
+        "score": 0.9418705503145853,
+        "method": "flair_chunk_0.12.2"
+      },
+      {
+        "ID": "chunk_3_1",
+        "sentenceID": 3,
+        "surfaceForm": "are",
+        "category": "VP",
+        "locationStart": 20,
+        "locationEnd": 23,
+        "tokenStart": 3,
+        "tokenEnd": 4,
+        "score": 0.999996542930603,
+        "method": "flair_chunk_0.12.2"
+      },
+      {
+        "ID": "chunk_3_2",
+        "sentenceID": 3,
+        "surfaceForm": "more Gothic",
+        "category": "ADJP",
+        "locationStart": 24,
+        "locationEnd": 35,
+        "tokenStart": 4,
+        "tokenEnd": 6,
+        "score": 0.9986442923545837,
+        "method": "flair_chunk_0.12.2"
+      },
+      {
+        "ID": "chunk_3_3",
+        "sentenceID": 3,
+        "surfaceForm": "than",
+        "category": "PP",
+        "locationStart": 36,
+        "locationEnd": 40,
+        "tokenStart": 6,
+        "tokenEnd": 7,
+        "score": 0.9999772310256958,
+        "method": "flair_chunk_0.12.2"
+      },
+      {
+        "ID": "chunk_3_4",
+        "sentenceID": 3,
+        "surfaceForm": "the rest",
+        "category": "NP",
+        "locationStart": 41,
+        "locationEnd": 49,
+        "tokenStart": 7,
+        "tokenEnd": 9,
+        "score": 0.9996216297149658,
+        "method": "flair_chunk_0.12.2"
+      },
+      {
+        "ID": "chunk_3_5",
+        "sentenceID": 3,
+        "surfaceForm": "of",
+        "category": "PP",
+        "locationStart": 50,
+        "locationEnd": 52,
+        "tokenStart": 9,
+        "tokenEnd": 10,
+        "score": 0.9999998807907104,
+        "method": "flair_chunk_0.12.2"
+      },
+      {
+        "ID": "chunk_3_6",
+        "sentenceID": 3,
+        "surfaceForm": "his work",
+        "category": "NP",
+        "locationStart": 53,
+        "locationEnd": 61,
+        "tokenStart": 10,
+        "tokenEnd": 12,
+        "score": 0.9987583756446838,
+        "method": "flair_chunk_0.12.2"
+      },
+      {
+        "ID": "chunk_4_0",
+        "sentenceID": 4,
+        "surfaceForm": "His well-known engravings",
+        "category": "NP",
+        "locationStart": 0,
+        "locationEnd": 25,
+        "tokenStart": 0,
+        "tokenEnd": 3,
+        "score": 0.997701903184255,
+        "method": "flair_chunk_0.12.2"
+      },
+      {
+        "ID": "chunk_4_1",
+        "sentenceID": 4,
+        "surfaceForm": "include",
+        "category": "VP",
+        "locationStart": 26,
+        "locationEnd": 33,
+        "tokenStart": 3,
+        "tokenEnd": 4,
+        "score": 0.9999452829360962,
+        "method": "flair_chunk_0.12.2"
+      },
+      {
+        "ID": "chunk_4_2",
+        "sentenceID": 4,
+        "surfaceForm": "the three Meisterstiche (master prints",
+        "category": "NP",
+        "locationStart": 34,
+        "locationEnd": 72,
+        "tokenStart": 4,
+        "tokenEnd": 10,
+        "score": 0.923524002234141,
+        "method": "flair_chunk_0.12.2"
+      },
+      {
+        "ID": "chunk_4_3",
+        "sentenceID": 4,
+        "surfaceForm": "Knight",
+        "category": "NP",
+        "locationStart": 74,
+        "locationEnd": 80,
+        "tokenStart": 11,
+        "tokenEnd": 12,
+        "score": 0.8384010791778564,
+        "method": "flair_chunk_0.12.2"
+      },
+      {
+        "ID": "chunk_4_4",
+        "sentenceID": 4,
+        "surfaceForm": "Death",
+        "category": "NP",
+        "locationStart": 82,
+        "locationEnd": 87,
+        "tokenStart": 13,
+        "tokenEnd": 14,
+        "score": 0.9999439716339111,
+        "method": "flair_chunk_0.12.2"
+      },
+      {
+        "ID": "chunk_4_5",
+        "sentenceID": 4,
+        "surfaceForm": "the Devil",
+        "category": "NP",
+        "locationStart": 92,
+        "locationEnd": 101,
+        "tokenStart": 15,
+        "tokenEnd": 17,
+        "score": 0.9860744476318359,
+        "method": "flair_chunk_0.12.2"
+      },
+      {
+        "ID": "chunk_4_6",
+        "sentenceID": 4,
+        "surfaceForm": "1513)",
+        "category": "NP",
+        "locationStart": 103,
+        "locationEnd": 108,
+        "tokenStart": 18,
+        "tokenEnd": 20,
+        "score": 0.9539385437965393,
+        "method": "flair_chunk_0.12.2"
+      },
+      {
+        "ID": "chunk_4_7",
+        "sentenceID": 4,
+        "surfaceForm": "Saint Jerome",
+        "category": "NP",
+        "locationStart": 110,
+        "locationEnd": 122,
+        "tokenStart": 21,
+        "tokenEnd": 23,
+        "score": 0.9968730807304382,
+        "method": "flair_chunk_0.12.2"
+      },
+      {
+        "ID": "chunk_4_8",
+        "sentenceID": 4,
+        "surfaceForm": "in",
+        "category": "PP",
+        "locationStart": 123,
+        "locationEnd": 125,
+        "tokenStart": 23,
+        "tokenEnd": 24,
+        "score": 0.999982476234436,
+        "method": "flair_chunk_0.12.2"
+      },
+      {
+        "ID": "chunk_4_9",
+        "sentenceID": 4,
+        "surfaceForm": "his Study",
+        "category": "NP",
+        "locationStart": 126,
+        "locationEnd": 135,
+        "tokenStart": 24,
+        "tokenEnd": 26,
+        "score": 0.9937354028224945,
+        "method": "flair_chunk_0.12.2"
+      },
+      {
+        "ID": "chunk_4_10",
+        "sentenceID": 4,
+        "surfaceForm": "1514)",
+        "category": "NP",
+        "locationStart": 137,
+        "locationEnd": 142,
+        "tokenStart": 27,
+        "tokenEnd": 29,
+        "score": 0.9944451451301575,
+        "method": "flair_chunk_0.12.2"
+      },
+      {
+        "ID": "chunk_4_11",
+        "sentenceID": 4,
+        "surfaceForm": "Melencolia I",
+        "category": "NP",
+        "locationStart": 148,
+        "locationEnd": 160,
+        "tokenStart": 31,
+        "tokenEnd": 33,
+        "score": 0.8173555135726929,
+        "method": "flair_chunk_0.12.2"
+      },
+      {
+        "ID": "chunk_4_12",
+        "sentenceID": 4,
+        "surfaceForm": "1514",
+        "category": "NP",
+        "locationStart": 162,
+        "locationEnd": 166,
+        "tokenStart": 34,
+        "tokenEnd": 35,
+        "score": 0.9995156526565552,
+        "method": "flair_chunk_0.12.2"
+      },
+      {
+        "ID": "chunk_5_0",
+        "sentenceID": 5,
+        "surfaceForm": "His watercolours",
+        "category": "NP",
+        "locationStart": 0,
+        "locationEnd": 16,
+        "tokenStart": 0,
+        "tokenEnd": 2,
+        "score": 0.9997857511043549,
+        "method": "flair_chunk_0.12.2"
+      },
+      {
+        "ID": "chunk_5_1",
+        "sentenceID": 5,
+        "surfaceForm": "mark",
+        "category": "VP",
+        "locationStart": 17,
+        "locationEnd": 21,
+        "tokenStart": 2,
+        "tokenEnd": 3,
+        "score": 0.9999996423721313,
+        "method": "flair_chunk_0.12.2"
+      },
+      {
+        "ID": "chunk_5_2",
+        "sentenceID": 5,
+        "surfaceForm": "him",
+        "category": "NP",
+        "locationStart": 22,
+        "locationEnd": 25,
+        "tokenStart": 3,
+        "tokenEnd": 4,
+        "score": 0.9999969005584717,
+        "method": "flair_chunk_0.12.2"
+      },
+      {
+        "ID": "chunk_5_3",
+        "sentenceID": 5,
+        "surfaceForm": "as",
+        "category": "PP",
+        "locationStart": 26,
+        "locationEnd": 28,
+        "tokenStart": 4,
+        "tokenEnd": 5,
+        "score": 0.9999967813491821,
+        "method": "flair_chunk_0.12.2"
+      },
+      {
+        "ID": "chunk_5_4",
+        "sentenceID": 5,
+        "surfaceForm": "one",
+        "category": "NP",
+        "locationStart": 29,
+        "locationEnd": 32,
+        "tokenStart": 5,
+        "tokenEnd": 6,
+        "score": 0.9999985694885254,
+        "method": "flair_chunk_0.12.2"
+      },
+      {
+        "ID": "chunk_5_5",
+        "sentenceID": 5,
+        "surfaceForm": "of",
+        "category": "PP",
+        "locationStart": 33,
+        "locationEnd": 35,
+        "tokenStart": 6,
+        "tokenEnd": 7,
+        "score": 0.9999983310699463,
+        "method": "flair_chunk_0.12.2"
+      },
+      {
+        "ID": "chunk_5_6",
+        "sentenceID": 5,
+        "surfaceForm": "the first European landscape artists",
+        "category": "NP",
+        "locationStart": 36,
+        "locationEnd": 72,
+        "tokenStart": 7,
+        "tokenEnd": 12,
+        "score": 0.9787606596946716,
+        "method": "flair_chunk_0.12.2"
+      },
+      {
+        "ID": "chunk_5_7",
+        "sentenceID": 5,
+        "surfaceForm": "while",
+        "category": "SBAR",
+        "locationStart": 74,
+        "locationEnd": 79,
+        "tokenStart": 13,
+        "tokenEnd": 14,
+        "score": 0.9999902248382568,
+        "method": "flair_chunk_0.12.2"
+      },
+      {
+        "ID": "chunk_5_8",
+        "sentenceID": 5,
+        "surfaceForm": "his woodcuts",
+        "category": "NP",
+        "locationStart": 80,
+        "locationEnd": 92,
+        "tokenStart": 14,
+        "tokenEnd": 16,
+        "score": 0.9990711510181427,
+        "method": "flair_chunk_0.12.2"
+      },
+      {
+        "ID": "chunk_5_9",
+        "sentenceID": 5,
+        "surfaceForm": "revolutionised",
+        "category": "VP",
+        "locationStart": 93,
+        "locationEnd": 107,
+        "tokenStart": 16,
+        "tokenEnd": 17,
+        "score": 0.9999977350234985,
+        "method": "flair_chunk_0.12.2"
+      },
+      {
+        "ID": "chunk_5_10",
+        "sentenceID": 5,
+        "surfaceForm": "the potential",
+        "category": "NP",
+        "locationStart": 108,
+        "locationEnd": 121,
+        "tokenStart": 17,
+        "tokenEnd": 19,
+        "score": 0.9995755553245544,
+        "method": "flair_chunk_0.12.2"
+      },
+      {
+        "ID": "chunk_5_11",
+        "sentenceID": 5,
+        "surfaceForm": "of",
+        "category": "PP",
+        "locationStart": 122,
+        "locationEnd": 124,
+        "tokenStart": 19,
+        "tokenEnd": 20,
+        "score": 0.9999998807907104,
+        "method": "flair_chunk_0.12.2"
+      },
+      {
+        "ID": "chunk_5_12",
+        "sentenceID": 5,
+        "surfaceForm": "that medium",
+        "category": "NP",
+        "locationStart": 125,
+        "locationEnd": 136,
+        "tokenStart": 20,
+        "tokenEnd": 22,
+        "score": 0.9998587667942047,
+        "method": "flair_chunk_0.12.2"
+      },
+      {
+        "ID": "chunk_6_0",
+        "sentenceID": 6,
+        "surfaceForm": "Dürer",
+        "category": "NP",
+        "locationStart": 0,
+        "locationEnd": 5,
+        "tokenStart": 0,
+        "tokenEnd": 1,
+        "score": 0.9999451637268066,
+        "method": "flair_chunk_0.12.2"
+      },
+      {
+        "ID": "chunk_6_1",
+        "sentenceID": 6,
+        "surfaceForm": "'s introduction",
+        "category": "NP",
+        "locationStart": 5,
+        "locationEnd": 20,
+        "tokenStart": 1,
+        "tokenEnd": 3,
+        "score": 0.9910781383514404,
+        "method": "flair_chunk_0.12.2"
+      },
+      {
+        "ID": "chunk_6_2",
+        "sentenceID": 6,
+        "surfaceForm": "of",
+        "category": "PP",
+        "locationStart": 21,
+        "locationEnd": 23,
+        "tokenStart": 3,
+        "tokenEnd": 4,
+        "score": 0.9999997615814209,
+        "method": "flair_chunk_0.12.2"
+      },
+      {
+        "ID": "chunk_6_3",
+        "sentenceID": 6,
+        "surfaceForm": "classical motifs",
+        "category": "NP",
+        "locationStart": 24,
+        "locationEnd": 40,
+        "tokenStart": 4,
+        "tokenEnd": 6,
+        "score": 0.9997322261333466,
+        "method": "flair_chunk_0.12.2"
+      },
+      {
+        "ID": "chunk_6_4",
+        "sentenceID": 6,
+        "surfaceForm": "into",
+        "category": "PP",
+        "locationStart": 41,
+        "locationEnd": 45,
+        "tokenStart": 6,
+        "tokenEnd": 7,
+        "score": 0.9999997615814209,
+        "method": "flair_chunk_0.12.2"
+      },
+      {
+        "ID": "chunk_6_5",
+        "sentenceID": 6,
+        "surfaceForm": "Northern art",
+        "category": "NP",
+        "locationStart": 46,
+        "locationEnd": 58,
+        "tokenStart": 7,
+        "tokenEnd": 9,
+        "score": 0.9999366998672485,
+        "method": "flair_chunk_0.12.2"
+      },
+      {
+        "ID": "chunk_6_6",
+        "sentenceID": 6,
+        "surfaceForm": "through",
+        "category": "PP",
+        "locationStart": 60,
+        "locationEnd": 67,
+        "tokenStart": 10,
+        "tokenEnd": 11,
+        "score": 0.9999656677246094,
+        "method": "flair_chunk_0.12.2"
+      },
+      {
+        "ID": "chunk_6_7",
+        "sentenceID": 6,
+        "surfaceForm": "his knowledge",
+        "category": "NP",
+        "locationStart": 68,
+        "locationEnd": 81,
+        "tokenStart": 11,
+        "tokenEnd": 13,
+        "score": 0.9875850975513458,
+        "method": "flair_chunk_0.12.2"
+      },
+      {
+        "ID": "chunk_6_8",
+        "sentenceID": 6,
+        "surfaceForm": "of",
+        "category": "PP",
+        "locationStart": 82,
+        "locationEnd": 84,
+        "tokenStart": 13,
+        "tokenEnd": 14,
+        "score": 0.9999988079071045,
+        "method": "flair_chunk_0.12.2"
+      },
+      {
+        "ID": "chunk_6_9",
+        "sentenceID": 6,
+        "surfaceForm": "Italian artists",
+        "category": "NP",
+        "locationStart": 85,
+        "locationEnd": 100,
+        "tokenStart": 14,
+        "tokenEnd": 16,
+        "score": 0.9946810007095337,
+        "method": "flair_chunk_0.12.2"
+      },
+      {
+        "ID": "chunk_6_10",
+        "sentenceID": 6,
+        "surfaceForm": "German humanists",
+        "category": "NP",
+        "locationStart": 105,
+        "locationEnd": 121,
+        "tokenStart": 17,
+        "tokenEnd": 19,
+        "score": 0.7887612581253052,
+        "method": "flair_chunk_0.12.2"
+      },
+      {
+        "ID": "chunk_6_11",
+        "sentenceID": 6,
+        "surfaceForm": "has secured",
+        "category": "VP",
+        "locationStart": 123,
+        "locationEnd": 134,
+        "tokenStart": 20,
+        "tokenEnd": 22,
+        "score": 0.9933862686157227,
+        "method": "flair_chunk_0.12.2"
+      },
+      {
+        "ID": "chunk_6_12",
+        "sentenceID": 6,
+        "surfaceForm": "his reputation",
+        "category": "NP",
+        "locationStart": 135,
+        "locationEnd": 149,
+        "tokenStart": 22,
+        "tokenEnd": 24,
+        "score": 0.9940219521522522,
+        "method": "flair_chunk_0.12.2"
+      },
+      {
+        "ID": "chunk_6_13",
+        "sentenceID": 6,
+        "surfaceForm": "as",
+        "category": "PP",
+        "locationStart": 150,
+        "locationEnd": 152,
+        "tokenStart": 24,
+        "tokenEnd": 25,
+        "score": 0.9999998807907104,
+        "method": "flair_chunk_0.12.2"
+      },
+      {
+        "ID": "chunk_6_14",
+        "sentenceID": 6,
+        "surfaceForm": "one",
+        "category": "NP",
+        "locationStart": 153,
+        "locationEnd": 156,
+        "tokenStart": 25,
+        "tokenEnd": 26,
+        "score": 0.9999971389770508,
+        "method": "flair_chunk_0.12.2"
+      },
+      {
+        "ID": "chunk_6_15",
+        "sentenceID": 6,
+        "surfaceForm": "of",
+        "category": "PP",
+        "locationStart": 157,
+        "locationEnd": 159,
+        "tokenStart": 26,
+        "tokenEnd": 27,
+        "score": 0.9999988079071045,
+        "method": "flair_chunk_0.12.2"
+      },
+      {
+        "ID": "chunk_6_16",
+        "sentenceID": 6,
+        "surfaceForm": "the most important figures",
+        "category": "NP",
+        "locationStart": 160,
+        "locationEnd": 186,
+        "tokenStart": 27,
+        "tokenEnd": 31,
+        "score": 0.9881515353918076,
+        "method": "flair_chunk_0.12.2"
+      },
+      {
+        "ID": "chunk_6_17",
+        "sentenceID": 6,
+        "surfaceForm": "of",
+        "category": "PP",
+        "locationStart": 187,
+        "locationEnd": 189,
+        "tokenStart": 31,
+        "tokenEnd": 32,
+        "score": 1.0,
+        "method": "flair_chunk_0.12.2"
+      },
+      {
+        "ID": "chunk_6_18",
+        "sentenceID": 6,
+        "surfaceForm": "the Northern Renaissance",
+        "category": "NP",
+        "locationStart": 190,
+        "locationEnd": 214,
+        "tokenStart": 32,
+        "tokenEnd": 35,
+        "score": 0.9982560674349467,
+        "method": "flair_chunk_0.12.2"
+      },
+      {
+        "ID": "chunk_7_0",
+        "sentenceID": 7,
+        "surfaceForm": "This",
+        "category": "NP",
+        "locationStart": 0,
+        "locationEnd": 4,
+        "tokenStart": 0,
+        "tokenEnd": 1,
+        "score": 0.9999607801437378,
+        "method": "flair_chunk_0.12.2"
+      },
+      {
+        "ID": "chunk_7_1",
+        "sentenceID": 7,
+        "surfaceForm": "is reinforced",
+        "category": "VP",
+        "locationStart": 5,
+        "locationEnd": 18,
+        "tokenStart": 1,
+        "tokenEnd": 3,
+        "score": 0.9125247597694397,
+        "method": "flair_chunk_0.12.2"
+      },
+      {
+        "ID": "chunk_7_2",
+        "sentenceID": 7,
+        "surfaceForm": "by",
+        "category": "PP",
+        "locationStart": 19,
+        "locationEnd": 21,
+        "tokenStart": 3,
+        "tokenEnd": 4,
+        "score": 0.9999988079071045,
+        "method": "flair_chunk_0.12.2"
+      },
+      {
+        "ID": "chunk_7_3",
+        "sentenceID": 7,
+        "surfaceForm": "his theoretical treatises",
+        "category": "NP",
+        "locationStart": 22,
+        "locationEnd": 47,
+        "tokenStart": 4,
+        "tokenEnd": 7,
+        "score": 0.9957980910936991,
+        "method": "flair_chunk_0.12.2"
+      },
+      {
+        "ID": "chunk_7_4",
+        "sentenceID": 7,
+        "surfaceForm": "which",
+        "category": "NP",
+        "locationStart": 49,
+        "locationEnd": 54,
+        "tokenStart": 8,
+        "tokenEnd": 9,
+        "score": 0.9999995231628418,
+        "method": "flair_chunk_0.12.2"
+      },
+      {
+        "ID": "chunk_7_5",
+        "sentenceID": 7,
+        "surfaceForm": "involve",
+        "category": "VP",
+        "locationStart": 55,
+        "locationEnd": 62,
+        "tokenStart": 9,
+        "tokenEnd": 10,
+        "score": 0.9999806880950928,
+        "method": "flair_chunk_0.12.2"
+      },
+      {
+        "ID": "chunk_7_6",
+        "sentenceID": 7,
+        "surfaceForm": "principles",
+        "category": "NP",
+        "locationStart": 63,
+        "locationEnd": 73,
+        "tokenStart": 10,
+        "tokenEnd": 11,
+        "score": 0.9999911785125732,
+        "method": "flair_chunk_0.12.2"
+      },
+      {
+        "ID": "chunk_7_7",
+        "sentenceID": 7,
+        "surfaceForm": "of",
+        "category": "PP",
+        "locationStart": 74,
+        "locationEnd": 76,
+        "tokenStart": 11,
+        "tokenEnd": 12,
+        "score": 0.9999610185623169,
+        "method": "flair_chunk_0.12.2"
+      },
+      {
+        "ID": "chunk_7_8",
+        "sentenceID": 7,
+        "surfaceForm": "mathematics",
+        "category": "NP",
+        "locationStart": 77,
+        "locationEnd": 88,
+        "tokenStart": 12,
+        "tokenEnd": 13,
+        "score": 0.9795883893966675,
+        "method": "flair_chunk_0.12.2"
+      },
+      {
+        "ID": "chunk_7_9",
+        "sentenceID": 7,
+        "surfaceForm": "perspective",
+        "category": "NP",
+        "locationStart": 90,
+        "locationEnd": 101,
+        "tokenStart": 14,
+        "tokenEnd": 15,
+        "score": 0.9806053638458252,
+        "method": "flair_chunk_0.12.2"
+      },
+      {
+        "ID": "chunk_7_10",
+        "sentenceID": 7,
+        "surfaceForm": "ideal proportions",
+        "category": "NP",
+        "locationStart": 107,
+        "locationEnd": 124,
+        "tokenStart": 17,
+        "tokenEnd": 19,
+        "score": 0.9866321384906769,
+        "method": "flair_chunk_0.12.2"
+      }
+    ],
+    "semantic_roles": [
+      {
+        "predicateID": "pred_0_0",
+        "sentenceID": 0,
+        "locationStart": 113,
+        "locationEnd": 120,
+        "tokenStart": 28,
+        "tokenEnd": 29,
+        "surfaceForm": "spelled",
+        "predicateSense": "spell.01",
+        "score": 0.9268879890441895,
+        "arguments": [],
+        "method": "flair_frame_0.12.2"
+      },
+      {
+        "predicateID": "pred_0_0",
+        "sentenceID": 0,
+        "locationStart": 172,
+        "locationEnd": 175,
+        "tokenStart": 41,
+        "tokenEnd": 42,
+        "surfaceForm": "was",
+        "predicateSense": "be.01",
+        "score": 0.9956892132759094,
+        "arguments": [],
+        "method": "flair_frame_0.12.2"
+      },
+      {
+        "predicateID": "pred_1_0",
+        "sentenceID": 1,
+        "locationStart": 0,
+        "locationEnd": 4,
+        "tokenStart": 0,
+        "tokenEnd": 1,
+        "surfaceForm": "Born",
+        "predicateSense": "bear.02",
+        "score": 0.9998941421508789,
+        "arguments": [],
+        "method": "flair_frame_0.12.2"
+      },
+      {
+        "predicateID": "pred_1_0",
+        "sentenceID": 1,
+        "locationStart": 25,
+        "locationEnd": 36,
+        "tokenStart": 5,
+        "tokenEnd": 6,
+        "surfaceForm": "established",
+        "predicateSense": "establish.01",
+        "score": 0.999890923500061,
+        "arguments": [],
+        "method": "flair_frame_0.12.2"
+      },
+      {
+        "predicateID": "pred_1_0",
+        "sentenceID": 1,
+        "locationStart": 56,
+        "locationEnd": 65,
+        "tokenStart": 9,
+        "tokenEnd": 10,
+        "surfaceForm": "influence",
+        "predicateSense": "influence.01",
+        "score": 0.9864276051521301,
+        "arguments": [],
+        "method": "flair_frame_0.12.2"
+      },
+      {
+        "predicateID": "pred_2_0",
+        "sentenceID": 2,
+        "locationStart": 3,
+        "locationEnd": 6,
+        "tokenStart": 1,
+        "tokenEnd": 2,
+        "surfaceForm": "was",
+        "predicateSense": "be.01",
+        "score": 0.9994131326675415,
+        "arguments": [],
+        "method": "flair_frame_0.12.2"
+      },
+      {
+        "predicateID": "pred_2_0",
+        "sentenceID": 2,
+        "locationStart": 10,
+        "locationEnd": 17,
+        "tokenStart": 3,
+        "tokenEnd": 4,
+        "surfaceForm": "contact",
+        "predicateSense": "contact.01",
+        "score": 0.9860115051269531,
+        "arguments": [],
+        "method": "flair_frame_0.12.2"
+      },
+      {
+        "predicateID": "pred_2_0",
+        "sentenceID": 2,
+        "locationStart": 136,
+        "locationEnd": 139,
+        "tokenStart": 27,
+        "tokenEnd": 28,
+        "surfaceForm": "was",
+        "predicateSense": "be.03",
+        "score": 0.9996028542518616,
+        "arguments": [],
+        "method": "flair_frame_0.12.2"
+      },
+      {
+        "predicateID": "pred_2_0",
+        "sentenceID": 2,
+        "locationStart": 140,
+        "locationEnd": 150,
+        "tokenStart": 28,
+        "tokenEnd": 29,
+        "surfaceForm": "patronized",
+        "predicateSense": "patronize.01",
+        "score": 0.9661345481872559,
+        "arguments": [],
+        "method": "flair_frame_0.12.2"
+      },
+      {
+        "predicateID": "pred_2_0",
+        "sentenceID": 2,
+        "locationStart": 202,
+        "locationEnd": 210,
+        "tokenStart": 39,
+        "tokenEnd": 40,
+        "surfaceForm": "includes",
+        "predicateSense": "include.01",
+        "score": 0.9999808073043823,
+        "arguments": [],
+        "method": "flair_frame_0.12.2"
+      },
+      {
+        "predicateID": "pred_2_0",
+        "sentenceID": 2,
+        "locationStart": 227,
+        "locationEnd": 236,
+        "tokenStart": 43,
+        "tokenEnd": 44,
+        "surfaceForm": "preferred",
+        "predicateSense": "prefer.01",
+        "score": 0.9861429333686829,
+        "arguments": [],
+        "method": "flair_frame_0.12.2"
+      },
+      {
+        "predicateID": "pred_3_0",
+        "sentenceID": 3,
+        "locationStart": 20,
+        "locationEnd": 23,
+        "tokenStart": 3,
+        "tokenEnd": 4,
+        "surfaceForm": "are",
+        "predicateSense": "be.01",
+        "score": 0.9967748522758484,
+        "arguments": [],
+        "method": "flair_frame_0.12.2"
+      },
+      {
+        "predicateID": "pred_4_0",
+        "sentenceID": 4,
+        "locationStart": 26,
+        "locationEnd": 33,
+        "tokenStart": 3,
+        "tokenEnd": 4,
+        "surfaceForm": "include",
+        "predicateSense": "include.01",
+        "score": 0.9998743534088135,
+        "arguments": [],
+        "method": "flair_frame_0.12.2"
+      },
+      {
+        "predicateID": "pred_4_0",
+        "sentenceID": 4,
+        "locationStart": 82,
+        "locationEnd": 87,
+        "tokenStart": 13,
+        "tokenEnd": 14,
+        "surfaceForm": "Death",
+        "predicateSense": "die.01",
+        "score": 0.707827091217041,
+        "arguments": [],
+        "method": "flair_frame_0.12.2"
+      },
+      {
+        "predicateID": "pred_5_0",
+        "sentenceID": 5,
+        "locationStart": 17,
+        "locationEnd": 21,
+        "tokenStart": 2,
+        "tokenEnd": 3,
+        "surfaceForm": "mark",
+        "predicateSense": "mark.01",
+        "score": 0.9994149208068848,
+        "arguments": [],
+        "method": "flair_frame_0.12.2"
+      },
+      {
+        "predicateID": "pred_5_0",
+        "sentenceID": 5,
+        "locationStart": 93,
+        "locationEnd": 107,
+        "tokenStart": 16,
+        "tokenEnd": 17,
+        "surfaceForm": "revolutionised",
+        "predicateSense": "revolutionize.05",
+        "score": 0.9868173003196716,
+        "arguments": [],
+        "method": "flair_frame_0.12.2"
+      },
+      {
+        "predicateID": "pred_6_0",
+        "sentenceID": 6,
+        "locationStart": 8,
+        "locationEnd": 20,
+        "tokenStart": 2,
+        "tokenEnd": 3,
+        "surfaceForm": "introduction",
+        "predicateSense": "introduce.02",
+        "score": 0.9787623286247253,
+        "arguments": [],
+        "method": "flair_frame_0.12.2"
+      },
+      {
+        "predicateID": "pred_6_0",
+        "sentenceID": 6,
+        "locationStart": 123,
+        "locationEnd": 126,
+        "tokenStart": 20,
+        "tokenEnd": 21,
+        "surfaceForm": "has",
+        "predicateSense": "have.01",
+        "score": 0.9999972581863403,
+        "arguments": [],
+        "method": "flair_frame_0.12.2"
+      },
+      {
+        "predicateID": "pred_6_0",
+        "sentenceID": 6,
+        "locationStart": 127,
+        "locationEnd": 134,
+        "tokenStart": 21,
+        "tokenEnd": 22,
+        "surfaceForm": "secured",
+        "predicateSense": "secure.01",
+        "score": 0.9069759845733643,
+        "arguments": [],
+        "method": "flair_frame_0.12.2"
+      },
+      {
+        "predicateID": "pred_7_0",
+        "sentenceID": 7,
+        "locationStart": 5,
+        "locationEnd": 7,
+        "tokenStart": 1,
+        "tokenEnd": 2,
+        "surfaceForm": "is",
+        "predicateSense": "be.03",
+        "score": 0.9993011951446533,
+        "arguments": [],
+        "method": "flair_frame_0.12.2"
+      },
+      {
+        "predicateID": "pred_7_0",
+        "sentenceID": 7,
+        "locationStart": 8,
+        "locationEnd": 18,
+        "tokenStart": 2,
+        "tokenEnd": 3,
+        "surfaceForm": "reinforced",
+        "predicateSense": "reinforce.01",
+        "score": 0.9991005659103394,
+        "arguments": [],
+        "method": "flair_frame_0.12.2"
+      },
+      {
+        "predicateID": "pred_7_0",
+        "sentenceID": 7,
+        "locationStart": 55,
+        "locationEnd": 62,
+        "tokenStart": 9,
+        "tokenEnd": 10,
+        "surfaceForm": "involve",
+        "predicateSense": "involve.01",
+        "score": 0.9965284466743469,
+        "arguments": [],
+        "method": "flair_frame_0.12.2"
+      }
+    ],
+    "entities": [
+      {
+        "ID": "ent_0_0",
+        "sentenceID": 0,
+        "surfaceForm": "Albrecht Dürer",
+        "category": "PER",
+        "locationStart": 0,
+        "locationEnd": 14,
+        "tokenStart": 0,
+        "tokenEnd": 2,
+        "score": 0.9700049459934235,
+        "method": "flair_ner-fast_0.12.2"
+      },
+      {
+        "ID": "ent_0_1",
+        "sentenceID": 0,
+        "surfaceForm": "German",
+        "category": "MISC",
+        "locationStart": 18,
+        "locationEnd": 24,
+        "tokenStart": 4,
+        "tokenEnd": 5,
+        "score": 0.9993880987167358,
+        "method": "flair_ner-fast_0.12.2"
+      },
+      {
+        "ID": "ent_0_2",
+        "sentenceID": 0,
+        "surfaceForm": "Hungarian",
+        "category": "MISC",
+        "locationStart": 46,
+        "locationEnd": 55,
+        "tokenStart": 13,
+        "tokenEnd": 14,
+        "score": 0.9891439080238342,
+        "method": "flair_ner-fast_0.12.2"
+      },
+      {
+        "ID": "ent_0_3",
+        "sentenceID": 0,
+        "surfaceForm": "Ajtósi Adalbert",
+        "category": "MISC",
+        "locationStart": 57,
+        "locationEnd": 72,
+        "tokenStart": 15,
+        "tokenEnd": 17,
+        "score": 0.7813313603401184,
+        "method": "flair_ner-fast_0.12.2"
+      },
+      {
+        "ID": "ent_0_4",
+        "sentenceID": 0,
+        "surfaceForm": "English",
+        "category": "MISC",
+        "locationStart": 124,
+        "locationEnd": 131,
+        "tokenStart": 30,
+        "tokenEnd": 31,
+        "score": 0.9994494318962097,
+        "method": "flair_ner-fast_0.12.2"
+      },
+      {
+        "ID": "ent_0_5",
+        "sentenceID": 0,
+        "surfaceForm": "Durer",
+        "category": "PER",
+        "locationStart": 135,
+        "locationEnd": 140,
+        "tokenStart": 32,
+        "tokenEnd": 33,
+        "score": 0.6048017144203186,
+        "method": "flair_ner-fast_0.12.2"
+      },
+      {
+        "ID": "ent_0_6",
+        "sentenceID": 0,
+        "surfaceForm": "Duerer",
+        "category": "PER",
+        "locationStart": 164,
+        "locationEnd": 170,
+        "tokenStart": 39,
+        "tokenEnd": 40,
+        "score": 0.729836106300354,
+        "method": "flair_ner-fast_0.12.2"
+      },
+      {
+        "ID": "ent_0_7",
+        "sentenceID": 0,
+        "surfaceForm": "German",
+        "category": "MISC",
+        "locationStart": 178,
+        "locationEnd": 184,
+        "tokenStart": 43,
+        "tokenEnd": 44,
+        "score": 0.9999213218688965,
+        "method": "flair_ner-fast_0.12.2"
+      },
+      {
+        "ID": "ent_0_8",
+        "sentenceID": 0,
+        "surfaceForm": "German Renaissance",
+        "category": "MISC",
+        "locationStart": 226,
+        "locationEnd": 244,
+        "tokenStart": 52,
+        "tokenEnd": 54,
+        "score": 0.9434200823307037,
+        "method": "flair_ner-fast_0.12.2"
+      },
+      {
+        "ID": "ent_1_0",
+        "sentenceID": 1,
+        "surfaceForm": "Nuremberg",
+        "category": "LOC",
+        "locationStart": 8,
+        "locationEnd": 17,
+        "tokenStart": 2,
+        "tokenEnd": 3,
+        "score": 0.9995754361152649,
+        "method": "flair_ner-fast_0.12.2"
+      },
+      {
+        "ID": "ent_1_1",
+        "sentenceID": 1,
+        "surfaceForm": "Dürer",
+        "category": "PER",
+        "locationStart": 19,
+        "locationEnd": 24,
+        "tokenStart": 4,
+        "tokenEnd": 5,
+        "score": 0.9993448853492737,
+        "method": "flair_ner-fast_0.12.2"
+      },
+      {
+        "ID": "ent_1_2",
+        "sentenceID": 1,
+        "surfaceForm": "Europe",
+        "category": "LOC",
+        "locationStart": 73,
+        "locationEnd": 79,
+        "tokenStart": 11,
+        "tokenEnd": 12,
+        "score": 0.9996551275253296,
+        "method": "flair_ner-fast_0.12.2"
+      },
+      {
+        "ID": "ent_2_0",
+        "sentenceID": 2,
+        "surfaceForm": "Italian",
+        "category": "MISC",
+        "locationStart": 33,
+        "locationEnd": 40,
+        "tokenStart": 7,
+        "tokenEnd": 8,
+        "score": 0.9976376295089722,
+        "method": "flair_ner-fast_0.12.2"
+      },
+      {
+        "ID": "ent_2_1",
+        "sentenceID": 2,
+        "surfaceForm": "Raphael",
+        "category": "PER",
+        "locationStart": 72,
+        "locationEnd": 79,
+        "tokenStart": 14,
+        "tokenEnd": 15,
+        "score": 0.9952968955039978,
+        "method": "flair_ner-fast_0.12.2"
+      },
+      {
+        "ID": "ent_2_2",
+        "sentenceID": 2,
+        "surfaceForm": "Giovanni Bellini",
+        "category": "PER",
+        "locationStart": 81,
+        "locationEnd": 97,
+        "tokenStart": 16,
+        "tokenEnd": 18,
+        "score": 0.998286098241806,
+        "method": "flair_ner-fast_0.12.2"
+      },
+      {
+        "ID": "ent_2_3",
+        "sentenceID": 2,
+        "surfaceForm": "Leonardo da Vinci",
+        "category": "PER",
+        "locationStart": 103,
+        "locationEnd": 120,
+        "tokenStart": 20,
+        "tokenEnd": 23,
+        "score": 0.9928295811017355,
+        "method": "flair_ner-fast_0.12.2"
+      },
+      {
+        "ID": "ent_2_4",
+        "sentenceID": 2,
+        "surfaceForm": "Maximilian I. Dürer",
+        "category": "PER",
+        "locationStart": 162,
+        "locationEnd": 181,
+        "tokenStart": 31,
+        "tokenEnd": 34,
+        "score": 0.9887596964836121,
+        "method": "flair_ner-fast_0.12.2"
+      },
+      {
+        "ID": "ent_3_0",
+        "sentenceID": 3,
+        "surfaceForm": "Gothic",
+        "category": "MISC",
+        "locationStart": 29,
+        "locationEnd": 35,
+        "tokenStart": 5,
+        "tokenEnd": 6,
+        "score": 0.9922377467155457,
+        "method": "flair_ner-fast_0.12.2"
+      },
+      {
+        "ID": "ent_4_0",
+        "sentenceID": 4,
+        "surfaceForm": "Meisterstiche",
+        "category": "MISC",
+        "locationStart": 44,
+        "locationEnd": 57,
+        "tokenStart": 6,
+        "tokenEnd": 7,
+        "score": 0.9299215078353882,
+        "method": "flair_ner-fast_0.12.2"
+      },
+      {
+        "ID": "ent_4_1",
+        "sentenceID": 4,
+        "surfaceForm": "Knight, Death and the Devil",
+        "category": "MISC",
+        "locationStart": 74,
+        "locationEnd": 101,
+        "tokenStart": 11,
+        "tokenEnd": 17,
+        "score": 0.6778927246729533,
+        "method": "flair_ner-fast_0.12.2"
+      },
+      {
+        "ID": "ent_4_2",
+        "sentenceID": 4,
+        "surfaceForm": "Saint Jerome",
+        "category": "PER",
+        "locationStart": 110,
+        "locationEnd": 122,
+        "tokenStart": 21,
+        "tokenEnd": 23,
+        "score": 0.7758018970489502,
+        "method": "flair_ner-fast_0.12.2"
+      },
+      {
+        "ID": "ent_4_3",
+        "sentenceID": 4,
+        "surfaceForm": "Melencolia I",
+        "category": "PER",
+        "locationStart": 148,
+        "locationEnd": 160,
+        "tokenStart": 31,
+        "tokenEnd": 33,
+        "score": 0.5810634195804596,
+        "method": "flair_ner-fast_0.12.2"
+      },
+      {
+        "ID": "ent_5_0",
+        "sentenceID": 5,
+        "surfaceForm": "European",
+        "category": "MISC",
+        "locationStart": 46,
+        "locationEnd": 54,
+        "tokenStart": 9,
+        "tokenEnd": 10,
+        "score": 0.9952993392944336,
+        "method": "flair_ner-fast_0.12.2"
+      },
+      {
+        "ID": "ent_6_0",
+        "sentenceID": 6,
+        "surfaceForm": "Dürer",
+        "category": "PER",
+        "locationStart": 0,
+        "locationEnd": 5,
+        "tokenStart": 0,
+        "tokenEnd": 1,
+        "score": 0.9991255402565002,
+        "method": "flair_ner-fast_0.12.2"
+      },
+      {
+        "ID": "ent_6_1",
+        "sentenceID": 6,
+        "surfaceForm": "Northern",
+        "category": "MISC",
+        "locationStart": 46,
+        "locationEnd": 54,
+        "tokenStart": 7,
+        "tokenEnd": 8,
+        "score": 0.448132187128067,
+        "method": "flair_ner-fast_0.12.2"
+      },
+      {
+        "ID": "ent_6_2",
+        "sentenceID": 6,
+        "surfaceForm": "Italian",
+        "category": "MISC",
+        "locationStart": 85,
+        "locationEnd": 92,
+        "tokenStart": 14,
+        "tokenEnd": 15,
+        "score": 0.9984475374221802,
+        "method": "flair_ner-fast_0.12.2"
+      },
+      {
+        "ID": "ent_6_3",
+        "sentenceID": 6,
+        "surfaceForm": "German",
+        "category": "MISC",
+        "locationStart": 105,
+        "locationEnd": 111,
+        "tokenStart": 17,
+        "tokenEnd": 18,
+        "score": 0.9997640252113342,
+        "method": "flair_ner-fast_0.12.2"
+      },
+      {
+        "ID": "ent_6_4",
+        "sentenceID": 6,
+        "surfaceForm": "Northern Renaissance",
+        "category": "MISC",
+        "locationStart": 194,
+        "locationEnd": 214,
+        "tokenStart": 33,
+        "tokenEnd": 35,
+        "score": 0.69673652946949,
+        "method": "flair_ner-fast_0.12.2"
+      }
+    ],
+    "relations": [
+      {
+        "relationID": "rel_0_0",
+        "sentenceID": 0,
+        "subjectID": "ent_0_0",
+        "objectID": "ent_0_2",
+        "surfaceFormSubj": "Albrecht Dürer",
+        "relationValue": "origin",
+        "surfaceFormObj": "Hungarian",
+        "score": 0.9714548587799072,
+        "method": "flair_relations_0.12.2"
+      },
+      {
+        "relationID": "rel_0_1",
+        "sentenceID": 0,
+        "subjectID": "ent_0_0",
+        "objectID": "ent_0_7",
+        "surfaceFormSubj": "Albrecht Dürer",
+        "relationValue": "origin",
+        "surfaceFormObj": "German",
+        "score": 0.9909254312515259,
+        "method": "flair_relations_0.12.2"
+      },
+      {
+        "relationID": "rel_0_2",
+        "sentenceID": 0,
+        "subjectID": "ent_0_0",
+        "objectID": "ent_0_8",
+        "surfaceFormSubj": "Albrecht Dürer",
+        "relationValue": "origin",
+        "surfaceFormObj": "German Renaissance",
+        "score": 0.5140670537948608,
+        "method": "flair_relations_0.12.2"
+      },
+      {
+        "relationID": "rel_0_3",
+        "sentenceID": 0,
+        "subjectID": "ent_0_3",
+        "objectID": "ent_0_2",
+        "surfaceFormSubj": "Ajtósi Adalbert",
+        "relationValue": "origin",
+        "surfaceFormObj": "Hungarian",
+        "score": 0.8478374481201172,
+        "method": "flair_relations_0.12.2"
+      },
+      {
+        "relationID": "rel_0_4",
+        "sentenceID": 0,
+        "subjectID": "ent_0_5",
+        "objectID": "ent_0_2",
+        "surfaceFormSubj": "Durer",
+        "relationValue": "origin",
+        "surfaceFormObj": "Hungarian",
+        "score": 0.6423794627189636,
+        "method": "flair_relations_0.12.2"
+      },
+      {
+        "relationID": "rel_0_5",
+        "sentenceID": 0,
+        "subjectID": "ent_0_3",
+        "objectID": "ent_0_7",
+        "surfaceFormSubj": "Ajtósi Adalbert",
+        "relationValue": "origin",
+        "surfaceFormObj": "German",
+        "score": 0.9595333337783813,
+        "method": "flair_relations_0.12.2"
+      },
+      {
+        "relationID": "rel_0_6",
+        "sentenceID": 0,
+        "subjectID": "ent_0_5",
+        "objectID": "ent_0_7",
+        "surfaceFormSubj": "Durer",
+        "relationValue": "origin",
+        "surfaceFormObj": "German",
+        "score": 0.9458826184272766,
+        "method": "flair_relations_0.12.2"
+      },
+      {
+        "relationID": "rel_0_7",
+        "sentenceID": 0,
+        "subjectID": "ent_0_6",
+        "objectID": "ent_0_7",
+        "surfaceFormSubj": "Duerer",
+        "relationValue": "origin",
+        "surfaceFormObj": "German",
+        "score": 0.8348994255065918,
+        "method": "flair_relations_0.12.2"
+      },
+      {
+        "relationID": "rel_1_0",
+        "sentenceID": 1,
+        "subjectID": "ent_1_1",
+        "objectID": "ent_1_0",
+        "surfaceFormSubj": "Dürer",
+        "relationValue": "born_in",
+        "surfaceFormObj": "Nuremberg",
+        "score": 0.9999938011169434,
+        "method": "flair_relations_0.12.2"
+      }
+    ],
+    "linked_entities": [
+      {
+        "linkedID": "link_0_0",
+        "sentenceID": 0,
+        "entityID": "ent_0_0",
+        "locationStart": 0,
+        "locationEnd": 14,
+        "surfaceForm": "Albrecht Dürer",
+        "wikiTitle": "Albrecht_Dürer",
+        "score": 1.0,
+        "wikiURL": "https://en.wikipedia.org/wiki/Albrecht_Dürer",
+        "method": "flair_linker_0.12.2"
+      },
+      {
+        "linkedID": "link_0_1",
+        "sentenceID": 0,
+        "entityID": "ent_0_1",
+        "locationStart": 18,
+        "locationEnd": 24,
+        "surfaceForm": "German",
+        "wikiTitle": "German_language",
+        "score": 0.9998482465744019,
+        "wikiURL": "https://en.wikipedia.org/wiki/German_language",
+        "method": "flair_linker_0.12.2"
+      },
+      {
+        "linkedID": "link_0_2",
+        "sentenceID": 0,
+        "entityID": "ent_0_2",
+        "locationStart": 46,
+        "locationEnd": 55,
+        "surfaceForm": "Hungarian",
+        "wikiTitle": "Hungarian_language",
+        "score": 0.9996066689491272,
+        "wikiURL": "https://en.wikipedia.org/wiki/Hungarian_language",
+        "method": "flair_linker_0.12.2"
+      },
+      {
+        "linkedID": "link_0_3",
+        "sentenceID": 0,
+        "entityID": "ent_0_4",
+        "locationStart": 124,
+        "locationEnd": 131,
+        "surfaceForm": "English",
+        "wikiTitle": "English_language",
+        "score": 0.9991562366485596,
+        "wikiURL": "https://en.wikipedia.org/wiki/English_language",
+        "method": "flair_linker_0.12.2"
+      },
+      {
+        "linkedID": "link_0_4",
+        "sentenceID": 0,
+        "entityID": "ent_0_7",
+        "locationStart": 178,
+        "locationEnd": 184,
+        "surfaceForm": "German",
+        "wikiTitle": "Germany",
+        "score": 0.5939091444015503,
+        "wikiURL": "https://en.wikipedia.org/wiki/Germany",
+        "method": "flair_linker_0.12.2"
+      },
+      {
+        "linkedID": "link_1_0",
+        "sentenceID": 1,
+        "entityID": "ent_1_0",
+        "locationStart": 8,
+        "locationEnd": 17,
+        "surfaceForm": "Nuremberg",
+        "wikiTitle": "Nuremberg",
+        "score": 0.9999830722808838,
+        "wikiURL": "https://en.wikipedia.org/wiki/Nuremberg",
+        "method": "flair_linker_0.12.2"
+      },
+      {
+        "linkedID": "link_1_1",
+        "sentenceID": 1,
+        "entityID": "ent_1_1",
+        "locationStart": 19,
+        "locationEnd": 24,
+        "surfaceForm": "Dürer",
+        "wikiTitle": "Albrecht_Dürer",
+        "score": 0.9968621730804443,
+        "wikiURL": "https://en.wikipedia.org/wiki/Albrecht_Dürer",
+        "method": "flair_linker_0.12.2"
+      },
+      {
+        "linkedID": "link_1_2",
+        "sentenceID": 1,
+        "entityID": "ent_1_2",
+        "locationStart": 73,
+        "locationEnd": 79,
+        "surfaceForm": "Europe",
+        "wikiTitle": "Europe",
+        "score": 0.9998828172683716,
+        "wikiURL": "https://en.wikipedia.org/wiki/Europe",
+        "method": "flair_linker_0.12.2"
+      },
+      {
+        "linkedID": "link_2_0",
+        "sentenceID": 2,
+        "entityID": "ent_2_0",
+        "locationStart": 33,
+        "locationEnd": 40,
+        "surfaceForm": "Italian",
+        "wikiTitle": "Italy",
+        "score": 0.9234824776649475,
+        "wikiURL": "https://en.wikipedia.org/wiki/Italy",
+        "method": "flair_linker_0.12.2"
+      },
+      {
+        "linkedID": "link_2_1",
+        "sentenceID": 2,
+        "entityID": "ent_2_1",
+        "locationStart": 72,
+        "locationEnd": 79,
+        "surfaceForm": "Raphael",
+        "wikiTitle": "Raphael",
+        "score": 0.9880983233451843,
+        "wikiURL": "https://en.wikipedia.org/wiki/Raphael",
+        "method": "flair_linker_0.12.2"
+      },
+      {
+        "linkedID": "link_2_2",
+        "sentenceID": 2,
+        "entityID": "ent_2_2",
+        "locationStart": 81,
+        "locationEnd": 97,
+        "surfaceForm": "Giovanni Bellini",
+        "wikiTitle": "Giovanni_Bellini",
+        "score": 1.0,
+        "wikiURL": "https://en.wikipedia.org/wiki/Giovanni_Bellini",
+        "method": "flair_linker_0.12.2"
+      },
+      {
+        "linkedID": "link_2_3",
+        "sentenceID": 2,
+        "entityID": "ent_2_3",
+        "locationStart": 103,
+        "locationEnd": 120,
+        "surfaceForm": "Leonardo da Vinci",
+        "wikiTitle": "Leonardo_da_Vinci",
+        "score": 1.0,
+        "wikiURL": "https://en.wikipedia.org/wiki/Leonardo_da_Vinci",
+        "method": "flair_linker_0.12.2"
+      },
+      {
+        "linkedID": "link_3_0",
+        "sentenceID": 3,
+        "entityID": "ent_3_0",
+        "locationStart": 29,
+        "locationEnd": 35,
+        "surfaceForm": "Gothic",
+        "wikiTitle": "Gothic_art",
+        "score": 0.46089187264442444,
+        "wikiURL": "https://en.wikipedia.org/wiki/Gothic_art",
+        "method": "flair_linker_0.12.2"
+      },
+      {
+        "linkedID": "link_4_0",
+        "sentenceID": 4,
+        "entityID": "ent_4_2",
+        "locationStart": 110,
+        "locationEnd": 122,
+        "surfaceForm": "Saint Jerome",
+        "wikiTitle": "Jerome",
+        "score": 1.0,
+        "wikiURL": "https://en.wikipedia.org/wiki/Jerome",
+        "method": "flair_linker_0.12.2"
+      },
+      {
+        "linkedID": "link_5_0",
+        "sentenceID": 5,
+        "entityID": "ent_6_1",
+        "locationStart": 46,
+        "locationEnd": 54,
+        "surfaceForm": "European",
+        "wikiTitle": "Europe",
+        "score": 0.9836883544921875,
+        "wikiURL": "https://en.wikipedia.org/wiki/Europe",
+        "method": "flair_linker_0.12.2"
+      },
+      {
+        "linkedID": "link_6_0",
+        "sentenceID": 6,
+        "entityID": "ent_6_0",
+        "locationStart": 0,
+        "locationEnd": 5,
+        "surfaceForm": "Dürer",
+        "wikiTitle": "Albrecht_Dürer",
+        "score": 0.9999871253967285,
+        "wikiURL": "https://en.wikipedia.org/wiki/Albrecht_Dürer",
+        "method": "flair_linker_0.12.2"
+      },
+      {
+        "linkedID": "link_6_1",
+        "sentenceID": 6,
+        "entityID": "ent_6_1",
+        "locationStart": 46,
+        "locationEnd": 54,
+        "surfaceForm": "Northern",
+        "wikiTitle": "Northern_Italy",
+        "score": 0.8379198908805847,
+        "wikiURL": "https://en.wikipedia.org/wiki/Northern_Italy",
+        "method": "flair_linker_0.12.2"
+      },
+      {
+        "linkedID": "link_6_2",
+        "sentenceID": 6,
+        "entityID": "ent_6_2",
+        "locationStart": 85,
+        "locationEnd": 92,
+        "surfaceForm": "Italian",
+        "wikiTitle": "Italy",
+        "score": 0.9028527736663818,
+        "wikiURL": "https://en.wikipedia.org/wiki/Italy",
+        "method": "flair_linker_0.12.2"
+      },
+      {
+        "linkedID": "link_6_3",
+        "sentenceID": 6,
+        "entityID": "ent_6_3",
+        "locationStart": 105,
+        "locationEnd": 111,
+        "surfaceForm": "German",
+        "wikiTitle": "Germans",
+        "score": 0.5245134830474854,
+        "wikiURL": "https://en.wikipedia.org/wiki/Germans",
+        "method": "flair_linker_0.12.2"
+      }
+    ],
+    "input_text": "Albrecht Dürer (; German: [ˈʔalbʁɛçt ˈdyːʁɐ]; Hungarian: Ajtósi Adalbert; 21 May 1471 – 6 April 1528), sometimes spelled in English as Durer (without an umlaut) or Duerer, was a German painter, printmaker, and theorist of the German Renaissance. Born in Nuremberg, Dürer established his reputation and influence across Europe in his twenties due to his high-quality woodcut prints. He was in contact with the major Italian artists of his time, including Raphael, Giovanni Bellini, and Leonardo da Vinci, and from 1512 was patronized by Emperor Maximilian I. Dürer's vast body of work includes engravings, his preferred technique in his later prints, altarpieces, portraits and self-portraits, watercolours and books. The woodcuts series are more Gothic than the rest of his work. His well-known engravings include the three Meisterstiche (master prints) Knight, Death and the Devil (1513), Saint Jerome in his Study (1514), and Melencolia I (1514). His watercolours mark him as one of the first European landscape artists, while his woodcuts revolutionised the potential of that medium. Dürer's introduction of classical motifs into Northern art, through his knowledge of Italian artists and German humanists, has secured his reputation as one of the most important figures of the Northern Renaissance. This is reinforced by his theoretical treatises, which involve principles of mathematics, perspective, and ideal proportions."
+  }
+}

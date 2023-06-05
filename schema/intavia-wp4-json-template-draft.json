@@ -13,8 +13,8 @@
       }
     ],
     "morpho_syntax" : {"model": "model_name_version", "data": [{
-      "paragraph": 0,
-      "sentence": 0,
+      "paragraphID": 0,
+      "sentenceID": 0,
       "text": "string",
       "words": [
         {
@@ -22,7 +22,7 @@
           "FORM": "Terve",
           "LEMMA": "terve",
           "UPOS": "ADJ",
-          "XPOS": 0,
+          "XPOS": "",
           "EDGE": "",
           "HEAD": 2,
           "DEPREL": "amod",
@@ -44,7 +44,7 @@
         }
       ]
     }]},
-    "tokenization":{"model": "model_name_version", "data": ["List of str's = tokenized document"]},
+    "tokenization":["List of str's = tokenized document"],
     "text": "raw_string"
   },
 "service": "Name of the service used",
