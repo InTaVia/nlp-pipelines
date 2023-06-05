@@ -50,7 +50,7 @@ def test_english_pipeline_json(query_tests: str = ["William the Silent"], json_p
             response = unlp.nlp_to_dict(nlp_dict)
             # Write to Disk
             if not os.path.exists(json_path): os.mkdir(json_path)
-            json.dump(response, open(f"{json_path}/{json_name}", "w"), indent=2)
+            json.dump(response, open(f"{json_path}/{json_name}", "w"), indent=2, ensure_ascii=False)
         else:
             print(f"Couldn't find {query}!")
 
@@ -58,6 +58,6 @@ def test_english_pipeline_json(query_tests: str = ["William the Silent"], json_p
 
 
 if __name__ == "__main__":
-    query_tests = ["William the Silent", "Albercht Durer", "Vincent van Gogh", "Constantijn Huygens", "Baruch Spinoza", "Erasmus of Rotterdam",
+    query_tests = ["William the Silent", "Albrecht Dürer", "Vincent van Gogh", "Constantijn Huygens", "Baruch Spinoza", "Erasmus of Rotterdam",
                     "Christiaan Huygens", "Rembrandt van Rijn", "Antoni van Leeuwenhoek", "John von Neumann", "Johan de Witt"]
-    test_english_pipeline_json(query_tests)
+    test_english_pipeline_json(["Albrecht Dürer"])

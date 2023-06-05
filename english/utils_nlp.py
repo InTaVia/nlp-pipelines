@@ -238,6 +238,7 @@ def allennlp_ner(text: str, ner_predictor: Predictor, text_init_offset: int = 0)
     
     return tokenized_sentence, sentence_entities
 
+
 def allennlp_coref(text: str, coref_predictor: Predictor) -> Tuple[List[str], Dict[str, Any]]:
     allennlp_output = coref_predictor.predict(text)
     tokens = allennlp_output["document"]
@@ -322,6 +323,7 @@ def add_json_ner_allennlp(sentences: List[str], ner_predictor: Predictor, token_
         doc_token_offset += len(tokenized)
 
     return doc_entities
+
 
 def add_json_coref_allennlp(sentences: List[str], coref_predictor: Predictor, token_objects: List[Dict]) -> List[Dict[str, Any]]:
     doc_limit = 400 # We only take the first 400 tokens of the document to find coreferences there
