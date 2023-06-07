@@ -2,7 +2,7 @@ import wikipedia # https://pypi.org/project/wikipedia/
 from typing import Dict, Any, List, Tuple
 from dataclasses import dataclass
 import Levenshtein as lev
-import re
+import re, json
 
 @dataclass
 class RankedArticle:
@@ -133,4 +133,29 @@ def get_wikipedia_article(query_str: str, query_restrictions: Dict[str, Any] = {
             return best_page
     else:
         return None
-    
+
+
+def save_wikipedia_page(page: wikipedia.WikipediaPage, output_path:str, include_metadata: bool = False):
+    # Save JSON File
+    if include_metadata:
+        meta_path = f"{output_path}.meta.json"
+        section_dict = {}
+        for sec_title in page.sections:
+            section_dict[sec_title] = page.section(sec_title)
+        metadata = {
+            "title": page.title,
+            "url": page.url,
+            "original_title": page.original_title,
+            "text": page.content,
+            "summary": page.summary,
+            "sections": section_dict,
+            "categories": page.categories,
+            "links": page.links,
+            "references": page.references,
+            "images": page.images
+        }
+        with open(meta_path, "w") as f:
+            json.dump(metadata, f, indent=2, ensure_ascii=False)
+    # Save Plain Text
+    with open(output_path, "w") as f:
+        f.write(page.content)
