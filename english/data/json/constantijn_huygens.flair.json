@@ -1,0 +1,709 @@
+{
+  "status": "200",
+  "data": {
+    "text": "Sir Constantijn Huygens, Lord of Zuilichem ( HY-gənz, US also HOY-gənz, Dutch: [ˈkɔnstɑntɛin ˈɦœyɣə(n)s]; 4 September 1596 – 28 March 1687), was a Dutch Golden Age poet and composer. He was also secretary to two Princes of Orange: Frederick Henry and William II, and the father of the scientist Christiaan Huygens. ",
+    "morphology": {
+      "flair_0.12.2": [
+        {
+          "paragraphID": 0,
+          "sentenceID": 0,
+          "text": "Sir Constantijn Huygens, Lord of Zuilichem ( HY-gənz, US also HOY-gənz, Dutch: [ˈkɔnstɑntɛin ˈɦœyɣə(n)s]; 4 September 1596 – 28 March 1687), was a Dutch Golden Age poet and composer.",
+          "docCharOffset": 1,
+          "docTokenOffset": 0,
+          "words": [
+            {
+              "ID": 0,
+              "FORM": "Sir"
+            },
+            {
+              "ID": 1,
+              "FORM": "Constantijn"
+            },
+            {
+              "ID": 2,
+              "FORM": "Huygens"
+            },
+            {
+              "ID": 3,
+              "FORM": ","
+            },
+            {
+              "ID": 4,
+              "FORM": "Lord"
+            },
+            {
+              "ID": 5,
+              "FORM": "of"
+            },
+            {
+              "ID": 6,
+              "FORM": "Zuilichem"
+            },
+            {
+              "ID": 7,
+              "FORM": "("
+            },
+            {
+              "ID": 8,
+              "FORM": "HY-gənz"
+            },
+            {
+              "ID": 9,
+              "FORM": ","
+            },
+            {
+              "ID": 10,
+              "FORM": "US"
+            },
+            {
+              "ID": 11,
+              "FORM": "also"
+            },
+            {
+              "ID": 12,
+              "FORM": "HOY-gənz"
+            },
+            {
+              "ID": 13,
+              "FORM": ","
+            },
+            {
+              "ID": 14,
+              "FORM": "Dutch"
+            },
+            {
+              "ID": 15,
+              "FORM": ":"
+            },
+            {
+              "ID": 16,
+              "FORM": "["
+            },
+            {
+              "ID": 17,
+              "FORM": "ˈkɔnstɑntɛin"
+            },
+            {
+              "ID": 18,
+              "FORM": "ˈɦœyɣə"
+            },
+            {
+              "ID": 19,
+              "FORM": "("
+            },
+            {
+              "ID": 20,
+              "FORM": "n"
+            },
+            {
+              "ID": 21,
+              "FORM": ")"
+            },
+            {
+              "ID": 22,
+              "FORM": "s"
+            },
+            {
+              "ID": 23,
+              "FORM": "]"
+            },
+            {
+              "ID": 24,
+              "FORM": ";"
+            },
+            {
+              "ID": 25,
+              "FORM": "4"
+            },
+            {
+              "ID": 26,
+              "FORM": "September"
+            },
+            {
+              "ID": 27,
+              "FORM": "1596"
+            },
+            {
+              "ID": 28,
+              "FORM": "–"
+            },
+            {
+              "ID": 29,
+              "FORM": "28"
+            },
+            {
+              "ID": 30,
+              "FORM": "March"
+            },
+            {
+              "ID": 31,
+              "FORM": "1687"
+            },
+            {
+              "ID": 32,
+              "FORM": ")"
+            },
+            {
+              "ID": 33,
+              "FORM": ","
+            },
+            {
+              "ID": 34,
+              "FORM": "was"
+            },
+            {
+              "ID": 35,
+              "FORM": "a"
+            },
+            {
+              "ID": 36,
+              "FORM": "Dutch"
+            },
+            {
+              "ID": 37,
+              "FORM": "Golden"
+            },
+            {
+              "ID": 38,
+              "FORM": "Age"
+            },
+            {
+              "ID": 39,
+              "FORM": "poet"
+            },
+            {
+              "ID": 40,
+              "FORM": "and"
+            },
+            {
+              "ID": 41,
+              "FORM": "composer"
+            },
+            {
+              "ID": 42,
+              "FORM": "."
+            }
+          ]
+        },
+        {
+          "paragraphID": 0,
+          "sentenceID": 1,
+          "text": "He was also secretary to two Princes of Orange: Frederick Henry and William II, and the father of the scientist Christiaan Huygens.",
+          "docCharOffset": 183,
+          "docTokenOffset": 43,
+          "words": [
+            {
+              "ID": 0,
+              "FORM": "He"
+            },
+            {
+              "ID": 1,
+              "FORM": "was"
+            },
+            {
+              "ID": 2,
+              "FORM": "also"
+            },
+            {
+              "ID": 3,
+              "FORM": "secretary"
+            },
+            {
+              "ID": 4,
+              "FORM": "to"
+            },
+            {
+              "ID": 5,
+              "FORM": "two"
+            },
+            {
+              "ID": 6,
+              "FORM": "Princes"
+            },
+            {
+              "ID": 7,
+              "FORM": "of"
+            },
+            {
+              "ID": 8,
+              "FORM": "Orange"
+            },
+            {
+              "ID": 9,
+              "FORM": ":"
+            },
+            {
+              "ID": 10,
+              "FORM": "Frederick"
+            },
+            {
+              "ID": 11,
+              "FORM": "Henry"
+            },
+            {
+              "ID": 12,
+              "FORM": "and"
+            },
+            {
+              "ID": 13,
+              "FORM": "William"
+            },
+            {
+              "ID": 14,
+              "FORM": "II"
+            },
+            {
+              "ID": 15,
+              "FORM": ","
+            },
+            {
+              "ID": 16,
+              "FORM": "and"
+            },
+            {
+              "ID": 17,
+              "FORM": "the"
+            },
+            {
+              "ID": 18,
+              "FORM": "father"
+            },
+            {
+              "ID": 19,
+              "FORM": "of"
+            },
+            {
+              "ID": 20,
+              "FORM": "the"
+            },
+            {
+              "ID": 21,
+              "FORM": "scientist"
+            },
+            {
+              "ID": 22,
+              "FORM": "Christiaan"
+            },
+            {
+              "ID": 23,
+              "FORM": "Huygens"
+            },
+            {
+              "ID": 24,
+              "FORM": "."
+            }
+          ]
+        },
+        {
+          "paragraphID": 0,
+          "sentenceID": 2,
+          "text": "",
+          "docCharOffset": 314,
+          "docTokenOffset": 68,
+          "words": []
+        }
+      ]
+    },
+    "tokenization": {
+      "flair_0.12.2": [
+        "Sir",
+        "Constantijn",
+        "Huygens",
+        ",",
+        "Lord",
+        "of",
+        "Zuilichem",
+        "(",
+        "HY-gənz",
+        ",",
+        "US",
+        "also",
+        "HOY-gənz",
+        ",",
+        "Dutch",
+        ":",
+        "[",
+        "ˈkɔnstɑntɛin",
+        "ˈɦœyɣə",
+        "(",
+        "n",
+        ")",
+        "s",
+        "]",
+        ";",
+        "4",
+        "September",
+        "1596",
+        "–",
+        "28",
+        "March",
+        "1687",
+        ")",
+        ",",
+        "was",
+        "a",
+        "Dutch",
+        "Golden",
+        "Age",
+        "poet",
+        "and",
+        "composer",
+        ".",
+        "He",
+        "was",
+        "also",
+        "secretary",
+        "to",
+        "two",
+        "Princes",
+        "of",
+        "Orange",
+        ":",
+        "Frederick",
+        "Henry",
+        "and",
+        "William",
+        "II",
+        ",",
+        "and",
+        "the",
+        "father",
+        "of",
+        "the",
+        "scientist",
+        "Christiaan",
+        "Huygens",
+        "."
+      ]
+    },
+    "time_expressions": [
+      {
+        "ID": "t6",
+        "category": "DATE",
+        "value": "1596-09-04",
+        "surfaceForm": "4 September 1596",
+        "locationStart": 106,
+        "locationEnd": 122,
+        "method": "HeidelTime"
+      },
+      {
+        "ID": "t7",
+        "category": "DATE",
+        "value": "1687-03-28",
+        "surfaceForm": "28 March 1687",
+        "locationStart": 125,
+        "locationEnd": 138,
+        "method": "HeidelTime"
+      }
+    ],
+    "semantic_roles": [
+      {
+        "predicateID": "pred_0_0",
+        "sentenceID": 0,
+        "locationStart": 141,
+        "locationEnd": 144,
+        "tokenStart": 34,
+        "tokenEnd": 35,
+        "surfaceForm": "was",
+        "predicateSense": "be.01",
+        "score": 0.9963906407356262,
+        "arguments": [],
+        "method": "flair_frame_0.12.2"
+      },
+      {
+        "predicateID": "pred_1_0",
+        "sentenceID": 1,
+        "locationStart": 3,
+        "locationEnd": 6,
+        "tokenStart": 1,
+        "tokenEnd": 2,
+        "surfaceForm": "was",
+        "predicateSense": "be.01",
+        "score": 0.9998156428337097,
+        "arguments": [],
+        "method": "flair_frame_0.12.2"
+      }
+    ],
+    "entities": [
+      {
+        "ID": "ent_0_0",
+        "sentenceID": 0,
+        "surfaceForm": "Constantijn Huygens",
+        "category": "PERSON",
+        "locationStart": 4,
+        "locationEnd": 23,
+        "tokenStart": 1,
+        "tokenEnd": 3,
+        "score": 0.9999803900718689,
+        "method": "flair_ner-ontonotes-large_0.12.2"
+      },
+      {
+        "ID": "ent_0_1",
+        "sentenceID": 0,
+        "surfaceForm": "Zuilichem",
+        "category": "GPE",
+        "locationStart": 33,
+        "locationEnd": 42,
+        "tokenStart": 6,
+        "tokenEnd": 7,
+        "score": 0.9999520778656006,
+        "method": "flair_ner-ontonotes-large_0.12.2"
+      },
+      {
+        "ID": "ent_0_2",
+        "sentenceID": 0,
+        "surfaceForm": "HY-gənz",
+        "category": "GPE",
+        "locationStart": 45,
+        "locationEnd": 52,
+        "tokenStart": 8,
+        "tokenEnd": 9,
+        "score": 0.9879578948020935,
+        "method": "flair_ner-ontonotes-large_0.12.2"
+      },
+      {
+        "ID": "ent_0_3",
+        "sentenceID": 0,
+        "surfaceForm": "US",
+        "category": "GPE",
+        "locationStart": 54,
+        "locationEnd": 56,
+        "tokenStart": 10,
+        "tokenEnd": 11,
+        "score": 0.9989670515060425,
+        "method": "flair_ner-ontonotes-large_0.12.2"
+      },
+      {
+        "ID": "ent_0_4",
+        "sentenceID": 0,
+        "surfaceForm": "HOY-gənz",
+        "category": "GPE",
+        "locationStart": 62,
+        "locationEnd": 70,
+        "tokenStart": 12,
+        "tokenEnd": 13,
+        "score": 0.7264573574066162,
+        "method": "flair_ner-ontonotes-large_0.12.2"
+      },
+      {
+        "ID": "ent_0_5",
+        "sentenceID": 0,
+        "surfaceForm": "Dutch",
+        "category": "NORP",
+        "locationStart": 72,
+        "locationEnd": 77,
+        "tokenStart": 14,
+        "tokenEnd": 15,
+        "score": 0.6876823306083679,
+        "method": "flair_ner-ontonotes-large_0.12.2"
+      },
+      {
+        "ID": "ent_0_6",
+        "sentenceID": 0,
+        "surfaceForm": "4 September 1596",
+        "category": "DATE",
+        "locationStart": 106,
+        "locationEnd": 122,
+        "tokenStart": 25,
+        "tokenEnd": 28,
+        "score": 0.9999381303787231,
+        "method": "flair_ner-ontonotes-large_0.12.2"
+      },
+      {
+        "ID": "ent_0_7",
+        "sentenceID": 0,
+        "surfaceForm": "28 March 1687",
+        "category": "DATE",
+        "locationStart": 125,
+        "locationEnd": 138,
+        "tokenStart": 29,
+        "tokenEnd": 32,
+        "score": 0.9999699195226034,
+        "method": "flair_ner-ontonotes-large_0.12.2"
+      },
+      {
+        "ID": "ent_0_8",
+        "sentenceID": 0,
+        "surfaceForm": "Dutch",
+        "category": "NORP",
+        "locationStart": 147,
+        "locationEnd": 152,
+        "tokenStart": 36,
+        "tokenEnd": 37,
+        "score": 0.9999921321868896,
+        "method": "flair_ner-ontonotes-large_0.12.2"
+      },
+      {
+        "ID": "ent_0_9",
+        "sentenceID": 0,
+        "surfaceForm": "Golden Age",
+        "category": "DATE",
+        "locationStart": 153,
+        "locationEnd": 163,
+        "tokenStart": 37,
+        "tokenEnd": 39,
+        "score": 0.9999860525131226,
+        "method": "flair_ner-ontonotes-large_0.12.2"
+      },
+      {
+        "ID": "ent_1_0",
+        "sentenceID": 1,
+        "surfaceForm": "two",
+        "category": "CARDINAL",
+        "locationStart": 25,
+        "locationEnd": 28,
+        "tokenStart": 5,
+        "tokenEnd": 6,
+        "score": 0.9996098875999451,
+        "method": "flair_ner-ontonotes-large_0.12.2"
+      },
+      {
+        "ID": "ent_1_1",
+        "sentenceID": 1,
+        "surfaceForm": "Princes of Orange",
+        "category": "PERSON",
+        "locationStart": 29,
+        "locationEnd": 46,
+        "tokenStart": 6,
+        "tokenEnd": 9,
+        "score": 0.9987966020901998,
+        "method": "flair_ner-ontonotes-large_0.12.2"
+      },
+      {
+        "ID": "ent_1_2",
+        "sentenceID": 1,
+        "surfaceForm": "Frederick Henry",
+        "category": "PERSON",
+        "locationStart": 48,
+        "locationEnd": 63,
+        "tokenStart": 10,
+        "tokenEnd": 12,
+        "score": 0.9999970197677612,
+        "method": "flair_ner-ontonotes-large_0.12.2"
+      },
+      {
+        "ID": "ent_1_3",
+        "sentenceID": 1,
+        "surfaceForm": "William II",
+        "category": "PERSON",
+        "locationStart": 68,
+        "locationEnd": 78,
+        "tokenStart": 13,
+        "tokenEnd": 15,
+        "score": 0.9999895691871643,
+        "method": "flair_ner-ontonotes-large_0.12.2"
+      },
+      {
+        "ID": "ent_1_4",
+        "sentenceID": 1,
+        "surfaceForm": "Christiaan Huygens",
+        "category": "PERSON",
+        "locationStart": 112,
+        "locationEnd": 130,
+        "tokenStart": 22,
+        "tokenEnd": 24,
+        "score": 0.9999952912330627,
+        "method": "flair_ner-ontonotes-large_0.12.2"
+      }
+    ],
+    "relations": [
+      {
+        "relationID": "rel_0_0",
+        "sentenceID": 0,
+        "subjectID": "ent_0_0",
+        "objectID": "ent_0_8",
+        "surfaceFormSubj": "Constantijn Huygens",
+        "relationValue": "origin",
+        "surfaceFormObj": "Dutch",
+        "score": 0.9985976815223694,
+        "method": "flair_relations_0.12.2"
+      },
+      {
+        "relationID": "rel_0_1",
+        "sentenceID": 0,
+        "subjectID": "ent_0_0",
+        "objectID": "ent_0_9",
+        "surfaceFormSubj": "Constantijn Huygens",
+        "relationValue": "has_title",
+        "surfaceFormObj": "Golden Age",
+        "score": 0.9455608129501343,
+        "method": "flair_relations_0.12.2"
+      }
+    ],
+    "linked_entities": [
+      {
+        "linkedID": "link_0_0",
+        "sentenceID": 0,
+        "entityID": "ent_0_3",
+        "locationStart": 54,
+        "locationEnd": 56,
+        "surfaceForm": "US",
+        "wikiTitle": "English_language",
+        "score": 0.57731032371521,
+        "wikiURL": "https://en.wikipedia.org/wiki/English_language",
+        "method": "flair_linker_0.12.2"
+      },
+      {
+        "linkedID": "link_0_1",
+        "sentenceID": 0,
+        "entityID": "ent_0_5",
+        "locationStart": 72,
+        "locationEnd": 77,
+        "surfaceForm": "Dutch",
+        "wikiTitle": "Dutch_language",
+        "score": 0.999388575553894,
+        "wikiURL": "https://en.wikipedia.org/wiki/Dutch_language",
+        "method": "flair_linker_0.12.2"
+      },
+      {
+        "linkedID": "link_0_2",
+        "sentenceID": 0,
+        "entityID": null,
+        "locationStart": 147,
+        "locationEnd": 163,
+        "surfaceForm": "Dutch Golden Age",
+        "wikiTitle": "Dutch_Golden_Age",
+        "score": 0.9568728804588318,
+        "wikiURL": "https://en.wikipedia.org/wiki/Dutch_Golden_Age",
+        "method": "flair_linker_0.12.2"
+      },
+      {
+        "linkedID": "link_1_0",
+        "sentenceID": 1,
+        "entityID": "ent_1_2",
+        "locationStart": 48,
+        "locationEnd": 63,
+        "surfaceForm": "Frederick Henry",
+        "wikiTitle": "Frederick_Henry,_Prince_of_Orange",
+        "score": 0.9890415072441101,
+        "wikiURL": "https://en.wikipedia.org/wiki/Frederick_Henry,_Prince_of_Orange",
+        "method": "flair_linker_0.12.2"
+      },
+      {
+        "linkedID": "link_1_1",
+        "sentenceID": 1,
+        "entityID": "ent_1_3",
+        "locationStart": 68,
+        "locationEnd": 78,
+        "surfaceForm": "William II",
+        "wikiTitle": "Wilhelm_II,_German_Emperor",
+        "score": 0.5431544184684753,
+        "wikiURL": "https://en.wikipedia.org/wiki/Wilhelm_II,_German_Emperor",
+        "method": "flair_linker_0.12.2"
+      },
+      {
+        "linkedID": "link_1_2",
+        "sentenceID": 1,
+        "entityID": "ent_1_4",
+        "locationStart": 112,
+        "locationEnd": 130,
+        "surfaceForm": "Christiaan Huygens",
+        "wikiTitle": "Christiaan_Huygens",
+        "score": 1.0,
+        "wikiURL": "https://en.wikipedia.org/wiki/Christiaan_Huygens",
+        "method": "flair_linker_0.12.2"
+      }
+    ],
+    "input_text": "Sir Constantijn Huygens, Lord of Zuilichem ( HY-gənz, US also HOY-gənz, Dutch: [ˈkɔnstɑntɛin ˈɦœyɣə(n)s]; 4 September 1596 – 28 March 1687), was a Dutch Golden Age poet and composer. He was also secretary to two Princes of Orange: Frederick Henry and William II, and the father of the scientist Christiaan Huygens. "
+  }
+}
