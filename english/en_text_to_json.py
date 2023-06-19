@@ -8,6 +8,7 @@ from python_heideltime import Heideltime
 from utils_wiki import get_wikipedia_article
 import utils_nlp_common as unlp
 import utils_nlp_allen as anlp
+from utils_nlp_heideltime import add_json_heideltime
 
 
 def test_english_pipeline_json(query_tests: str = ["William the Silent"], json_path: str = "./english/data/json/"):
@@ -26,27 +27,23 @@ def test_english_pipeline_json(query_tests: str = ["William the Silent"], json_p
         doc_title = query
         json_name = doc_title.lower().replace(" ", "_") + ".json"
 
-        if os.path.exists(json_name):
-            nlp_dict, _ = unlp.create_nlp_template()
-            text = nlp_dict['text']
+        wiki_page = get_wikipedia_article(doc_title)
+        if wiki_page:
+            print(f"Found a Page: {wiki_page.title}")
+            nlp_dict = {}
+            text = wiki_page.content[:1000]
+            wiki_matches += 1
         else:
-            wiki_page = get_wikipedia_article(doc_title)
-            if wiki_page:
-                print(f"Found a Page: {wiki_page.title}")
-                nlp_dict = {}
-                text = wiki_page.summary
-                wiki_matches += 1
-            else:
-                print(f"Couldn't find {query}!")
-                text = None
+            print(f"Couldn't find {query}!")
+            text = None
         
         if text:
             # Step 1: Clean Text ??
-            clean_text = text # unlp.preprocess_and_clean_text(text)
+            clean_text = unlp.preprocess_and_clean_text(text)
             # Step 2: Basic Processing with SpaCy
             spacy_dict = unlp.run_spacy(clean_text, nlp)
             # Step 3: Run HeidelTime
-            nlp_dict['time_expressions'] = unlp.add_json_heideltime(clean_text, heideltime_parser)
+            nlp_dict['time_expressions'] = add_json_heideltime(clean_text, heideltime_parser)
             # Step 4: Run AllenNLP SRL
             nlp_dict['semantic_roles'] = anlp.add_json_srl_allennlp(spacy_dict['sentences'], srl_predictor, spacy_dict['token_objs'])
             # Step 5: Run AllenNLP Coref
@@ -68,4 +65,4 @@ def test_english_pipeline_json(query_tests: str = ["William the Silent"], json_p
 if __name__ == "__main__":
     query_tests = ["William the Silent", "Albrecht Duerer", "Vincent van Gogh", "Constantijn Huygens", "Baruch Spinoza", "Erasmus of Rotterdam",
                     "Christiaan Huygens", "Rembrandt van Rijn", "Antoni van Leeuwenhoek", "John von Neumann", "Johan de Witt"]
-    test_english_pipeline_json(["William the Silent"])
+    test_english_pipeline_json(["Albrecht Duerer"])

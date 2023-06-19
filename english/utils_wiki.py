@@ -3,6 +3,7 @@ from typing import Dict, Any, List, Tuple
 from dataclasses import dataclass
 import Levenshtein as lev
 import re, json
+from collections import OrderedDict
 
 @dataclass
 class RankedArticle:
@@ -135,13 +136,14 @@ def get_wikipedia_article(query_str: str, query_restrictions: Dict[str, Any] = {
         return None
 
 
-def save_wikipedia_page(page: wikipedia.WikipediaPage, output_path:str, include_metadata: bool = False):
+def get_raw_wikipedia_article(wiki_title: str) -> Dict[str, Any]:
+    pass
+
+
+def save_wikipedia_page(page: wikipedia.WikipediaPage, output_path:str, include_metadata: bool = False, section_dict: Dict = None):
     # Save JSON File
     if include_metadata:
         meta_path = f"{output_path}.meta.json"
-        section_dict = {}
-        for sec_title in page.sections:
-            section_dict[sec_title] = page.section(sec_title)
         metadata = {
             "title": page.title,
             "url": page.url,
@@ -159,3 +161,82 @@ def save_wikipedia_page(page: wikipedia.WikipediaPage, output_path:str, include_
     # Save Plain Text
     with open(output_path, "w") as f:
         f.write(page.content)
+
+
+def extract_sections(page_text: str) -> Dict[str, str]:
+    section_matches = re.finditer(r"=+(\s.+\s)=+", page_text)
+    section_ends = []
+    section_starts = [0]
+    section_titles = [(1, "Summary")]
+    for title_match in section_matches:
+        tmp = page_text[title_match.start():title_match.end()]
+        sec_level = tmp.count("=")//2 - 1
+        title = tmp.replace("=", "").strip()
+        section_ends.append(title_match.start())
+        section_starts.append(title_match.end() + 1)
+        section_titles.append((sec_level, title))
+
+    section_dict = {}
+    ix = 1
+    for (level, title), sec_st, sec_end in zip(section_titles, section_starts, section_ends):
+        section_text = page_text[sec_st:sec_end]
+        section_dict[title] = {"index": ix, "level": level, "content": section_text.strip()}
+        ix += 1
+    return section_dict
+
+
+def extract_infobox(raw_text:str) -> Dict[str, str]:
+    # Find the InfoBox in the RAW Wikipedia Page
+    pattern = r"\{\{Infobox\s[\w\s]+\n(?:\|[\w\s]+\s+=\s*.*\n)*\}\}"
+    # Extract the infobox using regex
+    match = re.search(pattern, raw_text, re.DOTALL)
+    # Check if a match is found
+    if match:
+        infobox_str = match.group()
+    else:
+        return None
+    # Transfer String into a Python Dict (TODO: Create a clean dict with only useful fields?)
+    infobox_dict = {}
+    key_value_pattern = r"\|([\w\s]+)\s*=\s*(.*)"
+    for line in infobox_str.split("\n"):
+        # Check if the line matches the key-value pattern
+        match = re.match(key_value_pattern, line)
+        if match:
+            key = match.group(1).strip()
+            value = match.group(2).strip()
+            infobox_dict[key] = value
+    # Return Dict
+    return infobox_dict
+
+
+def _get_wiki_link_details(bracketed_string: str) -> Dict[str, str]:
+    # Ignore Files and Category Tags
+    if bracketed_string.startswith("[[File:"):
+        return {}
+    elif bracketed_string.startswith("[[Category:"):
+        return {}
+    # For normal [[Concept]]
+    if "|" in bracketed_string[:-1]:
+        tmp = bracketed_string.split("|")
+        title = tmp[0][2:]
+        surface_form = " ".join(tmp[1:])[:-3]
+    else:
+        title = bracketed_string[2:-3]
+        surface_form = title
+    
+    title = title.replace('<br/>', ' ')
+    if 's' == bracketed_string[-1]:
+        surface_form = surface_form + 's'
+
+    return {"title": title, "surfaceForm": surface_form, "wikiLink": f"https://en.wikipedia.org/wiki/{title.replace(' ', '_')}"}
+
+
+def get_wiki_linked_entities(raw_text: str) -> Dict[str, str]:
+    wiki_links_dict = OrderedDict() # {'surfaceForm': 'wikipediaTitle'} --> 'wikipediaLink'? 'wikidataID'?
+    for match in re.finditer(r"\[\[.+?\]\]", raw_text):
+        text = raw_text[match.start():match.end()+1]
+        wiki_info = _get_wiki_link_details(text)
+        # print(f"{text}\n{wiki_info}\n-----")
+        if len(wiki_info) > 0:
+            wiki_links_dict[wiki_info['surfaceForm']] = wiki_info['wikiLink']
+    return wiki_links_dict

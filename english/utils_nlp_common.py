@@ -3,9 +3,6 @@ from typing import TypeVar, Dict, Any, List, Tuple
 from dataclasses import dataclass, asdict
 from collections import defaultdict
 
-from python_heideltime import Heideltime
-from bs4 import BeautifulSoup
-
 
 Converter = TypeVar('Converter')
 NafParser = TypeVar('NafParser')
@@ -47,9 +44,10 @@ class SRL_Output:
 ## Functions to NLP Process
 
 def preprocess_and_clean_text(text: str) -> str:
-    clean_text = re.sub(r'[\r\n]+', " ", text)
-    clean_text = re.sub(r'"', ' " ', clean_text)
-    clean_text = re.sub(r'[\s]+', " ", clean_text)
+    clean_text = re.sub(r'[\r\n]+', "\n", text) # Just keep ONE change of line
+    clean_text = re.sub(r'"', ' " ', clean_text) # Separate quotations from their words
+    clean_text = re.sub(r'[\s]+', " ", clean_text) # Just keep ONE space between words
+    text = re.sub(r"=+\s.+\s=+", " ", text) # Eliminate section titles and subtitles
     return clean_text
 
 
@@ -101,7 +99,7 @@ def nlp_token2json_token(nlp_token: Dict[str, Any]):
     )
 
 
-def create_nlp_template(text: str, filepath: str = None) -> Dict[str, Any]:
+def create_nlp_template(text: str, filepath: str = None) -> Tuple[Dict[str, Any], bool]:
     is_from_file = False
     default_response = {
             'text': text,
@@ -187,21 +185,3 @@ def run_spacy(text: str, nlp: SpacyLanguage, nlp_processor: str = 'spacy') -> Di
 
     return {'spacy_doc': doc, 'sentences':spacy_sents, 'sentences_untokenized': original_sents,'tokens': spacy_tokens, 'token_objs': spacy_info, 'entities': spacy_ents}
 
-
-def add_json_heideltime(text: str, heideltime_parser: Heideltime) -> List[Dict[str, Any]]:
-    # Get Time Expressions
-    xml_timex3 = heideltime_parser.parse(text)
-    # Map the TIMEX Nodes into the Raw String Character Offsets
-    soup  = BeautifulSoup(xml_timex3, 'xml')
-    root = soup.find('TimeML')
-    span_end = 0
-    timex_all = []
-    try:
-        for timex in root.find_all('TIMEX3'):
-            span_begin = span_end + root.text[span_end:].index(timex.text) - 1
-            span_end = span_begin + len(timex.text)
-            timex_dict = {'ID': timex.get('tid'), 'category': timex.get('type'), 'value': timex.get('value'), 'surfaceForm': timex.text, 'locationStart': span_begin, 'locationEnd': span_end, 'method': 'HeidelTime'}
-            timex_all.append(timex_dict)
-        return timex_all
-    except:
-        return []

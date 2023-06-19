@@ -8,8 +8,9 @@ from utils_wiki import get_wikipedia_article, save_wikipedia_page
 
 from flair import __version__ as flair_version
 from flair.splitter import SegtokSentenceSplitter
-from utils_nlp_flair import run_flair
-from utils_nlp_common import preprocess_and_clean_text, add_json_heideltime
+from utils_nlp_flair import run_flair, merge_frames_srl
+from utils_nlp_common import preprocess_and_clean_text, create_nlp_template
+from utils_nlp_heideltime import add_json_heideltime
 
 
 def test_english_pipeline_json(query_tests: str = ["Albrecht Dürer"], json_path: str = "./english/data/json/"):
@@ -24,8 +25,8 @@ def test_english_pipeline_json(query_tests: str = ["Albrecht Dürer"], json_path
     splitter = SegtokSentenceSplitter()
     flair_models = {
         "chunker": "chunk",
-        "ner": 'ner-ontonotes-large', # 
-        "relations": "relations", # If relations is provided then is not necessary to do NER sepparately!
+        "ner": 'ner-ontonotes-large', # These are the specific pre-trained models, can be switched...
+        "relations": "relations",
         "frames": "frame",
         "linker": "linker"
     }
@@ -37,31 +38,29 @@ def test_english_pipeline_json(query_tests: str = ["Albrecht Dürer"], json_path
         text_file_url = f"{wiki_root}/{query.replace(' ', '_').lower()}.txt"
         
         nlp_dict = {}
-        json_name = doc_title.lower().replace(" ", "_") + ".flair.json"
+        json_name = doc_title.lower().replace(" ", "_") + ".json"
         json_full_path = f"{json_path}/{json_name}"
 
         # Directly read the text file (if exists) otherwise query Wikipedia
-        if os.path.exists(text_file_url):
-            print(f"Reading Text directly from file: {wiki_page.title}")
-            with open(text_file_url) as f:
-                text = f.read()
+        if os.path.exists(json_full_path):
+            print(f"An NLP file exists for {doc_title}. Reading directly from JSON.")
+            nlp_dict, is_from_file = create_nlp_template("", json_full_path)
+            # Step 1: Clean Text
+            clean_text = nlp_dict['text']
             wiki_matches += 1
-        # elif os.path.exists(json_full_path):
-        #     print(f"NLP File Exists! Loading ...")
         else:
             wiki_page = get_wikipedia_article(doc_title)
             if wiki_page:
                 print(f"Found a Page: {wiki_page.title}")
-                text = wiki_page.summary
+                text = wiki_page.content[:1000]
+                # Step 1: Clean Text
+                clean_text = preprocess_and_clean_text(text)
                 wiki_matches += 1
                 save_wikipedia_page(wiki_page, text_file_url, include_metadata=True)
             else:
                 print(f"Couldn't find {query}!")
                 break
         
-        # Step 1: Clean Text
-        clean_text = preprocess_and_clean_text(text)
-
         # Step 2: Split Into Sentences
         sentences = splitter.split(clean_text)
         morpho_syntax = []
@@ -80,14 +79,22 @@ def test_english_pipeline_json(query_tests: str = ["Albrecht Dürer"], json_path
             doc_offset += len(sentence.to_plain_string())
             tok_offset += len(sentence.tokens)
 
+        nlp_dict['morphology'][f"flair_{flair_version}"] = morpho_syntax
+        nlp_dict['tokenization'][f"flair_{flair_version}"] = tokenized_document
+
         # # Step 3: Run Heideltime
         nlp_dict['time_expressions'] = add_json_heideltime(clean_text, heideltime_parser)
 
         # Step 4: Run Flair Taggers
         # nlp_dict['phrase_chunks'] = run_flair(sentences, "chunker", flair_models)["tagged_entities"]
-        nlp_dict['semantic_roles'] = run_flair(sentences, "frames", flair_models)["tagged_entities"]
+        
+        frame_list = run_flair(sentences, "frames", flair_models)["tagged_entities"]
+        # srl_roles = nlp_dict.get('semantic_roles', [])
+        # nlp_dict['semantic_roles'] = merge_frames_srl(srl_roles, frame_list)
+        nlp_dict['frames'] = frame_list
+        
         ent_rel_out = run_flair(sentences, "relations", flair_models)
-        nlp_dict['entities'] = ent_rel_out["tagged_entities"]
+        nlp_dict['entities'] += ent_rel_out["tagged_entities"]
         nlp_dict['relations'] = ent_rel_out["tagged_relations"]
         # Must restart the sentence to erase previous tags
         sentences = splitter.split(clean_text)
@@ -99,8 +106,7 @@ def test_english_pipeline_json(query_tests: str = ["Albrecht Dürer"], json_path
             'status': '200',
             'data': {
                 'text': nlp_dict['input_text'],
-                'morphology': {f"flair_{flair_version}": morpho_syntax},
-                'tokenization': {f"flair_{flair_version}": tokenized_document}
+                
             }
         }
         for key in nlp_dict.keys():
@@ -115,6 +121,6 @@ def test_english_pipeline_json(query_tests: str = ["Albrecht Dürer"], json_path
 
 
 if __name__ == "__main__":
-    #query_tests = ["William the Silent", "Albrecht Dürer", "Vincent van Gogh", "Constantijn Huygens", "Baruch Spinoza", "Erasmus of Rotterdam",
+    #query_tests = ["William the Silent", "Albrecht Duerer", "Vincent van Gogh", "Constantijn Huygens", "Baruch Spinoza", "Erasmus of Rotterdam",
                     #"Christiaan Huygens", "Rembrandt van Rijn", "Antoni van Leeuwenhoek", "John von Neumann", "Johan de Witt"]
-    test_english_pipeline_json(["Constantijn Huygens"])
+    test_english_pipeline_json(["Albrecht Duerer"])

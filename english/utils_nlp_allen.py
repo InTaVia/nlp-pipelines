@@ -54,22 +54,24 @@ def allennlp_srl(text: str, srl_predictor: Predictor) -> SRL_Output:
     return simplified_output
 
 
-def allennlp_ner(text: str, ner_predictor: Predictor, text_init_offset: int = 0) -> Tuple[List, List]:
+def allennlp_ner(text: str, ner_predictor: Predictor, text_init_offset: int = 0, sent_index: int = 0) -> Tuple[List, List]:
     output = ner_predictor.predict(text)
     tokenized_sentence = output['words']
     sentence_entities = []
     ent_tokens, ent_indices, ent_label = [], [], ""
     for ix, bio_tag in enumerate(output["tags"]):
         if bio_tag.startswith("U-"):
-            sentence_entities.append({'ID': None, 'surfaceForm': output["words"][ix], 'category': bio_tag[2:].upper(), 'locationStart': None, 'locationEnd': None, 
-                                'tokenStart': text_init_offset + ix, 'tokenEnd': text_init_offset + ix + 1, 'method': 'allennlp_2.9.0'})
+            sentence_entities.append({'ID': None, 'sentenceID': sent_index, 'surfaceForm': output["words"][ix], 'category': bio_tag[2:].upper(), 
+                                      'locationStart': None, 'locationEnd': None, 'tokenStart': text_init_offset + ix, 'tokenEnd': text_init_offset + ix + 1,
+                                        'sentenceTokenStart': ix, 'sentenceTokenEnd': ix+1, 'method': 'allennlp_2.9.0'})
             ent_label = ""
             ent_indices = []
             ent_tokens = []
         elif bio_tag.startswith("B-"):
             if len(ent_label) > 0:
-                sentence_entities.append({'ID': None, 'surfaceForm': " ".join(ent_tokens), 'category': ent_label.upper(), 'locationStart': None, 'locationEnd': None, 
-                                'tokenStart': text_init_offset + ent_indices[0], 'tokenEnd': text_init_offset + ent_indices[-1]+1, 'method': 'allennlp_2.9.0'})
+                sentence_entities.append({'ID': None, 'sentenceID': sent_index, 'surfaceForm': " ".join(ent_tokens), 'category': ent_label.upper(), 
+                                          'locationStart': None, 'locationEnd': None, 'tokenStart': text_init_offset + ent_indices[0], 'tokenEnd': text_init_offset + ent_indices[-1]+1, 
+                                            'sentenceTokenStart': ent_indices[0], 'sentenceTokenEnd': ent_indices[-1]+1, 'method': 'allennlp_2.9.0'})
                 ent_indices = []
                 ent_tokens = []
             ent_label = bio_tag[2:]
@@ -79,8 +81,9 @@ def allennlp_ner(text: str, ner_predictor: Predictor, text_init_offset: int = 0)
             ent_tokens.append(output['words'][ix])
             ent_indices.append(ix)
         elif bio_tag == "O" and len(ent_label) > 0:
-            sentence_entities.append({'ID': None, 'surfaceForm': " ".join(ent_tokens), 'category': ent_label.upper(), 'locationStart': None, 'locationEnd': None, 
-                                'tokenStart': text_init_offset + ent_indices[0], 'tokenEnd': text_init_offset + ent_indices[-1]+1, 'method': 'allennlp_2.9.0'})
+            sentence_entities.append({'ID': None, 'sentenceID': sent_index, 'surfaceForm': " ".join(ent_tokens), 'category': ent_label.upper(), 
+                                      'locationStart': None, 'locationEnd': None, 'tokenStart': text_init_offset + ent_indices[0], 'tokenEnd': text_init_offset + ent_indices[-1]+1, 
+                                        'sentenceTokenStart': ent_indices[0], 'sentenceTokenEnd': ent_indices[-1]+1, 'method': 'allennlp_2.9.0'})
             ent_label = ""
             ent_indices = []
             ent_tokens = []
@@ -105,14 +108,17 @@ def allennlp_coref(text: str, coref_predictor: Predictor) -> Tuple[List[str], Di
 def add_json_srl_allennlp(sentences: List[str], srl_predictor: Predictor, token_objects: List[Dict]) -> List[Dict[str, Any]]:
     structured_layer = []
     doc_token_offset = 0
-    for sentence in sentences:
+    for i, sentence in enumerate(sentences):
         srl_output = allennlp_srl(sentence, srl_predictor)
-        for i, (predicate_pos, arguments) in enumerate(srl_output.pred_arg_struct.items()):
-            pred_obj = {'predicateID': str(i), 
-                        'locationStart': token_objects[doc_token_offset + predicate_pos]['start_char'], 
+        for j, (predicate_pos, arguments) in enumerate(srl_output.pred_arg_struct.items()):
+            pred_obj = {'predicateID': str(j), 
+                        'sentenceID': str(i),
                         'tokenStart': doc_token_offset + predicate_pos,
                         'tokenEnd': doc_token_offset + predicate_pos + 1,
+                        'locationStart': token_objects[doc_token_offset + predicate_pos]['start_char'], 
                         'locationEnd': token_objects[doc_token_offset + predicate_pos]['end_char'],
+                        'sentenceTokenStart':predicate_pos,
+                        'sentenceTokenEnd':predicate_pos + 1,
                         'surfaceForm': token_objects[doc_token_offset + predicate_pos]['text'],
                         'predicateLemma': token_objects[doc_token_offset + predicate_pos]['lemma'],
                         'arguments': [],
@@ -126,6 +132,8 @@ def add_json_srl_allennlp(sentences: List[str], srl_predictor: Predictor, token_
                     'tokenEnd': doc_token_offset + arg.end+1,
                     'locationStart': token_objects[doc_token_offset + arg.start]['start_char'],
                     'locationEnd': token_objects[doc_token_offset + arg.end]['end_char'],
+                    'sentenceTokenStart':arg.start,
+                    'sentenceTokenEnd':arg.end+1,
                     'category': arg.label
                 })
             if len(pred_obj['arguments']) > 0:
@@ -138,11 +146,12 @@ def add_json_srl_allennlp(sentences: List[str], srl_predictor: Predictor, token_
 def add_json_ner_allennlp(sentences: List[str], ner_predictor: Predictor, token_objects: List[Dict]) -> List[Dict[str, Any]]:
     doc_entities = []
     doc_token_offset = 0
-    for sentence in sentences:
+    for i, sentence in enumerate(sentences):
         # Get Sentencewise NER
-        tokenized, sentence_ner = allennlp_ner(sentence, ner_predictor, doc_token_offset)
+        tokenized, sentence_ner = allennlp_ner(sentence, ner_predictor, doc_token_offset, sent_index=i)
         # Fix Sentence Offsets to fit Document
-        for entity in sentence_ner:
+        for j, entity in enumerate(sentence_ner):
+            entity['ID'] = f"ent_{i}_{j}_allen"
             doc_tok_start = entity['tokenStart']
             doc_tok_end = entity['tokenEnd']
             entity['locationStart'] = token_objects[doc_tok_start]['start_char']
