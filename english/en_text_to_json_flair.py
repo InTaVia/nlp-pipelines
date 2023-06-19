@@ -4,13 +4,13 @@ from typing import Dict, Any, List, Tuple, Union
 
 from python_heideltime import Heideltime
 
-from utils_wiki import get_wikipedia_article, save_wikipedia_page
+from utils.utils_wiki import get_wikipedia_article, save_wikipedia_page
 
 from flair import __version__ as flair_version
 from flair.splitter import SegtokSentenceSplitter
-from utils_nlp_flair import run_flair, merge_frames_srl
-from utils_nlp_common import preprocess_and_clean_text, create_nlp_template
-from utils_nlp_heideltime import add_json_heideltime
+from utils.nlp_flair import run_flair, merge_frames_srl
+from utils.nlp_common import preprocess_and_clean_text, create_nlp_template
+from utils.nlp_heideltime import add_json_heideltime
 
 
 def test_english_pipeline_json(query_tests: str = ["Albrecht Dürer"], json_path: str = "./english/data/json/"):

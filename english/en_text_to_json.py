@@ -5,10 +5,10 @@ from allennlp.predictors import Predictor
 
 from python_heideltime import Heideltime
 
-from utils_wiki import get_wikipedia_article
-import utils_nlp_common as unlp
-import utils_nlp_allen as anlp
-from utils_nlp_heideltime import add_json_heideltime
+from utils.utils_wiki import get_wikipedia_article
+import utils.nlp_common as unlp
+import utils.nlp_allen as anlp
+from utils.nlp_heideltime import add_json_heideltime
 
 
 def test_english_pipeline_json(query_tests: str = ["William the Silent"], json_path: str = "./english/data/json/"):
