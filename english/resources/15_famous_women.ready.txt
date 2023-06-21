@@ -1,0 +1,15 @@
+Jane Austen | https://en.wikipedia.org/wiki/Jane_Austen
+Ada Lovelace | https://en.wikipedia.org/wiki/Ada_Lovelace
+Sojourner Truth | https://en.wikipedia.org/wiki/Sojourner_Truth
+Florence Nightingale | https://en.wikipedia.org/wiki/Florence_Nightingale
+Marie Curie | https://en.wikipedia.org/wiki/Marie_Curie
+Amelia Earhart | https://en.wikipedia.org/wiki/Amelia_Earhart
+Anne Frank | https://en.wikipedia.org/wiki/Anne_Frank
+Eleanor Roosevelt | https://en.wikipedia.org/wiki/Eleanor_Roosevelt
+Katharine Graham | https://en.wikipedia.org/wiki/Katharine_Graham
+Rosa Parks | https://en.wikipedia.org/wiki/Rosa_Parks
+Maya Angelou | https://en.wikipedia.org/wiki/Maya_Angelou
+Ruth Bader Ginsburg | https://en.wikipedia.org/wiki/Ruth_Bader_Ginsburg
+Gloria Steinem | https://en.wikipedia.org/wiki/Gloria_Steinem
+Dolly Parton | https://en.wikipedia.org/wiki/Dolly_Parton
+Greta Thunberg | https://en.wikipedia.org/wiki/Greta_Thunberg

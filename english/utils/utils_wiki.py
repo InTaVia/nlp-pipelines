@@ -2,7 +2,7 @@ import wikipedia # https://pypi.org/project/wikipedia/
 from typing import Dict, Any, List, Tuple
 from dataclasses import dataclass
 import Levenshtein as lev
-import re, json
+import re, json, requests
 from collections import OrderedDict
 
 @dataclass
@@ -137,13 +137,19 @@ def get_wikipedia_article(query_str: str, query_restrictions: Dict[str, Any] = {
 
 
 def get_raw_wikipedia_article(wiki_title: str) -> Dict[str, Any]:
-    pass
+    response = requests.get(f'https://en.wikipedia.org/wiki/{wiki_title}?action=raw')
+    raw_wiki = response.text
+    return raw_wiki
 
 
-def save_wikipedia_page(page: wikipedia.WikipediaPage, output_path:str, include_metadata: bool = False, section_dict: Dict = None):
+def save_wikipedia_page(page: wikipedia.WikipediaPage, output_path:str, include_metadata: bool = False, include_sections: bool = True, include_infobox: bool = True):
     # Save JSON File
     if include_metadata:
         meta_path = f"{output_path}.meta.json"
+        if include_sections:
+            section_dict = extract_sections(page.content)
+        else:
+            section_dict = None
         metadata = {
             "title": page.title,
             "url": page.url,
@@ -156,6 +162,11 @@ def save_wikipedia_page(page: wikipedia.WikipediaPage, output_path:str, include_
             "references": page.references,
             "images": page.images
         }
+        if include_infobox: 
+            raw_text = get_raw_wikipedia_article(page.title)
+            infobox_str, infobox_dict = extract_infobox(raw_text)
+            metadata['infobox_str'] = infobox_str
+            metadata['infobox_dict'] = infobox_dict
         with open(meta_path, "w") as f:
             json.dump(metadata, f, indent=2, ensure_ascii=False)
     # Save Plain Text
@@ -185,7 +196,7 @@ def extract_sections(page_text: str) -> Dict[str, str]:
     return section_dict
 
 
-def extract_infobox(raw_text:str) -> Dict[str, str]:
+def extract_infobox(raw_text:str) -> Tuple[str, Dict[str, str]]:
     # Find the InfoBox in the RAW Wikipedia Page
     pattern = r"\{\{Infobox\s[\w\s]+\n(?:\|[\w\s]+\s+=\s*.*\n)*\}\}"
     # Extract the infobox using regex
@@ -194,7 +205,7 @@ def extract_infobox(raw_text:str) -> Dict[str, str]:
     if match:
         infobox_str = match.group()
     else:
-        return None
+        return None, None
     # Transfer String into a Python Dict (TODO: Create a clean dict with only useful fields?)
     infobox_dict = {}
     key_value_pattern = r"\|([\w\s]+)\s*=\s*(.*)"
@@ -206,7 +217,7 @@ def extract_infobox(raw_text:str) -> Dict[str, str]:
             value = match.group(2).strip()
             infobox_dict[key] = value
     # Return Dict
-    return infobox_dict
+    return infobox_str, infobox_dict
 
 
 def _get_wiki_link_details(bracketed_string: str) -> Dict[str, str]:
@@ -240,3 +251,29 @@ def get_wiki_linked_entities(raw_text: str) -> Dict[str, str]:
         if len(wiki_info) > 0:
             wiki_links_dict[wiki_info['surfaceForm']] = wiki_info['wikiLink']
     return wiki_links_dict
+
+
+def get_idm_coordinates(wiki_coordinates: str) -> Tuple[float, float]:
+    # WIKIPEDIA ---> degree|minutes|seconds|latitude + degree|minutes|seconds|longitude
+    # {{coord|51|12|32|N|03|13|27|E|region:BE|display=inline,title}}
+    # IDM ---> [longitude, latitude]
+    try:
+        wiki_coordinates = wiki_coordinates[2:-2].split('|')
+        lat_degree, lat_minutes, lat_seconds, lat_dir = wiki_coordinates[1:5]
+        long_degree, long_minutes, long_seconds, long_dir = wiki_coordinates[5:9]
+        # print(lat_degree, lat_minutes, lat_seconds, lat_dir)
+        # print(long_degree, long_minutes, long_seconds, long_dir)
+        # Get Decimal Number
+        lat_degree_decimals = float(lat_degree) + float(lat_minutes)/60 + float(lat_seconds)/3600
+        long_degree_decimals = float(long_degree) + float(long_minutes)/60 + float(long_seconds)/3600
+        # North or East are Positive | South or West are Negative
+        if lat_dir == 'S': lat_degree_decimals = lat_degree_decimals * -1.0
+        if long_dir == 'W': long_degree_decimals = long_degree_decimals * -1.0
+        return (long_degree_decimals, lat_degree_decimals)
+    except:
+        return None
+
+# A = get_idm_coordinates("{{coord|51|12|32|N|03|13|27|E|region:BE|display=inline,title}}")
+# B = get_idm_coordinates("{{Coord|50|50|48|N|04|21|09|E|region:BE-BR_type:adm1st|display=inline,title}}")
+# print(A)
+# print(B)

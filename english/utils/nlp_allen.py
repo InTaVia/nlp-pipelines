@@ -5,7 +5,7 @@ from collections import defaultdict
 
 from allennlp.predictors import Predictor
 
-from utils_nlp_common import SRL_Output, SRL_Argument
+from utils.nlp_common import SRL_Output, SRL_Argument
 
 
 Converter = TypeVar('Converter')
@@ -165,7 +165,7 @@ def add_json_ner_allennlp(sentences: List[str], ner_predictor: Predictor, token_
 
 
 def add_json_coref_allennlp(sentences: List[str], coref_predictor: Predictor, token_objects: List[Dict]) -> List[Dict[str, Any]]:
-    doc_limit = 400 # We only take the first 400 tokens of the document to find coreferences there
+    doc_limit = 1000 # We only take the first 400 tokens of the document to find coreferences there
     doc_truncated = [] 
     fake_paragraph_len = 0
     for sentence in sentences:

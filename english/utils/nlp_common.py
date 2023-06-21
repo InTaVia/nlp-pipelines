@@ -65,13 +65,13 @@ def create_naf_object(text: str, naf_name: str, naf_converter: Converter) -> Naf
     return naf
 
 
-def nlp_to_dict(nlp_dict: Dict[str, Any], model_name: str) -> Dict[str, Any]:
+def nlp_to_dict(nlp_dict: Dict[str, Any], basic_model_name: str) -> Dict[str, Any]:
     return {
         'status': '200',
         'data': {
             'text': nlp_dict['input_text'],
-            'tokenization': {f"{model_name}": [tok['text'] for tok in nlp_dict['token_objs']]},
-            'morphology': {f"{model_name}": add_morphosyntax(nlp_dict['token_objs'])},
+            'tokenization': {f"{basic_model_name}": [tok['text'] for tok in nlp_dict['token_objs']]},
+            'morphology': {f"{basic_model_name}": add_morphosyntax(nlp_dict['token_objs'])},
             'entities': nlp_dict.get('entities', []),
             'time_expressions': nlp_dict.get('time_expressions', []),
             'semantic_roles': nlp_dict.get('semantic_roles', []),
@@ -120,13 +120,21 @@ def create_nlp_template(text: str, filepath: str = None) -> Tuple[Dict[str, Any]
     else:
         return default_response, is_from_file
 
+def reconstruct_original_sentence(token_list: List[Dict]) -> str:
+    sent_text = ""
+    for tok in token_list:
+        if tok['space_after']:
+            sent_text += tok['text'] + " "
+        else:
+            sent_text += tok['text']
+    return sent_text
 
-def add_morphosyntax(token_objects: List[TokenJSON]):
+def add_morphosyntax(token_objects: List[Dict]):
     sentencized, morpho_syntax = defaultdict(list), []
     for tok in token_objects:
         sentencized[tok['sent_id']].append(tok)
     for sent_id, sentence in sentencized.items():
-        sent_text = " ".join([tok['text'] for tok in sentence])
+        sent_text = reconstruct_original_sentence(sentence)
         morpho_syntax.append({
             "paragraph": 0,
             "sentence": sent_id,
@@ -143,7 +151,7 @@ def run_spacy(text: str, nlp: SpacyLanguage, nlp_processor: str = 'spacy') -> Di
     spacy_ents = []
     for sent_ix, sent in enumerate(doc.sents):
         spacy_sents.append(" ".join([t.text for t in sent]))
-        original_sents.append(sent)
+        original_sents.append(sent.text)
         shifted_sentence = list(sent) + ['</END>']
         for tok_ix, (tok, next_tok) in enumerate(zip(sent, shifted_sentence[1:])):
             spacy_tokens.append(tok.text)
@@ -179,8 +187,8 @@ def run_spacy(text: str, nlp: SpacyLanguage, nlp_processor: str = 'spacy') -> Di
             else:
                 spacy_info[-1]['space_after'] = False
     if doc.ents:
-        for ent in doc.ents:
-            spacy_ents.append({'ID': None, 'surfaceForm': ent.text, 'category': ent.label_.upper(), 'locationStart': doc[ent.start].idx, 'locationEnd': doc[ent.start].idx + len(ent.text), 
+        for end_id, ent in enumerate(doc.ents):
+            spacy_ents.append({'ID': f"ent_{end_id}_spacy", 'surfaceForm': ent.text, 'category': ent.label_.upper(), 'locationStart': doc[ent.start].idx, 'locationEnd': doc[ent.start].idx + len(ent.text), 
                                 'tokenStart': ent.start, 'tokenEnd': ent.end, 'method': nlp_processor})
 
     return {'spacy_doc': doc, 'sentences':spacy_sents, 'sentences_untokenized': original_sents,'tokens': spacy_tokens, 'token_objs': spacy_info, 'entities': spacy_ents}
