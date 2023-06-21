@@ -19,3 +19,9 @@ def add_json_heideltime(text: str, heideltime_parser: Heideltime) -> List[Dict[s
         return timex_all
     except:
         return []
+
+
+if __name__ == "__main__":
+    heideltime_parser = Heideltime()
+    heideltime_parser.set_document_type('NEWS')
+    print(heideltime_parser.parse('Yesterday, I bought a cat! It was born earlier this year.'))
