@@ -50,7 +50,7 @@ def preprocess_and_clean_text(text: str) -> str:
     # Get rid of everything after "See Also" Section
     match = re.search("== See also ==", text)
     if match: clean_text = clean_text[:match.start()]
-    clean_text = re.sub(r"=+\s.+\s=+", " ", clean_text) # Eliminate section titles and subtitles
+    clean_text = re.sub(r"=+\s.+?\s=+", " ", clean_text) # Eliminate section titles and subtitles
     return clean_text
 
 
