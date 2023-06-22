@@ -19,6 +19,7 @@ from utils.nlp_heideltime import add_json_heideltime
 
 from flair import __version__ as flair_version
 from flair.splitter import SegtokSentenceSplitter
+from flair.nn import Classifier
 
 from utils.utils_wiki import get_wikipedia_article, save_wikipedia_page
 from utils.nlp_flair import run_flair, merge_frames_srl
@@ -34,12 +35,17 @@ heideltime_parser.set_language('ENGLISH')
 heideltime_parser.set_document_type('NARRATIVES')
 
 splitter = SegtokSentenceSplitter()
+ner_tagger = Classifier.load('ner-ontonotes-large')
+rel_tagger = Classifier.load('relations')
+frames_tagger = Classifier.load('frame')
+linker_tagger = Classifier.load('linker')
+
 flair_models = {
     "chunker": "chunk",
-    "ner": 'ner-ontonotes-large', # These are the specific pre-trained models, can be switched...
-    "relations": "relations",
-    "frames": "frame",
-    "linker": "linker"
+    "ner": ner_tagger, # These are the specific pre-trained models, can be switched...
+    "relations": rel_tagger,
+    "frames": frames_tagger,
+    "linker": linker_tagger
 }
 
 

@@ -6,6 +6,7 @@ from flair.nn import Classifier
 from flair.splitter import SegtokSentenceSplitter
 from dataclasses import dataclass, asdict
 from collections import Counter
+from tqdm import tqdm
 
 
 def add_morphosyntax_flair(text: str, splitter: SegtokSentenceSplitter):
@@ -35,16 +36,18 @@ def run_flair(sentences: List[Sentence], task: str, flair_models: Dict[str, str]
     relations = []
 
     if "relations" == task:
-        ner_tagger = Classifier.load(flair_models["ner"])
+        ner_tagger = flair_models["ner"]
         ner_tagger.predict(sentences)
-        rel_tagger = Classifier.load(flair_models[task])
+        rel_tagger = flair_models[task]
         rel_tagger.predict(sentences)
     else:
-        tagger = Classifier.load(flair_models[task])
+        tagger = flair_models[task]
         tagger.predict(sentences)
 
     doc_offset, doc_token_offset = 0, 0
-    for sent_ix, sentence in enumerate(sentences):
+    sent_ix = 0
+    print(task)
+    for sentence in tqdm(sentences):
         # Format Information for NLP Intavia
         # print(sentence.annotation_layers.keys()) # --> dict_keys(['np', 'frame', 'ner', 'relation'])
         if "chunker" == task:
@@ -64,7 +67,7 @@ def run_flair(sentences: List[Sentence], task: str, flair_models: Dict[str, str]
                     "sentenceLocationStart": chunk.start_position,
                     "sentenceLocationEnd":  chunk.end_position,
                     "score": chunk.get_label("np").score,
-                    "method": f"flair_{flair_models[task]}_{flair_version}"
+                    "method": f"flair_{task}_{flair_version}"
                 })
         elif "relations" == task:
             # 1) NER
@@ -84,7 +87,7 @@ def run_flair(sentences: List[Sentence], task: str, flair_models: Dict[str, str]
                     "sentenceLocationStart": entity.start_position,
                     "sentenceLocationEnd":  entity.end_position,
                     "score": entity.get_label("ner").score,
-                    "method": f"flair_{flair_models['ner']}_{flair_version}"
+                    "method": f"flair_ner_{flair_version}"
                 })
                 entity_ids[(entity.start_position, entity.end_position)] = f"ent_{sent_ix}_{ent_ix}"
             # 2) Relation Extraction
@@ -102,7 +105,7 @@ def run_flair(sentences: List[Sentence], task: str, flair_models: Dict[str, str]
                         "relationValue": relation.tag,
                         "surfaceFormObj": relation.second.text,
                         "score": relation.score,
-                        "method": f"flair_{flair_models[task]}_{flair_version}"
+                        "method": f"flair_{task}_{flair_version}"
                     })
         elif "ner" == task: 
             for ent_ix, entity in enumerate(sentence.get_spans('ner')):
@@ -121,7 +124,7 @@ def run_flair(sentences: List[Sentence], task: str, flair_models: Dict[str, str]
                     "sentenceLocationStart": entity.start_position,
                     "sentenceLocationEnd":  entity.end_position,
                     "score": entity.get_label("ner").score,
-                    "method": f"flair_{flair_models[task]}_{flair_version}"
+                    "method": f"flair_{task}_{flair_version}"
                 })
         elif "frames" == task:
             pred_ix = 0
@@ -143,7 +146,7 @@ def run_flair(sentences: List[Sentence], task: str, flair_models: Dict[str, str]
                         "predicateSense": label.value,
                         "score": label.score,
                         "arguments": [],
-                        "method": f"flair_{flair_models[task]}_{flair_version}"
+                        "method": f"flair_{task}_{flair_version}"
                     })
         elif "linker" == task:
             entity_ids = metadata["entity_ids"]
@@ -162,11 +165,12 @@ def run_flair(sentences: List[Sentence], task: str, flair_models: Dict[str, str]
                             "wikiTitle": label.data_point.tag,
                             "score": label.data_point.score,
                             "wikiURL": f"https://en.wikipedia.org/wiki/{label.data_point.tag}",
-                            "method": f"flair_{flair_models[task]}_{flair_version}"
+                            "method": f"flair_{task}_{flair_version}"
                         })
                     link_ix += 1
         doc_offset += len(sentence.to_plain_string()) + 1
         doc_token_offset += len(sentence.tokens)
+        sent_ix += 1
 
     return {"tagged_entities": entities, "tagged_relations": relations, "entity_ids": entity_ids}
 
