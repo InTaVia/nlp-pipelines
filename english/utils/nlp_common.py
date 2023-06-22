@@ -47,8 +47,33 @@ def preprocess_and_clean_text(text: str) -> str:
     clean_text = re.sub(r'[\r\n]+', "\n", text) # Just keep ONE change of line
     clean_text = re.sub(r'"', ' " ', clean_text) # Separate quotations from their words
     clean_text = re.sub(r'[\s]+', " ", clean_text) # Just keep ONE space between words
-    text = re.sub(r"=+\s.+\s=+", " ", text) # Eliminate section titles and subtitles
+    # Get rid of everything after "See Also" Section
+    match = re.search("== See also ==", text)
+    if match: clean_text = clean_text[:match.start()]
+    clean_text = re.sub(r"=+\s.+\s=+", " ", clean_text) # Eliminate section titles and subtitles
     return clean_text
+
+
+def get_char_offsets_from_tokenized(text: str, tokenized: List[str]):
+    leftover_text = text
+    global_offset = 0
+    char_init_offsets = {}
+    for i, tok in enumerate(tokenized):
+        tok_ix = leftover_text.index(tok)
+        char_init_offsets[i] = tok_ix + global_offset
+        global_offset += len(tok)
+        leftover_text = text[global_offset:]
+    
+    return char_init_offsets
+
+# test = "This is a token, or this token is, or not!"
+# tokens = ['This', 'is', 'a', 'token', ',', 'or', 'this', 'token', 'is', ',', 'or', 'not', '!']
+# offset_dict = get_char_offsets_from_tokenized(test, tokens)
+# for tok_ix, offset in offset_dict.items():
+#     token_text = tokens[tok_ix]
+#     token_char_init = offset
+#     token_char_end = offset+len(token_text)
+#     print(token_text, test[token_char_init:token_char_end])
 
 
 def create_naf_object(text: str, naf_name: str, naf_converter: Converter) -> NafParser:

@@ -19,7 +19,6 @@ José Carlos Mariátegui | https://en.wikipedia.org/wiki/Jos%C3%A9_Carlos_Mari%C
 Manuel Belgrano | https://en.wikipedia.org/wiki/Manuel_Belgrano
 Túpac Amaru II | https://en.wikipedia.org/wiki/T%C3%BApac_Amaru_II
 Octavio Paz | https://en.wikipedia.org/wiki/Octavio_Paz
-Bernardo O'Higgins | https://en.wikipedia.org/wiki/Bernardo_O%27Higgins
 Gabriela Sabatini | https://en.wikipedia.org/wiki/Gabriela_Sabatini
 Manuel Puig | https://en.wikipedia.org/wiki/Manuel_Puig
 Francisco de Miranda | https://en.wikipedia.org/wiki/Francisco_de_Miranda

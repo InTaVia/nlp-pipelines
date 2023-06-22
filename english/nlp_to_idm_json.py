@@ -84,7 +84,7 @@ def convert_nlp_to_idm_json(nlp_path: str, idm_out_path: str):
             idm_ent["kind"] = "cultural-heritage-object"
         
         if idm_ent and ent["surfaceForm"] not in unique_entities:
-            idm_ent["label"] = ent["surfaceForm"]
+            idm_ent["label"] = {"default": ent["surfaceForm"]}
             entity_dict[ent["ID"]] = idm_ent
             unique_entities.add(ent["surfaceForm"])
             
@@ -96,7 +96,7 @@ def convert_nlp_to_idm_json(nlp_path: str, idm_out_path: str):
                 linked_id = {
                     "id": link_ent["wikiTitle"],
                     "provider": {
-                        "label": "Wikipedia",
+                        "label": {"default": "Wikipedia"},
                         "baseUrl": link_ent["wikiURL"]
                     }
                 }
