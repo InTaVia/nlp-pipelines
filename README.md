@@ -59,7 +59,7 @@ python3 -m pip install .
 
 1. **Obtain Wikipedia Articles**
 
-You can see how to download Wikipedia Files (and run the code) in the notebook `make_wikipedia_lists.ipynb`
+You can see how to download Wikipedia Files (and run the code) in the notebook `english/make_wikipedia_lists.ipynb`. All you need is to create a file with the list of names (and, I known, birth_dates and death_dates) and then run the functions provided in the notebook. See the examples of lists included under the folder `english/resources/`.
 
 
 2. **Run NLP Pipeline, you can choose:**
