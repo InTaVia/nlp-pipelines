@@ -10,22 +10,22 @@ The **english** section of this repository contains two separate cooperative pip
 Each pipeline predicts different NLP layers:
 
 1. Flair Pipeline
-    a. Tokenization
-    b. Sentence Splitting
-    c. Named Entity Recognition
-    d. Semantic Frame Disambiguation
-    e. Relation Exraction
-    f. Entity Linking
-    g. Aid from SpaCy 3.5 en_core_web_lg-3.5.0
+    * Tokenization
+    * Sentence Splitting
+    * Named Entity Recognition
+    * Semantic Frame Disambiguation
+    * Relation Exraction
+    * Entity Linking
+    * Aid from SpaCy 3.5 en_core_web_lg-3.5.0
 
 
 2. AllenNLP Pipeline
-    a. Tokenization
-    b. Sentence Splitting
-    c. Named Entity Recognition
-    d. Semantic Role Labeling
-    e. Correference Resolution
-    f. Aid from SpaCy 3.2 en_core_web_lg-3.2.0
+    * Tokenization
+    * Sentence Splitting
+    * Named Entity Recognition
+    * Semantic Role Labeling
+    * Correference Resolution
+    * Aid from SpaCy 3.2 en_core_web_lg-3.2.0
 
 
 ### Quick Start
