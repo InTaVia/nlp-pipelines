@@ -6,6 +6,8 @@ git clone git@github.com:PhilipEHausner/python_heideltime.git
 ```
 
 2. If you are in linux run the provided script to install heideltime. Then go to step 5.
+First replace line 15 of the `install_heideltime_standalone.sh` with this line: `wget --no-verbose https://www.cis.uni-muenchen.de/~schmid/tools/TreeTagger/data/tree-tagger-linux-3.2.5.tar.gz`
+Then Run:
 ```
 cd python_heideltime
 chmod +x install_heideltime_standalone.sh
@@ -33,7 +35,7 @@ python3 -m pip install .
 6. Come back to our project root `nlp-pipelines` and test if Heideltime is with:
 
 ```
-python english/utils/nlp_heideltime.py
+python3 english/utils/nlp_heideltime.py
 ```
 
 the following output should appear:

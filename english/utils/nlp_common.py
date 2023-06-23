@@ -66,14 +66,16 @@ def get_char_offsets_from_tokenized(text: str, tokenized: List[str]):
     
     return char_init_offsets
 
-# test = "This is a token, or this token is, or not!"
-# tokens = ['This', 'is', 'a', 'token', ',', 'or', 'this', 'token', 'is', ',', 'or', 'not', '!']
-# offset_dict = get_char_offsets_from_tokenized(test, tokens)
+# text = "Maya Angelou ( (listen) AN-jə-loh; born Marguerite Annie Johnson; April 4, 1928 – May 28, 2014) was an American memoirist, poet, and civil rights activist."
+# tokens = ['Maya', 'Angelou', '(', '(', 'listen', ')', 'AN', '-', 'jə', '-', 'loh', ';', 'born', 'Marguerite', 'Annie', 'Johnson', ';', 'April', '4', ',', '1928', '–', 'May', '28', ',', '2014', ')', 'was', 'an', 'American', 'memoirist', ',', 'poet', ',', 'and', 'civil', 'rights', 'activist', '.']
+
+# offset_dict = get_char_offsets_from_tokenized(text, tokens)
+# print(offset_dict)
 # for tok_ix, offset in offset_dict.items():
 #     token_text = tokens[tok_ix]
 #     token_char_init = offset
 #     token_char_end = offset+len(token_text)
-#     print(token_text, test[token_char_init:token_char_end])
+#     print(token_text, '--->' ,text[token_char_init:token_char_end])
 
 
 def create_naf_object(text: str, naf_name: str, naf_converter: Converter) -> NafParser:

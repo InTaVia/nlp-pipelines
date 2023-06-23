@@ -2,7 +2,7 @@
     This script already assumes that the Wikipedia Texts are present in the HardDrive
 
     EXAMPLE:
-        python english/en_text_to_json_allen.py --from_text "english/data/wikipedia/top_women/"
+        python english/en_text_to_json_allen.py --from_text --path "english/data/wikipedia/top_women/"
 
         python english/en_text_to_json_allen.py --from_flair_json --path "english/data/wikipedia/top_women/"
 
