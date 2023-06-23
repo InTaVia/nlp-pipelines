@@ -16,7 +16,7 @@ Each pipeline predicts different NLP layers:
     * Semantic Frame Disambiguation
     * Relation Exraction
     * Entity Linking
-    * Aid from SpaCy 3.5 en_core_web_lg-3.5.0
+    * Includes SpaCy 3.5
 
 
 2. AllenNLP Pipeline
@@ -25,7 +25,7 @@ Each pipeline predicts different NLP layers:
     * Named Entity Recognition
     * Semantic Role Labeling
     * Correference Resolution
-    * Aid from SpaCy 3.2 en_core_web_lg-3.2.0
+    * Includes SpaCy 3.2
 
 
 ### Quick Start
