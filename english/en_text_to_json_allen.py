@@ -54,11 +54,12 @@ def run_allennlp_pipeline(text: str, nlp_dict: Dict[str, Any] = {}):
         flair_versions = [v for v in nlp_dict['morphology'].keys() if 'flair_' in v]
         if len(flair_versions)>0:
             for sent_ix, sent_obj in enumerate(nlp_dict['morphology'][flair_versions[0]]):
-                sentences.append(sent_obj['text'])
-                sent_tokenized.append(sent_obj['tokenized'])
-                for tok in sent_obj['words']:
-                    token_objs.append({'sent_id': sent_ix, 'text': tok['FORM'], 'lemma': tok['FORM'], 
-                                       'start_char': tok['MISC']['StartChar'], 'end_char': tok['MISC']['EndChar'], 'space_after': tok['MISC']['SpaceAfter']})
+                if len(sent_obj['text']) > 0:
+                    sentences.append(sent_obj['text'])
+                    sent_tokenized.append(sent_obj['tokenized'])
+                    for tok in sent_obj['words']:
+                        token_objs.append({'sent_id': sent_ix, 'text': tok['FORM'], 'lemma': tok['FORM'], 
+                                        'start_char': tok['MISC']['StartChar'], 'end_char': tok['MISC']['EndChar'], 'space_after': tok['MISC']['SpaceAfter']})
     # Step 4: Run AllenNLP SRL
     nlp_dict['semantic_roles'] = anlp.add_json_srl_allennlp(sentences, srl_predictor, token_objs)
     # Step 5: Run AllenNLP Coref
