@@ -135,6 +135,7 @@ def add_json_srl_allennlp(sentences: List[str], srl_predictor: Predictor, token_
         if len(sentence) == 0: continue
         try:
             srl_output = allennlp_srl(sentence, srl_predictor)
+            error_ocurred = False
         except:
             error_ocurred = True
         
