@@ -46,11 +46,11 @@ class SRL_Output:
 def preprocess_and_clean_text(text: str) -> str:
     clean_text = re.sub(r'[\r\n]+', "\n", text) # Just keep ONE change of line
     clean_text = re.sub(r'"', ' " ', clean_text) # Separate quotations from their words
-    clean_text = re.sub(r'[\s]+', " ", clean_text) # Just keep ONE space between words
     # Get rid of everything after "See Also" Section
     match = re.search("== See also ==", text)
     if match: clean_text = clean_text[:match.start()]
     clean_text = re.sub(r"=+\s.+?\s=+", " ", clean_text) # Eliminate section titles and subtitles
+    clean_text = re.sub(r'[\s]+', " ", clean_text) # Just keep ONE space between words
     return clean_text
 
 

@@ -126,12 +126,13 @@ def add_json_srl_allennlp(sentences: List[str], srl_predictor: Predictor, token_
         sentence_dict[int(tok['sent_id'])] += 1
         char_starts2token[tok['start_char']] = k
         char_ends2token[tok['end_char']] = k
-    sentence_token_lengths = []
-    for _, sent_len in sorted(sentence_dict.items()):
-        sentence_token_lengths.append(sent_len)
+    sentence_token_lengths = {}
+    for sent_id, sent_len in sorted(sentence_dict.items()):
+        sentence_token_lengths[sent_id] = sent_len
 
     char_init_offset = 0
     for i, sentence in enumerate(sentences):
+        if len(sentence) == 0: continue
         srl_output = allennlp_srl(sentence, srl_predictor)
         char_offset_dict = get_char_offsets_from_tokenized(sentence, srl_output.tokens)
         for j, (predicate_pos, arguments) in enumerate(srl_output.pred_arg_struct.items()):
@@ -170,7 +171,7 @@ def add_json_srl_allennlp(sentences: List[str], srl_predictor: Predictor, token_
             if len(pred_obj['arguments']) > 0:
                 structured_layer.append(pred_obj)
         # Update Document Offset
-        doc_token_offset += sentence_token_lengths[i]
+        doc_token_offset += sentence_token_lengths.get(i, 0)
         char_init_offset += len(sentence) + 1
     return structured_layer
 
