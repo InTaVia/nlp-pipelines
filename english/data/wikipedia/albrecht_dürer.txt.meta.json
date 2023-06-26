@@ -818,5 +818,25 @@
     "https://upload.wikimedia.org/wikipedia/en/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg",
     "https://upload.wikimedia.org/wikipedia/en/9/99/Question_book-new.svg",
     "https://upload.wikimedia.org/wikipedia/en/9/96/Symbol_category_class.svg"
-  ]
+  ],
+  "infobox_str": "{{Infobox artist\n| name = Albrecht Dürer\n| image = Albrecht Dürer, Selbstbildnis mit 26 Jahren (Prado, Madrid).jpg\n| caption = Dürer's ''[[Self-Portrait (Dürer, Madrid)|Self-portrait at 26]]'' at [[Prado Museum]]\n| birth_name = \n| other_names = Adalbert Ajtósi, Albrecht Durer, Albrecht Duerer\n| birth_date = {{Birth date|1471|05|21|df=yes}}\n| birth_place = [[Nuremberg]], [[Free Imperial City of Nuremberg]], [[Holy Roman Empire]]\n| death_date = {{Death date and age|1528|4|6|1471|5|21|df=y}}\n| death_place = Nuremberg, Holy Roman Empire\n| nationality = [[Germans|German]]\n| movement = [[High Renaissance]]\n| buried_in = \n| field = {{hlist |[[Painting]] |[[printmaking]]}}\n| works = \n| spouse = {{marriage|[[Agnes Frey]]|1494}}\n| module = {{Infobox person|child=yes\n| signature = Signatur Albrecht Dürer.PNG}}\n}}",
+  "infobox_dict": {
+    "name": "Albrecht Dürer",
+    "image": "Albrecht Dürer, Selbstbildnis mit 26 Jahren (Prado, Madrid).jpg",
+    "caption": "Dürer's ''[[Self-Portrait (Dürer, Madrid)|Self-portrait at 26]]'' at [[Prado Museum]]",
+    "birth_name": "",
+    "other_names": "Adalbert Ajtósi, Albrecht Durer, Albrecht Duerer",
+    "birth_date": "{{Birth date|1471|05|21|df=yes}}",
+    "birth_place": "[[Nuremberg]], [[Free Imperial City of Nuremberg]], [[Holy Roman Empire]]",
+    "death_date": "{{Death date and age|1528|4|6|1471|5|21|df=y}}",
+    "death_place": "Nuremberg, Holy Roman Empire",
+    "nationality": "[[Germans|German]]",
+    "movement": "[[High Renaissance]]",
+    "buried_in": "",
+    "field": "{{hlist |[[Painting]] |[[printmaking]]}}",
+    "works": "",
+    "spouse": "{{marriage|[[Agnes Frey]]|1494}}",
+    "module": "{{Infobox person|child=yes",
+    "signature": "Signatur Albrecht Dürer.PNG}}"
+  }
 }
