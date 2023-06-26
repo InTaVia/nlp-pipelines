@@ -133,43 +133,50 @@ def add_json_srl_allennlp(sentences: List[str], srl_predictor: Predictor, token_
     char_init_offset = 0
     for i, sentence in enumerate(sentences):
         if len(sentence) == 0: continue
-        srl_output = allennlp_srl(sentence, srl_predictor)
-        char_offset_dict = get_char_offsets_from_tokenized(sentence, srl_output.tokens)
-        for j, (predicate_pos, arguments) in enumerate(srl_output.pred_arg_struct.items()):
-            location_start = char_init_offset + char_offset_dict[predicate_pos]
-            location_end = location_start + len(srl_output.tokens[predicate_pos])
-            tok_start = char_starts2token.get(location_start)
-            tok_end = char_ends2token.get(location_end)
-            pred_obj = {'predicateID': str(j), 
-                        'sentenceID': str(i),
-                        #'tokenStart': doc_token_offset + predicate_pos,
-                        #'tokenEnd': doc_token_offset + predicate_pos + 1,
-                        'locationStart': location_start, 
-                        'locationEnd': location_end,
-                        #'sentenceTokenStart':predicate_pos,
-                        #'sentenceTokenEnd':predicate_pos + 1,
-                        'surfaceForm': srl_output.tokens[predicate_pos],
-                        'arguments': [],
-                        'method': 'allennlp_2.9.0'
-                        }
-            # if tok_start: pred_obj['tokenStart'] = doc_token_offset + tok_start
-            # if tok_end: pred_obj['tokenEnd'] = doc_token_offset + tok_end
-            for arg in arguments:
-                arg_loc_start = char_init_offset + char_offset_dict[arg.start]
-                arg_loc_end = arg_loc_start + len(arg.text)
-                pred_obj['arguments'].append({
-                    'argumentID': f"{i}_{arg.label}",
-                    'surfaceForm': arg.text,
-                    #'tokenStart': doc_token_offset + arg.start,
-                    #'tokenEnd': doc_token_offset + arg.end+1,
-                    'locationStart': arg_loc_start,
-                    'locationEnd': arg_loc_end,
-                    #'sentenceTokenStart':arg.start,
-                    #'sentenceTokenEnd':arg.end+1,
-                    'category': arg.label
-                })
-            if len(pred_obj['arguments']) > 0:
-                structured_layer.append(pred_obj)
+        try:
+            srl_output = allennlp_srl(sentence, srl_predictor)
+        except:
+            error_ocurred = True
+        
+        if not error_ocurred:
+            char_offset_dict = get_char_offsets_from_tokenized(sentence, srl_output.tokens)
+            for j, (predicate_pos, arguments) in enumerate(srl_output.pred_arg_struct.items()):
+                location_start = char_init_offset + char_offset_dict[predicate_pos]
+                location_end = location_start + len(srl_output.tokens[predicate_pos])
+                tok_start = char_starts2token.get(location_start)
+                tok_end = char_ends2token.get(location_end)
+                pred_obj = {'predicateID': str(j), 
+                            'sentenceID': str(i),
+                            #'tokenStart': doc_token_offset + predicate_pos,
+                            #'tokenEnd': doc_token_offset + predicate_pos + 1,
+                            'locationStart': location_start, 
+                            'locationEnd': location_end,
+                            #'sentenceTokenStart':predicate_pos,
+                            #'sentenceTokenEnd':predicate_pos + 1,
+                            'surfaceForm': srl_output.tokens[predicate_pos],
+                            'arguments': [],
+                            'method': 'allennlp_2.9.0'
+                            }
+                # if tok_start: pred_obj['tokenStart'] = doc_token_offset + tok_start
+                # if tok_end: pred_obj['tokenEnd'] = doc_token_offset + tok_end
+                for arg in arguments:
+                    arg_loc_start = char_init_offset + char_offset_dict[arg.start]
+                    arg_loc_end = arg_loc_start + len(arg.text)
+                    pred_obj['arguments'].append({
+                        'argumentID': f"{i}_{arg.label}",
+                        'surfaceForm': arg.text,
+                        #'tokenStart': doc_token_offset + arg.start,
+                        #'tokenEnd': doc_token_offset + arg.end+1,
+                        'locationStart': arg_loc_start,
+                        'locationEnd': arg_loc_end,
+                        #'sentenceTokenStart':arg.start,
+                        #'sentenceTokenEnd':arg.end+1,
+                        'category': arg.label
+                    })
+                if len(pred_obj['arguments']) > 0:
+                    structured_layer.append(pred_obj)
+        else:
+            print(f"Allen SRL Failed on Sentence {i}\n\t<<{sentence}>>")
         # Update Document Offset
         doc_token_offset += sentence_token_lengths.get(i, 0)
         char_init_offset += len(sentence) + 1
@@ -189,7 +196,11 @@ def add_json_ner_allennlp(sentences: List[str], ner_predictor: Predictor, token_
 
     for i, sentence in enumerate(sentences):
         # Get Sentencewise NER
-        tokenized, sentence_ner = allennlp_ner(sentence, ner_predictor, doc_char_offset, doc_token_offset, sent_index=i)
+        try:
+            tokenized, sentence_ner = allennlp_ner(sentence, ner_predictor, doc_char_offset, doc_token_offset, sent_index=i)
+        except:
+            sentence_ner = []
+            print(f"Allen NER Failed on Sentence {i}\n\t<<{sentence}>>")
         # Fix Sentence Offsets to fit Document
         for j, entity in enumerate(sentence_ner):
             entity['ID'] = f"ent_{i}_{j}_allen"
