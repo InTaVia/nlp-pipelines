@@ -136,8 +136,13 @@ def get_wikipedia_article(query_str: str, query_restrictions: Dict[str, Any] = {
         return None
 
 
-def get_raw_wikipedia_article(wiki_title: str) -> Dict[str, Any]:
-    response = requests.get(f'https://en.wikipedia.org/wiki/{wiki_title}?action=raw')
+def get_raw_wikipedia_article(wiki_title: str = None, wiki_url: str = None) -> Dict[str, Any]:
+    if wiki_url:
+        response = requests.get(f'{wiki_url}?action=raw')
+    elif wiki_title:
+        response = requests.get(f'https://en.wikipedia.org/wiki/{wiki_title}?action=raw')
+    else:
+        return None
     raw_wiki = response.text
     return raw_wiki
 
@@ -163,7 +168,7 @@ def save_wikipedia_page(page: wikipedia.WikipediaPage, output_path:str, include_
             "images": page.images
         }
         if include_infobox: 
-            raw_text = get_raw_wikipedia_article(page.title)
+            raw_text = get_raw_wikipedia_article(wiki_title=page.title)
             infobox_str, infobox_dict = extract_infobox(raw_text)
             metadata['infobox_str'] = infobox_str
             metadata['infobox_dict'] = infobox_dict
@@ -220,6 +225,25 @@ def extract_infobox(raw_text:str) -> Tuple[str, Dict[str, str]]:
     return infobox_str, infobox_dict
 
 
+def get_relevant_items_from_infobox(link:str) -> Dict[str, str]:
+    raw = get_raw_wikipedia_article(wiki_url=link)
+    info_str, _ = extract_infobox(raw)
+    relevant_dict = {}
+    if info_str:
+        info_lines = info_str.split("\n")
+        for line in info_lines:
+            # Get Entity Type
+            if line.startswith("{{Infobox"):
+                type_match = info_lines[0][9:].strip("\n").strip()
+                relevant_dict["entity_type"] = type_match
+            # Get Coordinates if in InfoBox
+            elif line.startswith("| coordinates"):
+                match = re.search(r"({.+})", line)
+                if match:
+                    coordinates = get_idm_coordinates(match.group(1))
+                relevant_dict["coordinates"] = coordinates
+    return relevant_dict
+
 def _get_wiki_link_details(bracketed_string: str) -> Dict[str, str]:
     # Ignore Files and Category Tags
     if bracketed_string.startswith("[[File:"):
@@ -249,7 +273,7 @@ def get_wiki_linked_entities(raw_text: str) -> Dict[str, str]:
         wiki_info = _get_wiki_link_details(text)
         # print(f"{text}\n{wiki_info}\n-----")
         if len(wiki_info) > 0:
-            wiki_links_dict[wiki_info['surfaceForm']] = wiki_info['wikiLink']
+            wiki_links_dict[f"{wiki_info['surfaceForm']}"] = wiki_info['wikiLink']
     return wiki_links_dict
 
 
@@ -269,7 +293,7 @@ def get_idm_coordinates(wiki_coordinates: str) -> Tuple[float, float]:
         # North or East are Positive | South or West are Negative
         if lat_dir == 'S': lat_degree_decimals = lat_degree_decimals * -1.0
         if long_dir == 'W': long_degree_decimals = long_degree_decimals * -1.0
-        return (long_degree_decimals, lat_degree_decimals)
+        return (round(long_degree_decimals, 6), round(lat_degree_decimals, 6))
     except:
         return None
 

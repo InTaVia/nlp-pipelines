@@ -1,5 +1,6 @@
-import json, os
+import json, os, re, time
 import copy
+from utils.utils_wiki import get_raw_wikipedia_article, get_wiki_linked_entities, get_relevant_items_from_infobox
 
 person_template = {
     "id": "", # duerer-pr-012
@@ -56,7 +57,17 @@ def convert_nlp_to_idm_json(nlp_path: str, idm_out_path: str):
     nlp_dict = json.load(open(nlp_path))
     person_name = os.path.basename(nlp_path).split(".")[0]
     lastname = person_name.split("_")[-1]
-    # 1) Populate Valid Entities
+    
+    # Open Raw File and Meta JSON to Complement Data
+    wiki_raw = get_raw_wikipedia_article(wiki_title=person_name.replace("_", " ").title())
+    wiki_meta = json.load(open(f"english/data/wikipedia/{person_name}.txt.meta.json"))
+    wiki_linked_dict = get_wiki_linked_entities(wiki_raw) # {'surfaceForm': 'wiki_link'}
+
+    # Entity-Metions to ClusterIDs
+    for ent in nlp_dict["data"]["coreference"]:
+        pass
+
+    # Populate Valid Entities (NLP + WikiMeta)
     entity_dict = {}
     unique_entities = set()
     per_ix, pl_ix, gr_ix, obj_ix = 0, 0, 0, 0
@@ -83,6 +94,16 @@ def convert_nlp_to_idm_json(nlp_path: str, idm_out_path: str):
             idm_ent["id"] = f"{lastname}-ob-{stringify_id(obj_ix)}"
             idm_ent["kind"] = "cultural-heritage-object"
         
+        # Add Link Info form Wikipedia Meta
+        if ent["surfaceForm"] in wiki_linked_dict:
+            wiki_link = wiki_linked_dict[ent["surfaceForm"]]
+            items_dict = get_relevant_items_from_infobox(wiki_link)
+            coord = items_dict.get("coordinates")
+            print(ent["surfaceForm"], items_dict)
+            if coord:
+                idm_ent["geometry"] = {"type": "Point", "coordinates": coord}
+
+        # Add to the List of Entities (De-Duplicate entities with the SAME surfaceForm)
         if idm_ent and ent["surfaceForm"] not in unique_entities:
             idm_ent["label"] = {"default": ent["surfaceForm"]}
             entity_dict[ent["ID"]] = idm_ent
@@ -117,4 +138,4 @@ def stringify_id(number: int) -> str:
         return str(number)
 
 if __name__ == "__main__":
-    convert_nlp_to_idm_json("english/data/json/albrecht_dürer.flair.json", "english/data/idm/albrecht_dürer.idm.json")
+    convert_nlp_to_idm_json("english/data/json/albrecht_dürer.json", "english/data/idm/albrecht_dürer.idm.json")

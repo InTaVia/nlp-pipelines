@@ -15,18 +15,24 @@ def add_morphosyntax_flair(text: str, splitter: SegtokSentenceSplitter):
     tokenized_document = []
     doc_offset, tok_offset = 0, 0
     for sent_ix, sentence in enumerate(sentences):
+        words = []
+        for k, tok in enumerate(sentence.tokens):
+            space_after = True if tok.whitespace_after == 1 else False
+            end_position = tok.start_position + len(tok.text)
+            words.append({"ID": k, "FORM": tok.text, "MISC": {"SpaceAfter": space_after, "StartChar": tok.start_position, "EndChar": end_position}})
         morpho_syntax.append({
                 "paragraphID": 0,
                 "sentenceID": sent_ix,
                 "text": sentence.to_plain_string(),
+                "tokenized": sentence.to_tokenized_string(),
                 "docCharOffset": doc_offset + 1,
                 "docTokenOffset": tok_offset,
-                "words": [{"ID": k, "FORM": tok.text} for k, tok in enumerate(sentence.tokens)]
+                "words": words
             }) 
         tokenized_document.extend([t.text for t in sentence.tokens])
         doc_offset += len(sentence.to_plain_string())
         tok_offset += len(sentence.tokens)
-    
+
     return morpho_syntax, tokenized_document
 
 

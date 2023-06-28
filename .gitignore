@@ -5,6 +5,7 @@
 # english/resources/
 english/data/wikipedia/top*/*
 english/data/wikipedia/women_*
+english/flask_app/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
