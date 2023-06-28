@@ -1,0 +1,767 @@
+{
+  "entities": [
+    {
+      "id": "dürer-pr-001",
+      "label": {
+        "default": "Albrecht Dürer"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person",
+      "gender": {}
+    },
+    {
+      "id": "dürer-pr-003",
+      "label": {
+        "default": "Durer"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person",
+      "gender": {}
+    },
+    {
+      "id": "dürer-ob-001",
+      "label": {
+        "default": "Renaissance"
+      },
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [],
+      "kind": "cultural-heritage-object",
+      "type": {}
+    },
+    {
+      "id": "dürer-pl-001",
+      "label": {
+        "default": "Nuremberg"
+      },
+      "relations": [],
+      "kind": "place",
+      "type": {},
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.0775,
+          49.453889
+        ]
+      }
+    },
+    {
+      "id": "dürer-pr-004",
+      "label": {
+        "default": "Dürer"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person",
+      "gender": {}
+    },
+    {
+      "id": "dürer-pl-002",
+      "label": {
+        "default": "Europe"
+      },
+      "relations": [],
+      "kind": "place",
+      "type": {},
+      "geometry": {
+        "type": "Point",
+        "coordinates": null
+      }
+    },
+    {
+      "id": "dürer-pr-005",
+      "label": {
+        "default": "Raphael"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person",
+      "gender": {}
+    },
+    {
+      "id": "dürer-pr-006",
+      "label": {
+        "default": "Giovanni Bellini"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person",
+      "gender": {}
+    },
+    {
+      "id": "dürer-pr-007",
+      "label": {
+        "default": "Leonardo da Vinci"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person",
+      "gender": {}
+    },
+    {
+      "id": "dürer-pr-008",
+      "label": {
+        "default": "Maximilian I."
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person",
+      "gender": {}
+    },
+    {
+      "id": "dürer-ob-002",
+      "label": {
+        "default": "Meisterstiche"
+      },
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [],
+      "kind": "cultural-heritage-object",
+      "type": {}
+    },
+    {
+      "id": "dürer-ob-003",
+      "label": {
+        "default": "Knight, Death and the Devil"
+      },
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [],
+      "kind": "cultural-heritage-object",
+      "type": {}
+    },
+    {
+      "id": "dürer-ob-004",
+      "label": {
+        "default": "Saint Jerome in his Study"
+      },
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [],
+      "kind": "cultural-heritage-object",
+      "type": {}
+    },
+    {
+      "id": "dürer-ob-005",
+      "label": {
+        "default": "Melencolia I"
+      },
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [],
+      "kind": "cultural-heritage-object",
+      "type": {}
+    },
+    {
+      "id": "dürer-pl-003",
+      "label": {
+        "default": "Northern"
+      },
+      "relations": [],
+      "kind": "place",
+      "type": {},
+      "geometry": {
+        "type": "Point",
+        "coordinates": null
+      }
+    },
+    {
+      "id": "dürer-pl-004",
+      "label": {
+        "default": "Northern Renaissance"
+      },
+      "relations": [],
+      "kind": "place",
+      "type": {},
+      "geometry": {
+        "type": "Point",
+        "coordinates": null
+      }
+    },
+    {
+      "id": "dürer-pr-012",
+      "label": {
+        "default": "Albrecht Dürer the Elder"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person",
+      "gender": {}
+    },
+    {
+      "id": "dürer-pr-013",
+      "label": {
+        "default": "Barbara Holper"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person",
+      "gender": {}
+    },
+    {
+      "id": "dürer-pr-015",
+      "label": {
+        "default": "Albrecht Ajtósi"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person",
+      "gender": {}
+    },
+    {
+      "id": "dürer-pl-006",
+      "label": {
+        "default": "Ajtós"
+      },
+      "relations": [],
+      "kind": "place",
+      "type": {},
+      "geometry": {
+        "type": "Point",
+        "coordinates": null
+      }
+    },
+    {
+      "id": "dürer-pl-007",
+      "label": {
+        "default": "Gyula"
+      },
+      "relations": [],
+      "kind": "place",
+      "type": {},
+      "geometry": {
+        "type": "Point",
+        "coordinates": null
+      }
+    },
+    {
+      "id": "dürer-pl-008",
+      "label": {
+        "default": "Hungary"
+      },
+      "relations": [],
+      "kind": "place",
+      "type": {},
+      "geometry": {
+        "type": "Point",
+        "coordinates": null
+      }
+    },
+    {
+      "id": "dürer-pr-016",
+      "label": {
+        "default": "Holper"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person",
+      "gender": {}
+    },
+    {
+      "id": "dürer-pr-017",
+      "label": {
+        "default": "Albrecht"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person",
+      "gender": {}
+    },
+    {
+      "id": "dürer-pr-018",
+      "label": {
+        "default": "Hans Dürer"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person",
+      "gender": {}
+    },
+    {
+      "id": "dürer-pr-020",
+      "label": {
+        "default": "Endres Dürer"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person",
+      "gender": {}
+    },
+    {
+      "id": "dürer-pr-022",
+      "label": {
+        "default": "Ajtósi"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person",
+      "gender": {}
+    },
+    {
+      "id": "dürer-pr-023",
+      "label": {
+        "default": "Türer"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person",
+      "gender": {}
+    },
+    {
+      "id": "dürer-pr-024",
+      "label": {
+        "default": "Albrecht Dürer the Younger"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person",
+      "gender": {}
+    },
+    {
+      "id": "dürer-pr-028",
+      "label": {
+        "default": "Anton Koberger"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person",
+      "gender": {}
+    },
+    {
+      "id": "dürer-pl-010",
+      "label": {
+        "default": "Germany"
+      },
+      "relations": [],
+      "kind": "place",
+      "type": {},
+      "geometry": {
+        "type": "Point",
+        "coordinates": null
+      }
+    },
+    {
+      "id": "dürer-pr-030",
+      "label": {
+        "default": "Koberger"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person",
+      "gender": {}
+    },
+    {
+      "id": "dürer-ob-006",
+      "label": {
+        "default": "the Nuremberg Chronicle"
+      },
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [],
+      "kind": "cultural-heritage-object",
+      "type": {}
+    },
+    {
+      "id": "dürer-pr-031",
+      "label": {
+        "default": "Wolgemut"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person",
+      "gender": {}
+    },
+    {
+      "id": "dürer-pr-033",
+      "label": {
+        "default": "Wolgemut.Because"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person",
+      "gender": {}
+    },
+    {
+      "id": "dürer-pr-036",
+      "label": {
+        "default": "Michael Wolgemut"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person",
+      "gender": {}
+    },
+    {
+      "id": "dürer-gr-001",
+      "label": {
+        "default": "Albertina"
+      },
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [],
+      "kind": "group",
+      "type": {},
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.368611,
+          48.204167
+        ]
+      }
+    },
+    {
+      "id": "dürer-pl-012",
+      "label": {
+        "default": "Vienna"
+      },
+      "relations": [],
+      "kind": "place",
+      "type": {},
+      "geometry": {
+        "type": "Point",
+        "coordinates": null
+      }
+    },
+    {
+      "id": "dürer-ob-007",
+      "label": {
+        "default": "Opus One"
+      },
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [],
+      "kind": "cultural-heritage-object",
+      "type": {}
+    },
+    {
+      "id": "dürer-pl-015",
+      "label": {
+        "default": "Italy"
+      },
+      "relations": [],
+      "kind": "place",
+      "type": {},
+      "geometry": {
+        "type": "Point",
+        "coordinates": null
+      }
+    },
+    {
+      "id": "dürer-pl-016",
+      "label": {
+        "default": "Venice"
+      },
+      "relations": [],
+      "kind": "place",
+      "type": {},
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.335833,
+          45.4375
+        ]
+      }
+    },
+    {
+      "id": "dürer-pl-017",
+      "label": {
+        "default": "Alps"
+      },
+      "relations": [],
+      "kind": "place",
+      "type": {},
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.865,
+          45.832778
+        ]
+      }
+    },
+    {
+      "id": "dürer-pr-041",
+      "label": {
+        "default": "Martin Schongauer"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person",
+      "gender": {}
+    },
+    {
+      "id": "dürer-pl-018",
+      "label": {
+        "default": "Northern Europe"
+      },
+      "relations": [],
+      "kind": "place",
+      "type": {},
+      "geometry": {
+        "type": "Point",
+        "coordinates": null
+      }
+    },
+    {
+      "id": "dürer-pl-019",
+      "label": {
+        "default": "Colmar"
+      },
+      "relations": [],
+      "kind": "place",
+      "type": {},
+      "geometry": {
+        "type": "Point",
+        "coordinates": null
+      }
+    },
+    {
+      "id": "dürer-pl-020",
+      "label": {
+        "default": "Frankfurt"
+      },
+      "relations": [],
+      "kind": "place",
+      "type": {},
+      "geometry": {
+        "type": "Point",
+        "coordinates": null
+      }
+    },
+    {
+      "id": "dürer-pl-021",
+      "label": {
+        "default": "Netherlands"
+      },
+      "relations": [],
+      "kind": "place",
+      "type": {},
+      "geometry": {
+        "type": "Point",
+        "coordinates": null
+      }
+    },
+    {
+      "id": "dürer-pr-045",
+      "label": {
+        "default": "Schongauer"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person",
+      "gender": {}
+    },
+    {
+      "id": "dürer-pr-046",
+      "label": {
+        "default": "Caspar"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person",
+      "gender": {}
+    },
+    {
+      "id": "dürer-pr-047",
+      "label": {
+        "default": "Paul"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person",
+      "gender": {}
+    },
+    {
+      "id": "dürer-pr-048",
+      "label": {
+        "default": "Ludwig"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person",
+      "gender": {}
+    },
+    {
+      "id": "dürer-pl-023",
+      "label": {
+        "default": "Basel"
+      },
+      "relations": [],
+      "kind": "place",
+      "type": {},
+      "geometry": {
+        "type": "Point",
+        "coordinates": null
+      }
+    },
+    {
+      "id": "dürer-pr-051",
+      "label": {
+        "default": "Georg"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person",
+      "gender": {}
+    },
+    {
+      "id": "dürer-pl-024",
+      "label": {
+        "default": "Strasbourg"
+      },
+      "relations": [],
+      "kind": "place",
+      "type": {},
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.745833,
+          48.583333
+        ]
+      }
+    },
+    {
+      "id": "dürer-pr-053",
+      "label": {
+        "default": "Nikolaus Gerhaert"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person",
+      "gender": {}
+    },
+    {
+      "id": "dürer-pl-025",
+      "label": {
+        "default": "Born"
+      },
+      "relations": [],
+      "kind": "place",
+      "type": {},
+      "geometry": {
+        "type": "Point",
+        "coordinates": null
+      }
+    },
+    {
+      "id": "dürer-pr-060",
+      "label": {
+        "default": "Maximilian I. Dürer"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person",
+      "gender": {}
+    },
+    {
+      "id": "dürer-pr-061",
+      "label": {
+        "default": "Knight"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person",
+      "gender": {}
+    },
+    {
+      "id": "dürer-pr-062",
+      "label": {
+        "default": "Saint Jerome"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person",
+      "gender": {}
+    },
+    {
+      "id": "dürer-pr-067",
+      "label": {
+        "default": "Elder"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person",
+      "gender": {}
+    },
+    {
+      "id": "dürer-pr-079",
+      "label": {
+        "default": "Younger"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person",
+      "gender": {}
+    },
+    {
+      "id": "dürer-gr-002",
+      "label": {
+        "default": "Nuremberg Chronicle"
+      },
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [],
+      "kind": "group",
+      "type": {}
+    }
+  ],
+  "events": [],
+  "media": [],
+  "biographies": [],
+  "vocabularies": [],
+  "unmappedEntities": [],
+  "collections": {}
+}
