@@ -822,11 +822,14 @@
         "default": "Nuremberg"
       },
       "kind": "event-kind-born_in",
-      "startDate": "",
       "relations": [
         {
           "entity": "dürer-pr-005",
           "role": "role-born_in"
+        },
+        {
+          "entity": "dürer-pl-002",
+          "role": "role-place_of_birth"
         }
       ]
     },
@@ -836,11 +839,14 @@
         "default": "Albrecht Dürer the Elder"
       },
       "kind": "event-kind-married_to",
-      "startDate": "",
       "relations": [
         {
           "entity": "dürer-pr-014",
           "role": "role-married_to"
+        },
+        {
+          "entity": "dürer-pr-013",
+          "role": "role-unk"
         }
       ]
     },
@@ -850,11 +856,14 @@
         "default": "Ajtós"
       },
       "kind": "event-kind-lived_in",
-      "startDate": "",
       "relations": [
         {
           "entity": "dürer-pr-016",
           "role": "role-lived_in"
+        },
+        {
+          "entity": "dürer-pl-007",
+          "role": "role-unk"
         }
       ]
     },
@@ -864,11 +873,14 @@
         "default": "Gyula"
       },
       "kind": "event-kind-lived_in",
-      "startDate": "",
       "relations": [
         {
           "entity": "dürer-pr-016",
           "role": "role-lived_in"
+        },
+        {
+          "entity": "dürer-pl-008",
+          "role": "role-unk"
         }
       ]
     },
@@ -878,11 +890,14 @@
         "default": "Hungary"
       },
       "kind": "event-kind-lived_in",
-      "startDate": "",
       "relations": [
         {
           "entity": "dürer-pr-016",
           "role": "role-lived_in"
+        },
+        {
+          "entity": "dürer-pl-009",
+          "role": "role-unk"
         }
       ]
     },
@@ -892,11 +907,14 @@
         "default": "Hans Dürer"
       },
       "kind": "event-kind-sibling_of",
-      "startDate": "",
       "relations": [
         {
           "entity": "dürer-pr-018",
           "role": "role-sibling_of"
+        },
+        {
+          "entity": "dürer-pr-019",
+          "role": "role-unk"
         }
       ]
     },
@@ -906,11 +924,14 @@
         "default": "Albrecht"
       },
       "kind": "event-kind-sibling_of",
-      "startDate": "",
       "relations": [
         {
           "entity": "dürer-pr-019",
           "role": "role-sibling_of"
+        },
+        {
+          "entity": "dürer-pr-018",
+          "role": "role-unk"
         }
       ]
     },
@@ -920,11 +941,14 @@
         "default": "Türer"
       },
       "kind": "event-kind-alternate_name",
-      "startDate": "",
       "relations": [
         {
           "entity": "dürer-pr-023",
           "role": "role-alternate_name"
+        },
+        {
+          "entity": "dürer-pr-024",
+          "role": "role-unk"
         }
       ]
     },
@@ -934,11 +958,14 @@
         "default": "Ajtósi"
       },
       "kind": "event-kind-alternate_name",
-      "startDate": "",
       "relations": [
         {
           "entity": "dürer-pr-024",
           "role": "role-alternate_name"
+        },
+        {
+          "entity": "dürer-pr-023",
+          "role": "role-unk"
         }
       ]
     },
@@ -948,11 +975,14 @@
         "default": "Caspar"
       },
       "kind": "event-kind-sibling_of",
-      "startDate": "",
       "relations": [
         {
           "entity": "dürer-pr-046",
           "role": "role-sibling_of"
+        },
+        {
+          "entity": "dürer-pr-047",
+          "role": "role-unk"
         }
       ]
     },
@@ -962,11 +992,14 @@
         "default": "Paul"
       },
       "kind": "event-kind-sibling_of",
-      "startDate": "",
       "relations": [
         {
           "entity": "dürer-pr-046",
           "role": "role-sibling_of"
+        },
+        {
+          "entity": "dürer-pr-048",
+          "role": "role-unk"
         }
       ]
     },
@@ -976,11 +1009,14 @@
         "default": "Ludwig"
       },
       "kind": "event-kind-sibling_of",
-      "startDate": "",
       "relations": [
         {
           "entity": "dürer-pr-046",
           "role": "role-sibling_of"
+        },
+        {
+          "entity": "dürer-pr-049",
+          "role": "role-unk"
         }
       ]
     },
@@ -990,11 +1026,14 @@
         "default": "Schongauer"
       },
       "kind": "event-kind-sibling_of",
-      "startDate": "",
       "relations": [
         {
           "entity": "dürer-pr-047",
           "role": "role-sibling_of"
+        },
+        {
+          "entity": "dürer-pr-046",
+          "role": "role-unk"
         }
       ]
     },
@@ -1004,11 +1043,14 @@
         "default": "Schongauer"
       },
       "kind": "event-kind-sibling_of",
-      "startDate": "",
       "relations": [
         {
           "entity": "dürer-pr-048",
           "role": "role-sibling_of"
+        },
+        {
+          "entity": "dürer-pr-046",
+          "role": "role-unk"
         }
       ]
     },
@@ -1018,11 +1060,14 @@
         "default": "Paul"
       },
       "kind": "event-kind-sibling_of",
-      "startDate": "",
       "relations": [
         {
           "entity": "dürer-pr-047",
           "role": "role-sibling_of"
+        },
+        {
+          "entity": "dürer-pr-048",
+          "role": "role-unk"
         }
       ]
     },
@@ -1032,11 +1077,14 @@
         "default": "Ludwig"
       },
       "kind": "event-kind-sibling_of",
-      "startDate": "",
       "relations": [
         {
           "entity": "dürer-pr-047",
           "role": "role-sibling_of"
+        },
+        {
+          "entity": "dürer-pr-049",
+          "role": "role-unk"
         }
       ]
     },
@@ -1046,11 +1094,14 @@
         "default": "Caspar"
       },
       "kind": "event-kind-sibling_of",
-      "startDate": "",
       "relations": [
         {
           "entity": "dürer-pr-048",
           "role": "role-sibling_of"
+        },
+        {
+          "entity": "dürer-pr-047",
+          "role": "role-unk"
         }
       ]
     },
@@ -1060,11 +1111,14 @@
         "default": "Caspar"
       },
       "kind": "event-kind-sibling_of",
-      "startDate": "",
       "relations": [
         {
           "entity": "dürer-pr-049",
           "role": "role-sibling_of"
+        },
+        {
+          "entity": "dürer-pr-047",
+          "role": "role-unk"
         }
       ]
     },
@@ -1074,11 +1128,14 @@
         "default": "Ludwig"
       },
       "kind": "event-kind-sibling_of",
-      "startDate": "",
       "relations": [
         {
           "entity": "dürer-pr-048",
           "role": "role-sibling_of"
+        },
+        {
+          "entity": "dürer-pr-049",
+          "role": "role-unk"
         }
       ]
     },
@@ -1088,11 +1145,14 @@
         "default": "Paul"
       },
       "kind": "event-kind-sibling_of",
-      "startDate": "",
       "relations": [
         {
           "entity": "dürer-pr-049",
           "role": "role-sibling_of"
+        },
+        {
+          "entity": "dürer-pr-048",
+          "role": "role-unk"
         }
       ]
     }

@@ -3,6 +3,11 @@ import copy
 from collections import defaultdict
 from utils.utils_wiki import get_raw_wikipedia_article, get_wiki_linked_entities, get_relevant_items_from_infobox
 
+inverse_relations_dict = {
+    "born_in": "place_of_birth"
+}
+
+
 person_template = {
     "id": "", # duerer-pr-012
     "label": { "default": "" }, #surfaceForm
@@ -190,11 +195,13 @@ def convert_nlp_to_idm_json(nlp_path: str, idm_out_path: str):
                         "id": full_event_id,
                         "label": { "default": rel_obj["surfaceFormObj"] },
                         "kind": f"event-kind-{rel_obj['relationValue']}",
-                        "startDate": "",
-                        "relations": [{ "entity": idm_subj_entity['id'], "role": f"role-{rel_obj['relationValue']}"}]
+                        # "startDate": "",
+                        "relations": [{ "entity": idm_subj_entity['id'], "role": f"role-{rel_obj['relationValue']}"},
+                                      { "entity": idm_obj_entity['id'], "role": f"role-{inverse_relations_dict.get(rel_obj['relationValue'], 'unk')}"}]
                 })
             else:
                 parent_idm["events"][full_event_id]["relations"].append({ "entity": idm_subj_entity['id'], "role": f"role-{rel_obj['relationValue']}"})
+                parent_idm["events"][full_event_id]["relations"].append({ "entity": idm_obj_entity['id'], "role": f"role-{inverse_relations_dict.get(rel_obj['relationValue'], 'unk')}"})
             event_ix += 1
 
     # 3) Populate Valid Links to Wikipedia URLs
