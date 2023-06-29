@@ -38,7 +38,12 @@
       "label": {
         "default": "Nuremberg"
       },
-      "relations": [],
+      "relations": [
+        {
+          "event": "duerer-pl-ev-001",
+          "role": "role-place_of_birth"
+        }
+      ],
       "kind": "place",
       "type": {},
       "geometry": {
@@ -202,7 +207,12 @@
       },
       "linkedIds": [],
       "media": [],
-      "relations": [],
+      "relations": [
+        {
+          "event": "duerer-pr-ev-002",
+          "role": "role-married_to"
+        }
+      ],
       "kind": "person"
     },
     {
@@ -248,7 +258,12 @@
       "label": {
         "default": "Ajtós"
       },
-      "relations": [],
+      "relations": [
+        {
+          "event": "duerer-pl-ev-003",
+          "role": "role-unk"
+        }
+      ],
       "kind": "place",
       "type": {},
       "geometry": {
@@ -261,7 +276,12 @@
       "label": {
         "default": "Gyula"
       },
-      "relations": [],
+      "relations": [
+        {
+          "event": "duerer-pl-ev-004",
+          "role": "role-unk"
+        }
+      ],
       "kind": "place",
       "type": {},
       "geometry": {
@@ -274,7 +294,12 @@
       "label": {
         "default": "Hungary"
       },
-      "relations": [],
+      "relations": [
+        {
+          "event": "duerer-pl-ev-005",
+          "role": "role-unk"
+        }
+      ],
       "kind": "place",
       "type": {},
       "geometry": {
@@ -303,6 +328,10 @@
         {
           "event": "duerer-pr-ev-006",
           "role": "role-sibling_of"
+        },
+        {
+          "event": "duerer-pr-ev-007",
+          "role": "role-unk"
         }
       ],
       "kind": "person"
@@ -315,6 +344,10 @@
       "linkedIds": [],
       "media": [],
       "relations": [
+        {
+          "event": "duerer-pr-ev-006",
+          "role": "role-unk"
+        },
         {
           "event": "duerer-pr-ev-007",
           "role": "role-sibling_of"
@@ -343,6 +376,10 @@
         {
           "event": "duerer-pr-ev-008",
           "role": "role-alternate_name"
+        },
+        {
+          "event": "duerer-pr-ev-009",
+          "role": "role-unk"
         }
       ],
       "kind": "person"
@@ -355,6 +392,10 @@
       "linkedIds": [],
       "media": [],
       "relations": [
+        {
+          "event": "duerer-pr-ev-008",
+          "role": "role-unk"
+        },
         {
           "event": "duerer-pr-ev-009",
           "role": "role-alternate_name"
@@ -620,6 +661,14 @@
         {
           "event": "duerer-pr-ev-012",
           "role": "role-sibling_of"
+        },
+        {
+          "event": "duerer-pr-ev-013",
+          "role": "role-unk"
+        },
+        {
+          "event": "duerer-pr-ev-014",
+          "role": "role-unk"
         }
       ],
       "kind": "person"
@@ -633,6 +682,10 @@
       "media": [],
       "relations": [
         {
+          "event": "duerer-pr-ev-010",
+          "role": "role-unk"
+        },
+        {
           "event": "duerer-pr-ev-013",
           "role": "role-sibling_of"
         },
@@ -643,6 +696,14 @@
         {
           "event": "duerer-pr-ev-016",
           "role": "role-sibling_of"
+        },
+        {
+          "event": "duerer-pr-ev-017",
+          "role": "role-unk"
+        },
+        {
+          "event": "duerer-pr-ev-018",
+          "role": "role-unk"
         }
       ],
       "kind": "person"
@@ -656,8 +717,16 @@
       "media": [],
       "relations": [
         {
+          "event": "duerer-pr-ev-011",
+          "role": "role-unk"
+        },
+        {
           "event": "duerer-pr-ev-014",
           "role": "role-sibling_of"
+        },
+        {
+          "event": "duerer-pr-ev-015",
+          "role": "role-unk"
         },
         {
           "event": "duerer-pr-ev-017",
@@ -666,6 +735,10 @@
         {
           "event": "duerer-pr-ev-019",
           "role": "role-sibling_of"
+        },
+        {
+          "event": "duerer-pr-ev-020",
+          "role": "role-unk"
         }
       ],
       "kind": "person"
@@ -679,8 +752,20 @@
       "media": [],
       "relations": [
         {
+          "event": "duerer-pr-ev-012",
+          "role": "role-unk"
+        },
+        {
+          "event": "duerer-pr-ev-016",
+          "role": "role-unk"
+        },
+        {
           "event": "duerer-pr-ev-018",
           "role": "role-sibling_of"
+        },
+        {
+          "event": "duerer-pr-ev-019",
+          "role": "role-unk"
         },
         {
           "event": "duerer-pr-ev-020",
@@ -846,7 +931,7 @@
         },
         {
           "entity": "dürer-pr-013",
-          "role": "role-unk"
+          "role": "role-married_to"
         }
       ]
     },

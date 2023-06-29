@@ -4,7 +4,8 @@ from collections import defaultdict
 from utils.utils_wiki import get_raw_wikipedia_article, get_wiki_linked_entities, get_relevant_items_from_infobox
 
 inverse_relations_dict = {
-    "born_in": "place_of_birth"
+    "born_in": "place_of_birth",
+    "married_to": "married_to"
 }
 
 
@@ -187,9 +188,12 @@ def convert_nlp_to_idm_json(nlp_path: str, idm_out_path: str):
         if idm_subj_entity and idm_obj_entity:
             ev_sub_id = idm_obj_entity['id'].split("-")[1]
             full_event_id = f"duerer-{ev_sub_id}-ev-{stringify_id(event_ix)}"
-            idm_subj_entity["relations"].append({"event": full_event_id, 
-                                                 "role": f"role-{rel_obj['relationValue']}"})
+            # Add Rel Subj
+            idm_subj_entity["relations"].append({"event": full_event_id, "role": f"role-{rel_obj['relationValue']}"})
             idm_entity_dict[subj_id] = idm_subj_entity
+            # Add Rel Obj
+            idm_obj_entity["relations"].append({"event": full_event_id, "role": f"role-{inverse_relations_dict.get(rel_obj['relationValue'], 'unk')}"})
+            idm_entity_dict[obj_id] = idm_obj_entity
             if full_event_id not in parent_idm["events"]:
                 parent_idm["events"].append({
                         "id": full_event_id,
