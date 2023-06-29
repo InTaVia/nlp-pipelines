@@ -1,29 +1,27 @@
 {
   "entities": [
     {
-      "id": "dürer-pr-001",
+      "id": "dürer-pr-002",
       "label": {
         "default": "Albrecht Dürer"
       },
       "linkedIds": [],
       "media": [],
       "relations": [],
-      "kind": "person",
-      "gender": {}
+      "kind": "person"
     },
     {
-      "id": "dürer-pr-003",
+      "id": "dürer-pr-004",
       "label": {
         "default": "Durer"
       },
       "linkedIds": [],
       "media": [],
       "relations": [],
-      "kind": "person",
-      "gender": {}
+      "kind": "person"
     },
     {
-      "id": "dürer-ob-001",
+      "id": "dürer-ob-002",
       "label": {
         "default": "Renaissance"
       },
@@ -36,7 +34,7 @@
       "type": {}
     },
     {
-      "id": "dürer-pl-001",
+      "id": "dürer-pl-002",
       "label": {
         "default": "Nuremberg"
       },
@@ -52,18 +50,22 @@
       }
     },
     {
-      "id": "dürer-pr-004",
+      "id": "dürer-pr-005",
       "label": {
         "default": "Dürer"
       },
       "linkedIds": [],
       "media": [],
-      "relations": [],
-      "kind": "person",
-      "gender": {}
+      "relations": [
+        {
+          "event": "duerer-pl-ev-001",
+          "role": "role-born_in"
+        }
+      ],
+      "kind": "person"
     },
     {
-      "id": "dürer-pl-002",
+      "id": "dürer-pl-003",
       "label": {
         "default": "Europe"
       },
@@ -76,51 +78,47 @@
       }
     },
     {
-      "id": "dürer-pr-005",
+      "id": "dürer-pr-006",
       "label": {
         "default": "Raphael"
       },
       "linkedIds": [],
       "media": [],
       "relations": [],
-      "kind": "person",
-      "gender": {}
+      "kind": "person"
     },
     {
-      "id": "dürer-pr-006",
+      "id": "dürer-pr-007",
       "label": {
         "default": "Giovanni Bellini"
       },
       "linkedIds": [],
       "media": [],
       "relations": [],
-      "kind": "person",
-      "gender": {}
+      "kind": "person"
     },
     {
-      "id": "dürer-pr-007",
+      "id": "dürer-pr-008",
       "label": {
         "default": "Leonardo da Vinci"
       },
       "linkedIds": [],
       "media": [],
       "relations": [],
-      "kind": "person",
-      "gender": {}
+      "kind": "person"
     },
     {
-      "id": "dürer-pr-008",
+      "id": "dürer-pr-009",
       "label": {
         "default": "Maximilian I."
       },
       "linkedIds": [],
       "media": [],
       "relations": [],
-      "kind": "person",
-      "gender": {}
+      "kind": "person"
     },
     {
-      "id": "dürer-ob-002",
+      "id": "dürer-ob-003",
       "label": {
         "default": "Meisterstiche"
       },
@@ -133,7 +131,7 @@
       "type": {}
     },
     {
-      "id": "dürer-ob-003",
+      "id": "dürer-ob-004",
       "label": {
         "default": "Knight, Death and the Devil"
       },
@@ -146,7 +144,7 @@
       "type": {}
     },
     {
-      "id": "dürer-ob-004",
+      "id": "dürer-ob-005",
       "label": {
         "default": "Saint Jerome in his Study"
       },
@@ -159,7 +157,7 @@
       "type": {}
     },
     {
-      "id": "dürer-ob-005",
+      "id": "dürer-ob-006",
       "label": {
         "default": "Melencolia I"
       },
@@ -172,7 +170,7 @@
       "type": {}
     },
     {
-      "id": "dürer-pl-003",
+      "id": "dürer-pl-004",
       "label": {
         "default": "Northern"
       },
@@ -185,7 +183,7 @@
       }
     },
     {
-      "id": "dürer-pl-004",
+      "id": "dürer-pl-005",
       "label": {
         "default": "Northern Renaissance"
       },
@@ -198,40 +196,55 @@
       }
     },
     {
-      "id": "dürer-pr-012",
+      "id": "dürer-pr-013",
       "label": {
         "default": "Albrecht Dürer the Elder"
       },
       "linkedIds": [],
       "media": [],
       "relations": [],
-      "kind": "person",
-      "gender": {}
+      "kind": "person"
     },
     {
-      "id": "dürer-pr-013",
+      "id": "dürer-pr-014",
       "label": {
         "default": "Barbara Holper"
       },
       "linkedIds": [],
       "media": [],
-      "relations": [],
-      "kind": "person",
-      "gender": {}
+      "relations": [
+        {
+          "event": "duerer-pr-ev-002",
+          "role": "role-married_to"
+        }
+      ],
+      "kind": "person"
     },
     {
-      "id": "dürer-pr-015",
+      "id": "dürer-pr-016",
       "label": {
         "default": "Albrecht Ajtósi"
       },
       "linkedIds": [],
       "media": [],
-      "relations": [],
-      "kind": "person",
-      "gender": {}
+      "relations": [
+        {
+          "event": "duerer-pl-ev-003",
+          "role": "role-lived_in"
+        },
+        {
+          "event": "duerer-pl-ev-004",
+          "role": "role-lived_in"
+        },
+        {
+          "event": "duerer-pl-ev-005",
+          "role": "role-lived_in"
+        }
+      ],
+      "kind": "person"
     },
     {
-      "id": "dürer-pl-006",
+      "id": "dürer-pl-007",
       "label": {
         "default": "Ajtós"
       },
@@ -244,7 +257,7 @@
       }
     },
     {
-      "id": "dürer-pl-007",
+      "id": "dürer-pl-008",
       "label": {
         "default": "Gyula"
       },
@@ -257,7 +270,7 @@
       }
     },
     {
-      "id": "dürer-pl-008",
+      "id": "dürer-pl-009",
       "label": {
         "default": "Hungary"
       },
@@ -270,95 +283,107 @@
       }
     },
     {
-      "id": "dürer-pr-016",
+      "id": "dürer-pr-017",
       "label": {
         "default": "Holper"
       },
       "linkedIds": [],
       "media": [],
       "relations": [],
-      "kind": "person",
-      "gender": {}
+      "kind": "person"
     },
     {
-      "id": "dürer-pr-017",
+      "id": "dürer-pr-018",
       "label": {
         "default": "Albrecht"
       },
       "linkedIds": [],
       "media": [],
-      "relations": [],
-      "kind": "person",
-      "gender": {}
+      "relations": [
+        {
+          "event": "duerer-pr-ev-006",
+          "role": "role-sibling_of"
+        }
+      ],
+      "kind": "person"
     },
     {
-      "id": "dürer-pr-018",
+      "id": "dürer-pr-019",
       "label": {
         "default": "Hans Dürer"
       },
       "linkedIds": [],
       "media": [],
-      "relations": [],
-      "kind": "person",
-      "gender": {}
+      "relations": [
+        {
+          "event": "duerer-pr-ev-007",
+          "role": "role-sibling_of"
+        }
+      ],
+      "kind": "person"
     },
     {
-      "id": "dürer-pr-020",
+      "id": "dürer-pr-021",
       "label": {
         "default": "Endres Dürer"
       },
       "linkedIds": [],
       "media": [],
       "relations": [],
-      "kind": "person",
-      "gender": {}
+      "kind": "person"
     },
     {
-      "id": "dürer-pr-022",
+      "id": "dürer-pr-023",
       "label": {
         "default": "Ajtósi"
       },
       "linkedIds": [],
       "media": [],
-      "relations": [],
-      "kind": "person",
-      "gender": {}
+      "relations": [
+        {
+          "event": "duerer-pr-ev-008",
+          "role": "role-alternate_name"
+        }
+      ],
+      "kind": "person"
     },
     {
-      "id": "dürer-pr-023",
+      "id": "dürer-pr-024",
       "label": {
         "default": "Türer"
       },
       "linkedIds": [],
       "media": [],
-      "relations": [],
-      "kind": "person",
-      "gender": {}
+      "relations": [
+        {
+          "event": "duerer-pr-ev-009",
+          "role": "role-alternate_name"
+        }
+      ],
+      "kind": "person"
     },
     {
-      "id": "dürer-pr-024",
+      "id": "dürer-pr-025",
       "label": {
         "default": "Albrecht Dürer the Younger"
       },
       "linkedIds": [],
       "media": [],
       "relations": [],
-      "kind": "person",
-      "gender": {}
+      "kind": "person"
     },
     {
-      "id": "dürer-pr-028",
+      "id": "dürer-pr-029",
       "label": {
         "default": "Anton Koberger"
       },
       "linkedIds": [],
       "media": [],
       "relations": [],
-      "kind": "person",
-      "gender": {}
+      "kind": "person"
     },
     {
-      "id": "dürer-pl-010",
+      "id": "dürer-pl-011",
       "label": {
         "default": "Germany"
       },
@@ -371,18 +396,17 @@
       }
     },
     {
-      "id": "dürer-pr-030",
+      "id": "dürer-pr-031",
       "label": {
         "default": "Koberger"
       },
       "linkedIds": [],
       "media": [],
       "relations": [],
-      "kind": "person",
-      "gender": {}
+      "kind": "person"
     },
     {
-      "id": "dürer-ob-006",
+      "id": "dürer-ob-007",
       "label": {
         "default": "the Nuremberg Chronicle"
       },
@@ -395,40 +419,37 @@
       "type": {}
     },
     {
-      "id": "dürer-pr-031",
+      "id": "dürer-pr-032",
       "label": {
         "default": "Wolgemut"
       },
       "linkedIds": [],
       "media": [],
       "relations": [],
-      "kind": "person",
-      "gender": {}
+      "kind": "person"
     },
     {
-      "id": "dürer-pr-033",
+      "id": "dürer-pr-034",
       "label": {
         "default": "Wolgemut.Because"
       },
       "linkedIds": [],
       "media": [],
       "relations": [],
-      "kind": "person",
-      "gender": {}
+      "kind": "person"
     },
     {
-      "id": "dürer-pr-036",
+      "id": "dürer-pr-037",
       "label": {
         "default": "Michael Wolgemut"
       },
       "linkedIds": [],
       "media": [],
       "relations": [],
-      "kind": "person",
-      "gender": {}
+      "kind": "person"
     },
     {
-      "id": "dürer-gr-001",
+      "id": "dürer-gr-002",
       "label": {
         "default": "Albertina"
       },
@@ -448,7 +469,7 @@
       }
     },
     {
-      "id": "dürer-pl-012",
+      "id": "dürer-pl-013",
       "label": {
         "default": "Vienna"
       },
@@ -461,7 +482,7 @@
       }
     },
     {
-      "id": "dürer-ob-007",
+      "id": "dürer-ob-008",
       "label": {
         "default": "Opus One"
       },
@@ -474,7 +495,7 @@
       "type": {}
     },
     {
-      "id": "dürer-pl-015",
+      "id": "dürer-pl-016",
       "label": {
         "default": "Italy"
       },
@@ -487,7 +508,7 @@
       }
     },
     {
-      "id": "dürer-pl-016",
+      "id": "dürer-pl-017",
       "label": {
         "default": "Venice"
       },
@@ -503,7 +524,7 @@
       }
     },
     {
-      "id": "dürer-pl-017",
+      "id": "dürer-pl-018",
       "label": {
         "default": "Alps"
       },
@@ -519,18 +540,17 @@
       }
     },
     {
-      "id": "dürer-pr-041",
+      "id": "dürer-pr-042",
       "label": {
         "default": "Martin Schongauer"
       },
       "linkedIds": [],
       "media": [],
       "relations": [],
-      "kind": "person",
-      "gender": {}
+      "kind": "person"
     },
     {
-      "id": "dürer-pl-018",
+      "id": "dürer-pl-019",
       "label": {
         "default": "Northern Europe"
       },
@@ -543,7 +563,7 @@
       }
     },
     {
-      "id": "dürer-pl-019",
+      "id": "dürer-pl-020",
       "label": {
         "default": "Colmar"
       },
@@ -556,7 +576,7 @@
       }
     },
     {
-      "id": "dürer-pl-020",
+      "id": "dürer-pl-021",
       "label": {
         "default": "Frankfurt"
       },
@@ -569,7 +589,7 @@
       }
     },
     {
-      "id": "dürer-pl-021",
+      "id": "dürer-pl-022",
       "label": {
         "default": "Netherlands"
       },
@@ -582,51 +602,95 @@
       }
     },
     {
-      "id": "dürer-pr-045",
+      "id": "dürer-pr-046",
       "label": {
         "default": "Schongauer"
       },
       "linkedIds": [],
       "media": [],
-      "relations": [],
-      "kind": "person",
-      "gender": {}
+      "relations": [
+        {
+          "event": "duerer-pr-ev-010",
+          "role": "role-sibling_of"
+        },
+        {
+          "event": "duerer-pr-ev-011",
+          "role": "role-sibling_of"
+        },
+        {
+          "event": "duerer-pr-ev-012",
+          "role": "role-sibling_of"
+        }
+      ],
+      "kind": "person"
     },
     {
-      "id": "dürer-pr-046",
+      "id": "dürer-pr-047",
       "label": {
         "default": "Caspar"
       },
       "linkedIds": [],
       "media": [],
-      "relations": [],
-      "kind": "person",
-      "gender": {}
+      "relations": [
+        {
+          "event": "duerer-pr-ev-013",
+          "role": "role-sibling_of"
+        },
+        {
+          "event": "duerer-pr-ev-015",
+          "role": "role-sibling_of"
+        },
+        {
+          "event": "duerer-pr-ev-016",
+          "role": "role-sibling_of"
+        }
+      ],
+      "kind": "person"
     },
     {
-      "id": "dürer-pr-047",
+      "id": "dürer-pr-048",
       "label": {
         "default": "Paul"
       },
       "linkedIds": [],
       "media": [],
-      "relations": [],
-      "kind": "person",
-      "gender": {}
+      "relations": [
+        {
+          "event": "duerer-pr-ev-014",
+          "role": "role-sibling_of"
+        },
+        {
+          "event": "duerer-pr-ev-017",
+          "role": "role-sibling_of"
+        },
+        {
+          "event": "duerer-pr-ev-019",
+          "role": "role-sibling_of"
+        }
+      ],
+      "kind": "person"
     },
     {
-      "id": "dürer-pr-048",
+      "id": "dürer-pr-049",
       "label": {
         "default": "Ludwig"
       },
       "linkedIds": [],
       "media": [],
-      "relations": [],
-      "kind": "person",
-      "gender": {}
+      "relations": [
+        {
+          "event": "duerer-pr-ev-018",
+          "role": "role-sibling_of"
+        },
+        {
+          "event": "duerer-pr-ev-020",
+          "role": "role-sibling_of"
+        }
+      ],
+      "kind": "person"
     },
     {
-      "id": "dürer-pl-023",
+      "id": "dürer-pl-024",
       "label": {
         "default": "Basel"
       },
@@ -639,18 +703,17 @@
       }
     },
     {
-      "id": "dürer-pr-051",
+      "id": "dürer-pr-052",
       "label": {
         "default": "Georg"
       },
       "linkedIds": [],
       "media": [],
       "relations": [],
-      "kind": "person",
-      "gender": {}
+      "kind": "person"
     },
     {
-      "id": "dürer-pl-024",
+      "id": "dürer-pl-025",
       "label": {
         "default": "Strasbourg"
       },
@@ -666,18 +729,17 @@
       }
     },
     {
-      "id": "dürer-pr-053",
+      "id": "dürer-pr-054",
       "label": {
         "default": "Nikolaus Gerhaert"
       },
       "linkedIds": [],
       "media": [],
       "relations": [],
-      "kind": "person",
-      "gender": {}
+      "kind": "person"
     },
     {
-      "id": "dürer-pl-025",
+      "id": "dürer-pl-026",
       "label": {
         "default": "Born"
       },
@@ -690,62 +752,57 @@
       }
     },
     {
-      "id": "dürer-pr-060",
+      "id": "dürer-pr-061",
       "label": {
         "default": "Maximilian I. Dürer"
       },
       "linkedIds": [],
       "media": [],
       "relations": [],
-      "kind": "person",
-      "gender": {}
+      "kind": "person"
     },
     {
-      "id": "dürer-pr-061",
+      "id": "dürer-pr-062",
       "label": {
         "default": "Knight"
       },
       "linkedIds": [],
       "media": [],
       "relations": [],
-      "kind": "person",
-      "gender": {}
+      "kind": "person"
     },
     {
-      "id": "dürer-pr-062",
+      "id": "dürer-pr-063",
       "label": {
         "default": "Saint Jerome"
       },
       "linkedIds": [],
       "media": [],
       "relations": [],
-      "kind": "person",
-      "gender": {}
+      "kind": "person"
     },
     {
-      "id": "dürer-pr-067",
+      "id": "dürer-pr-068",
       "label": {
         "default": "Elder"
       },
       "linkedIds": [],
       "media": [],
       "relations": [],
-      "kind": "person",
-      "gender": {}
+      "kind": "person"
     },
     {
-      "id": "dürer-pr-079",
+      "id": "dürer-pr-080",
       "label": {
         "default": "Younger"
       },
       "linkedIds": [],
       "media": [],
       "relations": [],
-      "kind": "person",
-      "gender": {}
+      "kind": "person"
     },
     {
-      "id": "dürer-gr-002",
+      "id": "dürer-gr-003",
       "label": {
         "default": "Nuremberg Chronicle"
       },
@@ -758,7 +815,288 @@
       "type": {}
     }
   ],
-  "events": [],
+  "events": [
+    {
+      "id": "duerer-pl-ev-001",
+      "label": {
+        "default": "Nuremberg"
+      },
+      "kind": "event-kind-born_in",
+      "startDate": "",
+      "relations": [
+        {
+          "entity": "dürer-pr-005",
+          "role": "role-born_in"
+        }
+      ]
+    },
+    {
+      "id": "duerer-pr-ev-002",
+      "label": {
+        "default": "Albrecht Dürer the Elder"
+      },
+      "kind": "event-kind-married_to",
+      "startDate": "",
+      "relations": [
+        {
+          "entity": "dürer-pr-014",
+          "role": "role-married_to"
+        }
+      ]
+    },
+    {
+      "id": "duerer-pl-ev-003",
+      "label": {
+        "default": "Ajtós"
+      },
+      "kind": "event-kind-lived_in",
+      "startDate": "",
+      "relations": [
+        {
+          "entity": "dürer-pr-016",
+          "role": "role-lived_in"
+        }
+      ]
+    },
+    {
+      "id": "duerer-pl-ev-004",
+      "label": {
+        "default": "Gyula"
+      },
+      "kind": "event-kind-lived_in",
+      "startDate": "",
+      "relations": [
+        {
+          "entity": "dürer-pr-016",
+          "role": "role-lived_in"
+        }
+      ]
+    },
+    {
+      "id": "duerer-pl-ev-005",
+      "label": {
+        "default": "Hungary"
+      },
+      "kind": "event-kind-lived_in",
+      "startDate": "",
+      "relations": [
+        {
+          "entity": "dürer-pr-016",
+          "role": "role-lived_in"
+        }
+      ]
+    },
+    {
+      "id": "duerer-pr-ev-006",
+      "label": {
+        "default": "Hans Dürer"
+      },
+      "kind": "event-kind-sibling_of",
+      "startDate": "",
+      "relations": [
+        {
+          "entity": "dürer-pr-018",
+          "role": "role-sibling_of"
+        }
+      ]
+    },
+    {
+      "id": "duerer-pr-ev-007",
+      "label": {
+        "default": "Albrecht"
+      },
+      "kind": "event-kind-sibling_of",
+      "startDate": "",
+      "relations": [
+        {
+          "entity": "dürer-pr-019",
+          "role": "role-sibling_of"
+        }
+      ]
+    },
+    {
+      "id": "duerer-pr-ev-008",
+      "label": {
+        "default": "Türer"
+      },
+      "kind": "event-kind-alternate_name",
+      "startDate": "",
+      "relations": [
+        {
+          "entity": "dürer-pr-023",
+          "role": "role-alternate_name"
+        }
+      ]
+    },
+    {
+      "id": "duerer-pr-ev-009",
+      "label": {
+        "default": "Ajtósi"
+      },
+      "kind": "event-kind-alternate_name",
+      "startDate": "",
+      "relations": [
+        {
+          "entity": "dürer-pr-024",
+          "role": "role-alternate_name"
+        }
+      ]
+    },
+    {
+      "id": "duerer-pr-ev-010",
+      "label": {
+        "default": "Caspar"
+      },
+      "kind": "event-kind-sibling_of",
+      "startDate": "",
+      "relations": [
+        {
+          "entity": "dürer-pr-046",
+          "role": "role-sibling_of"
+        }
+      ]
+    },
+    {
+      "id": "duerer-pr-ev-011",
+      "label": {
+        "default": "Paul"
+      },
+      "kind": "event-kind-sibling_of",
+      "startDate": "",
+      "relations": [
+        {
+          "entity": "dürer-pr-046",
+          "role": "role-sibling_of"
+        }
+      ]
+    },
+    {
+      "id": "duerer-pr-ev-012",
+      "label": {
+        "default": "Ludwig"
+      },
+      "kind": "event-kind-sibling_of",
+      "startDate": "",
+      "relations": [
+        {
+          "entity": "dürer-pr-046",
+          "role": "role-sibling_of"
+        }
+      ]
+    },
+    {
+      "id": "duerer-pr-ev-013",
+      "label": {
+        "default": "Schongauer"
+      },
+      "kind": "event-kind-sibling_of",
+      "startDate": "",
+      "relations": [
+        {
+          "entity": "dürer-pr-047",
+          "role": "role-sibling_of"
+        }
+      ]
+    },
+    {
+      "id": "duerer-pr-ev-014",
+      "label": {
+        "default": "Schongauer"
+      },
+      "kind": "event-kind-sibling_of",
+      "startDate": "",
+      "relations": [
+        {
+          "entity": "dürer-pr-048",
+          "role": "role-sibling_of"
+        }
+      ]
+    },
+    {
+      "id": "duerer-pr-ev-015",
+      "label": {
+        "default": "Paul"
+      },
+      "kind": "event-kind-sibling_of",
+      "startDate": "",
+      "relations": [
+        {
+          "entity": "dürer-pr-047",
+          "role": "role-sibling_of"
+        }
+      ]
+    },
+    {
+      "id": "duerer-pr-ev-016",
+      "label": {
+        "default": "Ludwig"
+      },
+      "kind": "event-kind-sibling_of",
+      "startDate": "",
+      "relations": [
+        {
+          "entity": "dürer-pr-047",
+          "role": "role-sibling_of"
+        }
+      ]
+    },
+    {
+      "id": "duerer-pr-ev-017",
+      "label": {
+        "default": "Caspar"
+      },
+      "kind": "event-kind-sibling_of",
+      "startDate": "",
+      "relations": [
+        {
+          "entity": "dürer-pr-048",
+          "role": "role-sibling_of"
+        }
+      ]
+    },
+    {
+      "id": "duerer-pr-ev-018",
+      "label": {
+        "default": "Caspar"
+      },
+      "kind": "event-kind-sibling_of",
+      "startDate": "",
+      "relations": [
+        {
+          "entity": "dürer-pr-049",
+          "role": "role-sibling_of"
+        }
+      ]
+    },
+    {
+      "id": "duerer-pr-ev-019",
+      "label": {
+        "default": "Ludwig"
+      },
+      "kind": "event-kind-sibling_of",
+      "startDate": "",
+      "relations": [
+        {
+          "entity": "dürer-pr-048",
+          "role": "role-sibling_of"
+        }
+      ]
+    },
+    {
+      "id": "duerer-pr-ev-020",
+      "label": {
+        "default": "Paul"
+      },
+      "kind": "event-kind-sibling_of",
+      "startDate": "",
+      "relations": [
+        {
+          "entity": "dürer-pr-049",
+          "role": "role-sibling_of"
+        }
+      ]
+    }
+  ],
   "media": [],
   "biographies": [],
   "vocabularies": [],
