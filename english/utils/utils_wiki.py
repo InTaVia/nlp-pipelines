@@ -2,7 +2,7 @@ import wikipedia # https://pypi.org/project/wikipedia/
 from typing import Dict, Any, List, Tuple
 from dataclasses import dataclass
 import Levenshtein as lev
-import re, json, requests
+import regex, json, requests
 from collections import OrderedDict
 
 @dataclass
@@ -65,7 +65,7 @@ def get_wikipedia_article(query_str: str, query_restrictions: Dict[str, Any] = {
     def _get_year_from_cat(categories: List[str], cat_type: str) -> int or None:
         valid_cats = [c for c in categories if cat_type in c]
         if len(valid_cats) > 0:
-            matches = re.findall(r"\d{4}|\d{3}", valid_cats[0])
+            matches = regex.findall(r"\d{4}|\d{3}", valid_cats[0])
             if len(matches) > 0:
                 valid_year = int(matches[0])
                 return valid_year
@@ -180,7 +180,7 @@ def save_wikipedia_page(page: wikipedia.WikipediaPage, output_path:str, include_
 
 
 def extract_sections(page_text: str) -> Dict[str, str]:
-    section_matches = re.finditer(r"=+(\s.+\s)=+", page_text)
+    section_matches = regex.finditer(r"=+(\s.+\s)=+", page_text)
     section_ends = []
     section_starts = [0]
     section_titles = [(1, "Summary")]
@@ -203,9 +203,13 @@ def extract_sections(page_text: str) -> Dict[str, str]:
 
 def extract_infobox(raw_text:str) -> Tuple[str, Dict[str, str]]:
     # Find the InfoBox in the RAW Wikipedia Page
-    pattern = r"\{\{Infobox\s[\w\s]+\n(?:\|[\w\s]+\s+=\s*.*\n)*\}\}"
+    if len(raw_text) > 15000: raw_text = raw_text[:15000]
     # Extract the infobox using regex
-    match = re.search(pattern, raw_text, re.DOTALL)
+    pattern = r"\{\{Infobox\s[\w\s]+\n(?:\|[\w\s]+\s+=\s*.*\n)*\}\}"
+    try:
+        match = regex.search(pattern, raw_text, regex.DOTALL, timeout=10)
+    except TimeoutError:
+        match = None
     # Check if a match is found
     if match:
         infobox_str = match.group()
@@ -216,7 +220,7 @@ def extract_infobox(raw_text:str) -> Tuple[str, Dict[str, str]]:
     key_value_pattern = r"\|([\w\s]+)\s*=\s*(.*)"
     for line in infobox_str.split("\n"):
         # Check if the line matches the key-value pattern
-        match = re.match(key_value_pattern, line)
+        match = regex.match(key_value_pattern, line, timeout=10)
         if match:
             key = match.group(1).strip()
             value = match.group(2).strip()
@@ -238,7 +242,7 @@ def get_relevant_items_from_infobox(link:str) -> Dict[str, str]:
                 relevant_dict["entity_type"] = type_match
             # Get Coordinates if in InfoBox
             elif line.startswith("| coordinates"):
-                match = re.search(r"({.+})", line)
+                match = regex.search(r"({.+})", line)
                 if match:
                     coordinates = get_idm_coordinates(match.group(1))
                 relevant_dict["coordinates"] = coordinates
@@ -268,7 +272,7 @@ def _get_wiki_link_details(bracketed_string: str) -> Dict[str, str]:
 
 def get_wiki_linked_entities(raw_text: str) -> Dict[str, str]:
     wiki_links_dict = OrderedDict() # {'surfaceForm': 'wikipediaTitle'} --> 'wikipediaLink'? 'wikidataID'?
-    for match in re.finditer(r"\[\[.+?\]\]", raw_text):
+    for match in regex.finditer(r"\[\[.+?\]\]", raw_text):
         text = raw_text[match.start():match.end()+1]
         wiki_info = _get_wiki_link_details(text)
         # print(f"{text}\n{wiki_info}\n-----")
@@ -279,25 +283,38 @@ def get_wiki_linked_entities(raw_text: str) -> Dict[str, str]:
 
 def get_idm_coordinates(wiki_coordinates: str) -> Tuple[float, float]:
     # WIKIPEDIA ---> degree|minutes|seconds|latitude + degree|minutes|seconds|longitude
-    # {{coord|51|12|32|N|03|13|27|E|region:BE|display=inline,title}}
     # IDM ---> [longitude, latitude]
     try:
         wiki_coordinates = wiki_coordinates[2:-2].split('|')
-        lat_degree, lat_minutes, lat_seconds, lat_dir = wiki_coordinates[1:5]
-        long_degree, long_minutes, long_seconds, long_dir = wiki_coordinates[5:9]
-        # print(lat_degree, lat_minutes, lat_seconds, lat_dir)
-        # print(long_degree, long_minutes, long_seconds, long_dir)
-        # Get Decimal Number
-        lat_degree_decimals = float(lat_degree) + float(lat_minutes)/60 + float(lat_seconds)/3600
-        long_degree_decimals = float(long_degree) + float(long_minutes)/60 + float(long_seconds)/3600
+        # {{coord|51|12|32|N|03|13|27|E|region:BE|display=inline,title}}
+        if wiki_coordinates[4] in ['N', 'S']:
+            lat_degree, lat_minutes, lat_seconds, lat_dir = wiki_coordinates[1:5]
+            long_degree, long_minutes, long_seconds, long_dir = wiki_coordinates[5:9]
+            lat_degree_decimals = float(lat_degree) + float(lat_minutes)/60 + float(lat_seconds)/3600
+            long_degree_decimals = float(long_degree) + float(long_minutes)/60 + float(long_seconds)/3600
+        # {{Coord|55|43|N|12|34|E|type:city}}
+        elif wiki_coordinates[3] in ['N', 'S']:
+            lat_seconds = 0
+            lat_degree, lat_minutes, lat_dir = wiki_coordinates[1:4]
+            long_degree, long_minutes, long_dir = wiki_coordinates[4:7]
+            lat_degree_decimals = float(lat_degree) + float(lat_minutes)/60
+            long_degree_decimals = float(long_degree) + float(long_minutes)/60
+        # {{Coord|48.184516|N|16.311865|E|format=dms|display=title,inline}}
+        elif wiki_coordinates[2] in ['N', 'S']:
+            lat_seconds = 0
+            lat_degree_decimals, lat_dir = wiki_coordinates[1:3]
+            long_degree_decimals, long_dir = wiki_coordinates[3:5]
+            lat_degree_decimals, long_degree_decimals = float(lat_degree_decimals), float(long_degree_decimals)
+
+        #print(len(wiki_coordinates), wiki_coordinates)
+        #print((round(long_degree_decimals, 6), round(lat_degree_decimals, 6)))
+        ## print("------------------")
+        
         # North or East are Positive | South or West are Negative
         if lat_dir == 'S': lat_degree_decimals = lat_degree_decimals * -1.0
         if long_dir == 'W': long_degree_decimals = long_degree_decimals * -1.0
         return (round(long_degree_decimals, 6), round(lat_degree_decimals, 6))
     except:
+        # print("FAIL", len(wiki_coordinates), wiki_coordinates)
+        # print("------------------")
         return None
-
-# A = get_idm_coordinates("{{coord|51|12|32|N|03|13|27|E|region:BE|display=inline,title}}")
-# B = get_idm_coordinates("{{Coord|50|50|48|N|04|21|09|E|region:BE-BR_type:adm1st|display=inline,title}}")
-# print(A)
-# print(B)

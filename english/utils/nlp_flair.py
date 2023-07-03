@@ -95,7 +95,7 @@ def run_flair(sentences: List[Sentence], task: str, flair_models: Dict[str, str]
                     "score": entity.get_label("ner").score,
                     "method": f"flair_ner_{flair_version}"
                 })
-                entity_ids[(entity.start_position, entity.end_position)] = f"ent_{sent_ix}_{ent_ix}"
+                entity_ids[(entity.start_position, entity.end_position)] = f"ent_{sent_ix}_{ent_ix}_flair"
             # 2) Relation Extraction
             for rel_ix, relation in enumerate(sentence.get_relations('relation')):
                 # print(relation.first, relation.tag ,relation.second.annotation_layers)
