@@ -1,11 +1,12 @@
 import json, os, re, time
 import copy
-from collections import defaultdict
+from collections import Counter
 from utils.utils_wiki import get_raw_wikipedia_article, get_wiki_linked_entities, get_relevant_items_from_infobox
 
 inverse_relations_dict = {
     "born_in": "place_of_birth",
-    "married_to": "married_to"
+    "married_to": "married_to",
+    "lived_in": "place_of_residence"
 }
 
 
@@ -63,165 +64,233 @@ def convert_nlp_to_idm_json(nlp_path: str, idm_out_path: str):
     
     nlp_dict = json.load(open(nlp_path))
     person_name = os.path.basename(nlp_path).split(".")[0]
+    firstname = person_name.split("_")[0]
     lastname = person_name.split("_")[-1]
     
     # Open Raw File and Meta JSON to Complement Data
     wiki_raw = get_raw_wikipedia_article(wiki_title=person_name.replace("_", " ").title())
-    wiki_meta = json.load(open(f"english/data/wikipedia/{person_name}.txt.meta.json"))
+    # wiki_meta = json.load(open(f"english/data/wikipedia/{person_name}.txt.meta.json"))
     wiki_linked_dict = get_wiki_linked_entities(wiki_raw) # {'surfaceForm': 'wiki_link'}
 
-    ### Unify Entity Duplicates
-    # Entity-Metions to ClusterIDs
-    # mentions_cluster_dict, spans_cluster_dict  = {}, {}
-    # if "coreference" in nlp_dict["data"]:
-    #     for cl_id, cl_items in nlp_dict["data"]["coreference"].items():
-    #         for item in cl_items:
-    #             mentions_cluster_dict[item["surfaceForm"]] = cl_id
-    #             spans_cluster_dict[(item["locationStart"], item["locationEnd"])] = cl_id
 
-    # unified_entities = defaultdict(list)
-    # for ent in nlp_dict["data"].get("entities", []):
-    #     if "flair" in ent["method"]: 
-    #         clean_entity_id = ent["ID"].strip("_flair")
-    #         cluster_id = mentions_cluster_dict.get(ent["surfaceForm"], -1)
-    #         unified_entities[cluster_id].append({"surfaceForm": ent["surfaceForm"], "category": ent["category"]})
-    #     else:
-    #         unified_entities[-1].append({"surfaceForm": ent["surfaceForm"], "category": ent["category"]})
-
-    # uniqueID = 0
-    # idm_entity_candidates = []
-    # for cl_id, entities in unified_entities.items():
-    #     longest_ent = sorted(entities, key= lambda x: len(x))[-1]
-    #     print(cl_id, [e["surfaceForm"] for e in entities])
-    #     idm_entity_candidates.append()
-
-    unified_universal_dict = {} # {(locStart, locEnd): {prop: val, prop: val, ...}}
-    # TODO: Values can be lists rather than idividual values, to acumulate labels form diff models and also diff relations, links etc.
-    # The connections across are using uniqueIDs of ==> locstart_locEnd
+    universal_dict = {} # {(locStart, locEnd): {prop: val, prop: val, ...}}
     entity_dict = {}
+    # Add Entities
     for ent_obj in nlp_dict["data"]["entities"]:
-        unified_universal_dict[f"{ent_obj['locationStart']}_{ent_obj['locationEnd']}"] = {"surfaceForm": ent_obj["surfaceForm"],"ner": ent_obj["category"]}
+        key = f"{ent_obj['locationStart']}_{ent_obj['locationEnd']}"
+        if key in universal_dict:
+            universal_dict[key]["ner"].append(ent_obj["category"])
+        else:
+            universal_dict[key] = {"nlp_id":ent_obj["ID"], "sent_id": ent_obj["sentenceID"], "locationStart": ent_obj["locationStart"], "locationEnd": ent_obj["locationEnd"],
+                                    "surfaceForm": ent_obj["surfaceForm"], "ner": [ent_obj["category"]], "relations": [], "cluster_id": -1}
         entity_dict[ent_obj["ID"]] = ent_obj
+    # Add Relations
+    relation_dict = {}
     for relation in nlp_dict["data"].get("relations", []):
-        subj_id = f"{relation['subjectID']}_flair" # for now manually append '_flair'
-        obj_id = f"{relation['objectID']}_flair"
+        subj_id = relation['subjectID']
+        obj_id = relation['objectID']
         rel_subj = entity_dict.get(subj_id)
         if rel_subj:
             key = f"{rel_subj['locationStart']}_{rel_subj['locationEnd']}"
-            if key in unified_universal_dict:
-                unified_universal_dict[key]["relation"] = ("subjectOf", relation["relationValue"])
-            else:
-                unified_universal_dict[key] = {"relation": ("subjectOf", relation["relationValue"])}
+            universal_dict[key]["relations"].append(relation)
         rel_obj = entity_dict.get(obj_id)
         if rel_obj:
             key = f"{rel_obj['locationStart']}_{rel_obj['locationEnd']}"
-            if key in unified_universal_dict:
-                unified_universal_dict[key]["relation"] = ("objectOf", relation["relationValue"])
-            else:
-                unified_universal_dict[key] = {"relation": ("objectOf", relation["relationValue"])}
-    #Links
+            universal_dict[key]["relations"].append(relation) 
+        relation_dict[relation["relationID"]] = relation
+    # Add NLP NEL Links
     for link_ent in nlp_dict["data"].get("linked_entities", []):
         key = f"{link_ent['locationStart']}_{link_ent['locationEnd']}"
-        if key in unified_universal_dict:
-            unified_universal_dict[key]["wiki_link"] = link_ent["wikiURL"]
+        if key in universal_dict:
+            universal_dict[key]["wiki_link"] = link_ent["wikiURL"]
         else:
-            unified_universal_dict[key] = {"wiki_link": link_ent["wikiURL"]}
-    #Coreference
-    for cl_id, cl_items in nlp_dict["data"].get("coreference", {}).items():
-        for item in cl_items:
-            key = f"{item['locationStart']}_{item['locationEnd']}"
-            if key in unified_universal_dict:
-                unified_universal_dict[key]["cluster_id"] = cl_id
-            else:
-                unified_universal_dict[key] = {"cluster_id": cl_id}
+            universal_dict[key] = {"wiki_link": link_ent["wikiURL"]}
+    # Add Coreference
+    if "coreference" in nlp_dict["data"] and len(nlp_dict["data"]["coreference"]) > 0:
+        for cl_id, cl_items in nlp_dict["data"].get("coreference", {}).items():
+            for item in cl_items:
+                key = f"{item['locationStart']}_{item['locationEnd']}"
+                if key in universal_dict:
+                    universal_dict[key]["cluster_id"] = int(cl_id)
+                    universal_dict[key]["surfaceForm"] = item["surfaceForm"]
+                else:
+                    universal_dict[key] = {"cluster_id": int(cl_id), "surfaceForm": item["surfaceForm"]}
     
-    json.dump(unified_universal_dict, open("cheche_universal.json", "w"), indent=2, ensure_ascii=False)
+    # DEBUG:
+    json.dump(universal_dict, open("cheche_universal.json", "w"), indent=2, ensure_ascii=False)
 
-    # Populate Valid Entities (NLP + WikiMeta)
+    ### Unify Entity Duplicates
+    unified_universal_dict = {} # {f'ent_{cluster_id}': [universal_obj1, universal_obj2, ...]}
+    ent_nlp2ent_univ = {}
+    clustered_items = set()
+    singleton_ids = 1
+    if "coreference" in nlp_dict["data"]:
+        singleton_ids = len(nlp_dict["data"]["coreference"]) + 1
+        for cl_id, cl_items in nlp_dict["data"]["coreference"].items():
+            for item in cl_items:
+                key = f"{item['locationStart']}_{item['locationEnd']}"
+                univ_item = universal_dict.get(key)
+                if univ_item and "nlp_id" in univ_item:
+                    ent_univ_key = f"ent_{univ_item['cluster_id']+1}"
+                    if univ_item["cluster_id"] >= 0:
+                        if ent_univ_key in unified_universal_dict:
+                            if univ_item["nlp_id"] not in unified_universal_dict[ent_univ_key]["nlp_ids"]:
+                                unified_universal_dict[ent_univ_key]["nlp_ids"].append(univ_item["nlp_id"])
+                            if key not in unified_universal_dict[ent_univ_key]["spans"]:
+                                unified_universal_dict[ent_univ_key]["spans"].append(key)
+                            if univ_item.get("surfaceForm") not in unified_universal_dict[ent_univ_key]["surfaceForms"]:
+                                unified_universal_dict[ent_univ_key]["surfaceForms"].append(univ_item.get("surfaceForm"))
+                            for n in univ_item.get("ner", []):
+                                if n not in unified_universal_dict[ent_univ_key]["ner"]:
+                                    unified_universal_dict[ent_univ_key]["ner"].append(n)
+                            for r in univ_item.get("relations", []):
+                                if r not in unified_universal_dict[ent_univ_key]["relations"]:
+                                    unified_universal_dict[ent_univ_key]["relations"].append(r)
+                            if univ_item.get("wiki_link") and univ_item.get("wiki_link") not in unified_universal_dict[ent_univ_key]["wiki_links"]:
+                                unified_universal_dict[ent_univ_key]["wiki_links"].append(univ_item.get("wiki_link"))
+                        else:
+                            unified_universal_dict[ent_univ_key] = {
+                                "nlp_ids": [univ_item["nlp_id"]], # Maybe it will be cleaner to filter earlier ONLY FOR ITEMS WITH NLP_ID!!!
+                                "spans": [key],
+                                "surfaceForms": [univ_item["surfaceForm"]],
+                                "ner": univ_item.get("ner", []),
+                                "relations": univ_item.get("relations", []),
+                                "wiki_links": [univ_item.get("wiki_link")]
+                            }
+                        ent_nlp2ent_univ[univ_item["nlp_id"]] = ent_univ_key
+                    else:
+                        unified_universal_dict[f"ent_{singleton_ids}"] = {
+                                "nlp_ids": [univ_item["nlp_id"]],
+                                "spans": [key],
+                                "surfaceForms": [univ_item["surfaceForm"]],
+                                "ner": univ_item.get("ner", []),
+                                "relations": univ_item.get("relations", []),
+                                "wiki_links": [univ_item.get("wiki_link")]
+                            }
+                        ent_nlp2ent_univ[univ_item["nlp_id"]] = f"ent_{singleton_ids}"
+                        singleton_ids += 1
+                    clustered_items.add(univ_item["nlp_id"])
+                else:
+                    pass # These are the cluster items that DO NOT have a recognized Entity by the NER's
+    
+    # If there's no coreference then Produce a Similar Formatted Dictionary where each cluster has one entity, so the next code still runs...
+    # Even if there was correference, this loop adds all of the entities that did not have any mention in the CLUSTERS
+    for span, univ_item in universal_dict.items():
+        if "nlp_id" in univ_item and univ_item["nlp_id"] not in clustered_items:
+            # if any([x in ["DATE", "PER", "PERSON", "LOC", "GPE", "FAC", "ORG", "WORK_OF_ART", "NORP"] for x in univ_item.get("ner", [])]):
+            # print(univ_item)
+            unified_universal_dict[f"ent_{singleton_ids}"] = {
+                                    "nlp_ids": [univ_item["nlp_id"]],
+                                    "spans": [span],
+                                    "surfaceForms": [univ_item["surfaceForm"]],
+                                    "ner": univ_item["ner"],
+                                    "relations": univ_item.get("relations", []),
+                                    "wiki_links": [univ_item.get("wiki_link")]
+                                }
+            # Add also Wikipedia Links present in Metadata
+            wiki_link = wiki_linked_dict.get(univ_item["surfaceForm"])
+            if wiki_link:
+                unified_universal_dict[f"ent_{singleton_ids}"]["wiki_links"].append(wiki_link)
+            ent_nlp2ent_univ[univ_item["nlp_id"]] = f"ent_{singleton_ids}"
+            singleton_ids += 1
+
+    json.dump(unified_universal_dict, open("cheche_unified_universal.json", "w"), indent=2, ensure_ascii=False)
+
+    # 1) Populate Valid Entities (NLP + WikiMeta)
     idm_entity_dict = {}
-    unique_entities = {}
-    per_ix, pl_ix, gr_ix, obj_ix = 1, 1, 1, 1
-    for ent in nlp_dict["data"]["entities"]:
+    univ_id2idm_id = {}
+    per_ix, pl_ix, gr_ix, obj_ix = 0,0,0,0
+    event_ix = 1
+    kown_coords_dict = {} # To avoid querying more than once for the same entity
+    for ent_id, unified_ent_obj in unified_universal_dict.items():
         idm_ent = None
-        if ent["category"] in ["PER", "PERSON"]:
+        # A) Choose the IDM Values best on the Most Common when unified
+        surface_form = Counter(unified_ent_obj["surfaceForms"]).most_common(1)[0][0]
+        ner_category = Counter(unified_ent_obj["ner"]).most_common(1)[0][0]
+        # B) IDM ENTITIES
+        if ner_category in ["PER", "PERSON"]:
             idm_ent = copy.deepcopy(person_template)
             per_ix += 1
             idm_ent["id"] = f"{lastname}-pr-{stringify_id(per_ix)}"
             idm_ent["kind"] = "person"
-        elif ent["category"] in ["LOC", "GPE"]:
+        elif ner_category in ["LOC", "GPE", "FAC"]:
             idm_ent = copy.deepcopy(place_template)
             pl_ix += 1
             idm_ent["id"] = f"{lastname}-pl-{stringify_id(pl_ix)}"
             idm_ent["kind"] = "place"
-        elif ent["category"] in ["ORG"]:
+        elif ner_category in ["ORG"]:
             idm_ent = copy.deepcopy(group_template)
             gr_ix += 1
             idm_ent["id"] = f"{lastname}-gr-{stringify_id(gr_ix)}"
             idm_ent["kind"] = "group"
-        elif ent["category"] in ["WORK_OF_ART"]:
+        elif ner_category in ["WORK_OF_ART"]:
             idm_ent = copy.deepcopy(object_template)
             obj_ix += 1
             idm_ent["id"] = f"{lastname}-ob-{stringify_id(obj_ix)}"
             idm_ent["kind"] = "cultural-heritage-object"
+        # TODO: FIX? CURRENTLY WE ARE DROPPING "DATE" entities and therefore also relationships that point to those entities such as: "date_of_birth"
+        # elif ner_category in ["DATE"]:
         
-        # Add Link Info form Wikipedia Meta
-        if ent["surfaceForm"] in wiki_linked_dict:
-            wiki_link = wiki_linked_dict[ent["surfaceForm"]]
-            items_dict = get_relevant_items_from_infobox(wiki_link)
-            coord = items_dict.get("coordinates")
-            if coord:
-                idm_ent["geometry"] = {"type": "Point", "coordinates": coord}
+        # LAST) Add to the IDM Entities
+        univ_id2idm_id[ent_id] = None
+        if idm_ent:
+            univ_id2idm_id[ent_id] = idm_ent["id"]
+            idm_ent["label"] = {"default": surface_form}
+            idm_entity_dict[ent_id] = idm_ent
 
-        # Add to the List of Entities (De-Duplicate entities with the SAME surfaceForm)
-        if idm_ent and ent["surfaceForm"] not in unique_entities:
-            idm_ent["label"] = {"default": ent["surfaceForm"]}
-            idm_entity_dict[ent["ID"]] = idm_ent
-            unique_entities[ent["surfaceForm"]] = ent["ID"]
-            
-    # 2) Populate Valid Relations and Link to Entities ?
-    event_ix = 1
-    for rel_obj in nlp_dict["data"].get("relations", []):
-        subj_id = f"{rel_obj['subjectID']}_flair" # for now manually append '_flair'
-        obj_id = f"{rel_obj['objectID']}_flair"
-        idm_subj_entity = idm_entity_dict.get(subj_id)
-        idm_obj_entity = idm_entity_dict.get(obj_id)
-        if idm_subj_entity and idm_obj_entity:
-            ev_sub_id = idm_obj_entity['id'].split("-")[1]
-            full_event_id = f"duerer-{ev_sub_id}-ev-{stringify_id(event_ix)}"
-            # Add Rel Subj
-            idm_subj_entity["relations"].append({"event": full_event_id, "role": f"role-{rel_obj['relationValue']}"})
-            idm_entity_dict[subj_id] = idm_subj_entity
-            # Add Rel Obj
-            idm_obj_entity["relations"].append({"event": full_event_id, "role": f"role-{inverse_relations_dict.get(rel_obj['relationValue'], 'unk')}"})
-            idm_entity_dict[obj_id] = idm_obj_entity
-            if full_event_id not in parent_idm["events"]:
-                parent_idm["events"].append({
-                        "id": full_event_id,
-                        "label": { "default": rel_obj["surfaceFormObj"] },
-                        "kind": f"event-kind-{rel_obj['relationValue']}",
-                        # "startDate": "",
-                        "relations": [{ "entity": idm_subj_entity['id'], "role": f"role-{rel_obj['relationValue']}"},
-                                      { "entity": idm_obj_entity['id'], "role": f"role-{inverse_relations_dict.get(rel_obj['relationValue'], 'unk')}"}]
-                })
+    for ent_id, unified_ent_obj in unified_universal_dict.items():
+        # If it is a valid entity then add the advanced Attributes
+        if ent_id in idm_entity_dict:
+            idm_ent = idm_entity_dict[ent_id]
+            # C) Add Link Info form Wikipedia Meta (Coordinates)
+            available_links = [x for x in unified_ent_obj["wiki_links"] if x is not None]
+            if len(available_links) > 0:
+                wiki_link = Counter(available_links).most_common(1)[0][0]
             else:
-                parent_idm["events"][full_event_id]["relations"].append({ "entity": idm_subj_entity['id'], "role": f"role-{rel_obj['relationValue']}"})
-                parent_idm["events"][full_event_id]["relations"].append({ "entity": idm_obj_entity['id'], "role": f"role-{inverse_relations_dict.get(rel_obj['relationValue'], 'unk')}"})
-            event_ix += 1
-
-    # 3) Populate Valid Links to Wikipedia URLs
-    for link_ent in nlp_dict["data"].get("linked_entities", []):
-        if link_ent["entityID"] in idm_entity_dict:
-            if idm_entity_dict[link_ent["entityID"]]["kind"] == "person":
-                linked_id = {
-                    "id": link_ent["wikiTitle"],
-                    "provider": {
-                        "label": {"default": "Wikipedia"},
-                        "baseUrl": link_ent["wikiURL"]
-                    }
-                }
-                idm_entity_dict[link_ent["entityID"]]["linkedIds"].append(linked_id)
+                wiki_link = None
+            if wiki_link:
+                print(wiki_link)
+                if wiki_link not in kown_coords_dict:
+                    items_dict = get_relevant_items_from_infobox(wiki_link)
+                    coord = items_dict.get("coordinates")
+                    kown_coords_dict[wiki_link] = coord
+                else:
+                    coord = kown_coords_dict[wiki_link]
+                if coord:
+                    idm_ent["geometry"] = {"type": "Point", "coordinates": coord}
+            # Add Relations
+            for rel_obj in unified_ent_obj.get("relations", []):
+                ev_sub_id = idm_ent["id"].split("-")[1]
+                full_event_id = f"{firstname}-{ev_sub_id}-ev-{stringify_id(event_ix)}"
+                # idm_ent["relations"].append({"event": full_event_id, "role": f"role-{rel_obj['relationValue']}"})
+                # Mapping pointing to the IDM IDS made in the previous LOOP!
+                # TODO: We are currently loosing the events that have either subj_idm or obj_idm_id NULL!
+                subj_univ_id = ent_nlp2ent_univ[rel_obj['subjectID']] 
+                subj_idm_id = univ_id2idm_id[subj_univ_id]
+                obj_univ_id = ent_nlp2ent_univ[rel_obj['objectID']]
+                obj_idm_id = univ_id2idm_id[obj_univ_id]
+                if full_event_id not in parent_idm["events"]:
+                    if subj_idm_id and obj_idm_id:
+                        idm_ent["relations"].append({"event": full_event_id, "role": f"role-{rel_obj['relationValue']}"})
+                        parent_idm["events"].append({
+                            "id": full_event_id,
+                            "label": { "default": rel_obj["surfaceFormObj"] },
+                            "kind": f"event-kind-{rel_obj['relationValue']}",
+                            # "startDate": "",
+                            "relations": [{ "entity": subj_idm_id, "role": f"role-{rel_obj['relationValue']}"}, # MAPPING!!! from rel_obj['subjectID'] --> UniversalID
+                                        { "entity": obj_idm_id, "role": f"role-{inverse_relations_dict.get(rel_obj['relationValue'], 'unk')}"}]
+                    })
+                    event_ix += 1
+                else:
+                    if subj_idm_id and obj_idm_id:
+                        idm_ent["relations"].append({"event": full_event_id, "role": f"role-{rel_obj['relationValue']}"})
+                        parent_idm["events"][full_event_id]["relations"].append({ "entity": subj_idm_id, "role": f"role-{rel_obj['relationValue']}"})
+                        parent_idm["events"][full_event_id]["relations"].append({ "entity": obj_idm_id, "role": f"role-{inverse_relations_dict.get(rel_obj['relationValue'], 'unk')}"})
+                        event_ix += 1
+            # Add updated ubject back to dict
+            idm_entity_dict[ent_id] = idm_ent
     
-    # 4) Transfer The merged Entity-Rel-Linked info into the parent object
+    # 4) Transfer The MERGED Entity-Rel-Linked info into the parent object
     for _, ent_obj in idm_entity_dict.items():
         parent_idm["entities"].append(ent_obj)
     
@@ -238,4 +307,5 @@ def stringify_id(number: int) -> str:
         return str(number)
 
 if __name__ == "__main__":
-    convert_nlp_to_idm_json("english/data/json/albrecht_dürer.json", "english/data/idm/albrecht_dürer.idm.json")
+    # convert_nlp_to_idm_json("english/data/json/albrecht_dürer.json", "english/data/idm/albrecht_dürer.idm.json")
+    convert_nlp_to_idm_json("english/data/json/ida_laura_pfeiffer.json", "english/data/idm/ida_pfeiffer.idm.json")
