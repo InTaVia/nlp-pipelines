@@ -214,8 +214,8 @@ def add_json_ner_allennlp(sentences: List[str], ner_predictor: Predictor, token_
     return doc_entities
 
 
-def add_json_coref_allennlp(sentences: List[str], coref_predictor: Predictor, token_objects: List[Dict]) -> List[Dict[str, Any]]:
-    doc_limit = 1000 # We only take the first 400 tokens of the document to find coreferences there
+def add_json_coref_allennlp(sentences: List[str], coref_predictor: Predictor) -> List[Dict[str, Any]]:
+    doc_limit = 10000 # We only take the first <doc_limit> tokens of the document to find coreferences there
     doc_truncated = [] 
     fake_paragraph_len = 0
     for sentence in sentences:
@@ -225,7 +225,8 @@ def add_json_coref_allennlp(sentences: List[str], coref_predictor: Predictor, to
         else:
             break
     # Get Coreference for the whole Document
-    doc_truncated = " ".join(doc_truncated)
+    # doc_truncated = " ".join(doc_truncated)
+    doc_truncated = " ".join(sentences)
     tokenized, doc_clusters = allennlp_coref(doc_truncated, coref_predictor)
 
     return doc_clusters

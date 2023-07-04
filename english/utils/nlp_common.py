@@ -1,7 +1,7 @@
 import re, os, json
 from typing import TypeVar, Dict, Any, List, Tuple
 from dataclasses import dataclass, asdict
-from collections import defaultdict
+from collections import defaultdict, Counter
 
 
 Converter = TypeVar('Converter')
@@ -44,13 +44,20 @@ class SRL_Output:
 ## Functions to NLP Process
 
 def preprocess_and_clean_text(text: str) -> str:
-    clean_text = re.sub(r'[\r\n]+', "\n", text) # Just keep ONE change of line
-    clean_text = re.sub(r'"', ' " ', clean_text) # Separate quotations from their words
+    clean_text = text
     # Get rid of everything after "See Also" Section
-    match = re.search("== See also ==", text)
+    match = re.search("== See also ==", clean_text)
     if match: clean_text = clean_text[:match.start()]
-    clean_text = re.sub(r"=+\s.+?\s=+", " ", clean_text) # Eliminate section titles and subtitles
-    clean_text = re.sub(r'[\s]+', " ", clean_text) # Just keep ONE space between words
+    # Get rid of everything after "References" Section
+    match = re.search("== References ==", clean_text)
+    if match: clean_text = clean_text[:match.start()]
+    # Eliminate section titles and subtitles
+    clean_text = re.sub(r"=+\s.+?\s=+", "\n", clean_text) 
+    # Just keep ONE empty line between paragraphs
+    # clean_text = re.sub(r'[\r\n]{2,}', "\n\n", clean_text)
+    # clean_text = re.sub(r'\n{2,}', "\n\n", clean_text)  
+    # Just keep ONE space between words (also erases the new lines!)
+    clean_text = re.sub(r'[\s]+', " ", clean_text) 
     return clean_text
 
 
@@ -220,3 +227,31 @@ def run_spacy(text: str, nlp: SpacyLanguage, nlp_processor: str = 'spacy') -> Di
 
     return {'spacy_doc': doc, 'sentences':spacy_sents, 'sentences_untokenized': original_sents,'tokens': spacy_tokens, 'token_objs': spacy_info, 'entities': spacy_ents}
 
+
+def merge_frames_srl(srl_roles: List[Dict[str, Any]], frame_list: List[Dict[str, Any]]):
+    stats = []
+    frame_spans, second_chance = {}, {}
+    for obj in frame_list:
+        # print(f"{obj['locationStart']}_{obj['locationEnd']}", f"{obj['sentenceID']}_{obj['surfaceForm']}")
+        frame_spans[f"{obj['locationStart']}_{obj['locationEnd']}"] = obj['predicateSense']
+        second_chance[f"{obj['sentenceID']}_{obj['surfaceForm']}"] = obj['predicateSense']
+    # Then Iterate Flair Frame files i) access their "entities" ii) match the corresponding AllenNLP iii) augment the pred_args
+    for proposition in srl_roles:
+        prop_key = f"{proposition['locationStart']}_{proposition['locationEnd']}"
+        second_chance_key = f"{proposition['sentenceID']}_{proposition['surfaceForm']}"
+        sense_match = frame_spans.get(prop_key)
+        # print(prop_key, second_chance_key)
+        if sense_match:
+            proposition['predicateSense'] = sense_match
+            # print(f"MATCH! {proposition['surfaceForm']} ---> {sense_match}")
+            stats.append("match")
+        elif second_chance.get(second_chance_key):
+            proposition['predicateSense'] = second_chance.get(second_chance_key)
+            stats.append("fuzzy_match")
+            # print(f"FUZZY MATCH! {proposition['surfaceForm']} ({prop_key}) ---> {second_chance.get(second_chance_key)}")
+        else:
+            # print(f"NON MATCH! {proposition['surfaceForm']} ({prop_key}) ---> {sense_match}")
+            stats.append("non_match")
+    print(Counter(stats).most_common())
+    print("-----------------------------------")
+    return srl_roles

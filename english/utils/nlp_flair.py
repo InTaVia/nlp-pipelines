@@ -179,32 +179,3 @@ def run_flair(sentences: List[Sentence], task: str, flair_models: Dict[str, str]
         sent_ix += 1
 
     return {"tagged_entities": entities, "tagged_relations": relations, "entity_ids": entity_ids}
-
-
-def merge_frames_srl(srl_roles: List[Dict[str, Any]], frame_list: List[Dict[str, Any]]):
-    stats = []
-    frame_spans, second_chance = {}, {}
-    for obj in frame_list:
-        print(f"{obj['locationStart']}_{obj['locationEnd']}", f"{obj['sentenceID']}_{obj['surfaceForm']}")
-        frame_spans[f"{obj['locationStart']}_{obj['locationEnd']}"] = obj['predicateSense']
-        second_chance[f"{obj['sentenceID']}_{obj['surfaceForm']}"] = obj['predicateSense']
-    # Then Iterate Flair Frame files i) access their "entities" ii) match the corresponding AllenNLP iii) augment the pred_args
-    for proposition in srl_roles:
-        prop_key = f"{proposition['locationStart']}_{proposition['locationEnd']}"
-        second_chance_key = f"{proposition['sentenceID']}_{proposition['surfaceForm']}"
-        sense_match = frame_spans.get(prop_key)
-        print(prop_key, second_chance_key)
-        if sense_match:
-            proposition['predicateSense'] = sense_match
-            # print(f"MATCH! {proposition['surfaceForm']} ---> {sense_match}")
-            stats.append("match")
-        elif second_chance.get(second_chance_key):
-            proposition['predicateSense'] = second_chance.get(second_chance_key)
-            stats.append("fuzzy_match")
-            # print(f"FUZZY MATCH! {proposition['surfaceForm']} ({prop_key}) ---> {second_chance.get(second_chance_key)}")
-        else:
-            # print(f"NON MATCH! {proposition['surfaceForm']} ({prop_key}) ---> {sense_match}")
-            stats.append("non_match")
-    print(Counter(stats).most_common())
-    print("-----------------------------------")
-    return srl_roles
