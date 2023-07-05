@@ -3,6 +3,7 @@
 .venv_*/
 .DS_Store
 # english/resources/
+cheche*
 english/data/wikipedia/top*/*
 english/data/wikipedia/women_*
 english/flask_app/
