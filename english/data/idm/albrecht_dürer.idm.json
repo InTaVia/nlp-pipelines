@@ -9,359 +9,407 @@
       "media": [],
       "relations": [
         {
-          "event": "albrecht-pr-ev-001",
+          "event": "dürer-pr-ev-001",
           "role": "role-born_in"
         },
         {
-          "event": "albrecht-pr-ev-002",
+          "event": "dürer-pr-ev-002",
           "role": "role-child_of"
         },
         {
-          "event": "albrecht-pr-ev-003",
+          "event": "dürer-pr-ev-003",
           "role": "role-child_of"
         },
         {
-          "event": "albrecht-pr-ev-004",
+          "event": "dürer-pr-ev-004",
           "role": "role-parent_of"
         },
         {
-          "event": "albrecht-pr-ev-005",
+          "event": "dürer-pr-ev-004",
           "role": "role-child_of"
         },
         {
-          "event": "albrecht-pr-ev-006",
+          "event": "dürer-pr-ev-005",
+          "role": "role-child_of"
+        },
+        {
+          "event": "dürer-pr-ev-006",
           "role": "role-married_to"
         },
         {
-          "event": "albrecht-pr-ev-007",
+          "event": "dürer-pr-ev-007",
           "role": "role-married_to"
         },
         {
-          "event": "albrecht-pr-ev-008",
+          "event": "dürer-pr-ev-007",
+          "role": "role-married_to"
+        },
+        {
+          "event": "dürer-pr-ev-008",
           "role": "role-lived_in"
         },
         {
-          "event": "albrecht-pr-ev-009",
+          "event": "dürer-pr-ev-009",
           "role": "role-sibling_of"
         },
         {
-          "event": "albrecht-pr-ev-010",
+          "event": "dürer-pr-ev-010",
           "role": "role-sibling_of"
         },
         {
-          "event": "albrecht-pr-ev-011",
+          "event": "dürer-pr-ev-010",
           "role": "role-sibling_of"
         },
         {
-          "event": "albrecht-pr-ev-012",
+          "event": "dürer-pr-ev-011",
           "role": "role-sibling_of"
         },
         {
-          "event": "albrecht-pr-ev-013",
+          "event": "dürer-pr-ev-012",
+          "role": "role-sibling_of"
+        },
+        {
+          "event": "dürer-pr-ev-012",
+          "role": "role-sibling_of"
+        },
+        {
+          "event": "dürer-pr-ev-013",
           "role": "role-alternate_name"
         },
         {
-          "event": "albrecht-pr-ev-014",
+          "event": "dürer-pr-ev-014",
           "role": "role-child_of"
         },
         {
-          "event": "albrecht-pr-ev-015",
+          "event": "dürer-pr-ev-015",
           "role": "role-married_to"
         },
         {
-          "event": "albrecht-pr-ev-016",
+          "event": "dürer-pr-ev-016",
           "role": "role-married_to"
         },
         {
-          "event": "albrecht-pr-ev-017",
+          "event": "dürer-pr-ev-016",
           "role": "role-married_to"
         },
         {
-          "event": "albrecht-pr-ev-018",
+          "event": "dürer-pr-ev-017",
           "role": "role-married_to"
         },
         {
-          "event": "albrecht-pr-ev-019",
+          "event": "dürer-pr-ev-017",
+          "role": "role-married_to"
+        },
+        {
+          "event": "dürer-pr-ev-018",
+          "role": "role-married_to"
+        },
+        {
+          "event": "dürer-pr-ev-019",
           "role": "role-lived_in"
         },
         {
-          "event": "albrecht-pr-ev-020",
+          "event": "dürer-pr-ev-020",
           "role": "role-lived_in"
         },
         {
-          "event": "dürer-cho-ev-021",
+          "event": "dürer-pr-ev-021",
           "role": "role-was_creator"
         },
         {
-          "event": "dürer-cho-ev-041",
+          "event": "dürer-pr-ev-028",
+          "role": "role-child_of"
+        },
+        {
+          "event": "dürer-pr-ev-037",
+          "role": "role-married_to"
+        },
+        {
+          "event": "dürer-pr-ev-039",
+          "role": "role-married_to"
+        },
+        {
+          "event": "dürer-pr-ev-041",
           "role": "role-was_creator"
         },
         {
-          "event": "dürer-cho-ev-042",
+          "event": "dürer-pr-ev-042",
           "role": "role-was_creator"
         },
         {
-          "event": "dürer-cho-ev-043",
+          "event": "dürer-pr-ev-043",
           "role": "role-was_creator"
         },
         {
-          "event": "dürer-cho-ev-044",
+          "event": "dürer-pr-ev-044",
           "role": "role-was_creator"
         },
         {
-          "event": "dürer-cho-ev-045",
+          "event": "dürer-pr-ev-045",
           "role": "role-was_creator"
         },
         {
-          "event": "dürer-cho-ev-060",
+          "event": "dürer-pr-ev-054",
+          "role": "role-sibling_of"
+        },
+        {
+          "event": "dürer-pr-ev-056",
+          "role": "role-sibling_of"
+        },
+        {
+          "event": "dürer-pr-ev-060",
           "role": "role-was_creator"
         },
         {
-          "event": "dürer-cho-ev-061",
+          "event": "dürer-pr-ev-061",
           "role": "role-was_creator"
+        },
+        {
+          "event": "dürer-pr-ev-079",
+          "role": "role-married_to"
         },
         {
-          "event": "dürer-cho-ev-081",
+          "event": "dürer-pr-ev-081",
           "role": "role-was_creator"
         },
         {
-          "event": "dürer-cho-ev-082",
+          "event": "dürer-pr-ev-082",
           "role": "role-was_creator"
         },
         {
-          "event": "dürer-cho-ev-083",
+          "event": "dürer-pr-ev-083",
           "role": "role-was_creator"
         },
         {
-          "event": "dürer-cho-ev-084",
+          "event": "dürer-pr-ev-084",
           "role": "role-was_creator"
         },
         {
-          "event": "dürer-cho-ev-085",
+          "event": "dürer-pr-ev-085",
           "role": "role-was_creator"
         },
         {
-          "event": "dürer-cho-ev-086",
+          "event": "dürer-pr-ev-086",
           "role": "role-was_creator"
         },
         {
-          "event": "dürer-cho-ev-087",
+          "event": "dürer-pr-ev-087",
           "role": "role-was_creator"
         },
         {
-          "event": "dürer-cho-ev-088",
+          "event": "dürer-pr-ev-088",
           "role": "role-was_creator"
         },
         {
-          "event": "dürer-cho-ev-089",
+          "event": "dürer-pr-ev-089",
           "role": "role-was_creator"
         },
         {
-          "event": "dürer-cho-ev-090",
+          "event": "dürer-pr-ev-090",
           "role": "role-was_creator"
         },
         {
-          "event": "dürer-cho-ev-091",
+          "event": "dürer-pr-ev-091",
           "role": "role-was_creator"
         },
         {
-          "event": "dürer-cho-ev-092",
+          "event": "dürer-pr-ev-092",
           "role": "role-was_creator"
         },
         {
-          "event": "dürer-cho-ev-093",
+          "event": "dürer-pr-ev-093",
           "role": "role-was_creator"
         },
         {
-          "event": "dürer-cho-ev-094",
+          "event": "dürer-pr-ev-094",
           "role": "role-was_creator"
         },
         {
-          "event": "dürer-cho-ev-095",
+          "event": "dürer-pr-ev-095",
           "role": "role-was_creator"
         },
         {
-          "event": "dürer-cho-ev-096",
+          "event": "dürer-pr-ev-096",
           "role": "role-was_creator"
         },
         {
-          "event": "dürer-cho-ev-097",
+          "event": "dürer-pr-ev-097",
           "role": "role-was_creator"
         },
         {
-          "event": "dürer-cho-ev-098",
+          "event": "dürer-pr-ev-098",
           "role": "role-was_creator"
         },
         {
-          "event": "dürer-cho-ev-099",
+          "event": "dürer-pr-ev-099",
           "role": "role-was_creator"
         },
         {
-          "event": "dürer-cho-ev-100",
+          "event": "dürer-pr-ev-100",
           "role": "role-was_creator"
         },
         {
-          "event": "dürer-cho-ev-101",
+          "event": "dürer-pr-ev-101",
           "role": "role-was_creator"
         },
         {
-          "event": "dürer-cho-ev-102",
+          "event": "dürer-pr-ev-102",
           "role": "role-was_creator"
         },
         {
-          "event": "dürer-cho-ev-103",
+          "event": "dürer-pr-ev-103",
           "role": "role-was_creator"
         },
         {
-          "event": "dürer-cho-ev-104",
+          "event": "dürer-pr-ev-104",
           "role": "role-was_creator"
         },
         {
-          "event": "dürer-cho-ev-105",
+          "event": "dürer-pr-ev-105",
           "role": "role-was_creator"
         },
         {
-          "event": "dürer-cho-ev-106",
+          "event": "dürer-pr-ev-106",
           "role": "role-was_creator"
         },
         {
-          "event": "dürer-cho-ev-107",
+          "event": "dürer-pr-ev-107",
           "role": "role-was_creator"
         },
         {
-          "event": "dürer-cho-ev-108",
+          "event": "dürer-pr-ev-108",
           "role": "role-was_creator"
         },
         {
-          "event": "dürer-cho-ev-109",
+          "event": "dürer-pr-ev-109",
           "role": "role-was_creator"
         },
         {
-          "event": "dürer-cho-ev-110",
+          "event": "dürer-pr-ev-110",
           "role": "role-was_creator"
         },
         {
-          "event": "dürer-cho-ev-111",
+          "event": "dürer-pr-ev-111",
           "role": "role-was_creator"
         },
         {
-          "event": "dürer-cho-ev-112",
+          "event": "dürer-pr-ev-112",
           "role": "role-was_creator"
         },
         {
-          "event": "dürer-cho-ev-113",
+          "event": "dürer-pr-ev-113",
           "role": "role-was_creator"
         },
         {
-          "event": "dürer-cho-ev-114",
+          "event": "dürer-pr-ev-114",
           "role": "role-was_creator"
         },
         {
-          "event": "dürer-cho-ev-115",
+          "event": "dürer-pr-ev-115",
           "role": "role-was_creator"
         },
         {
-          "event": "dürer-cho-ev-116",
+          "event": "dürer-pr-ev-116",
           "role": "role-was_creator"
         },
         {
-          "event": "dürer-cho-ev-117",
+          "event": "dürer-pr-ev-117",
           "role": "role-was_creator"
         },
         {
-          "event": "dürer-cho-ev-118",
+          "event": "dürer-pr-ev-118",
           "role": "role-was_creator"
         },
         {
-          "event": "dürer-cho-ev-119",
+          "event": "dürer-pr-ev-119",
           "role": "role-was_creator"
         },
         {
-          "event": "dürer-cho-ev-120",
+          "event": "dürer-pr-ev-120",
           "role": "role-was_creator"
         },
         {
-          "event": "dürer-cho-ev-121",
+          "event": "dürer-pr-ev-121",
           "role": "role-was_creator"
         },
         {
-          "event": "dürer-cho-ev-122",
+          "event": "dürer-pr-ev-122",
           "role": "role-was_creator"
         },
         {
-          "event": "dürer-cho-ev-123",
+          "event": "dürer-pr-ev-123",
           "role": "role-was_creator"
         },
         {
-          "event": "dürer-cho-ev-124",
+          "event": "dürer-pr-ev-124",
           "role": "role-was_creator"
         },
         {
-          "event": "dürer-cho-ev-125",
+          "event": "dürer-pr-ev-125",
           "role": "role-was_creator"
         },
         {
-          "event": "dürer-cho-ev-126",
+          "event": "dürer-pr-ev-126",
           "role": "role-was_creator"
         },
         {
-          "event": "dürer-cho-ev-127",
+          "event": "dürer-pr-ev-127",
           "role": "role-was_creator"
         },
         {
-          "event": "dürer-cho-ev-128",
+          "event": "dürer-pr-ev-128",
           "role": "role-was_creator"
         },
         {
-          "event": "dürer-cho-ev-129",
+          "event": "dürer-pr-ev-129",
           "role": "role-was_creator"
         },
         {
-          "event": "dürer-cho-ev-130",
+          "event": "dürer-pr-ev-130",
           "role": "role-was_creator"
         },
         {
-          "event": "dürer-cho-ev-131",
+          "event": "dürer-pr-ev-131",
           "role": "role-was_creator"
         },
         {
-          "event": "dürer-cho-ev-132",
+          "event": "dürer-pr-ev-132",
           "role": "role-was_creator"
         },
         {
-          "event": "dürer-cho-ev-133",
+          "event": "dürer-pr-ev-133",
           "role": "role-was_creator"
         },
         {
-          "event": "dürer-cho-ev-134",
+          "event": "dürer-pr-ev-134",
           "role": "role-was_creator"
         },
         {
-          "event": "dürer-cho-ev-135",
+          "event": "dürer-pr-ev-135",
           "role": "role-was_creator"
         },
         {
-          "event": "dürer-cho-ev-136",
+          "event": "dürer-pr-ev-136",
           "role": "role-was_creator"
         },
         {
-          "event": "dürer-cho-ev-137",
+          "event": "dürer-pr-ev-137",
           "role": "role-was_creator"
         },
         {
-          "event": "dürer-cho-ev-138",
+          "event": "dürer-pr-ev-138",
           "role": "role-was_creator"
         },
         {
-          "event": "dürer-cho-ev-139",
+          "event": "dürer-pr-ev-139",
           "role": "role-was_creator"
         },
         {
-          "event": "dürer-cho-ev-140",
+          "event": "dürer-pr-ev-140",
           "role": "role-was_creator"
         },
         {
-          "event": "dürer-cho-ev-141",
+          "event": "dürer-pr-ev-141",
           "role": "role-was_creator"
         }
       ],
@@ -378,7 +426,7 @@
       },
       "relations": [
         {
-          "event": "dürer-cho-ev-021",
+          "event": "dürer-pr-ev-021",
           "role": "role-object_created"
         }
       ],
@@ -394,11 +442,27 @@
       "media": [],
       "relations": [
         {
-          "event": "albrecht-pr-ev-022",
+          "event": "dürer-pr-ev-002",
+          "role": "role-parent_of"
+        },
+        {
+          "event": "dürer-pr-ev-022",
           "role": "role-child_of"
         },
         {
-          "event": "albrecht-pr-ev-023",
+          "event": "dürer-pr-ev-022",
+          "role": "role-parent_of"
+        },
+        {
+          "event": "dürer-pr-ev-023",
+          "role": "role-married_to"
+        },
+        {
+          "event": "dürer-pr-ev-023",
+          "role": "role-married_to"
+        },
+        {
+          "event": "dürer-pr-ev-029",
           "role": "role-married_to"
         }
       ],
@@ -411,12 +475,28 @@
       },
       "relations": [
         {
-          "event": "albrecht-pl-ev-024",
+          "event": "dürer-pr-ev-001",
+          "role": "role-place_of_birth"
+        },
+        {
+          "event": "dürer-pl-ev-024",
           "role": "role-born_in"
         },
         {
-          "event": "albrecht-pl-ev-025",
+          "event": "dürer-pl-ev-024",
+          "role": "role-place_of_birth"
+        },
+        {
+          "event": "dürer-pl-ev-025",
           "role": "role-lived_in"
+        },
+        {
+          "event": "dürer-pl-ev-025",
+          "role": "role-place_of_residence"
+        },
+        {
+          "event": "dürer-pr-ev-046",
+          "role": "role-place_of_residence"
         }
       ],
       "kind": "place",
@@ -435,8 +515,16 @@
       },
       "relations": [
         {
-          "event": "albrecht-pl-ev-026",
+          "event": "dürer-pr-ev-019",
+          "role": "role-place_of_residence"
+        },
+        {
+          "event": "dürer-pl-ev-026",
           "role": "role-lived_in"
+        },
+        {
+          "event": "dürer-pl-ev-026",
+          "role": "role-place_of_residence"
         }
       ],
       "kind": "place",
@@ -457,15 +545,23 @@
       "media": [],
       "relations": [
         {
-          "event": "albrecht-pr-ev-027",
-          "role": "role-child_of"
-        },
-        {
-          "event": "albrecht-pr-ev-028",
+          "event": "dürer-pr-ev-003",
           "role": "role-parent_of"
         },
         {
-          "event": "albrecht-pr-ev-029",
+          "event": "dürer-pr-ev-027",
+          "role": "role-child_of"
+        },
+        {
+          "event": "dürer-pr-ev-027",
+          "role": "role-parent_of"
+        },
+        {
+          "event": "dürer-pr-ev-028",
+          "role": "role-parent_of"
+        },
+        {
+          "event": "dürer-pr-ev-029",
           "role": "role-married_to"
         }
       ],
@@ -478,8 +574,16 @@
       },
       "relations": [
         {
-          "event": "albrecht-pl-ev-030",
+          "event": "dürer-pr-ev-020",
+          "role": "role-place_of_residence"
+        },
+        {
+          "event": "dürer-pl-ev-030",
           "role": "role-lived_in"
+        },
+        {
+          "event": "dürer-pl-ev-030",
+          "role": "role-place_of_residence"
         }
       ],
       "kind": "place",
@@ -522,23 +626,39 @@
       "media": [],
       "relations": [
         {
-          "event": "albrecht-pr-ev-031",
+          "event": "dürer-pr-ev-031",
           "role": "role-sibling_of"
         },
         {
-          "event": "albrecht-pr-ev-032",
+          "event": "dürer-pr-ev-032",
           "role": "role-sibling_of"
         },
         {
-          "event": "albrecht-pr-ev-033",
+          "event": "dürer-pr-ev-033",
           "role": "role-sibling_of"
         },
         {
-          "event": "albrecht-pr-ev-034",
+          "event": "dürer-pr-ev-034",
           "role": "role-sibling_of"
         },
         {
-          "event": "albrecht-pr-ev-035",
+          "event": "dürer-pr-ev-034",
+          "role": "role-sibling_of"
+        },
+        {
+          "event": "dürer-pr-ev-035",
+          "role": "role-sibling_of"
+        },
+        {
+          "event": "dürer-pr-ev-035",
+          "role": "role-sibling_of"
+        },
+        {
+          "event": "dürer-pr-ev-063",
+          "role": "role-sibling_of"
+        },
+        {
+          "event": "dürer-pr-ev-069",
           "role": "role-sibling_of"
         }
       ],
@@ -553,19 +673,35 @@
       "media": [],
       "relations": [
         {
-          "event": "albrecht-pr-ev-036",
+          "event": "dürer-pr-ev-006",
           "role": "role-married_to"
         },
         {
-          "event": "albrecht-pr-ev-037",
+          "event": "dürer-pr-ev-015",
           "role": "role-married_to"
         },
         {
-          "event": "albrecht-pr-ev-038",
+          "event": "dürer-pr-ev-036",
           "role": "role-married_to"
         },
         {
-          "event": "albrecht-pr-ev-039",
+          "event": "dürer-pr-ev-036",
+          "role": "role-married_to"
+        },
+        {
+          "event": "dürer-pr-ev-037",
+          "role": "role-married_to"
+        },
+        {
+          "event": "dürer-pr-ev-038",
+          "role": "role-married_to"
+        },
+        {
+          "event": "dürer-pr-ev-038",
+          "role": "role-married_to"
+        },
+        {
+          "event": "dürer-pr-ev-039",
           "role": "role-married_to"
         }
       ],
@@ -588,8 +724,16 @@
       },
       "relations": [
         {
-          "event": "albrecht-pl-ev-040",
+          "event": "dürer-pr-ev-008",
+          "role": "role-place_of_residence"
+        },
+        {
+          "event": "dürer-pl-ev-040",
           "role": "role-lived_in"
+        },
+        {
+          "event": "dürer-pl-ev-040",
+          "role": "role-place_of_residence"
         }
       ],
       "kind": "place",
@@ -818,7 +962,7 @@
       },
       "relations": [
         {
-          "event": "dürer-cho-ev-041",
+          "event": "dürer-pr-ev-041",
           "role": "role-object_created"
         }
       ],
@@ -856,7 +1000,7 @@
       },
       "relations": [
         {
-          "event": "dürer-cho-ev-042",
+          "event": "dürer-pr-ev-042",
           "role": "role-object_created"
         }
       ],
@@ -884,7 +1028,7 @@
       },
       "relations": [
         {
-          "event": "dürer-cho-ev-043",
+          "event": "dürer-pr-ev-043",
           "role": "role-object_created"
         }
       ],
@@ -902,7 +1046,7 @@
       },
       "relations": [
         {
-          "event": "dürer-cho-ev-044",
+          "event": "dürer-pr-ev-044",
           "role": "role-object_created"
         }
       ],
@@ -920,7 +1064,7 @@
       },
       "relations": [
         {
-          "event": "dürer-cho-ev-045",
+          "event": "dürer-pr-ev-045",
           "role": "role-object_created"
         }
       ],
@@ -960,19 +1104,19 @@
       "media": [],
       "relations": [
         {
-          "event": "albrecht-pr-ev-046",
+          "event": "dürer-pr-ev-046",
           "role": "role-lived_in"
         },
         {
-          "event": "albrecht-pr-ev-047",
+          "event": "dürer-pr-ev-047",
           "role": "role-lived_in"
         },
         {
-          "event": "albrecht-pr-ev-048",
+          "event": "dürer-pr-ev-048",
           "role": "role-lived_in"
         },
         {
-          "event": "albrecht-pr-ev-049",
+          "event": "dürer-pr-ev-049",
           "role": "role-lived_in"
         }
       ],
@@ -985,8 +1129,16 @@
       },
       "relations": [
         {
-          "event": "albrecht-pl-ev-050",
+          "event": "dürer-pr-ev-047",
+          "role": "role-place_of_residence"
+        },
+        {
+          "event": "dürer-pl-ev-050",
           "role": "role-lived_in"
+        },
+        {
+          "event": "dürer-pl-ev-050",
+          "role": "role-place_of_residence"
         }
       ],
       "kind": "place",
@@ -1002,8 +1154,16 @@
       },
       "relations": [
         {
-          "event": "albrecht-pl-ev-051",
+          "event": "dürer-pr-ev-048",
+          "role": "role-place_of_residence"
+        },
+        {
+          "event": "dürer-pl-ev-051",
           "role": "role-lived_in"
+        },
+        {
+          "event": "dürer-pl-ev-051",
+          "role": "role-place_of_residence"
         }
       ],
       "kind": "place",
@@ -1019,8 +1179,16 @@
       },
       "relations": [
         {
-          "event": "albrecht-pl-ev-052",
+          "event": "dürer-pr-ev-049",
+          "role": "role-place_of_residence"
+        },
+        {
+          "event": "dürer-pl-ev-052",
           "role": "role-lived_in"
+        },
+        {
+          "event": "dürer-pl-ev-052",
+          "role": "role-place_of_residence"
         }
       ],
       "kind": "place",
@@ -1051,11 +1219,19 @@
       "media": [],
       "relations": [
         {
-          "event": "albrecht-pr-ev-053",
+          "event": "dürer-pr-ev-009",
           "role": "role-sibling_of"
         },
         {
-          "event": "albrecht-pr-ev-054",
+          "event": "dürer-pr-ev-053",
+          "role": "role-sibling_of"
+        },
+        {
+          "event": "dürer-pr-ev-053",
+          "role": "role-sibling_of"
+        },
+        {
+          "event": "dürer-pr-ev-054",
           "role": "role-sibling_of"
         }
       ],
@@ -1070,11 +1246,19 @@
       "media": [],
       "relations": [
         {
-          "event": "albrecht-pr-ev-055",
+          "event": "dürer-pr-ev-011",
           "role": "role-sibling_of"
         },
         {
-          "event": "albrecht-pr-ev-056",
+          "event": "dürer-pr-ev-055",
+          "role": "role-sibling_of"
+        },
+        {
+          "event": "dürer-pr-ev-055",
+          "role": "role-sibling_of"
+        },
+        {
+          "event": "dürer-pr-ev-056",
           "role": "role-sibling_of"
         }
       ],
@@ -1089,8 +1273,16 @@
       "media": [],
       "relations": [
         {
-          "event": "albrecht-pr-ev-057",
+          "event": "dürer-pr-ev-013",
+          "role": "role-unk"
+        },
+        {
+          "event": "dürer-pr-ev-057",
           "role": "role-alternate_name"
+        },
+        {
+          "event": "dürer-pr-ev-057",
+          "role": "role-unk"
         }
       ],
       "kind": "person"
@@ -1134,12 +1326,28 @@
       "media": [],
       "relations": [
         {
-          "event": "albrecht-pr-ev-058",
+          "event": "dürer-pr-ev-005",
+          "role": "role-parent_of"
+        },
+        {
+          "event": "dürer-pr-ev-014",
+          "role": "role-parent_of"
+        },
+        {
+          "event": "dürer-pr-ev-058",
           "role": "role-child_of"
         },
         {
-          "event": "albrecht-pr-ev-059",
+          "event": "dürer-pr-ev-058",
+          "role": "role-parent_of"
+        },
+        {
+          "event": "dürer-pr-ev-059",
           "role": "role-child_of"
+        },
+        {
+          "event": "dürer-pr-ev-059",
+          "role": "role-parent_of"
         }
       ],
       "kind": "person"
@@ -1165,7 +1373,7 @@
       },
       "relations": [
         {
-          "event": "dürer-cho-ev-060",
+          "event": "dürer-pr-ev-060",
           "role": "role-object_created"
         }
       ],
@@ -1213,7 +1421,7 @@
       },
       "relations": [
         {
-          "event": "dürer-cho-ev-061",
+          "event": "dürer-pr-ev-061",
           "role": "role-object_created"
         }
       ],
@@ -1268,27 +1476,51 @@
       "media": [],
       "relations": [
         {
-          "event": "albrecht-pr-ev-062",
+          "event": "dürer-pr-ev-031",
           "role": "role-sibling_of"
         },
         {
-          "event": "albrecht-pr-ev-063",
+          "event": "dürer-pr-ev-062",
           "role": "role-sibling_of"
         },
         {
-          "event": "albrecht-pr-ev-064",
+          "event": "dürer-pr-ev-062",
           "role": "role-sibling_of"
         },
         {
-          "event": "albrecht-pr-ev-065",
+          "event": "dürer-pr-ev-063",
           "role": "role-sibling_of"
         },
         {
-          "event": "albrecht-pr-ev-066",
+          "event": "dürer-pr-ev-064",
           "role": "role-sibling_of"
         },
         {
-          "event": "albrecht-pr-ev-067",
+          "event": "dürer-pr-ev-065",
+          "role": "role-sibling_of"
+        },
+        {
+          "event": "dürer-pr-ev-066",
+          "role": "role-sibling_of"
+        },
+        {
+          "event": "dürer-pr-ev-066",
+          "role": "role-sibling_of"
+        },
+        {
+          "event": "dürer-pr-ev-067",
+          "role": "role-sibling_of"
+        },
+        {
+          "event": "dürer-pr-ev-067",
+          "role": "role-sibling_of"
+        },
+        {
+          "event": "dürer-pr-ev-071",
+          "role": "role-sibling_of"
+        },
+        {
+          "event": "dürer-pr-ev-076",
           "role": "role-sibling_of"
         }
       ],
@@ -1303,27 +1535,51 @@
       "media": [],
       "relations": [
         {
-          "event": "albrecht-pr-ev-068",
+          "event": "dürer-pr-ev-032",
           "role": "role-sibling_of"
         },
         {
-          "event": "albrecht-pr-ev-069",
+          "event": "dürer-pr-ev-064",
           "role": "role-sibling_of"
         },
         {
-          "event": "albrecht-pr-ev-070",
+          "event": "dürer-pr-ev-068",
           "role": "role-sibling_of"
         },
         {
-          "event": "albrecht-pr-ev-071",
+          "event": "dürer-pr-ev-068",
           "role": "role-sibling_of"
         },
         {
-          "event": "albrecht-pr-ev-072",
+          "event": "dürer-pr-ev-069",
           "role": "role-sibling_of"
         },
         {
-          "event": "albrecht-pr-ev-073",
+          "event": "dürer-pr-ev-070",
+          "role": "role-sibling_of"
+        },
+        {
+          "event": "dürer-pr-ev-070",
+          "role": "role-sibling_of"
+        },
+        {
+          "event": "dürer-pr-ev-071",
+          "role": "role-sibling_of"
+        },
+        {
+          "event": "dürer-pr-ev-072",
+          "role": "role-sibling_of"
+        },
+        {
+          "event": "dürer-pr-ev-073",
+          "role": "role-sibling_of"
+        },
+        {
+          "event": "dürer-pr-ev-073",
+          "role": "role-sibling_of"
+        },
+        {
+          "event": "dürer-pr-ev-078",
           "role": "role-sibling_of"
         }
       ],
@@ -1338,23 +1594,47 @@
       "media": [],
       "relations": [
         {
-          "event": "albrecht-pr-ev-074",
+          "event": "dürer-pr-ev-033",
           "role": "role-sibling_of"
         },
         {
-          "event": "albrecht-pr-ev-075",
+          "event": "dürer-pr-ev-065",
           "role": "role-sibling_of"
         },
         {
-          "event": "albrecht-pr-ev-076",
+          "event": "dürer-pr-ev-072",
           "role": "role-sibling_of"
         },
         {
-          "event": "albrecht-pr-ev-077",
+          "event": "dürer-pr-ev-074",
           "role": "role-sibling_of"
         },
         {
-          "event": "albrecht-pr-ev-078",
+          "event": "dürer-pr-ev-074",
+          "role": "role-sibling_of"
+        },
+        {
+          "event": "dürer-pr-ev-075",
+          "role": "role-sibling_of"
+        },
+        {
+          "event": "dürer-pr-ev-075",
+          "role": "role-sibling_of"
+        },
+        {
+          "event": "dürer-pr-ev-076",
+          "role": "role-sibling_of"
+        },
+        {
+          "event": "dürer-pr-ev-077",
+          "role": "role-sibling_of"
+        },
+        {
+          "event": "dürer-pr-ev-077",
+          "role": "role-sibling_of"
+        },
+        {
+          "event": "dürer-pr-ev-078",
           "role": "role-sibling_of"
         }
       ],
@@ -1447,11 +1727,19 @@
       "media": [],
       "relations": [
         {
-          "event": "albrecht-pr-ev-079",
+          "event": "dürer-pr-ev-018",
           "role": "role-married_to"
         },
         {
-          "event": "albrecht-pr-ev-080",
+          "event": "dürer-pr-ev-079",
+          "role": "role-married_to"
+        },
+        {
+          "event": "dürer-pr-ev-080",
+          "role": "role-married_to"
+        },
+        {
+          "event": "dürer-pr-ev-080",
           "role": "role-married_to"
         }
       ],
@@ -1488,7 +1776,7 @@
       },
       "relations": [
         {
-          "event": "dürer-cho-ev-081",
+          "event": "dürer-pr-ev-081",
           "role": "role-object_created"
         }
       ],
@@ -1521,7 +1809,7 @@
       },
       "relations": [
         {
-          "event": "dürer-cho-ev-082",
+          "event": "dürer-pr-ev-082",
           "role": "role-object_created"
         }
       ],
@@ -1606,7 +1894,7 @@
       },
       "relations": [
         {
-          "event": "dürer-cho-ev-083",
+          "event": "dürer-pr-ev-083",
           "role": "role-object_created"
         }
       ],
@@ -1624,7 +1912,7 @@
       },
       "relations": [
         {
-          "event": "dürer-cho-ev-084",
+          "event": "dürer-pr-ev-084",
           "role": "role-object_created"
         }
       ],
@@ -1642,7 +1930,7 @@
       },
       "relations": [
         {
-          "event": "dürer-cho-ev-085",
+          "event": "dürer-pr-ev-085",
           "role": "role-object_created"
         }
       ],
@@ -1660,7 +1948,7 @@
       },
       "relations": [
         {
-          "event": "dürer-cho-ev-086",
+          "event": "dürer-pr-ev-086",
           "role": "role-object_created"
         }
       ],
@@ -1700,7 +1988,7 @@
       },
       "relations": [
         {
-          "event": "dürer-cho-ev-087",
+          "event": "dürer-pr-ev-087",
           "role": "role-object_created"
         }
       ],
@@ -1718,7 +2006,7 @@
       },
       "relations": [
         {
-          "event": "dürer-cho-ev-088",
+          "event": "dürer-pr-ev-088",
           "role": "role-object_created"
         }
       ],
@@ -1736,7 +2024,7 @@
       },
       "relations": [
         {
-          "event": "dürer-cho-ev-089",
+          "event": "dürer-pr-ev-089",
           "role": "role-object_created"
         }
       ],
@@ -1764,7 +2052,7 @@
       },
       "relations": [
         {
-          "event": "dürer-cho-ev-090",
+          "event": "dürer-pr-ev-090",
           "role": "role-object_created"
         }
       ],
@@ -1782,7 +2070,7 @@
       },
       "relations": [
         {
-          "event": "dürer-cho-ev-091",
+          "event": "dürer-pr-ev-091",
           "role": "role-object_created"
         }
       ],
@@ -1800,7 +2088,7 @@
       },
       "relations": [
         {
-          "event": "dürer-cho-ev-092",
+          "event": "dürer-pr-ev-092",
           "role": "role-object_created"
         }
       ],
@@ -1818,7 +2106,7 @@
       },
       "relations": [
         {
-          "event": "dürer-cho-ev-093",
+          "event": "dürer-pr-ev-093",
           "role": "role-object_created"
         }
       ],
@@ -1836,7 +2124,7 @@
       },
       "relations": [
         {
-          "event": "dürer-cho-ev-094",
+          "event": "dürer-pr-ev-094",
           "role": "role-object_created"
         }
       ],
@@ -1884,7 +2172,7 @@
       },
       "relations": [
         {
-          "event": "dürer-cho-ev-095",
+          "event": "dürer-pr-ev-095",
           "role": "role-object_created"
         }
       ],
@@ -1902,7 +2190,7 @@
       },
       "relations": [
         {
-          "event": "dürer-cho-ev-096",
+          "event": "dürer-pr-ev-096",
           "role": "role-object_created"
         }
       ],
@@ -1920,7 +2208,7 @@
       },
       "relations": [
         {
-          "event": "dürer-cho-ev-097",
+          "event": "dürer-pr-ev-097",
           "role": "role-object_created"
         }
       ],
@@ -1938,7 +2226,7 @@
       },
       "relations": [
         {
-          "event": "dürer-cho-ev-098",
+          "event": "dürer-pr-ev-098",
           "role": "role-object_created"
         }
       ],
@@ -1966,7 +2254,7 @@
       },
       "relations": [
         {
-          "event": "dürer-cho-ev-099",
+          "event": "dürer-pr-ev-099",
           "role": "role-object_created"
         }
       ],
@@ -1997,7 +2285,7 @@
       },
       "relations": [
         {
-          "event": "dürer-cho-ev-100",
+          "event": "dürer-pr-ev-100",
           "role": "role-object_created"
         }
       ],
@@ -2015,7 +2303,7 @@
       },
       "relations": [
         {
-          "event": "dürer-cho-ev-101",
+          "event": "dürer-pr-ev-101",
           "role": "role-object_created"
         }
       ],
@@ -2033,7 +2321,7 @@
       },
       "relations": [
         {
-          "event": "dürer-cho-ev-102",
+          "event": "dürer-pr-ev-102",
           "role": "role-object_created"
         }
       ],
@@ -2086,7 +2374,7 @@
       },
       "relations": [
         {
-          "event": "dürer-cho-ev-103",
+          "event": "dürer-pr-ev-103",
           "role": "role-object_created"
         }
       ],
@@ -2104,7 +2392,7 @@
       },
       "relations": [
         {
-          "event": "dürer-cho-ev-104",
+          "event": "dürer-pr-ev-104",
           "role": "role-object_created"
         }
       ],
@@ -2122,7 +2410,7 @@
       },
       "relations": [
         {
-          "event": "dürer-cho-ev-105",
+          "event": "dürer-pr-ev-105",
           "role": "role-object_created"
         }
       ],
@@ -2140,7 +2428,7 @@
       },
       "relations": [
         {
-          "event": "dürer-cho-ev-106",
+          "event": "dürer-pr-ev-106",
           "role": "role-object_created"
         }
       ],
@@ -2158,7 +2446,7 @@
       },
       "relations": [
         {
-          "event": "dürer-cho-ev-107",
+          "event": "dürer-pr-ev-107",
           "role": "role-object_created"
         }
       ],
@@ -2186,7 +2474,7 @@
       },
       "relations": [
         {
-          "event": "dürer-cho-ev-108",
+          "event": "dürer-pr-ev-108",
           "role": "role-object_created"
         }
       ],
@@ -2204,7 +2492,7 @@
       },
       "relations": [
         {
-          "event": "dürer-cho-ev-109",
+          "event": "dürer-pr-ev-109",
           "role": "role-object_created"
         }
       ],
@@ -2222,7 +2510,7 @@
       },
       "relations": [
         {
-          "event": "dürer-cho-ev-110",
+          "event": "dürer-pr-ev-110",
           "role": "role-object_created"
         }
       ],
@@ -2240,7 +2528,7 @@
       },
       "relations": [
         {
-          "event": "dürer-cho-ev-111",
+          "event": "dürer-pr-ev-111",
           "role": "role-object_created"
         }
       ],
@@ -2258,7 +2546,7 @@
       },
       "relations": [
         {
-          "event": "dürer-cho-ev-112",
+          "event": "dürer-pr-ev-112",
           "role": "role-object_created"
         }
       ],
@@ -2286,7 +2574,7 @@
       },
       "relations": [
         {
-          "event": "dürer-cho-ev-113",
+          "event": "dürer-pr-ev-113",
           "role": "role-object_created"
         }
       ],
@@ -2304,7 +2592,7 @@
       },
       "relations": [
         {
-          "event": "dürer-cho-ev-114",
+          "event": "dürer-pr-ev-114",
           "role": "role-object_created"
         }
       ],
@@ -2322,7 +2610,7 @@
       },
       "relations": [
         {
-          "event": "dürer-cho-ev-115",
+          "event": "dürer-pr-ev-115",
           "role": "role-object_created"
         }
       ],
@@ -2365,7 +2653,7 @@
       },
       "relations": [
         {
-          "event": "dürer-cho-ev-116",
+          "event": "dürer-pr-ev-116",
           "role": "role-object_created"
         }
       ],
@@ -2403,7 +2691,7 @@
       },
       "relations": [
         {
-          "event": "dürer-cho-ev-117",
+          "event": "dürer-pr-ev-117",
           "role": "role-object_created"
         }
       ],
@@ -2441,7 +2729,7 @@
       },
       "relations": [
         {
-          "event": "dürer-cho-ev-118",
+          "event": "dürer-pr-ev-118",
           "role": "role-object_created"
         }
       ],
@@ -2459,7 +2747,7 @@
       },
       "relations": [
         {
-          "event": "dürer-cho-ev-119",
+          "event": "dürer-pr-ev-119",
           "role": "role-object_created"
         }
       ],
@@ -2517,7 +2805,7 @@
       },
       "relations": [
         {
-          "event": "dürer-cho-ev-120",
+          "event": "dürer-pr-ev-120",
           "role": "role-object_created"
         }
       ],
@@ -2754,7 +3042,7 @@
       },
       "relations": [
         {
-          "event": "dürer-cho-ev-121",
+          "event": "dürer-pr-ev-121",
           "role": "role-object_created"
         }
       ],
@@ -2921,7 +3209,7 @@
       },
       "relations": [
         {
-          "event": "dürer-cho-ev-122",
+          "event": "dürer-pr-ev-122",
           "role": "role-object_created"
         }
       ],
@@ -2939,7 +3227,7 @@
       },
       "relations": [
         {
-          "event": "dürer-cho-ev-123",
+          "event": "dürer-pr-ev-123",
           "role": "role-object_created"
         }
       ],
@@ -2997,7 +3285,7 @@
       },
       "relations": [
         {
-          "event": "dürer-cho-ev-124",
+          "event": "dürer-pr-ev-124",
           "role": "role-object_created"
         }
       ],
@@ -3109,7 +3397,7 @@
       },
       "relations": [
         {
-          "event": "dürer-cho-ev-125",
+          "event": "dürer-pr-ev-125",
           "role": "role-object_created"
         }
       ],
@@ -3147,7 +3435,7 @@
       },
       "relations": [
         {
-          "event": "dürer-cho-ev-126",
+          "event": "dürer-pr-ev-126",
           "role": "role-object_created"
         }
       ],
@@ -3303,7 +3591,7 @@
       },
       "relations": [
         {
-          "event": "dürer-cho-ev-127",
+          "event": "dürer-pr-ev-127",
           "role": "role-object_created"
         }
       ],
@@ -3504,7 +3792,7 @@
       },
       "relations": [
         {
-          "event": "dürer-cho-ev-128",
+          "event": "dürer-pr-ev-128",
           "role": "role-object_created"
         }
       ],
@@ -3522,7 +3810,7 @@
       },
       "relations": [
         {
-          "event": "dürer-cho-ev-129",
+          "event": "dürer-pr-ev-129",
           "role": "role-object_created"
         }
       ],
@@ -3540,7 +3828,7 @@
       },
       "relations": [
         {
-          "event": "dürer-cho-ev-130",
+          "event": "dürer-pr-ev-130",
           "role": "role-object_created"
         }
       ],
@@ -3558,7 +3846,7 @@
       },
       "relations": [
         {
-          "event": "dürer-cho-ev-131",
+          "event": "dürer-pr-ev-131",
           "role": "role-object_created"
         }
       ],
@@ -3596,7 +3884,7 @@
       },
       "relations": [
         {
-          "event": "dürer-cho-ev-132",
+          "event": "dürer-pr-ev-132",
           "role": "role-object_created"
         }
       ],
@@ -3634,7 +3922,7 @@
       },
       "relations": [
         {
-          "event": "dürer-cho-ev-133",
+          "event": "dürer-pr-ev-133",
           "role": "role-object_created"
         }
       ],
@@ -3652,7 +3940,7 @@
       },
       "relations": [
         {
-          "event": "dürer-cho-ev-134",
+          "event": "dürer-pr-ev-134",
           "role": "role-object_created"
         }
       ],
@@ -3680,7 +3968,7 @@
       },
       "relations": [
         {
-          "event": "dürer-cho-ev-135",
+          "event": "dürer-pr-ev-135",
           "role": "role-object_created"
         }
       ],
@@ -3718,7 +4006,7 @@
       },
       "relations": [
         {
-          "event": "dürer-cho-ev-136",
+          "event": "dürer-pr-ev-136",
           "role": "role-object_created"
         }
       ],
@@ -3736,7 +4024,7 @@
       },
       "relations": [
         {
-          "event": "dürer-cho-ev-137",
+          "event": "dürer-pr-ev-137",
           "role": "role-object_created"
         }
       ],
@@ -3786,7 +4074,7 @@
       },
       "relations": [
         {
-          "event": "dürer-cho-ev-138",
+          "event": "dürer-pr-ev-138",
           "role": "role-object_created"
         }
       ],
@@ -3871,7 +4159,7 @@
       },
       "relations": [
         {
-          "event": "dürer-cho-ev-139",
+          "event": "dürer-pr-ev-139",
           "role": "role-object_created"
         }
       ],
@@ -3899,7 +4187,7 @@
       },
       "relations": [
         {
-          "event": "dürer-cho-ev-140",
+          "event": "dürer-pr-ev-140",
           "role": "role-object_created"
         }
       ],
@@ -3927,7 +4215,7 @@
       },
       "relations": [
         {
-          "event": "dürer-cho-ev-141",
+          "event": "dürer-pr-ev-141",
           "role": "role-object_created"
         }
       ],
@@ -3937,347 +4225,347 @@
   ],
   "events": [
     {
-      "id": "albrecht-pr-ev-001",
+      "id": "dürer-pr-ev-001",
       "label": {
         "default": "Nuremberg"
       },
-      "kind": "event-kind-born_in",
+      "kind": "event-kind-event-kind-born_in",
       "relations": [
-        {
-          "entity": "dürer-pr-001",
-          "role": "role-born_in"
-        },
         {
           "entity": "dürer-pl-001",
           "role": "role-place_of_birth"
+        },
+        {
+          "entity": "dürer-pr-001",
+          "role": "role-born_in"
         }
       ]
     },
     {
-      "id": "albrecht-pr-ev-002",
+      "id": "dürer-pr-ev-002",
       "label": {
         "default": "Albrecht Dürer the Elder"
       },
-      "kind": "event-kind-child_of",
+      "kind": "event-kind-event-kind-child_of",
       "relations": [
-        {
-          "entity": "dürer-pr-001",
-          "role": "role-child_of"
-        },
         {
           "entity": "dürer-pr-002",
           "role": "role-parent_of"
+        },
+        {
+          "entity": "dürer-pr-001",
+          "role": "role-child_of"
         }
       ]
     },
     {
-      "id": "albrecht-pr-ev-003",
+      "id": "dürer-pr-ev-003",
       "label": {
         "default": "Barbara Holper"
       },
-      "kind": "event-kind-child_of",
+      "kind": "event-kind-event-kind-child_of",
       "relations": [
-        {
-          "entity": "dürer-pr-001",
-          "role": "role-child_of"
-        },
         {
           "entity": "dürer-pr-003",
           "role": "role-parent_of"
+        },
+        {
+          "entity": "dürer-pr-001",
+          "role": "role-child_of"
         }
       ]
     },
     {
-      "id": "albrecht-pr-ev-004",
+      "id": "dürer-pr-ev-004",
       "label": {
         "default": "Dürer"
       },
-      "kind": "event-kind-parent_of",
+      "kind": "event-kind-event-kind-parent_of",
       "relations": [
-        {
-          "entity": "dürer-pr-003",
-          "role": "role-parent_of"
-        },
         {
           "entity": "dürer-pr-001",
           "role": "role-child_of"
+        },
+        {
+          "entity": "dürer-pr-003",
+          "role": "role-parent_of"
         }
       ]
     },
     {
-      "id": "albrecht-pr-ev-005",
+      "id": "dürer-pr-ev-005",
       "label": {
         "default": "Anton Koberger"
       },
-      "kind": "event-kind-child_of",
+      "kind": "event-kind-event-kind-child_of",
       "relations": [
-        {
-          "entity": "dürer-pr-001",
-          "role": "role-child_of"
-        },
         {
           "entity": "dürer-pr-033",
           "role": "role-parent_of"
+        },
+        {
+          "entity": "dürer-pr-001",
+          "role": "role-child_of"
         }
       ]
     },
     {
-      "id": "albrecht-pr-ev-006",
+      "id": "dürer-pr-ev-006",
       "label": {
         "default": "Agnes Frey"
       },
-      "kind": "event-kind-married_to",
+      "kind": "event-kind-event-kind-married_to",
       "relations": [
         {
-          "entity": "dürer-pr-001",
+          "entity": "dürer-pr-006",
           "role": "role-married_to"
         },
         {
-          "entity": "dürer-pr-006",
+          "entity": "dürer-pr-001",
           "role": "role-married_to"
         }
       ]
     },
     {
-      "id": "albrecht-pr-ev-007",
+      "id": "dürer-pr-ev-007",
       "label": {
         "default": "Dürer"
       },
-      "kind": "event-kind-married_to",
+      "kind": "event-kind-event-kind-married_to",
       "relations": [
         {
-          "entity": "dürer-pr-006",
+          "entity": "dürer-pr-001",
           "role": "role-married_to"
         },
         {
-          "entity": "dürer-pr-001",
+          "entity": "dürer-pr-006",
           "role": "role-married_to"
         }
       ]
     },
     {
-      "id": "albrecht-pr-ev-008",
+      "id": "dürer-pr-ev-008",
       "label": {
         "default": "Italy"
       },
-      "kind": "event-kind-lived_in",
+      "kind": "event-kind-event-kind-lived_in",
       "relations": [
-        {
-          "entity": "dürer-pr-001",
-          "role": "role-lived_in"
-        },
         {
           "entity": "dürer-pl-005",
           "role": "role-place_of_residence"
+        },
+        {
+          "entity": "dürer-pr-001",
+          "role": "role-lived_in"
         }
       ]
     },
     {
-      "id": "albrecht-pr-ev-009",
+      "id": "dürer-pr-ev-009",
       "label": {
         "default": "Hans Dürer"
       },
-      "kind": "event-kind-sibling_of",
+      "kind": "event-kind-event-kind-sibling_of",
       "relations": [
         {
-          "entity": "dürer-pr-001",
+          "entity": "dürer-pr-027",
           "role": "role-sibling_of"
         },
         {
-          "entity": "dürer-pr-027",
+          "entity": "dürer-pr-001",
           "role": "role-sibling_of"
         }
       ]
     },
     {
-      "id": "albrecht-pr-ev-010",
+      "id": "dürer-pr-ev-010",
       "label": {
         "default": "Albrecht"
       },
-      "kind": "event-kind-sibling_of",
+      "kind": "event-kind-event-kind-sibling_of",
       "relations": [
         {
-          "entity": "dürer-pr-027",
+          "entity": "dürer-pr-001",
           "role": "role-sibling_of"
         },
         {
-          "entity": "dürer-pr-001",
+          "entity": "dürer-pr-027",
           "role": "role-sibling_of"
         }
       ]
     },
     {
-      "id": "albrecht-pr-ev-011",
+      "id": "dürer-pr-ev-011",
       "label": {
         "default": "Endres Dürer"
       },
-      "kind": "event-kind-sibling_of",
+      "kind": "event-kind-event-kind-sibling_of",
       "relations": [
         {
-          "entity": "dürer-pr-001",
+          "entity": "dürer-pr-028",
           "role": "role-sibling_of"
         },
         {
-          "entity": "dürer-pr-028",
+          "entity": "dürer-pr-001",
           "role": "role-sibling_of"
         }
       ]
     },
     {
-      "id": "albrecht-pr-ev-012",
+      "id": "dürer-pr-ev-012",
       "label": {
         "default": "Albrecht"
       },
-      "kind": "event-kind-sibling_of",
+      "kind": "event-kind-event-kind-sibling_of",
       "relations": [
         {
-          "entity": "dürer-pr-028",
+          "entity": "dürer-pr-001",
           "role": "role-sibling_of"
         },
         {
-          "entity": "dürer-pr-001",
+          "entity": "dürer-pr-028",
           "role": "role-sibling_of"
         }
       ]
     },
     {
-      "id": "albrecht-pr-ev-013",
+      "id": "dürer-pr-ev-013",
       "label": {
         "default": "Ajtósi"
       },
-      "kind": "event-kind-alternate_name",
+      "kind": "event-kind-event-kind-alternate_name",
       "relations": [
-        {
-          "entity": "dürer-pr-001",
-          "role": "role-alternate_name"
-        },
         {
           "entity": "dürer-pr-029",
           "role": "role-unk"
+        },
+        {
+          "entity": "dürer-pr-001",
+          "role": "role-alternate_name"
         }
       ]
     },
     {
-      "id": "albrecht-pr-ev-014",
+      "id": "dürer-pr-ev-014",
       "label": {
         "default": "Anton Koberger"
       },
-      "kind": "event-kind-child_of",
+      "kind": "event-kind-event-kind-child_of",
       "relations": [
-        {
-          "entity": "dürer-pr-001",
-          "role": "role-child_of"
-        },
         {
           "entity": "dürer-pr-033",
           "role": "role-parent_of"
+        },
+        {
+          "entity": "dürer-pr-001",
+          "role": "role-child_of"
         }
       ]
     },
     {
-      "id": "albrecht-pr-ev-015",
+      "id": "dürer-pr-ev-015",
       "label": {
         "default": "Agnes Frey"
       },
-      "kind": "event-kind-married_to",
+      "kind": "event-kind-event-kind-married_to",
       "relations": [
         {
-          "entity": "dürer-pr-001",
+          "entity": "dürer-pr-006",
           "role": "role-married_to"
         },
         {
-          "entity": "dürer-pr-006",
+          "entity": "dürer-pr-001",
           "role": "role-married_to"
         }
       ]
     },
     {
-      "id": "albrecht-pr-ev-016",
+      "id": "dürer-pr-ev-016",
       "label": {
         "default": "Dürer"
       },
-      "kind": "event-kind-married_to",
+      "kind": "event-kind-event-kind-married_to",
       "relations": [
+        {
+          "entity": "dürer-pr-001",
+          "role": "role-married_to"
+        },
         {
           "entity": "dürer-pr-006",
           "role": "role-married_to"
-        },
-        {
-          "entity": "dürer-pr-001",
-          "role": "role-married_to"
         }
       ]
     },
     {
-      "id": "albrecht-pr-ev-017",
+      "id": "dürer-pr-ev-017",
       "label": {
         "default": "Albrecht"
       },
-      "kind": "event-kind-married_to",
+      "kind": "event-kind-event-kind-married_to",
       "relations": [
         {
-          "entity": "dürer-pr-042",
+          "entity": "dürer-pr-001",
           "role": "role-married_to"
         },
         {
-          "entity": "dürer-pr-001",
+          "entity": "dürer-pr-042",
           "role": "role-married_to"
         }
       ]
     },
     {
-      "id": "albrecht-pr-ev-018",
+      "id": "dürer-pr-ev-018",
       "label": {
         "default": "Agnes"
       },
-      "kind": "event-kind-married_to",
+      "kind": "event-kind-event-kind-married_to",
       "relations": [
-        {
-          "entity": "dürer-pr-001",
-          "role": "role-married_to"
-        },
         {
           "entity": "dürer-pr-042",
           "role": "role-married_to"
+        },
+        {
+          "entity": "dürer-pr-001",
+          "role": "role-married_to"
         }
       ]
     },
     {
-      "id": "albrecht-pr-ev-019",
+      "id": "dürer-pr-ev-019",
       "label": {
         "default": "Nuremberg"
       },
-      "kind": "event-kind-lived_in",
+      "kind": "event-kind-event-kind-lived_in",
       "relations": [
-        {
-          "entity": "dürer-pr-001",
-          "role": "role-lived_in"
-        },
         {
           "entity": "dürer-pl-002",
           "role": "role-place_of_residence"
-        }
-      ]
-    },
-    {
-      "id": "albrecht-pr-ev-020",
-      "label": {
-        "default": "Germany"
-      },
-      "kind": "event-kind-lived_in",
-      "relations": [
+        },
         {
           "entity": "dürer-pr-001",
           "role": "role-lived_in"
-        },
-        {
-          "entity": "dürer-pl-003",
-          "role": "role-place_of_residence"
         }
       ]
     },
     {
-      "id": "dürer-cho-ev-021",
+      "id": "dürer-pr-ev-020",
+      "label": {
+        "default": "Germany"
+      },
+      "kind": "event-kind-event-kind-lived_in",
+      "relations": [
+        {
+          "entity": "dürer-pl-003",
+          "role": "role-place_of_residence"
+        },
+        {
+          "entity": "dürer-pr-001",
+          "role": "role-lived_in"
+        }
+      ]
+    },
+    {
+      "id": "dürer-pr-ev-021",
       "label": {
         "default": "Saint Jerome in his Study"
       },
@@ -4294,330 +4582,330 @@
       ]
     },
     {
-      "id": "albrecht-pr-ev-022",
+      "id": "dürer-pr-ev-022",
       "label": {
         "default": "Albrecht Dürer the Elder"
       },
-      "kind": "event-kind-child_of",
+      "kind": "event-kind-event-kind-child_of",
       "relations": [
-        {
-          "entity": "dürer-pr-001",
-          "role": "role-child_of"
-        },
         {
           "entity": "dürer-pr-002",
           "role": "role-parent_of"
+        },
+        {
+          "entity": "dürer-pr-001",
+          "role": "role-child_of"
         }
       ]
     },
     {
-      "id": "albrecht-pr-ev-023",
+      "id": "dürer-pr-ev-023",
       "label": {
         "default": "Albrecht Dürer the Elder"
       },
-      "kind": "event-kind-married_to",
+      "kind": "event-kind-event-kind-married_to",
       "relations": [
         {
-          "entity": "dürer-pr-003",
+          "entity": "dürer-pr-002",
           "role": "role-married_to"
         },
         {
-          "entity": "dürer-pr-002",
+          "entity": "dürer-pr-003",
           "role": "role-married_to"
         }
       ]
     },
     {
-      "id": "albrecht-pl-ev-024",
+      "id": "dürer-pl-ev-024",
       "label": {
         "default": "Nuremberg"
       },
-      "kind": "event-kind-born_in",
+      "kind": "event-kind-event-kind-born_in",
       "relations": [
-        {
-          "entity": "dürer-pr-001",
-          "role": "role-born_in"
-        },
         {
           "entity": "dürer-pl-001",
           "role": "role-place_of_birth"
+        },
+        {
+          "entity": "dürer-pr-001",
+          "role": "role-born_in"
         }
       ]
     },
     {
-      "id": "albrecht-pl-ev-025",
+      "id": "dürer-pl-ev-025",
       "label": {
         "default": "Nuremberg"
       },
-      "kind": "event-kind-lived_in",
+      "kind": "event-kind-event-kind-lived_in",
       "relations": [
-        {
-          "entity": "dürer-pr-025",
-          "role": "role-lived_in"
-        },
         {
           "entity": "dürer-pl-001",
           "role": "role-place_of_residence"
+        },
+        {
+          "entity": "dürer-pr-025",
+          "role": "role-lived_in"
         }
       ]
     },
     {
-      "id": "albrecht-pl-ev-026",
+      "id": "dürer-pl-ev-026",
       "label": {
         "default": "Nuremberg"
       },
-      "kind": "event-kind-lived_in",
+      "kind": "event-kind-event-kind-lived_in",
       "relations": [
-        {
-          "entity": "dürer-pr-001",
-          "role": "role-lived_in"
-        },
         {
           "entity": "dürer-pl-002",
           "role": "role-place_of_residence"
+        },
+        {
+          "entity": "dürer-pr-001",
+          "role": "role-lived_in"
         }
       ]
     },
     {
-      "id": "albrecht-pr-ev-027",
+      "id": "dürer-pr-ev-027",
       "label": {
         "default": "Barbara Holper"
       },
-      "kind": "event-kind-child_of",
+      "kind": "event-kind-event-kind-child_of",
       "relations": [
-        {
-          "entity": "dürer-pr-001",
-          "role": "role-child_of"
-        },
         {
           "entity": "dürer-pr-003",
           "role": "role-parent_of"
+        },
+        {
+          "entity": "dürer-pr-001",
+          "role": "role-child_of"
         }
       ]
     },
     {
-      "id": "albrecht-pr-ev-028",
+      "id": "dürer-pr-ev-028",
       "label": {
         "default": "Dürer"
       },
-      "kind": "event-kind-parent_of",
+      "kind": "event-kind-event-kind-parent_of",
       "relations": [
-        {
-          "entity": "dürer-pr-003",
-          "role": "role-parent_of"
-        },
         {
           "entity": "dürer-pr-001",
           "role": "role-child_of"
+        },
+        {
+          "entity": "dürer-pr-003",
+          "role": "role-parent_of"
         }
       ]
     },
     {
-      "id": "albrecht-pr-ev-029",
+      "id": "dürer-pr-ev-029",
       "label": {
         "default": "Albrecht Dürer the Elder"
       },
-      "kind": "event-kind-married_to",
+      "kind": "event-kind-event-kind-married_to",
       "relations": [
-        {
-          "entity": "dürer-pr-003",
-          "role": "role-married_to"
-        },
         {
           "entity": "dürer-pr-002",
           "role": "role-married_to"
+        },
+        {
+          "entity": "dürer-pr-003",
+          "role": "role-married_to"
         }
       ]
     },
     {
-      "id": "albrecht-pl-ev-030",
+      "id": "dürer-pl-ev-030",
       "label": {
         "default": "Germany"
       },
-      "kind": "event-kind-lived_in",
+      "kind": "event-kind-event-kind-lived_in",
       "relations": [
-        {
-          "entity": "dürer-pr-001",
-          "role": "role-lived_in"
-        },
         {
           "entity": "dürer-pl-003",
           "role": "role-place_of_residence"
-        }
-      ]
-    },
-    {
-      "id": "albrecht-pr-ev-031",
-      "label": {
-        "default": "Caspar"
-      },
-      "kind": "event-kind-sibling_of",
-      "relations": [
-        {
-          "entity": "dürer-pr-005",
-          "role": "role-sibling_of"
         },
-        {
-          "entity": "dürer-pr-036",
-          "role": "role-sibling_of"
-        }
-      ]
-    },
-    {
-      "id": "albrecht-pr-ev-032",
-      "label": {
-        "default": "Paul"
-      },
-      "kind": "event-kind-sibling_of",
-      "relations": [
-        {
-          "entity": "dürer-pr-005",
-          "role": "role-sibling_of"
-        },
-        {
-          "entity": "dürer-pr-037",
-          "role": "role-sibling_of"
-        }
-      ]
-    },
-    {
-      "id": "albrecht-pr-ev-033",
-      "label": {
-        "default": "Ludwig"
-      },
-      "kind": "event-kind-sibling_of",
-      "relations": [
-        {
-          "entity": "dürer-pr-005",
-          "role": "role-sibling_of"
-        },
-        {
-          "entity": "dürer-pr-038",
-          "role": "role-sibling_of"
-        }
-      ]
-    },
-    {
-      "id": "albrecht-pr-ev-034",
-      "label": {
-        "default": "Schongauer"
-      },
-      "kind": "event-kind-sibling_of",
-      "relations": [
-        {
-          "entity": "dürer-pr-036",
-          "role": "role-sibling_of"
-        },
-        {
-          "entity": "dürer-pr-005",
-          "role": "role-sibling_of"
-        }
-      ]
-    },
-    {
-      "id": "albrecht-pr-ev-035",
-      "label": {
-        "default": "Schongauer"
-      },
-      "kind": "event-kind-sibling_of",
-      "relations": [
-        {
-          "entity": "dürer-pr-037",
-          "role": "role-sibling_of"
-        },
-        {
-          "entity": "dürer-pr-005",
-          "role": "role-sibling_of"
-        }
-      ]
-    },
-    {
-      "id": "albrecht-pr-ev-036",
-      "label": {
-        "default": "Agnes Frey"
-      },
-      "kind": "event-kind-married_to",
-      "relations": [
-        {
-          "entity": "dürer-pr-001",
-          "role": "role-married_to"
-        },
-        {
-          "entity": "dürer-pr-006",
-          "role": "role-married_to"
-        }
-      ]
-    },
-    {
-      "id": "albrecht-pr-ev-037",
-      "label": {
-        "default": "Dürer"
-      },
-      "kind": "event-kind-married_to",
-      "relations": [
-        {
-          "entity": "dürer-pr-006",
-          "role": "role-married_to"
-        },
-        {
-          "entity": "dürer-pr-001",
-          "role": "role-married_to"
-        }
-      ]
-    },
-    {
-      "id": "albrecht-pr-ev-038",
-      "label": {
-        "default": "Agnes Frey"
-      },
-      "kind": "event-kind-married_to",
-      "relations": [
-        {
-          "entity": "dürer-pr-001",
-          "role": "role-married_to"
-        },
-        {
-          "entity": "dürer-pr-006",
-          "role": "role-married_to"
-        }
-      ]
-    },
-    {
-      "id": "albrecht-pr-ev-039",
-      "label": {
-        "default": "Dürer"
-      },
-      "kind": "event-kind-married_to",
-      "relations": [
-        {
-          "entity": "dürer-pr-006",
-          "role": "role-married_to"
-        },
-        {
-          "entity": "dürer-pr-001",
-          "role": "role-married_to"
-        }
-      ]
-    },
-    {
-      "id": "albrecht-pl-ev-040",
-      "label": {
-        "default": "Italy"
-      },
-      "kind": "event-kind-lived_in",
-      "relations": [
         {
           "entity": "dürer-pr-001",
           "role": "role-lived_in"
-        },
-        {
-          "entity": "dürer-pl-005",
-          "role": "role-place_of_residence"
         }
       ]
     },
     {
-      "id": "dürer-cho-ev-041",
+      "id": "dürer-pr-ev-031",
+      "label": {
+        "default": "Caspar"
+      },
+      "kind": "event-kind-event-kind-sibling_of",
+      "relations": [
+        {
+          "entity": "dürer-pr-036",
+          "role": "role-sibling_of"
+        },
+        {
+          "entity": "dürer-pr-005",
+          "role": "role-sibling_of"
+        }
+      ]
+    },
+    {
+      "id": "dürer-pr-ev-032",
+      "label": {
+        "default": "Paul"
+      },
+      "kind": "event-kind-event-kind-sibling_of",
+      "relations": [
+        {
+          "entity": "dürer-pr-037",
+          "role": "role-sibling_of"
+        },
+        {
+          "entity": "dürer-pr-005",
+          "role": "role-sibling_of"
+        }
+      ]
+    },
+    {
+      "id": "dürer-pr-ev-033",
+      "label": {
+        "default": "Ludwig"
+      },
+      "kind": "event-kind-event-kind-sibling_of",
+      "relations": [
+        {
+          "entity": "dürer-pr-038",
+          "role": "role-sibling_of"
+        },
+        {
+          "entity": "dürer-pr-005",
+          "role": "role-sibling_of"
+        }
+      ]
+    },
+    {
+      "id": "dürer-pr-ev-034",
+      "label": {
+        "default": "Schongauer"
+      },
+      "kind": "event-kind-event-kind-sibling_of",
+      "relations": [
+        {
+          "entity": "dürer-pr-005",
+          "role": "role-sibling_of"
+        },
+        {
+          "entity": "dürer-pr-036",
+          "role": "role-sibling_of"
+        }
+      ]
+    },
+    {
+      "id": "dürer-pr-ev-035",
+      "label": {
+        "default": "Schongauer"
+      },
+      "kind": "event-kind-event-kind-sibling_of",
+      "relations": [
+        {
+          "entity": "dürer-pr-005",
+          "role": "role-sibling_of"
+        },
+        {
+          "entity": "dürer-pr-037",
+          "role": "role-sibling_of"
+        }
+      ]
+    },
+    {
+      "id": "dürer-pr-ev-036",
+      "label": {
+        "default": "Agnes Frey"
+      },
+      "kind": "event-kind-event-kind-married_to",
+      "relations": [
+        {
+          "entity": "dürer-pr-006",
+          "role": "role-married_to"
+        },
+        {
+          "entity": "dürer-pr-001",
+          "role": "role-married_to"
+        }
+      ]
+    },
+    {
+      "id": "dürer-pr-ev-037",
+      "label": {
+        "default": "Dürer"
+      },
+      "kind": "event-kind-event-kind-married_to",
+      "relations": [
+        {
+          "entity": "dürer-pr-001",
+          "role": "role-married_to"
+        },
+        {
+          "entity": "dürer-pr-006",
+          "role": "role-married_to"
+        }
+      ]
+    },
+    {
+      "id": "dürer-pr-ev-038",
+      "label": {
+        "default": "Agnes Frey"
+      },
+      "kind": "event-kind-event-kind-married_to",
+      "relations": [
+        {
+          "entity": "dürer-pr-006",
+          "role": "role-married_to"
+        },
+        {
+          "entity": "dürer-pr-001",
+          "role": "role-married_to"
+        }
+      ]
+    },
+    {
+      "id": "dürer-pr-ev-039",
+      "label": {
+        "default": "Dürer"
+      },
+      "kind": "event-kind-event-kind-married_to",
+      "relations": [
+        {
+          "entity": "dürer-pr-001",
+          "role": "role-married_to"
+        },
+        {
+          "entity": "dürer-pr-006",
+          "role": "role-married_to"
+        }
+      ]
+    },
+    {
+      "id": "dürer-pl-ev-040",
+      "label": {
+        "default": "Italy"
+      },
+      "kind": "event-kind-event-kind-lived_in",
+      "relations": [
+        {
+          "entity": "dürer-pl-005",
+          "role": "role-place_of_residence"
+        },
+        {
+          "entity": "dürer-pr-001",
+          "role": "role-lived_in"
+        }
+      ]
+    },
+    {
+      "id": "dürer-pr-ev-041",
       "label": {
         "default": "The second book"
       },
@@ -4634,7 +4922,7 @@
       ]
     },
     {
-      "id": "dürer-cho-ev-042",
+      "id": "dürer-pr-ev-042",
       "label": {
         "default": "Renaissance"
       },
@@ -4651,7 +4939,7 @@
       ]
     },
     {
-      "id": "dürer-cho-ev-043",
+      "id": "dürer-pr-ev-043",
       "label": {
         "default": "Meisterstiche"
       },
@@ -4668,7 +4956,7 @@
       ]
     },
     {
-      "id": "dürer-cho-ev-044",
+      "id": "dürer-pr-ev-044",
       "label": {
         "default": "Knight, Death and the Devil"
       },
@@ -4685,7 +4973,7 @@
       ]
     },
     {
-      "id": "dürer-cho-ev-045",
+      "id": "dürer-pr-ev-045",
       "label": {
         "default": "Melencolia I"
       },
@@ -4702,245 +4990,245 @@
       ]
     },
     {
-      "id": "albrecht-pr-ev-046",
+      "id": "dürer-pr-ev-046",
       "label": {
         "default": "Nuremberg"
       },
-      "kind": "event-kind-lived_in",
+      "kind": "event-kind-event-kind-lived_in",
       "relations": [
-        {
-          "entity": "dürer-pr-025",
-          "role": "role-lived_in"
-        },
         {
           "entity": "dürer-pl-001",
           "role": "role-place_of_residence"
+        },
+        {
+          "entity": "dürer-pr-025",
+          "role": "role-lived_in"
         }
       ]
     },
     {
-      "id": "albrecht-pr-ev-047",
+      "id": "dürer-pr-ev-047",
       "label": {
         "default": "Ajtós"
       },
-      "kind": "event-kind-lived_in",
+      "kind": "event-kind-event-kind-lived_in",
       "relations": [
-        {
-          "entity": "dürer-pr-025",
-          "role": "role-lived_in"
-        },
         {
           "entity": "dürer-pl-013",
           "role": "role-place_of_residence"
+        },
+        {
+          "entity": "dürer-pr-025",
+          "role": "role-lived_in"
         }
       ]
     },
     {
-      "id": "albrecht-pr-ev-048",
+      "id": "dürer-pr-ev-048",
       "label": {
         "default": "Gyula"
       },
-      "kind": "event-kind-lived_in",
+      "kind": "event-kind-event-kind-lived_in",
       "relations": [
-        {
-          "entity": "dürer-pr-025",
-          "role": "role-lived_in"
-        },
         {
           "entity": "dürer-pl-014",
           "role": "role-place_of_residence"
-        }
-      ]
-    },
-    {
-      "id": "albrecht-pr-ev-049",
-      "label": {
-        "default": "Hungary"
-      },
-      "kind": "event-kind-lived_in",
-      "relations": [
+        },
         {
           "entity": "dürer-pr-025",
           "role": "role-lived_in"
-        },
-        {
-          "entity": "dürer-pl-015",
-          "role": "role-place_of_residence"
         }
       ]
     },
     {
-      "id": "albrecht-pl-ev-050",
+      "id": "dürer-pr-ev-049",
+      "label": {
+        "default": "Hungary"
+      },
+      "kind": "event-kind-event-kind-lived_in",
+      "relations": [
+        {
+          "entity": "dürer-pl-015",
+          "role": "role-place_of_residence"
+        },
+        {
+          "entity": "dürer-pr-025",
+          "role": "role-lived_in"
+        }
+      ]
+    },
+    {
+      "id": "dürer-pl-ev-050",
       "label": {
         "default": "Ajtós"
       },
-      "kind": "event-kind-lived_in",
+      "kind": "event-kind-event-kind-lived_in",
       "relations": [
-        {
-          "entity": "dürer-pr-025",
-          "role": "role-lived_in"
-        },
         {
           "entity": "dürer-pl-013",
           "role": "role-place_of_residence"
+        },
+        {
+          "entity": "dürer-pr-025",
+          "role": "role-lived_in"
         }
       ]
     },
     {
-      "id": "albrecht-pl-ev-051",
+      "id": "dürer-pl-ev-051",
       "label": {
         "default": "Gyula"
       },
-      "kind": "event-kind-lived_in",
+      "kind": "event-kind-event-kind-lived_in",
       "relations": [
-        {
-          "entity": "dürer-pr-025",
-          "role": "role-lived_in"
-        },
         {
           "entity": "dürer-pl-014",
           "role": "role-place_of_residence"
-        }
-      ]
-    },
-    {
-      "id": "albrecht-pl-ev-052",
-      "label": {
-        "default": "Hungary"
-      },
-      "kind": "event-kind-lived_in",
-      "relations": [
+        },
         {
           "entity": "dürer-pr-025",
           "role": "role-lived_in"
-        },
-        {
-          "entity": "dürer-pl-015",
-          "role": "role-place_of_residence"
         }
       ]
     },
     {
-      "id": "albrecht-pr-ev-053",
+      "id": "dürer-pl-ev-052",
+      "label": {
+        "default": "Hungary"
+      },
+      "kind": "event-kind-event-kind-lived_in",
+      "relations": [
+        {
+          "entity": "dürer-pl-015",
+          "role": "role-place_of_residence"
+        },
+        {
+          "entity": "dürer-pr-025",
+          "role": "role-lived_in"
+        }
+      ]
+    },
+    {
+      "id": "dürer-pr-ev-053",
       "label": {
         "default": "Hans Dürer"
       },
-      "kind": "event-kind-sibling_of",
+      "kind": "event-kind-event-kind-sibling_of",
       "relations": [
         {
-          "entity": "dürer-pr-001",
+          "entity": "dürer-pr-027",
           "role": "role-sibling_of"
         },
         {
-          "entity": "dürer-pr-027",
+          "entity": "dürer-pr-001",
           "role": "role-sibling_of"
         }
       ]
     },
     {
-      "id": "albrecht-pr-ev-054",
+      "id": "dürer-pr-ev-054",
       "label": {
         "default": "Albrecht"
       },
-      "kind": "event-kind-sibling_of",
+      "kind": "event-kind-event-kind-sibling_of",
       "relations": [
         {
-          "entity": "dürer-pr-027",
+          "entity": "dürer-pr-001",
           "role": "role-sibling_of"
         },
         {
-          "entity": "dürer-pr-001",
+          "entity": "dürer-pr-027",
           "role": "role-sibling_of"
         }
       ]
     },
     {
-      "id": "albrecht-pr-ev-055",
+      "id": "dürer-pr-ev-055",
       "label": {
         "default": "Endres Dürer"
       },
-      "kind": "event-kind-sibling_of",
+      "kind": "event-kind-event-kind-sibling_of",
       "relations": [
         {
-          "entity": "dürer-pr-001",
+          "entity": "dürer-pr-028",
           "role": "role-sibling_of"
         },
         {
-          "entity": "dürer-pr-028",
+          "entity": "dürer-pr-001",
           "role": "role-sibling_of"
         }
       ]
     },
     {
-      "id": "albrecht-pr-ev-056",
+      "id": "dürer-pr-ev-056",
       "label": {
         "default": "Albrecht"
       },
-      "kind": "event-kind-sibling_of",
+      "kind": "event-kind-event-kind-sibling_of",
       "relations": [
+        {
+          "entity": "dürer-pr-001",
+          "role": "role-sibling_of"
+        },
         {
           "entity": "dürer-pr-028",
           "role": "role-sibling_of"
-        },
-        {
-          "entity": "dürer-pr-001",
-          "role": "role-sibling_of"
         }
       ]
     },
     {
-      "id": "albrecht-pr-ev-057",
+      "id": "dürer-pr-ev-057",
       "label": {
         "default": "Ajtósi"
       },
-      "kind": "event-kind-alternate_name",
+      "kind": "event-kind-event-kind-alternate_name",
       "relations": [
-        {
-          "entity": "dürer-pr-001",
-          "role": "role-alternate_name"
-        },
         {
           "entity": "dürer-pr-029",
           "role": "role-unk"
+        },
+        {
+          "entity": "dürer-pr-001",
+          "role": "role-alternate_name"
         }
       ]
     },
     {
-      "id": "albrecht-pr-ev-058",
+      "id": "dürer-pr-ev-058",
       "label": {
         "default": "Anton Koberger"
       },
-      "kind": "event-kind-child_of",
+      "kind": "event-kind-event-kind-child_of",
       "relations": [
-        {
-          "entity": "dürer-pr-001",
-          "role": "role-child_of"
-        },
         {
           "entity": "dürer-pr-033",
           "role": "role-parent_of"
+        },
+        {
+          "entity": "dürer-pr-001",
+          "role": "role-child_of"
         }
       ]
     },
     {
-      "id": "albrecht-pr-ev-059",
+      "id": "dürer-pr-ev-059",
       "label": {
         "default": "Anton Koberger"
       },
-      "kind": "event-kind-child_of",
+      "kind": "event-kind-event-kind-child_of",
       "relations": [
-        {
-          "entity": "dürer-pr-001",
-          "role": "role-child_of"
-        },
         {
           "entity": "dürer-pr-033",
           "role": "role-parent_of"
+        },
+        {
+          "entity": "dürer-pr-001",
+          "role": "role-child_of"
         }
       ]
     },
     {
-      "id": "dürer-cho-ev-060",
+      "id": "dürer-pr-ev-060",
       "label": {
         "default": "the Nuremberg Chronicle"
       },
@@ -4957,7 +5245,7 @@
       ]
     },
     {
-      "id": "dürer-cho-ev-061",
+      "id": "dürer-pr-ev-061",
       "label": {
         "default": "Opus One"
       },
@@ -4974,133 +5262,218 @@
       ]
     },
     {
-      "id": "albrecht-pr-ev-062",
+      "id": "dürer-pr-ev-062",
       "label": {
         "default": "Caspar"
       },
-      "kind": "event-kind-sibling_of",
+      "kind": "event-kind-event-kind-sibling_of",
       "relations": [
         {
-          "entity": "dürer-pr-005",
+          "entity": "dürer-pr-036",
           "role": "role-sibling_of"
         },
         {
-          "entity": "dürer-pr-036",
+          "entity": "dürer-pr-005",
           "role": "role-sibling_of"
         }
       ]
     },
     {
-      "id": "albrecht-pr-ev-063",
+      "id": "dürer-pr-ev-063",
       "label": {
         "default": "Schongauer"
       },
-      "kind": "event-kind-sibling_of",
+      "kind": "event-kind-event-kind-sibling_of",
       "relations": [
-        {
-          "entity": "dürer-pr-036",
-          "role": "role-sibling_of"
-        },
         {
           "entity": "dürer-pr-005",
           "role": "role-sibling_of"
-        }
-      ]
-    },
-    {
-      "id": "albrecht-pr-ev-064",
-      "label": {
-        "default": "Paul"
-      },
-      "kind": "event-kind-sibling_of",
-      "relations": [
+        },
         {
           "entity": "dürer-pr-036",
           "role": "role-sibling_of"
-        },
+        }
+      ]
+    },
+    {
+      "id": "dürer-pr-ev-064",
+      "label": {
+        "default": "Paul"
+      },
+      "kind": "event-kind-event-kind-sibling_of",
+      "relations": [
         {
           "entity": "dürer-pr-037",
+          "role": "role-sibling_of"
+        },
+        {
+          "entity": "dürer-pr-036",
           "role": "role-sibling_of"
         }
       ]
     },
     {
-      "id": "albrecht-pr-ev-065",
+      "id": "dürer-pr-ev-065",
       "label": {
         "default": "Ludwig"
       },
-      "kind": "event-kind-sibling_of",
+      "kind": "event-kind-event-kind-sibling_of",
       "relations": [
         {
-          "entity": "dürer-pr-036",
+          "entity": "dürer-pr-038",
           "role": "role-sibling_of"
         },
         {
-          "entity": "dürer-pr-038",
+          "entity": "dürer-pr-036",
           "role": "role-sibling_of"
         }
       ]
     },
     {
-      "id": "albrecht-pr-ev-066",
+      "id": "dürer-pr-ev-066",
       "label": {
         "default": "Caspar"
       },
-      "kind": "event-kind-sibling_of",
+      "kind": "event-kind-event-kind-sibling_of",
       "relations": [
+        {
+          "entity": "dürer-pr-036",
+          "role": "role-sibling_of"
+        },
         {
           "entity": "dürer-pr-037",
           "role": "role-sibling_of"
-        },
-        {
-          "entity": "dürer-pr-036",
-          "role": "role-sibling_of"
         }
       ]
     },
     {
-      "id": "albrecht-pr-ev-067",
+      "id": "dürer-pr-ev-067",
       "label": {
         "default": "Caspar"
       },
-      "kind": "event-kind-sibling_of",
+      "kind": "event-kind-event-kind-sibling_of",
       "relations": [
         {
-          "entity": "dürer-pr-038",
+          "entity": "dürer-pr-036",
           "role": "role-sibling_of"
         },
         {
-          "entity": "dürer-pr-036",
+          "entity": "dürer-pr-038",
           "role": "role-sibling_of"
         }
       ]
     },
     {
-      "id": "albrecht-pr-ev-068",
+      "id": "dürer-pr-ev-068",
       "label": {
         "default": "Paul"
       },
-      "kind": "event-kind-sibling_of",
+      "kind": "event-kind-event-kind-sibling_of",
       "relations": [
         {
-          "entity": "dürer-pr-005",
+          "entity": "dürer-pr-037",
           "role": "role-sibling_of"
         },
         {
-          "entity": "dürer-pr-037",
+          "entity": "dürer-pr-005",
           "role": "role-sibling_of"
         }
       ]
     },
     {
-      "id": "albrecht-pr-ev-069",
+      "id": "dürer-pr-ev-069",
       "label": {
         "default": "Schongauer"
       },
-      "kind": "event-kind-sibling_of",
+      "kind": "event-kind-event-kind-sibling_of",
+      "relations": [
+        {
+          "entity": "dürer-pr-005",
+          "role": "role-sibling_of"
+        },
+        {
+          "entity": "dürer-pr-037",
+          "role": "role-sibling_of"
+        }
+      ]
+    },
+    {
+      "id": "dürer-pr-ev-070",
+      "label": {
+        "default": "Paul"
+      },
+      "kind": "event-kind-event-kind-sibling_of",
       "relations": [
         {
           "entity": "dürer-pr-037",
+          "role": "role-sibling_of"
+        },
+        {
+          "entity": "dürer-pr-036",
+          "role": "role-sibling_of"
+        }
+      ]
+    },
+    {
+      "id": "dürer-pr-ev-071",
+      "label": {
+        "default": "Caspar"
+      },
+      "kind": "event-kind-event-kind-sibling_of",
+      "relations": [
+        {
+          "entity": "dürer-pr-036",
+          "role": "role-sibling_of"
+        },
+        {
+          "entity": "dürer-pr-037",
+          "role": "role-sibling_of"
+        }
+      ]
+    },
+    {
+      "id": "dürer-pr-ev-072",
+      "label": {
+        "default": "Ludwig"
+      },
+      "kind": "event-kind-event-kind-sibling_of",
+      "relations": [
+        {
+          "entity": "dürer-pr-038",
+          "role": "role-sibling_of"
+        },
+        {
+          "entity": "dürer-pr-037",
+          "role": "role-sibling_of"
+        }
+      ]
+    },
+    {
+      "id": "dürer-pr-ev-073",
+      "label": {
+        "default": "Paul"
+      },
+      "kind": "event-kind-event-kind-sibling_of",
+      "relations": [
+        {
+          "entity": "dürer-pr-037",
+          "role": "role-sibling_of"
+        },
+        {
+          "entity": "dürer-pr-038",
+          "role": "role-sibling_of"
+        }
+      ]
+    },
+    {
+      "id": "dürer-pr-ev-074",
+      "label": {
+        "default": "Ludwig"
+      },
+      "kind": "event-kind-event-kind-sibling_of",
+      "relations": [
+        {
+          "entity": "dürer-pr-038",
           "role": "role-sibling_of"
         },
         {
@@ -5110,48 +5483,31 @@
       ]
     },
     {
-      "id": "albrecht-pr-ev-070",
+      "id": "dürer-pr-ev-075",
       "label": {
-        "default": "Paul"
+        "default": "Ludwig"
       },
-      "kind": "event-kind-sibling_of",
+      "kind": "event-kind-event-kind-sibling_of",
       "relations": [
         {
-          "entity": "dürer-pr-036",
+          "entity": "dürer-pr-038",
           "role": "role-sibling_of"
         },
         {
-          "entity": "dürer-pr-037",
+          "entity": "dürer-pr-036",
           "role": "role-sibling_of"
         }
       ]
     },
     {
-      "id": "albrecht-pr-ev-071",
+      "id": "dürer-pr-ev-076",
       "label": {
         "default": "Caspar"
       },
-      "kind": "event-kind-sibling_of",
+      "kind": "event-kind-event-kind-sibling_of",
       "relations": [
-        {
-          "entity": "dürer-pr-037",
-          "role": "role-sibling_of"
-        },
         {
           "entity": "dürer-pr-036",
-          "role": "role-sibling_of"
-        }
-      ]
-    },
-    {
-      "id": "albrecht-pr-ev-072",
-      "label": {
-        "default": "Ludwig"
-      },
-      "kind": "event-kind-sibling_of",
-      "relations": [
-        {
-          "entity": "dürer-pr-037",
           "role": "role-sibling_of"
         },
         {
@@ -5161,79 +5517,28 @@
       ]
     },
     {
-      "id": "albrecht-pr-ev-073",
+      "id": "dürer-pr-ev-077",
+      "label": {
+        "default": "Ludwig"
+      },
+      "kind": "event-kind-event-kind-sibling_of",
+      "relations": [
+        {
+          "entity": "dürer-pr-038",
+          "role": "role-sibling_of"
+        },
+        {
+          "entity": "dürer-pr-037",
+          "role": "role-sibling_of"
+        }
+      ]
+    },
+    {
+      "id": "dürer-pr-ev-078",
       "label": {
         "default": "Paul"
       },
-      "kind": "event-kind-sibling_of",
-      "relations": [
-        {
-          "entity": "dürer-pr-038",
-          "role": "role-sibling_of"
-        },
-        {
-          "entity": "dürer-pr-037",
-          "role": "role-sibling_of"
-        }
-      ]
-    },
-    {
-      "id": "albrecht-pr-ev-074",
-      "label": {
-        "default": "Ludwig"
-      },
-      "kind": "event-kind-sibling_of",
-      "relations": [
-        {
-          "entity": "dürer-pr-005",
-          "role": "role-sibling_of"
-        },
-        {
-          "entity": "dürer-pr-038",
-          "role": "role-sibling_of"
-        }
-      ]
-    },
-    {
-      "id": "albrecht-pr-ev-075",
-      "label": {
-        "default": "Ludwig"
-      },
-      "kind": "event-kind-sibling_of",
-      "relations": [
-        {
-          "entity": "dürer-pr-036",
-          "role": "role-sibling_of"
-        },
-        {
-          "entity": "dürer-pr-038",
-          "role": "role-sibling_of"
-        }
-      ]
-    },
-    {
-      "id": "albrecht-pr-ev-076",
-      "label": {
-        "default": "Caspar"
-      },
-      "kind": "event-kind-sibling_of",
-      "relations": [
-        {
-          "entity": "dürer-pr-038",
-          "role": "role-sibling_of"
-        },
-        {
-          "entity": "dürer-pr-036",
-          "role": "role-sibling_of"
-        }
-      ]
-    },
-    {
-      "id": "albrecht-pr-ev-077",
-      "label": {
-        "default": "Ludwig"
-      },
-      "kind": "event-kind-sibling_of",
+      "kind": "event-kind-event-kind-sibling_of",
       "relations": [
         {
           "entity": "dürer-pr-037",
@@ -5246,58 +5551,41 @@
       ]
     },
     {
-      "id": "albrecht-pr-ev-078",
-      "label": {
-        "default": "Paul"
-      },
-      "kind": "event-kind-sibling_of",
-      "relations": [
-        {
-          "entity": "dürer-pr-038",
-          "role": "role-sibling_of"
-        },
-        {
-          "entity": "dürer-pr-037",
-          "role": "role-sibling_of"
-        }
-      ]
-    },
-    {
-      "id": "albrecht-pr-ev-079",
+      "id": "dürer-pr-ev-079",
       "label": {
         "default": "Albrecht"
       },
-      "kind": "event-kind-married_to",
+      "kind": "event-kind-event-kind-married_to",
       "relations": [
         {
-          "entity": "dürer-pr-042",
+          "entity": "dürer-pr-001",
           "role": "role-married_to"
         },
         {
-          "entity": "dürer-pr-001",
+          "entity": "dürer-pr-042",
           "role": "role-married_to"
         }
       ]
     },
     {
-      "id": "albrecht-pr-ev-080",
+      "id": "dürer-pr-ev-080",
       "label": {
         "default": "Agnes"
       },
-      "kind": "event-kind-married_to",
+      "kind": "event-kind-event-kind-married_to",
       "relations": [
         {
-          "entity": "dürer-pr-001",
+          "entity": "dürer-pr-042",
           "role": "role-married_to"
         },
         {
-          "entity": "dürer-pr-042",
+          "entity": "dürer-pr-001",
           "role": "role-married_to"
         }
       ]
     },
     {
-      "id": "dürer-cho-ev-081",
+      "id": "dürer-pr-ev-081",
       "label": {
         "default": "The Men's Bath"
       },
@@ -5314,7 +5602,7 @@
       ]
     },
     {
-      "id": "dürer-cho-ev-082",
+      "id": "dürer-pr-ev-082",
       "label": {
         "default": "Nemesis"
       },
@@ -5331,7 +5619,7 @@
       ]
     },
     {
-      "id": "dürer-cho-ev-083",
+      "id": "dürer-pr-ev-083",
       "label": {
         "default": "The Men's Bath House"
       },
@@ -5348,7 +5636,7 @@
       ]
     },
     {
-      "id": "dürer-cho-ev-084",
+      "id": "dürer-pr-ev-084",
       "label": {
         "default": "St. Michael Fighting the Dragon"
       },
@@ -5365,7 +5653,7 @@
       ]
     },
     {
-      "id": "dürer-cho-ev-085",
+      "id": "dürer-pr-ev-085",
       "label": {
         "default": "the Great Passion"
       },
@@ -5382,7 +5670,7 @@
       ]
     },
     {
-      "id": "dürer-cho-ev-086",
+      "id": "dürer-pr-ev-086",
       "label": {
         "default": "The Seven Sorrows Polyptych"
       },
@@ -5399,7 +5687,7 @@
       ]
     },
     {
-      "id": "dürer-cho-ev-087",
+      "id": "dürer-pr-ev-087",
       "label": {
         "default": "the Life of the Virgin"
       },
@@ -5416,7 +5704,7 @@
       ]
     },
     {
-      "id": "dürer-cho-ev-088",
+      "id": "dürer-pr-ev-088",
       "label": {
         "default": "the Great Passion"
       },
@@ -5433,7 +5721,7 @@
       ]
     },
     {
-      "id": "dürer-cho-ev-089",
+      "id": "dürer-pr-ev-089",
       "label": {
         "default": "the Prodigal Son"
       },
@@ -5450,7 +5738,7 @@
       ]
     },
     {
-      "id": "dürer-cho-ev-090",
+      "id": "dürer-pr-ev-090",
       "label": {
         "default": "Nemesis"
       },
@@ -5467,7 +5755,7 @@
       ]
     },
     {
-      "id": "dürer-cho-ev-091",
+      "id": "dürer-pr-ev-091",
       "label": {
         "default": "The Sea Monster"
       },
@@ -5484,7 +5772,7 @@
       ]
     },
     {
-      "id": "dürer-cho-ev-092",
+      "id": "dürer-pr-ev-092",
       "label": {
         "default": "Saint Eustace"
       },
@@ -5501,7 +5789,7 @@
       ]
     },
     {
-      "id": "dürer-cho-ev-093",
+      "id": "dürer-pr-ev-093",
       "label": {
         "default": "Pond in the Woods"
       },
@@ -5518,7 +5806,7 @@
       ]
     },
     {
-      "id": "dürer-cho-ev-094",
+      "id": "dürer-pr-ev-094",
       "label": {
         "default": "Willow Mill"
       },
@@ -5535,7 +5823,7 @@
       ]
     },
     {
-      "id": "dürer-cho-ev-095",
+      "id": "dürer-pr-ev-095",
       "label": {
         "default": "Adam and Eve"
       },
@@ -5552,7 +5840,7 @@
       ]
     },
     {
-      "id": "dürer-cho-ev-096",
+      "id": "dürer-pr-ev-096",
       "label": {
         "default": "the Betende Hände"
       },
@@ -5569,7 +5857,7 @@
       ]
     },
     {
-      "id": "dürer-cho-ev-097",
+      "id": "dürer-pr-ev-097",
       "label": {
         "default": "Young Hare"
       },
@@ -5586,7 +5874,7 @@
       ]
     },
     {
-      "id": "dürer-cho-ev-098",
+      "id": "dürer-pr-ev-098",
       "label": {
         "default": "the Great Piece of Turf"
       },
@@ -5603,7 +5891,7 @@
       ]
     },
     {
-      "id": "dürer-cho-ev-099",
+      "id": "dürer-pr-ev-099",
       "label": {
         "default": "the Adoration of the Magi"
       },
@@ -5620,7 +5908,7 @@
       ]
     },
     {
-      "id": "dürer-cho-ev-100",
+      "id": "dürer-pr-ev-100",
       "label": {
         "default": "the Adoration of the Virgin"
       },
@@ -5637,7 +5925,7 @@
       ]
     },
     {
-      "id": "dürer-cho-ev-101",
+      "id": "dürer-pr-ev-101",
       "label": {
         "default": "of"
       },
@@ -5654,7 +5942,7 @@
       ]
     },
     {
-      "id": "dürer-cho-ev-102",
+      "id": "dürer-pr-ev-102",
       "label": {
         "default": "Garlands"
       },
@@ -5671,7 +5959,7 @@
       ]
     },
     {
-      "id": "dürer-cho-ev-103",
+      "id": "dürer-pr-ev-103",
       "label": {
         "default": "Adam and Eve"
       },
@@ -5688,7 +5976,7 @@
       ]
     },
     {
-      "id": "dürer-cho-ev-104",
+      "id": "dürer-pr-ev-104",
       "label": {
         "default": "Martyrdom of the Ten Thousand"
       },
@@ -5705,7 +5993,7 @@
       ]
     },
     {
-      "id": "dürer-cho-ev-105",
+      "id": "dürer-pr-ev-105",
       "label": {
         "default": "Virgin with the Iris"
       },
@@ -5722,7 +6010,7 @@
       ]
     },
     {
-      "id": "dürer-cho-ev-106",
+      "id": "dürer-pr-ev-106",
       "label": {
         "default": "Assumption of the Virgin"
       },
@@ -5739,7 +6027,7 @@
       ]
     },
     {
-      "id": "dürer-cho-ev-107",
+      "id": "dürer-pr-ev-107",
       "label": {
         "default": "Adoration of the Trinity"
       },
@@ -5756,7 +6044,7 @@
       ]
     },
     {
-      "id": "dürer-cho-ev-108",
+      "id": "dürer-pr-ev-108",
       "label": {
         "default": "the Great Passion"
       },
@@ -5773,7 +6061,7 @@
       ]
     },
     {
-      "id": "dürer-cho-ev-109",
+      "id": "dürer-pr-ev-109",
       "label": {
         "default": "the Life of the Virgin"
       },
@@ -5790,7 +6078,7 @@
       ]
     },
     {
-      "id": "dürer-cho-ev-110",
+      "id": "dürer-pr-ev-110",
       "label": {
         "default": "Apocalypse"
       },
@@ -5807,7 +6095,7 @@
       ]
     },
     {
-      "id": "dürer-cho-ev-111",
+      "id": "dürer-pr-ev-111",
       "label": {
         "default": "Little Passion"
       },
@@ -5824,7 +6112,7 @@
       ]
     },
     {
-      "id": "dürer-cho-ev-112",
+      "id": "dürer-pr-ev-112",
       "label": {
         "default": "Knight, Death and the Devil"
       },
@@ -5841,7 +6129,7 @@
       ]
     },
     {
-      "id": "dürer-cho-ev-113",
+      "id": "dürer-pr-ev-113",
       "label": {
         "default": "Handbook of a Christian Knight"
       },
@@ -5858,7 +6146,7 @@
       ]
     },
     {
-      "id": "dürer-cho-ev-114",
+      "id": "dürer-pr-ev-114",
       "label": {
         "default": "St. Jerome in His Study"
       },
@@ -5875,7 +6163,7 @@
       ]
     },
     {
-      "id": "dürer-cho-ev-115",
+      "id": "dürer-pr-ev-115",
       "label": {
         "default": "Melencolia I"
       },
@@ -5892,7 +6180,7 @@
       ]
     },
     {
-      "id": "dürer-cho-ev-116",
+      "id": "dürer-pr-ev-116",
       "label": {
         "default": "The Triumphal Arch"
       },
@@ -5909,7 +6197,7 @@
       ]
     },
     {
-      "id": "dürer-cho-ev-117",
+      "id": "dürer-pr-ev-117",
       "label": {
         "default": "Hieroglyphica"
       },
@@ -5926,7 +6214,7 @@
       ]
     },
     {
-      "id": "dürer-cho-ev-118",
+      "id": "dürer-pr-ev-118",
       "label": {
         "default": "Arch"
       },
@@ -5943,7 +6231,7 @@
       ]
     },
     {
-      "id": "dürer-cho-ev-119",
+      "id": "dürer-pr-ev-119",
       "label": {
         "default": "The Triumphal Procession"
       },
@@ -5960,7 +6248,7 @@
       ]
     },
     {
-      "id": "dürer-cho-ev-120",
+      "id": "dürer-pr-ev-120",
       "label": {
         "default": "Prayer-Book"
       },
@@ -5977,7 +6265,7 @@
       ]
     },
     {
-      "id": "dürer-cho-ev-121",
+      "id": "dürer-pr-ev-121",
       "label": {
         "default": "Madonna of Bruges"
       },
@@ -5994,7 +6282,7 @@
       ]
     },
     {
-      "id": "dürer-cho-ev-122",
+      "id": "dürer-pr-ev-122",
       "label": {
         "default": "Madonna and Child"
       },
@@ -6011,7 +6299,7 @@
       ]
     },
     {
-      "id": "dürer-cho-ev-123",
+      "id": "dürer-pr-ev-123",
       "label": {
         "default": "Salvator Mundi"
       },
@@ -6028,7 +6316,7 @@
       ]
     },
     {
-      "id": "dürer-cho-ev-124",
+      "id": "dürer-pr-ev-124",
       "label": {
         "default": "the Four Apostles"
       },
@@ -6045,7 +6333,7 @@
       ]
     },
     {
-      "id": "dürer-cho-ev-125",
+      "id": "dürer-pr-ev-125",
       "label": {
         "default": "The Four Books on Measurement"
       },
@@ -6062,7 +6350,7 @@
       ]
     },
     {
-      "id": "dürer-cho-ev-126",
+      "id": "dürer-pr-ev-126",
       "label": {
         "default": "The Four Books on Human Proportion"
       },
@@ -6079,7 +6367,7 @@
       ]
     },
     {
-      "id": "dürer-cho-ev-127",
+      "id": "dürer-pr-ev-127",
       "label": {
         "default": "Babylonian Captivity"
       },
@@ -6096,7 +6384,7 @@
       ]
     },
     {
-      "id": "dürer-cho-ev-128",
+      "id": "dürer-pr-ev-128",
       "label": {
         "default": "Bible"
       },
@@ -6113,7 +6401,7 @@
       ]
     },
     {
-      "id": "dürer-cho-ev-129",
+      "id": "dürer-pr-ev-129",
       "label": {
         "default": "the Four Books on Measurement"
       },
@@ -6130,7 +6418,7 @@
       ]
     },
     {
-      "id": "dürer-cho-ev-130",
+      "id": "dürer-pr-ev-130",
       "label": {
         "default": "Underweysung der Messung mit dem Zirckel und Richtscheyt"
       },
@@ -6147,7 +6435,7 @@
       ]
     },
     {
-      "id": "dürer-cho-ev-131",
+      "id": "dürer-pr-ev-131",
       "label": {
         "default": "Instructions for Measuring with Compass and Ruler"
       },
@@ -6164,7 +6452,7 @@
       ]
     },
     {
-      "id": "dürer-cho-ev-132",
+      "id": "dürer-pr-ev-132",
       "label": {
         "default": "Libellus super viginti duobus elementis conicis'"
       },
@@ -6181,7 +6469,7 @@
       ]
     },
     {
-      "id": "dürer-cho-ev-133",
+      "id": "dürer-pr-ev-133",
       "label": {
         "default": "the Four Books on Human Proportion"
       },
@@ -6198,7 +6486,7 @@
       ]
     },
     {
-      "id": "dürer-cho-ev-134",
+      "id": "dürer-pr-ev-134",
       "label": {
         "default": "(Vier Bücher von Menschlicher Proportion)"
       },
@@ -6215,7 +6503,7 @@
       ]
     },
     {
-      "id": "dürer-cho-ev-135",
+      "id": "dürer-pr-ev-135",
       "label": {
         "default": "De harmonica mundi totius'"
       },
@@ -6232,7 +6520,7 @@
       ]
     },
     {
-      "id": "dürer-cho-ev-136",
+      "id": "dürer-pr-ev-136",
       "label": {
         "default": "Various Lessons on the Fortification of Cities, Castles, and Localities"
       },
@@ -6249,7 +6537,7 @@
       ]
     },
     {
-      "id": "dürer-cho-ev-137",
+      "id": "dürer-pr-ev-137",
       "label": {
         "default": "Etliche Underricht zu Befestigung der Stett, Schloss und Flecken"
       },
@@ -6266,7 +6554,7 @@
       ]
     },
     {
-      "id": "dürer-cho-ev-138",
+      "id": "dürer-pr-ev-138",
       "label": {
         "default": "On Cities, Forts, and Castles, Designed and Strengthened by Several Manners: Presented for the Most Necessary Accommodation of War (De vrbibus, arcibus, castellisque condendis, ac muniendis rationes aliquot : praesenti bellorum necessitati accommodatissimae"
       },
@@ -6283,7 +6571,7 @@
       ]
     },
     {
-      "id": "dürer-cho-ev-139",
+      "id": "dürer-pr-ev-139",
       "label": {
         "default": "Οπλοδιδασκαλια sive Armorvm Tractandorvm Meditatio Alberti Dvreri"
       },
@@ -6300,7 +6588,7 @@
       ]
     },
     {
-      "id": "dürer-cho-ev-140",
+      "id": "dürer-pr-ev-140",
       "label": {
         "default": "Meditation on the Handling of Weapons"
       },
@@ -6317,7 +6605,7 @@
       ]
     },
     {
-      "id": "dürer-cho-ev-141",
+      "id": "dürer-pr-ev-141",
       "label": {
         "default": "Berlin Picture Book (Libr.Pict.A.83"
       },
@@ -6339,45 +6627,45 @@
   "vocabularies": {
     "event-kind": [
       {
-        "id": "event-kind-born_in",
+        "id": "event-kind-event-kind-born_in",
         "label": {
-          "default": "born_in"
+          "default": "place_of_birth"
         }
       },
       {
-        "id": "event-kind-child_of",
-        "label": {
-          "default": "child_of"
-        }
-      },
-      {
-        "id": "event-kind-parent_of",
+        "id": "event-kind-event-kind-child_of",
         "label": {
           "default": "parent_of"
         }
       },
       {
-        "id": "event-kind-married_to",
+        "id": "event-kind-event-kind-parent_of",
+        "label": {
+          "default": "child_of"
+        }
+      },
+      {
+        "id": "event-kind-event-kind-married_to",
         "label": {
           "default": "married_to"
         }
       },
       {
-        "id": "event-kind-lived_in",
+        "id": "event-kind-event-kind-lived_in",
         "label": {
-          "default": "lived_in"
+          "default": "place_of_residence"
         }
       },
       {
-        "id": "event-kind-sibling_of",
+        "id": "event-kind-event-kind-sibling_of",
         "label": {
           "default": "sibling_of"
         }
       },
       {
-        "id": "event-kind-alternate_name",
+        "id": "event-kind-event-kind-alternate_name",
         "label": {
-          "default": "alternate_name"
+          "default": "unk"
         }
       },
       {

@@ -306,71 +306,45 @@ def convert_nlp_to_idm_json(nlp_path: str, idm_out_path: str):
                     idm_ent["geometry"] = {"type": "Point", "coordinates": coord}
             # Convert NLP CHO Entities --> IDM Creation Events and Relations [role-object_created, role-was_creator]
             if "WORK_OF_ART" in unified_ent_obj["ner"]:
-                ev_sub_id = "cho" #Cultural Heritage Object
-                event_kind = "creation"
                 subj_idm_id = f"{lastname}-pr-001"
-                subj_role = "was_creator"
+                # This event is "passive" (the object "was created"), that's why the other entity we need to get is the Subj Entity (the creator)
+                # We are assuming the first entity of the text == Subject of the Biography
                 subj_idm_ent = idm_entity_dict[idm_id2univ_id[subj_idm_id]]
-                obj_role = "object_created"
-                full_event_id = f"{lastname}-{ev_sub_id}-ev-{stringify_id(event_ix)}"
-                idm_ent["relations"].append({"event": full_event_id, "role": f"role-{obj_role}"}) # This is a 'passive' event that's why is obj_role
-                subj_idm_ent["relations"].append({"event": full_event_id, "role": f"role-{subj_role}"})
+                event_info = {"full_event_id": f"{lastname}-{ev_sub_id}-ev-{stringify_id(event_ix)}", 
+                              "event_label": unified_ent_obj["surfaceForms"][0], 
+                              "event_kind": "creation", 
+                              "subj_role": "was_creator", 
+                              "obj_role": "object_created"}
+                subj_idm_ent, idm_ent, event_obj, event_vocab, role_vocab = create_idm_event(event_info, subj_idm_id, subj_idm_ent, idm_ent, event_vocab, role_vocab)
                 # Add updated object back to dict
                 idm_entity_dict[idm_id2univ_id[subj_idm_id]] = subj_idm_ent
-                parent_idm["events"].append({
-                    "id": full_event_id,
-                    "label": { "default": unified_ent_obj["surfaceForms"][0] },
-                    "kind": f"event-kind-{event_kind}",
-                    # "startDate": "",
-                    "relations": [{ "entity": idm_ent["id"], "role": f"role-{obj_role}" },
-                                  { "entity": subj_idm_id, "role": "role-was_creator" },
-                                    # { "entity": "duerer-pl-012", "role": "role-took_place_at" },
-                                    # { "entity": "duerer-gr-019", "role": "role-current_location" }
-                                ]
-                })
+                # Add Event to IDM Main Object
+                parent_idm["events"].append(event_obj)
                 event_ix += 1
-                event_vocab[f"event-kind-{event_kind}"] = {"id": f"event-kind-{event_kind}", "label": {"default": f"{obj_role}"}}
-                role_vocab[f"role-{subj_role}"] = { "id": f"role-{subj_role}", "label": { "default": subj_role}}
-                role_vocab[f"role-{obj_role}"] = { "id": f"role-{obj_role}", "label": { "default": obj_role}}
 
             # Convert NLP Relations --> IDM Relations
             for rel_obj in unified_ent_obj.get("relations", []):
                 ev_sub_id = idm_ent["id"].split("-")[1]
-                full_event_id = f"{firstname}-{ev_sub_id}-ev-{stringify_id(event_ix)}"
-                # Mapping pointing to the IDM IDS made in the previous LOOP!
-                # TODO: We are currently loosing the events that have either subj_idm or obj_idm_id NULL! e.g. DATES
+                subj_role =  rel_obj['relationValue']
+                obj_role = inverse_relations_dict.get(rel_obj['relationValue'], 'unk')
+                event_info = {"full_event_id": f"{lastname}-{ev_sub_id}-ev-{stringify_id(event_ix)}", 
+                              "event_label": rel_obj["surfaceFormObj"], 
+                              "event_kind": f"event-kind-{subj_role}", 
+                              "subj_role": subj_role, 
+                              "obj_role": obj_role}
                 subj_univ_id = ent_nlp2ent_univ[rel_obj['subjectID']] 
                 subj_idm_id = univ_id2idm_id[subj_univ_id]
                 obj_univ_id = ent_nlp2ent_univ[rel_obj['objectID']]
-                obj_idm_id = univ_id2idm_id[obj_univ_id]
-                if full_event_id not in parent_idm["events"]:
-                    if subj_idm_id and obj_idm_id:
-                        subj_role =  rel_obj['relationValue']
-                        obj_role = inverse_relations_dict.get(rel_obj['relationValue'], 'unk')
-                        idm_ent["relations"].append({"event": full_event_id, "role": f"role-{subj_role}"})
-                        parent_idm["events"].append({
-                            "id": full_event_id,
-                            "label": { "default": rel_obj["surfaceFormObj"] },
-                            "kind": f"event-kind-{subj_role}",
-                            # "startDate": "",
-                            "relations": [{ "entity": subj_idm_id, "role": f"role-{subj_role}"},
-                                        { "entity": obj_idm_id, "role": f"role-{obj_role}"}]
-                        })
-                        event_ix += 1
-                        event_vocab[f"event-kind-{subj_role}"] = {"id": f"event-kind-{subj_role}", "label": {"default": subj_role}}
-                        role_vocab[f"role-{subj_role}"] = { "id": f"role-{subj_role}", "label": { "default": subj_role}}
-                        role_vocab[f"role-{obj_role}"] = { "id": f"role-{obj_role}", "label": { "default": obj_role}}
-                else:
-                    if subj_idm_id and obj_idm_id:
-                        subj_role =  rel_obj['relationValue']
-                        obj_role = inverse_relations_dict.get(rel_obj['relationValue'], 'unk')
-                        idm_ent["relations"].append({"event": full_event_id, "role": f"role-{subj_role}"})
-                        parent_idm["events"][full_event_id]["relations"].append({ "entity": subj_idm_id, "role": f"role-{subj_role}"})
-                        parent_idm["events"][full_event_id]["relations"].append({ "entity": obj_idm_id, "role": f"role-{obj_role}"})
-                        role_vocab[f"role-{subj_role}"] = { "id": f"role-{subj_role}", "label": { "default": subj_role}}
-                        role_vocab[f"role-{obj_role}"] = { "id": f"role-{obj_role}", "label": { "default": obj_role}}
+                obj_idm_ent = idm_entity_dict.get(obj_univ_id) # They don't exist when it is a labeled entity outside the scope of interest (e.g. NORP, DATE, etc...)
+                if obj_idm_ent:
+                    idm_ent, obj_idm_ent, event_obj, event_vocab, role_vocab = create_idm_event(event_info, subj_idm_id, idm_ent, obj_idm_ent, event_vocab, role_vocab)
+                    # Add updated object back to dict
+                    idm_entity_dict[obj_univ_id] = obj_idm_ent
+                    # Add Event to IDM Main Object
+                    parent_idm["events"].append(event_obj)
+                    event_ix += 1
 
-            # Add updated object back to dict
+            # Add updated current object back to dict
             idm_entity_dict[ent_id] = idm_ent
     
     # 4) Transfer The MERGED Entity-Rel-Linked info into the parent object
@@ -452,8 +426,35 @@ def create_unified_universal_dict(nlp_dict: Dict[str, Any], universal_dict: Dict
 
     return unified_universal_dict, clustered_items, ent_nlp2ent_univ, singleton_ids, surfaceForm2ent_univ
 
-def create_idm_event():
-    pass
+
+def create_idm_event(event_info: Dict[str, str], subj_idm_id: str, subj_idm_ent: Dict, obj_idm_ent: Dict, event_vocab: Dict, role_vocab: Dict):
+    full_event_id = event_info["full_event_id"]
+    event_label = event_info["event_label"]
+    event_kind = event_info["event_kind"] # "creation"
+    subj_role =  event_info["subj_role"] # "was_creator"
+    obj_role = event_info["obj_role"] # "object_created"
+    subj_idm_ent["relations"].append({"event": full_event_id, "role": f"role-{subj_role}"})
+    obj_idm_ent["relations"].append({"event": full_event_id, "role": f"role-{obj_role}"})
+
+    event_obj = {
+                "id": full_event_id,
+                "label": { "default": event_label },
+                "kind": f"event-kind-{event_kind}",
+                # "startDate": "",
+                "relations": [{ "entity": obj_idm_ent["id"], "role": f"role-{obj_role}" },
+                              { "entity": subj_idm_id, "role": f"role-{subj_role}" },
+                                # { "entity": "duerer-pl-012", "role": "role-took_place_at" },
+                                # { "entity": "duerer-gr-019", "role": "role-current_location" }
+                            ]
+            }
+    
+    event_vocab[f"event-kind-{event_kind}"] = {"id": f"event-kind-{event_kind}", "label": {"default": f"{obj_role}"}}
+    role_vocab[f"role-{subj_role}"] = { "id": f"role-{subj_role}", "label": { "default": subj_role}}
+    role_vocab[f"role-{obj_role}"] = { "id": f"role-{obj_role}", "label": { "default": obj_role}}
+
+    return subj_idm_ent, obj_idm_ent, event_obj, event_vocab, role_vocab
+
+    
 
 if __name__ == "__main__":
     convert_nlp_to_idm_json("english/data/json/albrecht_dürer.json", "english/data/idm/albrecht_dürer.idm.json")
