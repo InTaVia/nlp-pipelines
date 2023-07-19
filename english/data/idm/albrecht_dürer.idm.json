@@ -1,51 +1,425 @@
 {
   "entities": [
     {
-      "id": "dürer-pr-002",
+      "id": "dürer-pr-001",
       "label": {
         "default": "Albrecht Dürer"
       },
       "linkedIds": [],
       "media": [],
-      "relations": [],
+      "relations": [
+        {
+          "event": "albrecht-pr-ev-001",
+          "role": "role-born_in"
+        },
+        {
+          "event": "albrecht-pr-ev-002",
+          "role": "role-child_of"
+        },
+        {
+          "event": "albrecht-pr-ev-003",
+          "role": "role-child_of"
+        },
+        {
+          "event": "albrecht-pr-ev-004",
+          "role": "role-parent_of"
+        },
+        {
+          "event": "albrecht-pr-ev-005",
+          "role": "role-child_of"
+        },
+        {
+          "event": "albrecht-pr-ev-006",
+          "role": "role-married_to"
+        },
+        {
+          "event": "albrecht-pr-ev-007",
+          "role": "role-married_to"
+        },
+        {
+          "event": "albrecht-pr-ev-008",
+          "role": "role-lived_in"
+        },
+        {
+          "event": "albrecht-pr-ev-009",
+          "role": "role-sibling_of"
+        },
+        {
+          "event": "albrecht-pr-ev-010",
+          "role": "role-sibling_of"
+        },
+        {
+          "event": "albrecht-pr-ev-011",
+          "role": "role-sibling_of"
+        },
+        {
+          "event": "albrecht-pr-ev-012",
+          "role": "role-sibling_of"
+        },
+        {
+          "event": "albrecht-pr-ev-013",
+          "role": "role-alternate_name"
+        },
+        {
+          "event": "albrecht-pr-ev-014",
+          "role": "role-child_of"
+        },
+        {
+          "event": "albrecht-pr-ev-015",
+          "role": "role-married_to"
+        },
+        {
+          "event": "albrecht-pr-ev-016",
+          "role": "role-married_to"
+        },
+        {
+          "event": "albrecht-pr-ev-017",
+          "role": "role-married_to"
+        },
+        {
+          "event": "albrecht-pr-ev-018",
+          "role": "role-married_to"
+        },
+        {
+          "event": "albrecht-pr-ev-019",
+          "role": "role-lived_in"
+        },
+        {
+          "event": "albrecht-pr-ev-020",
+          "role": "role-lived_in"
+        },
+        {
+          "event": "dürer-cho-ev-021",
+          "role": "role-was_creator"
+        },
+        {
+          "event": "dürer-cho-ev-041",
+          "role": "role-was_creator"
+        },
+        {
+          "event": "dürer-cho-ev-042",
+          "role": "role-was_creator"
+        },
+        {
+          "event": "dürer-cho-ev-043",
+          "role": "role-was_creator"
+        },
+        {
+          "event": "dürer-cho-ev-044",
+          "role": "role-was_creator"
+        },
+        {
+          "event": "dürer-cho-ev-045",
+          "role": "role-was_creator"
+        },
+        {
+          "event": "dürer-cho-ev-060",
+          "role": "role-was_creator"
+        },
+        {
+          "event": "dürer-cho-ev-061",
+          "role": "role-was_creator"
+        },
+        {
+          "event": "dürer-cho-ev-081",
+          "role": "role-was_creator"
+        },
+        {
+          "event": "dürer-cho-ev-082",
+          "role": "role-was_creator"
+        },
+        {
+          "event": "dürer-cho-ev-083",
+          "role": "role-was_creator"
+        },
+        {
+          "event": "dürer-cho-ev-084",
+          "role": "role-was_creator"
+        },
+        {
+          "event": "dürer-cho-ev-085",
+          "role": "role-was_creator"
+        },
+        {
+          "event": "dürer-cho-ev-086",
+          "role": "role-was_creator"
+        },
+        {
+          "event": "dürer-cho-ev-087",
+          "role": "role-was_creator"
+        },
+        {
+          "event": "dürer-cho-ev-088",
+          "role": "role-was_creator"
+        },
+        {
+          "event": "dürer-cho-ev-089",
+          "role": "role-was_creator"
+        },
+        {
+          "event": "dürer-cho-ev-090",
+          "role": "role-was_creator"
+        },
+        {
+          "event": "dürer-cho-ev-091",
+          "role": "role-was_creator"
+        },
+        {
+          "event": "dürer-cho-ev-092",
+          "role": "role-was_creator"
+        },
+        {
+          "event": "dürer-cho-ev-093",
+          "role": "role-was_creator"
+        },
+        {
+          "event": "dürer-cho-ev-094",
+          "role": "role-was_creator"
+        },
+        {
+          "event": "dürer-cho-ev-095",
+          "role": "role-was_creator"
+        },
+        {
+          "event": "dürer-cho-ev-096",
+          "role": "role-was_creator"
+        },
+        {
+          "event": "dürer-cho-ev-097",
+          "role": "role-was_creator"
+        },
+        {
+          "event": "dürer-cho-ev-098",
+          "role": "role-was_creator"
+        },
+        {
+          "event": "dürer-cho-ev-099",
+          "role": "role-was_creator"
+        },
+        {
+          "event": "dürer-cho-ev-100",
+          "role": "role-was_creator"
+        },
+        {
+          "event": "dürer-cho-ev-101",
+          "role": "role-was_creator"
+        },
+        {
+          "event": "dürer-cho-ev-102",
+          "role": "role-was_creator"
+        },
+        {
+          "event": "dürer-cho-ev-103",
+          "role": "role-was_creator"
+        },
+        {
+          "event": "dürer-cho-ev-104",
+          "role": "role-was_creator"
+        },
+        {
+          "event": "dürer-cho-ev-105",
+          "role": "role-was_creator"
+        },
+        {
+          "event": "dürer-cho-ev-106",
+          "role": "role-was_creator"
+        },
+        {
+          "event": "dürer-cho-ev-107",
+          "role": "role-was_creator"
+        },
+        {
+          "event": "dürer-cho-ev-108",
+          "role": "role-was_creator"
+        },
+        {
+          "event": "dürer-cho-ev-109",
+          "role": "role-was_creator"
+        },
+        {
+          "event": "dürer-cho-ev-110",
+          "role": "role-was_creator"
+        },
+        {
+          "event": "dürer-cho-ev-111",
+          "role": "role-was_creator"
+        },
+        {
+          "event": "dürer-cho-ev-112",
+          "role": "role-was_creator"
+        },
+        {
+          "event": "dürer-cho-ev-113",
+          "role": "role-was_creator"
+        },
+        {
+          "event": "dürer-cho-ev-114",
+          "role": "role-was_creator"
+        },
+        {
+          "event": "dürer-cho-ev-115",
+          "role": "role-was_creator"
+        },
+        {
+          "event": "dürer-cho-ev-116",
+          "role": "role-was_creator"
+        },
+        {
+          "event": "dürer-cho-ev-117",
+          "role": "role-was_creator"
+        },
+        {
+          "event": "dürer-cho-ev-118",
+          "role": "role-was_creator"
+        },
+        {
+          "event": "dürer-cho-ev-119",
+          "role": "role-was_creator"
+        },
+        {
+          "event": "dürer-cho-ev-120",
+          "role": "role-was_creator"
+        },
+        {
+          "event": "dürer-cho-ev-121",
+          "role": "role-was_creator"
+        },
+        {
+          "event": "dürer-cho-ev-122",
+          "role": "role-was_creator"
+        },
+        {
+          "event": "dürer-cho-ev-123",
+          "role": "role-was_creator"
+        },
+        {
+          "event": "dürer-cho-ev-124",
+          "role": "role-was_creator"
+        },
+        {
+          "event": "dürer-cho-ev-125",
+          "role": "role-was_creator"
+        },
+        {
+          "event": "dürer-cho-ev-126",
+          "role": "role-was_creator"
+        },
+        {
+          "event": "dürer-cho-ev-127",
+          "role": "role-was_creator"
+        },
+        {
+          "event": "dürer-cho-ev-128",
+          "role": "role-was_creator"
+        },
+        {
+          "event": "dürer-cho-ev-129",
+          "role": "role-was_creator"
+        },
+        {
+          "event": "dürer-cho-ev-130",
+          "role": "role-was_creator"
+        },
+        {
+          "event": "dürer-cho-ev-131",
+          "role": "role-was_creator"
+        },
+        {
+          "event": "dürer-cho-ev-132",
+          "role": "role-was_creator"
+        },
+        {
+          "event": "dürer-cho-ev-133",
+          "role": "role-was_creator"
+        },
+        {
+          "event": "dürer-cho-ev-134",
+          "role": "role-was_creator"
+        },
+        {
+          "event": "dürer-cho-ev-135",
+          "role": "role-was_creator"
+        },
+        {
+          "event": "dürer-cho-ev-136",
+          "role": "role-was_creator"
+        },
+        {
+          "event": "dürer-cho-ev-137",
+          "role": "role-was_creator"
+        },
+        {
+          "event": "dürer-cho-ev-138",
+          "role": "role-was_creator"
+        },
+        {
+          "event": "dürer-cho-ev-139",
+          "role": "role-was_creator"
+        },
+        {
+          "event": "dürer-cho-ev-140",
+          "role": "role-was_creator"
+        },
+        {
+          "event": "dürer-cho-ev-141",
+          "role": "role-was_creator"
+        }
+      ],
       "kind": "person"
     },
     {
-      "id": "dürer-pr-004",
+      "id": "dürer-ob-001",
       "label": {
-        "default": "Durer"
-      },
-      "linkedIds": [],
-      "media": [],
-      "relations": [],
-      "kind": "person"
-    },
-    {
-      "id": "dürer-ob-002",
-      "label": {
-        "default": "Renaissance"
+        "default": "Saint Jerome in his Study"
       },
       "description": "",
       "source": {
         "citation": "Wikipedia"
       },
-      "relations": [],
+      "relations": [
+        {
+          "event": "dürer-cho-ev-021",
+          "role": "role-object_created"
+        }
+      ],
       "kind": "cultural-heritage-object",
       "type": {}
     },
     {
-      "id": "dürer-pl-002",
+      "id": "dürer-pr-002",
+      "label": {
+        "default": "Albrecht Dürer the Elder"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [
+        {
+          "event": "albrecht-pr-ev-022",
+          "role": "role-child_of"
+        },
+        {
+          "event": "albrecht-pr-ev-023",
+          "role": "role-married_to"
+        }
+      ],
+      "kind": "person"
+    },
+    {
+      "id": "dürer-pl-001",
       "label": {
         "default": "Nuremberg"
       },
       "relations": [
         {
-          "event": "duerer-pl-ev-001",
-          "role": "role-place_of_birth"
+          "event": "albrecht-pl-ev-024",
+          "role": "role-born_in"
+        },
+        {
+          "event": "albrecht-pl-ev-025",
+          "role": "role-lived_in"
         }
       ],
       "kind": "place",
-      "type": {},
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -55,16 +429,44 @@
       }
     },
     {
-      "id": "dürer-pr-005",
+      "id": "dürer-pl-002",
       "label": {
-        "default": "Dürer"
+        "default": "Nuremberg"
+      },
+      "relations": [
+        {
+          "event": "albrecht-pl-ev-026",
+          "role": "role-lived_in"
+        }
+      ],
+      "kind": "place",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.0775,
+          49.453889
+        ]
+      }
+    },
+    {
+      "id": "dürer-pr-003",
+      "label": {
+        "default": "Barbara Holper"
       },
       "linkedIds": [],
       "media": [],
       "relations": [
         {
-          "event": "duerer-pl-ev-001",
-          "role": "role-born_in"
+          "event": "albrecht-pr-ev-027",
+          "role": "role-child_of"
+        },
+        {
+          "event": "albrecht-pr-ev-028",
+          "role": "role-parent_of"
+        },
+        {
+          "event": "albrecht-pr-ev-029",
+          "role": "role-married_to"
         }
       ],
       "kind": "person"
@@ -72,20 +474,27 @@
     {
       "id": "dürer-pl-003",
       "label": {
-        "default": "Europe"
+        "default": "Germany"
       },
-      "relations": [],
+      "relations": [
+        {
+          "event": "albrecht-pl-ev-030",
+          "role": "role-lived_in"
+        }
+      ],
       "kind": "place",
-      "type": {},
       "geometry": {
         "type": "Point",
-        "coordinates": null
+        "coordinates": [
+          13.383333,
+          52.516667
+        ]
       }
     },
     {
-      "id": "dürer-pr-006",
+      "id": "dürer-pr-004",
       "label": {
-        "default": "Raphael"
+        "default": "Michael Wolgemut"
       },
       "linkedIds": [],
       "media": [],
@@ -93,7 +502,122 @@
       "kind": "person"
     },
     {
+      "id": "dürer-pl-004",
+      "label": {
+        "default": "Colmar"
+      },
+      "relations": [],
+      "kind": "place",
+      "geometry": {
+        "type": "Point",
+        "coordinates": null
+      }
+    },
+    {
+      "id": "dürer-pr-005",
+      "label": {
+        "default": "Martin Schongauer"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [
+        {
+          "event": "albrecht-pr-ev-031",
+          "role": "role-sibling_of"
+        },
+        {
+          "event": "albrecht-pr-ev-032",
+          "role": "role-sibling_of"
+        },
+        {
+          "event": "albrecht-pr-ev-033",
+          "role": "role-sibling_of"
+        },
+        {
+          "event": "albrecht-pr-ev-034",
+          "role": "role-sibling_of"
+        },
+        {
+          "event": "albrecht-pr-ev-035",
+          "role": "role-sibling_of"
+        }
+      ],
+      "kind": "person"
+    },
+    {
+      "id": "dürer-pr-006",
+      "label": {
+        "default": "Agnes Frey"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [
+        {
+          "event": "albrecht-pr-ev-036",
+          "role": "role-married_to"
+        },
+        {
+          "event": "albrecht-pr-ev-037",
+          "role": "role-married_to"
+        },
+        {
+          "event": "albrecht-pr-ev-038",
+          "role": "role-married_to"
+        },
+        {
+          "event": "albrecht-pr-ev-039",
+          "role": "role-married_to"
+        }
+      ],
+      "kind": "person"
+    },
+    {
       "id": "dürer-pr-007",
+      "label": {
+        "default": "Willibald Pirckheimer"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "dürer-pl-005",
+      "label": {
+        "default": "Italy"
+      },
+      "relations": [
+        {
+          "event": "albrecht-pl-ev-040",
+          "role": "role-lived_in"
+        }
+      ],
+      "kind": "place",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.483333,
+          41.9
+        ]
+      }
+    },
+    {
+      "id": "dürer-pl-006",
+      "label": {
+        "default": "Venice"
+      },
+      "relations": [],
+      "kind": "place",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.335833,
+          45.4375
+        ]
+      }
+    },
+    {
+      "id": "dürer-pr-008",
       "label": {
         "default": "Giovanni Bellini"
       },
@@ -103,9 +627,21 @@
       "kind": "person"
     },
     {
-      "id": "dürer-pr-008",
+      "id": "dürer-pl-007",
       "label": {
-        "default": "Leonardo da Vinci"
+        "default": "Europe"
+      },
+      "relations": [],
+      "kind": "place",
+      "geometry": {
+        "type": "Point",
+        "coordinates": null
+      }
+    },
+    {
+      "id": "dürer-pr-009",
+      "label": {
+        "default": "Jacob Heller of Frankfurt"
       },
       "linkedIds": [],
       "media": [],
@@ -113,7 +649,19 @@
       "kind": "person"
     },
     {
-      "id": "dürer-pr-009",
+      "id": "dürer-pl-008",
+      "label": {
+        "default": "Frankfurt"
+      },
+      "relations": [],
+      "kind": "place",
+      "geometry": {
+        "type": "Point",
+        "coordinates": null
+      }
+    },
+    {
+      "id": "dürer-pr-010",
       "label": {
         "default": "Maximilian I."
       },
@@ -123,7 +671,210 @@
       "kind": "person"
     },
     {
+      "id": "dürer-pr-011",
+      "label": {
+        "default": "Johannes Stabius"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "dürer-pl-009",
+      "label": {
+        "default": "Vienna"
+      },
+      "relations": [],
+      "kind": "place",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.3725,
+          48.208333
+        ]
+      }
+    },
+    {
+      "id": "dürer-pr-012",
+      "label": {
+        "default": "August Siegert"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "dürer-pl-010",
+      "label": {
+        "default": "Cologne"
+      },
+      "relations": [],
+      "kind": "place",
+      "geometry": {
+        "type": "Point",
+        "coordinates": null
+      }
+    },
+    {
+      "id": "dürer-pr-013",
+      "label": {
+        "default": "Frederick of Saxony"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "dürer-pr-014",
+      "label": {
+        "default": "Philipp Melanchthon"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "dürer-pr-015",
+      "label": {
+        "default": "Erasmus of Rotterdam"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "dürer-pr-016",
+      "label": {
+        "default": "Martin Luther"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "dürer-pr-017",
+      "label": {
+        "default": "C. Grapheus"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "dürer-pr-018",
+      "label": {
+        "default": "Marcantonio Raimondi"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "dürer-pr-019",
+      "label": {
+        "default": "Michelangelo"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "dürer-pr-020",
+      "label": {
+        "default": "Lucas Cranach the Elder"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "dürer-pr-021",
+      "label": {
+        "default": "Vitruvius"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "dürer-ob-002",
+      "label": {
+        "default": "The second book"
+      },
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [
+        {
+          "event": "dürer-cho-ev-041",
+          "role": "role-object_created"
+        }
+      ],
+      "kind": "cultural-heritage-object",
+      "type": {}
+    },
+    {
+      "id": "dürer-pr-022",
+      "label": {
+        "default": "Leonardo da Vinci"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "dürer-pr-023",
+      "label": {
+        "default": "Durer"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
       "id": "dürer-ob-003",
+      "label": {
+        "default": "Renaissance"
+      },
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [
+        {
+          "event": "dürer-cho-ev-042",
+          "role": "role-object_created"
+        }
+      ],
+      "kind": "cultural-heritage-object",
+      "type": {}
+    },
+    {
+      "id": "dürer-pr-024",
+      "label": {
+        "default": "Raphael"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "dürer-ob-004",
       "label": {
         "default": "Meisterstiche"
       },
@@ -131,12 +882,17 @@
       "source": {
         "citation": "Wikipedia"
       },
-      "relations": [],
+      "relations": [
+        {
+          "event": "dürer-cho-ev-043",
+          "role": "role-object_created"
+        }
+      ],
       "kind": "cultural-heritage-object",
       "type": {}
     },
     {
-      "id": "dürer-ob-004",
+      "id": "dürer-ob-005",
       "label": {
         "default": "Knight, Death and the Devil"
       },
@@ -144,20 +900,12 @@
       "source": {
         "citation": "Wikipedia"
       },
-      "relations": [],
-      "kind": "cultural-heritage-object",
-      "type": {}
-    },
-    {
-      "id": "dürer-ob-005",
-      "label": {
-        "default": "Saint Jerome in his Study"
-      },
-      "description": "",
-      "source": {
-        "citation": "Wikipedia"
-      },
-      "relations": [],
+      "relations": [
+        {
+          "event": "dürer-cho-ev-044",
+          "role": "role-object_created"
+        }
+      ],
       "kind": "cultural-heritage-object",
       "type": {}
     },
@@ -170,68 +918,41 @@
       "source": {
         "citation": "Wikipedia"
       },
-      "relations": [],
+      "relations": [
+        {
+          "event": "dürer-cho-ev-045",
+          "role": "role-object_created"
+        }
+      ],
       "kind": "cultural-heritage-object",
       "type": {}
     },
     {
-      "id": "dürer-pl-004",
+      "id": "dürer-pl-011",
       "label": {
         "default": "Northern"
       },
       "relations": [],
       "kind": "place",
-      "type": {},
       "geometry": {
         "type": "Point",
         "coordinates": null
       }
     },
     {
-      "id": "dürer-pl-005",
+      "id": "dürer-pl-012",
       "label": {
         "default": "Northern Renaissance"
       },
       "relations": [],
       "kind": "place",
-      "type": {},
       "geometry": {
         "type": "Point",
         "coordinates": null
       }
     },
     {
-      "id": "dürer-pr-013",
-      "label": {
-        "default": "Albrecht Dürer the Elder"
-      },
-      "linkedIds": [],
-      "media": [],
-      "relations": [
-        {
-          "event": "duerer-pr-ev-002",
-          "role": "role-married_to"
-        }
-      ],
-      "kind": "person"
-    },
-    {
-      "id": "dürer-pr-014",
-      "label": {
-        "default": "Barbara Holper"
-      },
-      "linkedIds": [],
-      "media": [],
-      "relations": [
-        {
-          "event": "duerer-pr-ev-002",
-          "role": "role-married_to"
-        }
-      ],
-      "kind": "person"
-    },
-    {
-      "id": "dürer-pr-016",
+      "id": "dürer-pr-025",
       "label": {
         "default": "Albrecht Ajtósi"
       },
@@ -239,76 +960,80 @@
       "media": [],
       "relations": [
         {
-          "event": "duerer-pl-ev-003",
+          "event": "albrecht-pr-ev-046",
           "role": "role-lived_in"
         },
         {
-          "event": "duerer-pl-ev-004",
+          "event": "albrecht-pr-ev-047",
           "role": "role-lived_in"
         },
         {
-          "event": "duerer-pl-ev-005",
+          "event": "albrecht-pr-ev-048",
+          "role": "role-lived_in"
+        },
+        {
+          "event": "albrecht-pr-ev-049",
           "role": "role-lived_in"
         }
       ],
       "kind": "person"
     },
     {
-      "id": "dürer-pl-007",
+      "id": "dürer-pl-013",
       "label": {
         "default": "Ajtós"
       },
       "relations": [
         {
-          "event": "duerer-pl-ev-003",
-          "role": "role-unk"
+          "event": "albrecht-pl-ev-050",
+          "role": "role-lived_in"
         }
       ],
       "kind": "place",
-      "type": {},
       "geometry": {
         "type": "Point",
         "coordinates": null
       }
     },
     {
-      "id": "dürer-pl-008",
+      "id": "dürer-pl-014",
       "label": {
         "default": "Gyula"
       },
       "relations": [
         {
-          "event": "duerer-pl-ev-004",
-          "role": "role-unk"
+          "event": "albrecht-pl-ev-051",
+          "role": "role-lived_in"
         }
       ],
       "kind": "place",
-      "type": {},
       "geometry": {
         "type": "Point",
         "coordinates": null
       }
     },
     {
-      "id": "dürer-pl-009",
+      "id": "dürer-pl-015",
       "label": {
         "default": "Hungary"
       },
       "relations": [
         {
-          "event": "duerer-pl-ev-005",
-          "role": "role-unk"
+          "event": "albrecht-pl-ev-052",
+          "role": "role-lived_in"
         }
       ],
       "kind": "place",
-      "type": {},
       "geometry": {
         "type": "Point",
-        "coordinates": null
+        "coordinates": [
+          19.25,
+          47.433333
+        ]
       }
     },
     {
-      "id": "dürer-pr-017",
+      "id": "dürer-pr-026",
       "label": {
         "default": "Holper"
       },
@@ -318,26 +1043,7 @@
       "kind": "person"
     },
     {
-      "id": "dürer-pr-018",
-      "label": {
-        "default": "Albrecht"
-      },
-      "linkedIds": [],
-      "media": [],
-      "relations": [
-        {
-          "event": "duerer-pr-ev-006",
-          "role": "role-sibling_of"
-        },
-        {
-          "event": "duerer-pr-ev-007",
-          "role": "role-unk"
-        }
-      ],
-      "kind": "person"
-    },
-    {
-      "id": "dürer-pr-019",
+      "id": "dürer-pr-027",
       "label": {
         "default": "Hans Dürer"
       },
@@ -345,28 +1051,37 @@
       "media": [],
       "relations": [
         {
-          "event": "duerer-pr-ev-006",
-          "role": "role-unk"
+          "event": "albrecht-pr-ev-053",
+          "role": "role-sibling_of"
         },
         {
-          "event": "duerer-pr-ev-007",
+          "event": "albrecht-pr-ev-054",
           "role": "role-sibling_of"
         }
       ],
       "kind": "person"
     },
     {
-      "id": "dürer-pr-021",
+      "id": "dürer-pr-028",
       "label": {
         "default": "Endres Dürer"
       },
       "linkedIds": [],
       "media": [],
-      "relations": [],
+      "relations": [
+        {
+          "event": "albrecht-pr-ev-055",
+          "role": "role-sibling_of"
+        },
+        {
+          "event": "albrecht-pr-ev-056",
+          "role": "role-sibling_of"
+        }
+      ],
       "kind": "person"
     },
     {
-      "id": "dürer-pr-023",
+      "id": "dürer-pr-029",
       "label": {
         "default": "Ajtósi"
       },
@@ -374,37 +1089,24 @@
       "media": [],
       "relations": [
         {
-          "event": "duerer-pr-ev-008",
+          "event": "albrecht-pr-ev-057",
           "role": "role-alternate_name"
-        },
-        {
-          "event": "duerer-pr-ev-009",
-          "role": "role-unk"
         }
       ],
       "kind": "person"
     },
     {
-      "id": "dürer-pr-024",
+      "id": "dürer-pr-030",
       "label": {
         "default": "Türer"
       },
       "linkedIds": [],
       "media": [],
-      "relations": [
-        {
-          "event": "duerer-pr-ev-008",
-          "role": "role-unk"
-        },
-        {
-          "event": "duerer-pr-ev-009",
-          "role": "role-alternate_name"
-        }
-      ],
+      "relations": [],
       "kind": "person"
     },
     {
-      "id": "dürer-pr-025",
+      "id": "dürer-pr-031",
       "label": {
         "default": "Albrecht Dürer the Younger"
       },
@@ -414,9 +1116,9 @@
       "kind": "person"
     },
     {
-      "id": "dürer-pr-029",
+      "id": "dürer-pr-032",
       "label": {
-        "default": "Anton Koberger"
+        "default": "Türer"
       },
       "linkedIds": [],
       "media": [],
@@ -424,20 +1126,26 @@
       "kind": "person"
     },
     {
-      "id": "dürer-pl-011",
+      "id": "dürer-pr-033",
       "label": {
-        "default": "Germany"
+        "default": "Anton Koberger"
       },
-      "relations": [],
-      "kind": "place",
-      "type": {},
-      "geometry": {
-        "type": "Point",
-        "coordinates": null
-      }
+      "linkedIds": [],
+      "media": [],
+      "relations": [
+        {
+          "event": "albrecht-pr-ev-058",
+          "role": "role-child_of"
+        },
+        {
+          "event": "albrecht-pr-ev-059",
+          "role": "role-child_of"
+        }
+      ],
+      "kind": "person"
     },
     {
-      "id": "dürer-pr-031",
+      "id": "dürer-pr-034",
       "label": {
         "default": "Koberger"
       },
@@ -455,22 +1163,17 @@
       "source": {
         "citation": "Wikipedia"
       },
-      "relations": [],
+      "relations": [
+        {
+          "event": "dürer-cho-ev-060",
+          "role": "role-object_created"
+        }
+      ],
       "kind": "cultural-heritage-object",
       "type": {}
     },
     {
-      "id": "dürer-pr-032",
-      "label": {
-        "default": "Wolgemut"
-      },
-      "linkedIds": [],
-      "media": [],
-      "relations": [],
-      "kind": "person"
-    },
-    {
-      "id": "dürer-pr-034",
+      "id": "dürer-pr-035",
       "label": {
         "default": "Wolgemut.Because"
       },
@@ -480,17 +1183,7 @@
       "kind": "person"
     },
     {
-      "id": "dürer-pr-037",
-      "label": {
-        "default": "Michael Wolgemut"
-      },
-      "linkedIds": [],
-      "media": [],
-      "relations": [],
-      "kind": "person"
-    },
-    {
-      "id": "dürer-gr-002",
+      "id": "dürer-gr-001",
       "label": {
         "default": "Albertina"
       },
@@ -510,19 +1203,6 @@
       }
     },
     {
-      "id": "dürer-pl-013",
-      "label": {
-        "default": "Vienna"
-      },
-      "relations": [],
-      "kind": "place",
-      "type": {},
-      "geometry": {
-        "type": "Point",
-        "coordinates": null
-      }
-    },
-    {
       "id": "dürer-ob-008",
       "label": {
         "default": "Opus One"
@@ -531,47 +1211,22 @@
       "source": {
         "citation": "Wikipedia"
       },
-      "relations": [],
+      "relations": [
+        {
+          "event": "dürer-cho-ev-061",
+          "role": "role-object_created"
+        }
+      ],
       "kind": "cultural-heritage-object",
       "type": {}
     },
     {
       "id": "dürer-pl-016",
       "label": {
-        "default": "Italy"
-      },
-      "relations": [],
-      "kind": "place",
-      "type": {},
-      "geometry": {
-        "type": "Point",
-        "coordinates": null
-      }
-    },
-    {
-      "id": "dürer-pl-017",
-      "label": {
-        "default": "Venice"
-      },
-      "relations": [],
-      "kind": "place",
-      "type": {},
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          12.335833,
-          45.4375
-        ]
-      }
-    },
-    {
-      "id": "dürer-pl-018",
-      "label": {
         "default": "Alps"
       },
       "relations": [],
       "kind": "place",
-      "type": {},
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -581,100 +1236,31 @@
       }
     },
     {
-      "id": "dürer-pr-042",
-      "label": {
-        "default": "Martin Schongauer"
-      },
-      "linkedIds": [],
-      "media": [],
-      "relations": [],
-      "kind": "person"
-    },
-    {
-      "id": "dürer-pl-019",
+      "id": "dürer-pl-017",
       "label": {
         "default": "Northern Europe"
       },
       "relations": [],
       "kind": "place",
-      "type": {},
       "geometry": {
         "type": "Point",
         "coordinates": null
       }
     },
     {
-      "id": "dürer-pl-020",
-      "label": {
-        "default": "Colmar"
-      },
-      "relations": [],
-      "kind": "place",
-      "type": {},
-      "geometry": {
-        "type": "Point",
-        "coordinates": null
-      }
-    },
-    {
-      "id": "dürer-pl-021",
-      "label": {
-        "default": "Frankfurt"
-      },
-      "relations": [],
-      "kind": "place",
-      "type": {},
-      "geometry": {
-        "type": "Point",
-        "coordinates": null
-      }
-    },
-    {
-      "id": "dürer-pl-022",
+      "id": "dürer-pl-018",
       "label": {
         "default": "Netherlands"
       },
       "relations": [],
       "kind": "place",
-      "type": {},
       "geometry": {
         "type": "Point",
         "coordinates": null
       }
     },
     {
-      "id": "dürer-pr-046",
-      "label": {
-        "default": "Schongauer"
-      },
-      "linkedIds": [],
-      "media": [],
-      "relations": [
-        {
-          "event": "duerer-pr-ev-010",
-          "role": "role-sibling_of"
-        },
-        {
-          "event": "duerer-pr-ev-011",
-          "role": "role-sibling_of"
-        },
-        {
-          "event": "duerer-pr-ev-012",
-          "role": "role-sibling_of"
-        },
-        {
-          "event": "duerer-pr-ev-013",
-          "role": "role-unk"
-        },
-        {
-          "event": "duerer-pr-ev-014",
-          "role": "role-unk"
-        }
-      ],
-      "kind": "person"
-    },
-    {
-      "id": "dürer-pr-047",
+      "id": "dürer-pr-036",
       "label": {
         "default": "Caspar"
       },
@@ -682,34 +1268,34 @@
       "media": [],
       "relations": [
         {
-          "event": "duerer-pr-ev-010",
-          "role": "role-unk"
-        },
-        {
-          "event": "duerer-pr-ev-013",
+          "event": "albrecht-pr-ev-062",
           "role": "role-sibling_of"
         },
         {
-          "event": "duerer-pr-ev-015",
+          "event": "albrecht-pr-ev-063",
           "role": "role-sibling_of"
         },
         {
-          "event": "duerer-pr-ev-016",
+          "event": "albrecht-pr-ev-064",
           "role": "role-sibling_of"
         },
         {
-          "event": "duerer-pr-ev-017",
-          "role": "role-unk"
+          "event": "albrecht-pr-ev-065",
+          "role": "role-sibling_of"
         },
         {
-          "event": "duerer-pr-ev-018",
-          "role": "role-unk"
+          "event": "albrecht-pr-ev-066",
+          "role": "role-sibling_of"
+        },
+        {
+          "event": "albrecht-pr-ev-067",
+          "role": "role-sibling_of"
         }
       ],
       "kind": "person"
     },
     {
-      "id": "dürer-pr-048",
+      "id": "dürer-pr-037",
       "label": {
         "default": "Paul"
       },
@@ -717,34 +1303,34 @@
       "media": [],
       "relations": [
         {
-          "event": "duerer-pr-ev-011",
-          "role": "role-unk"
-        },
-        {
-          "event": "duerer-pr-ev-014",
+          "event": "albrecht-pr-ev-068",
           "role": "role-sibling_of"
         },
         {
-          "event": "duerer-pr-ev-015",
-          "role": "role-unk"
-        },
-        {
-          "event": "duerer-pr-ev-017",
+          "event": "albrecht-pr-ev-069",
           "role": "role-sibling_of"
         },
         {
-          "event": "duerer-pr-ev-019",
+          "event": "albrecht-pr-ev-070",
           "role": "role-sibling_of"
         },
         {
-          "event": "duerer-pr-ev-020",
-          "role": "role-unk"
+          "event": "albrecht-pr-ev-071",
+          "role": "role-sibling_of"
+        },
+        {
+          "event": "albrecht-pr-ev-072",
+          "role": "role-sibling_of"
+        },
+        {
+          "event": "albrecht-pr-ev-073",
+          "role": "role-sibling_of"
         }
       ],
       "kind": "person"
     },
     {
-      "id": "dürer-pr-049",
+      "id": "dürer-pr-038",
       "label": {
         "default": "Ludwig"
       },
@@ -752,43 +1338,42 @@
       "media": [],
       "relations": [
         {
-          "event": "duerer-pr-ev-012",
-          "role": "role-unk"
-        },
-        {
-          "event": "duerer-pr-ev-016",
-          "role": "role-unk"
-        },
-        {
-          "event": "duerer-pr-ev-018",
+          "event": "albrecht-pr-ev-074",
           "role": "role-sibling_of"
         },
         {
-          "event": "duerer-pr-ev-019",
-          "role": "role-unk"
+          "event": "albrecht-pr-ev-075",
+          "role": "role-sibling_of"
         },
         {
-          "event": "duerer-pr-ev-020",
+          "event": "albrecht-pr-ev-076",
+          "role": "role-sibling_of"
+        },
+        {
+          "event": "albrecht-pr-ev-077",
+          "role": "role-sibling_of"
+        },
+        {
+          "event": "albrecht-pr-ev-078",
           "role": "role-sibling_of"
         }
       ],
       "kind": "person"
     },
     {
-      "id": "dürer-pl-024",
+      "id": "dürer-pl-019",
       "label": {
         "default": "Basel"
       },
       "relations": [],
       "kind": "place",
-      "type": {},
       "geometry": {
         "type": "Point",
         "coordinates": null
       }
     },
     {
-      "id": "dürer-pr-052",
+      "id": "dürer-pr-039",
       "label": {
         "default": "Georg"
       },
@@ -798,23 +1383,19 @@
       "kind": "person"
     },
     {
-      "id": "dürer-pl-025",
+      "id": "dürer-pl-020",
       "label": {
         "default": "Strasbourg"
       },
       "relations": [],
       "kind": "place",
-      "type": {},
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          7.745833,
-          48.583333
-        ]
+        "coordinates": null
       }
     },
     {
-      "id": "dürer-pr-054",
+      "id": "dürer-pr-040",
       "label": {
         "default": "Nikolaus Gerhaert"
       },
@@ -824,22 +1405,33 @@
       "kind": "person"
     },
     {
-      "id": "dürer-pl-026",
+      "id": "dürer-pl-021",
       "label": {
-        "default": "Born"
+        "default": "Louvre"
       },
       "relations": [],
       "kind": "place",
-      "type": {},
       "geometry": {
         "type": "Point",
         "coordinates": null
       }
     },
     {
-      "id": "dürer-pr-061",
+      "id": "dürer-pl-022",
       "label": {
-        "default": "Maximilian I. Dürer"
+        "default": "Nuremberg.Very"
+      },
+      "relations": [],
+      "kind": "place",
+      "geometry": {
+        "type": "Point",
+        "coordinates": null
+      }
+    },
+    {
+      "id": "dürer-pr-041",
+      "label": {
+        "default": "Agnes"
       },
       "linkedIds": [],
       "media": [],
@@ -847,9 +1439,981 @@
       "kind": "person"
     },
     {
+      "id": "dürer-pr-042",
+      "label": {
+        "default": "Agnes"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [
+        {
+          "event": "albrecht-pr-ev-079",
+          "role": "role-married_to"
+        },
+        {
+          "event": "albrecht-pr-ev-080",
+          "role": "role-married_to"
+        }
+      ],
+      "kind": "person"
+    },
+    {
+      "id": "dürer-pr-043",
+      "label": {
+        "default": "Pirckheimer"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "dürer-pr-044",
+      "label": {
+        "default": "Agnes"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "dürer-ob-009",
+      "label": {
+        "default": "The Men's Bath"
+      },
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [
+        {
+          "event": "dürer-cho-ev-081",
+          "role": "role-object_created"
+        }
+      ],
+      "kind": "cultural-heritage-object",
+      "type": {}
+    },
+    {
+      "id": "dürer-pl-023",
+      "label": {
+        "default": "Alps"
+      },
+      "relations": [],
+      "kind": "place",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.865,
+          45.832778
+        ]
+      }
+    },
+    {
+      "id": "dürer-ob-010",
+      "label": {
+        "default": "Nemesis"
+      },
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [
+        {
+          "event": "dürer-cho-ev-082",
+          "role": "role-object_created"
+        }
+      ],
+      "kind": "cultural-heritage-object",
+      "type": {}
+    },
+    {
+      "id": "dürer-pr-045",
+      "label": {
+        "default": "the Housebook Master"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "dürer-pr-046",
+      "label": {
+        "default": "Antonio del Pollaiuolo"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "dürer-pr-047",
+      "label": {
+        "default": "Lorenzo di Credi"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "dürer-pr-048",
+      "label": {
+        "default": "Andrea Mantegna"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "dürer-pl-024",
+      "label": {
+        "default": "Padua"
+      },
+      "relations": [],
+      "kind": "place",
+      "geometry": {
+        "type": "Point",
+        "coordinates": null
+      }
+    },
+    {
+      "id": "dürer-pl-025",
+      "label": {
+        "default": "Mantua"
+      },
+      "relations": [],
+      "kind": "place",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.791667,
+          45.156389
+        ]
+      }
+    },
+    {
+      "id": "dürer-ob-011",
+      "label": {
+        "default": "The Men's Bath House"
+      },
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [
+        {
+          "event": "dürer-cho-ev-083",
+          "role": "role-object_created"
+        }
+      ],
+      "kind": "cultural-heritage-object",
+      "type": {}
+    },
+    {
+      "id": "dürer-ob-012",
+      "label": {
+        "default": "St. Michael Fighting the Dragon"
+      },
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [
+        {
+          "event": "dürer-cho-ev-084",
+          "role": "role-object_created"
+        }
+      ],
+      "kind": "cultural-heritage-object",
+      "type": {}
+    },
+    {
+      "id": "dürer-ob-013",
+      "label": {
+        "default": "the Great Passion"
+      },
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [
+        {
+          "event": "dürer-cho-ev-085",
+          "role": "role-object_created"
+        }
+      ],
+      "kind": "cultural-heritage-object",
+      "type": {}
+    },
+    {
+      "id": "dürer-ob-014",
+      "label": {
+        "default": "The Seven Sorrows Polyptych"
+      },
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [
+        {
+          "event": "dürer-cho-ev-086",
+          "role": "role-object_created"
+        }
+      ],
+      "kind": "cultural-heritage-object",
+      "type": {}
+    },
+    {
+      "id": "dürer-pr-049",
+      "label": {
+        "default": "Frederick III"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "dürer-pl-026",
+      "label": {
+        "default": "Saxony"
+      },
+      "relations": [],
+      "kind": "place",
+      "geometry": {
+        "type": "Point",
+        "coordinates": null
+      }
+    },
+    {
+      "id": "dürer-ob-015",
+      "label": {
+        "default": "the Life of the Virgin"
+      },
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [
+        {
+          "event": "dürer-cho-ev-087",
+          "role": "role-object_created"
+        }
+      ],
+      "kind": "cultural-heritage-object",
+      "type": {}
+    },
+    {
+      "id": "dürer-ob-016",
+      "label": {
+        "default": "the Great Passion"
+      },
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [
+        {
+          "event": "dürer-cho-ev-088",
+          "role": "role-object_created"
+        }
+      ],
+      "kind": "cultural-heritage-object",
+      "type": {}
+    },
+    {
+      "id": "dürer-ob-017",
+      "label": {
+        "default": "the Prodigal Son"
+      },
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [
+        {
+          "event": "dürer-cho-ev-089",
+          "role": "role-object_created"
+        }
+      ],
+      "kind": "cultural-heritage-object",
+      "type": {}
+    },
+    {
+      "id": "dürer-pr-050",
+      "label": {
+        "default": "Giorgio Vasari"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "dürer-ob-018",
+      "label": {
+        "default": "Nemesis"
+      },
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [
+        {
+          "event": "dürer-cho-ev-090",
+          "role": "role-object_created"
+        }
+      ],
+      "kind": "cultural-heritage-object",
+      "type": {}
+    },
+    {
+      "id": "dürer-ob-019",
+      "label": {
+        "default": "The Sea Monster"
+      },
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [
+        {
+          "event": "dürer-cho-ev-091",
+          "role": "role-object_created"
+        }
+      ],
+      "kind": "cultural-heritage-object",
+      "type": {}
+    },
+    {
+      "id": "dürer-ob-020",
+      "label": {
+        "default": "Saint Eustace"
+      },
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [
+        {
+          "event": "dürer-cho-ev-092",
+          "role": "role-object_created"
+        }
+      ],
+      "kind": "cultural-heritage-object",
+      "type": {}
+    },
+    {
+      "id": "dürer-ob-021",
+      "label": {
+        "default": "Pond in the Woods"
+      },
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [
+        {
+          "event": "dürer-cho-ev-093",
+          "role": "role-object_created"
+        }
+      ],
+      "kind": "cultural-heritage-object",
+      "type": {}
+    },
+    {
+      "id": "dürer-ob-022",
+      "label": {
+        "default": "Willow Mill"
+      },
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [
+        {
+          "event": "dürer-cho-ev-094",
+          "role": "role-object_created"
+        }
+      ],
+      "kind": "cultural-heritage-object",
+      "type": {}
+    },
+    {
+      "id": "dürer-pr-051",
+      "label": {
+        "default": "Madonnas"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "dürer-pr-052",
+      "label": {
+        "default": "Jacopo de' Barbari"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "dürer-pr-053",
+      "label": {
+        "default": "De' Barbari"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "dürer-ob-023",
+      "label": {
+        "default": "Adam and Eve"
+      },
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [
+        {
+          "event": "dürer-cho-ev-095",
+          "role": "role-object_created"
+        }
+      ],
+      "kind": "cultural-heritage-object",
+      "type": {}
+    },
+    {
+      "id": "dürer-ob-024",
+      "label": {
+        "default": "the Betende Hände"
+      },
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [
+        {
+          "event": "dürer-cho-ev-096",
+          "role": "role-object_created"
+        }
+      ],
+      "kind": "cultural-heritage-object",
+      "type": {}
+    },
+    {
+      "id": "dürer-ob-025",
+      "label": {
+        "default": "Young Hare"
+      },
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [
+        {
+          "event": "dürer-cho-ev-097",
+          "role": "role-object_created"
+        }
+      ],
+      "kind": "cultural-heritage-object",
+      "type": {}
+    },
+    {
+      "id": "dürer-ob-026",
+      "label": {
+        "default": "the Great Piece of Turf"
+      },
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [
+        {
+          "event": "dürer-cho-ev-098",
+          "role": "role-object_created"
+        }
+      ],
+      "kind": "cultural-heritage-object",
+      "type": {}
+    },
+    {
+      "id": "dürer-pr-054",
+      "label": {
+        "default": "Paumgartner"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "dürer-ob-027",
+      "label": {
+        "default": "the Adoration of the Magi"
+      },
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [
+        {
+          "event": "dürer-cho-ev-099",
+          "role": "role-object_created"
+        }
+      ],
+      "kind": "cultural-heritage-object",
+      "type": {}
+    },
+    {
+      "id": "dürer-gr-002",
+      "label": {
+        "default": "San Bartolomeo"
+      },
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [],
+      "kind": "group",
+      "type": {}
+    },
+    {
+      "id": "dürer-ob-028",
+      "label": {
+        "default": "the Adoration of the Virgin"
+      },
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [
+        {
+          "event": "dürer-cho-ev-100",
+          "role": "role-object_created"
+        }
+      ],
+      "kind": "cultural-heritage-object",
+      "type": {}
+    },
+    {
+      "id": "dürer-ob-029",
+      "label": {
+        "default": "of"
+      },
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [
+        {
+          "event": "dürer-cho-ev-101",
+          "role": "role-object_created"
+        }
+      ],
+      "kind": "cultural-heritage-object",
+      "type": {}
+    },
+    {
+      "id": "dürer-ob-030",
+      "label": {
+        "default": "Garlands"
+      },
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [
+        {
+          "event": "dürer-cho-ev-102",
+          "role": "role-object_created"
+        }
+      ],
+      "kind": "cultural-heritage-object",
+      "type": {}
+    },
+    {
+      "id": "dürer-pr-055",
+      "label": {
+        "default": "Rudolf II"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "dürer-pl-027",
+      "label": {
+        "default": "Prague"
+      },
+      "relations": [],
+      "kind": "place",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.421389,
+          50.0875
+        ]
+      }
+    },
+    {
+      "id": "dürer-pr-056",
+      "label": {
+        "default": "Raphael.Between"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "dürer-ob-031",
+      "label": {
+        "default": "Adam and Eve"
+      },
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [
+        {
+          "event": "dürer-cho-ev-103",
+          "role": "role-object_created"
+        }
+      ],
+      "kind": "cultural-heritage-object",
+      "type": {}
+    },
+    {
+      "id": "dürer-ob-032",
+      "label": {
+        "default": "Martyrdom of the Ten Thousand"
+      },
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [
+        {
+          "event": "dürer-cho-ev-104",
+          "role": "role-object_created"
+        }
+      ],
+      "kind": "cultural-heritage-object",
+      "type": {}
+    },
+    {
+      "id": "dürer-ob-033",
+      "label": {
+        "default": "Virgin with the Iris"
+      },
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [
+        {
+          "event": "dürer-cho-ev-105",
+          "role": "role-object_created"
+        }
+      ],
+      "kind": "cultural-heritage-object",
+      "type": {}
+    },
+    {
+      "id": "dürer-ob-034",
+      "label": {
+        "default": "Assumption of the Virgin"
+      },
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [
+        {
+          "event": "dürer-cho-ev-106",
+          "role": "role-object_created"
+        }
+      ],
+      "kind": "cultural-heritage-object",
+      "type": {}
+    },
+    {
+      "id": "dürer-ob-035",
+      "label": {
+        "default": "Adoration of the Trinity"
+      },
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [
+        {
+          "event": "dürer-cho-ev-107",
+          "role": "role-object_created"
+        }
+      ],
+      "kind": "cultural-heritage-object",
+      "type": {}
+    },
+    {
+      "id": "dürer-pr-057",
+      "label": {
+        "default": "Matthaeus Landauer"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "dürer-ob-036",
+      "label": {
+        "default": "the Great Passion"
+      },
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [
+        {
+          "event": "dürer-cho-ev-108",
+          "role": "role-object_created"
+        }
+      ],
+      "kind": "cultural-heritage-object",
+      "type": {}
+    },
+    {
+      "id": "dürer-ob-037",
+      "label": {
+        "default": "the Life of the Virgin"
+      },
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [
+        {
+          "event": "dürer-cho-ev-109",
+          "role": "role-object_created"
+        }
+      ],
+      "kind": "cultural-heritage-object",
+      "type": {}
+    },
+    {
+      "id": "dürer-ob-038",
+      "label": {
+        "default": "Apocalypse"
+      },
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [
+        {
+          "event": "dürer-cho-ev-110",
+          "role": "role-object_created"
+        }
+      ],
+      "kind": "cultural-heritage-object",
+      "type": {}
+    },
+    {
+      "id": "dürer-ob-039",
+      "label": {
+        "default": "Little Passion"
+      },
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [
+        {
+          "event": "dürer-cho-ev-111",
+          "role": "role-object_created"
+        }
+      ],
+      "kind": "cultural-heritage-object",
+      "type": {}
+    },
+    {
+      "id": "dürer-ob-040",
+      "label": {
+        "default": "Knight, Death and the Devil"
+      },
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [
+        {
+          "event": "dürer-cho-ev-112",
+          "role": "role-object_created"
+        }
+      ],
+      "kind": "cultural-heritage-object",
+      "type": {}
+    },
+    {
+      "id": "dürer-pr-058",
+      "label": {
+        "default": "Erasmus"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "dürer-ob-041",
+      "label": {
+        "default": "Handbook of a Christian Knight"
+      },
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [
+        {
+          "event": "dürer-cho-ev-113",
+          "role": "role-object_created"
+        }
+      ],
+      "kind": "cultural-heritage-object",
+      "type": {}
+    },
+    {
+      "id": "dürer-ob-042",
+      "label": {
+        "default": "St. Jerome in His Study"
+      },
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [
+        {
+          "event": "dürer-cho-ev-114",
+          "role": "role-object_created"
+        }
+      ],
+      "kind": "cultural-heritage-object",
+      "type": {}
+    },
+    {
+      "id": "dürer-ob-043",
+      "label": {
+        "default": "Melencolia I"
+      },
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [
+        {
+          "event": "dürer-cho-ev-115",
+          "role": "role-object_created"
+        }
+      ],
+      "kind": "cultural-heritage-object",
+      "type": {}
+    },
+    {
+      "id": "dürer-pr-059",
+      "label": {
+        "default": "Pirckheimer"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "dürer-pl-028",
+      "label": {
+        "default": "Lisbon"
+      },
+      "relations": [],
+      "kind": "place",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -9.15,
+          38.725278
+        ]
+      }
+    },
+    {
+      "id": "dürer-ob-044",
+      "label": {
+        "default": "The Triumphal Arch"
+      },
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [
+        {
+          "event": "dürer-cho-ev-116",
+          "role": "role-object_created"
+        }
+      ],
+      "kind": "cultural-heritage-object",
+      "type": {}
+    },
+    {
+      "id": "dürer-pr-060",
+      "label": {
+        "default": "Pirckheimer"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "dürer-pr-061",
+      "label": {
+        "default": "Horapollo"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "dürer-ob-045",
+      "label": {
+        "default": "Hieroglyphica"
+      },
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [
+        {
+          "event": "dürer-cho-ev-117",
+          "role": "role-object_created"
+        }
+      ],
+      "kind": "cultural-heritage-object",
+      "type": {}
+    },
+    {
       "id": "dürer-pr-062",
       "label": {
-        "default": "Knight"
+        "default": "Jörg Kölderer"
       },
       "linkedIds": [],
       "media": [],
@@ -859,17 +2423,111 @@
     {
       "id": "dürer-pr-063",
       "label": {
-        "default": "Saint Jerome"
+        "default": "Hieronymous Andreae"
       },
       "linkedIds": [],
       "media": [],
       "relations": [],
       "kind": "person"
+    },
+    {
+      "id": "dürer-ob-046",
+      "label": {
+        "default": "Arch"
+      },
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [
+        {
+          "event": "dürer-cho-ev-118",
+          "role": "role-object_created"
+        }
+      ],
+      "kind": "cultural-heritage-object",
+      "type": {}
+    },
+    {
+      "id": "dürer-ob-047",
+      "label": {
+        "default": "The Triumphal Procession"
+      },
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [
+        {
+          "event": "dürer-cho-ev-119",
+          "role": "role-object_created"
+        }
+      ],
+      "kind": "cultural-heritage-object",
+      "type": {}
+    },
+    {
+      "id": "dürer-pr-064",
+      "label": {
+        "default": "Treitz-Saurwein"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "dürer-pr-065",
+      "label": {
+        "default": "Albrecht Altdorfer"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "dürer-pr-066",
+      "label": {
+        "default": "Hans Springinklee"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "dürer-pr-067",
+      "label": {
+        "default": "Emperor"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "dürer-ob-048",
+      "label": {
+        "default": "Prayer-Book"
+      },
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [
+        {
+          "event": "dürer-cho-ev-120",
+          "role": "role-object_created"
+        }
+      ],
+      "kind": "cultural-heritage-object",
+      "type": {}
     },
     {
       "id": "dürer-pr-068",
       "label": {
-        "default": "Elder"
+        "default": "Hans Baldung"
       },
       "linkedIds": [],
       "media": [],
@@ -877,9 +2535,641 @@
       "kind": "person"
     },
     {
+      "id": "dürer-pr-069",
+      "label": {
+        "default": "Pirckheimer"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "dürer-pr-070",
+      "label": {
+        "default": "Konrad Peutinger"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "dürer-pr-071",
+      "label": {
+        "default": "Conrad Celtes"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "dürer-pr-072",
+      "label": {
+        "default": "Hans Tscherte"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "dürer-pl-029",
+      "label": {
+        "default": "St. Stephen's Cathedral"
+      },
+      "relations": [],
+      "kind": "place",
+      "geometry": {
+        "type": "Point",
+        "coordinates": null
+      }
+    },
+    {
+      "id": "dürer-pl-030",
+      "label": {
+        "default": "St. Stephen's Cathedral"
+      },
+      "relations": [],
+      "kind": "place",
+      "geometry": {
+        "type": "Point",
+        "coordinates": null
+      }
+    },
+    {
+      "id": "dürer-pr-073",
+      "label": {
+        "default": "Siegert"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "dürer-pr-074",
+      "label": {
+        "default": "Stabius"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "dürer-pr-075",
+      "label": {
+        "default": "Stabius"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "dürer-pr-076",
+      "label": {
+        "default": "Stabius"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "dürer-pr-077",
+      "label": {
+        "default": "Konrad Heinfogel"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "dürer-pr-078",
+      "label": {
+        "default": "Charles V"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "dürer-pl-031",
+      "label": {
+        "default": "Aachen"
+      },
+      "relations": [],
+      "kind": "place",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.083611,
+          50.775556
+        ]
+      }
+    },
+    {
+      "id": "dürer-pl-032",
+      "label": {
+        "default": "Rhine"
+      },
+      "relations": [],
+      "kind": "place",
+      "geometry": {
+        "type": "Point",
+        "coordinates": null
+      }
+    },
+    {
+      "id": "dürer-pl-033",
+      "label": {
+        "default": "Antwerp"
+      },
+      "relations": [],
+      "kind": "place",
+      "geometry": {
+        "type": "Point",
+        "coordinates": null
+      }
+    },
+    {
+      "id": "dürer-pr-079",
+      "label": {
+        "default": "Stefan Lochner"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "dürer-pl-034",
+      "label": {
+        "default": "Nijmegen"
+      },
+      "relations": [],
+      "kind": "place",
+      "geometry": {
+        "type": "Point",
+        "coordinates": null
+      }
+    },
+    {
+      "id": "dürer-pl-035",
+      "label": {
+        "default": "s-Hertogenbosch"
+      },
+      "relations": [],
+      "kind": "place",
+      "geometry": {
+        "type": "Point",
+        "coordinates": null
+      }
+    },
+    {
+      "id": "dürer-pl-036",
+      "label": {
+        "default": "Bruges"
+      },
+      "relations": [],
+      "kind": "place",
+      "geometry": {
+        "type": "Point",
+        "coordinates": null
+      }
+    },
+    {
+      "id": "dürer-ob-049",
+      "label": {
+        "default": "Madonna of Bruges"
+      },
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [
+        {
+          "event": "dürer-cho-ev-121",
+          "role": "role-object_created"
+        }
+      ],
+      "kind": "cultural-heritage-object",
+      "type": {}
+    },
+    {
+      "id": "dürer-pl-037",
+      "label": {
+        "default": "Ghent"
+      },
+      "relations": [],
+      "kind": "place",
+      "geometry": {
+        "type": "Point",
+        "coordinates": null
+      }
+    },
+    {
       "id": "dürer-pr-080",
       "label": {
-        "default": "Younger"
+        "default": "van Eyck's"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "dürer-pl-038",
+      "label": {
+        "default": "Ghent"
+      },
+      "relations": [],
+      "kind": "place",
+      "geometry": {
+        "type": "Point",
+        "coordinates": null
+      }
+    },
+    {
+      "id": "dürer-pl-039",
+      "label": {
+        "default": "Zeeland"
+      },
+      "relations": [],
+      "kind": "place",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.75,
+          51.566667
+        ]
+      }
+    },
+    {
+      "id": "dürer-pr-081",
+      "label": {
+        "default": "Margaret of Austria"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "dürer-pr-082",
+      "label": {
+        "default": "Margaret"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "dürer-pr-083",
+      "label": {
+        "default": "Bernard van Orley"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "dürer-pr-084",
+      "label": {
+        "default": "Jan Provoost"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "dürer-pr-085",
+      "label": {
+        "default": "Gerard Horenbout"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "dürer-pr-086",
+      "label": {
+        "default": "Jean Mone"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "dürer-pr-087",
+      "label": {
+        "default": "Joachim Patinir"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "dürer-pr-088",
+      "label": {
+        "default": "Tommaso Vincidor"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "dürer-pr-089",
+      "label": {
+        "default": "Quentin Matsys.Having"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "dürer-pr-090",
+      "label": {
+        "default": "Hieronymus Holtzschuher"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "dürer-ob-050",
+      "label": {
+        "default": "Madonna and Child"
+      },
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [
+        {
+          "event": "dürer-cho-ev-122",
+          "role": "role-object_created"
+        }
+      ],
+      "kind": "cultural-heritage-object",
+      "type": {}
+    },
+    {
+      "id": "dürer-ob-051",
+      "label": {
+        "default": "Salvator Mundi"
+      },
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [
+        {
+          "event": "dürer-cho-ev-123",
+          "role": "role-object_created"
+        }
+      ],
+      "kind": "cultural-heritage-object",
+      "type": {}
+    },
+    {
+      "id": "dürer-pr-091",
+      "label": {
+        "default": "St. John"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "dürer-pr-092",
+      "label": {
+        "default": "St. Peter"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "dürer-pr-093",
+      "label": {
+        "default": "St. Paul"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "dürer-pr-094",
+      "label": {
+        "default": "St. Mark"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "dürer-ob-052",
+      "label": {
+        "default": "the Four Apostles"
+      },
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [
+        {
+          "event": "dürer-cho-ev-124",
+          "role": "role-object_created"
+        }
+      ],
+      "kind": "cultural-heritage-object",
+      "type": {}
+    },
+    {
+      "id": "dürer-pl-040",
+      "label": {
+        "default": "the City of Nuremberg"
+      },
+      "relations": [],
+      "kind": "place",
+      "geometry": {
+        "type": "Point",
+        "coordinates": null
+      }
+    },
+    {
+      "id": "dürer-pr-095",
+      "label": {
+        "default": "Cardinal-Elector"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "dürer-pr-096",
+      "label": {
+        "default": "Albert of Mainz"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "dürer-pr-097",
+      "label": {
+        "default": "Frederick the Wise"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "dürer-pl-041",
+      "label": {
+        "default": "Saxony"
+      },
+      "relations": [],
+      "kind": "place",
+      "geometry": {
+        "type": "Point",
+        "coordinates": null
+      }
+    },
+    {
+      "id": "dürer-pr-098",
+      "label": {
+        "default": "Cardinal"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "dürer-pr-099",
+      "label": {
+        "default": "Melanchthon"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "dürer-pr-100",
+      "label": {
+        "default": "Ulrich Starck"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "dürer-pr-101",
+      "label": {
+        "default": "Erasmus"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "dürer-ob-053",
+      "label": {
+        "default": "The Four Books on Measurement"
+      },
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [
+        {
+          "event": "dürer-cho-ev-125",
+          "role": "role-object_created"
+        }
+      ],
+      "kind": "cultural-heritage-object",
+      "type": {}
+    },
+    {
+      "id": "dürer-pr-102",
+      "label": {
+        "default": "Galileo"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "dürer-pr-103",
+      "label": {
+        "default": "Kepler"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "dürer-ob-054",
+      "label": {
+        "default": "The Four Books on Human Proportion"
+      },
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [
+        {
+          "event": "dürer-cho-ev-126",
+          "role": "role-object_created"
+        }
+      ],
+      "kind": "cultural-heritage-object",
+      "type": {}
+    },
+    {
+      "id": "dürer-pl-042",
+      "label": {
+        "default": "Johannisfriedhof"
+      },
+      "relations": [],
+      "kind": "place",
+      "geometry": {
+        "type": "Point",
+        "coordinates": null
+      }
+    },
+    {
+      "id": "dürer-pr-104",
+      "label": {
+        "default": "Bernhard Walther"
       },
       "linkedIds": [],
       "media": [],
@@ -889,7 +3179,7 @@
     {
       "id": "dürer-gr-003",
       "label": {
-        "default": "Nuremberg Chronicle"
+        "default": "the Catholic Church"
       },
       "description": "",
       "source": {
@@ -898,353 +3188,3280 @@
       "relations": [],
       "kind": "group",
       "type": {}
+    },
+    {
+      "id": "dürer-pr-105",
+      "label": {
+        "default": "Nicholas Kratzer"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "dürer-pr-106",
+      "label": {
+        "default": "Pirckheimer"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "dürer-pr-107",
+      "label": {
+        "default": "Johann Tscherte"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "dürer-pr-108",
+      "label": {
+        "default": "Albert"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "dürer-gr-004",
+      "label": {
+        "default": "the Nuremberg City Council's"
+      },
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [],
+      "kind": "group",
+      "type": {}
+    },
+    {
+      "id": "dürer-pr-109",
+      "label": {
+        "default": "Zwingli"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "dürer-pr-110",
+      "label": {
+        "default": "Andreas Karlstadt"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "dürer-pr-111",
+      "label": {
+        "default": "Melanchthon"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "dürer-pr-112",
+      "label": {
+        "default": "Erasmus"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "dürer-pr-113",
+      "label": {
+        "default": "Cornelius Grapheus"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "dürer-ob-055",
+      "label": {
+        "default": "Babylonian Captivity"
+      },
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [
+        {
+          "event": "dürer-cho-ev-127",
+          "role": "role-object_created"
+        }
+      ],
+      "kind": "cultural-heritage-object",
+      "type": {}
+    },
+    {
+      "id": "dürer-pr-114",
+      "label": {
+        "default": "Erasmus"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "dürer-pr-115",
+      "label": {
+        "default": "St Philip"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "dürer-pr-116",
+      "label": {
+        "default": "Raphael"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "dürer-pr-117",
+      "label": {
+        "default": "Titian"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "dürer-pr-118",
+      "label": {
+        "default": "Parmigianino"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "dürer-pr-119",
+      "label": {
+        "default": "Lucas van Leyden"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "dürer-pr-120",
+      "label": {
+        "default": "Giulio Campagnola"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "dürer-pr-121",
+      "label": {
+        "default": "Giovanni Battista Palumba"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "dürer-pr-122",
+      "label": {
+        "default": "Benedetto Montagna"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "dürer-pr-123",
+      "label": {
+        "default": "Cristofano Robetta"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "dürer-pr-124",
+      "label": {
+        "default": "Agostino Veneziano"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "dürer-pr-125",
+      "label": {
+        "default": "Marcantonio"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "dürer-pl-043",
+      "label": {
+        "default": "Alps"
+      },
+      "relations": [],
+      "kind": "place",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.865,
+          45.832778
+        ]
+      }
+    },
+    {
+      "id": "dürer-pl-044",
+      "label": {
+        "default": "Northern"
+      },
+      "relations": [],
+      "kind": "place",
+      "geometry": {
+        "type": "Point",
+        "coordinates": null
+      }
+    },
+    {
+      "id": "dürer-gr-005",
+      "label": {
+        "default": "Renaissance"
+      },
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [],
+      "kind": "group",
+      "type": {}
+    },
+    {
+      "id": "dürer-gr-006",
+      "label": {
+        "default": "Lutheran Church"
+      },
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [],
+      "kind": "group",
+      "type": {}
+    },
+    {
+      "id": "dürer-pr-126",
+      "label": {
+        "default": "Hans Burgkmair"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "dürer-ob-056",
+      "label": {
+        "default": "Bible"
+      },
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [
+        {
+          "event": "dürer-cho-ev-128",
+          "role": "role-object_created"
+        }
+      ],
+      "kind": "cultural-heritage-object",
+      "type": {}
+    },
+    {
+      "id": "dürer-ob-057",
+      "label": {
+        "default": "the Four Books on Measurement"
+      },
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [
+        {
+          "event": "dürer-cho-ev-129",
+          "role": "role-object_created"
+        }
+      ],
+      "kind": "cultural-heritage-object",
+      "type": {}
+    },
+    {
+      "id": "dürer-ob-058",
+      "label": {
+        "default": "Underweysung der Messung mit dem Zirckel und Richtscheyt"
+      },
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [
+        {
+          "event": "dürer-cho-ev-130",
+          "role": "role-object_created"
+        }
+      ],
+      "kind": "cultural-heritage-object",
+      "type": {}
+    },
+    {
+      "id": "dürer-ob-059",
+      "label": {
+        "default": "Instructions for Measuring with Compass and Ruler"
+      },
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [
+        {
+          "event": "dürer-cho-ev-131",
+          "role": "role-object_created"
+        }
+      ],
+      "kind": "cultural-heritage-object",
+      "type": {}
+    },
+    {
+      "id": "dürer-pr-127",
+      "label": {
+        "default": "Apollonius"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "dürer-pr-128",
+      "label": {
+        "default": "Johannes Werner's '"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "dürer-ob-060",
+      "label": {
+        "default": "Libellus super viginti duobus elementis conicis'"
+      },
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [
+        {
+          "event": "dürer-cho-ev-132",
+          "role": "role-object_created"
+        }
+      ],
+      "kind": "cultural-heritage-object",
+      "type": {}
+    },
+    {
+      "id": "dürer-pr-129",
+      "label": {
+        "default": "Ptolemy"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "dürer-pr-130",
+      "label": {
+        "default": "Euclid"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "dürer-ob-061",
+      "label": {
+        "default": "the Four Books on Human Proportion"
+      },
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [
+        {
+          "event": "dürer-cho-ev-133",
+          "role": "role-object_created"
+        }
+      ],
+      "kind": "cultural-heritage-object",
+      "type": {}
+    },
+    {
+      "id": "dürer-ob-062",
+      "label": {
+        "default": "(Vier Bücher von Menschlicher Proportion)"
+      },
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [
+        {
+          "event": "dürer-cho-ev-134",
+          "role": "role-object_created"
+        }
+      ],
+      "kind": "cultural-heritage-object",
+      "type": {}
+    },
+    {
+      "id": "dürer-pr-131",
+      "label": {
+        "default": "Francesco di Giorgio's"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "dürer-ob-063",
+      "label": {
+        "default": "De harmonica mundi totius'"
+      },
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [
+        {
+          "event": "dürer-cho-ev-135",
+          "role": "role-object_created"
+        }
+      ],
+      "kind": "cultural-heritage-object",
+      "type": {}
+    },
+    {
+      "id": "dürer-pr-132",
+      "label": {
+        "default": "Alberti"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "dürer-pr-133",
+      "label": {
+        "default": "Alberti"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "dürer-ob-064",
+      "label": {
+        "default": "Various Lessons on the Fortification of Cities, Castles, and Localities"
+      },
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [
+        {
+          "event": "dürer-cho-ev-136",
+          "role": "role-object_created"
+        }
+      ],
+      "kind": "cultural-heritage-object",
+      "type": {}
+    },
+    {
+      "id": "dürer-ob-065",
+      "label": {
+        "default": "Etliche Underricht zu Befestigung der Stett, Schloss und Flecken"
+      },
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [
+        {
+          "event": "dürer-cho-ev-137",
+          "role": "role-object_created"
+        }
+      ],
+      "kind": "cultural-heritage-object",
+      "type": {}
+    },
+    {
+      "id": "dürer-pr-134",
+      "label": {
+        "default": "Hieronymus Andreae"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "dürer-pr-135",
+      "label": {
+        "default": "Johan Janssenn"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "dürer-pl-045",
+      "label": {
+        "default": "Arnhem"
+      },
+      "relations": [],
+      "kind": "place",
+      "geometry": {
+        "type": "Point",
+        "coordinates": null
+      }
+    },
+    {
+      "id": "dürer-ob-066",
+      "label": {
+        "default": "On Cities, Forts, and Castles, Designed and Strengthened by Several Manners: Presented for the Most Necessary Accommodation of War (De vrbibus, arcibus, castellisque condendis, ac muniendis rationes aliquot : praesenti bellorum necessitati accommodatissimae"
+      },
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [
+        {
+          "event": "dürer-cho-ev-138",
+          "role": "role-object_created"
+        }
+      ],
+      "kind": "cultural-heritage-object",
+      "type": {}
+    },
+    {
+      "id": "dürer-pr-136",
+      "label": {
+        "default": "Christian Wechel"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "dürer-pr-137",
+      "label": {
+        "default": "Wecheli"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "dürer-pr-138",
+      "label": {
+        "default": "Wechelus"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "dürer-pl-046",
+      "label": {
+        "default": "Paris.The"
+      },
+      "relations": [],
+      "kind": "place",
+      "geometry": {
+        "type": "Point",
+        "coordinates": null
+      }
+    },
+    {
+      "id": "dürer-pl-047",
+      "label": {
+        "default": "Baltic"
+      },
+      "relations": [],
+      "kind": "place",
+      "geometry": {
+        "type": "Point",
+        "coordinates": null
+      }
+    },
+    {
+      "id": "dürer-gr-007",
+      "label": {
+        "default": "the Nuremberg Group"
+      },
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [],
+      "kind": "group",
+      "type": {}
+    },
+    {
+      "id": "dürer-ob-067",
+      "label": {
+        "default": "Οπλοδιδασκαλια sive Armorvm Tractandorvm Meditatio Alberti Dvreri"
+      },
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [
+        {
+          "event": "dürer-cho-ev-139",
+          "role": "role-object_created"
+        }
+      ],
+      "kind": "cultural-heritage-object",
+      "type": {}
+    },
+    {
+      "id": "dürer-pr-139",
+      "label": {
+        "default": "Albrecht Dürer's"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "dürer-ob-068",
+      "label": {
+        "default": "Meditation on the Handling of Weapons"
+      },
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [
+        {
+          "event": "dürer-cho-ev-140",
+          "role": "role-object_created"
+        }
+      ],
+      "kind": "cultural-heritage-object",
+      "type": {}
+    },
+    {
+      "id": "dürer-pr-140",
+      "label": {
+        "default": "Hans Talhoffer's"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "dürer-ob-069",
+      "label": {
+        "default": "Berlin Picture Book (Libr.Pict.A.83"
+      },
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [
+        {
+          "event": "dürer-cho-ev-141",
+          "role": "role-object_created"
+        }
+      ],
+      "kind": "cultural-heritage-object",
+      "type": {}
     }
   ],
   "events": [
     {
-      "id": "duerer-pl-ev-001",
+      "id": "albrecht-pr-ev-001",
       "label": {
         "default": "Nuremberg"
       },
       "kind": "event-kind-born_in",
       "relations": [
         {
-          "entity": "dürer-pr-005",
+          "entity": "dürer-pr-001",
           "role": "role-born_in"
         },
         {
-          "entity": "dürer-pl-002",
+          "entity": "dürer-pl-001",
           "role": "role-place_of_birth"
         }
       ]
     },
     {
-      "id": "duerer-pr-ev-002",
+      "id": "albrecht-pr-ev-002",
       "label": {
         "default": "Albrecht Dürer the Elder"
+      },
+      "kind": "event-kind-child_of",
+      "relations": [
+        {
+          "entity": "dürer-pr-001",
+          "role": "role-child_of"
+        },
+        {
+          "entity": "dürer-pr-002",
+          "role": "role-parent_of"
+        }
+      ]
+    },
+    {
+      "id": "albrecht-pr-ev-003",
+      "label": {
+        "default": "Barbara Holper"
+      },
+      "kind": "event-kind-child_of",
+      "relations": [
+        {
+          "entity": "dürer-pr-001",
+          "role": "role-child_of"
+        },
+        {
+          "entity": "dürer-pr-003",
+          "role": "role-parent_of"
+        }
+      ]
+    },
+    {
+      "id": "albrecht-pr-ev-004",
+      "label": {
+        "default": "Dürer"
+      },
+      "kind": "event-kind-parent_of",
+      "relations": [
+        {
+          "entity": "dürer-pr-003",
+          "role": "role-parent_of"
+        },
+        {
+          "entity": "dürer-pr-001",
+          "role": "role-child_of"
+        }
+      ]
+    },
+    {
+      "id": "albrecht-pr-ev-005",
+      "label": {
+        "default": "Anton Koberger"
+      },
+      "kind": "event-kind-child_of",
+      "relations": [
+        {
+          "entity": "dürer-pr-001",
+          "role": "role-child_of"
+        },
+        {
+          "entity": "dürer-pr-033",
+          "role": "role-parent_of"
+        }
+      ]
+    },
+    {
+      "id": "albrecht-pr-ev-006",
+      "label": {
+        "default": "Agnes Frey"
       },
       "kind": "event-kind-married_to",
       "relations": [
         {
-          "entity": "dürer-pr-014",
+          "entity": "dürer-pr-001",
           "role": "role-married_to"
         },
         {
-          "entity": "dürer-pr-013",
+          "entity": "dürer-pr-006",
           "role": "role-married_to"
         }
       ]
     },
     {
-      "id": "duerer-pl-ev-003",
+      "id": "albrecht-pr-ev-007",
       "label": {
-        "default": "Ajtós"
+        "default": "Dürer"
       },
-      "kind": "event-kind-lived_in",
+      "kind": "event-kind-married_to",
       "relations": [
         {
-          "entity": "dürer-pr-016",
-          "role": "role-lived_in"
+          "entity": "dürer-pr-006",
+          "role": "role-married_to"
         },
         {
-          "entity": "dürer-pl-007",
-          "role": "role-unk"
+          "entity": "dürer-pr-001",
+          "role": "role-married_to"
         }
       ]
     },
     {
-      "id": "duerer-pl-ev-004",
+      "id": "albrecht-pr-ev-008",
       "label": {
-        "default": "Gyula"
+        "default": "Italy"
       },
       "kind": "event-kind-lived_in",
       "relations": [
         {
-          "entity": "dürer-pr-016",
+          "entity": "dürer-pr-001",
           "role": "role-lived_in"
         },
         {
-          "entity": "dürer-pl-008",
-          "role": "role-unk"
+          "entity": "dürer-pl-005",
+          "role": "role-place_of_residence"
         }
       ]
     },
     {
-      "id": "duerer-pl-ev-005",
-      "label": {
-        "default": "Hungary"
-      },
-      "kind": "event-kind-lived_in",
-      "relations": [
-        {
-          "entity": "dürer-pr-016",
-          "role": "role-lived_in"
-        },
-        {
-          "entity": "dürer-pl-009",
-          "role": "role-unk"
-        }
-      ]
-    },
-    {
-      "id": "duerer-pr-ev-006",
+      "id": "albrecht-pr-ev-009",
       "label": {
         "default": "Hans Dürer"
       },
       "kind": "event-kind-sibling_of",
       "relations": [
         {
-          "entity": "dürer-pr-018",
+          "entity": "dürer-pr-001",
           "role": "role-sibling_of"
         },
         {
-          "entity": "dürer-pr-019",
-          "role": "role-unk"
+          "entity": "dürer-pr-027",
+          "role": "role-sibling_of"
         }
       ]
     },
     {
-      "id": "duerer-pr-ev-007",
+      "id": "albrecht-pr-ev-010",
       "label": {
         "default": "Albrecht"
       },
       "kind": "event-kind-sibling_of",
       "relations": [
         {
-          "entity": "dürer-pr-019",
+          "entity": "dürer-pr-027",
           "role": "role-sibling_of"
         },
         {
-          "entity": "dürer-pr-018",
-          "role": "role-unk"
+          "entity": "dürer-pr-001",
+          "role": "role-sibling_of"
         }
       ]
     },
     {
-      "id": "duerer-pr-ev-008",
+      "id": "albrecht-pr-ev-011",
       "label": {
-        "default": "Türer"
+        "default": "Endres Dürer"
       },
-      "kind": "event-kind-alternate_name",
+      "kind": "event-kind-sibling_of",
       "relations": [
         {
-          "entity": "dürer-pr-023",
-          "role": "role-alternate_name"
+          "entity": "dürer-pr-001",
+          "role": "role-sibling_of"
         },
         {
-          "entity": "dürer-pr-024",
-          "role": "role-unk"
+          "entity": "dürer-pr-028",
+          "role": "role-sibling_of"
         }
       ]
     },
     {
-      "id": "duerer-pr-ev-009",
+      "id": "albrecht-pr-ev-012",
+      "label": {
+        "default": "Albrecht"
+      },
+      "kind": "event-kind-sibling_of",
+      "relations": [
+        {
+          "entity": "dürer-pr-028",
+          "role": "role-sibling_of"
+        },
+        {
+          "entity": "dürer-pr-001",
+          "role": "role-sibling_of"
+        }
+      ]
+    },
+    {
+      "id": "albrecht-pr-ev-013",
       "label": {
         "default": "Ajtósi"
       },
       "kind": "event-kind-alternate_name",
       "relations": [
         {
-          "entity": "dürer-pr-024",
+          "entity": "dürer-pr-001",
           "role": "role-alternate_name"
         },
         {
-          "entity": "dürer-pr-023",
+          "entity": "dürer-pr-029",
           "role": "role-unk"
         }
       ]
     },
     {
-      "id": "duerer-pr-ev-010",
+      "id": "albrecht-pr-ev-014",
+      "label": {
+        "default": "Anton Koberger"
+      },
+      "kind": "event-kind-child_of",
+      "relations": [
+        {
+          "entity": "dürer-pr-001",
+          "role": "role-child_of"
+        },
+        {
+          "entity": "dürer-pr-033",
+          "role": "role-parent_of"
+        }
+      ]
+    },
+    {
+      "id": "albrecht-pr-ev-015",
+      "label": {
+        "default": "Agnes Frey"
+      },
+      "kind": "event-kind-married_to",
+      "relations": [
+        {
+          "entity": "dürer-pr-001",
+          "role": "role-married_to"
+        },
+        {
+          "entity": "dürer-pr-006",
+          "role": "role-married_to"
+        }
+      ]
+    },
+    {
+      "id": "albrecht-pr-ev-016",
+      "label": {
+        "default": "Dürer"
+      },
+      "kind": "event-kind-married_to",
+      "relations": [
+        {
+          "entity": "dürer-pr-006",
+          "role": "role-married_to"
+        },
+        {
+          "entity": "dürer-pr-001",
+          "role": "role-married_to"
+        }
+      ]
+    },
+    {
+      "id": "albrecht-pr-ev-017",
+      "label": {
+        "default": "Albrecht"
+      },
+      "kind": "event-kind-married_to",
+      "relations": [
+        {
+          "entity": "dürer-pr-042",
+          "role": "role-married_to"
+        },
+        {
+          "entity": "dürer-pr-001",
+          "role": "role-married_to"
+        }
+      ]
+    },
+    {
+      "id": "albrecht-pr-ev-018",
+      "label": {
+        "default": "Agnes"
+      },
+      "kind": "event-kind-married_to",
+      "relations": [
+        {
+          "entity": "dürer-pr-001",
+          "role": "role-married_to"
+        },
+        {
+          "entity": "dürer-pr-042",
+          "role": "role-married_to"
+        }
+      ]
+    },
+    {
+      "id": "albrecht-pr-ev-019",
+      "label": {
+        "default": "Nuremberg"
+      },
+      "kind": "event-kind-lived_in",
+      "relations": [
+        {
+          "entity": "dürer-pr-001",
+          "role": "role-lived_in"
+        },
+        {
+          "entity": "dürer-pl-002",
+          "role": "role-place_of_residence"
+        }
+      ]
+    },
+    {
+      "id": "albrecht-pr-ev-020",
+      "label": {
+        "default": "Germany"
+      },
+      "kind": "event-kind-lived_in",
+      "relations": [
+        {
+          "entity": "dürer-pr-001",
+          "role": "role-lived_in"
+        },
+        {
+          "entity": "dürer-pl-003",
+          "role": "role-place_of_residence"
+        }
+      ]
+    },
+    {
+      "id": "dürer-cho-ev-021",
+      "label": {
+        "default": "Saint Jerome in his Study"
+      },
+      "kind": "event-kind-creation",
+      "relations": [
+        {
+          "entity": "dürer-ob-001",
+          "role": "role-object_created"
+        },
+        {
+          "entity": "dürer-pr-001",
+          "role": "role-was_creator"
+        }
+      ]
+    },
+    {
+      "id": "albrecht-pr-ev-022",
+      "label": {
+        "default": "Albrecht Dürer the Elder"
+      },
+      "kind": "event-kind-child_of",
+      "relations": [
+        {
+          "entity": "dürer-pr-001",
+          "role": "role-child_of"
+        },
+        {
+          "entity": "dürer-pr-002",
+          "role": "role-parent_of"
+        }
+      ]
+    },
+    {
+      "id": "albrecht-pr-ev-023",
+      "label": {
+        "default": "Albrecht Dürer the Elder"
+      },
+      "kind": "event-kind-married_to",
+      "relations": [
+        {
+          "entity": "dürer-pr-003",
+          "role": "role-married_to"
+        },
+        {
+          "entity": "dürer-pr-002",
+          "role": "role-married_to"
+        }
+      ]
+    },
+    {
+      "id": "albrecht-pl-ev-024",
+      "label": {
+        "default": "Nuremberg"
+      },
+      "kind": "event-kind-born_in",
+      "relations": [
+        {
+          "entity": "dürer-pr-001",
+          "role": "role-born_in"
+        },
+        {
+          "entity": "dürer-pl-001",
+          "role": "role-place_of_birth"
+        }
+      ]
+    },
+    {
+      "id": "albrecht-pl-ev-025",
+      "label": {
+        "default": "Nuremberg"
+      },
+      "kind": "event-kind-lived_in",
+      "relations": [
+        {
+          "entity": "dürer-pr-025",
+          "role": "role-lived_in"
+        },
+        {
+          "entity": "dürer-pl-001",
+          "role": "role-place_of_residence"
+        }
+      ]
+    },
+    {
+      "id": "albrecht-pl-ev-026",
+      "label": {
+        "default": "Nuremberg"
+      },
+      "kind": "event-kind-lived_in",
+      "relations": [
+        {
+          "entity": "dürer-pr-001",
+          "role": "role-lived_in"
+        },
+        {
+          "entity": "dürer-pl-002",
+          "role": "role-place_of_residence"
+        }
+      ]
+    },
+    {
+      "id": "albrecht-pr-ev-027",
+      "label": {
+        "default": "Barbara Holper"
+      },
+      "kind": "event-kind-child_of",
+      "relations": [
+        {
+          "entity": "dürer-pr-001",
+          "role": "role-child_of"
+        },
+        {
+          "entity": "dürer-pr-003",
+          "role": "role-parent_of"
+        }
+      ]
+    },
+    {
+      "id": "albrecht-pr-ev-028",
+      "label": {
+        "default": "Dürer"
+      },
+      "kind": "event-kind-parent_of",
+      "relations": [
+        {
+          "entity": "dürer-pr-003",
+          "role": "role-parent_of"
+        },
+        {
+          "entity": "dürer-pr-001",
+          "role": "role-child_of"
+        }
+      ]
+    },
+    {
+      "id": "albrecht-pr-ev-029",
+      "label": {
+        "default": "Albrecht Dürer the Elder"
+      },
+      "kind": "event-kind-married_to",
+      "relations": [
+        {
+          "entity": "dürer-pr-003",
+          "role": "role-married_to"
+        },
+        {
+          "entity": "dürer-pr-002",
+          "role": "role-married_to"
+        }
+      ]
+    },
+    {
+      "id": "albrecht-pl-ev-030",
+      "label": {
+        "default": "Germany"
+      },
+      "kind": "event-kind-lived_in",
+      "relations": [
+        {
+          "entity": "dürer-pr-001",
+          "role": "role-lived_in"
+        },
+        {
+          "entity": "dürer-pl-003",
+          "role": "role-place_of_residence"
+        }
+      ]
+    },
+    {
+      "id": "albrecht-pr-ev-031",
       "label": {
         "default": "Caspar"
       },
       "kind": "event-kind-sibling_of",
       "relations": [
         {
-          "entity": "dürer-pr-046",
+          "entity": "dürer-pr-005",
           "role": "role-sibling_of"
         },
         {
-          "entity": "dürer-pr-047",
-          "role": "role-unk"
+          "entity": "dürer-pr-036",
+          "role": "role-sibling_of"
         }
       ]
     },
     {
-      "id": "duerer-pr-ev-011",
+      "id": "albrecht-pr-ev-032",
       "label": {
         "default": "Paul"
       },
       "kind": "event-kind-sibling_of",
       "relations": [
         {
-          "entity": "dürer-pr-046",
+          "entity": "dürer-pr-005",
           "role": "role-sibling_of"
         },
         {
-          "entity": "dürer-pr-048",
-          "role": "role-unk"
+          "entity": "dürer-pr-037",
+          "role": "role-sibling_of"
         }
       ]
     },
     {
-      "id": "duerer-pr-ev-012",
+      "id": "albrecht-pr-ev-033",
       "label": {
         "default": "Ludwig"
       },
       "kind": "event-kind-sibling_of",
       "relations": [
         {
-          "entity": "dürer-pr-046",
+          "entity": "dürer-pr-005",
           "role": "role-sibling_of"
         },
         {
-          "entity": "dürer-pr-049",
-          "role": "role-unk"
+          "entity": "dürer-pr-038",
+          "role": "role-sibling_of"
         }
       ]
     },
     {
-      "id": "duerer-pr-ev-013",
+      "id": "albrecht-pr-ev-034",
       "label": {
         "default": "Schongauer"
       },
       "kind": "event-kind-sibling_of",
       "relations": [
         {
-          "entity": "dürer-pr-047",
+          "entity": "dürer-pr-036",
           "role": "role-sibling_of"
         },
         {
-          "entity": "dürer-pr-046",
-          "role": "role-unk"
+          "entity": "dürer-pr-005",
+          "role": "role-sibling_of"
         }
       ]
     },
     {
-      "id": "duerer-pr-ev-014",
+      "id": "albrecht-pr-ev-035",
       "label": {
         "default": "Schongauer"
       },
       "kind": "event-kind-sibling_of",
       "relations": [
         {
-          "entity": "dürer-pr-048",
+          "entity": "dürer-pr-037",
           "role": "role-sibling_of"
         },
         {
-          "entity": "dürer-pr-046",
-          "role": "role-unk"
+          "entity": "dürer-pr-005",
+          "role": "role-sibling_of"
         }
       ]
     },
     {
-      "id": "duerer-pr-ev-015",
+      "id": "albrecht-pr-ev-036",
       "label": {
-        "default": "Paul"
+        "default": "Agnes Frey"
+      },
+      "kind": "event-kind-married_to",
+      "relations": [
+        {
+          "entity": "dürer-pr-001",
+          "role": "role-married_to"
+        },
+        {
+          "entity": "dürer-pr-006",
+          "role": "role-married_to"
+        }
+      ]
+    },
+    {
+      "id": "albrecht-pr-ev-037",
+      "label": {
+        "default": "Dürer"
+      },
+      "kind": "event-kind-married_to",
+      "relations": [
+        {
+          "entity": "dürer-pr-006",
+          "role": "role-married_to"
+        },
+        {
+          "entity": "dürer-pr-001",
+          "role": "role-married_to"
+        }
+      ]
+    },
+    {
+      "id": "albrecht-pr-ev-038",
+      "label": {
+        "default": "Agnes Frey"
+      },
+      "kind": "event-kind-married_to",
+      "relations": [
+        {
+          "entity": "dürer-pr-001",
+          "role": "role-married_to"
+        },
+        {
+          "entity": "dürer-pr-006",
+          "role": "role-married_to"
+        }
+      ]
+    },
+    {
+      "id": "albrecht-pr-ev-039",
+      "label": {
+        "default": "Dürer"
+      },
+      "kind": "event-kind-married_to",
+      "relations": [
+        {
+          "entity": "dürer-pr-006",
+          "role": "role-married_to"
+        },
+        {
+          "entity": "dürer-pr-001",
+          "role": "role-married_to"
+        }
+      ]
+    },
+    {
+      "id": "albrecht-pl-ev-040",
+      "label": {
+        "default": "Italy"
+      },
+      "kind": "event-kind-lived_in",
+      "relations": [
+        {
+          "entity": "dürer-pr-001",
+          "role": "role-lived_in"
+        },
+        {
+          "entity": "dürer-pl-005",
+          "role": "role-place_of_residence"
+        }
+      ]
+    },
+    {
+      "id": "dürer-cho-ev-041",
+      "label": {
+        "default": "The second book"
+      },
+      "kind": "event-kind-creation",
+      "relations": [
+        {
+          "entity": "dürer-ob-002",
+          "role": "role-object_created"
+        },
+        {
+          "entity": "dürer-pr-001",
+          "role": "role-was_creator"
+        }
+      ]
+    },
+    {
+      "id": "dürer-cho-ev-042",
+      "label": {
+        "default": "Renaissance"
+      },
+      "kind": "event-kind-creation",
+      "relations": [
+        {
+          "entity": "dürer-ob-003",
+          "role": "role-object_created"
+        },
+        {
+          "entity": "dürer-pr-001",
+          "role": "role-was_creator"
+        }
+      ]
+    },
+    {
+      "id": "dürer-cho-ev-043",
+      "label": {
+        "default": "Meisterstiche"
+      },
+      "kind": "event-kind-creation",
+      "relations": [
+        {
+          "entity": "dürer-ob-004",
+          "role": "role-object_created"
+        },
+        {
+          "entity": "dürer-pr-001",
+          "role": "role-was_creator"
+        }
+      ]
+    },
+    {
+      "id": "dürer-cho-ev-044",
+      "label": {
+        "default": "Knight, Death and the Devil"
+      },
+      "kind": "event-kind-creation",
+      "relations": [
+        {
+          "entity": "dürer-ob-005",
+          "role": "role-object_created"
+        },
+        {
+          "entity": "dürer-pr-001",
+          "role": "role-was_creator"
+        }
+      ]
+    },
+    {
+      "id": "dürer-cho-ev-045",
+      "label": {
+        "default": "Melencolia I"
+      },
+      "kind": "event-kind-creation",
+      "relations": [
+        {
+          "entity": "dürer-ob-006",
+          "role": "role-object_created"
+        },
+        {
+          "entity": "dürer-pr-001",
+          "role": "role-was_creator"
+        }
+      ]
+    },
+    {
+      "id": "albrecht-pr-ev-046",
+      "label": {
+        "default": "Nuremberg"
+      },
+      "kind": "event-kind-lived_in",
+      "relations": [
+        {
+          "entity": "dürer-pr-025",
+          "role": "role-lived_in"
+        },
+        {
+          "entity": "dürer-pl-001",
+          "role": "role-place_of_residence"
+        }
+      ]
+    },
+    {
+      "id": "albrecht-pr-ev-047",
+      "label": {
+        "default": "Ajtós"
+      },
+      "kind": "event-kind-lived_in",
+      "relations": [
+        {
+          "entity": "dürer-pr-025",
+          "role": "role-lived_in"
+        },
+        {
+          "entity": "dürer-pl-013",
+          "role": "role-place_of_residence"
+        }
+      ]
+    },
+    {
+      "id": "albrecht-pr-ev-048",
+      "label": {
+        "default": "Gyula"
+      },
+      "kind": "event-kind-lived_in",
+      "relations": [
+        {
+          "entity": "dürer-pr-025",
+          "role": "role-lived_in"
+        },
+        {
+          "entity": "dürer-pl-014",
+          "role": "role-place_of_residence"
+        }
+      ]
+    },
+    {
+      "id": "albrecht-pr-ev-049",
+      "label": {
+        "default": "Hungary"
+      },
+      "kind": "event-kind-lived_in",
+      "relations": [
+        {
+          "entity": "dürer-pr-025",
+          "role": "role-lived_in"
+        },
+        {
+          "entity": "dürer-pl-015",
+          "role": "role-place_of_residence"
+        }
+      ]
+    },
+    {
+      "id": "albrecht-pl-ev-050",
+      "label": {
+        "default": "Ajtós"
+      },
+      "kind": "event-kind-lived_in",
+      "relations": [
+        {
+          "entity": "dürer-pr-025",
+          "role": "role-lived_in"
+        },
+        {
+          "entity": "dürer-pl-013",
+          "role": "role-place_of_residence"
+        }
+      ]
+    },
+    {
+      "id": "albrecht-pl-ev-051",
+      "label": {
+        "default": "Gyula"
+      },
+      "kind": "event-kind-lived_in",
+      "relations": [
+        {
+          "entity": "dürer-pr-025",
+          "role": "role-lived_in"
+        },
+        {
+          "entity": "dürer-pl-014",
+          "role": "role-place_of_residence"
+        }
+      ]
+    },
+    {
+      "id": "albrecht-pl-ev-052",
+      "label": {
+        "default": "Hungary"
+      },
+      "kind": "event-kind-lived_in",
+      "relations": [
+        {
+          "entity": "dürer-pr-025",
+          "role": "role-lived_in"
+        },
+        {
+          "entity": "dürer-pl-015",
+          "role": "role-place_of_residence"
+        }
+      ]
+    },
+    {
+      "id": "albrecht-pr-ev-053",
+      "label": {
+        "default": "Hans Dürer"
       },
       "kind": "event-kind-sibling_of",
       "relations": [
         {
-          "entity": "dürer-pr-047",
+          "entity": "dürer-pr-001",
           "role": "role-sibling_of"
         },
         {
-          "entity": "dürer-pr-048",
-          "role": "role-unk"
+          "entity": "dürer-pr-027",
+          "role": "role-sibling_of"
         }
       ]
     },
     {
-      "id": "duerer-pr-ev-016",
+      "id": "albrecht-pr-ev-054",
       "label": {
-        "default": "Ludwig"
+        "default": "Albrecht"
       },
       "kind": "event-kind-sibling_of",
       "relations": [
         {
-          "entity": "dürer-pr-047",
+          "entity": "dürer-pr-027",
           "role": "role-sibling_of"
         },
         {
-          "entity": "dürer-pr-049",
+          "entity": "dürer-pr-001",
+          "role": "role-sibling_of"
+        }
+      ]
+    },
+    {
+      "id": "albrecht-pr-ev-055",
+      "label": {
+        "default": "Endres Dürer"
+      },
+      "kind": "event-kind-sibling_of",
+      "relations": [
+        {
+          "entity": "dürer-pr-001",
+          "role": "role-sibling_of"
+        },
+        {
+          "entity": "dürer-pr-028",
+          "role": "role-sibling_of"
+        }
+      ]
+    },
+    {
+      "id": "albrecht-pr-ev-056",
+      "label": {
+        "default": "Albrecht"
+      },
+      "kind": "event-kind-sibling_of",
+      "relations": [
+        {
+          "entity": "dürer-pr-028",
+          "role": "role-sibling_of"
+        },
+        {
+          "entity": "dürer-pr-001",
+          "role": "role-sibling_of"
+        }
+      ]
+    },
+    {
+      "id": "albrecht-pr-ev-057",
+      "label": {
+        "default": "Ajtósi"
+      },
+      "kind": "event-kind-alternate_name",
+      "relations": [
+        {
+          "entity": "dürer-pr-001",
+          "role": "role-alternate_name"
+        },
+        {
+          "entity": "dürer-pr-029",
           "role": "role-unk"
         }
       ]
     },
     {
-      "id": "duerer-pr-ev-017",
+      "id": "albrecht-pr-ev-058",
+      "label": {
+        "default": "Anton Koberger"
+      },
+      "kind": "event-kind-child_of",
+      "relations": [
+        {
+          "entity": "dürer-pr-001",
+          "role": "role-child_of"
+        },
+        {
+          "entity": "dürer-pr-033",
+          "role": "role-parent_of"
+        }
+      ]
+    },
+    {
+      "id": "albrecht-pr-ev-059",
+      "label": {
+        "default": "Anton Koberger"
+      },
+      "kind": "event-kind-child_of",
+      "relations": [
+        {
+          "entity": "dürer-pr-001",
+          "role": "role-child_of"
+        },
+        {
+          "entity": "dürer-pr-033",
+          "role": "role-parent_of"
+        }
+      ]
+    },
+    {
+      "id": "dürer-cho-ev-060",
+      "label": {
+        "default": "the Nuremberg Chronicle"
+      },
+      "kind": "event-kind-creation",
+      "relations": [
+        {
+          "entity": "dürer-ob-007",
+          "role": "role-object_created"
+        },
+        {
+          "entity": "dürer-pr-001",
+          "role": "role-was_creator"
+        }
+      ]
+    },
+    {
+      "id": "dürer-cho-ev-061",
+      "label": {
+        "default": "Opus One"
+      },
+      "kind": "event-kind-creation",
+      "relations": [
+        {
+          "entity": "dürer-ob-008",
+          "role": "role-object_created"
+        },
+        {
+          "entity": "dürer-pr-001",
+          "role": "role-was_creator"
+        }
+      ]
+    },
+    {
+      "id": "albrecht-pr-ev-062",
       "label": {
         "default": "Caspar"
       },
       "kind": "event-kind-sibling_of",
       "relations": [
         {
-          "entity": "dürer-pr-048",
+          "entity": "dürer-pr-005",
           "role": "role-sibling_of"
         },
         {
-          "entity": "dürer-pr-047",
-          "role": "role-unk"
+          "entity": "dürer-pr-036",
+          "role": "role-sibling_of"
         }
       ]
     },
     {
-      "id": "duerer-pr-ev-018",
+      "id": "albrecht-pr-ev-063",
       "label": {
-        "default": "Caspar"
+        "default": "Schongauer"
       },
       "kind": "event-kind-sibling_of",
       "relations": [
         {
-          "entity": "dürer-pr-049",
+          "entity": "dürer-pr-036",
           "role": "role-sibling_of"
         },
         {
-          "entity": "dürer-pr-047",
-          "role": "role-unk"
+          "entity": "dürer-pr-005",
+          "role": "role-sibling_of"
         }
       ]
     },
     {
-      "id": "duerer-pr-ev-019",
-      "label": {
-        "default": "Ludwig"
-      },
-      "kind": "event-kind-sibling_of",
-      "relations": [
-        {
-          "entity": "dürer-pr-048",
-          "role": "role-sibling_of"
-        },
-        {
-          "entity": "dürer-pr-049",
-          "role": "role-unk"
-        }
-      ]
-    },
-    {
-      "id": "duerer-pr-ev-020",
+      "id": "albrecht-pr-ev-064",
       "label": {
         "default": "Paul"
       },
       "kind": "event-kind-sibling_of",
       "relations": [
         {
-          "entity": "dürer-pr-049",
+          "entity": "dürer-pr-036",
           "role": "role-sibling_of"
         },
         {
-          "entity": "dürer-pr-048",
-          "role": "role-unk"
+          "entity": "dürer-pr-037",
+          "role": "role-sibling_of"
+        }
+      ]
+    },
+    {
+      "id": "albrecht-pr-ev-065",
+      "label": {
+        "default": "Ludwig"
+      },
+      "kind": "event-kind-sibling_of",
+      "relations": [
+        {
+          "entity": "dürer-pr-036",
+          "role": "role-sibling_of"
+        },
+        {
+          "entity": "dürer-pr-038",
+          "role": "role-sibling_of"
+        }
+      ]
+    },
+    {
+      "id": "albrecht-pr-ev-066",
+      "label": {
+        "default": "Caspar"
+      },
+      "kind": "event-kind-sibling_of",
+      "relations": [
+        {
+          "entity": "dürer-pr-037",
+          "role": "role-sibling_of"
+        },
+        {
+          "entity": "dürer-pr-036",
+          "role": "role-sibling_of"
+        }
+      ]
+    },
+    {
+      "id": "albrecht-pr-ev-067",
+      "label": {
+        "default": "Caspar"
+      },
+      "kind": "event-kind-sibling_of",
+      "relations": [
+        {
+          "entity": "dürer-pr-038",
+          "role": "role-sibling_of"
+        },
+        {
+          "entity": "dürer-pr-036",
+          "role": "role-sibling_of"
+        }
+      ]
+    },
+    {
+      "id": "albrecht-pr-ev-068",
+      "label": {
+        "default": "Paul"
+      },
+      "kind": "event-kind-sibling_of",
+      "relations": [
+        {
+          "entity": "dürer-pr-005",
+          "role": "role-sibling_of"
+        },
+        {
+          "entity": "dürer-pr-037",
+          "role": "role-sibling_of"
+        }
+      ]
+    },
+    {
+      "id": "albrecht-pr-ev-069",
+      "label": {
+        "default": "Schongauer"
+      },
+      "kind": "event-kind-sibling_of",
+      "relations": [
+        {
+          "entity": "dürer-pr-037",
+          "role": "role-sibling_of"
+        },
+        {
+          "entity": "dürer-pr-005",
+          "role": "role-sibling_of"
+        }
+      ]
+    },
+    {
+      "id": "albrecht-pr-ev-070",
+      "label": {
+        "default": "Paul"
+      },
+      "kind": "event-kind-sibling_of",
+      "relations": [
+        {
+          "entity": "dürer-pr-036",
+          "role": "role-sibling_of"
+        },
+        {
+          "entity": "dürer-pr-037",
+          "role": "role-sibling_of"
+        }
+      ]
+    },
+    {
+      "id": "albrecht-pr-ev-071",
+      "label": {
+        "default": "Caspar"
+      },
+      "kind": "event-kind-sibling_of",
+      "relations": [
+        {
+          "entity": "dürer-pr-037",
+          "role": "role-sibling_of"
+        },
+        {
+          "entity": "dürer-pr-036",
+          "role": "role-sibling_of"
+        }
+      ]
+    },
+    {
+      "id": "albrecht-pr-ev-072",
+      "label": {
+        "default": "Ludwig"
+      },
+      "kind": "event-kind-sibling_of",
+      "relations": [
+        {
+          "entity": "dürer-pr-037",
+          "role": "role-sibling_of"
+        },
+        {
+          "entity": "dürer-pr-038",
+          "role": "role-sibling_of"
+        }
+      ]
+    },
+    {
+      "id": "albrecht-pr-ev-073",
+      "label": {
+        "default": "Paul"
+      },
+      "kind": "event-kind-sibling_of",
+      "relations": [
+        {
+          "entity": "dürer-pr-038",
+          "role": "role-sibling_of"
+        },
+        {
+          "entity": "dürer-pr-037",
+          "role": "role-sibling_of"
+        }
+      ]
+    },
+    {
+      "id": "albrecht-pr-ev-074",
+      "label": {
+        "default": "Ludwig"
+      },
+      "kind": "event-kind-sibling_of",
+      "relations": [
+        {
+          "entity": "dürer-pr-005",
+          "role": "role-sibling_of"
+        },
+        {
+          "entity": "dürer-pr-038",
+          "role": "role-sibling_of"
+        }
+      ]
+    },
+    {
+      "id": "albrecht-pr-ev-075",
+      "label": {
+        "default": "Ludwig"
+      },
+      "kind": "event-kind-sibling_of",
+      "relations": [
+        {
+          "entity": "dürer-pr-036",
+          "role": "role-sibling_of"
+        },
+        {
+          "entity": "dürer-pr-038",
+          "role": "role-sibling_of"
+        }
+      ]
+    },
+    {
+      "id": "albrecht-pr-ev-076",
+      "label": {
+        "default": "Caspar"
+      },
+      "kind": "event-kind-sibling_of",
+      "relations": [
+        {
+          "entity": "dürer-pr-038",
+          "role": "role-sibling_of"
+        },
+        {
+          "entity": "dürer-pr-036",
+          "role": "role-sibling_of"
+        }
+      ]
+    },
+    {
+      "id": "albrecht-pr-ev-077",
+      "label": {
+        "default": "Ludwig"
+      },
+      "kind": "event-kind-sibling_of",
+      "relations": [
+        {
+          "entity": "dürer-pr-037",
+          "role": "role-sibling_of"
+        },
+        {
+          "entity": "dürer-pr-038",
+          "role": "role-sibling_of"
+        }
+      ]
+    },
+    {
+      "id": "albrecht-pr-ev-078",
+      "label": {
+        "default": "Paul"
+      },
+      "kind": "event-kind-sibling_of",
+      "relations": [
+        {
+          "entity": "dürer-pr-038",
+          "role": "role-sibling_of"
+        },
+        {
+          "entity": "dürer-pr-037",
+          "role": "role-sibling_of"
+        }
+      ]
+    },
+    {
+      "id": "albrecht-pr-ev-079",
+      "label": {
+        "default": "Albrecht"
+      },
+      "kind": "event-kind-married_to",
+      "relations": [
+        {
+          "entity": "dürer-pr-042",
+          "role": "role-married_to"
+        },
+        {
+          "entity": "dürer-pr-001",
+          "role": "role-married_to"
+        }
+      ]
+    },
+    {
+      "id": "albrecht-pr-ev-080",
+      "label": {
+        "default": "Agnes"
+      },
+      "kind": "event-kind-married_to",
+      "relations": [
+        {
+          "entity": "dürer-pr-001",
+          "role": "role-married_to"
+        },
+        {
+          "entity": "dürer-pr-042",
+          "role": "role-married_to"
+        }
+      ]
+    },
+    {
+      "id": "dürer-cho-ev-081",
+      "label": {
+        "default": "The Men's Bath"
+      },
+      "kind": "event-kind-creation",
+      "relations": [
+        {
+          "entity": "dürer-ob-009",
+          "role": "role-object_created"
+        },
+        {
+          "entity": "dürer-pr-001",
+          "role": "role-was_creator"
+        }
+      ]
+    },
+    {
+      "id": "dürer-cho-ev-082",
+      "label": {
+        "default": "Nemesis"
+      },
+      "kind": "event-kind-creation",
+      "relations": [
+        {
+          "entity": "dürer-ob-010",
+          "role": "role-object_created"
+        },
+        {
+          "entity": "dürer-pr-001",
+          "role": "role-was_creator"
+        }
+      ]
+    },
+    {
+      "id": "dürer-cho-ev-083",
+      "label": {
+        "default": "The Men's Bath House"
+      },
+      "kind": "event-kind-creation",
+      "relations": [
+        {
+          "entity": "dürer-ob-011",
+          "role": "role-object_created"
+        },
+        {
+          "entity": "dürer-pr-001",
+          "role": "role-was_creator"
+        }
+      ]
+    },
+    {
+      "id": "dürer-cho-ev-084",
+      "label": {
+        "default": "St. Michael Fighting the Dragon"
+      },
+      "kind": "event-kind-creation",
+      "relations": [
+        {
+          "entity": "dürer-ob-012",
+          "role": "role-object_created"
+        },
+        {
+          "entity": "dürer-pr-001",
+          "role": "role-was_creator"
+        }
+      ]
+    },
+    {
+      "id": "dürer-cho-ev-085",
+      "label": {
+        "default": "the Great Passion"
+      },
+      "kind": "event-kind-creation",
+      "relations": [
+        {
+          "entity": "dürer-ob-013",
+          "role": "role-object_created"
+        },
+        {
+          "entity": "dürer-pr-001",
+          "role": "role-was_creator"
+        }
+      ]
+    },
+    {
+      "id": "dürer-cho-ev-086",
+      "label": {
+        "default": "The Seven Sorrows Polyptych"
+      },
+      "kind": "event-kind-creation",
+      "relations": [
+        {
+          "entity": "dürer-ob-014",
+          "role": "role-object_created"
+        },
+        {
+          "entity": "dürer-pr-001",
+          "role": "role-was_creator"
+        }
+      ]
+    },
+    {
+      "id": "dürer-cho-ev-087",
+      "label": {
+        "default": "the Life of the Virgin"
+      },
+      "kind": "event-kind-creation",
+      "relations": [
+        {
+          "entity": "dürer-ob-015",
+          "role": "role-object_created"
+        },
+        {
+          "entity": "dürer-pr-001",
+          "role": "role-was_creator"
+        }
+      ]
+    },
+    {
+      "id": "dürer-cho-ev-088",
+      "label": {
+        "default": "the Great Passion"
+      },
+      "kind": "event-kind-creation",
+      "relations": [
+        {
+          "entity": "dürer-ob-016",
+          "role": "role-object_created"
+        },
+        {
+          "entity": "dürer-pr-001",
+          "role": "role-was_creator"
+        }
+      ]
+    },
+    {
+      "id": "dürer-cho-ev-089",
+      "label": {
+        "default": "the Prodigal Son"
+      },
+      "kind": "event-kind-creation",
+      "relations": [
+        {
+          "entity": "dürer-ob-017",
+          "role": "role-object_created"
+        },
+        {
+          "entity": "dürer-pr-001",
+          "role": "role-was_creator"
+        }
+      ]
+    },
+    {
+      "id": "dürer-cho-ev-090",
+      "label": {
+        "default": "Nemesis"
+      },
+      "kind": "event-kind-creation",
+      "relations": [
+        {
+          "entity": "dürer-ob-018",
+          "role": "role-object_created"
+        },
+        {
+          "entity": "dürer-pr-001",
+          "role": "role-was_creator"
+        }
+      ]
+    },
+    {
+      "id": "dürer-cho-ev-091",
+      "label": {
+        "default": "The Sea Monster"
+      },
+      "kind": "event-kind-creation",
+      "relations": [
+        {
+          "entity": "dürer-ob-019",
+          "role": "role-object_created"
+        },
+        {
+          "entity": "dürer-pr-001",
+          "role": "role-was_creator"
+        }
+      ]
+    },
+    {
+      "id": "dürer-cho-ev-092",
+      "label": {
+        "default": "Saint Eustace"
+      },
+      "kind": "event-kind-creation",
+      "relations": [
+        {
+          "entity": "dürer-ob-020",
+          "role": "role-object_created"
+        },
+        {
+          "entity": "dürer-pr-001",
+          "role": "role-was_creator"
+        }
+      ]
+    },
+    {
+      "id": "dürer-cho-ev-093",
+      "label": {
+        "default": "Pond in the Woods"
+      },
+      "kind": "event-kind-creation",
+      "relations": [
+        {
+          "entity": "dürer-ob-021",
+          "role": "role-object_created"
+        },
+        {
+          "entity": "dürer-pr-001",
+          "role": "role-was_creator"
+        }
+      ]
+    },
+    {
+      "id": "dürer-cho-ev-094",
+      "label": {
+        "default": "Willow Mill"
+      },
+      "kind": "event-kind-creation",
+      "relations": [
+        {
+          "entity": "dürer-ob-022",
+          "role": "role-object_created"
+        },
+        {
+          "entity": "dürer-pr-001",
+          "role": "role-was_creator"
+        }
+      ]
+    },
+    {
+      "id": "dürer-cho-ev-095",
+      "label": {
+        "default": "Adam and Eve"
+      },
+      "kind": "event-kind-creation",
+      "relations": [
+        {
+          "entity": "dürer-ob-023",
+          "role": "role-object_created"
+        },
+        {
+          "entity": "dürer-pr-001",
+          "role": "role-was_creator"
+        }
+      ]
+    },
+    {
+      "id": "dürer-cho-ev-096",
+      "label": {
+        "default": "the Betende Hände"
+      },
+      "kind": "event-kind-creation",
+      "relations": [
+        {
+          "entity": "dürer-ob-024",
+          "role": "role-object_created"
+        },
+        {
+          "entity": "dürer-pr-001",
+          "role": "role-was_creator"
+        }
+      ]
+    },
+    {
+      "id": "dürer-cho-ev-097",
+      "label": {
+        "default": "Young Hare"
+      },
+      "kind": "event-kind-creation",
+      "relations": [
+        {
+          "entity": "dürer-ob-025",
+          "role": "role-object_created"
+        },
+        {
+          "entity": "dürer-pr-001",
+          "role": "role-was_creator"
+        }
+      ]
+    },
+    {
+      "id": "dürer-cho-ev-098",
+      "label": {
+        "default": "the Great Piece of Turf"
+      },
+      "kind": "event-kind-creation",
+      "relations": [
+        {
+          "entity": "dürer-ob-026",
+          "role": "role-object_created"
+        },
+        {
+          "entity": "dürer-pr-001",
+          "role": "role-was_creator"
+        }
+      ]
+    },
+    {
+      "id": "dürer-cho-ev-099",
+      "label": {
+        "default": "the Adoration of the Magi"
+      },
+      "kind": "event-kind-creation",
+      "relations": [
+        {
+          "entity": "dürer-ob-027",
+          "role": "role-object_created"
+        },
+        {
+          "entity": "dürer-pr-001",
+          "role": "role-was_creator"
+        }
+      ]
+    },
+    {
+      "id": "dürer-cho-ev-100",
+      "label": {
+        "default": "the Adoration of the Virgin"
+      },
+      "kind": "event-kind-creation",
+      "relations": [
+        {
+          "entity": "dürer-ob-028",
+          "role": "role-object_created"
+        },
+        {
+          "entity": "dürer-pr-001",
+          "role": "role-was_creator"
+        }
+      ]
+    },
+    {
+      "id": "dürer-cho-ev-101",
+      "label": {
+        "default": "of"
+      },
+      "kind": "event-kind-creation",
+      "relations": [
+        {
+          "entity": "dürer-ob-029",
+          "role": "role-object_created"
+        },
+        {
+          "entity": "dürer-pr-001",
+          "role": "role-was_creator"
+        }
+      ]
+    },
+    {
+      "id": "dürer-cho-ev-102",
+      "label": {
+        "default": "Garlands"
+      },
+      "kind": "event-kind-creation",
+      "relations": [
+        {
+          "entity": "dürer-ob-030",
+          "role": "role-object_created"
+        },
+        {
+          "entity": "dürer-pr-001",
+          "role": "role-was_creator"
+        }
+      ]
+    },
+    {
+      "id": "dürer-cho-ev-103",
+      "label": {
+        "default": "Adam and Eve"
+      },
+      "kind": "event-kind-creation",
+      "relations": [
+        {
+          "entity": "dürer-ob-031",
+          "role": "role-object_created"
+        },
+        {
+          "entity": "dürer-pr-001",
+          "role": "role-was_creator"
+        }
+      ]
+    },
+    {
+      "id": "dürer-cho-ev-104",
+      "label": {
+        "default": "Martyrdom of the Ten Thousand"
+      },
+      "kind": "event-kind-creation",
+      "relations": [
+        {
+          "entity": "dürer-ob-032",
+          "role": "role-object_created"
+        },
+        {
+          "entity": "dürer-pr-001",
+          "role": "role-was_creator"
+        }
+      ]
+    },
+    {
+      "id": "dürer-cho-ev-105",
+      "label": {
+        "default": "Virgin with the Iris"
+      },
+      "kind": "event-kind-creation",
+      "relations": [
+        {
+          "entity": "dürer-ob-033",
+          "role": "role-object_created"
+        },
+        {
+          "entity": "dürer-pr-001",
+          "role": "role-was_creator"
+        }
+      ]
+    },
+    {
+      "id": "dürer-cho-ev-106",
+      "label": {
+        "default": "Assumption of the Virgin"
+      },
+      "kind": "event-kind-creation",
+      "relations": [
+        {
+          "entity": "dürer-ob-034",
+          "role": "role-object_created"
+        },
+        {
+          "entity": "dürer-pr-001",
+          "role": "role-was_creator"
+        }
+      ]
+    },
+    {
+      "id": "dürer-cho-ev-107",
+      "label": {
+        "default": "Adoration of the Trinity"
+      },
+      "kind": "event-kind-creation",
+      "relations": [
+        {
+          "entity": "dürer-ob-035",
+          "role": "role-object_created"
+        },
+        {
+          "entity": "dürer-pr-001",
+          "role": "role-was_creator"
+        }
+      ]
+    },
+    {
+      "id": "dürer-cho-ev-108",
+      "label": {
+        "default": "the Great Passion"
+      },
+      "kind": "event-kind-creation",
+      "relations": [
+        {
+          "entity": "dürer-ob-036",
+          "role": "role-object_created"
+        },
+        {
+          "entity": "dürer-pr-001",
+          "role": "role-was_creator"
+        }
+      ]
+    },
+    {
+      "id": "dürer-cho-ev-109",
+      "label": {
+        "default": "the Life of the Virgin"
+      },
+      "kind": "event-kind-creation",
+      "relations": [
+        {
+          "entity": "dürer-ob-037",
+          "role": "role-object_created"
+        },
+        {
+          "entity": "dürer-pr-001",
+          "role": "role-was_creator"
+        }
+      ]
+    },
+    {
+      "id": "dürer-cho-ev-110",
+      "label": {
+        "default": "Apocalypse"
+      },
+      "kind": "event-kind-creation",
+      "relations": [
+        {
+          "entity": "dürer-ob-038",
+          "role": "role-object_created"
+        },
+        {
+          "entity": "dürer-pr-001",
+          "role": "role-was_creator"
+        }
+      ]
+    },
+    {
+      "id": "dürer-cho-ev-111",
+      "label": {
+        "default": "Little Passion"
+      },
+      "kind": "event-kind-creation",
+      "relations": [
+        {
+          "entity": "dürer-ob-039",
+          "role": "role-object_created"
+        },
+        {
+          "entity": "dürer-pr-001",
+          "role": "role-was_creator"
+        }
+      ]
+    },
+    {
+      "id": "dürer-cho-ev-112",
+      "label": {
+        "default": "Knight, Death and the Devil"
+      },
+      "kind": "event-kind-creation",
+      "relations": [
+        {
+          "entity": "dürer-ob-040",
+          "role": "role-object_created"
+        },
+        {
+          "entity": "dürer-pr-001",
+          "role": "role-was_creator"
+        }
+      ]
+    },
+    {
+      "id": "dürer-cho-ev-113",
+      "label": {
+        "default": "Handbook of a Christian Knight"
+      },
+      "kind": "event-kind-creation",
+      "relations": [
+        {
+          "entity": "dürer-ob-041",
+          "role": "role-object_created"
+        },
+        {
+          "entity": "dürer-pr-001",
+          "role": "role-was_creator"
+        }
+      ]
+    },
+    {
+      "id": "dürer-cho-ev-114",
+      "label": {
+        "default": "St. Jerome in His Study"
+      },
+      "kind": "event-kind-creation",
+      "relations": [
+        {
+          "entity": "dürer-ob-042",
+          "role": "role-object_created"
+        },
+        {
+          "entity": "dürer-pr-001",
+          "role": "role-was_creator"
+        }
+      ]
+    },
+    {
+      "id": "dürer-cho-ev-115",
+      "label": {
+        "default": "Melencolia I"
+      },
+      "kind": "event-kind-creation",
+      "relations": [
+        {
+          "entity": "dürer-ob-043",
+          "role": "role-object_created"
+        },
+        {
+          "entity": "dürer-pr-001",
+          "role": "role-was_creator"
+        }
+      ]
+    },
+    {
+      "id": "dürer-cho-ev-116",
+      "label": {
+        "default": "The Triumphal Arch"
+      },
+      "kind": "event-kind-creation",
+      "relations": [
+        {
+          "entity": "dürer-ob-044",
+          "role": "role-object_created"
+        },
+        {
+          "entity": "dürer-pr-001",
+          "role": "role-was_creator"
+        }
+      ]
+    },
+    {
+      "id": "dürer-cho-ev-117",
+      "label": {
+        "default": "Hieroglyphica"
+      },
+      "kind": "event-kind-creation",
+      "relations": [
+        {
+          "entity": "dürer-ob-045",
+          "role": "role-object_created"
+        },
+        {
+          "entity": "dürer-pr-001",
+          "role": "role-was_creator"
+        }
+      ]
+    },
+    {
+      "id": "dürer-cho-ev-118",
+      "label": {
+        "default": "Arch"
+      },
+      "kind": "event-kind-creation",
+      "relations": [
+        {
+          "entity": "dürer-ob-046",
+          "role": "role-object_created"
+        },
+        {
+          "entity": "dürer-pr-001",
+          "role": "role-was_creator"
+        }
+      ]
+    },
+    {
+      "id": "dürer-cho-ev-119",
+      "label": {
+        "default": "The Triumphal Procession"
+      },
+      "kind": "event-kind-creation",
+      "relations": [
+        {
+          "entity": "dürer-ob-047",
+          "role": "role-object_created"
+        },
+        {
+          "entity": "dürer-pr-001",
+          "role": "role-was_creator"
+        }
+      ]
+    },
+    {
+      "id": "dürer-cho-ev-120",
+      "label": {
+        "default": "Prayer-Book"
+      },
+      "kind": "event-kind-creation",
+      "relations": [
+        {
+          "entity": "dürer-ob-048",
+          "role": "role-object_created"
+        },
+        {
+          "entity": "dürer-pr-001",
+          "role": "role-was_creator"
+        }
+      ]
+    },
+    {
+      "id": "dürer-cho-ev-121",
+      "label": {
+        "default": "Madonna of Bruges"
+      },
+      "kind": "event-kind-creation",
+      "relations": [
+        {
+          "entity": "dürer-ob-049",
+          "role": "role-object_created"
+        },
+        {
+          "entity": "dürer-pr-001",
+          "role": "role-was_creator"
+        }
+      ]
+    },
+    {
+      "id": "dürer-cho-ev-122",
+      "label": {
+        "default": "Madonna and Child"
+      },
+      "kind": "event-kind-creation",
+      "relations": [
+        {
+          "entity": "dürer-ob-050",
+          "role": "role-object_created"
+        },
+        {
+          "entity": "dürer-pr-001",
+          "role": "role-was_creator"
+        }
+      ]
+    },
+    {
+      "id": "dürer-cho-ev-123",
+      "label": {
+        "default": "Salvator Mundi"
+      },
+      "kind": "event-kind-creation",
+      "relations": [
+        {
+          "entity": "dürer-ob-051",
+          "role": "role-object_created"
+        },
+        {
+          "entity": "dürer-pr-001",
+          "role": "role-was_creator"
+        }
+      ]
+    },
+    {
+      "id": "dürer-cho-ev-124",
+      "label": {
+        "default": "the Four Apostles"
+      },
+      "kind": "event-kind-creation",
+      "relations": [
+        {
+          "entity": "dürer-ob-052",
+          "role": "role-object_created"
+        },
+        {
+          "entity": "dürer-pr-001",
+          "role": "role-was_creator"
+        }
+      ]
+    },
+    {
+      "id": "dürer-cho-ev-125",
+      "label": {
+        "default": "The Four Books on Measurement"
+      },
+      "kind": "event-kind-creation",
+      "relations": [
+        {
+          "entity": "dürer-ob-053",
+          "role": "role-object_created"
+        },
+        {
+          "entity": "dürer-pr-001",
+          "role": "role-was_creator"
+        }
+      ]
+    },
+    {
+      "id": "dürer-cho-ev-126",
+      "label": {
+        "default": "The Four Books on Human Proportion"
+      },
+      "kind": "event-kind-creation",
+      "relations": [
+        {
+          "entity": "dürer-ob-054",
+          "role": "role-object_created"
+        },
+        {
+          "entity": "dürer-pr-001",
+          "role": "role-was_creator"
+        }
+      ]
+    },
+    {
+      "id": "dürer-cho-ev-127",
+      "label": {
+        "default": "Babylonian Captivity"
+      },
+      "kind": "event-kind-creation",
+      "relations": [
+        {
+          "entity": "dürer-ob-055",
+          "role": "role-object_created"
+        },
+        {
+          "entity": "dürer-pr-001",
+          "role": "role-was_creator"
+        }
+      ]
+    },
+    {
+      "id": "dürer-cho-ev-128",
+      "label": {
+        "default": "Bible"
+      },
+      "kind": "event-kind-creation",
+      "relations": [
+        {
+          "entity": "dürer-ob-056",
+          "role": "role-object_created"
+        },
+        {
+          "entity": "dürer-pr-001",
+          "role": "role-was_creator"
+        }
+      ]
+    },
+    {
+      "id": "dürer-cho-ev-129",
+      "label": {
+        "default": "the Four Books on Measurement"
+      },
+      "kind": "event-kind-creation",
+      "relations": [
+        {
+          "entity": "dürer-ob-057",
+          "role": "role-object_created"
+        },
+        {
+          "entity": "dürer-pr-001",
+          "role": "role-was_creator"
+        }
+      ]
+    },
+    {
+      "id": "dürer-cho-ev-130",
+      "label": {
+        "default": "Underweysung der Messung mit dem Zirckel und Richtscheyt"
+      },
+      "kind": "event-kind-creation",
+      "relations": [
+        {
+          "entity": "dürer-ob-058",
+          "role": "role-object_created"
+        },
+        {
+          "entity": "dürer-pr-001",
+          "role": "role-was_creator"
+        }
+      ]
+    },
+    {
+      "id": "dürer-cho-ev-131",
+      "label": {
+        "default": "Instructions for Measuring with Compass and Ruler"
+      },
+      "kind": "event-kind-creation",
+      "relations": [
+        {
+          "entity": "dürer-ob-059",
+          "role": "role-object_created"
+        },
+        {
+          "entity": "dürer-pr-001",
+          "role": "role-was_creator"
+        }
+      ]
+    },
+    {
+      "id": "dürer-cho-ev-132",
+      "label": {
+        "default": "Libellus super viginti duobus elementis conicis'"
+      },
+      "kind": "event-kind-creation",
+      "relations": [
+        {
+          "entity": "dürer-ob-060",
+          "role": "role-object_created"
+        },
+        {
+          "entity": "dürer-pr-001",
+          "role": "role-was_creator"
+        }
+      ]
+    },
+    {
+      "id": "dürer-cho-ev-133",
+      "label": {
+        "default": "the Four Books on Human Proportion"
+      },
+      "kind": "event-kind-creation",
+      "relations": [
+        {
+          "entity": "dürer-ob-061",
+          "role": "role-object_created"
+        },
+        {
+          "entity": "dürer-pr-001",
+          "role": "role-was_creator"
+        }
+      ]
+    },
+    {
+      "id": "dürer-cho-ev-134",
+      "label": {
+        "default": "(Vier Bücher von Menschlicher Proportion)"
+      },
+      "kind": "event-kind-creation",
+      "relations": [
+        {
+          "entity": "dürer-ob-062",
+          "role": "role-object_created"
+        },
+        {
+          "entity": "dürer-pr-001",
+          "role": "role-was_creator"
+        }
+      ]
+    },
+    {
+      "id": "dürer-cho-ev-135",
+      "label": {
+        "default": "De harmonica mundi totius'"
+      },
+      "kind": "event-kind-creation",
+      "relations": [
+        {
+          "entity": "dürer-ob-063",
+          "role": "role-object_created"
+        },
+        {
+          "entity": "dürer-pr-001",
+          "role": "role-was_creator"
+        }
+      ]
+    },
+    {
+      "id": "dürer-cho-ev-136",
+      "label": {
+        "default": "Various Lessons on the Fortification of Cities, Castles, and Localities"
+      },
+      "kind": "event-kind-creation",
+      "relations": [
+        {
+          "entity": "dürer-ob-064",
+          "role": "role-object_created"
+        },
+        {
+          "entity": "dürer-pr-001",
+          "role": "role-was_creator"
+        }
+      ]
+    },
+    {
+      "id": "dürer-cho-ev-137",
+      "label": {
+        "default": "Etliche Underricht zu Befestigung der Stett, Schloss und Flecken"
+      },
+      "kind": "event-kind-creation",
+      "relations": [
+        {
+          "entity": "dürer-ob-065",
+          "role": "role-object_created"
+        },
+        {
+          "entity": "dürer-pr-001",
+          "role": "role-was_creator"
+        }
+      ]
+    },
+    {
+      "id": "dürer-cho-ev-138",
+      "label": {
+        "default": "On Cities, Forts, and Castles, Designed and Strengthened by Several Manners: Presented for the Most Necessary Accommodation of War (De vrbibus, arcibus, castellisque condendis, ac muniendis rationes aliquot : praesenti bellorum necessitati accommodatissimae"
+      },
+      "kind": "event-kind-creation",
+      "relations": [
+        {
+          "entity": "dürer-ob-066",
+          "role": "role-object_created"
+        },
+        {
+          "entity": "dürer-pr-001",
+          "role": "role-was_creator"
+        }
+      ]
+    },
+    {
+      "id": "dürer-cho-ev-139",
+      "label": {
+        "default": "Οπλοδιδασκαλια sive Armorvm Tractandorvm Meditatio Alberti Dvreri"
+      },
+      "kind": "event-kind-creation",
+      "relations": [
+        {
+          "entity": "dürer-ob-067",
+          "role": "role-object_created"
+        },
+        {
+          "entity": "dürer-pr-001",
+          "role": "role-was_creator"
+        }
+      ]
+    },
+    {
+      "id": "dürer-cho-ev-140",
+      "label": {
+        "default": "Meditation on the Handling of Weapons"
+      },
+      "kind": "event-kind-creation",
+      "relations": [
+        {
+          "entity": "dürer-ob-068",
+          "role": "role-object_created"
+        },
+        {
+          "entity": "dürer-pr-001",
+          "role": "role-was_creator"
+        }
+      ]
+    },
+    {
+      "id": "dürer-cho-ev-141",
+      "label": {
+        "default": "Berlin Picture Book (Libr.Pict.A.83"
+      },
+      "kind": "event-kind-creation",
+      "relations": [
+        {
+          "entity": "dürer-ob-069",
+          "role": "role-object_created"
+        },
+        {
+          "entity": "dürer-pr-001",
+          "role": "role-was_creator"
         }
       ]
     }
   ],
   "media": [],
   "biographies": [],
-  "vocabularies": [],
+  "vocabularies": {
+    "event-kind": [
+      {
+        "id": "event-kind-born_in",
+        "label": {
+          "default": "born_in"
+        }
+      },
+      {
+        "id": "event-kind-child_of",
+        "label": {
+          "default": "child_of"
+        }
+      },
+      {
+        "id": "event-kind-parent_of",
+        "label": {
+          "default": "parent_of"
+        }
+      },
+      {
+        "id": "event-kind-married_to",
+        "label": {
+          "default": "married_to"
+        }
+      },
+      {
+        "id": "event-kind-lived_in",
+        "label": {
+          "default": "lived_in"
+        }
+      },
+      {
+        "id": "event-kind-sibling_of",
+        "label": {
+          "default": "sibling_of"
+        }
+      },
+      {
+        "id": "event-kind-alternate_name",
+        "label": {
+          "default": "alternate_name"
+        }
+      },
+      {
+        "id": "event-kind-creation",
+        "label": {
+          "default": "object_created"
+        }
+      }
+    ],
+    "role": [
+      {
+        "id": "role-born_in",
+        "label": {
+          "default": "born_in"
+        }
+      },
+      {
+        "id": "role-place_of_birth",
+        "label": {
+          "default": "place_of_birth"
+        }
+      },
+      {
+        "id": "role-child_of",
+        "label": {
+          "default": "child_of"
+        }
+      },
+      {
+        "id": "role-parent_of",
+        "label": {
+          "default": "parent_of"
+        }
+      },
+      {
+        "id": "role-married_to",
+        "label": {
+          "default": "married_to"
+        }
+      },
+      {
+        "id": "role-lived_in",
+        "label": {
+          "default": "lived_in"
+        }
+      },
+      {
+        "id": "role-place_of_residence",
+        "label": {
+          "default": "place_of_residence"
+        }
+      },
+      {
+        "id": "role-sibling_of",
+        "label": {
+          "default": "sibling_of"
+        }
+      },
+      {
+        "id": "role-alternate_name",
+        "label": {
+          "default": "alternate_name"
+        }
+      },
+      {
+        "id": "role-unk",
+        "label": {
+          "default": "unk"
+        }
+      },
+      {
+        "id": "role-was_creator",
+        "label": {
+          "default": "was_creator"
+        }
+      },
+      {
+        "id": "role-object_created",
+        "label": {
+          "default": "object_created"
+        }
+      }
+    ]
+  },
   "unmappedEntities": [],
   "collections": {}
 }

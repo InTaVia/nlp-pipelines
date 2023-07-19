@@ -5,11 +5,14 @@ from collections import defaultdict, Counter
 from utils.utils_wiki import get_raw_wikipedia_article, get_wiki_linked_entities, get_relevant_items_from_infobox
 
 inverse_relations_dict = {
+    "based_in": "location_of",
     "born_in": "place_of_birth",
+    "child_of": "parent_of",
+    "lived_in": "place_of_residence",
     "married_to": "married_to",
-    "lived_in": "place_of_residence"
+    "parent_of": "child_of",
+    "sibling_of": "sibling_of"
 }
-
 
 person_template = {
     "id": "", # duerer-pr-012
@@ -17,7 +20,7 @@ person_template = {
     "linkedIds": [],
     "media": [],
     "relations": [],
-    "kind": "person",
+    # "kind": "person",
     # "gender": { } # "id": "male", "label": { "default": "male" }
 }
 
@@ -36,7 +39,7 @@ place_template = {
     "label": { "default": "" }, # surfaceForm
     "relations": [],
     "kind": "place",
-    "type": { }, # { "id": "place-type-city", "label": { "default": "city" } }
+    # "type": { }, # { "id": "place-type-city", "label": { "default": "city" } }
     "geometry": { "type": "Point", "coordinates": None } # { "type": "Point", "coordinates": [8.34915, 49.69025] }
 }
 
@@ -58,7 +61,15 @@ def convert_nlp_to_idm_json(nlp_path: str, idm_out_path: str):
         "events": [],
         "media": [],
         "biographies": [],
-        "vocabularies": [],
+        "vocabularies": {#"media-kind": [],                      # { "id": "media-kind-image", "label": { "default": "image" } }
+                         #"cultural-heritage-object-type": [],   # { "id": "cultural-heritage-object-type-book", "label": { "default": "book" }
+                         #"group-type": [],                      # { "id": "group-type-workspace", "label": { "default": "workspace" } },
+                         #"historical-event-type": [],           # { "id": "historical-event-type-coronation", "label": { "default": "coronation" }}
+                         #"occupation": [],                      # { "id": "occupation-bildhauer", "label": { "default": "Bildhauer" } }
+                         #"place-type": [],                      # { "id": "place-type-city", "label": { "default": "city" } }
+                         #"event-kind": [],                      # { "id": "event-kind-creation", "label": { "default": "creation" } },
+                         #"role": []                             # { "id": "role-object_created", "label": { "default": "object_created" } },
+                        },
         "unmappedEntities": [],
         "collections": {}
     }
@@ -100,6 +111,17 @@ def convert_nlp_to_idm_json(nlp_path: str, idm_out_path: str):
             key = f"{rel_obj['locationStart']}_{rel_obj['locationEnd']}"
             universal_dict[key]["relations"].append(relation) 
             relation_dict[relation["relationID"]] = relation
+    # # Add Semantic roles
+    # for proposition in nlp_dict["data"].get("semantic_roles", []):
+    #     key = f"{proposition['locationStart']}_{proposition['locationEnd']}"
+    #     predicate = proposition.get("predicateSense", proposition["surfaceForm"])
+    #     triples = {predicate: []}
+    #     for arg in proposition["arguments"]:
+    #         triples[predicate].append((arg["surfaceForm"], arg["category"]))
+    #     if key in universal_dict:
+    #         universal_dict[key]["srl"].append(triples)
+    #     else:
+    #         universal_dict[key] = {"srl": [triples], "sent_id": proposition["sentenceID"]}
     # Add NLP NEL Links
     for link_ent in nlp_dict["data"].get("linked_entities", []):
         key = f"{link_ent['locationStart']}_{link_ent['locationEnd']}"
@@ -121,6 +143,50 @@ def convert_nlp_to_idm_json(nlp_path: str, idm_out_path: str):
     # DEBUG:
     json.dump(universal_dict, open("cheche_universal.json", "w"), indent=2, ensure_ascii=False)
 
+    ### Sentence-Based Event Unification
+    sentence_based_event_ids = defaultdict(set)
+    sentence_based_events = defaultdict(set)
+    for span, nlp_info in universal_dict.items():
+        sent_id = nlp_info.get("sent_id", "-1")
+        if sent_id in sentence_based_event_ids:
+            sentence_based_event_ids[sent_id].add(span)
+        else:
+            sentence_based_event_ids[sent_id] = set([span])
+
+        if sent_id in sentence_based_events:
+            if "ner" in nlp_info:
+                ner = nlp_info["ner"][0]
+                sentence_based_events[sent_id]["ner"].add((nlp_info["surfaceForm"], ner))
+            if "relations" in nlp_info:
+                rels = []
+                for rel in nlp_info["relations"]:
+                    sentence_based_events[sent_id]["relations"].add((rel["surfaceFormSubj"], rel["relationValue"], rel["surfaceFormObj"]))
+            # if "srl" in nlp_info:
+            #    tmp["srl"] += nlp_info["srl"] # TODO: "SMART TRIPLE SELECTION" (From Go's code)
+        else:
+            tmp = {}
+            if "ner" in nlp_info:
+                ner = nlp_info["ner"][0]
+                tmp["ner"] = set([(nlp_info["surfaceForm"], ner)])
+            else:
+                tmp["ner"] = set()
+            if "relations" in nlp_info:
+                rels = set()
+                for rel in nlp_info["relations"]:
+                    rels.add((rel["surfaceFormSubj"], rel["relationValue"], rel["surfaceFormObj"]))
+                tmp["relations"] = rels
+            # if "srl" in nlp_info:
+            #     tmp["srl"] = nlp_info["srl"] # TODO: "SMART TRIPLE SELECTION" (From Go's code)
+            sentence_based_events[sent_id] = tmp
+
+
+    # DEBUG:
+    for key, dct in sentence_based_events.items():
+        for k, v in dct.items():
+            sentence_based_events[key][k] = list(v)
+    json.dump(sentence_based_events, open("cheche_sentence_based.json", "w"), indent=2, ensure_ascii=False)
+
+
     ### Unify Entity Duplicates
     if "coreference" in nlp_dict["data"]:
         # {f'ent_{cluster_id}': [universal_obj1, universal_obj2, ...]}
@@ -132,6 +198,7 @@ def convert_nlp_to_idm_json(nlp_path: str, idm_out_path: str):
         singleton_ids = 1
         surfaceForm2ent_univ = {}
     
+    # DEBUG:
     json.dump(surfaceForm2ent_univ, open("cheche_surface.json", "w"), ensure_ascii=False, indent=2)
 
     # Even if there was NO coreference, this loop adds all of the entities that did not have any mention in the CLUSTERS
@@ -170,14 +237,16 @@ def convert_nlp_to_idm_json(nlp_path: str, idm_out_path: str):
                 ent_nlp2ent_univ[univ_item["nlp_id"]] = f"ent_{singleton_ids}"
                 singleton_ids += 1
 
+    # DEBUG:
     json.dump(unified_universal_dict, open("cheche_unified_universal.json", "w"), indent=2, ensure_ascii=False)
 
     # 1) Populate Valid Entities (NLP + WikiMeta)
     idm_entity_dict = {}
-    univ_id2idm_id = {}
+    univ_id2idm_id, idm_id2univ_id = {}, {}
     per_ix, pl_ix, gr_ix, obj_ix = 0,0,0,0
     event_ix = 1
     kown_coords_dict = {} # To avoid querying more than once for the same entity
+    event_vocab, role_vocab = {}, {}
     for ent_id, unified_ent_obj in unified_universal_dict.items():
         idm_ent = None
         # A) Choose the IDM Values best on the Most Common when unified
@@ -199,7 +268,7 @@ def convert_nlp_to_idm_json(nlp_path: str, idm_out_path: str):
             gr_ix += 1
             idm_ent["id"] = f"{lastname}-gr-{stringify_id(gr_ix)}"
             idm_ent["kind"] = "group"
-        elif ner_category in ["WORK_OF_ART"]: # This shall go to a relationship directly?
+        elif ner_category in ["WORK_OF_ART"]:
             idm_ent = copy.deepcopy(object_template)
             obj_ix += 1
             idm_ent["id"] = f"{lastname}-ob-{stringify_id(obj_ix)}"
@@ -211,6 +280,7 @@ def convert_nlp_to_idm_json(nlp_path: str, idm_out_path: str):
         univ_id2idm_id[ent_id] = None
         if idm_ent:
             univ_id2idm_id[ent_id] = idm_ent["id"]
+            idm_id2univ_id[idm_ent["id"]] = ent_id
             idm_ent["label"] = {"default": surface_form}
             idm_entity_dict[ent_id] = idm_ent
 
@@ -234,44 +304,87 @@ def convert_nlp_to_idm_json(nlp_path: str, idm_out_path: str):
                     coord = kown_coords_dict[wiki_link]
                 if coord:
                     idm_ent["geometry"] = {"type": "Point", "coordinates": coord}
-            # Add Relations
+            # Convert NLP CHO Entities --> IDM Creation Events and Relations [role-object_created, role-was_creator]
+            if "WORK_OF_ART" in unified_ent_obj["ner"]:
+                ev_sub_id = "cho" #Cultural Heritage Object
+                event_kind = "creation"
+                subj_idm_id = f"{lastname}-pr-001"
+                subj_role = "was_creator"
+                subj_idm_ent = idm_entity_dict[idm_id2univ_id[subj_idm_id]]
+                obj_role = "object_created"
+                full_event_id = f"{lastname}-{ev_sub_id}-ev-{stringify_id(event_ix)}"
+                idm_ent["relations"].append({"event": full_event_id, "role": f"role-{obj_role}"}) # This is a 'passive' event that's why is obj_role
+                subj_idm_ent["relations"].append({"event": full_event_id, "role": f"role-{subj_role}"})
+                # Add updated object back to dict
+                idm_entity_dict[idm_id2univ_id[subj_idm_id]] = subj_idm_ent
+                parent_idm["events"].append({
+                    "id": full_event_id,
+                    "label": { "default": unified_ent_obj["surfaceForms"][0] },
+                    "kind": f"event-kind-{event_kind}",
+                    # "startDate": "",
+                    "relations": [{ "entity": idm_ent["id"], "role": f"role-{obj_role}" },
+                                  { "entity": subj_idm_id, "role": "role-was_creator" },
+                                    # { "entity": "duerer-pl-012", "role": "role-took_place_at" },
+                                    # { "entity": "duerer-gr-019", "role": "role-current_location" }
+                                ]
+                })
+                event_ix += 1
+                event_vocab[f"event-kind-{event_kind}"] = {"id": f"event-kind-{event_kind}", "label": {"default": f"{obj_role}"}}
+                role_vocab[f"role-{subj_role}"] = { "id": f"role-{subj_role}", "label": { "default": subj_role}}
+                role_vocab[f"role-{obj_role}"] = { "id": f"role-{obj_role}", "label": { "default": obj_role}}
+
+            # Convert NLP Relations --> IDM Relations
             for rel_obj in unified_ent_obj.get("relations", []):
                 ev_sub_id = idm_ent["id"].split("-")[1]
                 full_event_id = f"{firstname}-{ev_sub_id}-ev-{stringify_id(event_ix)}"
                 # Mapping pointing to the IDM IDS made in the previous LOOP!
-                # TODO: We are currently loosing the events that have either subj_idm or obj_idm_id NULL! e.g. DATEs
+                # TODO: We are currently loosing the events that have either subj_idm or obj_idm_id NULL! e.g. DATES
                 subj_univ_id = ent_nlp2ent_univ[rel_obj['subjectID']] 
                 subj_idm_id = univ_id2idm_id[subj_univ_id]
                 obj_univ_id = ent_nlp2ent_univ[rel_obj['objectID']]
                 obj_idm_id = univ_id2idm_id[obj_univ_id]
                 if full_event_id not in parent_idm["events"]:
                     if subj_idm_id and obj_idm_id:
-                        idm_ent["relations"].append({"event": full_event_id, "role": f"role-{rel_obj['relationValue']}"})
+                        subj_role =  rel_obj['relationValue']
+                        obj_role = inverse_relations_dict.get(rel_obj['relationValue'], 'unk')
+                        idm_ent["relations"].append({"event": full_event_id, "role": f"role-{subj_role}"})
                         parent_idm["events"].append({
                             "id": full_event_id,
                             "label": { "default": rel_obj["surfaceFormObj"] },
-                            "kind": f"event-kind-{rel_obj['relationValue']}",
+                            "kind": f"event-kind-{subj_role}",
                             # "startDate": "",
-                            "relations": [{ "entity": subj_idm_id, "role": f"role-{rel_obj['relationValue']}"},
-                                        { "entity": obj_idm_id, "role": f"role-{inverse_relations_dict.get(rel_obj['relationValue'], 'unk')}"}]
-                    })
-                    event_ix += 1
+                            "relations": [{ "entity": subj_idm_id, "role": f"role-{subj_role}"},
+                                        { "entity": obj_idm_id, "role": f"role-{obj_role}"}]
+                        })
+                        event_ix += 1
+                        event_vocab[f"event-kind-{subj_role}"] = {"id": f"event-kind-{subj_role}", "label": {"default": subj_role}}
+                        role_vocab[f"role-{subj_role}"] = { "id": f"role-{subj_role}", "label": { "default": subj_role}}
+                        role_vocab[f"role-{obj_role}"] = { "id": f"role-{obj_role}", "label": { "default": obj_role}}
                 else:
                     if subj_idm_id and obj_idm_id:
-                        idm_ent["relations"].append({"event": full_event_id, "role": f"role-{rel_obj['relationValue']}"})
-                        parent_idm["events"][full_event_id]["relations"].append({ "entity": subj_idm_id, "role": f"role-{rel_obj['relationValue']}"})
-                        parent_idm["events"][full_event_id]["relations"].append({ "entity": obj_idm_id, "role": f"role-{inverse_relations_dict.get(rel_obj['relationValue'], 'unk')}"})
-                        event_ix += 1
-            # Add updated ubject back to dict
+                        subj_role =  rel_obj['relationValue']
+                        obj_role = inverse_relations_dict.get(rel_obj['relationValue'], 'unk')
+                        idm_ent["relations"].append({"event": full_event_id, "role": f"role-{subj_role}"})
+                        parent_idm["events"][full_event_id]["relations"].append({ "entity": subj_idm_id, "role": f"role-{subj_role}"})
+                        parent_idm["events"][full_event_id]["relations"].append({ "entity": obj_idm_id, "role": f"role-{obj_role}"})
+                        role_vocab[f"role-{subj_role}"] = { "id": f"role-{subj_role}", "label": { "default": subj_role}}
+                        role_vocab[f"role-{obj_role}"] = { "id": f"role-{obj_role}", "label": { "default": obj_role}}
+
+            # Add updated object back to dict
             idm_entity_dict[ent_id] = idm_ent
     
     # 4) Transfer The MERGED Entity-Rel-Linked info into the parent object
     for _, ent_obj in idm_entity_dict.items():
         parent_idm["entities"].append(ent_obj)
     
-    # 5) Save IDM JSON File
+    # Fill In Vocabularies
+    parent_idm["vocabularies"]["event-kind"] = list(event_vocab.values())
+    parent_idm["vocabularies"]["role"] = list(role_vocab.values())
+
+    # 6) Save IDM JSON File
     with open(idm_out_path, "w") as fp:
         json.dump(parent_idm, fp, indent=2, ensure_ascii=False)
+
 
 def stringify_id(number: int) -> str:
     if 0 < number < 10:
@@ -335,10 +448,13 @@ def create_unified_universal_dict(nlp_dict: Dict[str, Any], universal_dict: Dict
                 surfaceForm2ent_univ[univ_item["surfaceForm"]] = ent_univ_key
             else:
                 # print(univ_item)
-                pass # These are the cluster items that DO NOT have a recognized Entity by the NER's
+                pass # These are the cluster items that DO NOT have a recognized Entity by the NER's. But if they appear in SRL we can grab the event!
 
     return unified_universal_dict, clustered_items, ent_nlp2ent_univ, singleton_ids, surfaceForm2ent_univ
 
+def create_idm_event():
+    pass
+
 if __name__ == "__main__":
-    # convert_nlp_to_idm_json("english/data/json/albrecht_dürer.json", "english/data/idm/albrecht_dürer.idm.json")
-    convert_nlp_to_idm_json("english/data/json/ida_laura_pfeiffer.json", "english/data/idm/ida_pfeiffer.idm.json")
+    convert_nlp_to_idm_json("english/data/json/albrecht_dürer.json", "english/data/idm/albrecht_dürer.idm.json")
+    # convert_nlp_to_idm_json("english/data/json/ida_laura_pfeiffer.json", "english/data/idm/ida_pfeiffer.idm.json")
