@@ -76,13 +76,13 @@ def run_flair_pipeline(text: str):
     nlp_dict, is_from_file = create_nlp_template(text)
 
     # Add Flair Morphology
-    nlp_dict['morphology'][f"flair_{flair_version}"] = morpho_syntax
+    nlp_dict['morpho_syntax'][f"flair_{flair_version}"] = morpho_syntax
     nlp_dict['tokenization'][f"flair_{flair_version}"] = tokenized_document
 
     # OPTIONAL - Add Also Spacy Morphology
     spacy_dict = run_spacy(text, spacy_nlp)
     nlp_dict['tokenization'][f'spacy_{spacy_model}_{spacy_version}'] = [tok['text'] for tok in spacy_dict['token_objs']],
-    nlp_dict['morphology'][f'spacy_{spacy_model}_{spacy_version}'] = add_morphosyntax(spacy_dict['token_objs'])
+    nlp_dict['morpho_syntax'][f'spacy_{spacy_model}_{spacy_version}'] = add_morphosyntax(spacy_dict['token_objs'])
 
     # # Run Heideltime
     nlp_dict['time_expressions'] = add_json_heideltime(text, heideltime_parser)

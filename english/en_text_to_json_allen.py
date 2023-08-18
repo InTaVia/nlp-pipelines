@@ -51,9 +51,9 @@ def run_allennlp_pipeline(text: str, nlp_dict: Dict[str, Any] = {}):
     else:
         from_scratch = False
         sentences, sent_tokenized, token_objs = [], [], []
-        flair_versions = [v for v in nlp_dict['morphology'].keys() if 'flair_' in v]
+        flair_versions = [v for v in nlp_dict['morpho_syntax'].keys() if 'flair_' in v]
         if len(flair_versions)>0:
-            for sent_ix, sent_obj in enumerate(nlp_dict['morphology'][flair_versions[0]]):
+            for sent_ix, sent_obj in enumerate(nlp_dict['morpho_syntax'][flair_versions[0]]):
                 if len(sent_obj['text']) > 0:
                     sentences.append(sent_obj['text'])
                     sent_tokenized.append(sent_obj['tokenized'])

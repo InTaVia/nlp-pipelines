@@ -105,7 +105,7 @@ def nlp_to_dict(nlp_dict: Dict[str, Any], basic_model_name: str) -> Dict[str, An
         'data': {
             'text': nlp_dict['input_text'],
             'tokenization': {f"{basic_model_name}": [tok['text'] for tok in nlp_dict['token_objs']]},
-            'morphology': {f"{basic_model_name}": add_morphosyntax(nlp_dict['token_objs'])},
+            'morpho_syntax': {f"{basic_model_name}": add_morphosyntax(nlp_dict['token_objs'])},
             'entities': nlp_dict.get('entities', []),
             'time_expressions': nlp_dict.get('time_expressions', []),
             'semantic_roles': nlp_dict.get('semantic_roles', []),
@@ -138,7 +138,7 @@ def create_nlp_template(text: str, filepath: str = None) -> Tuple[Dict[str, Any]
     default_response = {
             'text': text,
             'tokenization': {},
-            'morphology': {},
+            'morpho_syntax': {},
             'entities': [],
             'time_expressions': [],
             'semantic_roles': [],
