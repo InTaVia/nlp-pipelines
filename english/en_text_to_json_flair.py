@@ -22,7 +22,7 @@ from flair.splitter import SegtokSentenceSplitter
 from flair.nn import Classifier
 
 from utils.utils_wiki import get_wikipedia_article, save_wikipedia_page
-from utils.nlp_flair import run_flair, merge_frames_srl
+from utils.nlp_flair import run_flair
 from utils.nlp_common import preprocess_and_clean_text, create_nlp_template, run_spacy, add_morphosyntax
 
 
@@ -183,5 +183,7 @@ if __name__ == "__main__":
         root_dir = sys.argv[1]
         if os.path.exists(os.path.dirname(root_dir)):
             process_wiki_files(root_dir)
+        else:
+            print(f"Cannot find Path {root_dir}")
     else:
         print("USAGE: python en_wikipedia_to_json.py <root_folder_with_biographies>")

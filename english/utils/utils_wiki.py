@@ -52,7 +52,7 @@ def rank_article_names(wiki_page_names: List[str], original_query_names: List[st
         return ordered_names
 
 
-def get_wikipedia_article(query_str: str, query_restrictions: Dict[str, Any] = {}) -> wikipedia.WikipediaPage:
+def get_wikipedia_article(query_str: str = None, query_restrictions: Dict[str, Any] = {}, query_url: str = None) -> wikipedia.WikipediaPage:
     """Get a simple query and return ONE non-ambiugous wikipedia article.
     TODO: The challenge is --> How to create a robust search?
     Args:
@@ -71,10 +71,16 @@ def get_wikipedia_article(query_str: str, query_restrictions: Dict[str, Any] = {
                 return valid_year
         else:
             return None
-        
+
+    if not query_str and not query_url:
+        return None
+
     other_names = query_restrictions.get("other_names", [])
     birth_year = query_restrictions.get("birth_year", -1)
     death_year = query_restrictions.get("death_year", -1)
+
+    # If the query URL is given directly, then get the query str directly from there
+    if query_url: query_str = query_url.split("/")[-1].replace("_", " ")
 
     # Return a list of terms that match our (usually and unintentionally) Fuzzy Term!
     page_names = wikipedia.search(query_str, results=3, suggestion=False)

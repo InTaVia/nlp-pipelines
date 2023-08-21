@@ -1,0 +1,801 @@
+category_name,category_id
+Renaissance,http://www.wikidata.org/entity/Q4692
+Dada,http://www.wikidata.org/entity/Q6034
+neoclassicism,http://www.wikidata.org/entity/Q14378
+street art,http://www.wikidata.org/entity/Q17516
+Art Nouveau,http://www.wikidata.org/entity/Q34636
+Romanticism,http://www.wikidata.org/entity/Q37068
+Baroque,http://www.wikidata.org/entity/Q37853
+modern art,http://www.wikidata.org/entity/Q38166
+First Athenian School,http://www.wikidata.org/entity/Q38976
+surrealism,http://www.wikidata.org/entity/Q39427
+Impressionism,http://www.wikidata.org/entity/Q40415
+Cubism,http://www.wikidata.org/entity/Q42934
+Romanesque art,http://www.wikidata.org/entity/Q46805
+Gothic art,http://www.wikidata.org/entity/Q46825
+postmodernism,http://www.wikidata.org/entity/Q47783
+Naturalism,http://www.wikidata.org/entity/Q55995
+Caravaggisti,http://www.wikidata.org/entity/Q62506
+expressionism,http://www.wikidata.org/entity/Q80113
+avant-garde,http://www.wikidata.org/entity/Q102932
+Fluxus,http://www.wikidata.org/entity/Q108908
+Bauhaus,http://www.wikidata.org/entity/Q124354
+abstract art,http://www.wikidata.org/entity/Q128115
+futurism,http://www.wikidata.org/entity/Q131221
+kitsch,http://www.wikidata.org/entity/Q131711
+mannerism,http://www.wikidata.org/entity/Q131808
+pop art,http://www.wikidata.org/entity/Q134147
+Zero,http://www.wikidata.org/entity/Q136046
+Barbizon school,http://www.wikidata.org/entity/Q143357
+magic realism,http://www.wikidata.org/entity/Q147516
+neo-impressionism,http://www.wikidata.org/entity/Q150091
+Die Brücke,http://www.wikidata.org/entity/Q152778
+Biedermeier,http://www.wikidata.org/entity/Q154432
+degenerate art,http://www.wikidata.org/entity/Q156460
+Carolingian Renaissance,http://www.wikidata.org/entity/Q157123
+New Objectivity,http://www.wikidata.org/entity/Q160218
+Group E,http://www.wikidata.org/entity/Q161776
+Symbolism,http://www.wikidata.org/entity/Q164800
+fauvism,http://www.wikidata.org/entity/Q166593
+post-impressionism,http://www.wikidata.org/entity/Q166713
+classicism,http://www.wikidata.org/entity/Q170292
+minimalism,http://www.wikidata.org/entity/Q173436
+Art Deco,http://www.wikidata.org/entity/Q173782
+Thirties Generation,http://www.wikidata.org/entity/Q174988
+abstract expressionism,http://www.wikidata.org/entity/Q177725
+socialist realism,http://www.wikidata.org/entity/Q180902
+op art,http://www.wikidata.org/entity/Q182331
+Pre-Raphaelite Brotherhood,http://www.wikidata.org/entity/Q184814
+ukiyo-e,http://www.wikidata.org/entity/Q185905
+contemporary art,http://www.wikidata.org/entity/Q186030
+academic art,http://www.wikidata.org/entity/Q189458
+Brazilian academic art,http://www.wikidata.org/entity/Q189772
+suprematism,http://www.wikidata.org/entity/Q191970
+conceptual art,http://www.wikidata.org/entity/Q203209
+constructivism,http://www.wikidata.org/entity/Q207103
+De Stijl,http://www.wikidata.org/entity/Q207445
+Vienna Secession,http://www.wikidata.org/entity/Q208208
+COBRA,http://www.wikidata.org/entity/Q212611
+Quattrocento,http://www.wikidata.org/entity/Q213523
+Zopf style,http://www.wikidata.org/entity/Q220416
+Hellenistic art,http://www.wikidata.org/entity/Q221375
+Viking art,http://www.wikidata.org/entity/Q222466
+Transavantgarde,http://www.wikidata.org/entity/Q224885
+Delft School,http://www.wikidata.org/entity/Q252645
+Kanō school,http://www.wikidata.org/entity/Q252801
+nova cançó,http://www.wikidata.org/entity/Q254890
+aestheticism,http://www.wikidata.org/entity/Q256922
+Incoherents,http://www.wikidata.org/entity/Q258694
+École de Nancy,http://www.wikidata.org/entity/Q273495
+School of Paris,http://www.wikidata.org/entity/Q273506
+Nouveau réalisme,http://www.wikidata.org/entity/Q276308
+Sots Art,http://www.wikidata.org/entity/Q276327
+historicism,http://www.wikidata.org/entity/Q277466
+naïve art,http://www.wikidata.org/entity/Q281108
+Beuron Art School,http://www.wikidata.org/entity/Q316711
+Munich School,http://www.wikidata.org/entity/Q319973
+land art,http://www.wikidata.org/entity/Q326478
+Arts and Crafts movement,http://www.wikidata.org/entity/Q330369
+New Figuration,http://www.wikidata.org/entity/Q368002
+hard-edge painting,http://www.wikidata.org/entity/Q369418
+auricular style,http://www.wikidata.org/entity/Q372240
+agitprop,http://www.wikidata.org/entity/Q374278
+new media art,http://www.wikidata.org/entity/Q378604
+Pont-Aven School,http://www.wikidata.org/entity/Q382056
+European comics,http://www.wikidata.org/entity/Q387284
+Non-conformists of the 1930s,http://www.wikidata.org/entity/Q387479
+neo-romanticism,http://www.wikidata.org/entity/Q397469
+Nazarene movement,http://www.wikidata.org/entity/Q422681
+Neo-geo,http://www.wikidata.org/entity/Q432026
+Early Netherlandish painting,http://www.wikidata.org/entity/Q443153
+American Renaissance,http://www.wikidata.org/entity/Q466675
+American scene painting,http://www.wikidata.org/entity/Q469913
+environmental art,http://www.wikidata.org/entity/Q473743
+Antwerp Mannerism,http://www.wikidata.org/entity/Q477134
+Amsterdam Impressionism,http://www.wikidata.org/entity/Q478717
+purism,http://www.wikidata.org/entity/Q478774
+Q485307,http://www.wikidata.org/entity/Q485307
+Les Nabis,http://www.wikidata.org/entity/Q503708
+Young British Artists,http://www.wikidata.org/entity/Q516316
+Orphism,http://www.wikidata.org/entity/Q519443
+Photo-Secession,http://www.wikidata.org/entity/Q540807
+process art,http://www.wikidata.org/entity/Q545851
+Activism,http://www.wikidata.org/entity/Q556997
+public art,http://www.wikidata.org/entity/Q557141
+Art & Language,http://www.wikidata.org/entity/Q558276
+Wu School,http://www.wikidata.org/entity/Q558875
+Macchiaioli,http://www.wikidata.org/entity/Q574985
+Eurasiatic animal style,http://www.wikidata.org/entity/Q576717
+Arte Povera,http://www.wikidata.org/entity/Q576913
+Neoclassical painting,http://www.wikidata.org/entity/Q577147
+School of Fontainebleau,http://www.wikidata.org/entity/Q584084
+Danube school,http://www.wikidata.org/entity/Q587691
+neo-expressionism,http://www.wikidata.org/entity/Q589655
+outsider art,http://www.wikidata.org/entity/Q594150
+New Romantic,http://www.wikidata.org/entity/Q597240
+subjective photography,http://www.wikidata.org/entity/Q597503
+Bloomsbury Group,http://www.wikidata.org/entity/Q603529
+Venetian school,http://www.wikidata.org/entity/Q610687
+Northern Renaissance,http://www.wikidata.org/entity/Q610877
+Insular art,http://www.wikidata.org/entity/Q612118
+Carolingian art,http://www.wikidata.org/entity/Q614082
+Russian Futurism,http://www.wikidata.org/entity/Q617166
+archaic Greek sculpture,http://www.wikidata.org/entity/Q632355
+Realism sculpture,http://www.wikidata.org/entity/Q647862
+Neue Wilde,http://www.wikidata.org/entity/Q650466
+intimism,http://www.wikidata.org/entity/Q674718
+Q681437,http://www.wikidata.org/entity/Q681437
+Madí,http://www.wikidata.org/entity/Q692924
+Viennese Actionism,http://www.wikidata.org/entity/Q695830
+Vormärz,http://www.wikidata.org/entity/Q700923
+pre-Romanesque art,http://www.wikidata.org/entity/Q708807
+Ashcan School,http://www.wikidata.org/entity/Q724976
+graphic novel,http://www.wikidata.org/entity/Q725377
+Congrès International d'Architecture Moderne,http://www.wikidata.org/entity/Q727738
+Pompeian Styles,http://www.wikidata.org/entity/Q740856
+hyperrealism,http://www.wikidata.org/entity/Q749832
+Japonisme,http://www.wikidata.org/entity/Q751880
+metaphysical painting,http://www.wikidata.org/entity/Q753683
+art of the Paleolithic,http://www.wikidata.org/entity/Q755548
+Renaissance of the 12th century,http://www.wikidata.org/entity/Q755709
+ink wash painting,http://www.wikidata.org/entity/Q756712
+Lettrism,http://www.wikidata.org/entity/Q768100
+Bergen School,http://www.wikidata.org/entity/Q819534
+en plein air,http://www.wikidata.org/entity/Q829298
+Harlem Renaissance,http://www.wikidata.org/entity/Q829895
+Etruscan art,http://www.wikidata.org/entity/Q830331
+Inuit art,http://www.wikidata.org/entity/Q830891
+Kerch style,http://www.wikidata.org/entity/Q831784
+social realism,http://www.wikidata.org/entity/Q837024
+shin-hanga,http://www.wikidata.org/entity/Q842183
+mail art,http://www.wikidata.org/entity/Q843393
+neoplasticism,http://www.wikidata.org/entity/Q845421
+Decadent movement,http://www.wikidata.org/entity/Q846094
+cinquecento,http://www.wikidata.org/entity/Q847706
+primitivism,http://www.wikidata.org/entity/Q848365
+pictorialism,http://www.wikidata.org/entity/Q851869
+neorealism,http://www.wikidata.org/entity/Q858436
+Company style,http://www.wikidata.org/entity/Q861297
+International Gothic,http://www.wikidata.org/entity/Q867769
+New Leipzig School,http://www.wikidata.org/entity/Q878864
+modernism,http://www.wikidata.org/entity/Q878985
+Cloisonnism,http://www.wikidata.org/entity/Q889525
+Nine lyric poets,http://www.wikidata.org/entity/Q890347
+Bolognese School,http://www.wikidata.org/entity/Q891532
+Borre style,http://www.wikidata.org/entity/Q894150
+Migration Period art,http://www.wikidata.org/entity/Q897054
+vorticism,http://www.wikidata.org/entity/Q915841
+ero guro,http://www.wikidata.org/entity/Q933272
+Novecento Italiano,http://www.wikidata.org/entity/Q933661
+Neo-Dada,http://www.wikidata.org/entity/Q935292
+Renaissance sculpture,http://www.wikidata.org/entity/Q936588
+Mexican muralism,http://www.wikidata.org/entity/Q938864
+photorealism,http://www.wikidata.org/entity/Q939559
+Rayonism,http://www.wikidata.org/entity/Q941875
+Hudson River school,http://www.wikidata.org/entity/Q943853
+Bengal School of Art,http://www.wikidata.org/entity/Q948504
+Anglo-Saxon art,http://www.wikidata.org/entity/Q958255
+classical Greek sculpture,http://www.wikidata.org/entity/Q962151
+New Valencian School,http://www.wikidata.org/entity/Q974521
+Proto-Renaissance,http://www.wikidata.org/entity/Q979160
+Merovingian art,http://www.wikidata.org/entity/Q988346
+Európai Iskola,http://www.wikidata.org/entity/Q993247
+Mughal painting,http://www.wikidata.org/entity/Q1049336
+Informalism,http://www.wikidata.org/entity/Q1054254
+Centro de Arte y Comunicación,http://www.wikidata.org/entity/Q1054333
+Ottonian art,http://www.wikidata.org/entity/Q1066218
+Chen-style t'ai chi ch'uan,http://www.wikidata.org/entity/Q1069681
+Section d'Or,http://www.wikidata.org/entity/Q1086353
+studio glass,http://www.wikidata.org/entity/Q1089246
+Catalan modernism,http://www.wikidata.org/entity/Q1122677
+Post-romanticism,http://www.wikidata.org/entity/Q1125039
+Young Poland,http://www.wikidata.org/entity/Q1133329
+Costumbrismo,http://www.wikidata.org/entity/Q1136545
+Polish School of Posters,http://www.wikidata.org/entity/Q1141441
+Zhe school,http://www.wikidata.org/entity/Q1150941
+Escuela de Vallecas,http://www.wikidata.org/entity/Q1153335
+Luminism,http://www.wikidata.org/entity/Q1159870
+Color Field,http://www.wikidata.org/entity/Q1164982
+Hague School,http://www.wikidata.org/entity/Q1232633
+feminist art,http://www.wikidata.org/entity/Q1246516
+Glasgow School,http://www.wikidata.org/entity/Q1255562
+Neue Slowenische Kunst,http://www.wikidata.org/entity/Q1266300
+food art,http://www.wikidata.org/entity/Q1278380
+Jugendstil,http://www.wikidata.org/entity/Q1294605
+ligne claire,http://www.wikidata.org/entity/Q1307909
+Mammen style,http://www.wikidata.org/entity/Q1310213
+Sienese School,http://www.wikidata.org/entity/Q1332178
+Groupe de Recherche d’Art Visuel,http://www.wikidata.org/entity/Q1332488
+Spin art,http://www.wikidata.org/entity/Q1338114
+historically informed performance,http://www.wikidata.org/entity/Q1344860
+Stuckism,http://www.wikidata.org/entity/Q1351977
+School of Porto,http://www.wikidata.org/entity/Q1367277
+ethnofuturism,http://www.wikidata.org/entity/Q1371360
+Cretan School,http://www.wikidata.org/entity/Q1378978
+Poetism,http://www.wikidata.org/entity/Q1382662
+Figuration Libre,http://www.wikidata.org/entity/Q1391488
+Ottonian Renaissance,http://www.wikidata.org/entity/Q1399604
+Cubo-Futurism,http://www.wikidata.org/entity/Q1400843
+Russian avant-garde,http://www.wikidata.org/entity/Q1401605
+School of Ferrara,http://www.wikidata.org/entity/Q1407578
+Vienna School of Fantastic Realism,http://www.wikidata.org/entity/Q1413727
+filk,http://www.wikidata.org/entity/Q1414130
+dark romanticism,http://www.wikidata.org/entity/Q1418745
+Seicento,http://www.wikidata.org/entity/Q1419845
+Mir iskusstva,http://www.wikidata.org/entity/Q1425138
+Franco-Saxon School,http://www.wikidata.org/entity/Q1427100
+Neo-Attic,http://www.wikidata.org/entity/Q1429238
+Franco-Belgian comics,http://www.wikidata.org/entity/Q1431020
+Neue Frankfurter Schule,http://www.wikidata.org/entity/Q1443600
+Superflat,http://www.wikidata.org/entity/Q1444581
+Early Renaissance,http://www.wikidata.org/entity/Q1472236
+Poetic realism,http://www.wikidata.org/entity/Q1474763
+High Renaissance,http://www.wikidata.org/entity/Q1474884
+Oseberg style,http://www.wikidata.org/entity/Q1478651
+sōsaku-hanga,http://www.wikidata.org/entity/Q1518145
+Tingatinga,http://www.wikidata.org/entity/Q1536024
+Gustavian style,http://www.wikidata.org/entity/Q1556741
+internet art,http://www.wikidata.org/entity/Q1569950
+Precisionism,http://www.wikidata.org/entity/Q1578378
+Hellenistic sculpture,http://www.wikidata.org/entity/Q1580145
+Het Monochrome Banketje,http://www.wikidata.org/entity/Q1616091
+Utrecht Caravaggism,http://www.wikidata.org/entity/Q1628039
+Ishizuri-e,http://www.wikidata.org/entity/Q1673900
+Cologne Progressives,http://www.wikidata.org/entity/Q1681980
+nishiki-e,http://www.wikidata.org/entity/Q1683337
+Junk art,http://www.wikidata.org/entity/Q1713618
+Ringerike style,http://www.wikidata.org/entity/Q1726564
+Urnes style,http://www.wikidata.org/entity/Q1726609
+Capitalist realism,http://www.wikidata.org/entity/Q1728571
+Karelianism,http://www.wikidata.org/entity/Q1729220
+Fantastic Realism,http://www.wikidata.org/entity/Q1745141
+severe style,http://www.wikidata.org/entity/Q1777842
+concretism,http://www.wikidata.org/entity/Q1781785
+Lowbrow,http://www.wikidata.org/entity/Q1784728
+Tonalism,http://www.wikidata.org/entity/Q1786363
+Neues Sehen,http://www.wikidata.org/entity/Q1786545
+Laren School,http://www.wikidata.org/entity/Q1805902
+ledger art,http://www.wikidata.org/entity/Q1811620
+Q1813036,http://www.wikidata.org/entity/Q1813036
+Q1814889,http://www.wikidata.org/entity/Q1814889
+Bruges School,http://www.wikidata.org/entity/Q1862938
+Russian symbolism,http://www.wikidata.org/entity/Q1879488
+straight photography,http://www.wikidata.org/entity/Q1886249
+Czech Cubism,http://www.wikidata.org/entity/Q1920546
+Merz,http://www.wikidata.org/entity/Q1922216
+Scapigliatura,http://www.wikidata.org/entity/Q1935489
+Molse School,http://www.wikidata.org/entity/Q1940971
+Stroganov School,http://www.wikidata.org/entity/Q1968335
+Neukunstgruppe,http://www.wikidata.org/entity/Q1980819
+Flemish Baroque painting,http://www.wikidata.org/entity/Q1994273
+return to order,http://www.wikidata.org/entity/Q2004358
+Visigothic art,http://www.wikidata.org/entity/Q2008210
+Brabant fauvism,http://www.wikidata.org/entity/Q2009002
+surimono,http://www.wikidata.org/entity/Q2094039
+Pioneer Group,http://www.wikidata.org/entity/Q2096208
+Kapists,http://www.wikidata.org/entity/Q2102557
+Antwerp school,http://www.wikidata.org/entity/Q2107376
+psychogeography,http://www.wikidata.org/entity/Q2115993
+Norwich School of painters,http://www.wikidata.org/entity/Q2141991
+Swiss School,http://www.wikidata.org/entity/Q2143426
+Q2147243,http://www.wikidata.org/entity/Q2147243
+New Hague School,http://www.wikidata.org/entity/Q2147940
+Q2226071,http://www.wikidata.org/entity/Q2226071
+maximalism,http://www.wikidata.org/entity/Q2246318
+Sestigers,http://www.wikidata.org/entity/Q2247333
+Q2256886,http://www.wikidata.org/entity/Q2256886
+Biomorphism,http://www.wikidata.org/entity/Q2262741
+Neo-figurative,http://www.wikidata.org/entity/Q2268037
+English Renaissance,http://www.wikidata.org/entity/Q2272912
+Movimento Spaziale,http://www.wikidata.org/entity/Q2297997
+Generation of '50,http://www.wikidata.org/entity/Q2302005
+Regong arts,http://www.wikidata.org/entity/Q2306483
+Mao-Spontex,http://www.wikidata.org/entity/Q2312119
+geometric abstraction,http://www.wikidata.org/entity/Q2316866
+Q2317226,http://www.wikidata.org/entity/Q2317226
+Q2345527,http://www.wikidata.org/entity/Q2345527
+Atmospheric impressionism,http://www.wikidata.org/entity/Q2350129
+Toyism,http://www.wikidata.org/entity/Q2362424
+artistic indianism,http://www.wikidata.org/entity/Q2368408
+postminimalism,http://www.wikidata.org/entity/Q2394116
+interactive art,http://www.wikidata.org/entity/Q2394336
+fairy painting,http://www.wikidata.org/entity/Q2405999
+Daedalic style,http://www.wikidata.org/entity/Q2415073
+Q2435641,http://www.wikidata.org/entity/Q2435641
+political pop,http://www.wikidata.org/entity/Q2462197
+German Romanticism,http://www.wikidata.org/entity/Q2477112
+Umbrian school,http://www.wikidata.org/entity/Q2478178
+nadaism,http://www.wikidata.org/entity/Q2496232
+Off-Off-Broadway,http://www.wikidata.org/entity/Q2501058
+didacticism,http://www.wikidata.org/entity/Q2502127
+Vendel style,http://www.wikidata.org/entity/Q2512744
+business art,http://www.wikidata.org/entity/Q2522485
+Madhubani,http://www.wikidata.org/entity/Q2547125
+net.art,http://www.wikidata.org/entity/Q2553758
+relational art,http://www.wikidata.org/entity/Q2566149
+visual poetry,http://www.wikidata.org/entity/Q2578278
+fundamentele kunst,http://www.wikidata.org/entity/Q2584646
+Synchromism,http://www.wikidata.org/entity/Q2615798
+Q2710594,http://www.wikidata.org/entity/Q2710594
+Baroque sculpture,http://www.wikidata.org/entity/Q2763408
+Scottish Renaissance,http://www.wikidata.org/entity/Q2783150
+africanism,http://www.wikidata.org/entity/Q2826174
+Aizuri-e,http://www.wikidata.org/entity/Q2828843
+Aka-e,http://www.wikidata.org/entity/Q2828892
+Anti-poetry,http://www.wikidata.org/entity/Q2853335
+cybernetic art,http://www.wikidata.org/entity/Q2864597
+Art singulier,http://www.wikidata.org/entity/Q2864738
+Q2864741,http://www.wikidata.org/entity/Q2864741
+Sociological art,http://www.wikidata.org/entity/Q2864743
+Solar artwork,http://www.wikidata.org/entity/Q2864746
+equitable art,http://www.wikidata.org/entity/Q2864760
+Novgorod School,http://www.wikidata.org/entity/Q2876208
+Bad Painting,http://www.wikidata.org/entity/Q2878528
+Belgian comics,http://www.wikidata.org/entity/Q2882210
+Q2886841,http://www.wikidata.org/entity/Q2886841
+Benizuri-e,http://www.wikidata.org/entity/Q2895971
+Antropophagia,http://www.wikidata.org/entity/Q2907232
+Nanga,http://www.wikidata.org/entity/Q2928221
+Rajput painting,http://www.wikidata.org/entity/Q2988788
+Massurrealism,http://www.wikidata.org/entity/Q2996287
+analytical cubism,http://www.wikidata.org/entity/Q3006706
+synthetic cubism,http://www.wikidata.org/entity/Q3006708
+Radical period,http://www.wikidata.org/entity/Q3024426
+Heidelberg School,http://www.wikidata.org/entity/Q3032335
+Figuration narrative,http://www.wikidata.org/entity/Q3071677
+Yokohama-e,http://www.wikidata.org/entity/Q3074667
+Forma 1,http://www.wikidata.org/entity/Q3077307
+Kappazuri,http://www.wikidata.org/entity/Q3077939
+Cuzco School,http://www.wikidata.org/entity/Q3108623
+Dutch School,http://www.wikidata.org/entity/Q3111286
+Group of Thirteen,http://www.wikidata.org/entity/Q3117798
+Q3263391,http://www.wikidata.org/entity/Q3263391
+L'art pompier,http://www.wikidata.org/entity/Q3268288
+polystylism,http://www.wikidata.org/entity/Q3269212
+Matterism,http://www.wikidata.org/entity/Q3299172
+Mec Art,http://www.wikidata.org/entity/Q3303826
+Onirism,http://www.wikidata.org/entity/Q3306247
+Flemish School,http://www.wikidata.org/entity/Q3307709
+Mingei,http://www.wikidata.org/entity/Q3314961
+Mono-ha,http://www.wikidata.org/entity/Q3321083
+Peintres de la Réalité,http://www.wikidata.org/entity/Q3326492
+Movimento Arte Concreta,http://www.wikidata.org/entity/Q3326940
+Musicalism,http://www.wikidata.org/entity/Q3328533
+Nieuwe Kunst,http://www.wikidata.org/entity/Q3341324
+nikuhitsu-ga,http://www.wikidata.org/entity/Q3341836
+Nouvelle école d'Avignon,http://www.wikidata.org/entity/Q3345238
+neo-pop,http://www.wikidata.org/entity/Q3347103
+Florentine School,http://www.wikidata.org/entity/Q3357314
+Byzantine icon painting,http://www.wikidata.org/entity/Q3374347
+metamodernism,http://www.wikidata.org/entity/Q3380771
+Italian primitives,http://www.wikidata.org/entity/Q3403250
+productivism,http://www.wikidata.org/entity/Q3406700
+Pre-Code Hollywood,http://www.wikidata.org/entity/Q3408764
+Proto-Cubism,http://www.wikidata.org/entity/Q3408836
+Medieval renaissances,http://www.wikidata.org/entity/Q3424764
+Q3425529,http://www.wikidata.org/entity/Q3425529
+Q3441732,http://www.wikidata.org/entity/Q3441732
+Q3473056,http://www.wikidata.org/entity/Q3473056
+Seiz Breur,http://www.wikidata.org/entity/Q3477959
+Permian animal style,http://www.wikidata.org/entity/Q3484547
+simultanism,http://www.wikidata.org/entity/Q3484823
+Henry II style,http://www.wikidata.org/entity/Q3501270
+Q3501275,http://www.wikidata.org/entity/Q3501275
+Troubadour style,http://www.wikidata.org/entity/Q3501307
+Supports/Surfaces,http://www.wikidata.org/entity/Q3504923
+Belgian surrealism,http://www.wikidata.org/entity/Q3505455
+Manipravalam,http://www.wikidata.org/entity/Q3523410
+uki-e,http://www.wikidata.org/entity/Q3547879
+Volcano School,http://www.wikidata.org/entity/Q3562740
+Shijō school,http://www.wikidata.org/entity/Q3577704
+School of Brussels,http://www.wikidata.org/entity/Q3577783
+Crozant School,http://www.wikidata.org/entity/Q3577791
+École de Dakar,http://www.wikidata.org/entity/Q3577793
+Q3577801,http://www.wikidata.org/entity/Q3577801
+Q3577813,http://www.wikidata.org/entity/Q3577813
+Rouen School,http://www.wikidata.org/entity/Q3577819
+Bay Area Figurative Movement,http://www.wikidata.org/entity/Q3577822
+Q3577825,http://www.wikidata.org/entity/Q3577825
+Wissant school,http://www.wikidata.org/entity/Q3577826
+Brussels School of Sculpture,http://www.wikidata.org/entity/Q3577912
+Q3577917,http://www.wikidata.org/entity/Q3577917
+Q3578066,http://www.wikidata.org/entity/Q3578066
+Q3578338,http://www.wikidata.org/entity/Q3578338
+Scuola Romana,http://www.wikidata.org/entity/Q3578343
+Veronese school,http://www.wikidata.org/entity/Q3578530
+Baroque art,http://www.wikidata.org/entity/Q3624106
+Flavian art,http://www.wikidata.org/entity/Q3624130
+arte nucleare,http://www.wikidata.org/entity/Q3624145
+medieval art,http://www.wikidata.org/entity/Q3624153
+Pahari painting,http://www.wikidata.org/entity/Q3631050
+Cynical realism,http://www.wikidata.org/entity/Q3650833
+Chiarismo,http://www.wikidata.org/entity/Q3667535
+Moscow Conceptualists,http://www.wikidata.org/entity/Q3686197
+Cracking Art,http://www.wikidata.org/entity/Q3696422
+Q3797228,http://www.wikidata.org/entity/Q3797228
+new genre public art,http://www.wikidata.org/entity/Q3875231
+Q3905891,http://www.wikidata.org/entity/Q3905891
+Lombard painting,http://www.wikidata.org/entity/Q3905896
+Proun,http://www.wikidata.org/entity/Q3924366
+Q3941968,http://www.wikidata.org/entity/Q3941968
+Romanesque sculpture,http://www.wikidata.org/entity/Q3953215
+Genoa school,http://www.wikidata.org/entity/Q3953335
+Nul,http://www.wikidata.org/entity/Q3959046
+Q3978012,http://www.wikidata.org/entity/Q3978012
+supermodernity,http://www.wikidata.org/entity/Q3978162
+Metarealism,http://www.wikidata.org/entity/Q4291635
+Q4292891,http://www.wikidata.org/entity/Q4292891
+Necrorealism,http://www.wikidata.org/entity/Q4316672
+Neo-conceptual art,http://www.wikidata.org/entity/Q4317200
+neosurrealism,http://www.wikidata.org/entity/Q4317244
+New British Sculpture,http://www.wikidata.org/entity/Q4322399
+Nuevo Cine Mexicano,http://www.wikidata.org/entity/Q4323900
+abstract impressionism,http://www.wikidata.org/entity/Q4414064
+Q4446608,http://www.wikidata.org/entity/Q4446608
+Kristiania Bohemians,http://www.wikidata.org/entity/Q4587039
+altermodern,http://www.wikidata.org/entity/Q4736321
+American modernism,http://www.wikidata.org/entity/Q4745501
+American realism,http://www.wikidata.org/entity/Q4745527
+Anglo-Japanese style,http://www.wikidata.org/entity/Q4763641
+Angry Penguins,http://www.wikidata.org/entity/Q4763941
+artistic dress,http://www.wikidata.org/entity/Q4801255
+Australian Tonalism,http://www.wikidata.org/entity/Q4824756
+La Decadència,http://www.wikidata.org/entity/Q4894424
+Bezalel school,http://www.wikidata.org/entity/Q4900293
+Billboard Utilising Graffitists Against Unhealthy Promotions,http://www.wikidata.org/entity/Q4911758
+Black Arts Movement,http://www.wikidata.org/entity/Q4920294
+California Impressionism,http://www.wikidata.org/entity/Q5020754
+California Tonalism,http://www.wikidata.org/entity/Q5021142
+Chicago Imagists,http://www.wikidata.org/entity/Q5095653
+Chicano art movement,http://www.wikidata.org/entity/Q5095938
+Classical Realism,http://www.wikidata.org/entity/Q5128307
+Colourist painting,http://www.wikidata.org/entity/Q5149240
+Contemporary Realism,http://www.wikidata.org/entity/Q5165033
+Cyberformance,http://www.wikidata.org/entity/Q5197782
+electronic art,http://www.wikidata.org/entity/Q5358332
+artcore,http://www.wikidata.org/entity/Q5392990
+Funk art,http://www.wikidata.org/entity/Q5509243
+Neocubism,http://www.wikidata.org/entity/Q5640653
+Halqa-e Arbab-e Zauq,http://www.wikidata.org/entity/Q5643493
+Heptanese School,http://www.wikidata.org/entity/Q5732065
+Counter-Maniera,http://www.wikidata.org/entity/Q5785188
+costumbrismo andaluz,http://www.wikidata.org/entity/Q5790159
+Q5791892,http://www.wikidata.org/entity/Q5791892
+Q5792326,http://www.wikidata.org/entity/Q5792326
+Q5839191,http://www.wikidata.org/entity/Q5839191
+Modern sculpture,http://www.wikidata.org/entity/Q5839475
+Neoclassical sculpture,http://www.wikidata.org/entity/Q5839901
+Flemish Expressionism,http://www.wikidata.org/entity/Q5853514
+ugly design,http://www.wikidata.org/entity/Q5861444
+Generación del 45,http://www.wikidata.org/entity/Q5876881
+Hoosier Group,http://www.wikidata.org/entity/Q5898564
+Q5900630,http://www.wikidata.org/entity/Q5900630
+hypermodernism,http://www.wikidata.org/entity/Q5958328
+Herat school,http://www.wikidata.org/entity/Q5958652
+Q5962905,http://www.wikidata.org/entity/Q5962905
+Saqqa-khaneh school,http://www.wikidata.org/entity/Q5963937
+Q5980133,http://www.wikidata.org/entity/Q5980133
+Idyllic school,http://www.wikidata.org/entity/Q5989924
+Igbo art,http://www.wikidata.org/entity/Q5991589
+Art Nouveau architecture in Cartagena and La Unión,http://www.wikidata.org/entity/Q6020231
+Indochristian art,http://www.wikidata.org/entity/Q6025696
+information art,http://www.wikidata.org/entity/Q6031007
+Intentism,http://www.wikidata.org/entity/Q6044489
+Classicist painting,http://www.wikidata.org/entity/Q6076367
+Q6160757,http://www.wikidata.org/entity/Q6160757
+Kalighat painting,http://www.wikidata.org/entity/Q6352595
+Q6431475,http://www.wikidata.org/entity/Q6431475
+Light and Space,http://www.wikidata.org/entity/Q6546135
+Little Theatre Movement,http://www.wikidata.org/entity/Q6652208
+Ljubljana Graphic School,http://www.wikidata.org/entity/Q6660937
+low-complexity art,http://www.wikidata.org/entity/Q6692726
+minimalism,http://www.wikidata.org/entity/Q6865348
+Minjung art,http://www.wikidata.org/entity/Q6867771
+Mission School,http://www.wikidata.org/entity/Q6878743
+Modern Indian painting,http://www.wikidata.org/entity/Q6888716
+Modular constructivism,http://www.wikidata.org/entity/Q6889711
+Nanyang Style,http://www.wikidata.org/entity/Q6964471
+Neo-Fauvism,http://www.wikidata.org/entity/Q6991721
+New Sincerity,http://www.wikidata.org/entity/Q7011515
+Northwest School,http://www.wikidata.org/entity/Q7060194
+Nouvelle tendance,http://www.wikidata.org/entity/Q7063969
+Nuagisme,http://www.wikidata.org/entity/Q7067781
+passionism,http://www.wikidata.org/entity/Q7142779
+Pattern and Decoration,http://www.wikidata.org/entity/Q7148372
+Ponce Creole,http://www.wikidata.org/entity/Q7227583
+Post-expressionism,http://www.wikidata.org/entity/Q7233539
+Post-surrealism,http://www.wikidata.org/entity/Q7233587
+Quito School,http://www.wikidata.org/entity/Q7272667
+Rasa Renaissance,http://www.wikidata.org/entity/Q7294693
+Remodernism,http://www.wikidata.org/entity/Q7312050
+Rivington School,http://www.wikidata.org/entity/Q7338891
+Rococo Revival,http://www.wikidata.org/entity/Q7356060
+Russian neoclassical revival,http://www.wikidata.org/entity/Q7382246
+Samikshavad,http://www.wikidata.org/entity/Q7409441
+scratch video,http://www.wikidata.org/entity/Q7438843
+Shock art,http://www.wikidata.org/entity/Q7499861
+SoFlo Superflat,http://www.wikidata.org/entity/Q7548994
+The Edinburgh School,http://www.wikidata.org/entity/Q7731585
+"Quilts of Gees Bend, Alabama",http://www.wikidata.org/entity/Q7759116
+Tranimal,http://www.wikidata.org/entity/Q7833427
+Ukrainian avant-garde,http://www.wikidata.org/entity/Q7878530
+Vitralism,http://www.wikidata.org/entity/Q7937217
+Washington Color School,http://www.wikidata.org/entity/Q7971736
+Yoruba art,http://www.wikidata.org/entity/Q8055874
+Youthquake,http://www.wikidata.org/entity/Q8059379
+Q8778251,http://www.wikidata.org/entity/Q8778251
+Los disidentes,http://www.wikidata.org/entity/Q9023985
+Brazilian modernism,http://www.wikidata.org/entity/Q9033935
+Q9160857,http://www.wikidata.org/entity/Q9160857
+avant-pop,http://www.wikidata.org/entity/Q9162904
+expressionism,http://www.wikidata.org/entity/Q9252021
+Fifth Moon Group,http://www.wikidata.org/entity/Q9384967
+Arte Nova,http://www.wikidata.org/entity/Q9631069
+Q9667842,http://www.wikidata.org/entity/Q9667842
+Q10262082,http://www.wikidata.org/entity/Q10262082
+Arcadic indianism,http://www.wikidata.org/entity/Q10301970
+Q10332791,http://www.wikidata.org/entity/Q10332791
+neo-concrete movement,http://www.wikidata.org/entity/Q10336205
+neo-primitivism,http://www.wikidata.org/entity/Q10336318
+Queer art,http://www.wikidata.org/entity/Q10356072
+Q10364240,http://www.wikidata.org/entity/Q10364240
+Aemilia Ars,http://www.wikidata.org/entity/Q10401752
+Halmstadgruppen,http://www.wikidata.org/entity/Q10516501
+concrete art,http://www.wikidata.org/entity/Q10822316
+libre art,http://www.wikidata.org/entity/Q10857049
+realism,http://www.wikidata.org/entity/Q10857409
+late Gothic,http://www.wikidata.org/entity/Q10924220
+Lingnan School,http://www.wikidata.org/entity/Q11050078
+Mavo,http://www.wikidata.org/entity/Q11231120
+New Wave,http://www.wikidata.org/entity/Q11324646
+New York Dada,http://www.wikidata.org/entity/Q11324971
+Brussels style,http://www.wikidata.org/entity/Q11355242
+Kyō-Kanō School,http://www.wikidata.org/entity/Q11374568
+Kaga Hōshō,http://www.wikidata.org/entity/Q11399663
+uchiwa-e,http://www.wikidata.org/entity/Q11420301
+Ikebukuro Montparnasse,http://www.wikidata.org/entity/Q11552236
+Q11761903,http://www.wikidata.org/entity/Q11761903
+New Sculpture,http://www.wikidata.org/entity/Q11811815
+Modernism in Camprodon,http://www.wikidata.org/entity/Q11937152
+Q12211542,http://www.wikidata.org/entity/Q12211542
+Euskal Pizkundea,http://www.wikidata.org/entity/Q12257572
+Bansko art school,http://www.wikidata.org/entity/Q12272944
+Native Art,http://www.wikidata.org/entity/Q12292475
+Samokov art school,http://www.wikidata.org/entity/Q12292926
+Skønvirke,http://www.wikidata.org/entity/Q12335978
+Socialist realism in Poland,http://www.wikidata.org/entity/Q12357481
+Russian romanticism,http://www.wikidata.org/entity/Q12378461
+Tinerimea artistică,http://www.wikidata.org/entity/Q12742313
+neosymbolism,http://www.wikidata.org/entity/Q12772445
+pattu movement,http://www.wikidata.org/entity/Q13113183
+Urushi-e,http://www.wikidata.org/entity/Q13422166
+Hellenism,http://www.wikidata.org/entity/Q13635766
+Q13986062,http://www.wikidata.org/entity/Q13986062
+Islamic metalwork,http://www.wikidata.org/entity/Q15820459
+Regionalism,http://www.wikidata.org/entity/Q15838173
+Ghent-Bruges school,http://www.wikidata.org/entity/Q15941800
+art of Classical Greece,http://www.wikidata.org/entity/Q16064885
+Q16143233,http://www.wikidata.org/entity/Q16143233
+Neo-Grec,http://www.wikidata.org/entity/Q16191884
+Armenian Renaissance,http://www.wikidata.org/entity/Q16488690
+Q16528082,http://www.wikidata.org/entity/Q16528082
+Contemporary sculpture,http://www.wikidata.org/entity/Q16563821
+Ton Fan Group,http://www.wikidata.org/entity/Q16680386
+furry art,http://www.wikidata.org/entity/Q16712820
+auto-destructive art,http://www.wikidata.org/entity/Q16777449
+absolute film,http://www.wikidata.org/entity/Q16824564
+Dresden school,http://www.wikidata.org/entity/Q16833665
+Plasticien,http://www.wikidata.org/entity/Q16912393
+Northern Landscape style,http://www.wikidata.org/entity/Q16934127
+Chicago Black Renaissance,http://www.wikidata.org/entity/Q16957374
+Greek academic art of the 19th century,http://www.wikidata.org/entity/Q16982623
+Baghdad School,http://www.wikidata.org/entity/Q17001345
+neo-futurism,http://www.wikidata.org/entity/Q17012219
+Mexican Renaissance,http://www.wikidata.org/entity/Q17079316
+feminist art movement,http://www.wikidata.org/entity/Q17089653
+interstitial art,http://www.wikidata.org/entity/Q17092619
+Nut art movement,http://www.wikidata.org/entity/Q17107771
+London Regionalism,http://www.wikidata.org/entity/Q17108925
+Verdadism,http://www.wikidata.org/entity/Q17144155
+post-conceptual,http://www.wikidata.org/entity/Q17153088
+Late modernism,http://www.wikidata.org/entity/Q17165854
+post-internet,http://www.wikidata.org/entity/Q17299972
+Frankenthal school,http://www.wikidata.org/entity/Q17630981
+Egyptian Revival,http://www.wikidata.org/entity/Q18086896
+NeoPopRealism,http://www.wikidata.org/entity/Q18147731
+Decorative painting in Hälsingland,http://www.wikidata.org/entity/Q18202402
+New school,http://www.wikidata.org/entity/Q18392048
+The Dutch Wave,http://www.wikidata.org/entity/Q18435169
+Porn Art Movement,http://www.wikidata.org/entity/Q18476421
+Pre Raphaelite women artists,http://www.wikidata.org/entity/Q18530670
+Spontanism,http://www.wikidata.org/entity/Q18647485
+Germanic animal ornamentation,http://www.wikidata.org/entity/Q19335232
+Young Figuratives,http://www.wikidata.org/entity/Q19668527
+Jewish Painters of Montreal,http://www.wikidata.org/entity/Q19879265
+Yushan School,http://www.wikidata.org/entity/Q20020039
+Street art in the Land of Valencia,http://www.wikidata.org/entity/Q20104852
+Stile Liberty,http://www.wikidata.org/entity/Q20645040
+Tiffany (style),http://www.wikidata.org/entity/Q20658454
+Anti-form,http://www.wikidata.org/entity/Q20936218
+Geometry of Fear,http://www.wikidata.org/entity/Q21008562
+posporn,http://www.wikidata.org/entity/Q21011011
+Q21045662,http://www.wikidata.org/entity/Q21045662
+Q21077705,http://www.wikidata.org/entity/Q21077705
+Teatro por la Identidad,http://www.wikidata.org/entity/Q21503418
+Q21507120,http://www.wikidata.org/entity/Q21507120
+Neo-Constructivism,http://www.wikidata.org/entity/Q21550800
+Art Resilience movement,http://www.wikidata.org/entity/Q21591090
+Cyborg art,http://www.wikidata.org/entity/Q22082112
+Haitian Vodou art,http://www.wikidata.org/entity/Q22092193
+Charleston Renaissance,http://www.wikidata.org/entity/Q22138607
+Q22962969,http://www.wikidata.org/entity/Q22962969
+Q23560495,http://www.wikidata.org/entity/Q23560495
+British School 19th century,http://www.wikidata.org/entity/Q23901155
+British School 17th century,http://www.wikidata.org/entity/Q23906819
+Vodun art,http://www.wikidata.org/entity/Q24906608
+Dansaekhwa,http://www.wikidata.org/entity/Q24988307
+San Ildefonso Self-Taught Group,http://www.wikidata.org/entity/Q25040614
+Border art,http://www.wikidata.org/entity/Q25304428
+Accidentalism,http://www.wikidata.org/entity/Q25347092
+Post-cubism,http://www.wikidata.org/entity/Q25381351
+Strandzha Iconographic School,http://www.wikidata.org/entity/Q25484595
+abstract realism,http://www.wikidata.org/entity/Q26689759
+French Romanticism,http://www.wikidata.org/entity/Q27301872
+Association of watercolorists of Rome,http://www.wikidata.org/entity/Q27479442
+Q27649697,http://www.wikidata.org/entity/Q27649697
+Writers in Paris,http://www.wikidata.org/entity/Q28154524
+Q28191494,http://www.wikidata.org/entity/Q28191494
+Animalier school,http://www.wikidata.org/entity/Q28401399
+Indigenouism,http://www.wikidata.org/entity/Q28457244
+aesthetic dress,http://www.wikidata.org/entity/Q28868614
+Q28872661,http://www.wikidata.org/entity/Q28872661
+Q29034480,http://www.wikidata.org/entity/Q29034480
+Q29152708,http://www.wikidata.org/entity/Q29152708
+Grupo Logicofobista,http://www.wikidata.org/entity/Q29558391
+Group X,http://www.wikidata.org/entity/Q30587647
+The YES! Association,http://www.wikidata.org/entity/Q30672519
+Q30747879,http://www.wikidata.org/entity/Q30747879
+Photoart,http://www.wikidata.org/entity/Q30893795
+Q31628743,http://www.wikidata.org/entity/Q31628743
+Chiprovtsi School,http://www.wikidata.org/entity/Q32820530
+Trash art,http://www.wikidata.org/entity/Q39928705
+Verismo,http://www.wikidata.org/entity/Q43012742
+Art Nouveau in Alcoy,http://www.wikidata.org/entity/Q43143961
+radical realism,http://www.wikidata.org/entity/Q47036053
+Boychukism,http://www.wikidata.org/entity/Q47491170
+Chaekgeori,http://www.wikidata.org/entity/Q48843055
+caipira culture,http://www.wikidata.org/entity/Q48856647
+Asociación Arte Concreto-Invención,http://www.wikidata.org/entity/Q48998774
+Q54429672,http://www.wikidata.org/entity/Q54429672
+Blaue Rispe,http://www.wikidata.org/entity/Q55255109
+Hurufiyya movement,http://www.wikidata.org/entity/Q55614094
+Neoclassicism in France,http://www.wikidata.org/entity/Q55624952
+Q55659927,http://www.wikidata.org/entity/Q55659927
+School of London,http://www.wikidata.org/entity/Q55780244
+Egyptian Finger and Toe stalls,http://www.wikidata.org/entity/Q56277528
+Q56320222,http://www.wikidata.org/entity/Q56320222
+British School,http://www.wikidata.org/entity/Q56524314
+abject art,http://www.wikidata.org/entity/Q57173928
+art brut,http://www.wikidata.org/entity/Q57174052
+Black Aesthetic,http://www.wikidata.org/entity/Q57206373
+Q57395159,http://www.wikidata.org/entity/Q57395159
+Greek late classical period,http://www.wikidata.org/entity/Q57449805
+Q58824018,http://www.wikidata.org/entity/Q58824018
+original practice,http://www.wikidata.org/entity/Q59149199
+Denes Group,http://www.wikidata.org/entity/Q59855216
+Salon Cubism,http://www.wikidata.org/entity/Q60367157
+Art for art,http://www.wikidata.org/entity/Q60775109
+New Figuration,http://www.wikidata.org/entity/Q60776237
+naive symbolism,http://www.wikidata.org/entity/Q60797020
+Cezannian cubism,http://www.wikidata.org/entity/Q61444300
+Q62090257,http://www.wikidata.org/entity/Q62090257
+High Baroque,http://www.wikidata.org/entity/Q63442026
+Q64023267,http://www.wikidata.org/entity/Q64023267
+Late Baroque,http://www.wikidata.org/entity/Q64334168
+École de Marseille (painting),http://www.wikidata.org/entity/Q64587290
+Rutland Group,http://www.wikidata.org/entity/Q64864575
+Q65052354,http://www.wikidata.org/entity/Q65052354
+Unilalianism,http://www.wikidata.org/entity/Q65061188
+Art et Liberté,http://www.wikidata.org/entity/Q65080389
+femmage,http://www.wikidata.org/entity/Q65147672
+Kharkiv School of Photography,http://www.wikidata.org/entity/Q65209040
+Kikuoka School,http://www.wikidata.org/entity/Q65577919
+Impossible Sites dans la rue,http://www.wikidata.org/entity/Q65580649
+British black arts movement,http://www.wikidata.org/entity/Q65939509
+Herdsmen art in Appenzell and Toggenburg,http://www.wikidata.org/entity/Q66292314
+Site works,http://www.wikidata.org/entity/Q66436111
+Q67154900,http://www.wikidata.org/entity/Q67154900
+Beatniks art,http://www.wikidata.org/entity/Q67437883
+Otra Figuración,http://www.wikidata.org/entity/Q68607087
+Romanos group,http://www.wikidata.org/entity/Q71696833
+solarpunk,http://www.wikidata.org/entity/Q72206346
+Q73226991,http://www.wikidata.org/entity/Q73226991
+Q73252539,http://www.wikidata.org/entity/Q73252539
+Q76384182,http://www.wikidata.org/entity/Q76384182
+Movimento italiano per l'architettura razionale,http://www.wikidata.org/entity/Q79259197
+British School 18th Century,http://www.wikidata.org/entity/Q84505426
+Q85369440,http://www.wikidata.org/entity/Q85369440
+urban surrealism,http://www.wikidata.org/entity/Q85812448
+Q86533894,http://www.wikidata.org/entity/Q86533894
+Tryavna Iconographic School,http://www.wikidata.org/entity/Q86592295
+Roman School,http://www.wikidata.org/entity/Q86659859
+Deerfield embroidery movement,http://www.wikidata.org/entity/Q86751817
+Aton Iconographic School,http://www.wikidata.org/entity/Q86906782
+Khartoum School,http://www.wikidata.org/entity/Q96312264
+Chiprovtsi iconographic school,http://www.wikidata.org/entity/Q96634178
+Artistas Modernos de la Argentina,http://www.wikidata.org/entity/Q97132864
+elementarism,http://www.wikidata.org/entity/Q97135829
+Praxis,http://www.wikidata.org/entity/Q97488319
+Dutch Italianates,http://www.wikidata.org/entity/Q97863263
+Prairie school of landscape design,http://www.wikidata.org/entity/Q97960912
+West Coast Pop art,http://www.wikidata.org/entity/Q97994854
+Re-figuración,http://www.wikidata.org/entity/Q98077364
+New Image art,http://www.wikidata.org/entity/Q98136972
+Ugly Realism,http://www.wikidata.org/entity/Q98594621
+worker photography movement,http://www.wikidata.org/entity/Q98594634
+Nahda literature,http://www.wikidata.org/entity/Q98684322
+New Empiricism,http://www.wikidata.org/entity/Q98690990
+saz,http://www.wikidata.org/entity/Q98785047
+Zaria Rebels,http://www.wikidata.org/entity/Q98912326
+Osogbo Art School,http://www.wikidata.org/entity/Q98912369
+experimentalism,http://www.wikidata.org/entity/Q98923806
+Romantic Classicism,http://www.wikidata.org/entity/Q99299917
+cold art,http://www.wikidata.org/entity/Q99300157
+Der Moderne Bund,http://www.wikidata.org/entity/Q99429784
+Solentiname primitivist painting,http://www.wikidata.org/entity/Q99439379
+Récupération,http://www.wikidata.org/entity/Q99439594
+Semantic art,http://www.wikidata.org/entity/Q99708555
+Q99816831,http://www.wikidata.org/entity/Q99816831
+Q101423770,http://www.wikidata.org/entity/Q101423770
+mannerist sculpture,http://www.wikidata.org/entity/Q104299484
+Cass Corridor art movement,http://www.wikidata.org/entity/Q105104125
+Murnauer Zeit,http://www.wikidata.org/entity/Q105321217
+Official Salon of Painting and Sculpture,http://www.wikidata.org/entity/Q105679168
+Mexican American artists,http://www.wikidata.org/entity/Q105979051
+Transhylism,http://www.wikidata.org/entity/Q106559709
+Lopburi art,http://www.wikidata.org/entity/Q106654023
+Movimento Architettura Razionale,http://www.wikidata.org/entity/Q106689097
+Flemish fantastic,http://www.wikidata.org/entity/Q106929835
+The invisible sculptures,http://www.wikidata.org/entity/Q107091421
+Q107142865,http://www.wikidata.org/entity/Q107142865
+Codex Style,http://www.wikidata.org/entity/Q107418163
+Chilean muralism,http://www.wikidata.org/entity/Q108600985
+proletarian art,http://www.wikidata.org/entity/Q108702792
+Forces nouvelles,http://www.wikidata.org/entity/Q109037912
+Early Baroque,http://www.wikidata.org/entity/Q109180294
+Pennsylvania Dutch,http://www.wikidata.org/entity/Q109251998
+De Brug (Kunstenaarsvereniging),http://www.wikidata.org/entity/Q109931852
+Group of Modern Painters in Rijeka,http://www.wikidata.org/entity/Q109958123
+Prior-Hamblen School,http://www.wikidata.org/entity/Q110219219
+Posturbanism,http://www.wikidata.org/entity/Q110262804
+Q110453565,http://www.wikidata.org/entity/Q110453565
+Anti-monuments in Mexico,http://www.wikidata.org/entity/Q110664392
+Women's Art Movement,http://www.wikidata.org/entity/Q110705435
+Q110900394,http://www.wikidata.org/entity/Q110900394
+Polish School,http://www.wikidata.org/entity/Q111163380
+Q111207344,http://www.wikidata.org/entity/Q111207344
+Mameluke Revival,http://www.wikidata.org/entity/Q111255949
+Weense school,http://www.wikidata.org/entity/Q111371847
+Zuid Nederlandse school,http://www.wikidata.org/entity/Q111371889
+Allusive Abstractionists,http://www.wikidata.org/entity/Q111726089
+French Impressionism,http://www.wikidata.org/entity/Q111919284
+Q111966502,http://www.wikidata.org/entity/Q111966502
+Q111969167,http://www.wikidata.org/entity/Q111969167
+linie,http://www.wikidata.org/entity/Q112576485
+Q112685506,http://www.wikidata.org/entity/Q112685506
+Yaroslavl school,http://www.wikidata.org/entity/Q112869097
+post-avant-garde,http://www.wikidata.org/entity/Q113005557
+Indonesian comics,http://www.wikidata.org/entity/Q113494706
+Broa style,http://www.wikidata.org/entity/Q114837170
+Metodo Castiglioni,http://www.wikidata.org/entity/Q115154832
+French modernism,http://www.wikidata.org/entity/Q115169056
+art revivalism,http://www.wikidata.org/entity/Q115921194
+Northeast Renaissance,http://www.wikidata.org/entity/Q116212749
+Salin style III,http://www.wikidata.org/entity/Q116478997
+Salin style II,http://www.wikidata.org/entity/Q116479335
+Salin style I,http://www.wikidata.org/entity/Q116479509
+Modern European ink painting,http://www.wikidata.org/entity/Q116745258
+Sezessionstil,http://www.wikidata.org/entity/Q119351555
+Anglo/Netherlandish School,http://www.wikidata.org/entity/Q119860446
+School of Avignon,http://www.wikidata.org/entity/Q120143150
+Egnazia Group,http://www.wikidata.org/entity/Q120755885
