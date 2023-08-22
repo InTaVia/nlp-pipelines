@@ -2982,7 +2982,10 @@
       "kind": "place",
       "geometry": {
         "type": "Point",
-        "coordinates": null
+        "coordinates": [
+          4.400278,
+          51.217778
+        ]
       }
     },
     {
@@ -3960,7 +3963,7 @@
     {
       "id": "dürer-ob-063",
       "label": {
-        "default": "De harmonica mundi totius'"
+        "default": "De harmonica mundi totius"
       },
       "description": "",
       "source": {
@@ -6505,7 +6508,7 @@
     {
       "id": "dürer-pr-ev-135",
       "label": {
-        "default": "De harmonica mundi totius'"
+        "default": "De harmonica mundi totius"
       },
       "kind": "event-kind-creation",
       "relations": [

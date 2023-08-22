@@ -1,4 +1,4 @@
-from typing import Dict, Tuple, Any
+from typing import Dict, Tuple, Any, List
 import json, os, re, time
 import copy
 from collections import defaultdict, Counter
@@ -78,6 +78,8 @@ def convert_nlp_to_idm_json(nlp_path: str, idm_out_path: str):
     person_name = os.path.basename(nlp_path).split(".")[0]
     firstname = person_name.split("_")[0]
     lastname = person_name.split("_")[-1]
+
+    all_sentences = {str(sent["sentenceID"]): sent["text"] for sent in nlp_dict["data"]["morpho_syntax"]["flair_0.12.2"]}
     
     # Open Raw File and Meta JSON to Complement Data
     wiki_raw = get_raw_wikipedia_article(wiki_title=person_name.replace("_", " ").title())
@@ -111,17 +113,14 @@ def convert_nlp_to_idm_json(nlp_path: str, idm_out_path: str):
             key = f"{rel_obj['locationStart']}_{rel_obj['locationEnd']}"
             universal_dict[key]["relations"].append(relation) 
             relation_dict[relation["relationID"]] = relation
-    # # Add Semantic roles
-    # for proposition in nlp_dict["data"].get("semantic_roles", []):
-    #     key = f"{proposition['locationStart']}_{proposition['locationEnd']}"
-    #     predicate = proposition.get("predicateSense", proposition["surfaceForm"])
-    #     triples = {predicate: []}
-    #     for arg in proposition["arguments"]:
-    #         triples[predicate].append((arg["surfaceForm"], arg["category"]))
-    #     if key in universal_dict:
-    #         universal_dict[key]["srl"].append(triples)
-    #     else:
-    #         universal_dict[key] = {"srl": [triples], "sent_id": proposition["sentenceID"]}
+    # Add Semantic roles
+    for proposition in nlp_dict["data"].get("semantic_roles", []):
+        key = f"{proposition['locationStart']}_{proposition['locationEnd']}"
+        predicate = proposition["surfaceForm"] #proposition.get("predicateSense", proposition["surfaceForm"])
+        triples = {predicate: []}
+        for arg in proposition["arguments"]:
+            triples[predicate].append((arg["surfaceForm"], arg["category"]))
+        universal_dict[key] = {"srl": triples, "sent_id": proposition["sentenceID"]}
     # Add NLP NEL Links
     for link_ent in nlp_dict["data"].get("linked_entities", []):
         key = f"{link_ent['locationStart']}_{link_ent['locationEnd']}"
@@ -141,13 +140,13 @@ def convert_nlp_to_idm_json(nlp_path: str, idm_out_path: str):
                     universal_dict[key] = {"cluster_id": int(cl_id), "surfaceForm": item["surfaceForm"]}
     
     # DEBUG:
-    json.dump(universal_dict, open("cheche_universal.json", "w"), indent=2, ensure_ascii=False)
+    json.dump(universal_dict, open("data/idm/nlpidm_universal.json", "w"), indent=2, ensure_ascii=False)
 
     ### Sentence-Based Event Unification
     sentence_based_event_ids = defaultdict(set)
-    sentence_based_events = defaultdict(set)
+    sentence_based_events = {}
     for span, nlp_info in universal_dict.items():
-        sent_id = nlp_info.get("sent_id", "-1")
+        sent_id = str(nlp_info.get("sent_id", "-1"))
         if sent_id in sentence_based_event_ids:
             sentence_based_event_ids[sent_id].add(span)
         else:
@@ -156,35 +155,67 @@ def convert_nlp_to_idm_json(nlp_path: str, idm_out_path: str):
         if sent_id in sentence_based_events:
             if "ner" in nlp_info:
                 ner = nlp_info["ner"][0]
-                sentence_based_events[sent_id]["ner"].add((nlp_info["surfaceForm"], ner))
+                if "ner" in sentence_based_events[sent_id]:
+                    sentence_based_events[sent_id]["ner"].add((nlp_info["surfaceForm"], ner))
+                else:
+                    sentence_based_events[sent_id]["ner"] = set()
             if "relations" in nlp_info:
-                rels = []
+                if "relations" not in sentence_based_events[sent_id]:
+                    sentence_based_events[sent_id]["relations"] = []
                 for rel in nlp_info["relations"]:
                     sentence_based_events[sent_id]["relations"].add((rel["surfaceFormSubj"], rel["relationValue"], rel["surfaceFormObj"]))
-            # if "srl" in nlp_info:
-            #    tmp["srl"] += nlp_info["srl"] # TODO: "SMART TRIPLE SELECTION" (From Go's code)
+            if "srl" in nlp_info:
+                srl_triples = get_smart_srl_triples(nlp_info["srl"], lastname)
+                if "srl" in sentence_based_events[sent_id]:
+                    sentence_based_events[sent_id]["srl"] += srl_triples
+                elif len(srl_triples) > 0:
+                    sentence_based_events[sent_id]["srl"] = srl_triples
         else:
             tmp = {}
             if "ner" in nlp_info:
                 ner = nlp_info["ner"][0]
                 tmp["ner"] = set([(nlp_info["surfaceForm"], ner)])
-            else:
-                tmp["ner"] = set()
             if "relations" in nlp_info:
                 rels = set()
                 for rel in nlp_info["relations"]:
                     rels.add((rel["surfaceFormSubj"], rel["relationValue"], rel["surfaceFormObj"]))
                 tmp["relations"] = rels
-            # if "srl" in nlp_info:
-            #     tmp["srl"] = nlp_info["srl"] # TODO: "SMART TRIPLE SELECTION" (From Go's code)
+            if "srl" in nlp_info:
+                srl_triples = get_smart_srl_triples(nlp_info["srl"], lastname)
+                if len(srl_triples) > 0:
+                    tmp["srl"] = srl_triples
             sentence_based_events[sent_id] = tmp
 
-
     # DEBUG:
-    for key, dct in sentence_based_events.items():
-        for k, v in dct.items():
-            sentence_based_events[key][k] = list(v)
-    json.dump(sentence_based_events, open("cheche_sentence_based.json", "w"), indent=2, ensure_ascii=False)
+    # This "dumb iteration" is to transform the sets into lists because sets are not serializable!
+    for sent_id, nlp_layer in sorted(sentence_based_events.items(), key= lambda x: x[0]):
+        for nlp_name, nlp_values in nlp_layer.items():
+            sentence_based_events[sent_id][nlp_name] = list(nlp_values)
+    json.dump(sentence_based_events, open("data/idm/nlpidm_sentence_based_dict.json", "w"), indent=2, ensure_ascii=False)
+
+    # Sentence-Base Events and SRL-Based Events
+    sentences_with_events, triples_with_events = [], []
+    for sent_id, nlp_layer in sentence_based_events.items():
+        dates_found = []
+        for ner in nlp_layer.get("ner", []):
+            if "DATE" in ner[1] and re.search(r"\d{4}", ner[0]):
+                date = ner[0]
+                sentences_with_events.append(f"[{sent_id}] {date} --> {all_sentences[sent_id]}")
+                dates_found.append(date)
+        for date in dates_found:
+            for srl in nlp_layer.get("srl", []):
+                prop = " ".join(srl)
+                if date not in prop and re.search(r"\d{4}", prop): continue # Skip these cases as they have contradictory dates!
+                prop = f"{date} --> {prop}"
+                triples_with_events.append(prop)
+
+    with open("data/idm/nlpidm_sentence_based_events.txt", "w") as f:
+        for sent in sentences_with_events:
+            f.write(f"{sent}\n")
+
+    with open("data/idm/nlpidm_srl_based_events.txt", "w") as f:
+        for tr in triples_with_events:
+            f.write(f"{tr}\n")
 
 
     ### Unify Entity Duplicates
@@ -199,7 +230,7 @@ def convert_nlp_to_idm_json(nlp_path: str, idm_out_path: str):
         surfaceForm2ent_univ = {}
     
     # DEBUG:
-    json.dump(surfaceForm2ent_univ, open("cheche_surface.json", "w"), ensure_ascii=False, indent=2)
+    json.dump(surfaceForm2ent_univ, open("data/idm/nlpidm_surface.json", "w"), ensure_ascii=False, indent=2)
 
     # Even if there was NO coreference, this loop adds all of the entities that did not have any mention in the CLUSTERS
     for span, univ_item in universal_dict.items():
@@ -238,7 +269,7 @@ def convert_nlp_to_idm_json(nlp_path: str, idm_out_path: str):
                 singleton_ids += 1
 
     # DEBUG:
-    json.dump(unified_universal_dict, open("cheche_unified_universal.json", "w"), indent=2, ensure_ascii=False)
+    json.dump(unified_universal_dict, open("data/idm/nlpidm_unified_universal.json", "w"), indent=2, ensure_ascii=False)
 
     # 1) Populate Valid Entities (NLP + WikiMeta)
     idm_entity_dict = {}
@@ -454,8 +485,84 @@ def create_idm_event(event_info: Dict[str, str], subj_idm_id: str, subj_idm_ent:
 
     return subj_idm_ent, obj_idm_ent, event_obj, event_vocab, role_vocab
 
+
+
+def get_smart_srl_triples(srl_list: Dict, last_name: str) -> List[Tuple]:
+    all_triples = []
+    for predicate_word, args in srl_list.items():
+        args_dict = {arg[1]: arg[0] for arg in args} # {arg_label: arg_surfaceForm}
+        print(f"\n===== {predicate_word} ---> {list(args_dict.keys())} =====")
+        # SRL Triple Construction
+        # Agent = A0 + Patient = [A1 | A2 | A3]
+        main_agent = None
+        if "ARG0" in args_dict:
+            main_agent = args_dict["ARG0"]
+            main_patient = []
+            if "ARG1" in args_dict:
+                main_patient.append(args_dict["ARG1"])
+            if "ARG2" in args_dict:
+                main_patient.append(args_dict["ARG2"])
+            if "ARG3" in args_dict:
+                main_patient.append(args_dict["ARG3"])
+            if "ARG4" in args_dict:
+                main_patient.append(args_dict["ARG4"])
+        elif "ARG1" in args_dict:
+            main_agent = args_dict["ARG1"]
+            main_patient = []
+            if "ARG2" in args_dict:
+                main_patient.append(args_dict["ARG2"])
+            if "ARG3" in args_dict:
+                main_patient.append(args_dict["ARG3"])
+            if "ARG4" in args_dict:
+                main_patient.append(args_dict["ARG4"])
+        elif "ARG2" in args_dict:
+            main_agent = args_dict["ARG2"]
+            main_patient = []
+            if "ARG3" in args_dict:
+                main_patient.append(args_dict["ARG3"])
+            if "ARG4" in args_dict:
+                main_patient.append(args_dict["ARG4"])
+
+        if main_agent:
+            # Simplify Agent (Basic parenthesis Rule)
+            if "(" in main_agent and ")" in main_agent:
+                start_par = main_agent.index("(")
+                main_agent = main_agent[:start_par]
+            # Put Main Patient Together
+            main_patient = " ".join(main_patient)
+            if "(" in main_patient and ")" in main_patient:
+                start_par = main_patient.index("(")
+                main_patient = main_patient[:start_par]
+            # Negate predicate if necessary
+            
+            if "ARGM-NEG" in args_dict:
+                current_triple = [main_agent, f"{args_dict['ARGM-NEG']} {predicate_word}", ""]
+            else:
+                current_triple = [main_agent, predicate_word, ""]
+            # Complement
+            complement = main_patient
+            if "ARGM-TMP" in args_dict and len(args_dict["ARGM-TMP"]) > 0:
+                complement += " " + args_dict["ARGM-TMP"]
+            if "ARGM-CAU" in args_dict and len(args_dict["ARGM-CAU"]) > 0:
+                complement += " " + args_dict["ARGM-CAU"]
+            if "ARGM-ADV" in args_dict and len(args_dict["ARGM-ADV"]) > 0:
+                complement += " " + args_dict["ARGM-ADV"]
+            if "ARGM-GOL" in args_dict and len(args_dict["ARGM-GOL"]) > 0:
+                complement += " " + args_dict["ARGM-GOL"]
+            if "ARGM-LOC" in args_dict and len(args_dict["ARGM-LOC"]) > 0:
+                complement += " " + args_dict["ARGM-LOC"]
+            current_triple[2] = complement
+            all_triples.append(current_triple)
     
+    valid_triples = []
+    for trip in all_triples:
+        agent_str = trip[0].lower()
+        if agent_str == "he" or agent_str == "she" or last_name.lower() in agent_str or  "his" in agent_str or "her" in agent_str and len(trip[2]) > 0:
+            valid_triples.append(trip)
+    print(valid_triples)
+    return valid_triples
+
 
 if __name__ == "__main__":
-    convert_nlp_to_idm_json("english/data/json/albrecht_dürer.json", "english/data/idm/albrecht_dürer.idm.json")
+    convert_nlp_to_idm_json("data/json/albrecht_dürer.json", "data/idm/albrecht_dürer.idm.json")
     # convert_nlp_to_idm_json("english/data/json/ida_laura_pfeiffer.json", "english/data/idm/ida_pfeiffer.idm.json")
