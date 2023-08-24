@@ -4,6 +4,7 @@ from dataclasses import dataclass
 import Levenshtein as lev
 import regex, json, requests
 from collections import OrderedDict
+import urllib.parse
 
 @dataclass
 class RankedArticle:
@@ -12,6 +13,12 @@ class RankedArticle:
     lev_similarity: float = -1
     token_overlap: float = -1
     dates_confidence: int = -1
+
+
+def get_wikipedia_url_encoded(wikipedia_link: str):
+    safe_string = urllib.parse.quote_plus(wikipedia_link).replace("+", "_")
+    wiki_url = f"https://en.wikipedia.org/wiki/{safe_string}"
+    return wiki_url
 
 
 def rank_article_names(wiki_page_names: List[str], original_query_names: List[str], query_restrictions: Dict[str, Any]) -> List[RankedArticle]:
@@ -273,7 +280,7 @@ def _get_wiki_link_details(bracketed_string: str) -> Dict[str, str]:
     if 's' == bracketed_string[-1]:
         surface_form = surface_form + 's'
 
-    return {"title": title, "surfaceForm": surface_form, "wikiLink": f"https://en.wikipedia.org/wiki/{title.replace(' ', '_')}"}
+    return {"title": title, "surfaceForm": surface_form, "wikiLink": get_wikipedia_url_encoded(title)}
 
 
 def get_wiki_linked_entities(raw_text: str) -> Dict[str, str]:

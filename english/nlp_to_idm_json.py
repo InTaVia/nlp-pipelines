@@ -2,7 +2,7 @@ from typing import Dict, Tuple, Any, List
 import json, os, re, time
 import copy
 from collections import defaultdict, Counter
-from utils.utils_wiki import get_raw_wikipedia_article, get_wiki_linked_entities, get_relevant_items_from_infobox
+from utils.utils_wiki import get_raw_wikipedia_article, get_wiki_linked_entities, get_relevant_items_from_infobox, get_wikipedia_url_encoded
 
 inverse_relations_dict = {
     "based_in": "location_of",
@@ -78,14 +78,19 @@ def convert_nlp_to_idm_json(nlp_path: str, idm_out_path: str):
     person_name = os.path.basename(nlp_path).split(".")[0]
     firstname = person_name.split("_")[0]
     lastname = person_name.split("_")[-1]
+    main_person_url = get_wikipedia_url_encoded(person_name.replace("_", " ").title())
+    main_person_id = main_person_url.split("/")[-1]
 
     all_sentences = {str(sent["sentenceID"]): sent["text"] for sent in nlp_dict["data"]["morpho_syntax"]["flair_0.12.2"]}
     
     # Open Raw File and Meta JSON to Complement Data
     wiki_raw = get_raw_wikipedia_article(wiki_title=person_name.replace("_", " ").title())
-    # wiki_meta = json.load(open(f"english/data/wikipedia/{person_name}.txt.meta.json"))
+    wiki_meta = json.load(open(f"data/wikipedia/{person_name}.txt.meta.json"))
     wiki_linked_dict = get_wiki_linked_entities(wiki_raw) # {'surfaceForm': 'wiki_link'}
-
+    for meta_link in wiki_meta["links"]:
+        wiki_linked_dict[meta_link] = get_wikipedia_url_encoded(meta_link)
+    wiki_linked_dict[person_name.replace("_", " ").title()] = main_person_url
+    json.dump(wiki_linked_dict, open("cheche_wiki_linked.json", "w"), indent=2, ensure_ascii=False)
 
     universal_dict = {} # {(locStart, locEnd): {prop: val, prop: val, ...}}
     surfaceForm_dict = defaultdict(list) # Across ALL NLP LAYERS collect all the ID's that match to a surface form
@@ -283,30 +288,44 @@ def convert_nlp_to_idm_json(nlp_path: str, idm_out_path: str):
         # A) Choose the IDM Values best on the Most Common when unified
         surface_form = sorted(unified_ent_obj["surfaceForms"], key= lambda x: len(x))[-1] # Assign the longest found form (otherwise lastName is chosen)
         ner_category = Counter(unified_ent_obj["ner"]).most_common(1)[0][0] # Assign the most NER predicted label
+        wiki_link = wiki_linked_dict.get(surface_form)
         # B) IDM ENTITIES
         if ner_category in ["PER", "PERSON"]:
             idm_ent = copy.deepcopy(person_template)
-            per_ix += 1
-            idm_ent["id"] = f"{lastname}-pr-{stringify_id(per_ix)}"
             idm_ent["kind"] = "person"
+            if wiki_link:
+                idm_ent["linkedIds"].append(wiki_link)
+                idm_ent["id"] = f"{main_person_id}-pr-{wiki_link.split('/')[-1]}"
+            else:
+                per_ix += 1
+                idm_ent["id"] = f"{main_person_id}-pr-{stringify_id(per_ix)}"
         elif ner_category in ["LOC", "GPE", "FAC"]:
             idm_ent = copy.deepcopy(place_template)
-            pl_ix += 1
-            idm_ent["id"] = f"{lastname}-pl-{stringify_id(pl_ix)}"
             idm_ent["kind"] = "place"
+            if wiki_link:
+                idm_ent["id"] = f"{main_person_id}-pl-{wiki_link.split('/')[-1]}"
+            else:
+                pl_ix += 1
+                idm_ent["id"] = f"{main_person_id}-pl-{stringify_id(pl_ix)}"
         elif ner_category in ["ORG"]:
             idm_ent = copy.deepcopy(group_template)
-            gr_ix += 1
-            idm_ent["id"] = f"{lastname}-gr-{stringify_id(gr_ix)}"
             idm_ent["kind"] = "group"
+            if wiki_link:
+                idm_ent["id"] = f"{main_person_id}-gr-{wiki_link.split('/')[-1]}"
+            else:
+                gr_ix += 1
+                idm_ent["id"] = f"{main_person_id}-gr-{stringify_id(gr_ix)}"
         elif ner_category in ["WORK_OF_ART"]:
             idm_ent = copy.deepcopy(object_template)
-            obj_ix += 1
-            idm_ent["id"] = f"{lastname}-ob-{stringify_id(obj_ix)}"
             idm_ent["kind"] = "cultural-heritage-object"
-        # TODO: FIX? CURRENTLY WE ARE DROPPING "DATE" entities and therefore also relationships that point to those entities such as: "date_of_birth"
-        # elif ner_category in ["DATE"]:
+            if wiki_link:
+                idm_ent["id"] = f"{main_person_id}-ob-{wiki_link.split('/')[-1]}"
+            else:
+                obj_ix += 1
+                idm_ent["id"] = f"{main_person_id}-ob-{stringify_id(obj_ix)}"
+            
         
+
         # LAST) Add to the IDM Entities
         univ_id2idm_id[ent_id] = None
         if idm_ent:
@@ -337,11 +356,11 @@ def convert_nlp_to_idm_json(nlp_path: str, idm_out_path: str):
                     idm_ent["geometry"] = {"type": "Point", "coordinates": coord}
             # Convert NLP CHO Entities --> IDM Creation Events and Relations [role-object_created, role-was_creator]
             if "WORK_OF_ART" in unified_ent_obj["ner"]:
-                subj_idm_id = f"{lastname}-pr-001"
+                subj_idm_id = f"{main_person_id}-pr-{main_person_id}"
                 # This event is "passive" (the object "was created"), that's why the other entity we need to get is the Subj Entity (the creator)
                 # We are assuming the first entity of the text == Subject of the Biography
                 subj_idm_ent = idm_entity_dict[idm_id2univ_id[subj_idm_id]]
-                event_info = {"full_event_id": f"{lastname}-{ev_sub_id}-ev-{stringify_id(event_ix)}", 
+                event_info = {"full_event_id": f"{main_person_id}-{ev_sub_id}-ev-{stringify_id(event_ix)}", 
                               "event_label": unified_ent_obj["surfaceForms"][0], 
                               "event_kind": "creation", 
                               "subj_role": "was_creator", 
@@ -355,10 +374,10 @@ def convert_nlp_to_idm_json(nlp_path: str, idm_out_path: str):
 
             # Convert NLP Relations --> IDM Relations
             for rel_obj in unified_ent_obj.get("relations", []):
-                ev_sub_id = idm_ent["id"].split("-")[1]
+                ev_sub_id = idm_ent["id"] # .split("-")[1]
                 subj_role =  rel_obj['relationValue']
                 obj_role = inverse_relations_dict.get(rel_obj['relationValue'], 'unk')
-                event_info = {"full_event_id": f"{lastname}-{ev_sub_id}-ev-{stringify_id(event_ix)}", 
+                event_info = {"full_event_id": f"{main_person_id}-{ev_sub_id}-ev-{stringify_id(event_ix)}", 
                               "event_label": rel_obj["surfaceFormObj"], 
                               "event_kind": f"event-kind-{subj_role}", 
                               "subj_role": subj_role, 

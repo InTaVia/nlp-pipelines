@@ -816,7 +816,10 @@
       "https://en.wikipedia.org/wiki/Albrecht_Dürer",
       "https://en.wikipedia.org/wiki/Albrecht_Dürer",
       "https://en.wikipedia.org/wiki/Albrecht_Dürer",
-      "https://en.wikipedia.org/wiki/Albrecht_Dürer"
+      "https://en.wikipedia.org/wiki/Albrecht_D%C3%BCrer",
+      "https://en.wikipedia.org/wiki/Albrecht_D%C3%BCrer",
+      "https://en.wikipedia.org/wiki/Albrecht_Dürer",
+      "https://en.wikipedia.org/wiki/Albrecht_D%C3%BCrer"
     ]
   },
   "ent_2": {
@@ -879,7 +882,8 @@
       }
     ],
     "wiki_links": [
-      null
+      null,
+      "https://en.wikipedia.org/wiki/Albrecht_D%C3%BCrer_the_Elder"
     ]
   },
   "ent_5": {
@@ -2625,7 +2629,7 @@
     "relations": [],
     "wiki_links": [
       null,
-      "https://en.wikipedia.org/wiki/Meisterstiche_(Dürer)"
+      "https://en.wikipedia.org/wiki/Meisterstiche_%28D%C3%BCrer%29"
     ]
   },
   "ent_127": {
@@ -2644,7 +2648,7 @@
     "relations": [],
     "wiki_links": [
       null,
-      "https://en.wikipedia.org/wiki/Knight,_Death_and_the_Devil"
+      "https://en.wikipedia.org/wiki/Knight%2C_Death_and_the_Devil"
     ]
   },
   "ent_128": {
@@ -3053,7 +3057,7 @@
     ],
     "wiki_links": [
       null,
-      "https://en.wikipedia.org/wiki/Gyula_(town)"
+      "https://en.wikipedia.org/wiki/Gyula_%28town%29"
     ]
   },
   "ent_146": {
@@ -3162,7 +3166,7 @@
     ],
     "wiki_links": [
       null,
-      "https://en.wikipedia.org/wiki/Hans_Dürer"
+      "https://en.wikipedia.org/wiki/Hans_D%C3%BCrer"
     ]
   },
   "ent_150": {
@@ -4537,7 +4541,7 @@
     "relations": [],
     "wiki_links": [
       "https://en.wikipedia.org/wiki/Padua",
-      "https://en.wikipedia.org/wiki/Padua,_Italy"
+      "https://en.wikipedia.org/wiki/Padua%2C_Italy"
     ]
   },
   "ent_209": {
@@ -5249,7 +5253,8 @@
     ],
     "relations": [],
     "wiki_links": [
-      null
+      null,
+      "https://en.wikipedia.org/wiki/The_Sea_Monster"
     ]
   },
   "ent_247": {
@@ -5340,7 +5345,7 @@
     "relations": [],
     "wiki_links": [
       "https://en.wikipedia.org/wiki/Madonna_(art)",
-      "https://en.wikipedia.org/wiki/Madonna_(art)"
+      "https://en.wikipedia.org/wiki/Madonna_%28art%29"
     ]
   },
   "ent_252": {
@@ -5401,7 +5406,7 @@
     ],
     "wiki_links": [
       null,
-      "https://en.wikipedia.org/wiki/Jacopo_de'_Barbari"
+      "https://en.wikipedia.org/wiki/Jacopo_de%27_Barbari"
     ]
   },
   "ent_254": {
@@ -5456,7 +5461,7 @@
     "relations": [],
     "wiki_links": [
       "https://en.wikipedia.org/wiki/Adam_and_Eve",
-      "https://en.wikipedia.org/wiki/Adam_and_Eve_(Dürer)"
+      "https://en.wikipedia.org/wiki/Adam_and_Eve_%28D%C3%BCrer%29"
     ]
   },
   "ent_257": {
@@ -5675,7 +5680,7 @@
     "relations": [],
     "wiki_links": [
       null,
-      "https://en.wikipedia.org/wiki/San_Bartolomeo,_Venice"
+      "https://en.wikipedia.org/wiki/San_Bartolomeo%2C_Venice"
     ]
   },
   "ent_269": {
@@ -5785,7 +5790,7 @@
     "relations": [],
     "wiki_links": [
       "https://en.wikipedia.org/wiki/Rudolf_II,_Holy_Roman_Emperor",
-      "https://en.wikipedia.org/wiki/Rudolf_II,_Holy_Roman_Emperor"
+      "https://en.wikipedia.org/wiki/Rudolf_II%2C_Holy_Roman_Emperor"
     ]
   },
   "ent_275": {
@@ -5894,7 +5899,7 @@
     "relations": [],
     "wiki_links": [
       "https://en.wikipedia.org/wiki/Adam_and_Eve",
-      "https://en.wikipedia.org/wiki/Adam_and_Eve_(Dürer)"
+      "https://en.wikipedia.org/wiki/Adam_and_Eve_%28D%C3%BCrer%29"
     ]
   },
   "ent_281": {
@@ -6275,7 +6280,7 @@
     "relations": [],
     "wiki_links": [
       null,
-      "https://en.wikipedia.org/wiki/Knight,_Death_and_the_Devil"
+      "https://en.wikipedia.org/wiki/Knight%2C_Death_and_the_Devil"
     ]
   },
   "ent_302": {
@@ -6332,7 +6337,7 @@
     "relations": [],
     "wiki_links": [
       null,
-      "https://en.wikipedia.org/wiki/St._Jerome_in_His_Study_(Dürer)"
+      "https://en.wikipedia.org/wiki/St._Jerome_in_His_Study_%28D%C3%BCrer%29"
     ]
   },
   "ent_305": {
@@ -7420,7 +7425,7 @@
     "relations": [],
     "wiki_links": [
       null,
-      "https://en.wikipedia.org/wiki/:de:Konrad_Heinfogel"
+      "https://en.wikipedia.org/wiki/%3Ade%3AKonrad_Heinfogel"
     ]
   },
   "ent_364": {
@@ -7529,7 +7534,7 @@
     "relations": [],
     "wiki_links": [
       "https://en.wikipedia.org/wiki/Charles_V,_Holy_Roman_Emperor",
-      "https://en.wikipedia.org/wiki/Charles_V,_Holy_Roman_Emperor"
+      "https://en.wikipedia.org/wiki/Charles_V%2C_Holy_Roman_Emperor"
     ]
   },
   "ent_370": {
@@ -7792,7 +7797,7 @@
     "relations": [],
     "wiki_links": [
       null,
-      "https://en.wikipedia.org/wiki/Margaret_of_Habsburg_(1480–1530)"
+      "https://en.wikipedia.org/wiki/Margaret_of_Habsburg_%281480%E2%80%931530%29"
     ]
   },
   "ent_384": {
@@ -8015,7 +8020,7 @@
     "relations": [],
     "wiki_links": [
       null,
-      "https://en.wikipedia.org/wiki/commons:File:Albrecht_Dürer_078.jpg"
+      "https://en.wikipedia.org/wiki/commons%3AFile%3AAlbrecht_D%C3%BCrer_078.jpg"
     ]
   },
   "ent_396": {
