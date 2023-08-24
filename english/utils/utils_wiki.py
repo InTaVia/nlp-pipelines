@@ -15,8 +15,8 @@ class RankedArticle:
     dates_confidence: int = -1
 
 
-def get_wikipedia_url_encoded(wikipedia_link: str):
-    safe_string = urllib.parse.quote_plus(wikipedia_link).replace("+", "_")
+def get_wikipedia_url_encoded(wikipedia_metadata_link: str):
+    safe_string = urllib.parse.quote_plus(wikipedia_metadata_link).replace("+", "_")
     wiki_url = f"https://en.wikipedia.org/wiki/{safe_string}"
     return wiki_url
 

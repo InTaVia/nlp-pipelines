@@ -3,6 +3,7 @@ import json, os, re, time
 import copy
 from collections import defaultdict, Counter
 from utils.utils_wiki import get_raw_wikipedia_article, get_wiki_linked_entities, get_relevant_items_from_infobox, get_wikipedia_url_encoded
+from urllib.parse import unquote
 
 inverse_relations_dict = {
     "based_in": "location_of",
@@ -79,7 +80,7 @@ def convert_nlp_to_idm_json(nlp_path: str, idm_out_path: str):
     firstname = person_name.split("_")[0]
     lastname = person_name.split("_")[-1]
     main_person_url = get_wikipedia_url_encoded(person_name.replace("_", " ").title())
-    main_person_id = main_person_url.split("/")[-1]
+    main_person_id = unquote(main_person_url.split("/")[-1])
 
     all_sentences = {str(sent["sentenceID"]): sent["text"] for sent in nlp_dict["data"]["morpho_syntax"]["flair_0.12.2"]}
     
@@ -294,8 +295,7 @@ def convert_nlp_to_idm_json(nlp_path: str, idm_out_path: str):
             idm_ent = copy.deepcopy(person_template)
             idm_ent["kind"] = "person"
             if wiki_link:
-                # idm_ent["linkedIds"].append(wiki_link)
-                idm_ent["id"] = f"{main_person_id}-pr-{wiki_link.split('/')[-1]}"
+                idm_ent["id"] = f"{main_person_id}-pr-{unquote(wiki_link.split('/')[-1])}"
             else:
                 per_ix += 1
                 idm_ent["id"] = f"{main_person_id}-pr-{stringify_id(per_ix)}"
@@ -303,7 +303,7 @@ def convert_nlp_to_idm_json(nlp_path: str, idm_out_path: str):
             idm_ent = copy.deepcopy(place_template)
             idm_ent["kind"] = "place"
             if wiki_link:
-                idm_ent["id"] = f"{main_person_id}-pl-{wiki_link.split('/')[-1]}"
+                idm_ent["id"] = f"{main_person_id}-pl-{unquote(wiki_link.split('/')[-1])}"
             else:
                 pl_ix += 1
                 idm_ent["id"] = f"{main_person_id}-pl-{stringify_id(pl_ix)}"
@@ -311,7 +311,7 @@ def convert_nlp_to_idm_json(nlp_path: str, idm_out_path: str):
             idm_ent = copy.deepcopy(group_template)
             idm_ent["kind"] = "group"
             if wiki_link:
-                idm_ent["id"] = f"{main_person_id}-gr-{wiki_link.split('/')[-1]}"
+                idm_ent["id"] = f"{main_person_id}-gr-{unquote(wiki_link.split('/')[-1])}"
             else:
                 gr_ix += 1
                 idm_ent["id"] = f"{main_person_id}-gr-{stringify_id(gr_ix)}"
@@ -319,13 +319,12 @@ def convert_nlp_to_idm_json(nlp_path: str, idm_out_path: str):
             idm_ent = copy.deepcopy(object_template)
             idm_ent["kind"] = "cultural-heritage-object"
             if wiki_link:
-                idm_ent["id"] = f"{main_person_id}-ob-{wiki_link.split('/')[-1]}"
+                idm_ent["id"] = f"{main_person_id}-ob-{unquote(wiki_link.split('/')[-1])}"
             else:
                 obj_ix += 1
                 idm_ent["id"] = f"{main_person_id}-ob-{stringify_id(obj_ix)}"
             
         
-
         # LAST) Add to the IDM Entities
         univ_id2idm_id[ent_id] = None
         if idm_ent:
