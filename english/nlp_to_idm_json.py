@@ -4,6 +4,8 @@ import copy
 from collections import defaultdict, Counter
 from utils.utils_wiki import get_raw_wikipedia_article, get_wiki_linked_entities, get_relevant_items_from_infobox, get_wikipedia_url_encoded
 from urllib.parse import unquote
+import datetime
+import dateutil.parser as parser
 
 inverse_relations_dict = {
     "based_in": "location_of",
@@ -199,7 +201,7 @@ def convert_nlp_to_idm_json(nlp_path: str, idm_out_path: str):
             sentence_based_events[sent_id][nlp_name] = list(nlp_values)
     json.dump(sentence_based_events, open("data/idm/nlpidm_sentence_based_dict.json", "w"), indent=2, ensure_ascii=False)
 
-    # Sentence-Base Events and SRL-Based Events
+    # Sentence-Based Events and SRL-Based Events
     sentences_with_events, triples_with_events = [], []
     for sent_id, nlp_layer in sentence_based_events.items():
         dates_found = []
@@ -212,8 +214,10 @@ def convert_nlp_to_idm_json(nlp_path: str, idm_out_path: str):
             for srl in nlp_layer.get("srl", []):
                 prop = " ".join(srl)
                 if date not in prop and re.search(r"\d{4}", prop): continue # Skip these cases as they have contradictory dates!
-                prop = f"{date} --> {prop}"
-                triples_with_events.append(prop)
+                # prop = f"{date} --> {prop}"
+                if date in prop: # "Agressive Filter" to keep only the triples that also have ARGM-LOC mtchint the DATE Entity
+                    prop = (date, srl)
+                    triples_with_events.append(prop)
 
     with open("data/idm/nlpidm_sentence_based_events.txt", "w") as f:
         for sent in sentences_with_events:
@@ -333,6 +337,7 @@ def convert_nlp_to_idm_json(nlp_path: str, idm_out_path: str):
             idm_ent["label"] = {"default": surface_form}
             idm_entity_dict[ent_id] = idm_ent
 
+
     for ent_id, unified_ent_obj in unified_universal_dict.items():
         # If it is a valid entity then add the advanced Attributes
         if ent_id in idm_entity_dict:
@@ -356,6 +361,7 @@ def convert_nlp_to_idm_json(nlp_path: str, idm_out_path: str):
             # Convert NLP CHO Entities --> IDM Creation Events and Relations [role-object_created, role-was_creator]
             if "WORK_OF_ART" in unified_ent_obj["ner"]:
                 subj_idm_id = f"{main_person_id}-pr-{main_person_id}"
+                ev_sub_id = idm_ent["id"]
                 # This event is "passive" (the object "was created"), that's why the other entity we need to get is the Subj Entity (the creator)
                 # We are assuming the first entity of the text == Subject of the Biography
                 subj_idm_ent = idm_entity_dict[idm_id2univ_id[subj_idm_id]]
@@ -396,6 +402,31 @@ def convert_nlp_to_idm_json(nlp_path: str, idm_out_path: str):
             # Add updated current object back to dict
             idm_entity_dict[ent_id] = idm_ent
     
+    # ##Convert DATE <--> SRL Links Into (Main_Subject, predicate, object) Events. ALWAYS attached ot Main Subject
+    subj_idm_id = f"{main_person_id}-pr-{main_person_id}"
+    for tr in triples_with_events:
+        subj_idm_ent = idm_entity_dict[idm_id2univ_id[subj_idm_id]]
+        date, event_triple = tr[0], tr[1]
+        ev_sub_id = subj_idm_ent["id"]
+        start_date, end_date = normalize_date(date)
+        if start_date:
+            event_info = {"full_event_id": f"{main_person_id}-{ev_sub_id}-ev-{stringify_id(event_ix)}", 
+                            "event_label": " ".join(event_triple), 
+                            "event_kind": event_triple[1], 
+                            "subj_role": event_triple[1], 
+                            "obj_role": event_triple[1],
+                            "startDate": start_date
+                            }
+        # else:
+        #     print("FAILED DATE!", date)
+        if end_date: event_info["endDate"] = end_date
+        subj_idm_ent, idm_ent, event_obj, event_vocab, role_vocab = create_idm_event(event_info, subj_idm_id, subj_idm_ent, subj_idm_ent, event_vocab, role_vocab)
+        # Add updated object back to dict
+        idm_entity_dict[idm_id2univ_id[subj_idm_id]] = subj_idm_ent
+        # Add Event to IDM Main Object
+        parent_idm["events"].append(event_obj)
+        event_ix += 1
+
     # 4) Transfer The MERGED Entity-Rel-Linked info into the parent object
     for _, ent_obj in idm_entity_dict.items():
         parent_idm["entities"].append(ent_obj)
@@ -416,6 +447,22 @@ def stringify_id(number: int) -> str:
         return f"0{number}"
     else:
         return str(number)
+
+def normalize_date(datelike_string: str) -> Tuple[str,str]:
+    start_date, end_date = None, None
+    if (len(datelike_string) == 4 or len(datelike_string) == 3) and (re.match(r"^\d{4}$", datelike_string) or re.match(r"^\d{3}$", datelike_string)):
+        start_date = datetime.datetime(int(datelike_string),1,1).isoformat().split("T")[0]
+    elif re.match(r"^\d{4}-\d{4}$", datelike_string) or re.match(r"^\d{3}-\d{4}$", datelike_string) or re.match(r"^\d{3}-\d{3}$", datelike_string):
+        st, en = datelike_string.split("-")
+        start_date = datetime.datetime(int(st),1,1).isoformat().split("T")[0]
+        end_date = datetime.datetime(int(en),12,31).isoformat().split("T")[0]
+    #elif 
+    else:
+        try:
+            start_date = parser.parse(datelike_string).split("T")[0]
+        except:
+            pass
+    return start_date, end_date
 
 
 def create_unified_universal_dict(nlp_dict: Dict[str, Any], universal_dict: Dict[str, Any]) -> Tuple[Any]:
@@ -489,14 +536,16 @@ def create_idm_event(event_info: Dict[str, str], subj_idm_id: str, subj_idm_ent:
                 "id": full_event_id,
                 "label": { "default": event_label },
                 "kind": f"event-kind-{event_kind}",
-                # "startDate": "",
                 "relations": [{ "entity": obj_idm_ent["id"], "role": f"role-{obj_role}" },
-                              { "entity": subj_idm_id, "role": f"role-{subj_role}" },
-                                # { "entity": "duerer-pl-012", "role": "role-took_place_at" },
-                                # { "entity": "duerer-gr-019", "role": "role-current_location" }
+                              { "entity": subj_idm_id, "role": f"role-{subj_role}" }
                             ]
             }
     
+    if event_info.get("startDate"):
+        event_obj["startDate"] = event_info.get("startDate")
+    if event_info.get("endDate"):
+        event_obj["endDate"] = event_info.get("endDate")
+
     event_vocab[f"event-kind-{event_kind}"] = {"id": f"event-kind-{event_kind}", "label": {"default": f"{obj_role}"}}
     role_vocab[f"role-{subj_role}"] = { "id": f"role-{subj_role}", "label": { "default": subj_role}}
     role_vocab[f"role-{obj_role}"] = { "id": f"role-{obj_role}", "label": { "default": obj_role}}
