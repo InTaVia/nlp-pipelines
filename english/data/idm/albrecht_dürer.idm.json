@@ -5,9 +5,7 @@
       "label": {
         "default": "Albrecht Dürer"
       },
-      "linkedIds": [
-        "https://en.wikipedia.org/wiki/Albrecht_D%C3%BCrer"
-      ],
+      "linkedIds": [],
       "media": [],
       "relations": [
         {
@@ -440,9 +438,7 @@
       "label": {
         "default": "Albrecht Dürer the Elder"
       },
-      "linkedIds": [
-        "https://en.wikipedia.org/wiki/Albrecht_D%C3%BCrer_the_Elder"
-      ],
+      "linkedIds": [],
       "media": [],
       "relations": [
         {
@@ -604,9 +600,7 @@
       "label": {
         "default": "Michael Wolgemut"
       },
-      "linkedIds": [
-        "https://en.wikipedia.org/wiki/Michael_Wolgemut"
-      ],
+      "linkedIds": [],
       "media": [],
       "relations": [],
       "kind": "person"
@@ -628,9 +622,7 @@
       "label": {
         "default": "Martin Schongauer"
       },
-      "linkedIds": [
-        "https://en.wikipedia.org/wiki/Martin_Schongauer"
-      ],
+      "linkedIds": [],
       "media": [],
       "relations": [
         {
@@ -677,9 +669,7 @@
       "label": {
         "default": "Agnes Frey"
       },
-      "linkedIds": [
-        "https://en.wikipedia.org/wiki/Agnes_Frey"
-      ],
+      "linkedIds": [],
       "media": [],
       "relations": [
         {
@@ -722,9 +712,7 @@
       "label": {
         "default": "Willibald Pirckheimer"
       },
-      "linkedIds": [
-        "https://en.wikipedia.org/wiki/Willibald_Pirckheimer"
-      ],
+      "linkedIds": [],
       "media": [],
       "relations": [],
       "kind": "person"
@@ -777,9 +765,7 @@
       "label": {
         "default": "Giovanni Bellini"
       },
-      "linkedIds": [
-        "https://en.wikipedia.org/wiki/Giovanni_Bellini"
-      ],
+      "linkedIds": [],
       "media": [],
       "relations": [],
       "kind": "person"
@@ -833,9 +819,7 @@
       "label": {
         "default": "Johannes Stabius"
       },
-      "linkedIds": [
-        "https://en.wikipedia.org/wiki/Johannes_Stabius"
-      ],
+      "linkedIds": [],
       "media": [],
       "relations": [],
       "kind": "person"
@@ -860,9 +844,7 @@
       "label": {
         "default": "August Siegert"
       },
-      "linkedIds": [
-        "https://en.wikipedia.org/wiki/August_Siegert"
-      ],
+      "linkedIds": [],
       "media": [],
       "relations": [],
       "kind": "person"
@@ -894,9 +876,7 @@
       "label": {
         "default": "Philipp Melanchthon"
       },
-      "linkedIds": [
-        "https://en.wikipedia.org/wiki/Philipp_Melanchthon"
-      ],
+      "linkedIds": [],
       "media": [],
       "relations": [],
       "kind": "person"
@@ -916,9 +896,7 @@
       "label": {
         "default": "Martin Luther"
       },
-      "linkedIds": [
-        "https://en.wikipedia.org/wiki/Martin_Luther"
-      ],
+      "linkedIds": [],
       "media": [],
       "relations": [],
       "kind": "person"
@@ -938,9 +916,7 @@
       "label": {
         "default": "Marcantonio Raimondi"
       },
-      "linkedIds": [
-        "https://en.wikipedia.org/wiki/Marcantonio_Raimondi"
-      ],
+      "linkedIds": [],
       "media": [],
       "relations": [],
       "kind": "person"
@@ -950,9 +926,7 @@
       "label": {
         "default": "Michelangelo"
       },
-      "linkedIds": [
-        "https://en.wikipedia.org/wiki/Michelangelo"
-      ],
+      "linkedIds": [],
       "media": [],
       "relations": [],
       "kind": "person"
@@ -962,9 +936,7 @@
       "label": {
         "default": "Lucas Cranach the Elder"
       },
-      "linkedIds": [
-        "https://en.wikipedia.org/wiki/Lucas_Cranach_the_Elder"
-      ],
+      "linkedIds": [],
       "media": [],
       "relations": [],
       "kind": "person"
@@ -974,9 +946,7 @@
       "label": {
         "default": "Vitruvius"
       },
-      "linkedIds": [
-        "https://en.wikipedia.org/wiki/Vitruvius"
-      ],
+      "linkedIds": [],
       "media": [],
       "relations": [],
       "kind": "person"
@@ -1004,9 +974,7 @@
       "label": {
         "default": "Leonardo da Vinci"
       },
-      "linkedIds": [
-        "https://en.wikipedia.org/wiki/Leonardo_da_Vinci"
-      ],
+      "linkedIds": [],
       "media": [],
       "relations": [],
       "kind": "person"
@@ -1044,9 +1012,7 @@
       "label": {
         "default": "Raphael"
       },
-      "linkedIds": [
-        "https://en.wikipedia.org/wiki/Raphael"
-      ],
+      "linkedIds": [],
       "media": [],
       "relations": [],
       "kind": "person"
@@ -1249,9 +1215,7 @@
       "label": {
         "default": "Hans Dürer"
       },
-      "linkedIds": [
-        "https://en.wikipedia.org/wiki/Hans_D%C3%BCrer"
-      ],
+      "linkedIds": [],
       "media": [],
       "relations": [
         {
@@ -1358,9 +1322,7 @@
       "label": {
         "default": "Anton Koberger"
       },
-      "linkedIds": [
-        "https://en.wikipedia.org/wiki/Anton_Koberger"
-      ],
+      "linkedIds": [],
       "media": [],
       "relations": [
         {
@@ -1717,9 +1679,7 @@
       "label": {
         "default": "Nikolaus Gerhaert"
       },
-      "linkedIds": [
-        "https://en.wikipedia.org/wiki/Nikolaus_Gerhaert"
-      ],
+      "linkedIds": [],
       "media": [],
       "relations": [],
       "kind": "person"
@@ -1871,9 +1831,7 @@
       "label": {
         "default": "Antonio del Pollaiuolo"
       },
-      "linkedIds": [
-        "https://en.wikipedia.org/wiki/Antonio_del_Pollaiuolo"
-      ],
+      "linkedIds": [],
       "media": [],
       "relations": [],
       "kind": "person"
@@ -1883,9 +1841,7 @@
       "label": {
         "default": "Lorenzo di Credi"
       },
-      "linkedIds": [
-        "https://en.wikipedia.org/wiki/Lorenzo_di_Credi"
-      ],
+      "linkedIds": [],
       "media": [],
       "relations": [],
       "kind": "person"
@@ -1895,9 +1851,7 @@
       "label": {
         "default": "Andrea Mantegna"
       },
-      "linkedIds": [
-        "https://en.wikipedia.org/wiki/Andrea_Mantegna"
-      ],
+      "linkedIds": [],
       "media": [],
       "relations": [],
       "kind": "person"
@@ -2082,9 +2036,7 @@
       "label": {
         "default": "Giorgio Vasari"
       },
-      "linkedIds": [
-        "https://en.wikipedia.org/wiki/Giorgio_Vasari"
-      ],
+      "linkedIds": [],
       "media": [],
       "relations": [],
       "kind": "person"
@@ -2184,9 +2136,7 @@
       "label": {
         "default": "Madonnas"
       },
-      "linkedIds": [
-        "https://en.wikipedia.org/wiki/Madonna_%28art%29"
-      ],
+      "linkedIds": [],
       "media": [],
       "relations": [],
       "kind": "person"
@@ -2196,9 +2146,7 @@
       "label": {
         "default": "Jacopo de' Barbari"
       },
-      "linkedIds": [
-        "https://en.wikipedia.org/wiki/Jacopo_de%27_Barbari"
-      ],
+      "linkedIds": [],
       "media": [],
       "relations": [],
       "kind": "person"
@@ -2385,9 +2333,7 @@
       "label": {
         "default": "Rudolf II"
       },
-      "linkedIds": [
-        "https://en.wikipedia.org/wiki/Rudolf_II%2C_Holy_Roman_Emperor"
-      ],
+      "linkedIds": [],
       "media": [],
       "relations": [],
       "kind": "person"
@@ -2612,9 +2558,7 @@
       "label": {
         "default": "Erasmus"
       },
-      "linkedIds": [
-        "https://en.wikipedia.org/wiki/Erasmus"
-      ],
+      "linkedIds": [],
       "media": [],
       "relations": [],
       "kind": "person"
@@ -2731,9 +2675,7 @@
       "label": {
         "default": "Horapollo"
       },
-      "linkedIds": [
-        "https://en.wikipedia.org/wiki/Horapollo"
-      ],
+      "linkedIds": [],
       "media": [],
       "relations": [],
       "kind": "person"
@@ -2771,9 +2713,7 @@
       "label": {
         "default": "Hieronymous Andreae"
       },
-      "linkedIds": [
-        "https://en.wikipedia.org/wiki/Hieronymous_Andreae"
-      ],
+      "linkedIds": [],
       "media": [],
       "relations": [],
       "kind": "person"
@@ -2829,9 +2769,7 @@
       "label": {
         "default": "Albrecht Altdorfer"
       },
-      "linkedIds": [
-        "https://en.wikipedia.org/wiki/Albrecht_Altdorfer"
-      ],
+      "linkedIds": [],
       "media": [],
       "relations": [],
       "kind": "person"
@@ -2841,9 +2779,7 @@
       "label": {
         "default": "Hans Springinklee"
       },
-      "linkedIds": [
-        "https://en.wikipedia.org/wiki/Hans_Springinklee"
-      ],
+      "linkedIds": [],
       "media": [],
       "relations": [],
       "kind": "person"
@@ -2853,9 +2789,7 @@
       "label": {
         "default": "Emperor"
       },
-      "linkedIds": [
-        "https://en.wikipedia.org/wiki/Holy_Roman_Emperor"
-      ],
+      "linkedIds": [],
       "media": [],
       "relations": [],
       "kind": "person"
@@ -2883,9 +2817,7 @@
       "label": {
         "default": "Hans Baldung"
       },
-      "linkedIds": [
-        "https://en.wikipedia.org/wiki/Hans_Baldung"
-      ],
+      "linkedIds": [],
       "media": [],
       "relations": [],
       "kind": "person"
@@ -2905,9 +2837,7 @@
       "label": {
         "default": "Konrad Peutinger"
       },
-      "linkedIds": [
-        "https://en.wikipedia.org/wiki/Konrad_Peutinger"
-      ],
+      "linkedIds": [],
       "media": [],
       "relations": [],
       "kind": "person"
@@ -2917,9 +2847,7 @@
       "label": {
         "default": "Conrad Celtes"
       },
-      "linkedIds": [
-        "https://en.wikipedia.org/wiki/Conrad_Celtes"
-      ],
+      "linkedIds": [],
       "media": [],
       "relations": [],
       "kind": "person"
@@ -3003,9 +2931,7 @@
       "label": {
         "default": "Konrad Heinfogel"
       },
-      "linkedIds": [
-        "https://en.wikipedia.org/wiki/%3Ade%3AKonrad_Heinfogel"
-      ],
+      "linkedIds": [],
       "media": [],
       "relations": [],
       "kind": "person"
@@ -3015,9 +2941,7 @@
       "label": {
         "default": "Charles V"
       },
-      "linkedIds": [
-        "https://en.wikipedia.org/wiki/Charles_V%2C_Holy_Roman_Emperor"
-      ],
+      "linkedIds": [],
       "media": [],
       "relations": [],
       "kind": "person"
@@ -3069,9 +2993,7 @@
       "label": {
         "default": "Stefan Lochner"
       },
-      "linkedIds": [
-        "https://en.wikipedia.org/wiki/Stefan_Lochner"
-      ],
+      "linkedIds": [],
       "media": [],
       "relations": [],
       "kind": "person"
@@ -3184,9 +3106,7 @@
       "label": {
         "default": "Margaret of Austria"
       },
-      "linkedIds": [
-        "https://en.wikipedia.org/wiki/Margaret_of_Habsburg_%281480%E2%80%931530%29"
-      ],
+      "linkedIds": [],
       "media": [],
       "relations": [],
       "kind": "person"
@@ -3206,9 +3126,7 @@
       "label": {
         "default": "Bernard van Orley"
       },
-      "linkedIds": [
-        "https://en.wikipedia.org/wiki/Bernard_van_Orley"
-      ],
+      "linkedIds": [],
       "media": [],
       "relations": [],
       "kind": "person"
@@ -3218,9 +3136,7 @@
       "label": {
         "default": "Jan Provoost"
       },
-      "linkedIds": [
-        "https://en.wikipedia.org/wiki/Jan_Provoost"
-      ],
+      "linkedIds": [],
       "media": [],
       "relations": [],
       "kind": "person"
@@ -3230,9 +3146,7 @@
       "label": {
         "default": "Gerard Horenbout"
       },
-      "linkedIds": [
-        "https://en.wikipedia.org/wiki/Gerard_Horenbout"
-      ],
+      "linkedIds": [],
       "media": [],
       "relations": [],
       "kind": "person"
@@ -3242,9 +3156,7 @@
       "label": {
         "default": "Jean Mone"
       },
-      "linkedIds": [
-        "https://en.wikipedia.org/wiki/Jean_Mone"
-      ],
+      "linkedIds": [],
       "media": [],
       "relations": [],
       "kind": "person"
@@ -3254,9 +3166,7 @@
       "label": {
         "default": "Joachim Patinir"
       },
-      "linkedIds": [
-        "https://en.wikipedia.org/wiki/Joachim_Patinir"
-      ],
+      "linkedIds": [],
       "media": [],
       "relations": [],
       "kind": "person"
@@ -3266,9 +3176,7 @@
       "label": {
         "default": "Tommaso Vincidor"
       },
-      "linkedIds": [
-        "https://en.wikipedia.org/wiki/Tommaso_Vincidor"
-      ],
+      "linkedIds": [],
       "media": [],
       "relations": [],
       "kind": "person"
@@ -3288,9 +3196,7 @@
       "label": {
         "default": "Hieronymus Holtzschuher"
       },
-      "linkedIds": [
-        "https://en.wikipedia.org/wiki/commons%3AFile%3AAlbrecht_D%C3%BCrer_078.jpg"
-      ],
+      "linkedIds": [],
       "media": [],
       "relations": [],
       "kind": "person"
@@ -3336,9 +3242,7 @@
       "label": {
         "default": "St. John"
       },
-      "linkedIds": [
-        "https://en.wikipedia.org/wiki/John_the_Apostle"
-      ],
+      "linkedIds": [],
       "media": [],
       "relations": [],
       "kind": "person"
@@ -3348,9 +3252,7 @@
       "label": {
         "default": "St. Peter"
       },
-      "linkedIds": [
-        "https://en.wikipedia.org/wiki/St._Peter"
-      ],
+      "linkedIds": [],
       "media": [],
       "relations": [],
       "kind": "person"
@@ -3360,9 +3262,7 @@
       "label": {
         "default": "St. Paul"
       },
-      "linkedIds": [
-        "https://en.wikipedia.org/wiki/Paul_of_Tarsus"
-      ],
+      "linkedIds": [],
       "media": [],
       "relations": [],
       "kind": "person"
@@ -3372,9 +3272,7 @@
       "label": {
         "default": "St. Mark"
       },
-      "linkedIds": [
-        "https://en.wikipedia.org/wiki/Mark_the_Evangelist"
-      ],
+      "linkedIds": [],
       "media": [],
       "relations": [],
       "kind": "person"
@@ -3424,9 +3322,7 @@
       "label": {
         "default": "Albert of Mainz"
       },
-      "linkedIds": [
-        "https://en.wikipedia.org/wiki/Albert_of_Mainz"
-      ],
+      "linkedIds": [],
       "media": [],
       "relations": [],
       "kind": "person"
@@ -3436,9 +3332,7 @@
       "label": {
         "default": "Frederick the Wise"
       },
-      "linkedIds": [
-        "https://en.wikipedia.org/wiki/Frederick_the_Wise"
-      ],
+      "linkedIds": [],
       "media": [],
       "relations": [],
       "kind": "person"
@@ -3490,9 +3384,7 @@
       "label": {
         "default": "Erasmus"
       },
-      "linkedIds": [
-        "https://en.wikipedia.org/wiki/Erasmus"
-      ],
+      "linkedIds": [],
       "media": [],
       "relations": [],
       "kind": "person"
@@ -3520,9 +3412,7 @@
       "label": {
         "default": "Galileo"
       },
-      "linkedIds": [
-        "https://en.wikipedia.org/wiki/Galileo"
-      ],
+      "linkedIds": [],
       "media": [],
       "relations": [],
       "kind": "person"
@@ -3532,9 +3422,7 @@
       "label": {
         "default": "Kepler"
       },
-      "linkedIds": [
-        "https://en.wikipedia.org/wiki/Johannes_Kepler"
-      ],
+      "linkedIds": [],
       "media": [],
       "relations": [],
       "kind": "person"
@@ -3574,9 +3462,7 @@
       "label": {
         "default": "Bernhard Walther"
       },
-      "linkedIds": [
-        "https://en.wikipedia.org/wiki/Bernhard_Walther"
-      ],
+      "linkedIds": [],
       "media": [],
       "relations": [],
       "kind": "person"
@@ -3599,9 +3485,7 @@
       "label": {
         "default": "Nicholas Kratzer"
       },
-      "linkedIds": [
-        "https://en.wikipedia.org/wiki/Nicholas_Kratzer"
-      ],
+      "linkedIds": [],
       "media": [],
       "relations": [],
       "kind": "person"
@@ -3654,9 +3538,7 @@
       "label": {
         "default": "Zwingli"
       },
-      "linkedIds": [
-        "https://en.wikipedia.org/wiki/Huldrych_Zwingli"
-      ],
+      "linkedIds": [],
       "media": [],
       "relations": [],
       "kind": "person"
@@ -3666,9 +3548,7 @@
       "label": {
         "default": "Andreas Karlstadt"
       },
-      "linkedIds": [
-        "https://en.wikipedia.org/wiki/Andreas_Karlstadt"
-      ],
+      "linkedIds": [],
       "media": [],
       "relations": [],
       "kind": "person"
@@ -3688,9 +3568,7 @@
       "label": {
         "default": "Erasmus"
       },
-      "linkedIds": [
-        "https://en.wikipedia.org/wiki/Erasmus"
-      ],
+      "linkedIds": [],
       "media": [],
       "relations": [],
       "kind": "person"
@@ -3700,9 +3578,7 @@
       "label": {
         "default": "Cornelius Grapheus"
       },
-      "linkedIds": [
-        "https://en.wikipedia.org/wiki/Cornelius_Grapheus"
-      ],
+      "linkedIds": [],
       "media": [],
       "relations": [],
       "kind": "person"
@@ -3730,9 +3606,7 @@
       "label": {
         "default": "Erasmus"
       },
-      "linkedIds": [
-        "https://en.wikipedia.org/wiki/Erasmus"
-      ],
+      "linkedIds": [],
       "media": [],
       "relations": [],
       "kind": "person"
@@ -3742,9 +3616,7 @@
       "label": {
         "default": "St Philip"
       },
-      "linkedIds": [
-        "https://en.wikipedia.org/wiki/Philip_the_Apostle"
-      ],
+      "linkedIds": [],
       "media": [],
       "relations": [],
       "kind": "person"
@@ -3754,9 +3626,7 @@
       "label": {
         "default": "Raphael"
       },
-      "linkedIds": [
-        "https://en.wikipedia.org/wiki/Raphael"
-      ],
+      "linkedIds": [],
       "media": [],
       "relations": [],
       "kind": "person"
@@ -3766,9 +3636,7 @@
       "label": {
         "default": "Titian"
       },
-      "linkedIds": [
-        "https://en.wikipedia.org/wiki/Titian"
-      ],
+      "linkedIds": [],
       "media": [],
       "relations": [],
       "kind": "person"
@@ -3778,9 +3646,7 @@
       "label": {
         "default": "Parmigianino"
       },
-      "linkedIds": [
-        "https://en.wikipedia.org/wiki/Parmigianino"
-      ],
+      "linkedIds": [],
       "media": [],
       "relations": [],
       "kind": "person"
@@ -3790,9 +3656,7 @@
       "label": {
         "default": "Lucas van Leyden"
       },
-      "linkedIds": [
-        "https://en.wikipedia.org/wiki/Lucas_van_Leyden"
-      ],
+      "linkedIds": [],
       "media": [],
       "relations": [],
       "kind": "person"
@@ -3802,9 +3666,7 @@
       "label": {
         "default": "Giulio Campagnola"
       },
-      "linkedIds": [
-        "https://en.wikipedia.org/wiki/Giulio_Campagnola"
-      ],
+      "linkedIds": [],
       "media": [],
       "relations": [],
       "kind": "person"
@@ -3814,9 +3676,7 @@
       "label": {
         "default": "Giovanni Battista Palumba"
       },
-      "linkedIds": [
-        "https://en.wikipedia.org/wiki/Giovanni_Battista_Palumba"
-      ],
+      "linkedIds": [],
       "media": [],
       "relations": [],
       "kind": "person"
@@ -3826,9 +3686,7 @@
       "label": {
         "default": "Benedetto Montagna"
       },
-      "linkedIds": [
-        "https://en.wikipedia.org/wiki/Benedetto_Montagna"
-      ],
+      "linkedIds": [],
       "media": [],
       "relations": [],
       "kind": "person"
@@ -3838,9 +3696,7 @@
       "label": {
         "default": "Cristofano Robetta"
       },
-      "linkedIds": [
-        "https://en.wikipedia.org/wiki/Cristofano_Robetta"
-      ],
+      "linkedIds": [],
       "media": [],
       "relations": [],
       "kind": "person"
@@ -3850,9 +3706,7 @@
       "label": {
         "default": "Agostino Veneziano"
       },
-      "linkedIds": [
-        "https://en.wikipedia.org/wiki/Agostino_Veneziano"
-      ],
+      "linkedIds": [],
       "media": [],
       "relations": [],
       "kind": "person"
@@ -3925,9 +3779,7 @@
       "label": {
         "default": "Hans Burgkmair"
       },
-      "linkedIds": [
-        "https://en.wikipedia.org/wiki/Hans_Burgkmair"
-      ],
+      "linkedIds": [],
       "media": [],
       "relations": [],
       "kind": "person"
@@ -4009,9 +3861,7 @@
       "label": {
         "default": "Apollonius"
       },
-      "linkedIds": [
-        "https://en.wikipedia.org/wiki/Apollonius_of_Perga"
-      ],
+      "linkedIds": [],
       "media": [],
       "relations": [],
       "kind": "person"
@@ -4049,9 +3899,7 @@
       "label": {
         "default": "Ptolemy"
       },
-      "linkedIds": [
-        "https://en.wikipedia.org/wiki/Ptolemy"
-      ],
+      "linkedIds": [],
       "media": [],
       "relations": [],
       "kind": "person"
@@ -4061,9 +3909,7 @@
       "label": {
         "default": "Euclid"
       },
-      "linkedIds": [
-        "https://en.wikipedia.org/wiki/Euclid"
-      ],
+      "linkedIds": [],
       "media": [],
       "relations": [],
       "kind": "person"

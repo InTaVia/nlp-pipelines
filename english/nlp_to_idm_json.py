@@ -294,7 +294,7 @@ def convert_nlp_to_idm_json(nlp_path: str, idm_out_path: str):
             idm_ent = copy.deepcopy(person_template)
             idm_ent["kind"] = "person"
             if wiki_link:
-                idm_ent["linkedIds"].append(wiki_link)
+                # idm_ent["linkedIds"].append(wiki_link)
                 idm_ent["id"] = f"{main_person_id}-pr-{wiki_link.split('/')[-1]}"
             else:
                 per_ix += 1

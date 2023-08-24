@@ -2,15 +2,15 @@
   "0": {
     "ner": [
       [
+        "6 April 1528",
+        "DATE"
+      ],
+      [
         "German",
         "NORP"
       ],
       [
-        "Albrecht Dürer",
-        "PERSON"
-      ],
-      [
-        "6 April 1528",
+        "21 May 1471",
         "DATE"
       ],
       [
@@ -18,16 +18,16 @@
         "WORK_OF_ART"
       ],
       [
-        "English",
-        "LANGUAGE"
-      ],
-      [
-        "21 May 1471",
-        "DATE"
+        "Albrecht Dürer",
+        "PERSON"
       ],
       [
         "Durer",
         "PERSON"
+      ],
+      [
+        "English",
+        "LANGUAGE"
       ]
     ],
     "relations": [
@@ -42,11 +42,6 @@
         "21 May 1471"
       ],
       [
-        "Durer",
-        "date_of_birth",
-        "21 May 1471"
-      ],
-      [
         "Albrecht Dürer",
         "origin",
         "German"
@@ -55,6 +50,11 @@
         "Durer",
         "origin",
         "German"
+      ],
+      [
+        "Durer",
+        "date_of_birth",
+        "21 May 1471"
       ]
     ],
     "srl": [
@@ -77,16 +77,16 @@
         "PERSON"
       ],
       [
+        "Europe",
+        "LOC"
+      ],
+      [
         "his twenties",
         "DATE"
       ],
       [
         "Nuremberg",
         "GPE"
-      ],
-      [
-        "Europe",
-        "LOC"
       ]
     ],
     "relations": [
@@ -112,19 +112,11 @@
   "2": {
     "ner": [
       [
-        "Raphael",
-        "PERSON"
-      ],
-      [
-        "Maximilian I.",
-        "PERSON"
-      ],
-      [
         "1512",
         "DATE"
       ],
       [
-        "Leonardo da Vinci",
+        "Dürer",
         "PERSON"
       ],
       [
@@ -132,12 +124,20 @@
         "PERSON"
       ],
       [
-        "Dürer",
+        "Leonardo da Vinci",
         "PERSON"
       ],
       [
         "Italian",
         "NORP"
+      ],
+      [
+        "Raphael",
+        "PERSON"
+      ],
+      [
+        "Maximilian I.",
+        "PERSON"
       ]
     ],
     "relations": [
@@ -172,16 +172,24 @@
   "4": {
     "ner": [
       [
-        "Knight, Death and the Devil",
-        "WORK_OF_ART"
-      ],
-      [
         "three",
         "CARDINAL"
       ],
       [
+        "Meisterstiche",
+        "WORK_OF_ART"
+      ],
+      [
+        "Melencolia I",
+        "WORK_OF_ART"
+      ],
+      [
         "1514",
         "DATE"
+      ],
+      [
+        "Knight, Death and the Devil",
+        "WORK_OF_ART"
       ],
       [
         "1513",
@@ -190,14 +198,6 @@
       [
         "Saint Jerome in his Study",
         "WORK_OF_ART"
-      ],
-      [
-        "Melencolia I",
-        "WORK_OF_ART"
-      ],
-      [
-        "Meisterstiche",
-        "WORK_OF_ART"
       ]
     ],
     "relations": []
@@ -205,12 +205,12 @@
   "5": {
     "ner": [
       [
-        "first",
-        "ORDINAL"
-      ],
-      [
         "European",
         "NORP"
+      ],
+      [
+        "first",
+        "ORDINAL"
       ]
     ],
     "relations": [],
@@ -230,24 +230,24 @@
   "6": {
     "ner": [
       [
-        "German",
-        "NORP"
-      ],
-      [
-        "Northern",
-        "LOC"
+        "Dürer",
+        "PERSON"
       ],
       [
         "Northern Renaissance",
         "LOC"
       ],
       [
-        "Dürer",
-        "PERSON"
+        "German",
+        "NORP"
       ],
       [
         "Italian",
         "NORP"
+      ],
+      [
+        "Northern",
+        "LOC"
       ]
     ],
     "relations": [],
@@ -262,7 +262,23 @@
   "8": {
     "ner": [
       [
-        "Albrecht Dürer the Elder",
+        "Dürer",
+        "PERSON"
+      ],
+      [
+        "third",
+        "ORDINAL"
+      ],
+      [
+        "21 May 1471",
+        "DATE"
+      ],
+      [
+        "second",
+        "ORDINAL"
+      ],
+      [
+        "Barbara Holper",
         "PERSON"
       ],
       [
@@ -274,24 +290,8 @@
         "CARDINAL"
       ],
       [
-        "third",
-        "ORDINAL"
-      ],
-      [
-        "Barbara Holper",
+        "Albrecht Dürer the Elder",
         "PERSON"
-      ],
-      [
-        "Dürer",
-        "PERSON"
-      ],
-      [
-        "21 May 1471",
-        "DATE"
-      ],
-      [
-        "second",
-        "ORDINAL"
       ]
     ],
     "relations": [
@@ -302,23 +302,23 @@
       ],
       [
         "Dürer",
-        "child_of",
-        "Albrecht Dürer the Elder"
-      ],
-      [
-        "Dürer",
         "date_of_birth",
         "21 May 1471"
       ],
       [
         "Barbara Holper",
-        "married_to",
+        "parent_of",
+        "Dürer"
+      ],
+      [
+        "Dürer",
+        "child_of",
         "Albrecht Dürer the Elder"
       ],
       [
         "Barbara Holper",
-        "parent_of",
-        "Dürer"
+        "married_to",
+        "Albrecht Dürer the Elder"
       ]
     ],
     "srl": [
@@ -342,8 +342,8 @@
   "9": {
     "ner": [
       [
-        "Albrecht Dürer the Elder",
-        "PERSON"
+        "Hungary",
+        "GPE"
       ],
       [
         "Ajtós",
@@ -354,16 +354,16 @@
         "GPE"
       ],
       [
-        "Albrecht Ajtósi",
-        "PERSON"
-      ],
-      [
         "1455",
         "DATE"
       ],
       [
-        "Hungary",
-        "GPE"
+        "Albrecht Ajtósi",
+        "PERSON"
+      ],
+      [
+        "Albrecht Dürer the Elder",
+        "PERSON"
       ],
       [
         "Gyula",
@@ -374,22 +374,22 @@
       [
         "Albrecht Ajtósi",
         "lived_in",
-        "Hungary"
-      ],
-      [
-        "Albrecht Ajtósi",
-        "lived_in",
         "Gyula"
       ],
       [
         "Albrecht Ajtósi",
         "lived_in",
-        "Nuremberg"
+        "Hungary"
       ],
       [
         "Albrecht Ajtósi",
         "lived_in",
         "Ajtós"
+      ],
+      [
+        "Albrecht Ajtósi",
+        "lived_in",
+        "Nuremberg"
       ]
     ],
     "srl": [
@@ -423,24 +423,24 @@
         "PERSON"
       ],
       [
-        "One",
-        "CARDINAL"
-      ],
-      [
         "Hans Dürer",
         "PERSON"
+      ],
+      [
+        "One",
+        "CARDINAL"
       ]
     ],
     "relations": [
       [
-        "Albrecht",
-        "sibling_of",
-        "Hans Dürer"
-      ],
-      [
         "Hans Dürer",
         "sibling_of",
         "Albrecht"
+      ],
+      [
+        "Albrecht",
+        "sibling_of",
+        "Hans Dürer"
       ]
     ],
     "srl": [
@@ -495,11 +495,11 @@
   "13": {
     "ner": [
       [
-        "German",
-        "NORP"
+        "Dürer",
+        "PERSON"
       ],
       [
-        "Dürer",
+        "Ajtósi",
         "PERSON"
       ],
       [
@@ -507,8 +507,8 @@
         "NORP"
       ],
       [
-        "Ajtósi",
-        "PERSON"
+        "German",
+        "NORP"
       ]
     ],
     "relations": [
@@ -546,12 +546,12 @@
         "PERSON"
       ],
       [
-        "Albrecht Dürer the Younger",
-        "PERSON"
-      ],
-      [
         "Nuremberg",
         "GPE"
+      ],
+      [
+        "Albrecht Dürer the Younger",
+        "PERSON"
       ],
       [
         "Türer",
@@ -579,12 +579,12 @@
         "PERSON"
       ],
       [
-        "the year",
-        "DATE"
-      ],
-      [
         "Anton Koberger",
         "PERSON"
+      ],
+      [
+        "the year",
+        "DATE"
       ]
     ],
     "relations": [
@@ -610,12 +610,12 @@
   "18": {
     "ner": [
       [
-        "Germany",
-        "GPE"
-      ],
-      [
         "twenty-four",
         "CARDINAL"
+      ],
+      [
+        "Germany",
+        "GPE"
       ]
     ],
     "relations": [],
@@ -639,20 +639,20 @@
         "NORP"
       ],
       [
-        "Latin",
-        "NORP"
-      ],
-      [
-        "Koberger",
-        "PERSON"
-      ],
-      [
         "1493",
         "DATE"
       ],
       [
         "the Nuremberg Chronicle",
         "WORK_OF_ART"
+      ],
+      [
+        "Latin",
+        "NORP"
+      ],
+      [
+        "Koberger",
+        "PERSON"
       ]
     ],
     "relations": []
@@ -742,12 +742,12 @@
         "DATE"
       ],
       [
-        "Michael Wolgemut",
-        "PERSON"
-      ],
-      [
         "fifteen",
         "DATE"
+      ],
+      [
+        "Michael Wolgemut",
+        "PERSON"
       ]
     ],
     "relations": [],
@@ -772,12 +772,12 @@
   "24": {
     "ner": [
       [
-        "Albertina",
-        "ORG"
-      ],
-      [
         "Vienna",
         "GPE"
+      ],
+      [
+        "Albertina",
+        "ORG"
       ],
       [
         "1484",
@@ -816,12 +816,12 @@
   "26": {
     "ner": [
       [
-        "Nuremberg",
-        "GPE"
-      ],
-      [
         "Wolgemut",
         "PERSON"
+      ],
+      [
+        "Nuremberg",
+        "GPE"
       ]
     ],
     "relations": []
@@ -838,16 +838,16 @@
   "28": {
     "ner": [
       [
+        "Alps",
+        "LOC"
+      ],
+      [
         "Italy",
         "GPE"
       ],
       [
         "Venice",
         "GPE"
-      ],
-      [
-        "Alps",
-        "LOC"
       ]
     ],
     "relations": []
@@ -859,12 +859,12 @@
         "PERSON"
       ],
       [
-        "about four years",
-        "DATE"
-      ],
-      [
         "German",
         "NORP"
+      ],
+      [
+        "about four years",
+        "DATE"
       ],
       [
         "Wanderjahre",
@@ -893,28 +893,28 @@
   "30": {
     "ner": [
       [
-        "1490",
-        "DATE"
-      ],
-      [
-        "1492",
-        "DATE"
-      ],
-      [
-        "Colmar",
-        "GPE"
-      ],
-      [
-        "Northern Europe",
-        "LOC"
-      ],
-      [
         "Dürer",
         "PERSON"
       ],
       [
         "Martin Schongauer",
         "PERSON"
+      ],
+      [
+        "Northern Europe",
+        "LOC"
+      ],
+      [
+        "Colmar",
+        "GPE"
+      ],
+      [
+        "1492",
+        "DATE"
+      ],
+      [
+        "1490",
+        "DATE"
       ]
     ],
     "relations": [],
@@ -938,11 +938,11 @@
         "PERSON"
       ],
       [
-        "Netherlands",
+        "Frankfurt",
         "GPE"
       ],
       [
-        "Frankfurt",
+        "Netherlands",
         "GPE"
       ]
     ],
@@ -977,29 +977,49 @@
         "PERSON"
       ],
       [
-        "Schongauer",
+        "Caspar",
         "PERSON"
       ],
       [
         "Paul",
-        "PERSON"
-      ],
-      [
-        "Ludwig",
-        "PERSON"
-      ],
-      [
-        "Caspar",
         "PERSON"
       ],
       [
         "Colmar",
         "GPE"
+      ],
+      [
+        "Ludwig",
+        "PERSON"
+      ],
+      [
+        "Schongauer",
+        "PERSON"
       ]
     ],
     "relations": [
       [
-        "Schongauer",
+        "Paul",
+        "sibling_of",
+        "Ludwig"
+      ],
+      [
+        "Caspar",
+        "sibling_of",
+        "Ludwig"
+      ],
+      [
+        "Caspar",
+        "sibling_of",
+        "Paul"
+      ],
+      [
+        "Paul",
+        "sibling_of",
+        "Caspar"
+      ],
+      [
+        "Ludwig",
         "sibling_of",
         "Paul"
       ],
@@ -1014,17 +1034,7 @@
         "Caspar"
       ],
       [
-        "Paul",
-        "sibling_of",
-        "Ludwig"
-      ],
-      [
-        "Paul",
-        "sibling_of",
-        "Caspar"
-      ],
-      [
-        "Caspar",
+        "Schongauer",
         "sibling_of",
         "Ludwig"
       ],
@@ -1034,24 +1044,14 @@
         "Schongauer"
       ],
       [
-        "Ludwig",
-        "sibling_of",
-        "Paul"
-      ],
-      [
-        "Schongauer",
-        "sibling_of",
-        "Ludwig"
-      ],
-      [
-        "Caspar",
-        "sibling_of",
-        "Paul"
-      ],
-      [
         "Schongauer",
         "sibling_of",
         "Caspar"
+      ],
+      [
+        "Schongauer",
+        "sibling_of",
+        "Paul"
       ]
     ],
     "srl": [
@@ -1065,14 +1065,6 @@
   "33": {
     "ner": [
       [
-        "Later that year",
-        "DATE"
-      ],
-      [
-        "Basel",
-        "GPE"
-      ],
-      [
         "Dürer",
         "PERSON"
       ],
@@ -1083,6 +1075,14 @@
       [
         "Georg",
         "PERSON"
+      ],
+      [
+        "Later that year",
+        "DATE"
+      ],
+      [
+        "Basel",
+        "GPE"
       ]
     ],
     "relations": [],
@@ -1110,12 +1110,12 @@
         "PERSON"
       ],
       [
-        "Strasbourg",
-        "GPE"
-      ],
-      [
         "1493",
         "DATE"
+      ],
+      [
+        "Strasbourg",
+        "GPE"
       ]
     ],
     "relations": [],
@@ -1135,48 +1135,48 @@
   "35": {
     "ner": [
       [
-        "7 July 1494",
-        "DATE"
+        "Dürer",
+        "PERSON"
+      ],
+      [
+        "Agnes Frey",
+        "PERSON"
       ],
       [
         "23",
         "DATE"
       ],
       [
-        "Louvre",
-        "FAC"
-      ],
-      [
         "Nuremberg.Very",
         "GPE"
-      ],
-      [
-        "Agnes Frey",
-        "PERSON"
-      ],
-      [
-        "first",
-        "ORDINAL"
       ],
       [
         "Nuremberg",
         "GPE"
       ],
       [
-        "Dürer",
-        "PERSON"
+        "first",
+        "ORDINAL"
+      ],
+      [
+        "7 July 1494",
+        "DATE"
+      ],
+      [
+        "Louvre",
+        "FAC"
       ]
     ],
     "relations": [
       [
-        "Agnes Frey",
-        "married_to",
-        "Dürer"
-      ],
-      [
         "Dürer",
         "has_age",
         "23"
+      ],
+      [
+        "Agnes Frey",
+        "married_to",
+        "Dürer"
       ],
       [
         "Dürer",
@@ -1214,11 +1214,11 @@
   "37": {
     "ner": [
       [
-        "Albrecht",
+        "Dürer",
         "PERSON"
       ],
       [
-        "Dürer",
+        "Albrecht",
         "PERSON"
       ]
     ],
@@ -1234,19 +1234,19 @@
   "38": {
     "ner": [
       [
-        "Albrecht",
-        "PERSON"
-      ],
-      [
         "Dürer",
         "PERSON"
       ],
       [
-        "Agnes",
+        "Albrecht",
         "PERSON"
       ],
       [
         "Willibald Pirckheimer",
+        "PERSON"
+      ],
+      [
+        "Agnes",
         "PERSON"
       ]
     ],
@@ -1282,11 +1282,11 @@
         "PERSON"
       ],
       [
-        "Agnes",
+        "Pirckheimer",
         "PERSON"
       ],
       [
-        "Pirckheimer",
+        "Agnes",
         "PERSON"
       ]
     ],
@@ -1302,12 +1302,12 @@
   "41": {
     "ner": [
       [
-        "Albrecht",
-        "PERSON"
-      ],
-      [
         "The Men's Bath",
         "WORK_OF_ART"
+      ],
+      [
+        "Albrecht",
+        "PERSON"
       ]
     ],
     "relations": []
@@ -1315,20 +1315,20 @@
   "42": {
     "ner": [
       [
-        "Dürer",
-        "PERSON"
+        "three months",
+        "DATE"
       ],
       [
-        "Nuremberg",
-        "GPE"
+        "Dürer",
+        "PERSON"
       ],
       [
         "Italy",
         "GPE"
       ],
       [
-        "three months",
-        "DATE"
+        "Nuremberg",
+        "GPE"
       ]
     ],
     "relations": [
@@ -1416,6 +1416,10 @@
   "46": {
     "ner": [
       [
+        "Dürer",
+        "PERSON"
+      ],
+      [
         "German",
         "NORP"
       ],
@@ -1424,15 +1428,11 @@
         "PERSON"
       ],
       [
-        "Schongauer",
-        "PERSON"
-      ],
-      [
-        "Dürer",
-        "PERSON"
-      ],
-      [
         "the Housebook Master",
+        "PERSON"
+      ],
+      [
+        "Schongauer",
         "PERSON"
       ]
     ],
@@ -1448,16 +1448,16 @@
   "47": {
     "ner": [
       [
+        "Italian",
+        "NORP"
+      ],
+      [
         "Italy",
         "GPE"
       ],
       [
         "Germany",
         "GPE"
-      ],
-      [
-        "Italian",
-        "NORP"
       ],
       [
         "two",
@@ -1481,12 +1481,12 @@
   "48": {
     "ner": [
       [
-        "Venice",
-        "GPE"
-      ],
-      [
         "Giovanni Bellini",
         "PERSON"
+      ],
+      [
+        "Venice",
+        "GPE"
       ]
     ],
     "relations": [],
@@ -1501,15 +1501,15 @@
   "49": {
     "ner": [
       [
+        "Antonio del Pollaiuolo",
+        "PERSON"
+      ],
+      [
         "Lorenzo di Credi",
         "PERSON"
       ],
       [
         "Andrea Mantegna",
-        "PERSON"
-      ],
-      [
-        "Antonio del Pollaiuolo",
         "PERSON"
       ]
     ],
@@ -1554,16 +1554,16 @@
   "51": {
     "ner": [
       [
+        "1495",
+        "DATE"
+      ],
+      [
         "Dürer",
         "PERSON"
       ],
       [
         "Nuremberg",
         "GPE"
-      ],
-      [
-        "1495",
-        "DATE"
       ]
     ],
     "relations": [],
@@ -1602,16 +1602,16 @@
   "53": {
     "ner": [
       [
+        "The Men's Bath House",
+        "WORK_OF_ART"
+      ],
+      [
         "1496",
         "DATE"
       ],
       [
         "the first years",
         "DATE"
-      ],
-      [
-        "The Men's Bath House",
-        "WORK_OF_ART"
       ]
     ],
     "relations": [],
@@ -1688,16 +1688,16 @@
   "59": {
     "ner": [
       [
-        "Apocalypse",
-        "EVENT"
-      ],
-      [
         "sixteen",
         "CARDINAL"
       ],
       [
         "1498",
         "DATE"
+      ],
+      [
+        "Apocalypse",
+        "EVENT"
       ],
       [
         "St. Michael Fighting the Dragon",
@@ -1721,10 +1721,6 @@
   "60": {
     "ner": [
       [
-        "first",
-        "ORDINAL"
-      ],
-      [
         "seven",
         "CARDINAL"
       ],
@@ -1735,6 +1731,10 @@
       [
         "the Great Passion",
         "WORK_OF_ART"
+      ],
+      [
+        "first",
+        "ORDINAL"
       ]
     ],
     "relations": [],
@@ -1749,7 +1749,7 @@
   "61": {
     "ner": [
       [
-        "Frederick III",
+        "Dürer",
         "PERSON"
       ],
       [
@@ -1757,12 +1757,12 @@
         "WORK_OF_ART"
       ],
       [
-        "Dürer",
-        "PERSON"
-      ],
-      [
         "Saxony",
         "GPE"
+      ],
+      [
+        "Frederick III",
+        "PERSON"
       ],
       [
         "1496",
@@ -1805,8 +1805,8 @@
   "63": {
     "ner": [
       [
-        "the Life of the Virgin",
-        "WORK_OF_ART"
+        "Dürer",
+        "PERSON"
       ],
       [
         "17",
@@ -1817,12 +1817,12 @@
         "ORDINAL"
       ],
       [
-        "Dürer",
-        "PERSON"
-      ],
-      [
         "Around 1503–1505",
         "DATE"
+      ],
+      [
+        "the Life of the Virgin",
+        "WORK_OF_ART"
       ]
     ],
     "relations": [],
@@ -1842,16 +1842,16 @@
   "64": {
     "ner": [
       [
-        "several years later",
-        "DATE"
+        "the Great Passion",
+        "WORK_OF_ART"
       ],
       [
         "Dürer",
         "PERSON"
       ],
       [
-        "the Great Passion",
-        "WORK_OF_ART"
+        "several years later",
+        "DATE"
       ]
     ],
     "relations": [],
@@ -1871,24 +1871,20 @@
   "66": {
     "ner": [
       [
-        "the Prodigal Son",
-        "WORK_OF_ART"
-      ],
-      [
         "Germanic",
         "NORP"
       ],
       [
-        "some decades later",
-        "DATE"
+        "Italian",
+        "NORP"
       ],
       [
         "Renaissance",
         "DATE"
       ],
       [
-        "Italian",
-        "NORP"
+        "some decades later",
+        "DATE"
       ],
       [
         "Giorgio Vasari",
@@ -1897,6 +1893,10 @@
       [
         "1496",
         "DATE"
+      ],
+      [
+        "the Prodigal Son",
+        "WORK_OF_ART"
       ]
     ],
     "relations": [
@@ -1931,20 +1931,20 @@
         "WORK_OF_ART"
       ],
       [
-        "Saint Eustace",
-        "WORK_OF_ART"
-      ],
-      [
-        "1502",
-        "DATE"
-      ],
-      [
         "1498",
         "DATE"
       ],
       [
         "The Sea Monster",
         "WORK_OF_ART"
+      ],
+      [
+        "Saint Eustace",
+        "WORK_OF_ART"
+      ],
+      [
+        "1502",
+        "DATE"
       ]
     ],
     "relations": [],
@@ -1968,11 +1968,11 @@
   "69": {
     "ner": [
       [
-        "Pond in the Woods",
+        "Willow Mill",
         "WORK_OF_ART"
       ],
       [
-        "Willow Mill",
+        "Pond in the Woods",
         "WORK_OF_ART"
       ]
     ],
@@ -2017,11 +2017,19 @@
   "73": {
     "ner": [
       [
+        "Dürer",
+        "PERSON"
+      ],
+      [
+        "Venice",
+        "GPE"
+      ],
+      [
         "Venetian",
         "NORP"
       ],
       [
-        "Venice",
+        "Nuremberg",
         "GPE"
       ],
       [
@@ -2031,14 +2039,6 @@
       [
         "1500",
         "DATE"
-      ],
-      [
-        "Nuremberg",
-        "GPE"
-      ],
-      [
-        "Dürer",
-        "PERSON"
       ]
     ],
     "relations": [
@@ -2108,12 +2108,12 @@
         "PERSON"
       ],
       [
-        "1504",
-        "DATE"
-      ],
-      [
         "Adam and Eve",
         "WORK_OF_ART"
+      ],
+      [
+        "1504",
+        "DATE"
       ]
     ],
     "relations": []
@@ -2149,16 +2149,16 @@
         "DATE"
       ],
       [
+        "Young Hare",
+        "WORK_OF_ART"
+      ],
+      [
         "the Great Piece of Turf",
         "WORK_OF_ART"
       ],
       [
         "1502",
         "DATE"
-      ],
-      [
-        "Young Hare",
-        "WORK_OF_ART"
       ]
     ],
     "relations": [],
@@ -2213,12 +2213,12 @@
   "80": {
     "ner": [
       [
-        "the Adoration of the Magi",
-        "WORK_OF_ART"
-      ],
-      [
         "Paumgartner",
         "PERSON"
+      ],
+      [
+        "the Adoration of the Magi",
+        "WORK_OF_ART"
       ]
     ],
     "relations": []
@@ -2272,12 +2272,12 @@
   "83": {
     "ner": [
       [
-        "German",
-        "NORP"
-      ],
-      [
         "Venice",
         "GPE"
+      ],
+      [
+        "German",
+        "NORP"
       ],
       [
         "San Bartolomeo",
@@ -2289,11 +2289,11 @@
   "84": {
     "ner": [
       [
-        "of",
+        "Garlands",
         "WORK_OF_ART"
       ],
       [
-        "Garlands",
+        "of",
         "WORK_OF_ART"
       ],
       [
@@ -2313,7 +2313,7 @@
   "85": {
     "ner": [
       [
-        "German",
+        "Italian",
         "NORP"
       ],
       [
@@ -2321,7 +2321,7 @@
         "GPE"
       ],
       [
-        "Italian",
+        "German",
         "NORP"
       ]
     ],
@@ -2343,8 +2343,16 @@
   "87": {
     "ner": [
       [
+        "Dürer",
+        "PERSON"
+      ],
+      [
         "mid-1507",
         "DATE"
+      ],
+      [
+        "Nuremberg",
+        "GPE"
       ],
       [
         "1520",
@@ -2357,26 +2365,18 @@
       [
         "Germany",
         "GPE"
-      ],
-      [
-        "Nuremberg",
-        "GPE"
-      ],
-      [
-        "Dürer",
-        "PERSON"
       ]
     ],
     "relations": [
       [
         "Dürer",
         "lived_in",
-        "Germany"
+        "Nuremberg"
       ],
       [
         "Dürer",
         "lived_in",
-        "Nuremberg"
+        "Germany"
       ]
     ],
     "srl": [
@@ -2395,6 +2395,14 @@
   "88": {
     "ner": [
       [
+        "Europe",
+        "LOC"
+      ],
+      [
+        "Raphael.Between",
+        "PERSON"
+      ],
+      [
         "Dürer",
         "PERSON"
       ],
@@ -2407,7 +2415,19 @@
         "WORK_OF_ART"
       ],
       [
+        "Martyrdom of the Ten Thousand",
+        "WORK_OF_ART"
+      ],
+      [
         "1511",
+        "DATE"
+      ],
+      [
+        "Matthaeus Landauer",
+        "PERSON"
+      ],
+      [
+        "1507",
         "DATE"
       ],
       [
@@ -2415,48 +2435,28 @@
         "WORK_OF_ART"
       ],
       [
-        "Jacob Heller of Frankfurt",
-        "PERSON"
-      ],
-      [
-        "Virgin with the Iris",
-        "WORK_OF_ART"
-      ],
-      [
-        "1507",
-        "DATE"
-      ],
-      [
-        "Europe",
-        "LOC"
-      ],
-      [
-        "1509",
-        "DATE"
-      ],
-      [
         "Frederick of Saxony",
         "PERSON"
-      ],
-      [
-        "Martyrdom of the Ten Thousand",
-        "WORK_OF_ART"
       ],
       [
         "1507 and 1511",
         "DATE"
       ],
       [
-        "Raphael.Between",
-        "PERSON"
-      ],
-      [
-        "Matthaeus Landauer",
-        "PERSON"
+        "Virgin with the Iris",
+        "WORK_OF_ART"
       ],
       [
         "Assumption of the Virgin",
         "WORK_OF_ART"
+      ],
+      [
+        "1509",
+        "DATE"
+      ],
+      [
+        "Jacob Heller of Frankfurt",
+        "PERSON"
       ]
     ],
     "relations": [],
@@ -2493,16 +2493,16 @@
         "CARDINAL"
       ],
       [
+        "second",
+        "ORDINAL"
+      ],
+      [
         "the Life of the Virgin",
         "WORK_OF_ART"
       ],
       [
         "the Great Passion",
         "WORK_OF_ART"
-      ],
-      [
-        "second",
-        "ORDINAL"
       ]
     ],
     "relations": [],
@@ -2530,16 +2530,12 @@
   "91": {
     "ner": [
       [
-        "1511",
-        "DATE"
-      ],
-      [
         "1512",
         "DATE"
       ],
       [
-        "thirty-seven",
-        "CARDINAL"
+        "1511",
+        "DATE"
       ],
       [
         "Little Passion",
@@ -2547,6 +2543,10 @@
       ],
       [
         "fifteen",
+        "CARDINAL"
+      ],
+      [
+        "thirty-seven",
         "CARDINAL"
       ]
     ],
@@ -2581,8 +2581,8 @@
   "93": {
     "ner": [
       [
-        "Knight, Death and the Devil",
-        "WORK_OF_ART"
+        "Dürer",
+        "PERSON"
       ],
       [
         "three",
@@ -2593,24 +2593,24 @@
         "WORK_OF_ART"
       ],
       [
-        "Erasmus",
-        "PERSON"
+        "Melencolia I",
+        "WORK_OF_ART"
       ],
       [
         "1514",
         "DATE"
       ],
       [
-        "1513",
-        "DATE"
-      ],
-      [
-        "Melencolia I",
+        "Knight, Death and the Devil",
         "WORK_OF_ART"
       ],
       [
-        "Dürer",
+        "Erasmus",
         "PERSON"
+      ],
+      [
+        "1513",
+        "DATE"
       ],
       [
         "Handbook of a Christian Knight",
@@ -2638,12 +2638,12 @@
         "PERSON"
       ],
       [
-        "1513",
-        "DATE"
-      ],
-      [
         "Pirckheimer",
         "PERSON"
+      ],
+      [
+        "1513",
+        "DATE"
       ]
     ],
     "relations": [],
@@ -2658,12 +2658,12 @@
   "96": {
     "ner": [
       [
-        "1515",
-        "DATE"
-      ],
-      [
         "Lisbon",
         "GPE"
+      ],
+      [
+        "1515",
+        "DATE"
       ]
     ],
     "relations": [],
@@ -2678,20 +2678,20 @@
   "97": {
     "ner": [
       [
-        "German",
-        "NORP"
+        "late as last century",
+        "DATE"
       ],
       [
         "one",
         "CARDINAL"
       ],
       [
-        "Indian",
+        "German",
         "NORP"
       ],
       [
-        "late as last century",
-        "DATE"
+        "Indian",
+        "NORP"
       ]
     ],
     "relations": []
@@ -2703,11 +2703,11 @@
         "DATE"
       ],
       [
-        "1515",
+        "the years leading to 1520",
         "DATE"
       ],
       [
-        "the years leading to 1520",
+        "1515",
         "DATE"
       ]
     ],
@@ -2723,20 +2723,20 @@
   "99": {
     "ner": [
       [
-        "five",
-        "CARDINAL"
+        "sixth",
+        "ORDINAL"
       ],
       [
-        "1518",
-        "DATE"
+        "five",
+        "CARDINAL"
       ],
       [
         "between 1515–1516",
         "DATE"
       ],
       [
-        "sixth",
-        "ORDINAL"
+        "1518",
+        "DATE"
       ]
     ],
     "relations": [],
@@ -2761,16 +2761,16 @@
   "100": {
     "ner": [
       [
+        "1512",
+        "DATE"
+      ],
+      [
         "Dürer",
         "PERSON"
       ],
       [
         "Maximilian I",
         "PERSON"
-      ],
-      [
-        "1512",
-        "DATE"
       ]
     ],
     "relations": []
@@ -2778,20 +2778,20 @@
   "101": {
     "ner": [
       [
-        "Hieroglyphica",
-        "WORK_OF_ART"
-      ],
-      [
-        "192",
-        "CARDINAL"
-      ],
-      [
         "The Triumphal Arch",
         "WORK_OF_ART"
       ],
       [
         "Horapollo",
         "PERSON"
+      ],
+      [
+        "192",
+        "CARDINAL"
+      ],
+      [
+        "Hieroglyphica",
+        "WORK_OF_ART"
       ],
       [
         "Pirckheimer",
@@ -2810,19 +2810,19 @@
   "102": {
     "ner": [
       [
-        "Dürer",
-        "PERSON"
-      ],
-      [
         "Hieronymous Andreae",
         "PERSON"
       ],
       [
-        "Jörg Kölderer",
+        "Dürer",
         "PERSON"
       ],
       [
         "Johannes Stabius",
+        "PERSON"
+      ],
+      [
+        "Jörg Kölderer",
         "PERSON"
       ]
     ],
@@ -2838,7 +2838,11 @@
   "103": {
     "ner": [
       [
-        "Hans Springinklee",
+        "1512",
+        "DATE"
+      ],
+      [
+        "Dürer",
         "PERSON"
       ],
       [
@@ -2846,15 +2850,7 @@
         "PERSON"
       ],
       [
-        "1512",
-        "DATE"
-      ],
-      [
-        "The Triumphal Procession",
-        "WORK_OF_ART"
-      ],
-      [
-        "Treitz-Saurwein",
+        "Hans Springinklee",
         "PERSON"
       ],
       [
@@ -2862,8 +2858,12 @@
         "WORK_OF_ART"
       ],
       [
-        "Dürer",
+        "Treitz-Saurwein",
         "PERSON"
+      ],
+      [
+        "The Triumphal Procession",
+        "WORK_OF_ART"
       ]
     ],
     "relations": [],
@@ -2883,24 +2883,24 @@
   "104": {
     "ner": [
       [
-        "1808",
-        "DATE"
+        "Dürer",
+        "PERSON"
+      ],
+      [
+        "Emperor",
+        "PERSON"
       ],
       [
         "first",
         "ORDINAL"
       ],
       [
-        "Dürer",
-        "PERSON"
+        "1808",
+        "DATE"
       ],
       [
         "Prayer-Book",
         "WORK_OF_ART"
-      ],
-      [
-        "Emperor",
-        "PERSON"
       ]
     ],
     "relations": [],
@@ -3014,7 +3014,11 @@
   "109": {
     "ner": [
       [
-        "Dürer",
+        "1495",
+        "DATE"
+      ],
+      [
+        "Pirckheimer",
         "PERSON"
       ],
       [
@@ -3022,11 +3026,7 @@
         "PERSON"
       ],
       [
-        "1495",
-        "DATE"
-      ],
-      [
-        "Pirckheimer",
+        "Dürer",
         "PERSON"
       ]
     ],
@@ -3042,7 +3042,7 @@
   "110": {
     "ner": [
       [
-        "Johannes Stabius",
+        "Dürer",
         "PERSON"
       ],
       [
@@ -3054,11 +3054,11 @@
         "PERSON"
       ],
       [
-        "Dürer",
+        "Conrad Celtes",
         "PERSON"
       ],
       [
-        "Conrad Celtes",
+        "Johannes Stabius",
         "PERSON"
       ],
       [
@@ -3165,11 +3165,11 @@
         "PERSON"
       ],
       [
-        "Maximilian",
+        "August Siegert",
         "PERSON"
       ],
       [
-        "August Siegert",
+        "Maximilian",
         "PERSON"
       ],
       [
@@ -3207,12 +3207,12 @@
         "GPE"
       ],
       [
-        "nineteenth-century",
-        "DATE"
-      ],
-      [
         "St. Stephen's Cathedral",
         "FAC"
+      ],
+      [
+        "nineteenth-century",
+        "DATE"
       ]
     ],
     "relations": [],
@@ -3232,16 +3232,16 @@
   "117": {
     "ner": [
       [
-        "Dürer",
-        "PERSON"
-      ],
-      [
         "seventeenth-century",
         "DATE"
       ],
       [
         "Viennese",
         "NORP"
+      ],
+      [
+        "Dürer",
+        "PERSON"
       ]
     ],
     "relations": [],
@@ -3265,16 +3265,16 @@
         "PERSON"
       ],
       [
-        "Nuremberg",
-        "GPE"
-      ],
-      [
         "St. Stephen's Cathedral",
         "FAC"
       ],
       [
         "2020",
         "DATE"
+      ],
+      [
+        "Nuremberg",
+        "GPE"
       ]
     ],
     "relations": []
@@ -3328,11 +3328,11 @@
         "PERSON"
       ],
       [
-        "1505",
+        "1511",
         "DATE"
       ],
       [
-        "1511",
+        "1505",
         "DATE"
       ]
     ],
@@ -3373,20 +3373,20 @@
   "123": {
     "ner": [
       [
-        "first",
-        "ORDINAL"
-      ],
-      [
-        "1515",
-        "DATE"
-      ],
-      [
         "Dürer",
         "PERSON"
       ],
       [
+        "first",
+        "ORDINAL"
+      ],
+      [
         "Maximilian",
         "PERSON"
+      ],
+      [
+        "1515",
+        "DATE"
       ],
       [
         "Stabius",
@@ -3405,12 +3405,16 @@
   "124": {
     "ner": [
       [
-        "Konrad Heinfogel",
+        "Dürer",
         "PERSON"
       ],
       [
         "Europe",
         "LOC"
+      ],
+      [
+        "Konrad Heinfogel",
+        "PERSON"
       ],
       [
         "first",
@@ -3419,10 +3423,6 @@
       [
         "1515",
         "DATE"
-      ],
-      [
-        "Dürer",
-        "PERSON"
       ],
       [
         "Stabius",
@@ -3445,11 +3445,11 @@
         "PERSON"
       ],
       [
-        "Martin Luther",
+        "Maximilian",
         "PERSON"
       ],
       [
-        "Maximilian",
+        "Martin Luther",
         "PERSON"
       ]
     ],
@@ -3475,8 +3475,12 @@
   "126": {
     "ner": [
       [
-        "July 1520",
-        "DATE"
+        "Dürer",
+        "PERSON"
+      ],
+      [
+        "Aachen",
+        "GPE"
       ],
       [
         "Charles V",
@@ -3487,16 +3491,12 @@
         "NORP"
       ],
       [
+        "July 1520",
+        "DATE"
+      ],
+      [
         "fourth",
         "ORDINAL"
-      ],
-      [
-        "Aachen",
-        "GPE"
-      ],
-      [
-        "Dürer",
-        "PERSON"
       ],
       [
         "Maximilian",
@@ -3533,11 +3533,11 @@
         "LOC"
       ],
       [
-        "Antwerp",
+        "Cologne",
         "GPE"
       ],
       [
-        "Cologne",
+        "Antwerp",
         "GPE"
       ]
     ],
@@ -3563,8 +3563,16 @@
   "128": {
     "ner": [
       [
-        "Madonna of Bruges",
-        "WORK_OF_ART"
+        "Nijmegen",
+        "GPE"
+      ],
+      [
+        "Cologne",
+        "GPE"
+      ],
+      [
+        "van Eyck's",
+        "PERSON"
       ],
       [
         "Stefan Lochner",
@@ -3575,18 +3583,6 @@
         "GPE"
       ],
       [
-        "Bruges",
-        "GPE"
-      ],
-      [
-        "Zeeland",
-        "GPE"
-      ],
-      [
-        "van Eyck's",
-        "PERSON"
-      ],
-      [
         "Michelangelo",
         "PERSON"
       ],
@@ -3595,11 +3591,15 @@
         "GPE"
       ],
       [
-        "Nijmegen",
+        "Madonna of Bruges",
+        "WORK_OF_ART"
+      ],
+      [
+        "Zeeland",
         "GPE"
       ],
       [
-        "Cologne",
+        "Bruges",
         "GPE"
       ]
     ],
@@ -3695,15 +3695,15 @@
         "PERSON"
       ],
       [
+        "Margaret",
+        "PERSON"
+      ],
+      [
         "Maximilian",
         "PERSON"
       ],
       [
         "Margaret of Austria",
-        "PERSON"
-      ],
-      [
-        "Margaret",
         "PERSON"
       ]
     ],
@@ -3724,10 +3724,6 @@
   "134": {
     "ner": [
       [
-        "Joachim Patinir",
-        "PERSON"
-      ],
-      [
         "Dürer",
         "PERSON"
       ],
@@ -3736,7 +3732,11 @@
         "DATE"
       ],
       [
-        "Quentin Matsys.Having",
+        "Tommaso Vincidor",
+        "PERSON"
+      ],
+      [
+        "Joachim Patinir",
         "PERSON"
       ],
       [
@@ -3744,7 +3744,7 @@
         "PERSON"
       ],
       [
-        "Tommaso Vincidor",
+        "Bernard van Orley",
         "PERSON"
       ],
       [
@@ -3752,11 +3752,11 @@
         "PERSON"
       ],
       [
-        "Jean Mone",
+        "Quentin Matsys.Having",
         "PERSON"
       ],
       [
-        "Bernard van Orley",
+        "Jean Mone",
         "PERSON"
       ]
     ],
@@ -3841,14 +3841,6 @@
   "138": {
     "ner": [
       [
-        "Madonna and Child",
-        "WORK_OF_ART"
-      ],
-      [
-        "two",
-        "CARDINAL"
-      ],
-      [
         "1526",
         "DATE"
       ],
@@ -3861,19 +3853,27 @@
         "WORK_OF_ART"
       ],
       [
-        "Hieronymus Holtzschuher",
+        "St. Paul",
         "PERSON"
+      ],
+      [
+        "Madonna and Child",
+        "WORK_OF_ART"
+      ],
+      [
+        "two",
+        "CARDINAL"
       ],
       [
         "St. Peter",
         "PERSON"
       ],
       [
-        "St. John",
+        "Hieronymus Holtzschuher",
         "PERSON"
       ],
       [
-        "St. Paul",
+        "St. John",
         "PERSON"
       ]
     ],
@@ -3889,12 +3889,12 @@
   "139": {
     "ner": [
       [
-        "the Four Apostles",
-        "WORK_OF_ART"
-      ],
-      [
         "Dürer",
         "PERSON"
+      ],
+      [
+        "the Four Apostles",
+        "WORK_OF_ART"
       ],
       [
         "100 guilders",
@@ -3922,23 +3922,7 @@
   "140": {
     "ner": [
       [
-        "Philipp Melanchthon",
-        "PERSON"
-      ],
-      [
-        "Frederick the Wise",
-        "PERSON"
-      ],
-      [
-        "Cardinal-Elector",
-        "PERSON"
-      ],
-      [
         "Willibald Pirckheimer",
-        "PERSON"
-      ],
-      [
-        "Erasmus of Rotterdam",
         "PERSON"
       ],
       [
@@ -3946,7 +3930,23 @@
         "GPE"
       ],
       [
+        "Frederick the Wise",
+        "PERSON"
+      ],
+      [
+        "Philipp Melanchthon",
+        "PERSON"
+      ],
+      [
+        "Cardinal-Elector",
+        "PERSON"
+      ],
+      [
         "Albert of Mainz",
+        "PERSON"
+      ],
+      [
+        "Erasmus of Rotterdam",
         "PERSON"
       ]
     ],
@@ -3954,6 +3954,10 @@
   },
   "141": {
     "ner": [
+      [
+        "Dürer",
+        "PERSON"
+      ],
       [
         "Cardinal",
         "PERSON"
@@ -3965,10 +3969,6 @@
       [
         "Nuremberg",
         "GPE"
-      ],
-      [
-        "Dürer",
-        "PERSON"
       ],
       [
         "Melanchthon",
@@ -4062,28 +4062,28 @@
         "NORP"
       ],
       [
-        "Galileo",
-        "PERSON"
-      ],
-      [
-        "1525",
-        "DATE"
+        "Nuremberg",
+        "GPE"
       ],
       [
         "first",
         "ORDINAL"
       ],
       [
-        "Nuremberg",
-        "GPE"
-      ],
-      [
         "The Four Books on Measurement",
         "WORK_OF_ART"
       ],
       [
+        "Galileo",
+        "PERSON"
+      ],
+      [
         "Kepler",
         "PERSON"
+      ],
+      [
+        "1525",
+        "DATE"
       ]
     ],
     "relations": []
@@ -4107,24 +4107,24 @@
   "147": {
     "ner": [
       [
-        "1528.Dürer",
-        "DATE"
+        "6,874 florins",
+        "MONEY"
       ],
       [
         "The Four Books on Human Proportion",
         "WORK_OF_ART"
       ],
       [
-        "Nuremberg",
-        "GPE"
-      ],
-      [
         "the age of 56",
         "DATE"
       ],
       [
-        "6,874 florins",
-        "MONEY"
+        "Nuremberg",
+        "GPE"
+      ],
+      [
+        "1528.Dürer",
+        "DATE"
       ]
     ],
     "relations": [],
@@ -4155,10 +4155,6 @@
   "149": {
     "ner": [
       [
-        "Bernhard Walther",
-        "PERSON"
-      ],
-      [
         "1509",
         "DATE"
       ],
@@ -4169,6 +4165,10 @@
       [
         "Nuremberg",
         "GPE"
+      ],
+      [
+        "Bernhard Walther",
+        "PERSON"
       ]
     ],
     "relations": [],
@@ -4232,24 +4232,24 @@
   "151": {
     "ner": [
       [
-        "1520",
-        "DATE"
-      ],
-      [
-        "Martin Luther",
-        "PERSON"
-      ],
-      [
-        "Luther",
-        "PERSON"
-      ],
-      [
         "Dürer",
         "PERSON"
       ],
       [
         "Christian",
         "NORP"
+      ],
+      [
+        "Martin Luther",
+        "PERSON"
+      ],
+      [
+        "1520",
+        "DATE"
+      ],
+      [
+        "Luther",
+        "PERSON"
       ]
     ],
     "relations": [],
@@ -4320,11 +4320,11 @@
         "DATE"
       ],
       [
-        "Luther",
+        "Pirckheimer",
         "PERSON"
       ],
       [
-        "Pirckheimer",
+        "Luther",
         "PERSON"
       ]
     ],
@@ -4361,12 +4361,28 @@
   "156": {
     "ner": [
       [
+        "Dürer",
+        "PERSON"
+      ],
+      [
         "Andreas Karlstadt",
+        "PERSON"
+      ],
+      [
+        "Erasmus",
+        "PERSON"
+      ],
+      [
+        "Melanchthon",
         "PERSON"
       ],
       [
         "Babylonian Captivity",
         "WORK_OF_ART"
+      ],
+      [
+        "Cornelius Grapheus",
+        "PERSON"
       ],
       [
         "1520",
@@ -4377,23 +4393,7 @@
         "PERSON"
       ],
       [
-        "Erasmus",
-        "PERSON"
-      ],
-      [
-        "Cornelius Grapheus",
-        "PERSON"
-      ],
-      [
         "Luther",
-        "PERSON"
-      ],
-      [
-        "Dürer",
-        "PERSON"
-      ],
-      [
-        "Melanchthon",
         "PERSON"
       ]
     ],
@@ -4414,15 +4414,15 @@
   "157": {
     "ner": [
       [
+        "Erasmus",
+        "PERSON"
+      ],
+      [
         "Catholic",
         "NORP"
       ],
       [
         "C. Grapheus",
-        "PERSON"
-      ],
-      [
-        "Erasmus",
         "PERSON"
       ]
     ],
@@ -4437,10 +4437,6 @@
   "158": {
     "ner": [
       [
-        "1525",
-        "DATE"
-      ],
-      [
         "Lutheran",
         "NORP"
       ],
@@ -4451,6 +4447,10 @@
       [
         "the Peasants' War",
         "EVENT"
+      ],
+      [
+        "1525",
+        "DATE"
       ]
     ],
     "relations": [],
@@ -4485,16 +4485,16 @@
   "160": {
     "ner": [
       [
+        "Protestant",
+        "NORP"
+      ],
+      [
         "The second book",
         "WORK_OF_ART"
       ],
       [
         "1523",
         "DATE"
-      ],
-      [
-        "Protestant",
-        "NORP"
       ]
     ],
     "relations": [],
@@ -4532,12 +4532,12 @@
         "DATE"
       ],
       [
-        "last",
-        "ORDINAL"
-      ],
-      [
         "1523",
         "DATE"
+      ],
+      [
+        "last",
+        "ORDINAL"
       ],
       [
         "St Philip",
@@ -4597,19 +4597,19 @@
   "163": {
     "ner": [
       [
-        "Raphael",
-        "PERSON"
-      ],
-      [
-        "Titian",
-        "PERSON"
-      ],
-      [
         "Europe",
         "LOC"
       ],
       [
+        "Raphael",
+        "PERSON"
+      ],
+      [
         "Parmigianino",
+        "PERSON"
+      ],
+      [
+        "Titian",
         "PERSON"
       ]
     ],
@@ -4630,12 +4630,12 @@
   "164": {
     "ner": [
       [
-        "German",
-        "NORP"
-      ],
-      [
         "Dürer",
         "PERSON"
+      ],
+      [
+        "German",
+        "NORP"
       ]
     ],
     "relations": [],
@@ -4685,15 +4685,7 @@
   "166": {
     "ner": [
       [
-        "Giulio Campagnola",
-        "PERSON"
-      ],
-      [
-        "Cristofano Robetta",
-        "PERSON"
-      ],
-      [
-        "Giovanni Battista Palumba",
+        "Dürer",
         "PERSON"
       ],
       [
@@ -4701,19 +4693,27 @@
         "PERSON"
       ],
       [
-        "Dürer",
-        "PERSON"
-      ],
-      [
         "Italian",
         "NORP"
       ],
       [
-        "Benedetto Montagna",
+        "Giovanni Battista Palumba",
+        "PERSON"
+      ],
+      [
+        "Giulio Campagnola",
         "PERSON"
       ],
       [
         "Agostino Veneziano",
+        "PERSON"
+      ],
+      [
+        "Cristofano Robetta",
+        "PERSON"
+      ],
+      [
+        "Benedetto Montagna",
         "PERSON"
       ]
     ],
@@ -4729,11 +4729,7 @@
   "167": {
     "ner": [
       [
-        "Northern",
-        "LOC"
-      ],
-      [
-        "Marcantonio",
+        "Dürer",
         "PERSON"
       ],
       [
@@ -4741,12 +4737,16 @@
         "LOC"
       ],
       [
-        "1515",
-        "DATE"
+        "Marcantonio",
+        "PERSON"
       ],
       [
-        "Dürer",
-        "PERSON"
+        "Northern",
+        "LOC"
+      ],
+      [
+        "1515",
+        "DATE"
       ]
     ],
     "relations": [],
@@ -4766,24 +4766,24 @@
   "168": {
     "ner": [
       [
-        "German",
-        "NORP"
-      ],
-      [
-        "Italy",
-        "GPE"
+        "Dürer",
+        "PERSON"
       ],
       [
         "Venice",
         "GPE"
       ],
       [
-        "Dürer",
-        "PERSON"
+        "German",
+        "NORP"
       ],
       [
         "Italian",
         "NORP"
+      ],
+      [
+        "Italy",
+        "GPE"
       ]
     ],
     "relations": [],
@@ -4829,42 +4829,6 @@
   "170": {
     "ner": [
       [
-        "German",
-        "NORP"
-      ],
-      [
-        "1870 to 1945.The",
-        "DATE"
-      ],
-      [
-        "6 April",
-        "DATE"
-      ],
-      [
-        "Renaissance",
-        "ORG"
-      ],
-      [
-        "Michelangelo",
-        "PERSON"
-      ],
-      [
-        "Germany",
-        "GPE"
-      ],
-      [
-        "the early nineteenth century",
-        "DATE"
-      ],
-      [
-        "about 1570 to 1630",
-        "DATE"
-      ],
-      [
-        "Lucas Cranach the Elder",
-        "PERSON"
-      ],
-      [
         "Dürer",
         "PERSON"
       ],
@@ -4873,8 +4837,44 @@
         "ORG"
       ],
       [
+        "German",
+        "NORP"
+      ],
+      [
         "Hans Burgkmair",
         "PERSON"
+      ],
+      [
+        "6 April",
+        "DATE"
+      ],
+      [
+        "1870 to 1945.The",
+        "DATE"
+      ],
+      [
+        "Lucas Cranach the Elder",
+        "PERSON"
+      ],
+      [
+        "the early nineteenth century",
+        "DATE"
+      ],
+      [
+        "Michelangelo",
+        "PERSON"
+      ],
+      [
+        "Renaissance",
+        "ORG"
+      ],
+      [
+        "about 1570 to 1630",
+        "DATE"
+      ],
+      [
+        "Germany",
+        "GPE"
       ]
     ],
     "relations": [],
@@ -4899,12 +4899,12 @@
   "171": {
     "ner": [
       [
-        "German",
-        "LANGUAGE"
-      ],
-      [
         "Dürer",
         "PERSON"
+      ],
+      [
+        "German",
+        "LANGUAGE"
       ],
       [
         "Latin",
@@ -4932,16 +4932,16 @@
         "PERSON"
       ],
       [
-        "Bible",
-        "WORK_OF_ART"
-      ],
-      [
         "German",
         "NORP"
       ],
       [
         "Luther",
         "PERSON"
+      ],
+      [
+        "Bible",
+        "WORK_OF_ART"
       ]
     ],
     "relations": [],
@@ -4965,15 +4965,15 @@
         "PERSON"
       ],
       [
-        "Underweysung der Messung mit dem Zirckel und Richtscheyt",
-        "WORK_OF_ART"
-      ],
-      [
         "Instructions for Measuring with Compass and Ruler",
         "WORK_OF_ART"
       ],
       [
         "the Four Books on Measurement",
+        "WORK_OF_ART"
+      ],
+      [
+        "Underweysung der Messung mit dem Zirckel und Richtscheyt",
         "WORK_OF_ART"
       ]
     ],
@@ -5011,15 +5011,15 @@
         "WORK_OF_ART"
       ],
       [
-        "Apollonius",
-        "PERSON"
-      ],
-      [
         "1522",
         "DATE"
       ],
       [
         "Johannes Werner's '",
+        "PERSON"
+      ],
+      [
+        "Apollonius",
         "PERSON"
       ]
     ],
@@ -5035,12 +5035,12 @@
   "178": {
     "ner": [
       [
-        "second",
-        "ORDINAL"
-      ],
-      [
         "two-dimensional",
         "CARDINAL"
+      ],
+      [
+        "second",
+        "ORDINAL"
       ]
     ],
     "relations": []
@@ -5052,11 +5052,11 @@
         "PERSON"
       ],
       [
-        "Euclid",
+        "Ptolemy",
         "PERSON"
       ],
       [
-        "Ptolemy",
+        "Euclid",
         "PERSON"
       ]
     ],
@@ -5155,7 +5155,7 @@
         "CARDINAL"
       ],
       [
-        "first",
+        "second",
         "ORDINAL"
       ],
       [
@@ -5163,7 +5163,7 @@
         "ORDINAL"
       ],
       [
-        "second",
+        "first",
         "ORDINAL"
       ]
     ],
@@ -5172,24 +5172,24 @@
   "185": {
     "ner": [
       [
-        "five",
-        "CARDINAL"
-      ],
-      [
-        "Archimedean",
-        "NORP"
-      ],
-      [
-        "Platonic",
-        "NORP"
-      ],
-      [
         "Dürer",
         "PERSON"
       ],
       [
         "seven",
         "CARDINAL"
+      ],
+      [
+        "Platonic",
+        "NORP"
+      ],
+      [
+        "five",
+        "CARDINAL"
+      ],
+      [
+        "Archimedean",
+        "NORP"
       ]
     ],
     "relations": [],
@@ -5208,12 +5208,12 @@
         "PERSON"
       ],
       [
-        "1528",
-        "DATE"
-      ],
-      [
         "(Vier Bücher von Menschlicher Proportion)",
         "WORK_OF_ART"
+      ],
+      [
+        "1528",
+        "DATE"
       ],
       [
         "the Four Books on Human Proportion",
@@ -5236,16 +5236,16 @@
         "CARDINAL"
       ],
       [
-        "first",
-        "ORDINAL"
+        "1512/13",
+        "DATE"
       ],
       [
         "1523",
         "DATE"
       ],
       [
-        "1512/13",
-        "DATE"
+        "first",
+        "ORDINAL"
       ]
     ],
     "relations": []
@@ -5257,12 +5257,12 @@
         "PERSON"
       ],
       [
-        "two to three hundred",
-        "CARDINAL"
-      ],
-      [
         "Vitruvius",
         "PERSON"
+      ],
+      [
+        "two to three hundred",
+        "CARDINAL"
       ]
     ],
     "relations": [],
@@ -5277,8 +5277,8 @@
   "189": {
     "ner": [
       [
-        "1525",
-        "DATE"
+        "Dürer",
+        "PERSON"
       ],
       [
         "eight",
@@ -5289,16 +5289,16 @@
         "WORK_OF_ART"
       ],
       [
-        "Francesco di Giorgio's",
-        "PERSON"
-      ],
-      [
-        "Dürer",
-        "PERSON"
-      ],
-      [
         "second",
         "ORDINAL"
+      ],
+      [
+        "1525",
+        "DATE"
+      ],
+      [
+        "Francesco di Giorgio's",
+        "PERSON"
       ]
     ],
     "relations": [],
@@ -5318,12 +5318,12 @@
   "190": {
     "ner": [
       [
-        "Dürer",
-        "PERSON"
-      ],
-      [
         "third",
         "ORDINAL"
+      ],
+      [
+        "Dürer",
+        "PERSON"
       ]
     ],
     "relations": [],
@@ -5347,12 +5347,12 @@
         "PERSON"
       ],
       [
-        "fourth",
-        "ORDINAL"
-      ],
-      [
         "between 1512 and 1528",
         "DATE"
+      ],
+      [
+        "fourth",
+        "ORDINAL"
       ]
     ],
     "relations": [],
@@ -5453,7 +5453,7 @@
   "195": {
     "ner": [
       [
-        "Alberti",
+        "Dürer",
         "PERSON"
       ],
       [
@@ -5461,7 +5461,7 @@
         "PERSON"
       ],
       [
-        "Dürer",
+        "Alberti",
         "PERSON"
       ]
     ],
@@ -5470,16 +5470,16 @@
   "196": {
     "ner": [
       [
-        "Dürer",
-        "PERSON"
+        "1512",
+        "DATE"
       ],
       [
         "1528",
         "DATE"
       ],
       [
-        "1512",
-        "DATE"
+        "Dürer",
+        "PERSON"
       ]
     ],
     "relations": [],
@@ -5542,6 +5542,14 @@
   "200": {
     "ner": [
       [
+        "Johan Janssenn",
+        "PERSON"
+      ],
+      [
+        "1603",
+        "DATE"
+      ],
+      [
         "Arnhem",
         "GPE"
       ],
@@ -5550,16 +5558,8 @@
         "PERSON"
       ],
       [
-        "1603",
-        "DATE"
-      ],
-      [
         "Nuremberg",
         "GPE"
-      ],
-      [
-        "Johan Janssenn",
-        "PERSON"
       ]
     ],
     "relations": []
@@ -5567,7 +5567,11 @@
   "201": {
     "ner": [
       [
-        "Wechelus",
+        "Paris.The",
+        "GPE"
+      ],
+      [
+        "Wecheli",
         "PERSON"
       ],
       [
@@ -5575,36 +5579,32 @@
         "NORP"
       ],
       [
+        "1535",
+        "DATE"
+      ],
+      [
         "Italian",
         "NORP"
-      ],
-      [
-        "Baltic",
-        "LOC"
-      ],
-      [
-        "Christian Wechel",
-        "PERSON"
       ],
       [
         "On Cities, Forts, and Castles, Designed and Strengthened by Several Manners: Presented for the Most Necessary Accommodation of War (De vrbibus, arcibus, castellisque condendis, ac muniendis rationes aliquot : praesenti bellorum necessitati accommodatissimae",
         "WORK_OF_ART"
       ],
       [
+        "Christian Wechel",
+        "PERSON"
+      ],
+      [
         "Latin",
         "LANGUAGE"
       ],
       [
-        "1535",
-        "DATE"
-      ],
-      [
-        "Wecheli",
+        "Wechelus",
         "PERSON"
       ],
       [
-        "Paris.The",
-        "GPE"
+        "Baltic",
+        "LOC"
       ]
     ],
     "relations": [],
@@ -5635,7 +5635,15 @@
   "203": {
     "ner": [
       [
-        "Maximilian I.",
+        "1512",
+        "DATE"
+      ],
+      [
+        "Οπλοδιδασκαλια sive Armorvm Tractandorvm Meditatio Alberti Dvreri",
+        "WORK_OF_ART"
+      ],
+      [
+        "Albrecht Dürer's",
         "PERSON"
       ],
       [
@@ -5647,20 +5655,12 @@
         "WORK_OF_ART"
       ],
       [
-        "Οπλοδιδασκαλια sive Armorvm Tractandorvm Meditatio Alberti Dvreri",
-        "WORK_OF_ART"
-      ],
-      [
-        "1512",
-        "DATE"
+        "Maximilian I.",
+        "PERSON"
       ],
       [
         "26-232",
         "CARDINAL"
-      ],
-      [
-        "Albrecht Dürer's",
-        "PERSON"
       ]
     ],
     "relations": [],
@@ -5680,24 +5680,24 @@
   "204": {
     "ner": [
       [
-        "one",
-        "CARDINAL"
-      ],
-      [
-        "Hans Talhoffer's",
-        "PERSON"
+        "this time",
+        "DATE"
       ],
       [
         "Berlin Picture Book (Libr.Pict.A.83",
         "WORK_OF_ART"
       ],
       [
-        "this time",
-        "DATE"
+        "Hans Talhoffer's",
+        "PERSON"
       ],
       [
         "Nuremberg",
         "GPE"
+      ],
+      [
+        "one",
+        "CARDINAL"
       ]
     ],
     "relations": [],
