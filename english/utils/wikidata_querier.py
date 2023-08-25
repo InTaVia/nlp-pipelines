@@ -4,6 +4,31 @@ import requests
 import sys, os
 import pandas as pd
 
+
+def get_wikidata_id_from_wikipedia_url(wiki_url: str):
+    url = 'https://query.wikidata.org/sparql'
+    query = f"""
+    SELECT ?wikidataID
+    WHERE {{
+    <{wiki_url}> schema:about ?wikidataID .
+    }}
+    """
+    wikidata_id = None
+    # Call API
+    try:
+        r = requests.get(url, params={'format': 'json', 'query': query}, timeout=3)
+        data = r.json() if r.status_code == 200 else None
+    except:
+        print("Failed to query Wikidata")
+        data = None
+    
+    if data:
+        # Feed data from Wikidata Response
+        for item in data["results"]["bindings"]:
+            wikidata_id = item["wikidataID"]["value"]
+    return wikidata_id
+
+
 def get_wiki_persons_from_movement(movement_id: str):
     # This query works for literary, artistic, scientific or philosophical movement or scene associated with this person or work. 
     # For political ideologies use wdt:P1142 instead of wdt:P135.

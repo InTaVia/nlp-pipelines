@@ -3,6 +3,7 @@ import json, os, re, time
 import copy
 from collections import defaultdict, Counter
 from utils.utils_wiki import get_raw_wikipedia_article, get_wiki_linked_entities, get_relevant_items_from_infobox, get_wikipedia_url_encoded
+from utils.wikidata_querier import get_wikidata_id_from_wikipedia_url
 from urllib.parse import unquote
 import datetime
 import dateutil.parser as parser
@@ -20,7 +21,7 @@ inverse_relations_dict = {
 person_template = {
     "id": "", # duerer-pr-012
     "label": { "default": "" }, #surfaceForm
-    "linkedIds": [],
+    "linkedIds": [], # {"label": "something", "url": "url_for_something"}
     "media": [],
     "relations": [],
     # "kind": "person",
@@ -30,6 +31,7 @@ person_template = {
 group_template = {
     "id": "", # duerer-gr-001
     "label": { "default": "" }, # surfaceForm
+    "linkedIds": [],
     "description": "",
     "source": { "citation": "Wikipedia"},
     "relations": [],
@@ -40,6 +42,7 @@ group_template = {
 place_template = {
     "id": "", # "duerer-pl-001"
     "label": { "default": "" }, # surfaceForm
+    "linkedIds": [],
     "relations": [],
     "kind": "place",
     # "type": { }, # { "id": "place-type-city", "label": { "default": "city" } }
@@ -49,6 +52,7 @@ place_template = {
 object_template = {
     "id": "", # duerer-ob-001
     "label": { "default": "" }, # surfaceForm
+    "linkedIds": [],
     "description": "",
     "source": { "citation": "Wikipedia" },
     "relations": [],
@@ -299,7 +303,14 @@ def convert_nlp_to_idm_json(nlp_path: str, idm_out_path: str):
             idm_ent = copy.deepcopy(person_template)
             idm_ent["kind"] = "person"
             if wiki_link:
-                idm_ent["id"] = f"{main_person_id}-pr-{unquote(wiki_link.split('/')[-1])}"
+                wiki_name = unquote(wiki_link.split('/')[-1])
+                idm_ent["id"] = f"{main_person_id}-pr-{wiki_name}"
+                idm_ent["linkedIds"].append({"label": f"{wiki_name}", "url": wiki_link})
+                wikidata_url = get_wikidata_id_from_wikipedia_url(wiki_link)
+                if wikidata_url:
+                    print(wikidata_url)
+                    wikidata_name = wikidata_url.split("/")[-1]
+                    idm_ent["linkedIds"].append({"label": f"{wikidata_name}", "url": wikidata_url})
             else:
                 per_ix += 1
                 idm_ent["id"] = f"{main_person_id}-pr-{stringify_id(per_ix)}"
@@ -307,7 +318,14 @@ def convert_nlp_to_idm_json(nlp_path: str, idm_out_path: str):
             idm_ent = copy.deepcopy(place_template)
             idm_ent["kind"] = "place"
             if wiki_link:
-                idm_ent["id"] = f"{main_person_id}-pl-{unquote(wiki_link.split('/')[-1])}"
+                wiki_name = unquote(wiki_link.split('/')[-1])
+                idm_ent["id"] = f"{main_person_id}-pl-{wiki_name}"
+                idm_ent["linkedIds"].append({"label": f"{wiki_name}", "url": wiki_link})
+                wikidata_url = get_wikidata_id_from_wikipedia_url(wiki_link)
+                if wikidata_url:
+                    print(wikidata_url)
+                    wikidata_name = wikidata_url.split("/")[-1]
+                    idm_ent["linkedIds"].append({"label": f"{wikidata_name}", "url": wikidata_url})
             else:
                 pl_ix += 1
                 idm_ent["id"] = f"{main_person_id}-pl-{stringify_id(pl_ix)}"
@@ -315,7 +333,14 @@ def convert_nlp_to_idm_json(nlp_path: str, idm_out_path: str):
             idm_ent = copy.deepcopy(group_template)
             idm_ent["kind"] = "group"
             if wiki_link:
-                idm_ent["id"] = f"{main_person_id}-gr-{unquote(wiki_link.split('/')[-1])}"
+                wiki_name = unquote(wiki_link.split('/')[-1])
+                idm_ent["id"] = f"{main_person_id}-gr-{wiki_name}"
+                idm_ent["linkedIds"].append({"label": f"{wiki_name}", "url": wiki_link})
+                wikidata_url = get_wikidata_id_from_wikipedia_url(wiki_link)
+                if wikidata_url:
+                    print(wikidata_url)
+                    wikidata_name = wikidata_url.split("/")[-1]
+                    idm_ent["linkedIds"].append({"label": f"{wikidata_name}", "url": wikidata_url})
             else:
                 gr_ix += 1
                 idm_ent["id"] = f"{main_person_id}-gr-{stringify_id(gr_ix)}"
@@ -323,7 +348,14 @@ def convert_nlp_to_idm_json(nlp_path: str, idm_out_path: str):
             idm_ent = copy.deepcopy(object_template)
             idm_ent["kind"] = "cultural-heritage-object"
             if wiki_link:
-                idm_ent["id"] = f"{main_person_id}-ob-{unquote(wiki_link.split('/')[-1])}"
+                wiki_name = unquote(wiki_link.split('/')[-1])
+                idm_ent["id"] = f"{main_person_id}-ob-{wiki_name}"
+                idm_ent["linkedIds"].append({"label": f"{wiki_name}", "url": wiki_link})
+                wikidata_url = get_wikidata_id_from_wikipedia_url(wiki_link)
+                if wikidata_url:
+                    print(wikidata_url)
+                    wikidata_name = wikidata_url.split("/")[-1]
+                    idm_ent["linkedIds"].append({"label": f"{wikidata_name}", "url": wikidata_url})
             else:
                 obj_ix += 1
                 idm_ent["id"] = f"{main_person_id}-ob-{stringify_id(obj_ix)}"
@@ -365,7 +397,7 @@ def convert_nlp_to_idm_json(nlp_path: str, idm_out_path: str):
                 # This event is "passive" (the object "was created"), that's why the other entity we need to get is the Subj Entity (the creator)
                 # We are assuming the first entity of the text == Subject of the Biography
                 subj_idm_ent = idm_entity_dict[idm_id2univ_id[subj_idm_id]]
-                event_info = {"full_event_id": f"{main_person_id}-{ev_sub_id}-ev-{stringify_id(event_ix)}", 
+                event_info = {"full_event_id": f"{ev_sub_id}-ev-{stringify_id(event_ix)}", 
                               "event_label": unified_ent_obj["surfaceForms"][0], 
                               "event_kind": "creation", 
                               "subj_role": "was_creator", 
@@ -382,7 +414,7 @@ def convert_nlp_to_idm_json(nlp_path: str, idm_out_path: str):
                 ev_sub_id = idm_ent["id"] # .split("-")[1]
                 subj_role =  rel_obj['relationValue']
                 obj_role = inverse_relations_dict.get(rel_obj['relationValue'], 'unk')
-                event_info = {"full_event_id": f"{main_person_id}-{ev_sub_id}-ev-{stringify_id(event_ix)}", 
+                event_info = {"full_event_id": f"{ev_sub_id}-ev-{stringify_id(event_ix)}", 
                               "event_label": rel_obj["surfaceFormObj"], 
                               "event_kind": f"event-kind-{subj_role}", 
                               "subj_role": subj_role, 
@@ -410,7 +442,7 @@ def convert_nlp_to_idm_json(nlp_path: str, idm_out_path: str):
         ev_sub_id = subj_idm_ent["id"]
         start_date, end_date = normalize_date(date)
         if start_date:
-            event_info = {"full_event_id": f"{main_person_id}-{ev_sub_id}-ev-{stringify_id(event_ix)}", 
+            event_info = {"full_event_id": f"{ev_sub_id}-ev-{stringify_id(event_ix)}", 
                             "event_label": " ".join(event_triple), 
                             "event_kind": event_triple[1], 
                             "subj_role": event_triple[1], 
@@ -447,6 +479,7 @@ def stringify_id(number: int) -> str:
         return f"0{number}"
     else:
         return str(number)
+
 
 def normalize_date(datelike_string: str) -> Tuple[str,str]:
     start_date, end_date = None, None
