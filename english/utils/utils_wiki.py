@@ -258,8 +258,9 @@ def get_relevant_items_from_infobox(link:str) -> Dict[str, str]:
                 match = regex.search(r"({.+})", line)
                 if match:
                     coordinates = get_idm_coordinates(match.group(1))
-                relevant_dict["coordinates"] = coordinates
+                    relevant_dict["coordinates"] = coordinates
     return relevant_dict
+
 
 def _get_wiki_link_details(bracketed_string: str) -> Dict[str, str]:
     # Ignore Files and Category Tags

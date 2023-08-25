@@ -47,12 +47,12 @@ def preprocess_and_clean_text(text: str) -> str:
     clean_text = text
     # Get rid of everything after "See Also" Section
     match = re.search("== See also ==", clean_text)
-    if match: clean_text = clean_text[:match.start()]
+    if match: clean_text = clean_text[:match.start()] + " "
     # Get rid of everything after "References" Section
     match = re.search("== References ==", clean_text)
-    if match: clean_text = clean_text[:match.start()]
+    if match: clean_text = clean_text[:match.start()] + " "
     # Eliminate section titles and subtitles
-    clean_text = re.sub(r"=+\s.+?\s=+", "\n", clean_text) 
+    clean_text = re.sub(r"=+\s.+?\s=+", " \n ", clean_text) 
     # Just keep ONE empty line between paragraphs
     # clean_text = re.sub(r'[\r\n]{2,}', "\n\n", clean_text)
     # clean_text = re.sub(r'\n{2,}', "\n\n", clean_text)  

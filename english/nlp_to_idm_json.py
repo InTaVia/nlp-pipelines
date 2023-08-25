@@ -61,7 +61,7 @@ object_template = {
 }
 
 
-def convert_nlp_to_idm_json(nlp_path: str, idm_out_path: str):
+def convert_nlp_to_idm_json(nlp_path: str, idm_out_path: str, wiki_root_path: str = "data/wikipedia"):
 
     parent_idm = {
         "entities": [],
@@ -92,7 +92,7 @@ def convert_nlp_to_idm_json(nlp_path: str, idm_out_path: str):
     
     # Open Raw File and Meta JSON to Complement Data
     wiki_raw = get_raw_wikipedia_article(wiki_title=person_name.replace("_", " ").title())
-    wiki_meta = json.load(open(f"data/wikipedia/{person_name}.txt.meta.json"))
+    wiki_meta = json.load(open(f"{wiki_root_path}/{person_name}.txt.meta.json"))
     wiki_linked_dict = get_wiki_linked_entities(wiki_raw) # {'surfaceForm': 'wiki_link'}
     for meta_link in wiki_meta["links"]:
         wiki_linked_dict[meta_link] = get_wikipedia_url_encoded(meta_link)
@@ -152,7 +152,7 @@ def convert_nlp_to_idm_json(nlp_path: str, idm_out_path: str):
                     universal_dict[key] = {"cluster_id": int(cl_id), "surfaceForm": item["surfaceForm"]}
     
     # DEBUG:
-    json.dump(universal_dict, open("data/idm/nlpidm_universal.json", "w"), indent=2, ensure_ascii=False)
+    json.dump(universal_dict, open(f"data/idm/nlpidm_universal.json", "w"), indent=2, ensure_ascii=False)
 
     ### Sentence-Based Event Unification
     sentence_based_event_ids = defaultdict(set)
@@ -203,7 +203,7 @@ def convert_nlp_to_idm_json(nlp_path: str, idm_out_path: str):
     for sent_id, nlp_layer in sorted(sentence_based_events.items(), key= lambda x: x[0]):
         for nlp_name, nlp_values in nlp_layer.items():
             sentence_based_events[sent_id][nlp_name] = list(nlp_values)
-    json.dump(sentence_based_events, open("data/idm/nlpidm_sentence_based_dict.json", "w"), indent=2, ensure_ascii=False)
+    json.dump(sentence_based_events, open(f"data/idm/nlpidm_sentence_based_dict.json", "w"), indent=2, ensure_ascii=False)
 
     # Sentence-Based Events and SRL-Based Events
     sentences_with_events, triples_with_events = [], []
@@ -223,11 +223,11 @@ def convert_nlp_to_idm_json(nlp_path: str, idm_out_path: str):
                     prop = (date, srl)
                     triples_with_events.append(prop)
 
-    with open("data/idm/nlpidm_sentence_based_events.txt", "w") as f:
+    with open(f"data/idm/nlpidm_sentence_based_events.txt", "w") as f:
         for sent in sentences_with_events:
             f.write(f"{sent}\n")
 
-    with open("data/idm/nlpidm_srl_based_events.txt", "w") as f:
+    with open(f"data/idm/nlpidm_srl_based_events.txt", "w") as f:
         for tr in triples_with_events:
             f.write(f"{tr}\n")
 
@@ -244,7 +244,7 @@ def convert_nlp_to_idm_json(nlp_path: str, idm_out_path: str):
         surfaceForm2ent_univ = {}
     
     # DEBUG:
-    json.dump(surfaceForm2ent_univ, open("data/idm/nlpidm_surface.json", "w"), ensure_ascii=False, indent=2)
+    json.dump(surfaceForm2ent_univ, open(f"data/idm/nlpidm_surface.json", "w"), ensure_ascii=False, indent=2)
 
     # Even if there was NO coreference, this loop adds all of the entities that did not have any mention in the CLUSTERS
     for span, univ_item in universal_dict.items():
@@ -283,7 +283,7 @@ def convert_nlp_to_idm_json(nlp_path: str, idm_out_path: str):
                 singleton_ids += 1
 
     # DEBUG:
-    json.dump(unified_universal_dict, open("data/idm/nlpidm_unified_universal.json", "w"), indent=2, ensure_ascii=False)
+    json.dump(unified_universal_dict, open(f"data/idm/nlpidm_unified_universal.json", "w"), indent=2, ensure_ascii=False)
 
     # 1) Populate Valid Entities (NLP + WikiMeta)
     idm_entity_dict = {}
@@ -292,6 +292,7 @@ def convert_nlp_to_idm_json(nlp_path: str, idm_out_path: str):
     event_ix = 1
     kown_coords_dict = {} # To avoid querying more than once for the same entity
     event_vocab, role_vocab = {}, {}
+    processed_idm_ids = {}
     for ent_id, unified_ent_obj in unified_universal_dict.items():
         idm_ent = None
         # A) Choose the IDM Values best on the Most Common when unified
@@ -302,7 +303,10 @@ def convert_nlp_to_idm_json(nlp_path: str, idm_out_path: str):
         if ner_category in ["PER", "PERSON"]:
             idm_ent = copy.deepcopy(person_template)
             idm_ent["kind"] = "person"
-            if wiki_link:
+            if wiki_link or per_ix == 0: # By default always the first entity is the Main Entity
+                if per_ix == 0: 
+                    wiki_link = main_person_url
+                    per_ix += 1
                 wiki_name = unquote(wiki_link.split('/')[-1])
                 idm_ent["id"] = f"{main_person_id}-pr-{wiki_name}"
                 idm_ent["linkedIds"].append({"label": f"{wiki_name}", "url": wiki_link})
@@ -359,15 +363,19 @@ def convert_nlp_to_idm_json(nlp_path: str, idm_out_path: str):
             else:
                 obj_ix += 1
                 idm_ent["id"] = f"{main_person_id}-ob-{stringify_id(obj_ix)}"
-            
         
-        # LAST) Add to the IDM Entities
-        univ_id2idm_id[ent_id] = None
-        if idm_ent:
-            univ_id2idm_id[ent_id] = idm_ent["id"]
-            idm_id2univ_id[idm_ent["id"]] = ent_id
-            idm_ent["label"] = {"default": surface_form}
-            idm_entity_dict[ent_id] = idm_ent
+        # Avoid Duplicates in the Final IDM
+        if idm_ent and idm_ent["id"] in processed_idm_ids:
+            continue
+        else:
+            # LAST) Add to the IDM Entities
+            univ_id2idm_id[ent_id] = None
+            if idm_ent:
+                processed_idm_ids[idm_ent["id"]] = 1
+                univ_id2idm_id[ent_id] = idm_ent["id"]
+                idm_id2univ_id[idm_ent["id"]] = ent_id
+                idm_ent["label"] = {"default": surface_form}
+                idm_entity_dict[ent_id] = idm_ent
 
 
     for ent_id, unified_ent_obj in unified_universal_dict.items():
@@ -443,7 +451,7 @@ def convert_nlp_to_idm_json(nlp_path: str, idm_out_path: str):
         start_date, end_date = normalize_date(date)
         if start_date:
             event_info = {"full_event_id": f"{ev_sub_id}-ev-{stringify_id(event_ix)}", 
-                            "event_label": " ".join(event_triple), 
+                            "event_label": f"{lastname.title()} {event_triple[1]} {event_triple[2]}", #" ".join(event_triple), 
                             "event_kind": event_triple[1], 
                             "subj_role": event_triple[1], 
                             "obj_role": event_triple[1],
@@ -551,7 +559,7 @@ def create_unified_universal_dict(nlp_dict: Dict[str, Any], universal_dict: Dict
                 surfaceForm2ent_univ[univ_item["surfaceForm"]] = ent_univ_key
             else:
                 # print(univ_item)
-                pass # These are the cluster items that DO NOT have a recognized Entity by the NER's. But if they appear in SRL we can grab the event!
+                pass # These are the cluster items that DO NOT have a recognized Entity by the NER's. But if they appear in SRL we could grab the event!
 
     return unified_universal_dict, clustered_items, ent_nlp2ent_univ, singleton_ids, surfaceForm2ent_univ
 
@@ -591,7 +599,7 @@ def get_smart_srl_triples(srl_list: Dict, last_name: str) -> List[Tuple]:
     all_triples = []
     for predicate_word, args in srl_list.items():
         args_dict = {arg[1]: arg[0] for arg in args} # {arg_label: arg_surfaceForm}
-        print(f"\n===== {predicate_word} ---> {list(args_dict.keys())} =====")
+        # print(f"\n===== {predicate_word} ---> {list(args_dict.keys())} =====")
         # SRL Triple Construction
         # Agent = A0 + Patient = [A1 | A2 | A3]
         main_agent = None
@@ -657,9 +665,10 @@ def get_smart_srl_triples(srl_list: Dict, last_name: str) -> List[Tuple]:
     valid_triples = []
     for trip in all_triples:
         agent_str = trip[0].lower()
-        if agent_str == "he" or agent_str == "she" or last_name.lower() in agent_str or  "his" in agent_str or "her" in agent_str and len(trip[2]) > 0:
+        # if agent_str == "he" or agent_str == "she" or last_name.lower() in agent_str or "his" in agent_str or "her" in agent_str and len(trip[2]) > 0:
+        if (agent_str == "he" or agent_str == "she" or last_name.lower() == agent_str) and len(trip[2]) > 0:
             valid_triples.append(trip)
-    print(valid_triples)
+    # print(valid_triples)
     return valid_triples
 
 

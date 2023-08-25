@@ -63,7 +63,7 @@ def run_allennlp_pipeline(text: str, nlp_dict: Dict[str, Any] = {}):
     # Step 4: Run AllenNLP SRL
     nlp_dict['semantic_roles'] = anlp.add_json_srl_allennlp(sentences, srl_predictor, token_objs)
     # Step 5: Run AllenNLP Coref
-    nlp_dict['coreference'] = anlp.add_json_coref_allennlp(sentences, coref_predictor, token_objs)
+    nlp_dict['coreference'] = anlp.add_json_coref_allennlp(sentences, coref_predictor)
     # Step N: Run AllenNLP Entities
     nlp_dict['entities'] += anlp.add_json_ner_allennlp(sentences, ner_predictor, token_objs)
 
