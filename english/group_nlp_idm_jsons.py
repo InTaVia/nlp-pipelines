@@ -5,27 +5,19 @@ from nlp_to_idm_json import person_template, place_template, group_template, obj
 
 def generate_idms_from_group(movement_name: str):
     movement_out = f"data/idm/{movement_name}"
-
     if not os.path.exists(movement_out): os.mkdir(movement_out)
-
     for filepath in glob.glob(f"data/wikipedia/{movement_name}/*.nlp.json"):
         person_name = filepath.split("/")[-1][:-9]
         convert_nlp_to_idm_json(filepath, f"{movement_out}/{person_name}.idm.json", wiki_root_path=f"data/wikipedia/{movement_name}/")
 
 
 def unify_idm_jsons(movement_name: str):
-    group_parent_idm = {
-        "entities": [],
-        "events": [],
-        "media": [],
-        "biographies": [],
-        "vocabularies": {},
-        "unmappedEntities": [],
-        "collections": {}
-    }
     all_entities = {}
-    entity_mapper = {}
+    entity_mapper = {} # Map faile-specific IDs to Group General IDs
     all_pr_id, all_pl_id, all_gr_id, all_ob_id = 0, 0, 0, 0
+    event_id, all_events, event_mapper = 0, {}, {}
+    all_event_kinds, all_roles = {}, {}
+    aek_id, ar_id = 0, 0
     for filepath in glob.glob(f"data/idm/{movement_name}/*.idm.json"):
         obj = json.load(open(filepath))
         # Handle Unification of ENTITIES
@@ -53,15 +45,46 @@ def unify_idm_jsons(movement_name: str):
             entity_mapper[ent["id"]] = mov_ent_id
             ent["id"] = mov_ent_id
             all_entities[mov_ent_id] = ent
-            # TODO: Handle Unification of EVENTS
-            
-    print(len(all_entities))
-    for ent in entity_mapper.items():
-        print(ent)
-    
-    # for ent in all_entities.items():
-    #     # TODO: For "relations" inside entities in the enxt iteration the entity_ids should be changed using the entity mapper!!!
-    #     pass
+        # Unification of EVENTS with a single event index for all files
+        for event in obj["events"]:
+            event_id += 1
+            new_id = f"{movement_name}-ev-{stringify_id(event_id)}"
+            event_mapper[event["id"]] = new_id
+            event["id"] = new_id
+            all_events[new_id] = event
+        for ek in obj["vocabularies"]["event-kind"]:
+            aek_id += 1
+            all_event_kinds[aek_id] = ek
+        for r in obj["vocabularies"]["role"]:
+            ar_id += 1
+            all_roles[ar_id] = r
+
+    json.dump(entity_mapper, open("cheche_entity_mapper.json", "w"), indent=2, ensure_ascii=False)  
+    # Map the File-based ID's to the Movement IDs in the relations of all entities    
+    for _, ent in all_entities.items():
+        for rel in ent["relations"]:
+            rel["event"] = event_mapper[rel["event"]]
+    # Map the File-based Relations inside the Events into the global relations
+    for _, event in all_events.items():
+        for rel in event["relations"]:
+            if rel["entity"]:
+                rel["entity"] = entity_mapper[rel["entity"]]
+            else:
+                print(event)
+
+    # Save the Grouped Entities, Relations and Events into a single IDM JSON
+    group_parent_idm = {
+        "entities": sorted(all_entities.values(), key= lambda x: x["id"]),
+        "events": sorted(all_events.values(), key= lambda x: x["id"]),
+        "media": [],
+        "biographies": [],
+        "vocabularies": {"event-kind": sorted(all_event_kinds), "role": sorted(all_roles)},
+        "unmappedEntities": [],
+        "collections": {}
+    }
+
+    json.dump(group_parent_idm, open("cheche_group_idm.json", "w"), indent=2, ensure_ascii=False)
+
 
 if __name__ == "__main__":
     #generate_idms_from_group("Art_Nouveau")

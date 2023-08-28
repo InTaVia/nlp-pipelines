@@ -220,10 +220,11 @@ def extract_infobox(raw_text:str) -> Tuple[str, Dict[str, str]]:
     # Extract the infobox using regex
     pattern = r"\{\{Infobox\s[\w\s]+\n(?:\|[\w\s]+\s+=\s*.*\n)*\}\}"
     try:
-        match = regex.search(pattern, raw_text, regex.DOTALL, timeout=10)
+        match = regex.search(pattern, raw_text, regex.DOTALL, timeout=15)
     except TimeoutError:
         match = None
     # Check if a match is found
+    print("InfoBoxMatch", match.span())
     if match:
         infobox_str = match.group()
     else:
@@ -254,7 +255,7 @@ def get_relevant_items_from_infobox(link:str) -> Dict[str, str]:
                 type_match = info_lines[0][9:].strip("\n").strip()
                 relevant_dict["entity_type"] = type_match
             # Get Coordinates if in InfoBox
-            elif line.startswith("| coordinates"):
+            elif line.startswith("| coordinates") or line.startswith("|coordinates"):
                 match = regex.search(r"({.+})", line)
                 if match:
                     coordinates = get_idm_coordinates(match.group(1))
@@ -299,6 +300,7 @@ def get_idm_coordinates(wiki_coordinates: str) -> Tuple[float, float]:
     # WIKIPEDIA ---> degree|minutes|seconds|latitude + degree|minutes|seconds|longitude
     # IDM ---> [longitude, latitude]
     try:
+        long_degree_decimals,lat_degree_decimals = None, None
         wiki_coordinates = wiki_coordinates[2:-2].split('|')
         # {{coord|51|12|32|N|03|13|27|E|region:BE|display=inline,title}}
         if wiki_coordinates[4] in ['N', 'S']:
@@ -320,9 +322,9 @@ def get_idm_coordinates(wiki_coordinates: str) -> Tuple[float, float]:
             long_degree_decimals, long_dir = wiki_coordinates[3:5]
             lat_degree_decimals, long_degree_decimals = float(lat_degree_decimals), float(long_degree_decimals)
 
-        #print(len(wiki_coordinates), wiki_coordinates)
-        #print((round(long_degree_decimals, 6), round(lat_degree_decimals, 6)))
-        ## print("------------------")
+        print(len(wiki_coordinates), wiki_coordinates)
+        print(long_degree_decimals,lat_degree_decimals)
+        print("------------------")
         
         # North or East are Positive | South or West are Negative
         if lat_dir == 'S': lat_degree_decimals = lat_degree_decimals * -1.0

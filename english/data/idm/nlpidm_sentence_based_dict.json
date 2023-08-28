@@ -2,20 +2,16 @@
   "0": {
     "ner": [
       [
-        "Albrecht Dürer",
-        "PERSON"
-      ],
-      [
-        "21 May 1471",
-        "DATE"
-      ],
-      [
         "English",
         "LANGUAGE"
       ],
       [
         "Durer",
         "PERSON"
+      ],
+      [
+        "21 May 1471",
+        "DATE"
       ],
       [
         "Renaissance",
@@ -28,23 +24,22 @@
       [
         "6 April 1528",
         "DATE"
+      ],
+      [
+        "Albrecht Dürer",
+        "PERSON"
       ]
     ],
     "relations": [
       [
+        "Albrecht Dürer",
+        "origin",
+        "German"
+      ],
+      [
         "Durer",
         "origin",
         "German"
-      ],
-      [
-        "Albrecht Dürer",
-        "origin",
-        "German"
-      ],
-      [
-        "Albrecht Dürer",
-        "date_of_birth",
-        "21 May 1471"
       ],
       [
         "Albrecht Dürer",
@@ -55,38 +50,31 @@
         "Durer",
         "date_of_birth",
         "21 May 1471"
-      ]
-    ],
-    "srl": [
-      [
-        "Albrecht Dürer ",
-        "spelled",
-        "as Durer sometimes"
       ],
       [
-        "Albrecht Dürer ",
-        "was",
-        "a German painter , printmaker , and theorist of the German Renaissance"
+        "Albrecht Dürer",
+        "date_of_birth",
+        "21 May 1471"
       ]
     ]
   },
   "1": {
     "ner": [
       [
-        "Dürer",
-        "PERSON"
-      ],
-      [
-        "Europe",
-        "LOC"
+        "his twenties",
+        "DATE"
       ],
       [
         "Nuremberg",
         "GPE"
       ],
       [
-        "his twenties",
-        "DATE"
+        "Europe",
+        "LOC"
+      ],
+      [
+        "Dürer",
+        "PERSON"
       ]
     ],
     "relations": [
@@ -112,19 +100,11 @@
   "2": {
     "ner": [
       [
-        "Italian",
-        "NORP"
+        "Giovanni Bellini",
+        "PERSON"
       ],
       [
         "Leonardo da Vinci",
-        "PERSON"
-      ],
-      [
-        "Raphael",
-        "PERSON"
-      ],
-      [
-        "Dürer",
         "PERSON"
       ],
       [
@@ -132,11 +112,19 @@
         "DATE"
       ],
       [
-        "Giovanni Bellini",
+        "Raphael",
         "PERSON"
       ],
       [
         "Maximilian I.",
+        "PERSON"
+      ],
+      [
+        "Italian",
+        "NORP"
+      ],
+      [
+        "Dürer",
         "PERSON"
       ]
     ],
@@ -152,11 +140,6 @@
         "He",
         "was",
         "in contact with the major Italian artists of his time , including Raphael , Giovanni Bellini , and Leonardo da Vinci"
-      ],
-      [
-        "engravings , his preferred technique in his later prints , altarpieces , portraits and self - portraits , watercolours and books",
-        "includes",
-        "Dürer 's vast body of work"
       ]
     ]
   },
@@ -172,6 +155,14 @@
   "4": {
     "ner": [
       [
+        "three",
+        "CARDINAL"
+      ],
+      [
+        "Saint Jerome in his Study",
+        "WORK_OF_ART"
+      ],
+      [
         "Knight, Death and the Devil",
         "WORK_OF_ART"
       ],
@@ -180,8 +171,8 @@
         "WORK_OF_ART"
       ],
       [
-        "three",
-        "CARDINAL"
+        "1514",
+        "DATE"
       ],
       [
         "1513",
@@ -189,14 +180,6 @@
       ],
       [
         "Melencolia I",
-        "WORK_OF_ART"
-      ],
-      [
-        "1514",
-        "DATE"
-      ],
-      [
-        "Saint Jerome in his Study",
         "WORK_OF_ART"
       ]
     ],
@@ -213,22 +196,22 @@
         "NORP"
       ]
     ],
-    "relations": [],
-    "srl": [
-      [
-        "His watercolours",
-        "mark",
-        "him as one of the first European landscape artists while his woodcuts revolutionised the potential of that medium"
-      ],
-      [
-        "his woodcuts",
-        "revolutionised",
-        "the potential of that medium"
-      ]
-    ]
+    "relations": []
   },
   "6": {
     "ner": [
+      [
+        "Northern",
+        "LOC"
+      ],
+      [
+        "Northern Renaissance",
+        "LOC"
+      ],
+      [
+        "German",
+        "NORP"
+      ],
       [
         "Italian",
         "NORP"
@@ -236,28 +219,9 @@
       [
         "Dürer",
         "PERSON"
-      ],
-      [
-        "German",
-        "NORP"
-      ],
-      [
-        "Northern Renaissance",
-        "LOC"
-      ],
-      [
-        "Northern",
-        "LOC"
       ]
     ],
-    "relations": [],
-    "srl": [
-      [
-        "Dürer 's introduction of classical motifs into Northern art",
-        "secured",
-        "his reputation as one of the most important figures of the Northern Renaissance"
-      ]
-    ]
+    "relations": []
   },
   "8": {
     "ner": [
@@ -266,44 +230,44 @@
         "DATE"
       ],
       [
-        "third",
-        "ORDINAL"
-      ],
-      [
-        "Dürer",
-        "PERSON"
-      ],
-      [
         "second",
         "ORDINAL"
-      ],
-      [
-        "21 May 1471",
-        "DATE"
-      ],
-      [
-        "eighteen",
-        "CARDINAL"
       ],
       [
         "Albrecht Dürer the Elder",
         "PERSON"
       ],
       [
+        "third",
+        "ORDINAL"
+      ],
+      [
+        "eighteen",
+        "CARDINAL"
+      ],
+      [
         "Barbara Holper",
+        "PERSON"
+      ],
+      [
+        "21 May 1471",
+        "DATE"
+      ],
+      [
+        "Dürer",
         "PERSON"
       ]
     ],
     "relations": [
       [
-        "Dürer",
-        "date_of_birth",
-        "21 May 1471"
+        "Barbara Holper",
+        "married_to",
+        "Albrecht Dürer the Elder"
       ],
       [
         "Dürer",
-        "child_of",
-        "Albrecht Dürer the Elder"
+        "date_of_birth",
+        "21 May 1471"
       ],
       [
         "Barbara Holper",
@@ -311,8 +275,8 @@
         "Dürer"
       ],
       [
-        "Barbara Holper",
-        "married_to",
+        "Dürer",
+        "child_of",
         "Albrecht Dürer the Elder"
       ],
       [
@@ -326,27 +290,17 @@
         "Dürer",
         "born",
         " on 21 May 1471"
-      ],
-      [
-        "Dürer the Elder and Barbara Holper",
-        "married",
-        " in 1467"
-      ],
-      [
-        "Albrecht Dürer the Elder and Barbara Holper",
-        "had",
-        "eighteen children together"
       ]
     ]
   },
   "9": {
     "ner": [
       [
-        "Gyula",
+        "Nuremberg",
         "GPE"
       ],
       [
-        "Nuremberg",
+        "Ajtós",
         "GPE"
       ],
       [
@@ -358,16 +312,16 @@
         "GPE"
       ],
       [
-        "Albrecht Ajtósi",
-        "PERSON"
-      ],
-      [
         "Albrecht Dürer the Elder",
         "PERSON"
       ],
       [
-        "Ajtós",
+        "Gyula",
         "GPE"
+      ],
+      [
+        "Albrecht Ajtósi",
+        "PERSON"
       ]
     ],
     "relations": [
@@ -384,19 +338,12 @@
       [
         "Albrecht Ajtósi",
         "lived_in",
-        "Hungary"
+        "Nuremberg"
       ],
       [
         "Albrecht Ajtósi",
         "lived_in",
-        "Nuremberg"
-      ]
-    ],
-    "srl": [
-      [
-        "Albrecht Dürer the Elder ",
-        "was",
-        "a successful goldsmith who by 1455 had moved to Nuremberg from Ajtós , near Gyula in Hungary"
+        "Hungary"
       ]
     ]
   },
@@ -419,12 +366,12 @@
   "11": {
     "ner": [
       [
-        "Albrecht",
-        "PERSON"
-      ],
-      [
         "One",
         "CARDINAL"
+      ],
+      [
+        "Albrecht",
+        "PERSON"
       ],
       [
         "Hans Dürer",
@@ -441,18 +388,6 @@
         "Hans Dürer",
         "sibling_of",
         "Albrecht"
-      ]
-    ],
-    "srl": [
-      [
-        "One of Albrecht 's brothers , Hans Dürer",
-        "was",
-        "a painter also"
-      ],
-      [
-        "One of Albrecht 's brothers , Hans Dürer",
-        "trained",
-        "under him"
       ]
     ]
   },
@@ -478,22 +413,18 @@
         "sibling_of",
         "Albrecht"
       ]
-    ],
-    "srl": [
-      [
-        "Another of Albrecht 's brothers , Endres Dürer",
-        "took",
-        "their father 's business"
-      ],
-      [
-        "Another of Albrecht 's brothers , Endres Dürer",
-        "was",
-        "a master goldsmith"
-      ]
     ]
   },
   "13": {
     "ner": [
+      [
+        "German",
+        "NORP"
+      ],
+      [
+        "Hungarian",
+        "NORP"
+      ],
       [
         "Dürer",
         "PERSON"
@@ -501,14 +432,6 @@
       [
         "Ajtósi",
         "PERSON"
-      ],
-      [
-        "Hungarian",
-        "NORP"
-      ],
-      [
-        "German",
-        "NORP"
       ]
     ],
     "relations": [
@@ -517,24 +440,17 @@
         "alternate_name",
         "Ajtósi"
       ]
-    ],
-    "srl": [
-      [
-        "The German name \" Dürer \"",
-        "is",
-        "a translation from the Hungarian , \" Ajtósi \""
-      ]
     ]
   },
   "14": {
     "ner": [
       [
-        "Türer",
-        "PERSON"
-      ],
-      [
         "Hungarian",
         "NORP"
+      ],
+      [
+        "Türer",
+        "PERSON"
       ]
     ],
     "relations": []
@@ -542,38 +458,30 @@
   "16": {
     "ner": [
       [
-        "Dürer",
-        "PERSON"
-      ],
-      [
-        "Albrecht Dürer the Younger",
-        "PERSON"
-      ],
-      [
         "Türer",
         "PERSON"
       ],
       [
         "Nuremberg",
         "GPE"
-      ]
-    ],
-    "relations": [],
-    "srl": [
-      [
-        "Albrecht Dürer the Younger",
-        "changed",
-        "\" Türer \" , his father 's diction of the family 's surname , to \" Dürer \" later"
       ],
       [
         "Albrecht Dürer the Younger",
-        "adapt",
-        "to the local Nuremberg dialect"
+        "PERSON"
+      ],
+      [
+        "Dürer",
+        "PERSON"
       ]
-    ]
+    ],
+    "relations": []
   },
   "17": {
     "ner": [
+      [
+        "the year",
+        "DATE"
+      ],
       [
         "Dürer",
         "PERSON"
@@ -581,10 +489,6 @@
       [
         "Anton Koberger",
         "PERSON"
-      ],
-      [
-        "the year",
-        "DATE"
       ]
     ],
     "relations": [
@@ -593,29 +497,17 @@
         "child_of",
         "Anton Koberger"
       ]
-    ],
-    "srl": [
-      [
-        "Dürer 's godfather Anton Koberger",
-        "left",
-        "goldsmithing in the year of Dürer 's birth"
-      ],
-      [
-        "Dürer 's godfather Anton Koberger",
-        "become",
-        "a printer and publisher in the year of Dürer 's birth"
-      ]
     ]
   },
   "18": {
     "ner": [
       [
-        "twenty-four",
-        "CARDINAL"
-      ],
-      [
         "Germany",
         "GPE"
+      ],
+      [
+        "twenty-four",
+        "CARDINAL"
       ]
     ],
     "relations": [],
@@ -639,7 +531,11 @@
         "WORK_OF_ART"
       ],
       [
-        "German",
+        "Koberger",
+        "PERSON"
+      ],
+      [
+        "Latin",
         "NORP"
       ],
       [
@@ -647,12 +543,8 @@
         "DATE"
       ],
       [
-        "Latin",
+        "German",
         "NORP"
-      ],
-      [
-        "Koberger",
-        "PERSON"
       ]
     ],
     "relations": []
@@ -673,16 +565,16 @@
   "21": {
     "ner": [
       [
-        "Dürer",
-        "PERSON"
-      ],
-      [
         "Wolgemut.Because",
         "PERSON"
       ],
       [
         "mid-twenties",
         "DATE"
+      ],
+      [
+        "Dürer",
+        "PERSON"
       ]
     ],
     "relations": [],
@@ -701,16 +593,6 @@
         "Dürer",
         "left",
         "autobiographical writings"
-      ],
-      [
-        "by his mid - twenties",
-        "known",
-        "Dürer"
-      ],
-      [
-        "his life",
-        "documented",
-        " Because Dürer left autobiographical writings and was widely known by his mid - twenties well in several sources"
       ]
     ]
   },
@@ -727,23 +609,18 @@
         "Dürer",
         "learned",
         "the basics of goldsmithing and drawing from his father After a few years of school"
-      ],
-      [
-        "from his father",
-        "drawing",
-        ""
       ]
     ]
   },
   "23": {
     "ner": [
       [
-        "Michael Wolgemut",
-        "PERSON"
-      ],
-      [
         "fifteen",
         "DATE"
+      ],
+      [
+        "Michael Wolgemut",
+        "PERSON"
       ],
       [
         "1486",
@@ -752,11 +629,6 @@
     ],
     "relations": [],
     "srl": [
-      [
-        "his father",
-        "wanted",
-        "him to continue his training as a goldsmith"
-      ],
       [
         "he",
         "showed",
@@ -776,42 +648,28 @@
         "GPE"
       ],
       [
-        "Albertina",
-        "ORG"
-      ],
-      [
         "1484",
         "DATE"
+      ],
+      [
+        "Albertina",
+        "ORG"
       ]
     ],
-    "relations": [],
-    "srl": [
-      [
-        "his later inscription",
-        "says",
-        ""
-      ]
-    ]
+    "relations": []
   },
   "25": {
     "ner": [
       [
-        "Dürer",
-        "PERSON"
-      ],
-      [
         "Opus One",
         "WORK_OF_ART"
+      ],
+      [
+        "Dürer",
+        "PERSON"
       ]
     ],
-    "relations": [],
-    "srl": [
-      [
-        "his oeuvre",
-        "define",
-        "as deriving from , and always linked to , himself"
-      ]
-    ]
+    "relations": []
   },
   "26": {
     "ner": [
@@ -838,11 +696,11 @@
   "28": {
     "ner": [
       [
-        "Italy",
+        "Venice",
         "GPE"
       ],
       [
-        "Venice",
+        "Italy",
         "GPE"
       ],
       [
@@ -855,29 +713,24 @@
   "29": {
     "ner": [
       [
-        "Dürer",
-        "PERSON"
-      ],
-      [
-        "Wanderjahre",
-        "DATE"
+        "German",
+        "NORP"
       ],
       [
         "about four years",
         "DATE"
       ],
       [
-        "German",
-        "NORP"
+        "Dürer",
+        "PERSON"
+      ],
+      [
+        "Wanderjahre",
+        "DATE"
       ]
     ],
     "relations": [],
     "srl": [
-      [
-        "his apprenticeship",
-        "completing",
-        ""
-      ],
       [
         "Dürer",
         "followed",
@@ -893,19 +746,19 @@
   "30": {
     "ner": [
       [
-        "1492",
+        "1490",
         "DATE"
       ],
       [
-        "Dürer",
-        "PERSON"
+        "Colmar",
+        "GPE"
       ],
       [
         "Northern Europe",
         "LOC"
       ],
       [
-        "1490",
+        "1492",
         "DATE"
       ],
       [
@@ -913,8 +766,8 @@
         "PERSON"
       ],
       [
-        "Colmar",
-        "GPE"
+        "Dürer",
+        "PERSON"
       ]
     ],
     "relations": [],
@@ -934,34 +787,24 @@
   "31": {
     "ner": [
       [
-        "Dürer",
-        "PERSON"
+        "Frankfurt",
+        "GPE"
       ],
       [
         "Netherlands",
         "GPE"
       ],
       [
-        "Frankfurt",
-        "GPE"
+        "Dürer",
+        "PERSON"
       ]
     ],
     "relations": [],
     "srl": [
       [
-        "where Dürer travelled in the intervening period",
-        "is",
-        "unclear though it is likely that he went to Frankfurt and the Netherlands"
-      ],
-      [
         "Dürer",
         "travelled",
         "where in the intervening period"
-      ],
-      [
-        "that he went to Frankfurt and the Netherlands",
-        "is",
-        "likely"
       ],
       [
         "he",
@@ -973,11 +816,7 @@
   "32": {
     "ner": [
       [
-        "Dürer",
-        "PERSON"
-      ],
-      [
-        "Caspar",
+        "Ludwig",
         "PERSON"
       ],
       [
@@ -985,7 +824,7 @@
         "GPE"
       ],
       [
-        "Paul",
+        "Caspar",
         "PERSON"
       ],
       [
@@ -993,7 +832,11 @@
         "PERSON"
       ],
       [
-        "Ludwig",
+        "Dürer",
+        "PERSON"
+      ],
+      [
+        "Paul",
         "PERSON"
       ]
     ],
@@ -1004,24 +847,14 @@
         "Paul"
       ],
       [
-        "Caspar",
+        "Schongauer",
         "sibling_of",
-        "Schongauer"
+        "Ludwig"
       ],
       [
-        "Ludwig",
+        "Schongauer",
         "sibling_of",
         "Caspar"
-      ],
-      [
-        "Caspar",
-        "sibling_of",
-        "Ludwig"
-      ],
-      [
-        "Paul",
-        "sibling_of",
-        "Ludwig"
       ],
       [
         "Ludwig",
@@ -1029,14 +862,9 @@
         "Paul"
       ],
       [
-        "Paul",
+        "Caspar",
         "sibling_of",
-        "Caspar"
-      ],
-      [
-        "Schongauer",
-        "sibling_of",
-        "Ludwig"
+        "Schongauer"
       ],
       [
         "Paul",
@@ -1044,28 +872,44 @@
         "Schongauer"
       ],
       [
-        "Schongauer",
+        "Caspar",
+        "sibling_of",
+        "Ludwig"
+      ],
+      [
+        "Paul",
         "sibling_of",
         "Caspar"
+      ],
+      [
+        "Ludwig",
+        "sibling_of",
+        "Caspar"
+      ],
+      [
+        "Paul",
+        "sibling_of",
+        "Ludwig"
       ],
       [
         "Schongauer",
         "sibling_of",
         "Paul"
-      ]
-    ],
-    "srl": [
-      [
-        "by Schongauer 's brothers , the goldsmiths Caspar and Paul and the painter Ludwig",
-        "welcomed",
-        "Dürer In Colmar"
       ]
     ]
   },
   "33": {
     "ner": [
       [
-        "Dürer",
+        "Later that year",
+        "DATE"
+      ],
+      [
+        "Basel",
+        "GPE"
+      ],
+      [
+        "Georg",
         "PERSON"
       ],
       [
@@ -1073,16 +917,8 @@
         "PERSON"
       ],
       [
-        "Georg",
+        "Dürer",
         "PERSON"
-      ],
-      [
-        "Basel",
-        "GPE"
-      ],
-      [
-        "Later that year",
-        "DATE"
       ]
     ],
     "relations": [],
@@ -1102,20 +938,20 @@
   "34": {
     "ner": [
       [
-        "Dürer",
-        "PERSON"
-      ],
-      [
-        "1493",
-        "DATE"
-      ],
-      [
         "Strasbourg",
         "GPE"
       ],
       [
         "Nikolaus Gerhaert",
         "PERSON"
+      ],
+      [
+        "Dürer",
+        "PERSON"
+      ],
+      [
+        "1493",
+        "DATE"
       ]
     ],
     "relations": [],
@@ -1135,24 +971,8 @@
   "35": {
     "ner": [
       [
-        "first",
-        "ORDINAL"
-      ],
-      [
-        "Dürer",
-        "PERSON"
-      ],
-      [
         "Nuremberg",
         "GPE"
-      ],
-      [
-        "Louvre",
-        "FAC"
-      ],
-      [
-        "7 July 1494",
-        "DATE"
       ],
       [
         "Agnes Frey",
@@ -1163,8 +983,24 @@
         "DATE"
       ],
       [
+        "7 July 1494",
+        "DATE"
+      ],
+      [
+        "Louvre",
+        "FAC"
+      ],
+      [
+        "first",
+        "ORDINAL"
+      ],
+      [
         "Nuremberg.Very",
         "GPE"
+      ],
+      [
+        "Dürer",
+        "PERSON"
       ]
     ],
     "relations": [
@@ -1175,30 +1011,13 @@
       ],
       [
         "Dürer",
-        "married_to",
-        "Agnes Frey"
+        "has_age",
+        "23"
       ],
       [
         "Dürer",
-        "has_age",
-        "23"
-      ]
-    ],
-    "srl": [
-      [
-        "Dürer 's first painted self - portrait ",
-        "painted",
-        " at this time"
-      ],
-      [
-        "Dürer 's first painted self - portrait ",
-        "sent",
-        "back to his fiancée probably in Nuremberg"
-      ],
-      [
-        "an arrangement made during his absence",
-        "following",
-        ""
+        "married_to",
+        "Agnes Frey"
       ]
     ]
   },
@@ -1214,39 +1033,32 @@
   "37": {
     "ner": [
       [
-        "Dürer",
+        "Albrecht",
         "PERSON"
       ],
       [
-        "Albrecht",
+        "Dürer",
         "PERSON"
       ]
     ],
-    "relations": [],
-    "srl": [
-      [
-        "the Dürer name",
-        "died",
-        ""
-      ]
-    ]
+    "relations": []
   },
   "38": {
     "ner": [
-      [
-        "Agnes",
-        "PERSON"
-      ],
-      [
-        "Albrecht",
-        "PERSON"
-      ],
       [
         "Willibald Pirckheimer",
         "PERSON"
       ],
       [
+        "Albrecht",
+        "PERSON"
+      ],
+      [
         "Dürer",
+        "PERSON"
+      ],
+      [
+        "Agnes",
         "PERSON"
       ]
     ],
@@ -1264,11 +1076,6 @@
     ],
     "srl": [
       [
-        "by the letters of Dürer in which he quipped to Willibald Pirckheimer in an extremely rough tone about his wife",
-        "indicated",
-        ""
-      ],
-      [
         "he",
         "quipped",
         "about his wife to Willibald Pirckheimer the letters of Dürer"
@@ -1278,7 +1085,7 @@
   "40": {
     "ner": [
       [
-        "Agnes",
+        "Dürer",
         "PERSON"
       ],
       [
@@ -1286,40 +1093,36 @@
         "PERSON"
       ],
       [
-        "Dürer",
+        "Agnes",
+        "PERSON"
+      ]
+    ],
+    "relations": []
+  },
+  "41": {
+    "ner": [
+      [
+        "The Men's Bath",
+        "WORK_OF_ART"
+      ],
+      [
+        "Albrecht",
         "PERSON"
       ]
     ],
     "relations": [],
     "srl": [
       [
-        "Dürer 's death",
-        "cause",
-        " at a young age"
+        "Albrecht",
+        "was",
+        "bisexual or homosexual due to the recurrence of homoerotic themes in his works ( e.g. The Men 's Bath ) , and the nature of his correspondence with close friends"
       ]
     ]
-  },
-  "41": {
-    "ner": [
-      [
-        "Albrecht",
-        "PERSON"
-      ],
-      [
-        "The Men's Bath",
-        "WORK_OF_ART"
-      ]
-    ],
-    "relations": []
   },
   "42": {
     "ner": [
       [
-        "Dürer",
-        "PERSON"
-      ],
-      [
-        "Nuremberg",
+        "Italy",
         "GPE"
       ],
       [
@@ -1327,8 +1130,12 @@
         "DATE"
       ],
       [
-        "Italy",
+        "Nuremberg",
         "GPE"
+      ],
+      [
+        "Dürer",
+        "PERSON"
       ]
     ],
     "relations": [
@@ -1374,28 +1181,16 @@
         "WORK_OF_ART"
       ]
     ],
-    "relations": [],
-    "srl": [
-      [
-        "others",
-        "deduced",
-        "from accurate landscapes of real places in his later work , for example his engraving Nemesis"
-      ],
-      [
-        "his",
-        "engraving",
-        "Nemesis"
-      ]
-    ]
+    "relations": []
   },
   "45": {
     "ner": [
       [
-        "Italy",
+        "Venice",
         "GPE"
       ],
       [
-        "Venice",
+        "Italy",
         "GPE"
       ]
     ],
@@ -1416,10 +1211,6 @@
   "46": {
     "ner": [
       [
-        "Dürer",
-        "PERSON"
-      ],
-      [
         "the Housebook Master",
         "PERSON"
       ],
@@ -1428,11 +1219,15 @@
         "PERSON"
       ],
       [
+        "Schongauer",
+        "PERSON"
+      ],
+      [
         "German",
         "NORP"
       ],
       [
-        "Schongauer",
+        "Dürer",
         "PERSON"
       ]
     ],
@@ -1448,20 +1243,20 @@
   "47": {
     "ner": [
       [
-        "Italian",
-        "NORP"
+        "Germany",
+        "GPE"
       ],
       [
-        "two",
-        "CARDINAL"
+        "Italian",
+        "NORP"
       ],
       [
         "Italy",
         "GPE"
       ],
       [
-        "Germany",
-        "GPE"
+        "two",
+        "CARDINAL"
       ]
     ],
     "relations": [],
@@ -1481,12 +1276,12 @@
   "48": {
     "ner": [
       [
-        "Giovanni Bellini",
-        "PERSON"
-      ],
-      [
         "Venice",
         "GPE"
+      ],
+      [
+        "Giovanni Bellini",
+        "PERSON"
       ]
     ],
     "relations": [],
@@ -1501,11 +1296,11 @@
   "49": {
     "ner": [
       [
-        "Lorenzo di Credi",
+        "Andrea Mantegna",
         "PERSON"
       ],
       [
-        "Andrea Mantegna",
+        "Lorenzo di Credi",
         "PERSON"
       ],
       [
@@ -1516,11 +1311,6 @@
     "relations": [],
     "srl": [
       [
-        "His drawings and engravings",
-        "show",
-        "the influence of others , notably Antonio del Pollaiuolo , with his interest in the proportions of the body ; Lorenzo di Credi ; and Andrea Mantegna , whose work he produced copies of while training"
-      ],
-      [
         "he",
         "produced",
         "copies of while training"
@@ -1530,12 +1320,12 @@
   "50": {
     "ner": [
       [
-        "Dürer",
-        "PERSON"
-      ],
-      [
         "Mantua",
         "GPE"
+      ],
+      [
+        "Dürer",
+        "PERSON"
       ],
       [
         "Padua",
@@ -1558,12 +1348,12 @@
         "DATE"
       ],
       [
-        "Dürer",
-        "PERSON"
-      ],
-      [
         "Nuremberg",
         "GPE"
+      ],
+      [
+        "Dürer",
+        "PERSON"
       ]
     ],
     "relations": [],
@@ -1578,26 +1368,19 @@
   "52": {
     "ner": [
       [
-        "the next five years",
-        "DATE"
-      ],
-      [
         "Northern",
         "NORP"
       ],
       [
         "Italian",
         "NORP"
+      ],
+      [
+        "the next five years",
+        "DATE"
       ]
     ],
-    "relations": [],
-    "srl": [
-      [
-        "his style",
-        "integrated",
-        "Italian influences into underlying Northern forms Over the next five years increasingly"
-      ]
-    ]
+    "relations": []
   },
   "53": {
     "ner": [
@@ -1606,22 +1389,15 @@
         "WORK_OF_ART"
       ],
       [
-        "1496",
+        "the first years",
         "DATE"
       ],
       [
-        "the first years",
+        "1496",
         "DATE"
       ]
     ],
-    "relations": [],
-    "srl": [
-      [
-        "his best works in the first years of the workshop",
-        "were",
-        "his woodcut prints , mostly religious , but including secular scenes such as The Men 's Bath House  Arguably"
-      ]
-    ]
+    "relations": []
   },
   "54": {
     "ner": [
@@ -1655,14 +1431,7 @@
         "PERSON"
       ]
     ],
-    "relations": [],
-    "srl": [
-      [
-        "his training in Wolgemut 's studio , which made many carved and painted altarpieces and both designed and cut woodblocks for woodcut",
-        "gave",
-        "great understanding of what the technique could be made to produce , and how to work with block cutters him evidently"
-      ]
-    ]
+    "relations": []
   },
   "57": {
     "ner": [
@@ -1688,46 +1457,26 @@
   "59": {
     "ner": [
       [
-        "1498",
-        "DATE"
-      ],
-      [
-        "Apocalypse",
-        "EVENT"
-      ],
-      [
         "St. Michael Fighting the Dragon",
         "WORK_OF_ART"
       ],
       [
         "sixteen",
         "CARDINAL"
-      ]
-    ],
-    "relations": [],
-    "srl": [
-      [
-        "His series of sixteen designs for the Apocalypse",
-        "dated",
-        "1498 as is his engraving of St. Michael Fighting the Dragon"
       ],
       [
-        "his engraving of St. Michael Fighting the Dragon",
-        "is",
-        ""
+        "1498",
+        "DATE"
+      ],
+      [
+        "Apocalypse",
+        "EVENT"
       ]
-    ]
+    ],
+    "relations": []
   },
   "60": {
     "ner": [
-      [
-        "first",
-        "ORDINAL"
-      ],
-      [
-        "eleven",
-        "CARDINAL"
-      ],
       [
         "seven",
         "CARDINAL"
@@ -1735,6 +1484,14 @@
       [
         "the Great Passion",
         "WORK_OF_ART"
+      ],
+      [
+        "first",
+        "ORDINAL"
+      ],
+      [
+        "eleven",
+        "CARDINAL"
       ]
     ],
     "relations": [],
@@ -1757,81 +1514,62 @@
         "DATE"
       ],
       [
-        "Dürer",
-        "PERSON"
-      ],
-      [
         "Saxony",
         "GPE"
       ],
       [
         "The Seven Sorrows Polyptych",
         "WORK_OF_ART"
-      ]
-    ],
-    "relations": [],
-    "srl": [
-      [
-        "by Dürer and his assistants",
-        "executed",
-        "The Seven Sorrows Polyptych , commissioned by Frederick III of Saxony in 1496"
-      ]
-    ]
-  },
-  "62": {
-    "ner": [
-      [
-        "1500.",
-        "CARDINAL"
       ],
       [
         "Dürer",
         "PERSON"
+      ]
+    ],
+    "relations": []
+  },
+  "62": {
+    "ner": [
+      [
+        "Dürer",
+        "PERSON"
+      ],
+      [
+        "1500.",
+        "CARDINAL"
       ],
       [
         "1502",
         "DATE"
       ]
     ],
-    "relations": [],
-    "srl": [
-      [
-        "Dürer 's father",
-        "died",
-        " In 1502"
-      ]
-    ]
+    "relations": []
   },
   "63": {
     "ner": [
+      [
+        "Around 1503–1505",
+        "DATE"
+      ],
       [
         "first",
         "ORDINAL"
       ],
       [
-        "Dürer",
-        "PERSON"
+        "the Life of the Virgin",
+        "WORK_OF_ART"
       ],
       [
         "17",
         "CARDINAL"
       ],
       [
-        "Around 1503–1505",
-        "DATE"
-      ],
-      [
-        "the Life of the Virgin",
-        "WORK_OF_ART"
+        "Dürer",
+        "PERSON"
       ]
     ],
     "relations": [],
     "srl": [
-      [
-        "Around 1503–1505 Dürer",
-        "produced",
-        "the first 17 of a set illustrating the Life of the Virgin , which he did not finish for some years"
-      ],
       [
         "he",
         "not finish",
@@ -1842,25 +1580,20 @@
   "64": {
     "ner": [
       [
+        "the Great Passion",
+        "WORK_OF_ART"
+      ],
+      [
         "Dürer",
         "PERSON"
       ],
       [
         "several years later",
         "DATE"
-      ],
-      [
-        "the Great Passion",
-        "WORK_OF_ART"
       ]
     ],
     "relations": [],
     "srl": [
-      [
-        "Neither these nor the Great Passion",
-        "published",
-        " until several years later"
-      ],
       [
         "Dürer",
         "trained",
@@ -1871,32 +1604,32 @@
   "66": {
     "ner": [
       [
-        "Italian",
-        "NORP"
-      ],
-      [
         "Germanic",
         "NORP"
-      ],
-      [
-        "Giorgio Vasari",
-        "PERSON"
-      ],
-      [
-        "1496",
-        "DATE"
-      ],
-      [
-        "Renaissance",
-        "DATE"
       ],
       [
         "some decades later",
         "DATE"
       ],
       [
+        "1496",
+        "DATE"
+      ],
+      [
+        "Giorgio Vasari",
+        "PERSON"
+      ],
+      [
         "the Prodigal Son",
         "WORK_OF_ART"
+      ],
+      [
+        "Renaissance",
+        "DATE"
+      ],
+      [
+        "Italian",
+        "NORP"
       ]
     ],
     "relations": [
@@ -1911,36 +1644,26 @@
         "he",
         "executed",
         "the Prodigal Son , which the Italian Renaissance art historian Giorgio Vasari singled out for praise some decades later , noting its Germanic quality In 1496"
-      ],
-      [
-        "the Italian Renaissance art historian Giorgio Vasari",
-        "singled",
-        "the Prodigal Son for praise some decades later"
-      ],
-      [
-        "the Italian Renaissance art historian Giorgio Vasari",
-        "noting",
-        "its Germanic quality"
       ]
     ]
   },
   "67": {
     "ner": [
       [
-        "1502",
+        "1498",
         "DATE"
       ],
       [
-        "1498",
-        "DATE"
+        "The Sea Monster",
+        "WORK_OF_ART"
       ],
       [
         "Nemesis",
         "WORK_OF_ART"
       ],
       [
-        "The Sea Monster",
-        "WORK_OF_ART"
+        "1502",
+        "DATE"
       ],
       [
         "Saint Eustace",
@@ -1976,14 +1699,7 @@
         "WORK_OF_ART"
       ]
     ],
-    "relations": [],
-    "srl": [
-      [
-        "His landscapes of this period , such as Pond in the Woods and Willow Mill",
-        "are",
-        "quite different from his earlier watercolours"
-      ]
-    ]
+    "relations": []
   },
   "71": {
     "ner": [
@@ -2004,22 +1720,18 @@
   "72": {
     "ner": [
       [
-        "Dürer",
-        "PERSON"
-      ],
-      [
         "Europe",
         "LOC"
+      ],
+      [
+        "Dürer",
+        "PERSON"
       ]
     ],
     "relations": []
   },
   "73": {
     "ner": [
-      [
-        "Dürer",
-        "PERSON"
-      ],
       [
         "Venice",
         "GPE"
@@ -2029,15 +1741,19 @@
         "GPE"
       ],
       [
-        "1500",
-        "DATE"
+        "Jacopo de' Barbari",
+        "PERSON"
       ],
       [
         "Venetian",
         "NORP"
       ],
       [
-        "Jacopo de' Barbari",
+        "1500",
+        "DATE"
+      ],
+      [
+        "Dürer",
         "PERSON"
       ]
     ],
@@ -2053,11 +1769,6 @@
         "Dürer",
         "met",
         "The Venetian artist Jacopo de ' Barbari in Venice"
-      ],
-      [
-        "The Venetian artist Jacopo de ' Barbari , whom Dürer had met in Venice",
-        "visited",
-        "Nuremberg in 1500"
       ],
       [
         "Dürer",
@@ -2093,20 +1804,11 @@
         "Dürer",
         "began",
         "his own studies , which would become a lifelong preoccupation"
-      ],
-      [
-        "his own studies",
-        "become",
-        "a lifelong preoccupation"
       ]
     ]
   },
   "75": {
     "ner": [
-      [
-        "Dürer",
-        "PERSON"
-      ],
       [
         "Adam and Eve",
         "WORK_OF_ART"
@@ -2114,6 +1816,10 @@
       [
         "1504",
         "DATE"
+      ],
+      [
+        "Dürer",
+        "PERSON"
       ]
     ],
     "relations": []
@@ -2121,16 +1827,16 @@
   "77": {
     "ner": [
       [
-        "Dürer",
-        "PERSON"
+        "the Betende Hände",
+        "WORK_OF_ART"
       ],
       [
         "1508",
         "DATE"
       ],
       [
-        "the Betende Hände",
-        "WORK_OF_ART"
+        "Dürer",
+        "PERSON"
       ]
     ],
     "relations": [],
@@ -2145,11 +1851,11 @@
   "78": {
     "ner": [
       [
-        "the Great Piece of Turf",
+        "Young Hare",
         "WORK_OF_ART"
       ],
       [
-        "Young Hare",
+        "the Great Piece of Turf",
         "WORK_OF_ART"
       ],
       [
@@ -2172,16 +1878,6 @@
         "He",
         "make",
         "images in watercolour and bodycolour "
-      ],
-      [
-        "a number of still lifes of meadow sections or animals , including his Young Hare ",
-        "including",
-        "images in watercolour and bodycolour ( usually combined"
-      ],
-      [
-        "his Young Hare ",
-        "including",
-        "meadow sections or animals"
       ]
     ]
   },
@@ -2226,12 +1922,12 @@
   "81": {
     "ner": [
       [
-        "1506",
-        "DATE"
-      ],
-      [
         "Venice",
         "GPE"
+      ],
+      [
+        "1506",
+        "DATE"
       ]
     ],
     "relations": [],
@@ -2255,19 +1951,7 @@
         "PERSON"
       ]
     ],
-    "relations": [],
-    "srl": [
-      [
-        "Dürer 's engravings",
-        "attained",
-        "great popularity By this time"
-      ],
-      [
-        "Dürer 's engravings",
-        "copied",
-        " By this time"
-      ]
-    ]
+    "relations": []
   },
   "83": {
     "ner": [
@@ -2276,12 +1960,12 @@
         "GPE"
       ],
       [
-        "San Bartolomeo",
-        "ORG"
-      ],
-      [
         "German",
         "NORP"
+      ],
+      [
+        "San Bartolomeo",
+        "ORG"
       ]
     ],
     "relations": []
@@ -2289,26 +1973,19 @@
   "84": {
     "ner": [
       [
+        "of",
+        "WORK_OF_ART"
+      ],
+      [
         "Garlands",
         "WORK_OF_ART"
       ],
       [
         "the Adoration of the Virgin",
         "WORK_OF_ART"
-      ],
-      [
-        "of",
-        "WORK_OF_ART"
       ]
     ],
-    "relations": [],
-    "srl": [
-      [
-        "This",
-        "was",
-        "the altar - piece known as the Adoration of the Virgin or the Feast of Rose Garlands"
-      ]
-    ]
+    "relations": []
   },
   "85": {
     "ner": [
@@ -2317,11 +1994,11 @@
         "GPE"
       ],
       [
-        "Italian",
+        "German",
         "NORP"
       ],
       [
-        "German",
+        "Italian",
         "NORP"
       ]
     ],
@@ -2330,12 +2007,12 @@
   "86": {
     "ner": [
       [
-        "Prague",
-        "GPE"
-      ],
-      [
         "Rudolf II",
         "PERSON"
+      ],
+      [
+        "Prague",
+        "GPE"
       ]
     ],
     "relations": []
@@ -2343,20 +2020,12 @@
   "87": {
     "ner": [
       [
-        "Dürer",
-        "PERSON"
-      ],
-      [
-        "Nuremberg",
-        "GPE"
-      ],
-      [
         "Germany",
         "GPE"
       ],
       [
-        "mid-1507",
-        "DATE"
+        "Nuremberg",
+        "GPE"
       ],
       [
         "Venetians",
@@ -2365,18 +2034,26 @@
       [
         "1520",
         "DATE"
+      ],
+      [
+        "mid-1507",
+        "DATE"
+      ],
+      [
+        "Dürer",
+        "PERSON"
       ]
     ],
     "relations": [
       [
         "Dürer",
         "lived_in",
-        "Nuremberg"
+        "Germany"
       ],
       [
         "Dürer",
         "lived_in",
-        "Germany"
+        "Nuremberg"
       ]
     ],
     "srl": [
@@ -2395,16 +2072,24 @@
   "88": {
     "ner": [
       [
-        "Jacob Heller of Frankfurt",
-        "PERSON"
+        "Assumption of the Virgin",
+        "WORK_OF_ART"
       ],
       [
-        "1508",
+        "Martyrdom of the Ten Thousand",
+        "WORK_OF_ART"
+      ],
+      [
+        "1507 and 1511",
         "DATE"
       ],
       [
-        "Matthaeus Landauer",
-        "PERSON"
+        "Adoration of the Trinity",
+        "WORK_OF_ART"
+      ],
+      [
+        "1511",
+        "DATE"
       ],
       [
         "Raphael.Between",
@@ -2415,28 +2100,8 @@
         "DATE"
       ],
       [
-        "1509",
-        "DATE"
-      ],
-      [
-        "Virgin with the Iris",
-        "WORK_OF_ART"
-      ],
-      [
-        "Adoration of the Trinity",
-        "WORK_OF_ART"
-      ],
-      [
-        "Dürer",
-        "PERSON"
-      ],
-      [
         "Adam and Eve",
         "WORK_OF_ART"
-      ],
-      [
-        "1511",
-        "DATE"
       ],
       [
         "Europe",
@@ -2447,25 +2112,32 @@
         "PERSON"
       ],
       [
-        "1507 and 1511",
+        "1509",
         "DATE"
       ],
       [
-        "Martyrdom of the Ten Thousand",
+        "Jacob Heller of Frankfurt",
+        "PERSON"
+      ],
+      [
+        "Virgin with the Iris",
         "WORK_OF_ART"
       ],
       [
-        "Assumption of the Virgin",
-        "WORK_OF_ART"
+        "Matthaeus Landauer",
+        "PERSON"
+      ],
+      [
+        "1508",
+        "DATE"
+      ],
+      [
+        "Dürer",
+        "PERSON"
       ]
     ],
     "relations": [],
     "srl": [
-      [
-        "His reputation",
-        "spread",
-        " throughout Europe"
-      ],
       [
         "he",
         "was",
@@ -2485,10 +2157,6 @@
         "WORK_OF_ART"
       ],
       [
-        "two",
-        "CARDINAL"
-      ],
-      [
         "1511",
         "DATE"
       ],
@@ -2503,6 +2171,10 @@
       [
         "the Life of the Virgin",
         "WORK_OF_ART"
+      ],
+      [
+        "two",
+        "CARDINAL"
       ]
     ],
     "relations": [],
@@ -2517,12 +2189,12 @@
   "90": {
     "ner": [
       [
-        "Dürer",
-        "PERSON"
-      ],
-      [
         "post-Venetian",
         "NORP"
+      ],
+      [
+        "Dürer",
+        "PERSON"
       ]
     ],
     "relations": []
@@ -2530,7 +2202,7 @@
   "91": {
     "ner": [
       [
-        "fifteen",
+        "thirty-seven",
         "CARDINAL"
       ],
       [
@@ -2538,16 +2210,16 @@
         "DATE"
       ],
       [
+        "Little Passion",
+        "WORK_OF_ART"
+      ],
+      [
         "1512",
         "DATE"
       ],
       [
-        "thirty-seven",
+        "fifteen",
         "CARDINAL"
-      ],
-      [
-        "Little Passion",
-        "WORK_OF_ART"
       ]
     ],
     "relations": []
@@ -2567,11 +2239,6 @@
         "that painting did not make enough money to justify the time spent when compared to his prints"
       ],
       [
-        "to his prints",
-        "compared",
-        " when"
-      ],
-      [
         "he",
         "produced",
         "no paintings from 1513 to 1516"
@@ -2581,7 +2248,11 @@
   "93": {
     "ner": [
       [
-        "Knight, Death and the Devil",
+        "St. Jerome in His Study",
+        "WORK_OF_ART"
+      ],
+      [
+        "Handbook of a Christian Knight",
         "WORK_OF_ART"
       ],
       [
@@ -2589,32 +2260,28 @@
         "CARDINAL"
       ],
       [
-        "Dürer",
-        "PERSON"
-      ],
-      [
         "Erasmus",
         "PERSON"
       ],
       [
-        "St. Jerome in His Study",
+        "Knight, Death and the Devil",
         "WORK_OF_ART"
+      ],
+      [
+        "1514",
+        "DATE"
       ],
       [
         "1513",
         "DATE"
       ],
       [
-        "Handbook of a Christian Knight",
-        "WORK_OF_ART"
-      ],
-      [
         "Melencolia I",
         "WORK_OF_ART"
       ],
       [
-        "1514",
-        "DATE"
+        "Dürer",
+        "PERSON"
       ]
     ],
     "relations": [],
@@ -2623,47 +2290,35 @@
         "Dürer",
         "created",
         "his three most famous engravings : Knight , Death and the Devil  In 1513 and 1514"
-      ],
-      [
-        "the year Dürer 's mother",
-        "died",
-        ""
       ]
     ]
   },
   "94": {
     "ner": [
       [
-        "Dürer",
-        "PERSON"
+        "1513",
+        "DATE"
       ],
       [
         "Pirckheimer",
         "PERSON"
       ],
       [
-        "1513",
-        "DATE"
+        "Dürer",
+        "PERSON"
       ]
     ],
-    "relations": [],
-    "srl": [
-      [
-        "Further outstanding pen and ink drawings of Dürer 's period of art work of 1513",
-        "were",
-        "drafts for his friend Pirckheimer"
-      ]
-    ]
+    "relations": []
   },
   "96": {
     "ner": [
       [
-        "Lisbon",
-        "GPE"
-      ],
-      [
         "1515",
         "DATE"
+      ],
+      [
+        "Lisbon",
+        "GPE"
       ]
     ],
     "relations": [],
@@ -2686,12 +2341,12 @@
         "DATE"
       ],
       [
-        "one",
-        "CARDINAL"
-      ],
-      [
         "German",
         "NORP"
+      ],
+      [
+        "one",
+        "CARDINAL"
       ]
     ],
     "relations": []
@@ -2699,7 +2354,7 @@
   "98": {
     "ner": [
       [
-        "1516",
+        "the years leading to 1520",
         "DATE"
       ],
       [
@@ -2707,7 +2362,7 @@
         "DATE"
       ],
       [
-        "the years leading to 1520",
+        "1516",
         "DATE"
       ]
     ],
@@ -2723,8 +2378,8 @@
   "99": {
     "ner": [
       [
-        "five",
-        "CARDINAL"
+        "sixth",
+        "ORDINAL"
       ],
       [
         "between 1515–1516",
@@ -2735,22 +2390,12 @@
         "DATE"
       ],
       [
-        "sixth",
-        "ORDINAL"
+        "five",
+        "CARDINAL"
       ]
     ],
     "relations": [],
     "srl": [
-      [
-        "His only experiments with etching",
-        "came",
-        " in this period"
-      ],
-      [
-        "His only experiments with etching",
-        "producing",
-        "five between 1515–1516 and a sixth in 1518"
-      ],
       [
         "he",
         "abandoned",
@@ -2761,15 +2406,15 @@
   "100": {
     "ner": [
       [
+        "Maximilian I",
+        "PERSON"
+      ],
+      [
         "1512",
         "DATE"
       ],
       [
         "Dürer",
-        "PERSON"
-      ],
-      [
-        "Maximilian I",
         "PERSON"
       ]
     ],
@@ -2778,24 +2423,24 @@
   "101": {
     "ner": [
       [
-        "The Triumphal Arch",
+        "Hieroglyphica",
         "WORK_OF_ART"
-      ],
-      [
-        "192",
-        "CARDINAL"
-      ],
-      [
-        "Horapollo",
-        "PERSON"
       ],
       [
         "Pirckheimer",
         "PERSON"
       ],
       [
-        "Hieroglyphica",
+        "192",
+        "CARDINAL"
+      ],
+      [
+        "The Triumphal Arch",
         "WORK_OF_ART"
+      ],
+      [
+        "Horapollo",
+        "PERSON"
       ]
     ],
     "relations": [],
@@ -2810,39 +2455,32 @@
   "102": {
     "ner": [
       [
-        "Dürer",
-        "PERSON"
-      ],
-      [
         "Hieronymous Andreae",
-        "PERSON"
-      ],
-      [
-        "Jörg Kölderer",
         "PERSON"
       ],
       [
         "Johannes Stabius",
         "PERSON"
-      ]
-    ],
-    "relations": [],
-    "srl": [
-      [
-        "by Johannes Stabius , the architectural design by the master builder and court - painter Jörg Kölderer and the woodcutting itself by Hieronymous Andreae , with Dürer as designer - in - chief",
-        "devised",
-        "The design program and explanations"
-      ]
-    ]
-  },
-  "103": {
-    "ner": [
+      ],
       [
         "Dürer",
         "PERSON"
       ],
       [
-        "Treitz-Saurwein",
+        "Jörg Kölderer",
+        "PERSON"
+      ]
+    ],
+    "relations": []
+  },
+  "103": {
+    "ner": [
+      [
+        "Albrecht Altdorfer",
+        "PERSON"
+      ],
+      [
+        "Hans Springinklee",
         "PERSON"
       ],
       [
@@ -2850,45 +2488,37 @@
         "WORK_OF_ART"
       ],
       [
-        "1512",
-        "DATE"
+        "Treitz-Saurwein",
+        "PERSON"
       ],
       [
-        "Albrecht Altdorfer",
-        "PERSON"
+        "1512",
+        "DATE"
       ],
       [
         "Arch",
         "WORK_OF_ART"
       ],
       [
-        "Hans Springinklee",
+        "Dürer",
         "PERSON"
       ]
     ],
-    "relations": [],
-    "srl": [
-      [
-        "by The Triumphal Procession , the program of which was worked out in 1512 by Marx Treitz - Saurwein and includes woodcuts by Albrecht Altdorfer and Hans Springinklee , as well as Dürer",
-        "followed",
-        "The Arch"
-      ],
-      [
-        "woodcuts by Albrecht Altdorfer and Hans Springinklee , as well as Dürer",
-        "includes",
-        "the program of which"
-      ]
-    ]
+    "relations": []
   },
   "104": {
     "ner": [
       [
-        "first",
-        "ORDINAL"
+        "Prayer-Book",
+        "WORK_OF_ART"
       ],
       [
         "Emperor",
         "PERSON"
+      ],
+      [
+        "first",
+        "ORDINAL"
       ],
       [
         "Dürer",
@@ -2897,10 +2527,6 @@
       [
         "1808",
         "DATE"
-      ],
-      [
-        "Prayer-Book",
-        "WORK_OF_ART"
       ]
     ],
     "relations": [],
@@ -2915,7 +2541,7 @@
   "105": {
     "ner": [
       [
-        "Dürer",
+        "Lucas Cranach the Elder",
         "PERSON"
       ],
       [
@@ -2923,31 +2549,24 @@
         "PERSON"
       ],
       [
-        "Lucas Cranach the Elder",
+        "Dürer",
         "PERSON"
       ]
     ],
-    "relations": [],
-    "srl": [
-      [
-        "Dürer 's work on the book",
-        "halted",
-        " for an unknown reason"
-      ]
-    ]
+    "relations": []
   },
   "106": {
     "ner": [
-      [
-        "Dürer",
-        "PERSON"
-      ],
       [
         "1519",
         "DATE"
       ],
       [
         "Maximilian",
+        "PERSON"
+      ],
+      [
+        "Dürer",
         "PERSON"
       ]
     ],
@@ -2969,32 +2588,25 @@
   "107": {
     "ner": [
       [
-        "Dürer",
+        "Maximilian",
         "PERSON"
       ],
       [
-        "Maximilian",
+        "Dürer",
         "PERSON"
       ]
     ],
-    "relations": [],
-    "srl": [
-      [
-        "to be Dürer 's most important patron",
-        "turned",
-        ""
-      ]
-    ]
+    "relations": []
   },
   "108": {
     "ner": [
       [
-        "Dürer",
-        "PERSON"
-      ],
-      [
         "Germany",
         "GPE"
+      ],
+      [
+        "Dürer",
+        "PERSON"
       ]
     ],
     "relations": [],
@@ -3018,15 +2630,15 @@
         "DATE"
       ],
       [
-        "Pirckheimer",
-        "PERSON"
-      ],
-      [
         "Maximilian",
         "PERSON"
       ],
       [
         "Dürer",
+        "PERSON"
+      ],
+      [
+        "Pirckheimer",
         "PERSON"
       ]
     ],
@@ -3050,11 +2662,7 @@
         "PERSON"
       ],
       [
-        "Hans Tscherte",
-        "PERSON"
-      ],
-      [
-        "Dürer",
+        "Johannes Stabius",
         "PERSON"
       ],
       [
@@ -3062,7 +2670,11 @@
         "PERSON"
       ],
       [
-        "Johannes Stabius",
+        "Hans Tscherte",
+        "PERSON"
+      ],
+      [
+        "Dürer",
         "PERSON"
       ]
     ],
@@ -3072,28 +2684,18 @@
         "Dürer",
         "collaborated",
         "with a great number of other brilliant artists and scholars of the time who became his friends , like Johannes Stabius , Konrad Peutinger , Conrad Celtes , and Hans Tscherte also In Maximilian 's court"
-      ],
-      [
-        "other brilliant artists and scholars of the time",
-        "became",
-        "his friends"
-      ],
-      [
-        "an imperial architect).Dürer",
-        "manifested",
-        "a strong pride in his ability ,"
       ]
     ]
   },
   "111": {
     "ner": [
       [
-        "Dürer",
-        "PERSON"
-      ],
-      [
         "One",
         "CARDINAL"
+      ],
+      [
+        "Dürer",
+        "PERSON"
       ]
     ],
     "relations": []
@@ -3101,11 +2703,11 @@
   "112": {
     "ner": [
       [
-        "Dürer",
+        "Maximilian",
         "PERSON"
       ],
       [
-        "Maximilian",
+        "Dürer",
         "PERSON"
       ]
     ],
@@ -3120,48 +2722,26 @@
         "Dürer",
         "finished",
         "the drawing"
-      ],
-      [
-        "This is my scepter",
-        "told",
-        "him"
-      ],
-      [
-        "This",
-        "is",
-        "my scepter"
       ]
     ]
   },
   "113": {
     "ner": [
       [
-        "Dürer",
+        "Maximilian",
         "PERSON"
       ],
       [
-        "Maximilian",
+        "Dürer",
         "PERSON"
       ]
     ],
-    "relations": [],
-    "srl": [
-      [
-        "the ladder Dürer used",
-        "was",
-        "too short and unstable"
-      ],
-      [
-        "the ladder Dürer used",
-        "told",
-        "to hold it for him a noble thus"
-      ]
-    ]
+    "relations": []
   },
   "115": {
     "ner": [
       [
-        "Dürer",
+        "Maximilian",
         "PERSON"
       ],
       [
@@ -3169,12 +2749,12 @@
         "PERSON"
       ],
       [
-        "Maximilian",
-        "PERSON"
-      ],
-      [
         "1849",
         "DATE"
+      ],
+      [
+        "Dürer",
+        "PERSON"
       ]
     ],
     "relations": [],
@@ -3188,20 +2768,11 @@
         "he",
         "not make",
         "an artist like Dürer out of a noble"
-      ],
-      [
-        "This story and a 1849 painting depicting it by August Siegert",
-        "become",
-        "relevant recently"
       ]
     ]
   },
   "116": {
     "ner": [
-      [
-        "Dürer",
-        "PERSON"
-      ],
       [
         "Vienna",
         "GPE"
@@ -3211,17 +2782,16 @@
         "FAC"
       ],
       [
+        "Dürer",
+        "PERSON"
+      ],
+      [
         "nineteenth-century",
         "DATE"
       ]
     ],
     "relations": [],
     "srl": [
-      [
-        "This nineteenth - century painting",
-        "shows",
-        "Dürer painting a mural at St. Stephen 's Cathedral , Vienna"
-      ],
       [
         "Dürer",
         "painting",
@@ -3232,25 +2802,20 @@
   "117": {
     "ner": [
       [
-        "Dürer",
-        "PERSON"
+        "Viennese",
+        "NORP"
       ],
       [
         "seventeenth-century",
         "DATE"
       ],
       [
-        "Viennese",
-        "NORP"
+        "Dürer",
+        "PERSON"
       ]
     ],
     "relations": [],
     "srl": [
-      [
-        "this encounter",
-        "corresponds",
-        "with the period Dürer was working on the Viennese murals"
-      ],
       [
         "Dürer",
         "working",
@@ -3261,8 +2826,8 @@
   "118": {
     "ner": [
       [
-        "Dürer",
-        "PERSON"
+        "St. Stephen's Cathedral",
+        "FAC"
       ],
       [
         "Nuremberg",
@@ -3273,8 +2838,8 @@
         "DATE"
       ],
       [
-        "St. Stephen's Cathedral",
-        "FAC"
+        "Dürer",
+        "PERSON"
       ]
     ],
     "relations": []
@@ -3282,16 +2847,16 @@
   "119": {
     "ner": [
       [
-        "Dürer",
-        "PERSON"
+        "2022",
+        "DATE"
       ],
       [
         "Nuremberg",
         "GPE"
       ],
       [
-        "2022",
-        "DATE"
+        "Dürer",
+        "PERSON"
       ]
     ],
     "relations": []
@@ -3307,33 +2872,21 @@
         "PERSON"
       ]
     ],
-    "relations": [],
-    "srl": [
-      [
-        "that this was Maximilian",
-        "suggest",
-        ""
-      ],
-      [
-        "this",
-        "was",
-        "Maximilian"
-      ]
-    ]
+    "relations": []
   },
   "121": {
     "ner": [
       [
-        "Dürer",
-        "PERSON"
+        "1511",
+        "DATE"
       ],
       [
         "1505",
         "DATE"
       ],
       [
-        "1511",
-        "DATE"
+        "Dürer",
+        "PERSON"
       ]
     ],
     "relations": [],
@@ -3342,106 +2895,80 @@
         "Dürer",
         "entered",
         "the emperor 's service in 1511"
-      ],
-      [
-        "they have known and worked with each other earlier than 1511",
-        "is",
-        "possible"
       ]
     ]
   },
   "122": {
     "ner": [
       [
-        "Dürer",
+        "Johannes Stabius",
         "PERSON"
       ],
       [
-        "Johannes Stabius",
+        "Dürer",
         "PERSON"
       ]
     ],
-    "relations": [],
-    "srl": [
-      [
-        "Dürer 's exploration of space",
-        "led",
-        "to a relationship and cooperation with the court astronomer Johannes Stabius"
-      ]
-    ]
+    "relations": []
   },
   "123": {
     "ner": [
       [
-        "first",
-        "ORDINAL"
-      ],
-      [
-        "Dürer",
+        "Stabius",
         "PERSON"
       ],
       [
         "1515",
         "DATE"
+      ],
+      [
+        "first",
+        "ORDINAL"
       ],
       [
         "Maximilian",
         "PERSON"
       ],
       [
-        "Stabius",
+        "Dürer",
         "PERSON"
       ]
     ],
-    "relations": [],
-    "srl": [
-      [
-        "Dürer and Stabius",
-        "created",
-        "the first world map projected on a solid geometric sphere In 1515"
-      ]
-    ]
+    "relations": []
   },
   "124": {
     "ner": [
       [
-        "first",
-        "ORDINAL"
-      ],
-      [
-        "Dürer",
+        "Stabius",
         "PERSON"
-      ],
-      [
-        "Europe",
-        "LOC"
       ],
       [
         "1515",
         "DATE"
       ],
       [
-        "Stabius",
+        "Konrad Heinfogel",
         "PERSON"
       ],
       [
-        "Konrad Heinfogel",
+        "first",
+        "ORDINAL"
+      ],
+      [
+        "Europe",
+        "LOC"
+      ],
+      [
+        "Dürer",
         "PERSON"
       ]
     ],
-    "relations": [],
-    "srl": [
-      [
-        "Stabius , Dürer and the astronomer Konrad Heinfogel",
-        "produced",
-        "the first planispheres of both southern and northerns hemispheres , as well as the first printed celestial maps in 1515 which prompted the revival of interest in the field of uranometry throughout Europe"
-      ]
-    ]
+    "relations": []
   },
   "125": {
     "ner": [
       [
-        "Dürer",
+        "Maximilian",
         "PERSON"
       ],
       [
@@ -3449,7 +2976,7 @@
         "PERSON"
       ],
       [
-        "Maximilian",
+        "Dürer",
         "PERSON"
       ]
     ],
@@ -3464,23 +2991,18 @@
         "he",
         "losing",
         "\" my sight and freedom of hand \" perhaps caused by arthritis"
-      ],
-      [
-        "by the writings of Martin Luther",
-        "affected",
-        "he increasingly"
       ]
     ]
   },
   "126": {
     "ner": [
       [
-        "Dürer",
-        "PERSON"
+        "Imperial",
+        "NORP"
       ],
       [
-        "fourth",
-        "ORDINAL"
+        "July 1520",
+        "DATE"
       ],
       [
         "Aachen",
@@ -3491,16 +3013,16 @@
         "PERSON"
       ],
       [
-        "Imperial",
-        "NORP"
-      ],
-      [
         "Maximilian",
         "PERSON"
       ],
       [
-        "July 1520",
-        "DATE"
+        "fourth",
+        "ORDINAL"
+      ],
+      [
+        "Dürer",
+        "PERSON"
       ]
     ],
     "relations": [],
@@ -3525,11 +3047,11 @@
   "127": {
     "ner": [
       [
-        "Dürer",
-        "PERSON"
+        "Antwerp",
+        "GPE"
       ],
       [
-        "Antwerp",
+        "Cologne",
         "GPE"
       ],
       [
@@ -3537,17 +3059,12 @@
         "LOC"
       ],
       [
-        "Cologne",
-        "GPE"
+        "Dürer",
+        "PERSON"
       ]
     ],
     "relations": [],
     "srl": [
-      [
-        "Dürer",
-        "journeyed",
-        ""
-      ],
       [
         "he",
         "received",
@@ -3563,11 +3080,15 @@
   "128": {
     "ner": [
       [
+        "Cologne",
+        "GPE"
+      ],
+      [
         "van Eyck's",
         "PERSON"
       ],
       [
-        "s-Hertogenbosch",
+        "Nijmegen",
         "GPE"
       ],
       [
@@ -3575,19 +3096,11 @@
         "GPE"
       ],
       [
+        "s-Hertogenbosch",
+        "GPE"
+      ],
+      [
         "Bruges",
-        "GPE"
-      ],
-      [
-        "Cologne",
-        "GPE"
-      ],
-      [
-        "Nijmegen",
-        "GPE"
-      ],
-      [
-        "Ghent",
         "GPE"
       ],
       [
@@ -3595,12 +3108,16 @@
         "PERSON"
       ],
       [
-        "Michelangelo",
-        "PERSON"
+        "Ghent",
+        "GPE"
       ],
       [
         "Madonna of Bruges",
         "WORK_OF_ART"
+      ],
+      [
+        "Michelangelo",
+        "PERSON"
       ]
     ],
     "relations": [],
@@ -3679,19 +3196,12 @@
         "NORP"
       ]
     ],
-    "relations": [],
-    "srl": [
-      [
-        "Dürer 's Netherlandish diary",
-        "reveals",
-        "that the trip was not a profitable one also"
-      ]
-    ]
+    "relations": []
   },
   "133": {
     "ner": [
       [
-        "Dürer",
+        "Maximilian",
         "PERSON"
       ],
       [
@@ -3699,11 +3209,11 @@
         "PERSON"
       ],
       [
-        "Maximilian",
+        "Margaret of Austria",
         "PERSON"
       ],
       [
-        "Margaret of Austria",
+        "Dürer",
         "PERSON"
       ]
     ],
@@ -3724,27 +3234,7 @@
   "134": {
     "ner": [
       [
-        "Jan Provoost",
-        "PERSON"
-      ],
-      [
-        "Tommaso Vincidor",
-        "PERSON"
-      ],
-      [
-        "Dürer",
-        "PERSON"
-      ],
-      [
         "Quentin Matsys.Having",
-        "PERSON"
-      ],
-      [
-        "Joachim Patinir",
-        "PERSON"
-      ],
-      [
-        "Gerard Horenbout",
         "PERSON"
       ],
       [
@@ -3752,11 +3242,31 @@
         "PERSON"
       ],
       [
+        "Tommaso Vincidor",
+        "PERSON"
+      ],
+      [
         "July 1521",
         "DATE"
       ],
       [
+        "Joachim Patinir",
+        "PERSON"
+      ],
+      [
         "Jean Mone",
+        "PERSON"
+      ],
+      [
+        "Jan Provoost",
+        "PERSON"
+      ],
+      [
+        "Gerard Horenbout",
+        "PERSON"
+      ],
+      [
+        "Dürer",
         "PERSON"
       ]
     ],
@@ -3792,12 +3302,12 @@
   "135": {
     "ner": [
       [
-        "Dürer",
-        "PERSON"
-      ],
-      [
         "Nuremberg",
         "GPE"
+      ],
+      [
+        "Dürer",
+        "PERSON"
       ]
     ],
     "relations": [],
@@ -3812,25 +3322,20 @@
   "137": {
     "ner": [
       [
-        "the last years",
-        "DATE"
-      ],
-      [
         "Dürer",
         "PERSON"
       ],
       [
         "one",
         "CARDINAL"
+      ],
+      [
+        "the last years",
+        "DATE"
       ]
     ],
     "relations": [],
     "srl": [
-      [
-        "one consequence of this shift in emphasis",
-        "was",
-        "that during the last years of his life , Dürer produced comparatively little as an artist"
-      ],
       [
         "Dürer",
         "produced",
@@ -3841,16 +3346,28 @@
   "138": {
     "ner": [
       [
-        "two",
-        "CARDINAL"
+        "St. Peter",
+        "PERSON"
+      ],
+      [
+        "St. Mark",
+        "PERSON"
+      ],
+      [
+        "St. John",
+        "PERSON"
       ],
       [
         "1526",
         "DATE"
       ],
       [
-        "St. Peter",
-        "PERSON"
+        "two",
+        "CARDINAL"
+      ],
+      [
+        "Salvator Mundi",
+        "WORK_OF_ART"
       ],
       [
         "St. Paul",
@@ -3861,41 +3378,14 @@
         "WORK_OF_ART"
       ],
       [
-        "Salvator Mundi",
-        "WORK_OF_ART"
-      ],
-      [
-        "St. John",
-        "PERSON"
-      ],
-      [
-        "St. Mark",
-        "PERSON"
-      ],
-      [
         "Hieronymus Holtzschuher",
         "PERSON"
       ]
     ],
-    "relations": [],
-    "srl": [
-      [
-        "only a portrait of Hieronymus Holtzschuher , a Madonna and Child ",
-        "was",
-        " In painting"
-      ]
-    ]
+    "relations": []
   },
   "139": {
     "ner": [
-      [
-        "Dürer",
-        "PERSON"
-      ],
-      [
-        "the City of Nuremberg",
-        "GPE"
-      ],
       [
         "100 guilders",
         "MONEY"
@@ -3903,21 +3393,17 @@
       [
         "the Four Apostles",
         "WORK_OF_ART"
-      ]
-    ],
-    "relations": [],
-    "srl": [
-      [
-        "by Dürer",
-        "given",
-        "This last great work , the Four Apostles to the City of Nuremberg although he was given 100 guilders in return"
       ],
       [
-        "Dürer 's work",
-        "restricted",
-        "to portraits and illustrations for his treatise As for engravings"
+        "the City of Nuremberg",
+        "GPE"
+      ],
+      [
+        "Dürer",
+        "PERSON"
       ]
-    ]
+    ],
+    "relations": []
   },
   "140": {
     "ner": [
@@ -3926,19 +3412,11 @@
         "PERSON"
       ],
       [
-        "Philipp Melanchthon",
+        "Albert of Mainz",
         "PERSON"
       ],
       [
         "Cardinal-Elector",
-        "PERSON"
-      ],
-      [
-        "Saxony",
-        "GPE"
-      ],
-      [
-        "Albert of Mainz",
         "PERSON"
       ],
       [
@@ -3948,6 +3426,14 @@
       [
         "Willibald Pirckheimer",
         "PERSON"
+      ],
+      [
+        "Saxony",
+        "GPE"
+      ],
+      [
+        "Philipp Melanchthon",
+        "PERSON"
       ]
     ],
     "relations": []
@@ -3955,23 +3441,23 @@
   "141": {
     "ner": [
       [
-        "Dürer",
-        "PERSON"
-      ],
-      [
-        "Ulrich Starck",
-        "PERSON"
-      ],
-      [
         "Nuremberg",
         "GPE"
+      ],
+      [
+        "Cardinal",
+        "PERSON"
       ],
       [
         "Melanchthon",
         "PERSON"
       ],
       [
-        "Cardinal",
+        "Dürer",
+        "PERSON"
+      ],
+      [
+        "Ulrich Starck",
         "PERSON"
       ]
     ],
@@ -3987,11 +3473,11 @@
   "142": {
     "ner": [
       [
-        "Dürer",
+        "Willibald Pirckheimer",
         "PERSON"
       ],
       [
-        "Willibald Pirckheimer",
+        "Dürer",
         "PERSON"
       ]
     ],
@@ -4058,23 +3544,23 @@
   "145": {
     "ner": [
       [
-        "first",
-        "ORDINAL"
+        "The Four Books on Measurement",
+        "WORK_OF_ART"
       ],
       [
         "Nuremberg",
         "GPE"
       ],
       [
-        "Kepler",
-        "PERSON"
-      ],
-      [
-        "The Four Books on Measurement",
-        "WORK_OF_ART"
+        "first",
+        "ORDINAL"
       ],
       [
         "Galileo",
+        "PERSON"
+      ],
+      [
+        "Kepler",
         "PERSON"
       ],
       [
@@ -4095,14 +3581,7 @@
         "DATE"
       ]
     ],
-    "relations": [],
-    "srl": [
-      [
-        "The other , a work on city fortifications",
-        "published",
-        " in 1527"
-      ]
-    ]
+    "relations": []
   },
   "147": {
     "ner": [
@@ -4111,11 +3590,11 @@
         "GPE"
       ],
       [
-        "1528.Dürer",
-        "DATE"
+        "6,874 florins",
+        "MONEY"
       ],
       [
-        "the age of 56",
+        "1528.Dürer",
         "DATE"
       ],
       [
@@ -4123,18 +3602,11 @@
         "WORK_OF_ART"
       ],
       [
-        "6,874 florins",
-        "MONEY"
+        "the age of 56",
+        "DATE"
       ]
     ],
-    "relations": [],
-    "srl": [
-      [
-        "his death",
-        "died",
-        " at the age of 56 leaving an estate valued at 6,874 florins – a considerable sum in Nuremberg"
-      ]
-    ]
+    "relations": []
   },
   "148": {
     "ner": [
@@ -4155,68 +3627,41 @@
   "149": {
     "ner": [
       [
-        "Nuremberg",
-        "GPE"
-      ],
-      [
-        "1509",
-        "DATE"
-      ],
-      [
         "1539",
         "DATE"
       ],
       [
+        "Nuremberg",
+        "GPE"
+      ],
+      [
         "Bernhard Walther",
         "PERSON"
+      ],
+      [
+        "1509",
+        "DATE"
       ]
     ],
-    "relations": [],
-    "srl": [
-      [
-        "His large house",
-        "purchased",
-        "from the heirs of the astronomer Bernhard Walther in 1509"
-      ],
-      [
-        "his workshop",
-        "located",
-        " where"
-      ],
-      [
-        "his widow",
-        "lived",
-        " until her death in 1539 where"
-      ],
-      [
-        "His large house ",
-        "remains",
-        "a prominent Nuremberg landmark"
-      ]
-    ]
+    "relations": []
   },
   "150": {
     "ner": [
       [
-        "Dürer",
-        "PERSON"
+        "the Catholic Church",
+        "ORG"
       ],
       [
         "Luther",
         "PERSON"
       ],
       [
-        "the Catholic Church",
-        "ORG"
+        "Dürer",
+        "PERSON"
       ]
     ],
     "relations": [],
     "srl": [
-      [
-        "Dürer 's writings",
-        "suggest",
-        "that he may have been sympathetic to Luther 's ideas though it is unclear if he ever left the Catholic Church"
-      ],
       [
         "he",
         "been",
@@ -4232,7 +3677,15 @@
   "151": {
     "ner": [
       [
-        "Dürer",
+        "Martin Luther",
+        "PERSON"
+      ],
+      [
+        "1520",
+        "DATE"
+      ],
+      [
+        "Luther",
         "PERSON"
       ],
       [
@@ -4240,15 +3693,7 @@
         "NORP"
       ],
       [
-        "1520",
-        "DATE"
-      ],
-      [
-        "Martin Luther",
-        "PERSON"
-      ],
-      [
-        "Luther",
+        "Dürer",
         "PERSON"
       ]
     ],
@@ -4258,20 +3703,11 @@
         "Dürer",
         "wrote",
         "And God help me that I may go to Dr. Martin Luther ; thus I intend to make a portrait of him with great care and engrave him on a copper plate to create a lasting memorial of the Christian man who helped me overcome so many difficulties in his"
-      ],
-      [
-        "Luther",
-        "draw",
-        " in 1520 in his diary"
       ]
     ]
   },
   "152": {
     "ner": [
-      [
-        "Dürer",
-        "PERSON"
-      ],
       [
         "Nicholas Kratzer",
         "PERSON"
@@ -4283,6 +3719,10 @@
       [
         "Christian",
         "NORP"
+      ],
+      [
+        "Dürer",
+        "PERSON"
       ]
     ],
     "relations": [
@@ -4308,16 +3748,12 @@
   "153": {
     "ner": [
       [
-        "Albert",
+        "Johann Tscherte",
         "PERSON"
       ],
       [
         "1530",
         "DATE"
-      ],
-      [
-        "Johann Tscherte",
-        "PERSON"
       ],
       [
         "Pirckheimer",
@@ -4326,6 +3762,10 @@
       [
         "Luther",
         "PERSON"
+      ],
+      [
+        "Albert",
+        "PERSON"
       ]
     ],
     "relations": []
@@ -4333,20 +3773,20 @@
   "155": {
     "ner": [
       [
-        "Dürer",
-        "PERSON"
-      ],
-      [
-        "the Nuremberg City Council's",
-        "ORG"
-      ],
-      [
         "Lutheran",
         "NORP"
       ],
       [
         "March 1525",
         "DATE"
+      ],
+      [
+        "Dürer",
+        "PERSON"
+      ],
+      [
+        "the Nuremberg City Council's",
+        "ORG"
       ]
     ],
     "relations": [],
@@ -4369,11 +3809,15 @@
         "WORK_OF_ART"
       ],
       [
-        "Dürer",
+        "Zwingli",
         "PERSON"
       ],
       [
         "Erasmus",
+        "PERSON"
+      ],
+      [
+        "Melanchthon",
         "PERSON"
       ],
       [
@@ -4385,15 +3829,11 @@
         "PERSON"
       ],
       [
-        "Melanchthon",
-        "PERSON"
-      ],
-      [
         "Luther",
         "PERSON"
       ],
       [
-        "Zwingli",
+        "Dürer",
         "PERSON"
       ]
     ],
@@ -4414,11 +3854,11 @@
   "157": {
     "ner": [
       [
-        "C. Grapheus",
+        "Erasmus",
         "PERSON"
       ],
       [
-        "Erasmus",
+        "C. Grapheus",
         "PERSON"
       ],
       [
@@ -4437,120 +3877,79 @@
   "158": {
     "ner": [
       [
-        "the Peasants' War",
-        "EVENT"
+        "the year",
+        "DATE"
       ],
       [
         "1525",
         "DATE"
       ],
       [
-        "Lutheran",
-        "NORP"
+        "the Peasants' War",
+        "EVENT"
       ],
       [
-        "the year",
-        "DATE"
+        "Lutheran",
+        "NORP"
       ]
     ],
-    "relations": [],
-    "srl": [
-      [
-        "to distance himself somewhat from the [ Lutheran ] movement",
-        "seen",
-        " the year that saw the peak and collapse of the Peasants ' War"
-      ]
-    ]
+    "relations": []
   },
   "159": {
     "ner": [
       [
-        "Dürer",
-        "PERSON"
-      ],
-      [
         "Protestant",
         "NORP"
+      ],
+      [
+        "Dürer",
+        "PERSON"
       ]
     ],
-    "relations": [],
-    "srl": [
-      [
-        "Dürer 's later works",
-        "show",
-        "Protestant sympathies"
-      ]
-    ]
+    "relations": []
   },
   "160": {
     "ner": [
       [
-        "The second book",
-        "WORK_OF_ART"
-      ],
-      [
         "Protestant",
         "NORP"
+      ],
+      [
+        "The second book",
+        "WORK_OF_ART"
       ],
       [
         "1523",
         "DATE"
       ]
     ],
-    "relations": [],
-    "srl": [
-      [
-        "to have an evangelical theme , focusing as it does on Christ espousing the Gospel , as well as the inclusion of the Eucharistic cup , an expression of Protestant utraquism , although this interpretation has been questioned",
-        "understood",
-        " often"
-      ],
-      [
-        "His 1523 The Last Supper woodcut",
-        "have",
-        "an evangelical theme"
-      ],
-      [
-        "His 1523 The Last Supper woodcut",
-        "focusing",
-        "on Christ espousing the Gospel , as well as the inclusion of the Eucharistic cup , an expression of Protestant utraquism although this interpretation has been questioned"
-      ],
-      [
-        "this interpretation",
-        "questioned",
-        ""
-      ]
-    ]
+    "relations": []
   },
   "161": {
     "ner": [
       [
-        "last",
-        "ORDINAL"
+        "St Philip",
+        "PERSON"
       ],
       [
         "1526",
         "DATE"
       ],
       [
-        "St Philip",
-        "PERSON"
-      ],
-      [
-        "Dürer",
-        "PERSON"
+        "last",
+        "ORDINAL"
       ],
       [
         "1523",
         "DATE"
+      ],
+      [
+        "Dürer",
+        "PERSON"
       ]
     ],
     "relations": [],
     "srl": [
-      [
-        "due to Dürer 's uneasiness with images",
-        "may",
-        ""
-      ],
       [
         "Dürer",
         "not was",
@@ -4581,23 +3980,13 @@
         "Dürer",
         "exerted",
         "a huge influence on the artists of succeeding generations , especially in printmaking , the medium through which his contemporaries mostly experienced his art as his paintings were predominantly in private collections located in only a few cities"
-      ],
-      [
-        "his contemporaries",
-        "experienced",
-        "his art mostly"
-      ],
-      [
-        "his paintings",
-        "were",
-        "in private collections located in only a few cities predominantly"
       ]
     ]
   },
   "163": {
     "ner": [
       [
-        "Parmigianino",
+        "Titian",
         "PERSON"
       ],
       [
@@ -4605,7 +3994,7 @@
         "LOC"
       ],
       [
-        "Titian",
+        "Parmigianino",
         "PERSON"
       ],
       [
@@ -4613,44 +4002,20 @@
         "PERSON"
       ]
     ],
-    "relations": [],
-    "srl": [
-      [
-        "his reputation",
-        "spreading",
-        " across Europe"
-      ],
-      [
-        "His success in spreading his reputation across Europe through prints",
-        "was",
-        "an inspiration for major artists such as Raphael , Titian , and Parmigianino , all of whom collaborated with printmakers to promote and distribute their work undoubtedly"
-      ]
-    ]
+    "relations": []
   },
   "164": {
     "ner": [
       [
-        "Dürer",
-        "PERSON"
-      ],
-      [
         "German",
         "NORP"
-      ]
-    ],
-    "relations": [],
-    "srl": [
-      [
-        "His engravings",
-        "seem",
-        ""
       ],
       [
-        "His engravings",
-        "had",
-        "an intimidating effect upon his German successors"
+        "Dürer",
+        "PERSON"
       ]
-    ]
+    ],
+    "relations": []
   },
   "165": {
     "ner": [
@@ -4673,35 +4038,16 @@
         "origin",
         "Northern European"
       ]
-    ],
-    "srl": [
-      [
-        "the only Northern European engraver",
-        "continue",
-        "to produce large engravings in the first third of the 16th century"
-      ]
     ]
   },
   "166": {
     "ner": [
       [
-        "Italian",
-        "NORP"
-      ],
-      [
         "Cristofano Robetta",
         "PERSON"
       ],
       [
-        "Dürer",
-        "PERSON"
-      ],
-      [
-        "Marcantonio Raimondi",
-        "PERSON"
-      ],
-      [
-        "Benedetto Montagna",
+        "Giulio Campagnola",
         "PERSON"
       ],
       [
@@ -4713,77 +4059,70 @@
         "PERSON"
       ],
       [
-        "Giulio Campagnola",
+        "Marcantonio Raimondi",
+        "PERSON"
+      ],
+      [
+        "Italian",
+        "NORP"
+      ],
+      [
+        "Benedetto Montagna",
+        "PERSON"
+      ],
+      [
+        "Dürer",
         "PERSON"
       ]
     ],
-    "relations": [],
-    "srl": [
-      [
-        "The generation of Italian engravers who trained in the shadow of Dürer all",
-        "copied",
-        "parts of his landscape backgrounds "
-      ]
-    ]
+    "relations": []
   },
   "167": {
     "ner": [
       [
-        "Dürer",
-        "PERSON"
-      ],
-      [
         "1515",
         "DATE"
+      ],
+      [
+        "Alps",
+        "LOC"
       ],
       [
         "Northern",
         "LOC"
       ],
       [
-        "Marcantonio",
+        "Dürer",
         "PERSON"
       ],
       [
-        "Alps",
-        "LOC"
+        "Marcantonio",
+        "PERSON"
       ]
     ],
-    "relations": [],
-    "srl": [
-      [
-        "Dürer 's influence",
-        "became",
-        "less dominant after 1515 , when Marcantonio perfected his new engraving style , which in turn travelled over the Alps to also dominate Northern engraving"
-      ],
-      [
-        "his new engraving style",
-        "travelled",
-        "over the Alps in turn"
-      ]
-    ]
+    "relations": []
   },
   "168": {
     "ner": [
       [
-        "Italian",
-        "NORP"
+        "Venice",
+        "GPE"
       ],
       [
         "Italy",
         "GPE"
       ],
       [
-        "Dürer",
-        "PERSON"
-      ],
-      [
-        "Venice",
-        "GPE"
-      ],
-      [
         "German",
         "NORP"
+      ],
+      [
+        "Italian",
+        "NORP"
+      ],
+      [
+        "Dürer",
+        "PERSON"
       ]
     ],
     "relations": [],
@@ -4792,21 +4131,6 @@
         "Dürer",
         "had",
         "relatively little influence in Italy , where probably only his altarpiece in Venice was seen"
-      ],
-      [
-        "only his altarpiece in Venice",
-        "seen",
-        " probably Italy"
-      ],
-      [
-        "his German successors",
-        "were",
-        "less effective in blending German and Italian styles"
-      ],
-      [
-        "his German successors",
-        "blending",
-        "German and Italian styles"
       ]
     ]
   },
@@ -4817,51 +4141,40 @@
         "DATE"
       ]
     ],
-    "relations": [],
-    "srl": [
-      [
-        "His intense and self - dramatizing self - portraits",
-        "have",
-        "a strong influence up to the present"
-      ]
-    ]
+    "relations": []
   },
   "170": {
     "ner": [
-      [
-        "Renaissance",
-        "ORG"
-      ],
-      [
-        "Dürer",
-        "PERSON"
-      ],
-      [
-        "about 1570 to 1630",
-        "DATE"
-      ],
-      [
-        "Lutheran Church",
-        "ORG"
-      ],
-      [
-        "6 April",
-        "DATE"
-      ],
       [
         "Germany",
         "GPE"
       ],
       [
-        "Hans Burgkmair",
-        "PERSON"
+        "the early nineteenth century",
+        "DATE"
       ],
       [
         "1870 to 1945.The",
         "DATE"
       ],
       [
-        "Lucas Cranach the Elder",
+        "Renaissance",
+        "ORG"
+      ],
+      [
+        "Lutheran Church",
+        "ORG"
+      ],
+      [
+        "Hans Burgkmair",
+        "PERSON"
+      ],
+      [
+        "6 April",
+        "DATE"
+      ],
+      [
+        "Michelangelo",
         "PERSON"
       ],
       [
@@ -4869,11 +4182,15 @@
         "NORP"
       ],
       [
-        "Michelangelo",
+        "Lucas Cranach the Elder",
         "PERSON"
       ],
       [
-        "the early nineteenth century",
+        "Dürer",
+        "PERSON"
+      ],
+      [
+        "about 1570 to 1630",
         "DATE"
       ]
     ],
@@ -4883,41 +4200,26 @@
         "Dürer",
         "never fallen",
         "from critical favour"
-      ],
-      [
-        "significant revivals of interest in his works in Germany in the Dürer Renaissance of about 1570 to 1630 , in the early nineteenth century",
-        "been",
-        ""
-      ],
-      [
-        "Dürer annually",
-        "commemorates",
-        " on 6 April along with Michelangelo , Lucas Cranach the Elder and Hans Burgkmair in German nationalism from 1870 to 1945.The Lutheran Church"
       ]
     ]
   },
   "171": {
     "ner": [
       [
-        "Dürer",
-        "PERSON"
+        "German",
+        "LANGUAGE"
       ],
       [
         "Latin",
         "LANGUAGE"
       ],
       [
-        "German",
-        "LANGUAGE"
+        "Dürer",
+        "PERSON"
       ]
     ],
     "relations": [],
     "srl": [
-      [
-        "his theories",
-        "communicate",
-        ""
-      ],
       [
         "Dürer",
         "used",
@@ -4928,8 +4230,8 @@
   "173": {
     "ner": [
       [
-        "Dürer",
-        "PERSON"
+        "German",
+        "NORP"
       ],
       [
         "Bible",
@@ -4940,8 +4242,8 @@
         "PERSON"
       ],
       [
-        "German",
-        "NORP"
+        "Dürer",
+        "PERSON"
       ]
     ],
     "relations": [],
@@ -4950,24 +4252,11 @@
         "Dürer",
         "contributed",
         "to the expansion in German prose which Luther had begun with his translation of the Bible"
-      ],
-      [
-        "Luther",
-        "begun",
-        "the expansion in German prose with his translation of the Bible"
       ]
     ]
   },
   "174": {
     "ner": [
-      [
-        "Dürer",
-        "PERSON"
-      ],
-      [
-        "the Four Books on Measurement",
-        "WORK_OF_ART"
-      ],
       [
         "Underweysung der Messung mit dem Zirckel und Richtscheyt",
         "WORK_OF_ART"
@@ -4975,16 +4264,17 @@
       [
         "Instructions for Measuring with Compass and Ruler",
         "WORK_OF_ART"
+      ],
+      [
+        "Dürer",
+        "PERSON"
+      ],
+      [
+        "the Four Books on Measurement",
+        "WORK_OF_ART"
       ]
     ],
-    "relations": [],
-    "srl": [
-      [
-        "Dürer 's work on geometry",
-        "called",
-        "the Four Books on Measurement "
-      ]
-    ]
+    "relations": []
   },
   "175": {
     "ner": [
@@ -5035,12 +4325,12 @@
   "178": {
     "ner": [
       [
-        "second",
-        "ORDINAL"
-      ],
-      [
         "two-dimensional",
         "CARDINAL"
+      ],
+      [
+        "second",
+        "ORDINAL"
       ]
     ],
     "relations": []
@@ -5048,15 +4338,15 @@
   "179": {
     "ner": [
       [
-        "Dürer",
-        "PERSON"
-      ],
-      [
         "Euclid",
         "PERSON"
       ],
       [
         "Ptolemy",
+        "PERSON"
+      ],
+      [
+        "Dürer",
         "PERSON"
       ]
     ],
@@ -5081,11 +4371,11 @@
   "181": {
     "ner": [
       [
-        "Dürer",
+        "Vitruvius",
         "PERSON"
       ],
       [
-        "Vitruvius",
+        "Dürer",
         "PERSON"
       ]
     ],
@@ -5106,16 +4396,16 @@
   "182": {
     "ner": [
       [
-        "Dürer",
-        "PERSON"
-      ],
-      [
         "Latin",
         "NORP"
       ],
       [
         "Italian",
         "NORP"
+      ],
+      [
+        "Dürer",
+        "PERSON"
       ]
     ],
     "relations": [],
@@ -5139,25 +4429,10 @@
         "NORP"
       ]
     ],
-    "relations": [],
-    "srl": [
-      [
-        "his construction of the Gothic alphabet",
-        "based",
-        "upon an entirely different modular system"
-      ]
-    ]
+    "relations": []
   },
   "184": {
     "ner": [
-      [
-        "first",
-        "ORDINAL"
-      ],
-      [
-        "fourth",
-        "ORDINAL"
-      ],
       [
         "second",
         "ORDINAL"
@@ -5165,6 +4440,14 @@
       [
         "three-dimensional",
         "CARDINAL"
+      ],
+      [
+        "first",
+        "ORDINAL"
+      ],
+      [
+        "fourth",
+        "ORDINAL"
       ]
     ],
     "relations": []
@@ -5172,24 +4455,24 @@
   "185": {
     "ner": [
       [
-        "Archimedean",
+        "Platonic",
         "NORP"
       ],
       [
-        "Dürer",
-        "PERSON"
-      ],
-      [
-        "five",
-        "CARDINAL"
+        "Archimedean",
+        "NORP"
       ],
       [
         "seven",
         "CARDINAL"
       ],
       [
-        "Platonic",
-        "NORP"
+        "five",
+        "CARDINAL"
+      ],
+      [
+        "Dürer",
+        "PERSON"
       ]
     ],
     "relations": [],
@@ -5204,10 +4487,6 @@
   "186": {
     "ner": [
       [
-        "Dürer",
-        "PERSON"
-      ],
-      [
         "the Four Books on Human Proportion",
         "WORK_OF_ART"
       ],
@@ -5218,30 +4497,27 @@
       [
         "1528",
         "DATE"
+      ],
+      [
+        "Dürer",
+        "PERSON"
       ]
     ],
-    "relations": [],
-    "srl": [
-      [
-        "Dürer 's work on human proportions",
-        "called",
-        "the Four Books on Human Proportion "
-      ]
-    ]
+    "relations": []
   },
   "187": {
     "ner": [
       [
-        "1512/13",
-        "DATE"
+        "five",
+        "CARDINAL"
       ],
       [
         "first",
         "ORDINAL"
       ],
       [
-        "five",
-        "CARDINAL"
+        "1512/13",
+        "DATE"
       ],
       [
         "1523",
@@ -5253,7 +4529,7 @@
   "188": {
     "ner": [
       [
-        "Dürer",
+        "Vitruvius",
         "PERSON"
       ],
       [
@@ -5261,7 +4537,7 @@
         "CARDINAL"
       ],
       [
-        "Vitruvius",
+        "Dürer",
         "PERSON"
       ]
     ],
@@ -5277,18 +4553,6 @@
   "189": {
     "ner": [
       [
-        "1525",
-        "DATE"
-      ],
-      [
-        "eight",
-        "CARDINAL"
-      ],
-      [
-        "Dürer",
-        "PERSON"
-      ],
-      [
         "second",
         "ORDINAL"
       ],
@@ -5299,15 +4563,22 @@
       [
         "Francesco di Giorgio's",
         "PERSON"
+      ],
+      [
+        "eight",
+        "CARDINAL"
+      ],
+      [
+        "1525",
+        "DATE"
+      ],
+      [
+        "Dürer",
+        "PERSON"
       ]
     ],
     "relations": [],
     "srl": [
-      [
-        "eight further types , broken down not into fractions but an Albertian system , which Dürer probably learned from Francesco di Giorgio 's De harmonica mundi totius of 1525",
-        "includes",
-        "The second book"
-      ],
       [
         "Dürer",
         "learned",
@@ -5318,12 +4589,12 @@
   "190": {
     "ner": [
       [
-        "Dürer",
-        "PERSON"
-      ],
-      [
         "third",
         "ORDINAL"
+      ],
+      [
+        "Dürer",
+        "PERSON"
       ]
     ],
     "relations": [],
@@ -5343,55 +4614,35 @@
   "191": {
     "ner": [
       [
-        "Dürer",
-        "PERSON"
+        "between 1512 and 1528",
+        "DATE"
       ],
       [
         "fourth",
         "ORDINAL"
       ],
       [
-        "between 1512 and 1528",
-        "DATE"
+        "Dürer",
+        "PERSON"
       ]
     ],
     "relations": [],
     "srl": [
       [
-        "a self - contained essay on aesthetics , which Dürer worked on between 1512 and 1528",
-        "Appended",
-        "to the last book"
-      ],
-      [
-        "a self - contained essay on aesthetics , which Dürer worked on between 1512 and 1528",
-        "is",
-        "Appended to the last book"
-      ],
-      [
         "Dürer",
         "worked",
         "on between 1512 and 1528"
-      ],
-      [
-        "that we learn of his theories concerning ' ideal beauty '",
-        "is",
-        "here"
-      ],
-      [
-        "his theories",
-        "concerning",
-        "' ideal beauty '"
       ]
     ]
   },
   "192": {
     "ner": [
       [
-        "Dürer",
+        "Alberti",
         "PERSON"
       ],
       [
-        "Alberti",
+        "Dürer",
         "PERSON"
       ]
     ],
@@ -5433,35 +4684,28 @@
   "194": {
     "ner": [
       [
-        "1512/13",
-        "DATE"
-      ],
-      [
         "three",
         "CARDINAL"
+      ],
+      [
+        "1512/13",
+        "DATE"
       ]
     ],
-    "relations": [],
-    "srl": [
-      [
-        "his three criteria",
-        "were",
-        "function  In 1512/13"
-      ]
-    ]
+    "relations": []
   },
   "195": {
     "ner": [
-      [
-        "Dürer",
-        "PERSON"
-      ],
       [
         "Alberti",
         "PERSON"
       ],
       [
         "Leonardo",
+        "PERSON"
+      ],
+      [
+        "Dürer",
         "PERSON"
       ]
     ],
@@ -5474,51 +4718,33 @@
         "DATE"
       ],
       [
-        "Dürer",
-        "PERSON"
-      ],
-      [
         "1528",
         "DATE"
+      ],
+      [
+        "Dürer",
+        "PERSON"
       ]
     ],
-    "relations": [],
-    "srl": [
-      [
-        "Dürer 's belief",
-        "developed",
-        "from an understanding of human creativity Between 1512 and the final draft in 1528"
-      ]
-    ]
+    "relations": []
   },
   "198": {
     "ner": [
       [
-        "Dürer",
-        "PERSON"
-      ],
-      [
         "one",
         "CARDINAL"
+      ],
+      [
+        "Dürer",
+        "PERSON"
       ]
     ],
-    "relations": [],
-    "srl": [
-      [
-        "Dürer 's belief in the abilities of a single artist over inspiration",
-        "prompted",
-        "him to assert that \" one man may sketch something with his pen on half a sheet of paper in one day , or may cut it into a tiny piece of wood with his little iron , and it turns out to be better and more artistic than another 's work at which its author labours with the utmost diligence for a whole year \""
-      ]
-    ]
+    "relations": []
   },
   "199": {
     "ner": [
       [
-        "Dürer",
-        "PERSON"
-      ],
-      [
-        "Various Lessons on the Fortification of Cities, Castles, and Localities",
+        "Etliche Underricht zu Befestigung der Stett, Schloss und Flecken",
         "WORK_OF_ART"
       ],
       [
@@ -5526,7 +4752,11 @@
         "DATE"
       ],
       [
-        "Etliche Underricht zu Befestigung der Stett, Schloss und Flecken",
+        "Dürer",
+        "PERSON"
+      ],
+      [
+        "Various Lessons on the Fortification of Cities, Castles, and Localities",
         "WORK_OF_ART"
       ]
     ],
@@ -5542,24 +4772,24 @@
   "200": {
     "ner": [
       [
-        "Arnhem",
+        "Nuremberg",
         "GPE"
+      ],
+      [
+        "Johan Janssenn",
+        "PERSON"
       ],
       [
         "1603",
         "DATE"
       ],
       [
-        "Nuremberg",
-        "GPE"
-      ],
-      [
         "Hieronymus Andreae",
         "PERSON"
       ],
       [
-        "Johan Janssenn",
-        "PERSON"
+        "Arnhem",
+        "GPE"
       ]
     ],
     "relations": []
@@ -5567,54 +4797,47 @@
   "201": {
     "ner": [
       [
-        "Italian",
-        "NORP"
-      ],
-      [
-        "German",
-        "NORP"
-      ],
-      [
-        "Wecheli",
-        "PERSON"
-      ],
-      [
-        "Wechelus",
-        "PERSON"
-      ],
-      [
-        "Baltic",
-        "LOC"
-      ],
-      [
-        "On Cities, Forts, and Castles, Designed and Strengthened by Several Manners: Presented for the Most Necessary Accommodation of War (De vrbibus, arcibus, castellisque condendis, ac muniendis rationes aliquot : praesenti bellorum necessitati accommodatissimae",
-        "WORK_OF_ART"
-      ],
-      [
-        "1535",
-        "DATE"
-      ],
-      [
-        "Latin",
-        "LANGUAGE"
-      ],
-      [
         "Paris.The",
         "GPE"
       ],
       [
         "Christian Wechel",
         "PERSON"
+      ],
+      [
+        "Wecheli",
+        "PERSON"
+      ],
+      [
+        "On Cities, Forts, and Castles, Designed and Strengthened by Several Manners: Presented for the Most Necessary Accommodation of War (De vrbibus, arcibus, castellisque condendis, ac muniendis rationes aliquot : praesenti bellorum necessitati accommodatissimae",
+        "WORK_OF_ART"
+      ],
+      [
+        "Latin",
+        "LANGUAGE"
+      ],
+      [
+        "Baltic",
+        "LOC"
+      ],
+      [
+        "German",
+        "NORP"
+      ],
+      [
+        "Italian",
+        "NORP"
+      ],
+      [
+        "1535",
+        "DATE"
+      ],
+      [
+        "Wechelus",
+        "PERSON"
       ]
     ],
-    "relations": [],
-    "srl": [
-      [
-        "his designs",
-        "had",
-        "some influence in the eastern German lands and up into the Baltic region"
-      ]
-    ]
+    "relations": []
   },
   "202": {
     "ner": [
@@ -5635,16 +4858,8 @@
   "203": {
     "ner": [
       [
-        "Meditation on the Handling of Weapons",
-        "WORK_OF_ART"
-      ],
-      [
         "26-232",
         "CARDINAL"
-      ],
-      [
-        "Albrecht Dürer's",
-        "PERSON"
       ],
       [
         "1512",
@@ -5661,63 +4876,42 @@
       [
         "Maximilian I.",
         "PERSON"
-      ]
-    ],
-    "relations": [],
-    "srl": [
-      [
-        "His most significant martial works",
-        "made",
-        " in 1512 as part of his efforts"
       ],
       [
-        "his workshop",
-        "produced",
-        "the extensive Οπλοδιδασκαλια sive Armorvm Tractandorvm Meditatio Alberti Dvreri "
+        "Meditation on the Handling of Weapons",
+        "WORK_OF_ART"
+      ],
+      [
+        "Albrecht Dürer's",
+        "PERSON"
       ]
-    ]
+    ],
+    "relations": []
   },
   "204": {
     "ner": [
       [
-        "Hans Talhoffer's",
-        "PERSON"
+        "Berlin Picture Book (Libr.Pict.A.83",
+        "WORK_OF_ART"
       ],
       [
         "Nuremberg",
         "GPE"
       ],
       [
+        "this time",
+        "DATE"
+      ],
+      [
         "one",
         "CARDINAL"
       ],
       [
-        "Berlin Picture Book (Libr.Pict.A.83",
-        "WORK_OF_ART"
-      ],
-      [
-        "this time",
-        "DATE"
+        "Hans Talhoffer's",
+        "PERSON"
       ]
     ],
-    "relations": [],
-    "srl": [
-      [
-        "Another manuscript",
-        "based",
-        "on the Nuremberg texts as well as one of Hans Talhoffer 's works , the untitled Berlin Picture Book "
-      ],
-      [
-        "to have originated in his workshop around this time",
-        "thought",
-        ""
-      ],
-      [
-        "Another manuscript based on the Nuremberg texts as well as one of Hans Talhoffer 's works , the untitled Berlin Picture Book ",
-        "originated",
-        " around this time in his workshop"
-      ]
-    ]
+    "relations": []
   },
   "205": {
     "ner": [
@@ -5726,14 +4920,7 @@
         "PERSON"
       ]
     ],
-    "relations": [],
-    "srl": [
-      [
-        "his illustrations of grappling , long sword , dagger , and messer",
-        "are",
-        "among the highest - quality in any fencing manual"
-      ]
-    ]
+    "relations": []
   },
   "206": {
     "ner": [
@@ -5744,15 +4931,7 @@
     ],
     "relations": []
   },
-  "7": {
-    "srl": [
-      [
-        "by his theoretical treatises , which involve principles of mathematics , perspective , and ideal proportions",
-        "reinforced",
-        "This"
-      ]
-    ]
-  },
+  "7": {},
   "15": {},
   "39": {
     "srl": [
@@ -5768,22 +4947,9 @@
       ]
     ]
   },
-  "58": {
-    "srl": [
-      [
-        "his drawings",
-        "destroyed",
-        " during the cutting of the block Either way"
-      ]
-    ]
-  },
+  "58": {},
   "65": {
     "srl": [
-      [
-        "he had begun learning this skill during his early training with his father , as it was also an essential skill of the goldsmith",
-        "is",
-        "possible"
-      ],
       [
         "he",
         "begun",
@@ -5797,34 +4963,13 @@
     ]
   },
   "70": {},
-  "76": {
-    "srl": [
-      [
-        "This",
-        "is",
-        "the only existing engraving signed with his full name"
-      ]
-    ]
-  },
+  "76": {},
   "95": {},
   "114": {},
-  "130": {
-    "srl": [
-      [
-        "This",
-        "provides",
-        "rare information of the monetary value placed on prints at this time"
-      ]
-    ]
-  },
+  "130": {},
   "131": {},
   "136": {
     "srl": [
-      [
-        "This",
-        "been",
-        "due in part to his declining health , but perhaps also because of the time he gave to the preparation of his theoretical works on geometry and perspective , the proportions of men and horses , and fortification"
-      ],
       [
         "he",
         "gave",

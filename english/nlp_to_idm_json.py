@@ -177,7 +177,7 @@ def convert_nlp_to_idm_json(nlp_path: str, idm_out_path: str, wiki_root_path: st
                 for rel in nlp_info["relations"]:
                     sentence_based_events[sent_id]["relations"].add((rel["surfaceFormSubj"], rel["relationValue"], rel["surfaceFormObj"]))
             if "srl" in nlp_info:
-                srl_triples = get_smart_srl_triples(nlp_info["srl"], lastname)
+                srl_triples = get_smart_srl_triples(nlp_info["srl"], firstname, lastname)
                 if "srl" in sentence_based_events[sent_id]:
                     sentence_based_events[sent_id]["srl"] += srl_triples
                 elif len(srl_triples) > 0:
@@ -193,7 +193,7 @@ def convert_nlp_to_idm_json(nlp_path: str, idm_out_path: str, wiki_root_path: st
                     rels.add((rel["surfaceFormSubj"], rel["relationValue"], rel["surfaceFormObj"]))
                 tmp["relations"] = rels
             if "srl" in nlp_info:
-                srl_triples = get_smart_srl_triples(nlp_info["srl"], lastname)
+                srl_triples = get_smart_srl_triples(nlp_info["srl"], firstname, lastname)
                 if len(srl_triples) > 0:
                     tmp["srl"] = srl_triples
             sentence_based_events[sent_id] = tmp
@@ -369,7 +369,7 @@ def convert_nlp_to_idm_json(nlp_path: str, idm_out_path: str, wiki_root_path: st
             continue
         else:
             # LAST) Add to the IDM Entities
-            univ_id2idm_id[ent_id] = None
+            univ_id2idm_id[ent_id] = "-"
             if idm_ent:
                 processed_idm_ids[idm_ent["id"]] = 1
                 univ_id2idm_id[ent_id] = idm_ent["id"]
@@ -431,7 +431,7 @@ def convert_nlp_to_idm_json(nlp_path: str, idm_out_path: str, wiki_root_path: st
                 subj_idm_id = univ_id2idm_id[subj_univ_id]
                 obj_univ_id = ent_nlp2ent_univ[rel_obj['objectID']]
                 obj_idm_ent = idm_entity_dict.get(obj_univ_id) # They don't exist when it is a labeled entity outside the scope of interest (e.g. NORP, DATE, etc...)
-                if obj_idm_ent:
+                if obj_idm_ent and subj_idm_id:
                     idm_ent, obj_idm_ent, event_obj, event_vocab, role_vocab = create_idm_event(event_info, subj_idm_id, idm_ent, obj_idm_ent, event_vocab, role_vocab)
                     # Add updated object back to dict
                     idm_entity_dict[obj_univ_id] = obj_idm_ent
@@ -595,7 +595,7 @@ def create_idm_event(event_info: Dict[str, str], subj_idm_id: str, subj_idm_ent:
 
 
 
-def get_smart_srl_triples(srl_list: Dict, last_name: str) -> List[Tuple]:
+def get_smart_srl_triples(srl_list: Dict, first_name: str, last_name: str) -> List[Tuple]:
     all_triples = []
     for predicate_word, args in srl_list.items():
         args_dict = {arg[1]: arg[0] for arg in args} # {arg_label: arg_surfaceForm}
@@ -666,7 +666,7 @@ def get_smart_srl_triples(srl_list: Dict, last_name: str) -> List[Tuple]:
     for trip in all_triples:
         agent_str = trip[0].lower()
         # if agent_str == "he" or agent_str == "she" or last_name.lower() in agent_str or "his" in agent_str or "her" in agent_str and len(trip[2]) > 0:
-        if (agent_str == "he" or agent_str == "she" or last_name.lower() == agent_str) and len(trip[2]) > 0:
+        if (agent_str == "he" or agent_str == "she" or last_name.lower() == agent_str or first_name.lower() == agent_str or f"{first_name} {last_name}".lower() == agent_str) and len(trip[2]) > 0:
             valid_triples.append(trip)
     # print(valid_triples)
     return valid_triples
