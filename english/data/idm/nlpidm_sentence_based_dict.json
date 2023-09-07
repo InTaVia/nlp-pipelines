@@ -2,561 +2,618 @@
   "0": {
     "ner": [
       [
-        "English",
-        "LANGUAGE"
+        "14 July 1939",
+        "DATE"
       ],
       [
-        "Durer",
+        "Alfons Maria Mucha",
         "PERSON"
       ],
       [
-        "21 May 1471",
+        "Paris",
+        "GPE"
+      ],
+      [
+        "24 July 1860",
         "DATE"
       ],
       [
-        "Renaissance",
-        "WORK_OF_ART"
-      ],
-      [
-        "German",
+        "Czech",
         "NORP"
       ],
       [
-        "6 April 1528",
+        "Art Nouveau",
         "DATE"
       ],
       [
-        "Albrecht Dürer",
+        "Sarah Bernhardt",
+        "PERSON"
+      ],
+      [
+        "ˈalfons ˈmuxa",
+        "ORG"
+      ],
+      [
+        "Alphonse Mucha",
         "PERSON"
       ]
     ],
     "relations": [
       [
-        "Albrecht Dürer",
-        "origin",
-        "German"
-      ],
-      [
-        "Durer",
-        "origin",
-        "German"
-      ],
-      [
-        "Albrecht Dürer",
-        "born_in",
-        "German"
-      ],
-      [
-        "Durer",
+        "Alphonse Mucha",
         "date_of_birth",
-        "21 May 1471"
+        "24 July 1860"
       ],
       [
-        "Albrecht Dürer",
+        "Alfons Maria Mucha",
         "date_of_birth",
-        "21 May 1471"
+        "24 July 1860"
+      ],
+      [
+        "Alphonse Mucha",
+        "origin",
+        "Alfons Maria Mucha"
+      ],
+      [
+        "Alphonse Mucha",
+        "origin",
+        "Czech"
+      ],
+      [
+        "Alfons Maria Mucha",
+        "lived_in",
+        "Paris"
+      ],
+      [
+        "Alphonse Mucha",
+        "lived_in",
+        "Paris"
+      ],
+      [
+        "Alfons Maria Mucha",
+        "origin",
+        "Czech"
       ]
     ]
   },
   "1": {
     "ner": [
       [
-        "his twenties",
+        "The Slav Epic",
+        "WORK_OF_ART"
+      ],
+      [
+        "Slavic",
+        "NORP"
+      ],
+      [
+        "57",
         "DATE"
       ],
       [
-        "Nuremberg",
-        "GPE"
+        "twenty",
+        "CARDINAL"
       ],
       [
-        "Europe",
-        "LOC"
+        "between 1912 and 1926",
+        "DATE"
       ],
       [
-        "Dürer",
-        "PERSON"
+        "second",
+        "ORDINAL"
       ]
     ],
-    "relations": [
-      [
-        "Dürer",
-        "born_in",
-        "Nuremberg"
-      ]
-    ],
+    "relations": [],
     "srl": [
       [
-        "Dürer",
-        "Born",
-        " in Nuremberg"
+        "He",
+        "produced",
+        "illustrations , advertisements , decorative panels , as well as designs , which became among the best - known images of the period"
       ],
       [
-        "Dürer",
-        "established",
-        "his reputation and influence across Europe in his twenties due to his high - quality woodcut prints"
+        "he",
+        "returned",
+        "to his homeland at the age of 57"
+      ],
+      [
+        "he",
+        "devoted",
+        "himself to a series of twenty monumental symbolist canvases known as The Slav Epic , depicting the history of all the Slavic peoples of the world , which he painted between 1912 and 1926 at the age of 57"
+      ],
+      [
+        "he",
+        "painted",
+        "the history of all the Slavic peoples of the world between 1912 and 1926"
       ]
     ]
   },
   "2": {
     "ner": [
       [
-        "Giovanni Bellini",
-        "PERSON"
+        "10th",
+        "ORDINAL"
       ],
       [
-        "Leonardo da Vinci",
-        "PERSON"
+        "Czechoslovakia",
+        "GPE"
       ],
       [
-        "1512",
+        "1928",
         "DATE"
       ],
       [
-        "Raphael",
-        "PERSON"
-      ],
-      [
-        "Maximilian I.",
-        "PERSON"
-      ],
-      [
-        "Italian",
+        "Czech",
         "NORP"
+      ]
+    ],
+    "relations": [],
+    "srl": [
+      [
+        "he",
+        "presented",
+        "the series to the Czech nation on the 10th anniversary of the independence of Czechoslovakia"
+      ]
+    ]
+  },
+  "4": {
+    "ner": [
+      [
+        "the Austrian Empire",
+        "ORG"
       ],
       [
-        "Dürer",
+        "Moravia",
+        "GPE"
+      ],
+      [
+        "the Czech Republic",
+        "GPE"
+      ],
+      [
+        "Ivančice",
+        "GPE"
+      ],
+      [
+        "Austrian Empire",
+        "MISC"
+      ],
+      [
+        "Czech Republic",
+        "LOC"
+      ],
+      [
+        "24 July 1860",
+        "DATE"
+      ],
+      [
+        "Mucha",
         "PERSON"
       ]
     ],
     "relations": [
       [
-        "Dürer",
-        "origin",
-        "Italian"
+        "Mucha",
+        "born_in",
+        "Moravia"
+      ],
+      [
+        "Mucha",
+        "born_in",
+        "Ivančice"
+      ],
+      [
+        "Mucha",
+        "date_of_birth",
+        "24 July 1860"
       ]
     ],
     "srl": [
       [
-        "He",
-        "was",
-        "in contact with the major Italian artists of his time , including Raphael , Giovanni Bellini , and Leonardo da Vinci"
+        "Mucha",
+        "born",
+        " on 24 July 1860 in the small town of Ivančice in southern Moravia , then a province of the Austrian Empire ( currently a region of the Czech Republic )"
       ]
     ]
   },
-  "3": {
-    "ner": [
-      [
-        "Gothic",
-        "NORP"
-      ]
-    ],
-    "relations": []
-  },
-  "4": {
-    "ner": [
-      [
-        "three",
-        "CARDINAL"
-      ],
-      [
-        "Saint Jerome in his Study",
-        "WORK_OF_ART"
-      ],
-      [
-        "Knight, Death and the Devil",
-        "WORK_OF_ART"
-      ],
-      [
-        "Meisterstiche",
-        "WORK_OF_ART"
-      ],
-      [
-        "1514",
-        "DATE"
-      ],
-      [
-        "1513",
-        "DATE"
-      ],
-      [
-        "Melencolia I",
-        "WORK_OF_ART"
-      ]
-    ],
-    "relations": []
-  },
   "5": {
     "ner": [
+      [
+        "Ondřej",
+        "PERSON"
+      ],
+      [
+        "Amálie",
+        "PERSON"
+      ]
+    ],
+    "relations": [
+      [
+        "Amálie",
+        "related_to",
+        "Ondřej"
+      ],
+      [
+        "Ondřej",
+        "child_of",
+        "Amálie"
+      ]
+    ]
+  },
+  "6": {
+    "ner": [
+      [
+        "A.",
+        "PER"
+      ],
+      [
+        "Ondřej",
+        "PERSON"
+      ],
+      [
+        "six",
+        "CARDINAL"
+      ]
+    ],
+    "relations": []
+  },
+  "7": {
+    "ner": [
+      [
+        "Mucha",
+        "PER"
+      ],
+      [
+        "Anděla.Mucha",
+        "PERSON"
+      ],
+      [
+        "Anna",
+        "PERSON"
+      ],
+      [
+        "Anděla",
+        "PER"
+      ],
+      [
+        "Amálie",
+        "PERSON"
+      ],
       [
         "first",
         "ORDINAL"
       ],
       [
-        "European",
-        "NORP"
-      ]
-    ],
-    "relations": []
-  },
-  "6": {
-    "ner": [
-      [
-        "Northern",
-        "LOC"
-      ],
-      [
-        "Northern Renaissance",
-        "LOC"
-      ],
-      [
-        "German",
-        "NORP"
-      ],
-      [
-        "Italian",
-        "NORP"
-      ],
-      [
-        "Dürer",
-        "PERSON"
-      ]
-    ],
-    "relations": []
-  },
-  "8": {
-    "ner": [
-      [
-        "1467",
-        "DATE"
-      ],
-      [
-        "second",
-        "ORDINAL"
-      ],
-      [
-        "Albrecht Dürer the Elder",
-        "PERSON"
-      ],
-      [
-        "third",
-        "ORDINAL"
-      ],
-      [
-        "eighteen",
-        "CARDINAL"
-      ],
-      [
-        "Barbara Holper",
-        "PERSON"
-      ],
-      [
-        "21 May 1471",
-        "DATE"
-      ],
-      [
-        "Dürer",
+        "Alphonse",
         "PERSON"
       ]
     ],
     "relations": [
       [
-        "Barbara Holper",
-        "married_to",
-        "Albrecht Dürer the Elder"
-      ],
-      [
-        "Dürer",
-        "date_of_birth",
-        "21 May 1471"
-      ],
-      [
-        "Barbara Holper",
+        "Amálie",
         "parent_of",
-        "Dürer"
+        "Anna"
       ],
       [
-        "Dürer",
-        "child_of",
-        "Albrecht Dürer the Elder"
-      ],
-      [
-        "Dürer",
-        "child_of",
-        "Barbara Holper"
+        "Amálie",
+        "parent_of",
+        "Alphonse"
       ]
     ],
     "srl": [
       [
-        "Dürer",
-        "born",
-        " on 21 May 1471"
+        "Alphonse",
+        "was",
+        "his first child"
+      ],
+      [
+        "Mucha",
+        "showed",
+        "an early talent for drawing"
       ]
     ]
   },
   "9": {
     "ner": [
       [
-        "Nuremberg",
-        "GPE"
+        "three",
+        "CARDINAL"
       ],
       [
-        "Ajtós",
-        "GPE"
-      ],
-      [
-        "1455",
-        "DATE"
-      ],
-      [
-        "Hungary",
-        "GPE"
-      ],
-      [
-        "Albrecht Dürer the Elder",
-        "PERSON"
-      ],
-      [
-        "Gyula",
-        "GPE"
-      ],
-      [
-        "Albrecht Ajtósi",
-        "PERSON"
+        "Volksschule",
+        "FAC"
       ]
     ],
-    "relations": [
+    "relations": [],
+    "srl": [
       [
-        "Albrecht Ajtósi",
-        "lived_in",
-        "Gyula"
+        "He",
+        "had",
+        "a talent for music also"
       ],
       [
-        "Albrecht Ajtósi",
-        "lived_in",
-        "Ajtós"
+        "he",
+        "was",
+        "an alto singer and violin player"
       ],
       [
-        "Albrecht Ajtósi",
-        "lived_in",
-        "Nuremberg"
+        "he",
+        "completing",
+        "Volksschule"
       ],
       [
-        "Albrecht Ajtósi",
-        "lived_in",
-        "Hungary"
+        "he",
+        "wanted",
+        "to continue with his studies After completing Volksschule"
+      ],
+      [
+        "he",
+        "continue",
+        "with his studies"
       ]
     ]
   },
   "10": {
     "ner": [
       [
-        "Holper",
+        "St Thomas's Abbey",
+        "ORG"
+      ],
+      [
+        "St Thomas 's Abbey",
+        "LOC"
+      ],
+      [
+        "Brno",
+        "GPE"
+      ],
+      [
+        "Pavel Křížkovský",
         "PERSON"
       ]
     ],
-    "relations": [],
-    "srl": [
+    "relations": [
       [
-        "He",
-        "married",
-        "Holper , his master 's daughter when he himself qualified as a master"
+        "Pavel Křížkovský",
+        "employee_of",
+        "St Thomas's Abbey"
       ]
     ]
   },
   "11": {
     "ner": [
       [
-        "One",
-        "CARDINAL"
+        "Křížovský",
+        "PER"
       ],
       [
-        "Albrecht",
+        "the Cathedral of St. Peter and Paul",
+        "ORG"
+      ],
+      [
+        "Paul",
+        "PER"
+      ],
+      [
+        "Cathedral of St. Peter",
+        "LOC"
+      ],
+      [
+        "Leoš Janáček.Křížovský",
         "PERSON"
       ],
       [
-        "Hans Dürer",
+        "Brno",
+        "GPE"
+      ],
+      [
+        "Křížovský",
         "PERSON"
+      ],
+      [
+        "Leoš Janáček",
+        "PER"
       ]
     ],
-    "relations": [
+    "relations": [],
+    "srl": [
       [
-        "Albrecht",
-        "sibling_of",
-        "Hans Dürer"
+        "he",
+        "not was",
+        "able to admit and fund him as he had just admitted another talented young musician"
       ],
       [
-        "Hans Dürer",
-        "sibling_of",
-        "Albrecht"
-      ]
-    ]
-  },
-  "12": {
-    "ner": [
-      [
-        "Albrecht",
-        "PERSON"
+        "he",
+        "admit",
+        "him"
       ],
       [
-        "Endres Dürer",
-        "PERSON"
-      ]
-    ],
-    "relations": [
-      [
-        "Albrecht",
-        "sibling_of",
-        "Endres Dürer"
+        "he",
+        "fund",
+        "him"
       ],
       [
-        "Endres Dürer",
-        "sibling_of",
-        "Albrecht"
+        "he",
+        "admitted",
+        "another talented young musician just"
+      ],
+      [
+        "he",
+        "received",
+        "his secondary school education the gymnasium in Brno"
       ]
     ]
   },
   "13": {
     "ner": [
       [
-        "German",
+        "Czech",
         "NORP"
-      ],
-      [
-        "Hungarian",
-        "NORP"
-      ],
-      [
-        "Dürer",
-        "PERSON"
-      ],
-      [
-        "Ajtósi",
-        "PERSON"
-      ]
-    ],
-    "relations": [
-      [
-        "Dürer",
-        "alternate_name",
-        "Ajtósi"
-      ]
-    ]
-  },
-  "14": {
-    "ner": [
-      [
-        "Hungarian",
-        "NORP"
-      ],
-      [
-        "Türer",
-        "PERSON"
-      ]
-    ],
-    "relations": []
-  },
-  "16": {
-    "ner": [
-      [
-        "Türer",
-        "PERSON"
-      ],
-      [
-        "Nuremberg",
-        "GPE"
-      ],
-      [
-        "Albrecht Dürer the Younger",
-        "PERSON"
-      ],
-      [
-        "Dürer",
-        "PERSON"
-      ]
-    ],
-    "relations": []
-  },
-  "17": {
-    "ner": [
-      [
-        "the year",
-        "DATE"
-      ],
-      [
-        "Dürer",
-        "PERSON"
-      ],
-      [
-        "Anton Koberger",
-        "PERSON"
-      ]
-    ],
-    "relations": [
-      [
-        "Dürer",
-        "child_of",
-        "Anton Koberger"
-      ]
-    ]
-  },
-  "18": {
-    "ner": [
-      [
-        "Germany",
-        "GPE"
-      ],
-      [
-        "twenty-four",
-        "CARDINAL"
       ]
     ],
     "relations": [],
     "srl": [
       [
         "He",
-        "became",
-        "the most successful publisher in Germany"
+        "grew",
+        " in an environment of intense Czech nationalism in all the arts , from music to literature and painting"
+      ]
+    ]
+  },
+  "14": {
+    "ner": [
+      [
+        "Brno",
+        "GPE"
       ],
       [
+        "the Gymnázium Brno",
+        "ORG"
+      ],
+      [
+        "Moravian",
+        "NORP"
+      ],
+      [
+        "Gymnázium Brno",
+        "LOC"
+      ]
+    ],
+    "relations": [],
+    "srl": [
+      [
         "He",
-        "owning",
-        "twenty - four printing - presses and a number of offices in Germany and abroad eventually"
+        "designed",
+        "flyers and posters"
+      ]
+    ]
+  },
+  "16": {
+    "ner": [
+      [
+        "the Academy of Fine Arts",
+        "ORG"
+      ],
+      [
+        "1878",
+        "DATE"
+      ],
+      [
+        "Prague",
+        "GPE"
+      ],
+      [
+        "Academy of Fine Arts",
+        "ORG"
+      ]
+    ],
+    "relations": [
+      [
+        "the Academy of Fine Arts",
+        "based_in",
+        "Prague"
+      ]
+    ],
+    "srl": [
+      [
+        "he",
+        "applied",
+        "to the Academy of Fine Arts in Prague In 1878"
+      ],
+      [
+        "he",
+        "rejected",
+        "to \" find a different career \""
+      ],
+      [
+        "he",
+        "advised",
+        "to \" find a different career \""
+      ],
+      [
+        "he",
+        "find",
+        "a different career"
+      ]
+    ]
+  },
+  "17": {
+    "ner": [
+      [
+        "Vienna",
+        "GPE"
+      ],
+      [
+        "Empire",
+        "ORG"
+      ],
+      [
+        "1880",
+        "DATE"
+      ],
+      [
+        "19",
+        "DATE"
+      ]
+    ],
+    "relations": [],
+    "srl": [
+      [
+        "he",
+        "traveled",
+        "to Vienna , the political and cultural capital of the Empire at the age of 19"
+      ],
+      [
+        "he",
+        "found",
+        "employment as an apprentice scenery painter for a company which made sets for Vienna theaters at the age of 19"
+      ]
+    ]
+  },
+  "18": {
+    "ner": [
+      [
+        "Vienna",
+        "GPE"
+      ]
+    ],
+    "relations": [],
+    "srl": [
+      [
+        "he",
+        "discovered",
+        "the museums , churches , palaces and especially theaters , for which he received free tickets from his employer While in Vienna"
+      ],
+      [
+        "he",
+        "received",
+        "free tickets from his employer the museums , churches , palaces and especially theaters"
       ]
     ]
   },
   "19": {
     "ner": [
       [
-        "the Nuremberg Chronicle",
-        "WORK_OF_ART"
-      ],
-      [
-        "Koberger",
+        "Hans Makart",
         "PERSON"
       ],
       [
-        "Latin",
-        "NORP"
-      ],
-      [
-        "1493",
-        "DATE"
-      ],
-      [
-        "German",
-        "NORP"
+        "Vienna",
+        "GPE"
       ]
     ],
-    "relations": []
+    "relations": [],
+    "srl": [
+      [
+        "He",
+        "discovered",
+        "Hans Makart , a very prominent academic painter , who created murals for many of the palaces and government buildings in Vienna , and was a master of portraits and historical paintings in grand format"
+      ]
+    ]
   },
   "20": {
     "ner": [
       [
-        "1,809",
-        "CARDINAL"
-      ],
-      [
-        "Wolgemut",
+        "Mucha",
         "PERSON"
       ]
     ],
@@ -565,121 +622,136 @@
   "21": {
     "ner": [
       [
-        "Wolgemut.Because",
-        "PERSON"
+        "Ringtheater",
+        "FAC"
       ],
       [
-        "mid-twenties",
+        "1881",
         "DATE"
-      ],
-      [
-        "Dürer",
-        "PERSON"
       ]
     ],
     "relations": [],
     "srl": [
       [
-        "Dürer",
-        "worked",
-        "on some of these as the work on the project began while he was with Wolgemut"
+        "He",
+        "began",
+        "experimenting with photography , which became an important tool in his later work"
       ],
       [
-        "he",
-        "was",
-        "with Wolgemut"
-      ],
-      [
-        "Dürer",
-        "left",
-        "autobiographical writings"
+        "He",
+        "experimenting",
+        "with photography , which became an important tool in his later work"
       ]
     ]
   },
   "22": {
     "ner": [
       [
-        "Dürer",
-        "PERSON"
+        "1881",
+        "DATE"
       ]
     ],
     "relations": [],
     "srl": [
       [
-        "Dürer",
-        "learned",
-        "the basics of goldsmithing and drawing from his father After a few years of school"
+        "he",
+        "took",
+        "a train Later in 1881"
       ]
     ]
   },
   "23": {
     "ner": [
       [
-        "fifteen",
-        "DATE"
+        "Mikulov",
+        "GPE"
       ],
       [
-        "Michael Wolgemut",
-        "PERSON"
-      ],
-      [
-        "1486",
-        "DATE"
+        "Moravia",
+        "GPE"
       ]
     ],
     "relations": [],
     "srl": [
       [
-        "he",
-        "showed",
-        "such a precocious talent in drawing that he started as an apprentice to Michael Wolgemut at the age of fifteen in 1486 Though his father wanted him to continue his training as a goldsmith"
+        "He",
+        "arrived",
+        "in Mikulov in southern Moravia"
       ],
       [
-        "he",
-        "started",
-        "as an apprentice to Michael Wolgemut in 1486"
+        "He",
+        "began",
+        "making portraits , decorative art and lettering for tombstones"
+      ],
+      [
+        "He",
+        "making",
+        "portraits , decorative art and lettering for tombstones"
+      ],
+      [
+        "He",
+        "lettering",
+        "for tombstones"
       ]
     ]
   },
   "24": {
     "ner": [
       [
-        "Vienna",
+        "Eduard Khuen Belasi",
+        "PERSON"
+      ],
+      [
+        "Gandegg Castle",
+        "FAC"
+      ],
+      [
+        "Emmahof Castle",
+        "FAC"
+      ],
+      [
+        "Tyrol",
         "GPE"
-      ],
-      [
-        "1484",
-        "DATE"
-      ],
-      [
-        "Albertina",
-        "ORG"
       ]
     ],
-    "relations": []
+    "relations": [
+      [
+        "Eduard Khuen Belasi",
+        "lived_in",
+        "Emmahof Castle"
+      ],
+      [
+        "Eduard Khuen Belasi",
+        "lived_in",
+        "Gandegg Castle"
+      ],
+      [
+        "Eduard Khuen Belasi",
+        "lived_in",
+        "Tyrol"
+      ]
+    ],
+    "srl": [
+      [
+        "he",
+        "paint",
+        "a series of murals"
+      ]
+    ]
   },
   "25": {
     "ner": [
       [
-        "Opus One",
-        "WORK_OF_ART"
+        "1948",
+        "DATE"
       ],
       [
-        "Dürer",
-        "PERSON"
-      ]
-    ],
-    "relations": []
-  },
-  "26": {
-    "ner": [
-      [
-        "Nuremberg",
+        "Brno",
         "GPE"
       ],
       [
-        "Wolgemut",
-        "PERSON"
+        "Emmahof",
+        "FAC"
       ]
     ],
     "relations": []
@@ -687,345 +759,318 @@
   "27": {
     "ner": [
       [
-        "Nuremberg",
+        "Milan",
         "GPE"
-      ]
-    ],
-    "relations": []
-  },
-  "28": {
-    "ner": [
+      ],
+      [
+        "Munich",
+        "GPE"
+      ],
       [
         "Venice",
         "GPE"
       ],
       [
-        "Italy",
+        "Wilhelm Kray",
+        "PERSON"
+      ],
+      [
+        "Belasi",
+        "PERSON"
+      ],
+      [
+        "Florence",
         "GPE"
       ],
       [
-        "Alps",
-        "LOC"
+        "Mucha",
+        "PERSON"
+      ],
+      [
+        "Bavarian",
+        "NORP"
       ]
     ],
-    "relations": []
+    "relations": [
+      [
+        "Belasi",
+        "lived_in",
+        "Munich"
+      ],
+      [
+        "Wilhelm Kray",
+        "lived_in",
+        "Munich"
+      ]
+    ]
+  },
+  "28": {
+    "ner": [
+      [
+        "the Munich Academy of Fine Arts",
+        "ORG"
+      ],
+      [
+        "Munich",
+        "GPE"
+      ],
+      [
+        "Belasi",
+        "PERSON"
+      ],
+      [
+        "Mucha",
+        "PERSON"
+      ],
+      [
+        "Munich Academy of Fine Arts",
+        "ORG"
+      ]
+    ],
+    "relations": [
+      [
+        "Belasi",
+        "school_attended",
+        "the Munich Academy of Fine Arts"
+      ],
+      [
+        "the Munich Academy of Fine Arts",
+        "based_in",
+        "Munich"
+      ],
+      [
+        "Mucha",
+        "school_attended",
+        "the Munich Academy of Fine Arts"
+      ]
+    ]
   },
   "29": {
     "ner": [
       [
-        "German",
-        "NORP"
-      ],
-      [
-        "about four years",
-        "DATE"
-      ],
-      [
-        "Dürer",
-        "PERSON"
-      ],
-      [
-        "Wanderjahre",
+        "September 1885",
         "DATE"
       ]
     ],
     "relations": [],
     "srl": [
       [
-        "Dürer",
-        "followed",
-        "the common German custom of taking Wanderjahre — in effect gap years — in which the apprentice learned skills from artists in other areas After completing his apprenticeship"
-      ],
-      [
-        "Dürer",
-        "was",
-        "to spend about four years away"
+        "He",
+        "moved",
+        "there in September 1885"
       ]
     ]
   },
   "30": {
     "ner": [
       [
-        "1490",
-        "DATE"
+        "Mucha",
+        "PERSON"
       ],
       [
-        "Colmar",
-        "GPE"
-      ],
-      [
-        "Northern Europe",
+        "Munich Academy",
         "LOC"
       ],
       [
-        "1492",
-        "DATE"
-      ],
-      [
-        "Martin Schongauer",
-        "PERSON"
-      ],
-      [
-        "Dürer",
-        "PERSON"
+        "the Munich Academy",
+        "ORG"
       ]
     ],
-    "relations": [],
-    "srl": [
+    "relations": [
       [
-        "He",
-        "left",
-        " in 1490"
-      ],
-      [
-        "He",
-        "work",
-        "under Martin Schongauer , the leading engraver of Northern Europe , but who died shortly before Dürer 's arrival at Colmar in 1492 possibly"
+        "Mucha",
+        "school_attended",
+        "the Munich Academy"
       ]
     ]
   },
   "31": {
     "ner": [
       [
-        "Frankfurt",
-        "GPE"
-      ],
-      [
-        "Netherlands",
-        "GPE"
-      ],
-      [
-        "Dürer",
+        "Karel Vítězslav Mašek",
         "PERSON"
+      ],
+      [
+        "Leonid Pasternak",
+        "PERSON"
+      ],
+      [
+        "Ludek Marold",
+        "PERSON"
+      ],
+      [
+        "Czechs",
+        "NORP"
+      ],
+      [
+        "Boris Pasternak",
+        "PERSON"
+      ],
+      [
+        "Russian",
+        "NORP"
+      ],
+      [
+        "Slavic",
+        "NORP"
       ]
     ],
-    "relations": [],
-    "srl": [
+    "relations": [
       [
-        "Dürer",
-        "travelled",
-        "where in the intervening period"
+        "Karel Vítězslav Mašek",
+        "origin",
+        "Slavic"
       ],
       [
+        "Leonid Pasternak",
+        "origin",
+        "Russian"
+      ],
+      [
+        "Karel Vítězslav Mašek",
+        "origin",
+        "Russian"
+      ],
+      [
+        "Boris Pasternak",
+        "origin",
+        "Slavic"
+      ],
+      [
+        "Karel Vítězslav Mašek",
+        "origin",
+        "Czechs"
+      ],
+      [
+        "Boris Pasternak",
+        "origin",
+        "Russian"
+      ],
+      [
+        "Ludek Marold",
+        "origin",
+        "Slavic"
+      ],
+      [
+        "Boris Pasternak",
+        "origin",
+        "Czechs"
+      ],
+      [
+        "Ludek Marold",
+        "origin",
+        "Russian"
+      ],
+      [
+        "Ludek Marold",
+        "origin",
+        "Czechs"
+      ],
+      [
+        "Leonid Pasternak",
+        "origin",
+        "Slavic"
+      ]
+    ],
+    "srl": [
+      [
         "he",
-        "went",
-        "to Frankfurt and the Netherlands"
+        "become",
+        "friends with a number of notable Slavic artists there , including the Czechs Karel Vítězslav Mašek and Ludek Marold and the Russian Leonid Pasternak , father of the famous poet and novelist Boris Pasternak"
       ]
     ]
   },
   "32": {
     "ner": [
       [
-        "Ludwig",
-        "PERSON"
-      ],
-      [
-        "Colmar",
+        "Prague",
         "GPE"
       ],
       [
-        "Caspar",
-        "PERSON"
-      ],
-      [
-        "Schongauer",
-        "PERSON"
-      ],
-      [
-        "Dürer",
-        "PERSON"
-      ],
-      [
-        "Paul",
-        "PERSON"
+        "Czech",
+        "NORP"
       ]
     ],
-    "relations": [
+    "relations": [],
+    "srl": [
       [
-        "Caspar",
-        "sibling_of",
-        "Paul"
+        "He",
+        "founded",
+        "a Czech students ' club"
       ],
       [
-        "Schongauer",
-        "sibling_of",
-        "Ludwig"
-      ],
-      [
-        "Schongauer",
-        "sibling_of",
-        "Caspar"
-      ],
-      [
-        "Ludwig",
-        "sibling_of",
-        "Paul"
-      ],
-      [
-        "Caspar",
-        "sibling_of",
-        "Schongauer"
-      ],
-      [
-        "Paul",
-        "sibling_of",
-        "Schongauer"
-      ],
-      [
-        "Caspar",
-        "sibling_of",
-        "Ludwig"
-      ],
-      [
-        "Paul",
-        "sibling_of",
-        "Caspar"
-      ],
-      [
-        "Ludwig",
-        "sibling_of",
-        "Caspar"
-      ],
-      [
-        "Paul",
-        "sibling_of",
-        "Ludwig"
-      ],
-      [
-        "Schongauer",
-        "sibling_of",
-        "Paul"
+        "He",
+        "contributed",
+        "political illustrations to nationalist publications in Prague"
       ]
     ]
   },
   "33": {
     "ner": [
       [
-        "Later that year",
-        "DATE"
+        "Methodius",
+        "PERSON"
       ],
       [
-        "Basel",
+        "North Dakota",
         "GPE"
       ],
       [
-        "Georg",
+        "Cyril",
         "PERSON"
       ],
       [
-        "Martin Schongauer",
-        "PERSON"
+        "1886",
+        "DATE"
       ],
       [
-        "Dürer",
-        "PERSON"
+        "Roman Catholic",
+        "NORP"
+      ],
+      [
+        "Czech",
+        "NORP"
+      ],
+      [
+        "Pisek",
+        "GPE"
       ]
     ],
     "relations": [],
     "srl": [
       [
-        "Dürer",
-        "travelled",
-        "to Basel Later that year"
-      ],
-      [
-        "Dürer",
-        "stay",
-        "with another brother of Martin Schongauer , the goldsmith Georg"
+        "he",
+        "received",
+        "a notable commission for a painting of the Czech patron saints Cyril and Methodius , from a group of Czech emigrants , including some of his relatives , who had founded a Roman Catholic church in the town of Pisek , North Dakota In 1886"
       ]
     ]
   },
   "34": {
     "ner": [
       [
-        "Strasbourg",
+        "Munich",
         "GPE"
-      ],
-      [
-        "Nikolaus Gerhaert",
-        "PERSON"
-      ],
-      [
-        "Dürer",
-        "PERSON"
-      ],
-      [
-        "1493",
-        "DATE"
       ]
     ],
     "relations": [],
     "srl": [
       [
-        "Dürer",
-        "went",
-        "to Strasbourg , where he would have experienced the sculpture of Nikolaus Gerhaert In 1493"
+        "He",
+        "was",
+        "very happy with the artistic environment of Munich"
       ],
       [
         "he",
-        "experienced",
-        "the sculpture of Nikolaus Gerhaert Strasbourg"
-      ]
-    ]
-  },
-  "35": {
-    "ner": [
-      [
-        "Nuremberg",
-        "GPE"
-      ],
-      [
-        "Agnes Frey",
-        "PERSON"
-      ],
-      [
-        "23",
-        "DATE"
-      ],
-      [
-        "7 July 1494",
-        "DATE"
-      ],
-      [
-        "Louvre",
-        "FAC"
-      ],
-      [
-        "first",
-        "ORDINAL"
-      ],
-      [
-        "Nuremberg.Very",
-        "GPE"
-      ],
-      [
-        "Dürer",
-        "PERSON"
-      ]
-    ],
-    "relations": [
-      [
-        "Agnes Frey",
-        "married_to",
-        "Dürer"
-      ],
-      [
-        "Dürer",
-        "has_age",
-        "23"
-      ],
-      [
-        "Dürer",
-        "married_to",
-        "Agnes Frey"
+        "wrote",
+        "Here I am in my new element , painting to friends"
       ]
     ]
   },
   "36": {
     "ner": [
       [
-        "Agnes",
-        "PERSON"
+        "first",
+        "ORDINAL"
       ]
     ],
     "relations": []
@@ -1033,377 +1078,557 @@
   "37": {
     "ner": [
       [
-        "Albrecht",
-        "PERSON"
+        "Munich",
+        "GPE"
       ],
       [
-        "Dürer",
-        "PERSON"
+        "Bavarian",
+        "NORP"
       ]
     ],
-    "relations": []
+    "relations": [],
+    "srl": [
+      [
+        "he",
+        "found",
+        "he could not remain forever in Munich"
+      ],
+      [
+        "he",
+        "not remain",
+        " forever in Munich"
+      ]
+    ]
   },
   "38": {
     "ner": [
       [
-        "Willibald Pirckheimer",
+        "Paris",
+        "GPE"
+      ],
+      [
+        "Belasi",
         "PERSON"
       ],
       [
-        "Albrecht",
+        "Rome",
+        "GPE"
+      ]
+    ],
+    "relations": [],
+    "srl": [
+      [
+        "he",
+        "travel",
+        "either to Rome or to Paris"
+      ]
+    ]
+  },
+  "39": {
+    "ner": [
+      [
+        "Paris",
+        "GPE"
+      ],
+      [
+        "Belasi",
         "PERSON"
       ],
       [
-        "Dürer",
-        "PERSON"
-      ],
-      [
-        "Agnes",
-        "PERSON"
+        "1887",
+        "DATE"
       ]
     ],
     "relations": [
       [
-        "Agnes",
-        "married_to",
-        "Albrecht"
-      ],
-      [
-        "Albrecht",
-        "married_to",
-        "Agnes"
+        "Belasi",
+        "lived_in",
+        "Paris"
       ]
     ],
     "srl": [
       [
         "he",
-        "quipped",
-        "about his wife to Willibald Pirckheimer the letters of Dürer"
+        "decided",
+        "to move to Paris in 1887"
+      ],
+      [
+        "he",
+        "move",
+        "to Paris"
       ]
     ]
   },
   "40": {
     "ner": [
       [
-        "Dürer",
-        "PERSON"
-      ],
-      [
-        "Pirckheimer",
-        "PERSON"
-      ],
-      [
-        "Agnes",
-        "PERSON"
-      ]
-    ],
-    "relations": []
-  },
-  "41": {
-    "ner": [
-      [
-        "The Men's Bath",
-        "WORK_OF_ART"
-      ],
-      [
-        "Albrecht",
-        "PERSON"
-      ]
-    ],
-    "relations": [],
-    "srl": [
-      [
-        "Albrecht",
-        "was",
-        "bisexual or homosexual due to the recurrence of homoerotic themes in his works ( e.g. The Men 's Bath ) , and the nature of his correspondence with close friends"
-      ]
-    ]
-  },
-  "42": {
-    "ner": [
-      [
-        "Italy",
-        "GPE"
-      ],
-      [
-        "three months",
+        "1889",
         "DATE"
       ],
       [
-        "Nuremberg",
+        "1888",
+        "DATE"
+      ],
+      [
+        "Académie Julian",
+        "MISC"
+      ],
+      [
+        "Académie Colarossi",
+        "ORG"
+      ],
+      [
+        "Paris",
         "GPE"
       ],
       [
-        "Dürer",
+        "the Académie Julian",
+        "ORG"
+      ],
+      [
+        "the following year",
+        "DATE"
+      ],
+      [
+        "Mucha",
         "PERSON"
       ]
     ],
     "relations": [
       [
-        "Dürer",
+        "Mucha",
         "lived_in",
-        "Italy"
+        "Paris"
       ]
     ],
     "srl": [
       [
-        "Dürer",
-        "left",
-        "for Italy Within three months of his marriage"
+        "Mucha",
+        "moved",
+        "where he enrolled in the Académie Julian and the following year , 1889 , Académie Colarossi in 1888"
+      ],
+      [
+        "he",
+        "enrolled",
+        "in the Académie Julian and the following year , 1889 , Académie Colarossi Paris"
+      ]
+    ]
+  },
+  "41": {
+    "ner": [
+      [
+        "two",
+        "CARDINAL"
+      ]
+    ],
+    "relations": []
+  },
+  "42": {
+    "ner": [
+      [
+        "Jean",
+        "PER"
+      ],
+      [
+        "Paul Laurens",
+        "PER"
+      ],
+      [
+        "Académie Julian",
+        "ORG"
+      ],
+      [
+        "Jules Lefebvre",
+        "PERSON"
+      ],
+      [
+        "the Académie Julian",
+        "ORG"
+      ],
+      [
+        "Jean-Paul Laurens",
+        "PERSON"
+      ],
+      [
+        "first",
+        "ORDINAL"
+      ]
+    ],
+    "relations": [
+      [
+        "Jules Lefebvre",
+        "school_attended",
+        "the Académie Julian"
       ]
     ]
   },
   "43": {
     "ner": [
       [
-        "Alps",
-        "LOC"
+        "thirty",
+        "DATE"
+      ],
+      [
+        "Belasi",
+        "PERSON"
+      ],
+      [
+        "Count Belasi",
+        "PER"
+      ],
+      [
+        "Paris",
+        "GPE"
+      ],
+      [
+        "the end of 1889",
+        "DATE"
+      ],
+      [
+        "Mucha",
+        "PERSON"
+      ],
+      [
+        "Slavic",
+        "NORP"
       ]
     ],
-    "relations": [],
+    "relations": [
+      [
+        "Belasi",
+        "has_age",
+        "thirty"
+      ],
+      [
+        "Mucha",
+        "has_age",
+        "thirty"
+      ]
+    ],
     "srl": [
       [
-        "He",
-        "made",
-        "watercolour sketches as he traveled over the Alps"
+        "he",
+        "approached",
+        "the age of thirty"
+      ],
+      [
+        "Mucha",
+        "received",
+        "enough education"
+      ],
+      [
+        "Mucha",
+        "ended",
+        "his subsidies"
       ],
       [
         "he",
-        "traveled",
-        "over the Alps"
+        "arrived",
+        "in Paris When"
+      ],
+      [
+        "Mucha",
+        "found",
+        "shelter When he arrived in Paris"
       ]
     ]
   },
   "44": {
     "ner": [
       [
-        "Nemesis",
-        "WORK_OF_ART"
-      ]
-    ],
-    "relations": []
-  },
-  "45": {
-    "ner": [
-      [
-        "Venice",
-        "GPE"
+        "rue de la Grande Chaumière",
+        "FAC"
       ],
       [
-        "Italy",
-        "GPE"
+        "13",
+        "FAC"
+      ],
+      [
+        "Crémerie",
+        "FAC"
+      ],
+      [
+        "Charlotte Caron",
+        "PERSON"
       ]
     ],
     "relations": [],
     "srl": [
       [
-        "he",
-        "went",
-        "to Venice In Italy"
+        "He",
+        "lived",
+        " in a boarding house called the Crémerie at 13 rue de la Grande Chaumière , whose owner , Charlotte Caron , was famous for sheltering struggling artists"
+      ],
+      [
+        "she",
+        "accepted",
+        "paintings or drawings when needed in place of rent"
+      ]
+    ]
+  },
+  "45": {
+    "ner": [
+      [
+        "Mucha",
+        "PERSON"
+      ],
+      [
+        "Ludek Marold",
+        "PERSON"
+      ],
+      [
+        "Czech",
+        "NORP"
+      ],
+      [
+        "Munich",
+        "GPE"
+      ]
+    ],
+    "relations": [
+      [
+        "Ludek Marold",
+        "origin",
+        "Czech"
+      ]
+    ],
+    "srl": [
+      [
+        "Mucha",
+        "decided",
+        "to follow the path of another Czech painter he knew from Munich , Ludek Marold , who had made a successful career as an illustrator for magazines"
+      ],
+      [
+        "Mucha",
+        "follow",
+        "the path of another Czech painter he knew from Munich , Ludek Marold , who had made a successful career as an illustrator for magazines"
       ],
       [
         "he",
-        "study",
-        "its more advanced artistic world"
+        "knew",
+        "another Czech painter"
       ]
     ]
   },
   "46": {
     "ner": [
       [
-        "the Housebook Master",
-        "PERSON"
+        "weekly",
+        "DATE"
       ],
       [
-        "Wolgemut",
-        "PERSON"
+        "1891",
+        "DATE"
       ],
       [
-        "Schongauer",
-        "PERSON"
+        "La Vie populaire",
+        "ORG"
       ],
       [
-        "German",
-        "NORP"
+        "1890",
+        "DATE"
       ],
       [
-        "Dürer",
-        "PERSON"
+        "La Vie",
+        "ORG"
       ]
     ],
     "relations": [],
     "srl": [
       [
-        "Dürer",
-        "learned",
-        "how to make prints in drypoint and design woodcuts in the German style , based on the works of Schongauer and the Housebook Master"
+        "he",
+        "began",
+        "providing illustrations for the weekly magazine La Vie populaire , which published novels in weekly segments In 1890 and 1891"
+      ],
+      [
+        "he",
+        "providing",
+        "illustrations for the weekly magazine La Vie populaire , which published novels in weekly segments"
       ]
     ]
   },
   "47": {
     "ner": [
       [
-        "Germany",
-        "GPE"
+        "Guy de Maupassant",
+        "PERSON"
       ],
       [
-        "Italian",
-        "NORP"
+        "22 May 1890",
+        "DATE"
       ],
       [
-        "Italy",
-        "GPE"
-      ],
-      [
-        "two",
-        "CARDINAL"
+        "The Useless Beauty",
+        "WORK_OF_ART"
       ]
     ],
-    "relations": [],
-    "srl": [
-      [
-        "He",
-        "had",
-        "access to some Italian works in Germany"
-      ],
-      [
-        "he",
-        "made",
-        "the two visits"
-      ]
-    ]
+    "relations": []
   },
   "48": {
     "ner": [
       [
-        "Venice",
-        "GPE"
-      ],
-      [
-        "Giovanni Bellini",
-        "PERSON"
+        "Le Petit Français Illustré",
+        "ORG"
       ]
     ],
     "relations": [],
     "srl": [
       [
         "He",
-        "wrote",
-        "that Giovanni Bellini was the oldest and still the best of the artists in Venice"
+        "made",
+        "illustrations for Le Petit Français Illustré , which published stories for young people in both magazine and book form also"
       ]
     ]
   },
   "49": {
     "ner": [
       [
-        "Andrea Mantegna",
-        "PERSON"
+        "23 January 1892",
+        "DATE"
       ],
       [
-        "Lorenzo di Credi",
-        "PERSON"
+        "Franco",
+        "PER"
       ],
       [
-        "Antonio del Pollaiuolo",
-        "PERSON"
+        "the Franco-Prussian War",
+        "EVENT"
+      ],
+      [
+        "Prussian War",
+        "MISC"
       ]
     ],
     "relations": [],
     "srl": [
       [
         "he",
-        "produced",
-        "copies of while training"
+        "provided",
+        "dramatic scenes of battles and other historic events For this magazine including a cover illustration of a scene from the Franco - Prussian War which was on 23 January 1892 edition"
       ]
     ]
   },
   "50": {
     "ner": [
       [
-        "Mantua",
-        "GPE"
-      ],
-      [
-        "Dürer",
-        "PERSON"
-      ],
-      [
-        "Padua",
-        "GPE"
+        "first",
+        "ORDINAL"
       ]
     ],
     "relations": [],
     "srl": [
       [
-        "Dürer",
-        "visited",
-        "Padua and Mantua on this trip also"
-      ]
-    ]
-  },
-  "51": {
-    "ner": [
-      [
-        "1495",
-        "DATE"
+        "He",
+        "was",
+        "able to buy a harmonium to continue his musical interests , and his first camera , which used glass - plate negatives"
       ],
       [
-        "Nuremberg",
-        "GPE"
-      ],
-      [
-        "Dürer",
-        "PERSON"
-      ]
-    ],
-    "relations": [],
-    "srl": [
-      [
-        "Dürer",
-        "opened",
-        "his own workshop On his return to Nuremberg in 1495"
+        "He",
+        "buy",
+        "and his first camera , which used glass - plate negatives"
       ]
     ]
   },
   "52": {
     "ner": [
       [
-        "Northern",
-        "NORP"
-      ],
-      [
-        "Italian",
-        "NORP"
-      ],
-      [
-        "the next five years",
+        "1893",
         "DATE"
+      ],
+      [
+        "Tahiti",
+        "GPE"
+      ],
+      [
+        "the",
+        "DATE"
+      ],
+      [
+        "Gauguin",
+        "PERSON"
+      ],
+      [
+        "Paul Gauguin",
+        "PERSON"
       ]
     ],
-    "relations": []
+    "relations": [],
+    "srl": [
+      [
+        "He",
+        "became",
+        "friends with Paul Gauguin"
+      ],
+      [
+        "He",
+        "shared",
+        "a studio with him when Gauguin returned from Tahiti in the summer of 1893"
+      ]
+    ]
   },
   "53": {
     "ner": [
       [
-        "The Men's Bath House",
+        "August Strindberg",
+        "PERSON"
+      ],
+      [
+        "Charles Seignobos",
+        "PERSON"
+      ],
+      [
+        "late autumn 1894",
+        "DATE"
+      ],
+      [
+        "Scenes and Episodes of German History",
         "WORK_OF_ART"
       ],
       [
-        "the first years",
-        "DATE"
+        "Scenes and Episodes",
+        "MISC"
       ],
       [
-        "1496",
-        "DATE"
+        "German History",
+        "MISC"
       ]
     ],
-    "relations": []
+    "relations": [],
+    "srl": [
+      [
+        "he",
+        "became",
+        "friends with the playwright August Strindberg , with whom he had a common interest in philosophy and mysticism In late autumn 1894 also"
+      ],
+      [
+        "he",
+        "had",
+        "a common interest in philosophy and mysticism"
+      ],
+      [
+        "he",
+        "provide",
+        "illustrations for Scenes and Episodes of German History"
+      ]
+    ]
   },
   "54": {
     "ner": [
       [
-        "German",
-        "NORP"
+        "Four",
+        "CARDINAL"
+      ],
+      [
+        "Frederic Barbarossa",
+        "PERSON"
+      ],
+      [
+        "1894",
+        "DATE"
+      ],
+      [
+        "Paris Salon of Artists",
+        "EVENT"
       ]
     ],
     "relations": []
@@ -1411,24 +1636,53 @@
   "55": {
     "ner": [
       [
-        "Dürer",
-        "PERSON"
+        "Mucha",
+        "PER"
+      ],
+      [
+        "the Central Library of Fine Arts",
+        "ORG"
+      ],
+      [
+        "Central Library of Fine Arts",
+        "ORG"
+      ],
+      [
+        "the early 1890s",
+        "DATE"
+      ],
+      [
+        "first",
+        "ORDINAL"
       ]
     ],
     "relations": [],
     "srl": [
       [
-        "Dürer",
-        "cut",
-        "any of the woodblocks"
+        "He",
+        "received",
+        "a medal of honor , his first official recognition"
+      ],
+      [
+        "Mucha",
+        "added",
+        "another important client in the early 1890s"
       ]
     ]
   },
   "56": {
     "ner": [
       [
-        "Wolgemut",
-        "PERSON"
+        "Art Nouveau",
+        "MISC"
+      ],
+      [
+        "1897",
+        "DATE"
+      ],
+      [
+        "Art et Decoration",
+        "ORG"
       ]
     ],
     "relations": []
@@ -1436,435 +1690,12 @@
   "57": {
     "ner": [
       [
-        "Dürer",
-        "PERSON"
-      ]
-    ],
-    "relations": [],
-    "srl": [
-      [
-        "Dürer",
-        "drew",
-        "his design"
-      ],
-      [
-        "Dürer",
-        "glued",
-        "a paper drawing to the block"
-      ]
-    ]
-  },
-  "59": {
-    "ner": [
-      [
-        "St. Michael Fighting the Dragon",
-        "WORK_OF_ART"
-      ],
-      [
-        "sixteen",
-        "CARDINAL"
-      ],
-      [
-        "1498",
-        "DATE"
-      ],
-      [
-        "Apocalypse",
-        "EVENT"
-      ]
-    ],
-    "relations": []
-  },
-  "60": {
-    "ner": [
-      [
-        "seven",
-        "CARDINAL"
-      ],
-      [
-        "the Great Passion",
-        "WORK_OF_ART"
-      ],
-      [
-        "first",
-        "ORDINAL"
-      ],
-      [
-        "eleven",
-        "CARDINAL"
-      ]
-    ],
-    "relations": [],
-    "srl": [
-      [
-        "He",
-        "made",
-        "a series of eleven a little later"
-      ]
-    ]
-  },
-  "61": {
-    "ner": [
-      [
-        "Frederick III",
+        "Eugène Manuel",
         "PERSON"
       ],
       [
-        "1496",
-        "DATE"
-      ],
-      [
-        "Saxony",
-        "GPE"
-      ],
-      [
-        "The Seven Sorrows Polyptych",
-        "WORK_OF_ART"
-      ],
-      [
-        "Dürer",
-        "PERSON"
-      ]
-    ],
-    "relations": []
-  },
-  "62": {
-    "ner": [
-      [
-        "Dürer",
-        "PERSON"
-      ],
-      [
-        "1500.",
-        "CARDINAL"
-      ],
-      [
-        "1502",
-        "DATE"
-      ]
-    ],
-    "relations": []
-  },
-  "63": {
-    "ner": [
-      [
-        "Around 1503–1505",
-        "DATE"
-      ],
-      [
-        "first",
-        "ORDINAL"
-      ],
-      [
-        "the Life of the Virgin",
-        "WORK_OF_ART"
-      ],
-      [
-        "17",
-        "CARDINAL"
-      ],
-      [
-        "Dürer",
-        "PERSON"
-      ]
-    ],
-    "relations": [],
-    "srl": [
-      [
-        "he",
-        "not finish",
-        "the Life of the Virgin for some years"
-      ]
-    ]
-  },
-  "64": {
-    "ner": [
-      [
-        "the Great Passion",
-        "WORK_OF_ART"
-      ],
-      [
-        "Dürer",
-        "PERSON"
-      ],
-      [
-        "several years later",
-        "DATE"
-      ]
-    ],
-    "relations": [],
-    "srl": [
-      [
-        "Dürer",
-        "trained",
-        "in the difficult art of using the burin to make engravings himself During the same period"
-      ]
-    ]
-  },
-  "66": {
-    "ner": [
-      [
-        "Germanic",
-        "NORP"
-      ],
-      [
-        "some decades later",
-        "DATE"
-      ],
-      [
-        "1496",
-        "DATE"
-      ],
-      [
-        "Giorgio Vasari",
-        "PERSON"
-      ],
-      [
-        "the Prodigal Son",
-        "WORK_OF_ART"
-      ],
-      [
-        "Renaissance",
-        "DATE"
-      ],
-      [
-        "Italian",
-        "NORP"
-      ]
-    ],
-    "relations": [
-      [
-        "Giorgio Vasari",
-        "has_title",
-        "Renaissance"
-      ]
-    ],
-    "srl": [
-      [
-        "he",
-        "executed",
-        "the Prodigal Son , which the Italian Renaissance art historian Giorgio Vasari singled out for praise some decades later , noting its Germanic quality In 1496"
-      ]
-    ]
-  },
-  "67": {
-    "ner": [
-      [
-        "1498",
-        "DATE"
-      ],
-      [
-        "The Sea Monster",
-        "WORK_OF_ART"
-      ],
-      [
-        "Nemesis",
-        "WORK_OF_ART"
-      ],
-      [
-        "1502",
-        "DATE"
-      ],
-      [
-        "Saint Eustace",
-        "WORK_OF_ART"
-      ]
-    ],
-    "relations": [],
-    "srl": [
-      [
-        "He",
-        "producing",
-        " soon"
-      ]
-    ]
-  },
-  "68": {
-    "ner": [
-      [
-        "1501",
-        "DATE"
-      ]
-    ],
-    "relations": []
-  },
-  "69": {
-    "ner": [
-      [
-        "Pond in the Woods",
-        "WORK_OF_ART"
-      ],
-      [
-        "Willow Mill",
-        "WORK_OF_ART"
-      ]
-    ],
-    "relations": []
-  },
-  "71": {
-    "ner": [
-      [
-        "Madonnas",
-        "PERSON"
-      ]
-    ],
-    "relations": [],
-    "srl": [
-      [
-        "He",
-        "made",
-        "a number of Madonnas , single religious figures , and small scenes with comic peasant figures"
-      ]
-    ]
-  },
-  "72": {
-    "ner": [
-      [
-        "Europe",
-        "LOC"
-      ],
-      [
-        "Dürer",
-        "PERSON"
-      ]
-    ],
-    "relations": []
-  },
-  "73": {
-    "ner": [
-      [
-        "Venice",
-        "GPE"
-      ],
-      [
-        "Nuremberg",
-        "GPE"
-      ],
-      [
-        "Jacopo de' Barbari",
-        "PERSON"
-      ],
-      [
-        "Venetian",
-        "NORP"
-      ],
-      [
-        "1500",
-        "DATE"
-      ],
-      [
-        "Dürer",
-        "PERSON"
-      ]
-    ],
-    "relations": [
-      [
-        "Jacopo de' Barbari",
-        "origin",
-        "Venetian"
-      ]
-    ],
-    "srl": [
-      [
-        "Dürer",
-        "met",
-        "The Venetian artist Jacopo de ' Barbari in Venice"
-      ],
-      [
-        "Dürer",
-        "said",
-        "that he learned much about the new developments in perspective , anatomy , and proportion from him"
-      ],
-      [
-        "he",
-        "learned",
-        "much about the new developments in perspective , anatomy , and proportion from him"
-      ]
-    ]
-  },
-  "74": {
-    "ner": [
-      [
-        "Dürer",
-        "PERSON"
-      ],
-      [
-        "De' Barbari",
-        "PERSON"
-      ]
-    ],
-    "relations": [],
-    "srl": [
-      [
-        "he",
-        "knew",
-        "everything"
-      ],
-      [
-        "Dürer",
-        "began",
-        "his own studies , which would become a lifelong preoccupation"
-      ]
-    ]
-  },
-  "75": {
-    "ner": [
-      [
-        "Adam and Eve",
-        "WORK_OF_ART"
-      ],
-      [
-        "1504",
-        "DATE"
-      ],
-      [
-        "Dürer",
-        "PERSON"
-      ]
-    ],
-    "relations": []
-  },
-  "77": {
-    "ner": [
-      [
-        "the Betende Hände",
-        "WORK_OF_ART"
-      ],
-      [
-        "1508",
-        "DATE"
-      ],
-      [
-        "Dürer",
-        "PERSON"
-      ]
-    ],
-    "relations": [],
-    "srl": [
-      [
-        "Dürer",
-        "created",
-        "large numbers of preparatory drawings , especially for his paintings and engravings"
-      ]
-    ]
-  },
-  "78": {
-    "ner": [
-      [
-        "Young Hare",
-        "WORK_OF_ART"
-      ],
-      [
-        "the Great Piece of Turf",
-        "WORK_OF_ART"
-      ],
-      [
-        "1503",
-        "DATE"
-      ],
-      [
-        "1502",
-        "DATE"
+        "La Costume au théâtre",
+        "ORG"
       ]
     ],
     "relations": [],
@@ -1872,20 +1703,930 @@
       [
         "He",
         "continued",
-        "to make images in watercolour and bodycolour "
+        "to publish illustrations for his other clients , including illustrating a children 's book of poetry by Eugène Manuel , and illustrations for a magazine of the theater arts , called La Costume au théâtre"
       ],
       [
         "He",
-        "make",
-        "images in watercolour and bodycolour "
+        "publish",
+        "illustrations for his other clients , including illustrating a children 's book of poetry by Eugène Manuel , and illustrations for a magazine of the theater arts , called La Costume au théâtre"
+      ],
+      [
+        "He",
+        "illustrating",
+        "a children 's book of poetry by Eugène Manuel"
       ]
     ]
+  },
+  "58": {
+    "ner": [
+      [
+        "the end of 1894",
+        "DATE"
+      ],
+      [
+        "Sarah Bernhardt",
+        "PERSON"
+      ],
+      [
+        "French",
+        "NORP"
+      ]
+    ],
+    "relations": [],
+    "srl": [
+      [
+        "he",
+        "began",
+        "to work for French stage actress Sarah Bernhardt when"
+      ],
+      [
+        "he",
+        "work",
+        "for French stage actress Sarah Bernhardt"
+      ]
+    ]
+  },
+  "59": {
+    "ner": [
+      [
+        "26 December",
+        "DATE"
+      ],
+      [
+        "Maurice de Brunhoff",
+        "PERSON"
+      ],
+      [
+        "Gismonda",
+        "WORK_OF_ART"
+      ],
+      [
+        "Mucha",
+        "PERSON"
+      ],
+      [
+        "Lemercier",
+        "ORG"
+      ],
+      [
+        "Bernhardt",
+        "PERSON"
+      ]
+    ],
+    "relations": [],
+    "srl": [
+      [
+        "Mucha",
+        "described",
+        "it later"
+      ]
+    ]
+  },
+  "60": {
+    "ner": [
+      [
+        "31 October 1894",
+        "DATE"
+      ],
+      [
+        "Martin",
+        "PER"
+      ],
+      [
+        "the Boulevard Saint-Martin",
+        "FAC"
+      ],
+      [
+        "Victorien Sardou",
+        "PERSON"
+      ],
+      [
+        "Boulevard Saint",
+        "LOC"
+      ],
+      [
+        "Théâtre de la Renaissance",
+        "LOC"
+      ],
+      [
+        "the Théâtre de la Renaissance",
+        "FAC"
+      ]
+    ],
+    "relations": []
+  },
+  "61": {
+    "ner": [
+      [
+        "Bernhardt",
+        "PERSON"
+      ],
+      [
+        "Christmas",
+        "DATE"
+      ],
+      [
+        "1 January 1895",
+        "DATE"
+      ]
+    ],
+    "relations": []
+  },
+  "62": {
+    "ner": [
+      [
+        "Mucha",
+        "PERSON"
+      ],
+      [
+        "Lemercier",
+        "FAC"
+      ],
+      [
+        "Bernhardt",
+        "PERSON"
+      ]
+    ],
+    "relations": [],
+    "srl": [
+      [
+        "Mucha",
+        "happened",
+        " When Bernhardt called"
+      ],
+      [
+        "Mucha",
+        "be",
+        "at the publishing house correcting proofs"
+      ],
+      [
+        "Mucha",
+        "correcting",
+        "proofs"
+      ]
+    ]
+  },
+  "63": {
+    "ner": [
+      [
+        "Cleopatra",
+        "PERSON"
+      ],
+      [
+        "Bernhardt",
+        "PERSON"
+      ],
+      [
+        "1890",
+        "DATE"
+      ],
+      [
+        "Costume au Théâtre",
+        "ORG"
+      ]
+    ],
+    "relations": [],
+    "srl": [
+      [
+        "He",
+        "had",
+        "experience painting Bernhardt already"
+      ],
+      [
+        "He",
+        "painting",
+        "Bernhardt"
+      ],
+      [
+        "he",
+        "made",
+        "a series of illustrations of her performing in Cleopatra for Costume au Théâtre in 1890"
+      ]
+    ]
+  },
+  "64": {
+    "ner": [
+      [
+        "October 1894",
+        "DATE"
+      ],
+      [
+        "Gismonda",
+        "FAC"
+      ],
+      [
+        "Christmas",
+        "DATE"
+      ],
+      [
+        "fifty centimes",
+        "MONEY"
+      ],
+      [
+        "Brunhoff",
+        "PER"
+      ],
+      [
+        "Christmas 1894",
+        "DATE"
+      ],
+      [
+        "Le Gaulois",
+        "ORG"
+      ],
+      [
+        "Mucha",
+        "PERSON"
+      ],
+      [
+        "Bernhardt",
+        "PERSON"
+      ]
+    ],
+    "relations": [],
+    "srl": [
+      [
+        "Mucha",
+        "make",
+        "a series of illustrations of Bernhardt in the role for a special Christmas supplement , which was published at Christmas 1894 for the high price of fifty centimes a copy"
+      ],
+      [
+        "Mucha",
+        "design",
+        "the new poster for Bernhardt"
+      ]
+    ]
+  },
+  "65": {
+    "ner": [
+      [
+        "a little more than two meters",
+        "QUANTITY"
+      ],
+      [
+        "Bernhardt",
+        "PERSON"
+      ],
+      [
+        "Byzantine",
+        "NORP"
+      ]
+    ],
+    "relations": []
+  },
+  "66": {
+    "ner": [
+      [
+        "One",
+        "CARDINAL"
+      ]
+    ],
+    "relations": []
+  },
+  "68": {
+    "ner": [
+      [
+        "Byzantine",
+        "NORP"
+      ]
+    ],
+    "relations": []
+  },
+  "70": {
+    "ner": [
+      [
+        "Paris",
+        "GPE"
+      ],
+      [
+        "1 January 1895",
+        "DATE"
+      ]
+    ],
+    "relations": []
+  },
+  "71": {
+    "ner": [
+      [
+        "1895",
+        "DATE"
+      ],
+      [
+        "1896",
+        "DATE"
+      ],
+      [
+        "six-year",
+        "DATE"
+      ],
+      [
+        "Mucha",
+        "PERSON"
+      ],
+      [
+        "Bernhardt",
+        "PERSON"
+      ],
+      [
+        "four thousand",
+        "CARDINAL"
+      ]
+    ],
+    "relations": [],
+    "srl": [
+      [
+        "she",
+        "ordered",
+        "four thousand copies of the poster in 1895 and 1896"
+      ],
+      [
+        "she",
+        "gave",
+        "a six - year contract to produce more Mucha"
+      ]
+    ]
+  },
+  "72": {
+    "ner": [
+      [
+        "six years",
+        "DATE"
+      ],
+      [
+        "Gismonda",
+        "PERSON"
+      ],
+      [
+        "Mucha",
+        "PERSON"
+      ],
+      [
+        "Bernhardt",
+        "PERSON"
+      ],
+      [
+        "F. Champenois",
+        "ORG"
+      ]
+    ],
+    "relations": [],
+    "srl": [
+      [
+        "Mucha",
+        "found",
+        "himself quite suddenly famous"
+      ]
+    ]
+  },
+  "73": {
+    "ner": [
+      [
+        "Boulevard Saint Michel",
+        "FAC"
+      ],
+      [
+        "twenty",
+        "CARDINAL"
+      ],
+      [
+        "three hundred",
+        "CARDINAL"
+      ],
+      [
+        "Champenois",
+        "PERSON"
+      ]
+    ],
+    "relations": []
+  },
+  "74": {
+    "ner": [
+      [
+        "monthly",
+        "DATE"
+      ],
+      [
+        "Mucha",
+        "PERSON"
+      ]
+    ],
+    "relations": [],
+    "srl": [
+      [
+        "He",
+        "gave",
+        "a generous monthly salary Mucha"
+      ]
+    ]
+  },
+  "75": {
+    "ner": [
+      [
+        "La Tosca",
+        "WORK_OF_ART"
+      ],
+      [
+        "François Mansart.Mucha",
+        "PERSON"
+      ],
+      [
+        "rue du Val-de-Grâce",
+        "FAC"
+      ],
+      [
+        "6",
+        "FAC"
+      ],
+      [
+        "rue du Val",
+        "LOC"
+      ],
+      [
+        "three-bedroom",
+        "CARDINAL"
+      ],
+      [
+        "Lorenzaccio",
+        "WORK_OF_ART"
+      ],
+      [
+        "Mucha",
+        "PER"
+      ],
+      [
+        "La Dame aux Camelias",
+        "WORK_OF_ART"
+      ],
+      [
+        "Medea",
+        "WORK_OF_ART"
+      ],
+      [
+        "1899",
+        "DATE"
+      ],
+      [
+        "Hamlet",
+        "WORK_OF_ART"
+      ],
+      [
+        "François Mansart",
+        "PER"
+      ],
+      [
+        "Grâce",
+        "PER"
+      ],
+      [
+        "Mucha",
+        "PERSON"
+      ],
+      [
+        "1896",
+        "DATE"
+      ],
+      [
+        "one",
+        "CARDINAL"
+      ],
+      [
+        "Bernhardt",
+        "PERSON"
+      ],
+      [
+        "1898",
+        "DATE"
+      ]
+    ],
+    "relations": [],
+    "srl": [
+      [
+        "Mucha",
+        "was",
+        "able to move to a three - bedroom apartment with a large studio inside a large historic house at 6 rue du Val - de - Grâce originally built by François Mansart"
+      ],
+      [
+        "Mucha",
+        "move",
+        "to a three - bedroom apartment with a large studio inside a large historic house at 6 rue du Val - de - Grâce originally built by François Mansart"
+      ],
+      [
+        "Mucha",
+        "designed",
+        "posters for each successive Bernhardt play"
+      ]
+    ]
+  },
+  "76": {
+    "ner": [
+      [
+        "Bernhardt",
+        "PERSON"
+      ],
+      [
+        "La Tosca",
+        "WORK_OF_ART"
+      ]
+    ],
+    "relations": [],
+    "srl": [
+      [
+        "He",
+        "worked",
+        "from photographs of Bernhardt sometimes"
+      ],
+      [
+        "he",
+        "did",
+        "for La Tosca"
+      ]
+    ]
+  },
+  "77": {
+    "ner": [
+      [
+        "Bernhardt",
+        "PERSON"
+      ]
+    ],
+    "relations": [],
+    "srl": [
+      [
+        "he",
+        "designed",
+        "theatrical programs , sets , costumes , and jewelry for Bernhardt In addition to posters"
+      ]
+    ]
+  },
+  "78": {
+    "ner": [
+      [
+        "Bernhardt",
+        "PERSON"
+      ]
+    ],
+    "relations": []
   },
   "79": {
     "ner": [
       [
-        "Italy",
+        "Mucha",
+        "PERSON"
+      ],
+      [
+        "Bernhardt",
+        "PERSON"
+      ]
+    ],
+    "relations": []
+  },
+  "80": {
+    "ner": [
+      [
+        "Waverly and Perfect",
+        "ORG"
+      ],
+      [
+        "JOB",
+        "ORG"
+      ],
+      [
+        "Utile",
+        "ORG"
+      ],
+      [
+        "Moët-Chandon",
+        "ORG"
+      ],
+      [
+        "the Beers of the Meuse",
+        "ORG"
+      ],
+      [
+        "Waverly",
+        "PER"
+      ],
+      [
+        "Trappestine",
+        "ORG"
+      ],
+      [
+        "Beers of the Meuse",
+        "MISC"
+      ],
+      [
+        "Idéal Chocolate",
+        "ORG"
+      ],
+      [
+        "Ruinart",
+        "ORG"
+      ],
+      [
+        "Lefèvre",
+        "PER"
+      ],
+      [
+        "Chandon",
+        "MISC"
+      ],
+      [
+        "Ruinart Champagne",
+        "MISC"
+      ],
+      [
+        "Moët",
+        "MISC"
+      ],
+      [
+        "Nestlé",
+        "ORG"
+      ],
+      [
+        "Lefèvre-Utile",
+        "ORG"
+      ]
+    ],
+    "relations": [],
+    "srl": [
+      [
+        "He",
+        "designed",
+        "posters for JOB cigarette papers , Ruinart Champagne , Lefèvre - Utile biscuits , Nestlé baby food , Idéal Chocolate , the Beers of the Meuse , Moët - Chandon champagne , Trappestine brandy , and Waverly and Perfect bicycles"
+      ]
+    ]
+  },
+  "83": {
+    "ner": [
+      [
+        "1896",
+        "DATE"
+      ],
+      [
+        "first",
+        "ORDINAL"
+      ],
+      [
+        "four",
+        "CARDINAL"
+      ],
+      [
+        "The Seasons",
+        "WORK_OF_ART"
+      ]
+    ],
+    "relations": []
+  },
+  "84": {
+    "ner": [
+      [
+        "1897",
+        "DATE"
+      ],
+      [
+        "Reverie",
+        "WORK_OF_ART"
+      ],
+      [
+        "Champenois",
+        "MISC"
+      ]
+    ],
+    "relations": [],
+    "srl": [
+      [
+        "he",
+        "produced",
+        "an individual decorative panel of a young woman in a floral setting , called Reverie , for Champenois In 1897"
+      ]
+    ]
+  },
+  "86": {
+    "ner": [
+      [
+        "1897",
+        "DATE"
+      ],
+      [
+        "La Plume",
+        "ORG"
+      ],
+      [
+        "Léon Deschamps",
+        "PERSON"
+      ]
+    ],
+    "relations": []
+  },
+  "87": {
+    "ner": [
+      [
+        "1900",
+        "DATE"
+      ],
+      [
+        "The Times of Day",
+        "WORK_OF_ART"
+      ],
+      [
+        "The Seasons",
+        "MISC"
+      ],
+      [
+        "The Flowers",
+        "MISC"
+      ],
+      [
+        "The Flowers, The Arts",
+        "WORK_OF_ART"
+      ],
+      [
+        "1902",
+        "DATE"
+      ],
+      [
+        "The Arts",
+        "MISC"
+      ],
+      [
+        "1899",
+        "DATE"
+      ],
+      [
+        "Seasons",
+        "WORK_OF_ART"
+      ],
+      [
+        "The Moon and the Stars",
+        "WORK_OF_ART"
+      ],
+      [
+        "Precious Stones",
+        "WORK_OF_ART"
+      ],
+      [
+        "1898",
+        "DATE"
+      ]
+    ],
+    "relations": []
+  },
+  "88": {
+    "ner": [
+      [
+        "Mucha",
+        "PERSON"
+      ],
+      [
+        "Between 1896 and 1904",
+        "DATE"
+      ],
+      [
+        "Champenois",
+        "ORG"
+      ],
+      [
+        "over one hundred",
+        "CARDINAL"
+      ]
+    ],
+    "relations": [],
+    "srl": [
+      [
+        "Mucha",
+        "created",
+        "over one hundred poster designs for Champenois Between 1896 and 1904"
+      ]
+    ]
+  },
+  "89": {
+    "ner": [
+      [
+        "Japanese",
+        "NORP"
+      ]
+    ],
+    "relations": []
+  },
+  "90": {
+    "ner": [
+      [
+        "Monaco",
         "GPE"
+      ],
+      [
+        "448",
+        "CARDINAL"
+      ],
+      [
+        "Deschamps",
+        "PERSON"
+      ],
+      [
+        "Carlo",
+        "PER"
+      ],
+      [
+        "Monte-Carlo",
+        "GPE"
+      ],
+      [
+        "Paris",
+        "GPE"
+      ],
+      [
+        "Monte",
+        "LOC"
+      ],
+      [
+        "Monaco-Monte-Carlo",
+        "GPE"
+      ],
+      [
+        "Monaco",
+        "LOC"
+      ],
+      [
+        "1896",
+        "DATE"
+      ],
+      [
+        "1897",
+        "DATE"
+      ],
+      [
+        "Salon des Cent",
+        "ORG"
+      ]
+    ],
+    "relations": [],
+    "srl": [
+      [
+        "he",
+        "show",
+        "his work in 1896 in the Salon des Cent exhibition"
+      ],
+      [
+        "he",
+        "have",
+        "a major retrospective in the same gallery showing 448 works in 1897"
+      ]
+    ]
+  },
+  "91": {
+    "ner": [
+      [
+        "New York",
+        "GPE"
+      ],
+      [
+        "Vienna",
+        "GPE"
+      ],
+      [
+        "Prague",
+        "GPE"
+      ],
+      [
+        "La Plume",
+        "ORG"
+      ],
+      [
+        "London",
+        "GPE"
+      ],
+      [
+        "Munich",
+        "GPE"
+      ],
+      [
+        "Brussels",
+        "GPE"
+      ]
+    ],
+    "relations": []
+  },
+  "92": {
+    "ner": [
+      [
+        "Art Nouveau",
+        "MISC"
+      ],
+      [
+        "The Paris Universal Exposition of 1900",
+        "EVENT"
+      ],
+      [
+        "Vienna",
+        "GPE"
+      ],
+      [
+        "Paris Universal Exposition of 1900",
+        "MISC"
+      ],
+      [
+        "Mucha",
+        "PERSON"
       ],
       [
         "first",
@@ -1895,454 +2636,278 @@
     "relations": [],
     "srl": [
       [
-        "he",
-        "returned",
-        "to painting at first producing a series of works executed in tempera on linen In Italy"
+        "Mucha",
+        "move",
+        "toward the large - scale historical paintings which he had admired in Vienna"
       ],
       [
         "he",
-        "producing",
-        "a series of works executed in tempera on linen at first"
-      ]
-    ]
-  },
-  "80": {
-    "ner": [
-      [
-        "the Adoration of the Magi",
-        "WORK_OF_ART"
-      ],
-      [
-        "Paumgartner",
-        "PERSON"
-      ]
-    ],
-    "relations": []
-  },
-  "81": {
-    "ner": [
-      [
-        "Venice",
-        "GPE"
-      ],
-      [
-        "1506",
-        "DATE"
-      ]
-    ],
-    "relations": [],
-    "srl": [
-      [
-        "he",
-        "returned",
-        "to Venice In early 1506"
-      ],
-      [
-        "he",
-        "stayed",
-        "there until the spring of 1507"
-      ]
-    ]
-  },
-  "82": {
-    "ner": [
-      [
-        "Dürer",
-        "PERSON"
-      ]
-    ],
-    "relations": []
-  },
-  "83": {
-    "ner": [
-      [
-        "Venice",
-        "GPE"
-      ],
-      [
-        "German",
-        "NORP"
-      ],
-      [
-        "San Bartolomeo",
-        "ORG"
-      ]
-    ],
-    "relations": []
-  },
-  "84": {
-    "ner": [
-      [
-        "of",
-        "WORK_OF_ART"
-      ],
-      [
-        "Garlands",
-        "WORK_OF_ART"
-      ],
-      [
-        "the Adoration of the Virgin",
-        "WORK_OF_ART"
-      ]
-    ],
-    "relations": []
-  },
-  "85": {
-    "ner": [
-      [
-        "Venice",
-        "GPE"
-      ],
-      [
-        "German",
-        "NORP"
-      ],
-      [
-        "Italian",
-        "NORP"
-      ]
-    ],
-    "relations": []
-  },
-  "86": {
-    "ner": [
-      [
-        "Rudolf II",
-        "PERSON"
-      ],
-      [
-        "Prague",
-        "GPE"
-      ]
-    ],
-    "relations": []
-  },
-  "87": {
-    "ner": [
-      [
-        "Germany",
-        "GPE"
-      ],
-      [
-        "Nuremberg",
-        "GPE"
-      ],
-      [
-        "Venetians",
-        "NORP"
-      ],
-      [
-        "1520",
-        "DATE"
-      ],
-      [
-        "mid-1507",
-        "DATE"
-      ],
-      [
-        "Dürer",
-        "PERSON"
-      ]
-    ],
-    "relations": [
-      [
-        "Dürer",
-        "lived_in",
-        "Germany"
-      ],
-      [
-        "Dürer",
-        "lived_in",
-        "Nuremberg"
-      ]
-    ],
-    "srl": [
-      [
-        "Dürer",
-        "returned",
-        "to Nuremberg by mid-1507 Despite the regard in which he was held by the Venetians"
-      ],
-      [
-        "Dürer",
-        "remaining",
-        " until 1520 Despite the regard in which he was held by the Venetians in Germany"
-      ]
-    ]
-  },
-  "88": {
-    "ner": [
-      [
-        "Assumption of the Virgin",
-        "WORK_OF_ART"
-      ],
-      [
-        "Martyrdom of the Ten Thousand",
-        "WORK_OF_ART"
-      ],
-      [
-        "1507 and 1511",
-        "DATE"
-      ],
-      [
-        "Adoration of the Trinity",
-        "WORK_OF_ART"
-      ],
-      [
-        "1511",
-        "DATE"
-      ],
-      [
-        "Raphael.Between",
-        "PERSON"
-      ],
-      [
-        "1507",
-        "DATE"
-      ],
-      [
-        "Adam and Eve",
-        "WORK_OF_ART"
-      ],
-      [
-        "Europe",
-        "LOC"
-      ],
-      [
-        "Frederick of Saxony",
-        "PERSON"
-      ],
-      [
-        "1509",
-        "DATE"
-      ],
-      [
-        "Jacob Heller of Frankfurt",
-        "PERSON"
-      ],
-      [
-        "Virgin with the Iris",
-        "WORK_OF_ART"
-      ],
-      [
-        "Matthaeus Landauer",
-        "PERSON"
-      ],
-      [
-        "1508",
-        "DATE"
-      ],
-      [
-        "Dürer",
-        "PERSON"
-      ]
-    ],
-    "relations": [],
-    "srl": [
-      [
-        "he",
-        "was",
-        "on friendly terms and in communication with most of the major artists including Raphael"
-      ],
-      [
-        "Dürer",
-        "worked",
-        "on some of his most celebrated paintings : Adam and Eve  Between 1507 and 1511"
-      ]
-    ]
-  },
-  "89": {
-    "ner": [
-      [
-        "Apocalypse",
-        "WORK_OF_ART"
-      ],
-      [
-        "1511",
-        "DATE"
-      ],
-      [
-        "second",
-        "ORDINAL"
-      ],
-      [
-        "the Great Passion",
-        "WORK_OF_ART"
-      ],
-      [
-        "the Life of the Virgin",
-        "WORK_OF_ART"
-      ],
-      [
-        "two",
-        "CARDINAL"
-      ]
-    ],
-    "relations": [],
-    "srl": [
-      [
-        "he",
-        "completed",
-        "two woodcut series , the Great Passion and the Life of the Virgin , both published in 1511 together with a second edition of the Apocalypse series During this period also"
-      ]
-    ]
-  },
-  "90": {
-    "ner": [
-      [
-        "post-Venetian",
-        "NORP"
-      ],
-      [
-        "Dürer",
-        "PERSON"
-      ]
-    ],
-    "relations": []
-  },
-  "91": {
-    "ner": [
-      [
-        "thirty-seven",
-        "CARDINAL"
-      ],
-      [
-        "1511",
-        "DATE"
-      ],
-      [
-        "Little Passion",
-        "WORK_OF_ART"
-      ],
-      [
-        "1512",
-        "DATE"
-      ],
-      [
-        "fifteen",
-        "CARDINAL"
-      ]
-    ],
-    "relations": []
-  },
-  "92": {
-    "ner": [
-      [
-        "1513 to 1516",
-        "DATE"
-      ]
-    ],
-    "relations": [],
-    "srl": [
-      [
-        "he",
-        "Complaining",
-        "that painting did not make enough money to justify the time spent when compared to his prints"
-      ],
-      [
-        "he",
-        "produced",
-        "no paintings from 1513 to 1516"
+        "admired",
+        "the large - scale historical paintings in Vienna"
       ]
     ]
   },
   "93": {
     "ner": [
       [
-        "St. Jerome in His Study",
-        "WORK_OF_ART"
-      ],
-      [
-        "Handbook of a Christian Knight",
-        "WORK_OF_ART"
-      ],
-      [
-        "three",
-        "CARDINAL"
-      ],
-      [
-        "Erasmus",
-        "PERSON"
-      ],
-      [
-        "Knight, Death and the Devil",
-        "WORK_OF_ART"
-      ],
-      [
-        "1514",
-        "DATE"
-      ],
-      [
-        "1513",
-        "DATE"
-      ],
-      [
-        "Melencolia I",
-        "WORK_OF_ART"
-      ],
-      [
-        "Dürer",
-        "PERSON"
-      ]
-    ],
-    "relations": [],
-    "srl": [
-      [
-        "Dürer",
-        "created",
-        "his three most famous engravings : Knight , Death and the Devil  In 1513 and 1514"
-      ]
-    ]
-  },
-  "94": {
-    "ner": [
-      [
-        "1513",
-        "DATE"
-      ],
-      [
-        "Pirckheimer",
-        "PERSON"
-      ],
-      [
-        "Dürer",
-        "PERSON"
+        "Czech",
+        "NORP"
       ]
     ],
     "relations": []
   },
+  "94": {
+    "ner": [
+      [
+        "French",
+        "NORP"
+      ]
+    ],
+    "relations": []
+  },
+  "95": {
+    "ner": [
+      [
+        "Moravia",
+        "GPE"
+      ],
+      [
+        "La France",
+        "WORK_OF_ART"
+      ],
+      [
+        "Czech",
+        "NORP"
+      ],
+      [
+        "Mucha",
+        "PERSON"
+      ],
+      [
+        "Sarah Bernhardt",
+        "PERSON"
+      ]
+    ],
+    "relations": [
+      [
+        "Mucha",
+        "origin",
+        "Czech"
+      ]
+    ],
+    "srl": [
+      [
+        "Mucha",
+        "was",
+        "a Czech from Moravia"
+      ]
+    ]
+  },
   "96": {
     "ner": [
       [
-        "1515",
-        "DATE"
+        "Herzegovina",
+        "LOC"
       ],
       [
-        "Lisbon",
-        "GPE"
+        "Exposition",
+        "EVENT"
+      ],
+      [
+        "Austrian",
+        "NORP"
+      ],
+      [
+        "Pavilion of Bosnia",
+        "LOC"
+      ],
+      [
+        "the Pavilion of Bosnia and Herzegovina",
+        "FAC"
       ]
     ],
     "relations": [],
     "srl": [
       [
-        "he",
-        "created",
-        "his woodcut of a Rhinoceros which had arrived in Lisbon from a written description and sketch by another artist , without ever seeing the animal himself In 1515"
+        "He",
+        "applied",
+        "to the Austrian government"
+      ],
+      [
+        "He",
+        "received",
+        "a commission to create murals for the Pavilion of Bosnia and Herzegovina at the Exposition"
       ]
     ]
   },
   "97": {
     "ner": [
       [
-        "Indian",
-        "NORP"
+        "Turkey",
+        "GPE"
       ],
       [
-        "late as last century",
+        "the Treaty of Berlin",
+        "LAW"
+      ],
+      [
+        "Austria",
+        "GPE"
+      ],
+      [
+        "1878",
         "DATE"
       ],
       [
-        "German",
+        "Treaty of Berlin",
+        "LOC"
+      ]
+    ],
+    "relations": []
+  },
+  "98": {
+    "ner": [
+      [
+        "two",
+        "CARDINAL"
+      ],
+      [
+        "Exposition",
+        "EVENT"
+      ],
+      [
+        "three",
+        "CARDINAL"
+      ],
+      [
+        "more than twelve meters",
+        "QUANTITY"
+      ]
+    ],
+    "relations": []
+  },
+  "99": {
+    "ner": [
+      [
+        "Mucha",
+        "PER"
+      ],
+      [
+        "Slavic",
         "NORP"
+      ]
+    ],
+    "relations": []
+  },
+  "100": {
+    "ner": [
+      [
+        "Austrian",
+        "NORP"
+      ],
+      [
+        "a World's Fair",
+        "EVENT"
+      ],
+      [
+        "World 's Fair",
+        "MISC"
+      ]
+    ],
+    "relations": []
+  },
+  "101": {
+    "ner": [
+      [
+        "Catholic",
+        "NORP"
+      ],
+      [
+        "Balkans",
+        "LOC"
+      ],
+      [
+        "Orthodox Christians",
+        "MISC"
+      ],
+      [
+        "Muslims",
+        "NORP"
+      ],
+      [
+        "Christians",
+        "NORP"
+      ],
+      [
+        "Orthodox",
+        "NORP"
+      ]
+    ],
+    "relations": [],
+    "srl": [
+      [
+        "He",
+        "changed",
+        "his project to depict a future society in the Balkans where Catholic and Orthodox Christians and Muslims lived in harmony together"
+      ],
+      [
+        "he",
+        "began",
+        "work"
+      ]
+    ]
+  },
+  "102": {
+    "ner": [
+      [
+        "Balkan",
+        "NORP"
+      ],
+      [
+        "Mucha",
+        "PERSON"
+      ],
+      [
+        "Balkans",
+        "LOC"
+      ]
+    ],
+    "relations": [],
+    "srl": [
+      [
+        "Mucha",
+        "departed",
+        " immediately"
+      ],
+      [
+        "Mucha",
+        "make",
+        "sketches of Balkan costumes , ceremonies and architecture which he put into his new work"
+      ],
+      [
+        "he",
+        "put",
+        "sketches of Balkan costumes , ceremonies and architecture into his new work"
+      ]
+    ]
+  },
+  "103": {
+    "ner": [
+      [
+        "Universal Exposition",
+        "MISC"
+      ],
+      [
+        "Bosnia Offers Her Products",
+        "MISC"
+      ],
+      [
+        "Bosnia Offers Her Products to the Universal Exposition",
+        "WORK_OF_ART"
+      ],
+      [
+        "three",
+        "CARDINAL"
       ],
       [
         "one",
@@ -2351,95 +2916,86 @@
     ],
     "relations": []
   },
-  "98": {
+  "104": {
     "ner": [
       [
-        "the years leading to 1520",
-        "DATE"
-      ],
-      [
-        "1515",
-        "DATE"
-      ],
-      [
-        "1516",
-        "DATE"
+        "Bosnians",
+        "NORP"
       ]
     ],
     "relations": [],
     "srl": [
       [
-        "he",
-        "produced",
-        "a wide range of works , including the woodblocks for the first western printed star charts in 1515 and portraits in tempera on linen in 1516 In the years leading to 1520"
+        "He",
+        "include",
+        "some images of the sufferings of the Bosnians under foreign rule which appear in the arched band at the top of the mural"
       ]
     ]
   },
-  "99": {
+  "107": {
     "ner": [
       [
-        "sixth",
-        "ORDINAL"
+        "Bosnia Pavilion",
+        "LOC"
       ],
       [
-        "between 1515–1516",
-        "DATE"
+        "Mucha",
+        "PERSON"
       ],
       [
-        "1518",
-        "DATE"
+        "Exposition",
+        "EVENT"
       ],
       [
-        "five",
-        "CARDINAL"
+        "the Bosnia Pavilion.His",
+        "FAC"
       ]
     ],
     "relations": [],
     "srl": [
       [
-        "he",
-        "abandoned",
-        "a technique as unsuited to his aesthetic of methodical , classical form"
+        "Mucha",
+        "designed",
+        "a menu for the restaurant of the Bosnia Pavilion In addition to the murals"
       ]
     ]
   },
-  "100": {
+  "108": {
     "ner": [
       [
-        "Maximilian I",
-        "PERSON"
+        "Austrian",
+        "NORP"
       ],
       [
-        "1512",
-        "DATE"
+        "Exposition",
+        "EVENT"
       ],
       [
-        "Dürer",
-        "PERSON"
+        "Bosnian pavilion",
+        "FAC"
+      ],
+      [
+        "Bosnian",
+        "MISC"
       ]
     ],
-    "relations": []
+    "relations": [],
+    "srl": [
+      [
+        "He",
+        "designed",
+        "the posters for the official Austrian participation in the Exposition , the menu for the restaurant at the Bosnian pavilion , and menu for the official opening banquet"
+      ]
+    ]
   },
-  "101": {
+  "109": {
     "ner": [
       [
-        "Hieroglyphica",
-        "WORK_OF_ART"
-      ],
-      [
-        "Pirckheimer",
+        "Georges Fouquet",
         "PERSON"
       ],
       [
-        "192",
-        "CARDINAL"
-      ],
-      [
-        "The Triumphal Arch",
-        "WORK_OF_ART"
-      ],
-      [
-        "Horapollo",
+        "Houbigant",
         "PERSON"
       ]
     ],
@@ -2447,293 +3003,150 @@
     "srl": [
       [
         "He",
-        "commissioned",
-        "The Triumphal Arch , a vast work printed from 192 separate blocks , the symbolism of which is partly informed by Pirckheimer 's translation of Horapollo 's Hieroglyphica"
-      ]
-    ]
-  },
-  "102": {
-    "ner": [
-      [
-        "Hieronymous Andreae",
-        "PERSON"
-      ],
-      [
-        "Johannes Stabius",
-        "PERSON"
-      ],
-      [
-        "Dürer",
-        "PERSON"
-      ],
-      [
-        "Jörg Kölderer",
-        "PERSON"
-      ]
-    ],
-    "relations": []
-  },
-  "103": {
-    "ner": [
-      [
-        "Albrecht Altdorfer",
-        "PERSON"
-      ],
-      [
-        "Hans Springinklee",
-        "PERSON"
-      ],
-      [
-        "The Triumphal Procession",
-        "WORK_OF_ART"
-      ],
-      [
-        "Treitz-Saurwein",
-        "PERSON"
-      ],
-      [
-        "1512",
-        "DATE"
-      ],
-      [
-        "Arch",
-        "WORK_OF_ART"
-      ],
-      [
-        "Dürer",
-        "PERSON"
-      ]
-    ],
-    "relations": []
-  },
-  "104": {
-    "ner": [
-      [
-        "Prayer-Book",
-        "WORK_OF_ART"
-      ],
-      [
-        "Emperor",
-        "PERSON"
-      ],
-      [
-        "first",
-        "ORDINAL"
-      ],
-      [
-        "Dürer",
-        "PERSON"
-      ],
-      [
-        "1808",
-        "DATE"
-      ]
-    ],
-    "relations": [],
-    "srl": [
-      [
-        "Dürer",
-        "worked",
-        "on the marginal images for an edition of the Emperor 's printed Prayer - Book with pen"
-      ]
-    ]
-  },
-  "105": {
-    "ner": [
-      [
-        "Lucas Cranach the Elder",
-        "PERSON"
-      ],
-      [
-        "Hans Baldung",
-        "PERSON"
-      ],
-      [
-        "Dürer",
-        "PERSON"
-      ]
-    ],
-    "relations": []
-  },
-  "106": {
-    "ner": [
-      [
-        "1519",
-        "DATE"
-      ],
-      [
-        "Maximilian",
-        "PERSON"
-      ],
-      [
-        "Dürer",
-        "PERSON"
-      ]
-    ],
-    "relations": [
-      [
-        "Maximilian",
-        "date_of_death",
-        "1519"
-      ]
-    ],
-    "srl": [
-      [
-        "Dürer",
-        "made",
-        "several portraits of the Emperor , including one shortly before Maximilian 's death in 1519"
-      ]
-    ]
-  },
-  "107": {
-    "ner": [
-      [
-        "Maximilian",
-        "PERSON"
-      ],
-      [
-        "Dürer",
-        "PERSON"
-      ]
-    ],
-    "relations": []
-  },
-  "108": {
-    "ner": [
-      [
-        "Germany",
-        "GPE"
-      ],
-      [
-        "Dürer",
-        "PERSON"
-      ]
-    ],
-    "relations": [],
-    "srl": [
-      [
-        "Dürer",
-        "commented",
-        "that in Germany , as a non - noble , he was treated as a parasite later"
-      ],
-      [
-        "he",
-        "treated",
-        "as a parasite in Germany"
-      ]
-    ]
-  },
-  "109": {
-    "ner": [
-      [
-        "1495",
-        "DATE"
-      ],
-      [
-        "Maximilian",
-        "PERSON"
-      ],
-      [
-        "Dürer",
-        "PERSON"
-      ],
-      [
-        "Pirckheimer",
-        "PERSON"
-      ]
-    ],
-    "relations": [],
-    "srl": [
-      [
-        "he",
-        "met",
-        "Pirckheimer before entering the service of Maximilian"
+        "produced",
+        "displays for the jeweler Georges Fouquet and the perfume maker Houbigant"
       ]
     ]
   },
   "110": {
     "ner": [
       [
-        "Konrad Peutinger",
-        "PERSON"
+        "French Government",
+        "NORP"
       ],
       [
-        "Conrad Celtes",
-        "PERSON"
+        "French",
+        "MISC"
       ],
       [
-        "Johannes Stabius",
-        "PERSON"
+        "Knight of the Order",
+        "MISC"
       ],
       [
-        "Maximilian",
-        "PERSON"
+        "Franz Joseph",
+        "PER"
       ],
       [
-        "Hans Tscherte",
-        "PERSON"
+        "Exposition",
+        "EVENT"
       ],
       [
-        "Dürer",
-        "PERSON"
-      ]
-    ],
-    "relations": [],
-    "srl": [
-      [
-        "Dürer",
-        "collaborated",
-        "with a great number of other brilliant artists and scholars of the time who became his friends , like Johannes Stabius , Konrad Peutinger , Conrad Celtes , and Hans Tscherte also In Maximilian 's court"
-      ]
-    ]
-  },
-  "111": {
-    "ner": [
-      [
-        "One",
-        "CARDINAL"
+        "Austrian Pavilion",
+        "MISC"
       ],
       [
-        "Dürer",
-        "PERSON"
+        "the Grand Palais.His",
+        "FAC"
+      ],
+      [
+        "the Legion of Honour",
+        "WORK_OF_ART"
+      ],
+      [
+        "Austrian",
+        "NORP"
+      ],
+      [
+        "Le Pater",
+        "WORK_OF_ART"
+      ],
+      [
+        "the Austrian Pavilion",
+        "FAC"
+      ],
+      [
+        "Grand Palais",
+        "LOC"
+      ],
+      [
+        "Legion of Honour",
+        "MISC"
+      ],
+      [
+        "Knight of the Order of Franz Joseph",
+        "WORK_OF_ART"
       ]
     ],
     "relations": []
   },
-  "112": {
+  "111": {
     "ner": [
       [
-        "Maximilian",
+        "Mucha",
         "PERSON"
       ],
       [
-        "Dürer",
-        "PERSON"
+        "Exposition",
+        "EVENT"
       ]
     ],
     "relations": [],
     "srl": [
       [
-        "Dürer",
-        "took",
-        "the charcoal from Maximilian 's hand"
-      ],
-      [
-        "Dürer",
-        "finished",
-        "the drawing"
+        "Mucha",
+        "proposed",
+        "another unusual project During the course of the Exposition"
       ]
     ]
+  },
+  "112": {
+    "ner": [
+      [
+        "Eiffel Tower",
+        "LOC"
+      ],
+      [
+        "the Eiffel Tower",
+        "FAC"
+      ],
+      [
+        "French",
+        "NORP"
+      ],
+      [
+        "Exposition",
+        "EVENT"
+      ]
+    ],
+    "relations": []
   },
   "113": {
     "ner": [
       [
-        "Maximilian",
+        "Mucha",
         "PERSON"
       ],
       [
-        "Dürer",
-        "PERSON"
+        "Exposition",
+        "EVENT"
+      ]
+    ],
+    "relations": [],
+    "srl": [
+      [
+        "Mucha",
+        "proposed",
+        "that , after the Exposition , the top of the tower should be replaced by a sculptural monument to humanity be constructed on the pedestal"
+      ]
+    ]
+  },
+  "114": {
+    "ner": [
+      [
+        "Parisians",
+        "NORP"
+      ],
+      [
+        "the Eiffel Tower",
+        "FAC"
+      ],
+      [
+        "Exhibit",
+        "EVENT"
+      ],
+      [
+        "Eiffel Tower",
+        "LOC"
       ]
     ],
     "relations": []
@@ -2741,104 +3154,70 @@
   "115": {
     "ner": [
       [
-        "Maximilian",
-        "PERSON"
-      ],
-      [
-        "August Siegert",
-        "PERSON"
-      ],
-      [
-        "1849",
-        "DATE"
-      ],
-      [
-        "Dürer",
+        "Mucha",
         "PERSON"
       ]
     ],
-    "relations": [],
-    "srl": [
-      [
-        "he",
-        "make",
-        "a noble out of a peasant any day"
-      ],
-      [
-        "he",
-        "not make",
-        "an artist like Dürer out of a noble"
-      ]
-    ]
+    "relations": []
   },
   "116": {
     "ner": [
       [
-        "Vienna",
-        "GPE"
+        "Documents Decoratifs",
+        "WORK_OF_ART"
       ],
       [
-        "St. Stephen's Cathedral",
-        "FAC"
-      ],
-      [
-        "Dürer",
-        "PERSON"
-      ],
-      [
-        "nineteenth-century",
+        "1902",
         "DATE"
       ]
     ],
-    "relations": [],
-    "srl": [
-      [
-        "Dürer",
-        "painting",
-        "a mural at St. Stephen 's Cathedral , Vienna"
-      ]
-    ]
+    "relations": []
   },
   "117": {
     "ner": [
       [
-        "Viennese",
-        "NORP"
+        "Georges Fouquet",
+        "PERSON"
       ],
       [
-        "seventeenth-century",
+        "1899",
         "DATE"
       ],
       [
-        "Dürer",
+        "Sarah Bernhardt",
         "PERSON"
+      ],
+      [
+        "Bernhardt",
+        "PERSON"
+      ],
+      [
+        "Medea",
+        "EVENT"
       ]
     ],
     "relations": [],
     "srl": [
       [
-        "Dürer",
-        "working",
-        "on the Viennese murals the period"
+        "he",
+        "collaborated",
+        "with the jeweler Georges Fouquet to make a bracelet for Sarah Bernhardt in the form of a serpent , made of gold and enamel , similar to the costume jewelry Bernhardt wore in Medea In 1899"
+      ],
+      [
+        "he",
+        "make",
+        "a bracelet for Sarah Bernhardt in the form of a serpent , made of gold and enamel , similar to the costume jewelry Bernhardt wore in Medea"
       ]
     ]
   },
   "118": {
     "ner": [
       [
-        "St. Stephen's Cathedral",
-        "FAC"
+        "Jiri Mucha",
+        "PERSON"
       ],
       [
-        "Nuremberg",
-        "GPE"
-      ],
-      [
-        "2020",
-        "DATE"
-      ],
-      [
-        "Dürer",
+        "Bernhardt",
         "PERSON"
       ]
     ],
@@ -2847,16 +3226,12 @@
   "119": {
     "ner": [
       [
-        "2022",
-        "DATE"
-      ],
-      [
-        "Nuremberg",
-        "GPE"
-      ],
-      [
-        "Dürer",
+        "Mucha",
         "PERSON"
+      ],
+      [
+        "Art Nouveau",
+        "MISC"
       ]
     ],
     "relations": []
@@ -2864,11 +3239,19 @@
   "120": {
     "ner": [
       [
-        "Maximilian",
+        "1900",
+        "DATE"
+      ],
+      [
+        "Mucha",
         "PERSON"
       ],
       [
-        "Siegert",
+        "Cascade",
+        "PRODUCT"
+      ],
+      [
+        "Fouquet",
         "PERSON"
       ]
     ],
@@ -2877,90 +3260,70 @@
   "121": {
     "ner": [
       [
-        "1511",
+        "1900",
         "DATE"
       ],
       [
-        "1505",
-        "DATE"
+        "Rue Royale",
+        "LOC"
       ],
       [
-        "Dürer",
+        "1900 Exposition",
+        "MISC"
+      ],
+      [
+        "Fouquet",
         "PERSON"
+      ],
+      [
+        "Exposition",
+        "EVENT"
+      ],
+      [
+        "Maxim's",
+        "ORG"
+      ],
+      [
+        "6 Rue Royale",
+        "FAC"
+      ],
+      [
+        "Maxim 's",
+        "ORG"
+      ]
+    ],
+    "relations": []
+  },
+  "122": {
+    "ner": [
+      [
+        "Mucha",
+        "PERSON"
+      ],
+      [
+        "two",
+        "CARDINAL"
       ]
     ],
     "relations": [],
     "srl": [
       [
-        "Dürer",
-        "entered",
-        "the emperor 's service in 1511"
-      ]
-    ]
-  },
-  "122": {
-    "ner": [
-      [
-        "Johannes Stabius",
-        "PERSON"
+        "He",
+        "asked",
+        "to design the interior Mucha"
       ],
       [
-        "Dürer",
-        "PERSON"
+        "Mucha",
+        "design",
+        "the interior"
       ]
-    ],
-    "relations": []
+    ]
   },
   "123": {
     "ner": [
       [
-        "Stabius",
-        "PERSON"
-      ],
-      [
-        "1515",
-        "DATE"
-      ],
-      [
-        "first",
-        "ORDINAL"
-      ],
-      [
-        "Maximilian",
-        "PERSON"
-      ],
-      [
-        "Dürer",
-        "PERSON"
-      ]
-    ],
-    "relations": []
-  },
-  "124": {
-    "ner": [
-      [
-        "Stabius",
-        "PERSON"
-      ],
-      [
-        "1515",
-        "DATE"
-      ],
-      [
-        "Konrad Heinfogel",
-        "PERSON"
-      ],
-      [
-        "first",
-        "ORDINAL"
-      ],
-      [
-        "Europe",
-        "LOC"
-      ],
-      [
-        "Dürer",
-        "PERSON"
+        "three",
+        "CARDINAL"
       ]
     ],
     "relations": []
@@ -2968,439 +3331,272 @@
   "125": {
     "ner": [
       [
-        "Maximilian",
+        "Art Nouveau",
+        "MISC"
+      ],
+      [
+        "1901",
+        "DATE"
+      ],
+      [
+        "Salon",
+        "ORG"
+      ],
+      [
+        "Art Nouveau",
         "PERSON"
       ],
       [
-        "Martin Luther",
-        "PERSON"
-      ],
-      [
-        "Dürer",
-        "PERSON"
+        "Nouveau",
+        "ORG"
       ]
     ],
-    "relations": [],
-    "srl": [
+    "relations": [
       [
-        "Dürer",
-        "was",
-        "concerned"
-      ],
-      [
-        "he",
-        "losing",
-        "\" my sight and freedom of hand \" perhaps caused by arthritis"
+        "Salon",
+        "founded_in",
+        "1901"
       ]
     ]
   },
   "126": {
     "ner": [
       [
-        "Imperial",
-        "NORP"
-      ],
-      [
-        "July 1520",
+        "1923",
         "DATE"
-      ],
-      [
-        "Aachen",
-        "GPE"
-      ],
-      [
-        "Charles V",
-        "PERSON"
-      ],
-      [
-        "Maximilian",
-        "PERSON"
-      ],
-      [
-        "fourth",
-        "ORDINAL"
-      ],
-      [
-        "Dürer",
-        "PERSON"
       ]
     ],
-    "relations": [],
-    "srl": [
-      [
-        "Dürer",
-        "made",
-        "his fourth and last major journey In July 1520"
-      ],
-      [
-        "Dürer",
-        "renew",
-        "the Imperial pension Maximilian had given him"
-      ],
-      [
-        "Dürer",
-        "secure",
-        "the patronage of the new emperor , Charles V , who was to be crowned at Aachen"
-      ]
-    ]
+    "relations": []
   },
   "127": {
     "ner": [
       [
-        "Antwerp",
-        "GPE"
+        "1914",
+        "DATE"
       ],
       [
-        "Cologne",
-        "GPE"
-      ],
-      [
-        "Rhine",
+        "Carnavalet Museum",
         "LOC"
       ],
       [
-        "Dürer",
-        "PERSON"
-      ]
-    ],
-    "relations": [],
-    "srl": [
-      [
-        "he",
-        "received",
-        " well Antwerp"
+        "1949",
+        "DATE"
       ],
       [
-        "he",
-        "produced",
-        "numerous drawings in silverpoint , chalk and charcoal Antwerp"
+        "Paris",
+        "GPE"
+      ],
+      [
+        "the Carnavalet Museum",
+        "ORG"
+      ]
+    ],
+    "relations": [
+      [
+        "the Carnavalet Museum",
+        "based_in",
+        "Paris"
       ]
     ]
   },
   "128": {
     "ner": [
       [
-        "Cologne",
-        "GPE"
+        "1902",
+        "DATE"
       ],
       [
-        "van Eyck's",
-        "PERSON"
+        "the Librarie Centrale des Beaux-arts",
+        "ORG"
       ],
       [
-        "Nijmegen",
-        "GPE"
-      ],
-      [
-        "Zeeland",
-        "GPE"
-      ],
-      [
-        "s-Hertogenbosch",
-        "GPE"
-      ],
-      [
-        "Bruges",
-        "GPE"
-      ],
-      [
-        "Stefan Lochner",
-        "PERSON"
-      ],
-      [
-        "Ghent",
-        "GPE"
-      ],
-      [
-        "Madonna of Bruges",
+        "Documents Decoratifs",
         "WORK_OF_ART"
       ],
       [
-        "Michelangelo",
+        "Librarie Centrale des Beaux",
+        "ORG"
+      ],
+      [
+        "seventy-two",
+        "CARDINAL"
+      ],
+      [
+        "Mucha",
         "PERSON"
-      ]
-    ],
-    "relations": [],
-    "srl": [
-      [
-        "he",
-        "attending",
-        "the coronation"
-      ],
-      [
-        "he",
-        "visited",
-        "Cologne  In addition to attending the coronation"
-      ],
-      [
-        "he",
-        "admired",
-        "the painting of Stefan Lochner Cologne"
-      ],
-      [
-        "he",
-        "saw",
-        "Michelangelo 's Madonna of Bruges"
-      ],
-      [
-        "he",
-        "admired",
-        "van Eyck 's Ghent altarpiece Ghent"
-      ]
-    ]
-  },
-  "129": {
-    "ner": [
-      [
-        "Dürer",
-        "PERSON"
-      ]
-    ],
-    "relations": [],
-    "srl": [
-      [
-        "Dürer",
-        "took",
-        "a large stock of prints with him"
-      ],
-      [
-        "Dürer",
-        "wrote",
-        "to whom he gave , exchanged or sold them , and for how much in his diary"
-      ],
-      [
-        "he",
-        "gave",
-        "them to whom"
-      ],
-      [
-        "he",
-        "exchanged",
-        "them"
-      ],
-      [
-        "he",
-        "sold",
-        "them"
-      ]
-    ]
-  },
-  "132": {
-    "ner": [
-      [
-        "Dürer",
-        "PERSON"
-      ],
-      [
-        "Netherlandish",
-        "NORP"
       ]
     ],
     "relations": []
   },
-  "133": {
+  "130": {
     "ner": [
       [
-        "Maximilian",
-        "PERSON"
+        "about 1900",
+        "DATE"
       ],
       [
-        "Margaret",
-        "PERSON"
+        "Paris",
+        "GPE"
       ],
       [
-        "Margaret of Austria",
-        "PERSON"
+        "the Academy Colarossi",
+        "ORG"
       ],
       [
-        "Dürer",
+        "first",
+        "ORDINAL"
+      ],
+      [
+        "Academy Colarossi",
+        "ORG"
+      ]
+    ],
+    "relations": [],
+    "srl": [
+      [
+        "he",
+        "begun",
+        "to teach at the Academy Colarossi , where he himself had been a student when he first arrived in Paris In about 1900"
+      ],
+      [
+        "he",
+        "teach",
+        " at the Academy Colarossi , where he himself had been a student when he first arrived in Paris"
+      ],
+      [
+        "he",
+        "arrived",
+        "in Paris first"
+      ]
+    ]
+  },
+  "131": {
+    "ner": [
+      [
+        "Mucha",
+        "PERSON"
+      ]
+    ],
+    "relations": []
+  },
+  "132": {
+    "ner": [
+      [
+        "Mucha",
         "PERSON"
       ]
     ],
     "relations": [],
     "srl": [
       [
-        "Dürer",
-        "offered",
-        "his last portrait of Maximilian to his daughter , Margaret of Austria"
+        "Mucha",
+        "made",
+        "a considerable income from his theatrical and advertising work"
       ],
       [
-        "Dürer",
-        "traded",
-        "the picture for some white cloth after Margaret disliked the portrait and declined to accept it"
+        "he",
+        "wished",
+        "to be recognized as a serious artist and philosopher"
+      ],
+      [
+        "he",
+        "recognized",
+        "as a serious artist and philosopher"
+      ]
+    ]
+  },
+  "133": {
+    "ner": [
+      [
+        "Catholic",
+        "NORP"
+      ]
+    ],
+    "relations": [],
+    "srl": [
+      [
+        "He",
+        "was",
+        "a devoted Catholic"
+      ],
+      [
+        "He",
+        "was",
+        "interested in mysticism also"
       ]
     ]
   },
   "134": {
     "ner": [
       [
-        "Quentin Matsys.Having",
-        "PERSON"
-      ],
-      [
-        "Bernard van Orley",
-        "PERSON"
-      ],
-      [
-        "Tommaso Vincidor",
-        "PERSON"
-      ],
-      [
-        "July 1521",
+        "January 1898",
         "DATE"
       ],
       [
-        "Joachim Patinir",
-        "PERSON"
+        "the Grand Orient de France",
+        "LOC"
       ],
       [
-        "Jean Mone",
-        "PERSON"
+        "Grand Orient de France",
+        "LOC"
       ],
       [
-        "Jan Provoost",
-        "PERSON"
-      ],
-      [
-        "Gerard Horenbout",
-        "PERSON"
-      ],
-      [
-        "Dürer",
-        "PERSON"
+        "Paris",
+        "GPE"
       ]
     ],
-    "relations": [],
+    "relations": [
+      [
+        "the Grand Orient de France",
+        "based_in",
+        "Paris"
+      ]
+    ],
     "srl": [
       [
         "he",
-        "met",
-        "Bernard van Orley , Jan Provoost , Gerard Horenbout , Jean Mone , Joachim Patinir and Tommaso Vincidor During this trip also"
-      ],
-      [
-        "he",
-        "not meet",
-        "Quentin Matsys"
-      ],
-      [
-        "Dürer",
-        "secured",
-        "his pension"
-      ],
-      [
-        "Dürer",
-        "returned",
-        "home in July 1521 having caught an undetermined illness , which afflicted him for the rest of his life"
-      ],
-      [
-        "Dürer",
-        "caught",
-        "an undetermined illness , which afflicted him for the rest of his life , and greatly reduced his rate of work"
+        "joined",
+        "the Paris masonic lodge of the Grand Orient de France In January 1898"
       ]
     ]
   },
   "135": {
     "ner": [
       [
-        "Nuremberg",
-        "GPE"
+        "1900",
+        "DATE"
       ],
       [
-        "Dürer",
-        "PERSON"
+        "Exposition",
+        "EVENT"
+      ],
+      [
+        "1900 Exposition",
+        "MISC"
       ]
     ],
     "relations": [],
     "srl": [
       [
-        "Dürer",
-        "worked",
-        "on a number of grand projects with religious themes , including a crucifixion scene and a Sacra conversazione On his return to Nuremberg though neither was completed"
+        "he",
+        "wrote",
+        " in his memoirs"
       ]
     ]
-  },
-  "137": {
-    "ner": [
-      [
-        "Dürer",
-        "PERSON"
-      ],
-      [
-        "one",
-        "CARDINAL"
-      ],
-      [
-        "the last years",
-        "DATE"
-      ]
-    ],
-    "relations": [],
-    "srl": [
-      [
-        "Dürer",
-        "produced",
-        "comparatively little during the last years of his life"
-      ]
-    ]
-  },
-  "138": {
-    "ner": [
-      [
-        "St. Peter",
-        "PERSON"
-      ],
-      [
-        "St. Mark",
-        "PERSON"
-      ],
-      [
-        "St. John",
-        "PERSON"
-      ],
-      [
-        "1526",
-        "DATE"
-      ],
-      [
-        "two",
-        "CARDINAL"
-      ],
-      [
-        "Salvator Mundi",
-        "WORK_OF_ART"
-      ],
-      [
-        "St. Paul",
-        "PERSON"
-      ],
-      [
-        "Madonna and Child",
-        "WORK_OF_ART"
-      ],
-      [
-        "Hieronymus Holtzschuher",
-        "PERSON"
-      ]
-    ],
-    "relations": []
   },
   "139": {
     "ner": [
       [
-        "100 guilders",
-        "MONEY"
-      ],
-      [
-        "the Four Apostles",
+        "The Pater Noster",
         "WORK_OF_ART"
       ],
       [
-        "the City of Nuremberg",
-        "GPE"
+        "Lord 's Prayer",
+        "ORG"
       ],
       [
-        "Dürer",
-        "PERSON"
+        "Pater Noster",
+        "ORG"
       ]
     ],
     "relations": []
@@ -3408,671 +3604,876 @@
   "140": {
     "ner": [
       [
-        "Frederick the Wise",
+        "\"Le Pater",
+        "PER"
+      ],
+      [
+        "only 510",
+        "CARDINAL"
+      ],
+      [
+        "Le Pater",
+        "WORK_OF_ART"
+      ],
+      [
+        "Henri Piazza",
         "PERSON"
       ],
       [
-        "Albert of Mainz",
-        "PERSON"
+        "First",
+        "ORDINAL"
       ],
       [
-        "Cardinal-Elector",
-        "PERSON"
-      ],
-      [
-        "Erasmus of Rotterdam",
-        "PERSON"
-      ],
-      [
-        "Willibald Pirckheimer",
-        "PERSON"
-      ],
-      [
-        "Saxony",
-        "GPE"
-      ],
-      [
-        "Philipp Melanchthon",
-        "PERSON"
+        "20 December 1899",
+        "DATE"
       ]
     ],
-    "relations": []
+    "relations": [],
+    "srl": [
+      [
+        "He",
+        "approached",
+        "his publisher , Henri Piazza"
+      ],
+      [
+        "He",
+        "proposed",
+        "the book"
+      ]
+    ]
   },
   "141": {
     "ner": [
       [
-        "Nuremberg",
-        "GPE"
+        "1900",
+        "DATE"
       ],
       [
-        "Cardinal",
-        "PERSON"
+        "Austrian",
+        "NORP"
       ],
       [
-        "Melanchthon",
-        "PERSON"
+        "Exposition",
+        "EVENT"
       ],
       [
-        "Dürer",
-        "PERSON"
-      ],
-      [
-        "Ulrich Starck",
-        "PERSON"
+        "1900 Exposition",
+        "MISC"
       ]
     ],
-    "relations": [],
-    "srl": [
-      [
-        "Dürer",
-        "depicted",
-        "the sitters a drawn portrait of the Nuremberg patrician Ulrich Starck"
-      ]
-    ]
+    "relations": []
   },
   "142": {
     "ner": [
       [
-        "Willibald Pirckheimer",
-        "PERSON"
+        "New York Sun",
+        "LOC"
       ],
       [
-        "Dürer",
-        "PERSON"
+        "Le Pater",
+        "WORK_OF_ART"
+      ],
+      [
+        "the New York Sun",
+        "ORG"
+      ],
+      [
+        "5 January 1900",
+        "DATE"
       ]
     ],
     "relations": [],
     "srl": [
       [
-        "Dürer",
-        "complaining",
-        "of his lack of a formal classical education"
+        "He",
+        "considered",
+        "Le Pater to be his printed masterpiece"
       ],
       [
-        "Dürer",
-        "was",
-        "greatly interested in intellectual matters Despite complaining of his lack of a formal classical education"
-      ],
-      [
-        "Dürer",
-        "learned",
-        "much from his boyhood friend Willibald Pirckheimer , whom he no doubt consulted on the content of many of his images Despite complaining of his lack of a formal classical education"
+        "He",
+        "referred",
+        "to it as a work into which he had \" put his soul \" in the New York Sun of 5 January 1900"
       ],
       [
         "he",
-        "consulted",
-        "his boyhood friend Willibald Pirckheimer on the content of many of his images no doubt"
+        "put",
+        "his soul a work"
       ]
     ]
   },
   "143": {
     "ner": [
       [
-        "Erasmus",
+        "Art et Decoration",
+        "ORG"
+      ],
+      [
+        "Charles Masson",
         "PERSON"
       ]
     ],
-    "relations": [],
-    "srl": [
+    "relations": [
       [
-        "He",
-        "derived",
-        "great satisfaction from his friendships and correspondence with Erasmus and other scholars"
+        "Charles Masson",
+        "employee_of",
+        "Art et Decoration"
       ]
     ]
   },
   "144": {
     "ner": [
       [
-        "Dürer",
+        "United States",
+        "LOC"
+      ],
+      [
+        "New York",
+        "GPE"
+      ],
+      [
+        "March 1904",
+        "DATE"
+      ],
+      [
+        "the United States",
+        "GPE"
+      ],
+      [
+        "Mucha",
         "PERSON"
       ],
       [
-        "two",
-        "CARDINAL"
+        "first",
+        "ORDINAL"
       ]
     ],
     "relations": [],
     "srl": [
       [
-        "Dürer",
-        "succeeded",
-        "in producing two books during his lifetime"
+        "Mucha",
+        "sailed",
+        " In March 1904"
       ]
     ]
   },
   "145": {
     "ner": [
       [
-        "The Four Books on Measurement",
+        "1900",
+        "DATE"
+      ],
+      [
+        "The Slav Epic",
         "WORK_OF_ART"
       ],
       [
-        "Nuremberg",
-        "GPE"
+        "Exposition",
+        "EVENT"
       ],
       [
-        "first",
-        "ORDINAL"
-      ],
-      [
-        "Galileo",
-        "PERSON"
-      ],
-      [
-        "Kepler",
-        "PERSON"
-      ],
-      [
-        "German",
-        "NORP"
-      ],
-      [
-        "1525",
-        "DATE"
+        "1900 Exposition",
+        "MISC"
       ]
     ],
-    "relations": []
+    "relations": [],
+    "srl": [
+      [
+        "he",
+        "conceived",
+        "his grand project , The Slav Epic during the 1900 Exposition"
+      ]
+    ]
   },
   "146": {
     "ner": [
       [
-        "1527",
-        "DATE"
-      ]
-    ],
-    "relations": []
-  },
-  "147": {
-    "ner": [
-      [
-        "Nuremberg",
-        "GPE"
+        "Salomon de Rothschild",
+        "PERSON"
       ],
       [
-        "6,874 florins",
-        "MONEY"
-      ],
-      [
-        "1528.Dürer",
-        "DATE"
-      ],
-      [
-        "The Four Books on Human Proportion",
-        "WORK_OF_ART"
-      ],
-      [
-        "the age of 56",
-        "DATE"
-      ]
-    ],
-    "relations": []
-  },
-  "148": {
-    "ner": [
-      [
-        "Johannisfriedhof",
-        "FAC"
+        "Baroness Salomon de Rothschild",
+        "PER"
       ]
     ],
     "relations": [],
     "srl": [
       [
         "He",
-        "buried",
-        "in the Johannisfriedhof cemetery"
+        "had",
+        "letters of introduction from Baroness Salomon de Rothschild"
+      ]
+    ]
+  },
+  "147": {
+    "ner": [
+      [
+        "United States",
+        "LOC"
+      ],
+      [
+        "Sarah Bernhardt",
+        "PER"
+      ],
+      [
+        "New York",
+        "GPE"
+      ],
+      [
+        "American",
+        "NORP"
+      ],
+      [
+        "the United States",
+        "GPE"
+      ],
+      [
+        "annual",
+        "DATE"
+      ],
+      [
+        "Sarah Bernhardt's",
+        "PERSON"
+      ],
+      [
+        "1896",
+        "DATE"
+      ]
+    ],
+    "relations": [],
+    "srl": [
+      [
+        "he",
+        "landed",
+        " When in New York"
+      ],
+      [
+        "he",
+        "was",
+        "a celebrity already in the United States"
+      ]
+    ]
+  },
+  "148": {
+    "ner": [
+      [
+        "Central Park",
+        "LOC"
+      ],
+      [
+        "New York",
+        "GPE"
+      ]
+    ],
+    "relations": [],
+    "srl": [
+      [
+        "He",
+        "rented",
+        "a studio near Central Park , in New York"
+      ],
+      [
+        "He",
+        "made",
+        "portraits"
+      ],
+      [
+        "He",
+        "gave",
+        "interviews and lectures"
       ]
     ]
   },
   "149": {
     "ner": [
       [
-        "1539",
-        "DATE"
+        "Pan",
+        "ORG"
       ],
       [
-        "Nuremberg",
-        "GPE"
+        "Pan-Slavic",
+        "NORP"
       ],
       [
-        "Bernhard Walther",
-        "PERSON"
-      ],
-      [
-        "1509",
-        "DATE"
+        "Slavic",
+        "MISC"
       ]
     ],
-    "relations": []
+    "relations": [],
+    "srl": [
+      [
+        "He",
+        "made",
+        "contact with Pan - Slavic organizations also"
+      ]
+    ]
   },
   "150": {
     "ner": [
       [
-        "the Catholic Church",
-        "ORG"
+        "Pan-Slavic",
+        "NORP"
       ],
       [
-        "Luther",
+        "Pan",
+        "MISC"
+      ],
+      [
+        "Charles Richard Crane",
         "PERSON"
       ],
       [
-        "Dürer",
-        "PERSON"
+        "Slavic",
+        "MISC"
+      ],
+      [
+        "Slavophile",
+        "NORP"
+      ],
+      [
+        "one",
+        "CARDINAL"
+      ],
+      [
+        "New York City",
+        "GPE"
       ]
     ],
     "relations": [],
     "srl": [
       [
         "he",
-        "been",
-        "sympathetic to Luther 's ideas"
-      ],
-      [
-        "he",
-        "left",
-        "the Catholic Church ever"
+        "met",
+        "Charles Richard Crane , a wealthy businessman and philanthropist , who was a passionate Slavophile At one Pan - Slavic banquet in New York City"
       ]
     ]
   },
   "151": {
     "ner": [
       [
-        "Martin Luther",
+        "Mucha",
         "PERSON"
       ],
       [
-        "1520",
-        "DATE"
-      ],
-      [
-        "Luther",
-        "PERSON"
-      ],
-      [
-        "Christian",
+        "Slavic",
         "NORP"
-      ],
-      [
-        "Dürer",
-        "PERSON"
       ]
     ],
     "relations": [],
     "srl": [
       [
-        "Dürer",
-        "wrote",
-        "And God help me that I may go to Dr. Martin Luther ; thus I intend to make a portrait of him with great care and engrave him on a copper plate to create a lasting memorial of the Christian man who helped me overcome so many difficulties in his"
+        "He",
+        "commissioned",
+        "to make a portrait of his daughter in a traditional Slavic style Mucha"
+      ],
+      [
+        "Mucha",
+        "make",
+        "a portrait of his daughter in a traditional Slavic style"
       ]
     ]
   },
   "152": {
     "ner": [
       [
-        "Nicholas Kratzer",
+        "Mucha",
         "PERSON"
       ],
       [
-        "1524",
-        "DATE"
-      ],
-      [
-        "Christian",
+        "Slavic",
         "NORP"
-      ],
-      [
-        "Dürer",
-        "PERSON"
       ]
     ],
-    "relations": [
-      [
-        "Dürer",
-        "religion",
-        "Christian"
-      ],
-      [
-        "Nicholas Kratzer",
-        "religion",
-        "Christian"
-      ]
-    ],
+    "relations": [],
     "srl": [
       [
-        "Dürer",
-        "wrote",
-        "\" because of our Christian faith we have to stand in scorn and danger , for we are reviled and called heretics \" In a letter to Nicholas Kratzer in 1524"
+        "he",
+        "shared",
+        "Mucha 's enthusiasm for a series of monumental paintings on Slavic history"
+      ],
+      [
+        "he",
+        "became",
+        "Mucha 's most important patron"
       ]
     ]
   },
   "153": {
     "ner": [
       [
-        "Johann Tscherte",
-        "PERSON"
-      ],
-      [
-        "1530",
-        "DATE"
-      ],
-      [
-        "Pirckheimer",
-        "PERSON"
-      ],
-      [
-        "Luther",
-        "PERSON"
-      ],
-      [
-        "Albert",
-        "PERSON"
-      ]
-    ],
-    "relations": []
-  },
-  "155": {
-    "ner": [
-      [
-        "Lutheran",
+        "Czechoslovak",
         "NORP"
       ],
       [
-        "March 1525",
-        "DATE"
-      ],
-      [
-        "Dürer",
+        "Slavia",
         "PERSON"
       ],
       [
-        "the Nuremberg City Council's",
-        "ORG"
+        "100 koruna",
+        "MONEY"
+      ],
+      [
+        "Crane",
+        "PERSON"
+      ],
+      [
+        "Mucha",
+        "PERSON"
       ]
     ],
     "relations": [],
     "srl": [
       [
-        "Dürer",
-        "contributed",
-        "to the Nuremberg City Council 's mandating Lutheran sermons and services in March 1525 even"
+        "Mucha",
+        "designed",
+        "the Czechoslovak bills When"
+      ],
+      [
+        "he",
+        "used",
+        "his portrait of Crane 's daughter as the model for Slavia for the 100 koruna bill When Mucha designed the Czechoslovak bills"
+      ]
+    ]
+  },
+  "154": {
+    "ner": [
+      [
+        "America",
+        "GPE"
+      ],
+      [
+        "Moravia",
+        "GPE"
+      ],
+      [
+        "New York",
+        "GPE"
+      ]
+    ],
+    "relations": [],
+    "srl": [
+      [
+        "he",
+        "wrote",
+        "You must have been very surprised by my decision to come to America , perhaps even amazed to his family in Moravia"
       ]
     ]
   },
   "156": {
     "ner": [
       [
-        "Andreas Karlstadt",
-        "PERSON"
+        "America",
+        "GPE"
       ],
       [
-        "Babylonian Captivity",
-        "WORK_OF_ART"
+        "France",
+        "GPE"
       ],
       [
-        "Zwingli",
-        "PERSON"
-      ],
-      [
-        "Erasmus",
-        "PERSON"
-      ],
-      [
-        "Melanchthon",
-        "PERSON"
-      ],
-      [
-        "1520",
+        "the end of May 1904",
         "DATE"
       ],
       [
-        "Cornelius Grapheus",
-        "PERSON"
+        "Paris",
+        "GPE"
       ],
       [
-        "Luther",
-        "PERSON"
+        "\"He",
+        "PER"
+      ]
+    ],
+    "relations": []
+  },
+  "157": {
+    "ner": [
+      [
+        "New York",
+        "GPE"
       ],
       [
-        "Dürer",
-        "PERSON"
+        "five to six months",
+        "DATE"
+      ],
+      [
+        "early",
+        "DATE"
+      ],
+      [
+        "1905",
+        "DATE"
+      ],
+      [
+        "between 1905 and 1910",
+        "DATE"
+      ],
+      [
+        "four",
+        "CARDINAL"
       ]
     ],
     "relations": [],
     "srl": [
       [
-        "Dürer",
-        "had",
-        "contacts with various reformers , such as Zwingli , Andreas Karlstadt , Melanchthon , Erasmus and Cornelius Grapheus from whom Dürer received Luther 's Babylonian Captivity in 1520 Notably"
+        "He",
+        "finished",
+        "his commissions"
       ],
       [
-        "Dürer",
-        "received",
-        "Luther 's Babylonian Captivity various reformers , such as Zwingli , Andreas Karlstadt , Melanchthon , Erasmus and Cornelius Grapheus in 1520"
-      ]
-    ]
-  },
-  "157": {
-    "ner": [
-      [
-        "Erasmus",
-        "PERSON"
+        "He",
+        "returned",
+        "to New York in early January 1905"
       ],
       [
-        "C. Grapheus",
-        "PERSON"
+        "He",
+        "made",
+        "four more trips between 1905 and 1910"
       ],
       [
-        "Catholic",
-        "NORP"
-      ]
-    ],
-    "relations": [
-      [
-        "C. Grapheus",
-        "religion",
-        "Catholic"
+        "He",
+        "staying",
+        " for five to six months"
       ]
     ]
   },
   "158": {
     "ner": [
       [
-        "the year",
+        "Chytilová",
+        "PER"
+      ],
+      [
+        "New York",
+        "GPE"
+      ],
+      [
+        "1906",
         "DATE"
       ],
       [
-        "1525",
+        "Marie / Maria",
+        "PER"
+      ],
+      [
+        "Prague",
+        "GPE"
+      ],
+      [
+        "10 June 1906",
         "DATE"
       ],
       [
-        "the Peasants' War",
-        "EVENT"
-      ],
-      [
-        "Lutheran",
-        "NORP"
+        "(Marie/Maria) Chytilová",
+        "PERSON"
       ]
     ],
-    "relations": []
+    "relations": [
+      [
+        "(Marie/Maria) Chytilová",
+        "lived_in",
+        "New York"
+      ]
+    ],
+    "srl": [
+      [
+        "he",
+        "returned",
+        "to New York In 1906"
+      ],
+      [
+        "he",
+        "married",
+        "his new wife ,  on 10 June 1906 in Prague"
+      ]
+    ]
   },
   "159": {
     "ner": [
       [
-        "Protestant",
-        "NORP"
+        "U.S.",
+        "GPE"
       ],
       [
-        "Dürer",
-        "PERSON"
-      ]
-    ],
-    "relations": []
-  },
-  "160": {
-    "ner": [
-      [
-        "Protestant",
-        "NORP"
-      ],
-      [
-        "The second book",
-        "WORK_OF_ART"
-      ],
-      [
-        "1523",
+        "1909",
         "DATE"
-      ]
-    ],
-    "relations": []
-  },
-  "161": {
-    "ner": [
-      [
-        "St Philip",
-        "PERSON"
-      ],
-      [
-        "1526",
-        "DATE"
-      ],
-      [
-        "last",
-        "ORDINAL"
-      ],
-      [
-        "1523",
-        "DATE"
-      ],
-      [
-        "Dürer",
-        "PERSON"
       ]
     ],
     "relations": [],
     "srl": [
       [
-        "Dürer",
-        "not was",
-        "an iconoclast"
+        "He",
+        "remained",
+        "in the U.S. until 1909"
+      ]
+    ]
+  },
+  "160": {
+    "ner": [
+      [
+        "United States",
+        "LOC"
+      ],
+      [
+        "the Philadelphia School of Art",
+        "ORG"
+      ],
+      [
+        "New York",
+        "GPE"
+      ],
+      [
+        "Jaroslava",
+        "PERSON"
+      ],
+      [
+        "1909.His",
+        "DATE"
+      ],
+      [
+        "New York School of Applied Design for Women",
+        "ORG"
+      ],
+      [
+        "Philadelphia School of Art",
+        "ORG"
+      ],
+      [
+        "the United States",
+        "GPE"
+      ],
+      [
+        "the New York School of Applied Design for Women",
+        "ORG"
+      ],
+      [
+        "the Art Institute of Chicago",
+        "ORG"
+      ],
+      [
+        "five weeks",
+        "DATE"
+      ],
+      [
+        "Art Institute of Chicago",
+        "ORG"
+      ],
+      [
+        "first",
+        "ORDINAL"
+      ]
+    ],
+    "relations": [
+      [
+        "Jaroslava",
+        "date_of_birth",
+        "1909.His"
+      ],
+      [
+        "Jaroslava",
+        "lived_in",
+        "the United States"
+      ],
+      [
+        "Jaroslava",
+        "born_in",
+        "New York"
+      ]
+    ],
+    "srl": [
+      [
+        "he",
+        "taught",
+        "illustration and design for five weeks at the Philadelphia School of Art"
       ],
       [
         "he",
-        "evaluated",
-        "the role of art in religion in his last years even if Dürer was not an iconoclast"
+        "became",
+        "a visiting professor at the Art Institute of Chicago"
+      ]
+    ]
+  },
+  "161": {
+    "ner": [
+      [
+        "Savon Mucha",
+        "ORG"
       ],
       [
-        "he",
-        "questioned",
-        "the role of art in religion in his last years even if Dürer was not an iconoclast"
+        "one",
+        "CARDINAL"
+      ],
+      [
+        "1906",
+        "DATE"
+      ]
+    ],
+    "relations": [],
+    "srl": [
+      [
+        "He",
+        "rejected",
+        "most commercial proposals"
+      ],
+      [
+        "He",
+        "accepted",
+        "one proposal in 1906"
       ]
     ]
   },
   "162": {
     "ner": [
       [
-        "Dürer",
-        "PERSON"
+        "German Theater of New York",
+        "LOC"
+      ],
+      [
+        "Art Nouveau",
+        "MISC"
+      ],
+      [
+        "New York",
+        "GPE"
+      ],
+      [
+        "Comedy and Truth",
+        "MISC"
+      ],
+      [
+        "three",
+        "CARDINAL"
+      ],
+      [
+        "the German Theater",
+        "FAC"
+      ],
+      [
+        "1908",
+        "DATE"
       ]
     ],
     "relations": [],
     "srl": [
       [
-        "Dürer",
-        "exerted",
-        "a huge influence on the artists of succeeding generations , especially in printmaking , the medium through which his contemporaries mostly experienced his art as his paintings were predominantly in private collections located in only a few cities"
+        "he",
+        "undertook",
+        "one large decoration project , for the interior of the German Theater of New York In 1908"
+      ],
+      [
+        "he",
+        "produced",
+        "three large allegorical murals , in the Art Nouveau style , representing Tragedy , Comedy and Truth"
       ]
     ]
   },
   "163": {
     "ner": [
       [
-        "Titian",
-        "PERSON"
-      ],
-      [
-        "Europe",
+        "German Theater",
         "LOC"
       ],
       [
-        "Parmigianino",
-        "PERSON"
+        "Artistically",
+        "PER"
       ],
       [
-        "Raphael",
-        "PERSON"
+        "one year",
+        "DATE"
+      ],
+      [
+        "the German Theater",
+        "FAC"
+      ],
+      [
+        "1909",
+        "DATE"
       ]
     ],
-    "relations": []
+    "relations": [],
+    "srl": [
+      [
+        "he",
+        "made",
+        "graphic designs , stage and costume designs Besides the decoration"
+      ]
+    ]
   },
   "164": {
     "ner": [
       [
-        "German",
+        "Broadway",
+        "FAC"
+      ],
+      [
+        "Sarah Bernhardt",
+        "PER"
+      ],
+      [
+        "Leslie Carter",
+        "PERSON"
+      ],
+      [
+        "American",
         "NORP"
       ],
       [
-        "Dürer",
+        "The American Sarah Bernhardt",
+        "PERSON"
+      ],
+      [
+        "Maude Adams",
+        "PERSON"
+      ],
+      [
+        "The American",
+        "MISC"
+      ],
+      [
+        "Bernhardt",
+        "PERSON"
+      ]
+    ],
+    "relations": [],
+    "srl": [
+      [
+        "He",
+        "made",
+        "posters for the American actress Mrs. Leslie Carter "
+      ]
+    ]
+  },
+  "165": {
+    "ner": [
+      [
+        "America",
+        "GPE"
+      ],
+      [
+        "Slavic",
+        "NORP"
+      ],
+      [
+        "Slavia",
+        "PERSON"
+      ],
+      [
+        "Josephine Crane Bradley",
         "PERSON"
       ]
     ],
     "relations": []
   },
-  "165": {
-    "ner": [
-      [
-        "Northern European",
-        "NORP"
-      ],
-      [
-        "Lucas van Leyden",
-        "PERSON"
-      ],
-      [
-        "the first third of the 16th century",
-        "DATE"
-      ]
-    ],
-    "relations": [
-      [
-        "Lucas van Leyden",
-        "origin",
-        "Northern European"
-      ]
-    ]
-  },
   "166": {
     "ner": [
       [
-        "Cristofano Robetta",
+        "Crane",
         "PERSON"
       ],
       [
-        "Giulio Campagnola",
-        "PERSON"
+        "the Slav Epic",
+        "WORK_OF_ART"
       ],
       [
-        "Giovanni Battista Palumba",
-        "PERSON"
-      ],
-      [
-        "Agostino Veneziano",
-        "PERSON"
-      ],
-      [
-        "Marcantonio Raimondi",
-        "PERSON"
-      ],
-      [
-        "Italian",
-        "NORP"
-      ],
-      [
-        "Benedetto Montagna",
-        "PERSON"
-      ],
-      [
-        "Dürer",
-        "PERSON"
+        "Slav Epic",
+        "MISC"
       ]
     ],
     "relations": []
@@ -4080,64 +4481,91 @@
   "167": {
     "ner": [
       [
-        "1515",
-        "DATE"
+        "Paris",
+        "GPE"
       ],
       [
-        "Alps",
+        "Europe",
         "LOC"
       ],
       [
-        "Northern",
-        "LOC"
-      ],
-      [
-        "Dürer",
+        "Mucha",
         "PERSON"
       ],
       [
-        "Marcantonio",
-        "PERSON"
+        "Slavic",
+        "NORP"
       ]
     ],
-    "relations": []
+    "relations": [
+      [
+        "Mucha",
+        "lived_in",
+        "Paris"
+      ]
+    ],
+    "srl": [
+      [
+        "Mucha",
+        "never given",
+        "his dream of being a history painter During his long stay in Paris"
+      ],
+      [
+        "Mucha",
+        "being",
+        "a history painter"
+      ],
+      [
+        "Mucha",
+        "illustrate",
+        "accomplishments of the Slavic peoples of Europe"
+      ]
+    ]
   },
   "168": {
     "ner": [
       [
-        "Venice",
-        "GPE"
+        "Slav Epic",
+        "MISC"
       ],
       [
-        "Italy",
-        "GPE"
+        "the Slav Epic",
+        "WORK_OF_ART"
       ],
       [
-        "German",
-        "NORP"
+        "February 1910",
+        "DATE"
       ],
       [
-        "Italian",
-        "NORP"
-      ],
-      [
-        "Dürer",
+        "Charles Crane",
         "PERSON"
+      ],
+      [
+        "1909",
+        "DATE"
+      ],
+      [
+        "1908",
+        "DATE"
       ]
     ],
     "relations": [],
     "srl": [
       [
-        "Dürer",
-        "had",
-        "relatively little influence in Italy , where probably only his altarpiece in Venice was seen"
+        "He",
+        "completed",
+        "his plans for the Slav Epic in 1908 and 1909"
       ]
     ]
   },
   "169": {
     "ner": [
       [
-        "the 19th and 20th century",
+        "Prague",
+        "GPE"
+      ],
+      [
+        "1909",
         "DATE"
       ]
     ],
@@ -4146,150 +4574,216 @@
   "170": {
     "ner": [
       [
-        "Germany",
+        "Austrian Empire",
+        "MISC"
+      ],
+      [
+        "the Austrian Empire",
         "GPE"
-      ],
-      [
-        "the early nineteenth century",
-        "DATE"
-      ],
-      [
-        "1870 to 1945.The",
-        "DATE"
-      ],
-      [
-        "Renaissance",
-        "ORG"
-      ],
-      [
-        "Lutheran Church",
-        "ORG"
-      ],
-      [
-        "Hans Burgkmair",
-        "PERSON"
-      ],
-      [
-        "6 April",
-        "DATE"
-      ],
-      [
-        "Michelangelo",
-        "PERSON"
-      ],
-      [
-        "German",
-        "NORP"
-      ],
-      [
-        "Lucas Cranach the Elder",
-        "PERSON"
-      ],
-      [
-        "Dürer",
-        "PERSON"
-      ],
-      [
-        "about 1570 to 1630",
-        "DATE"
       ]
     ],
     "relations": [],
     "srl": [
       [
-        "Dürer",
-        "never fallen",
-        "from critical favour"
+        "He",
+        "made",
+        "the decision to return to his old country , still then part of the Austrian Empire"
       ]
     ]
   },
   "171": {
     "ner": [
       [
-        "German",
-        "LANGUAGE"
+        "Slav",
+        "NORP"
       ],
       [
-        "Latin",
-        "LANGUAGE"
+        "\"His",
+        "PER"
       ],
       [
-        "Dürer",
-        "PERSON"
+        "Prague",
+        "GPE"
+      ],
+      [
+        "first",
+        "ORDINAL"
+      ],
+      [
+        "1910",
+        "DATE"
       ]
     ],
     "relations": [],
     "srl": [
       [
-        "Dürer",
-        "used",
-        "graphic expressions based on a vernacular , craftsmen 's language In all his theoretical works"
+        "He",
+        "wrote",
+        "I will be able to do something really good , not just for the art critic but for our Slav souls to his wife"
       ]
     ]
+  },
+  "172": {
+    "ner": [
+      [
+        "Prague",
+        "GPE"
+      ]
+    ],
+    "relations": []
   },
   "173": {
     "ner": [
       [
-        "German",
-        "NORP"
+        "the Lord Mayor's Hall",
+        "FAC"
       ],
       [
-        "Bible",
-        "WORK_OF_ART"
-      ],
-      [
-        "Luther",
-        "PERSON"
-      ],
-      [
-        "Dürer",
-        "PERSON"
+        "Lord Mayor 's Hall",
+        "LOC"
       ]
     ],
     "relations": [],
     "srl": [
       [
-        "Dürer",
-        "contributed",
-        "to the expansion in German prose which Luther had begun with his translation of the Bible"
+        "he",
+        "decorated",
+        "the Lord Mayor 's Hall while the other artists decorated the other rooms"
       ]
     ]
   },
   "174": {
     "ner": [
       [
-        "Underweysung der Messung mit dem Zirckel und Richtscheyt",
-        "WORK_OF_ART"
+        "Slavs",
+        "NORP"
       ],
       [
-        "Instructions for Measuring with Compass and Ruler",
-        "WORK_OF_ART"
+        "European",
+        "NORP"
       ],
       [
-        "Dürer",
-        "PERSON"
-      ],
-      [
-        "the Four Books on Measurement",
-        "WORK_OF_ART"
+        "Slavic",
+        "NORP"
       ]
     ],
-    "relations": []
+    "relations": [],
+    "srl": [
+      [
+        "He",
+        "designed",
+        "a series of large - scale murals for the domed ceiling and walls with athletic figures in heroic poses , depicting the contributions of Slavs to European history over the centuries , and the theme of Slavic unity"
+      ],
+      [
+        "He",
+        "created",
+        "a series of large - scale murals for the domed ceiling and walls with athletic figures in heroic poses , depicting the contributions of Slavs to European history over the centuries , and the theme of Slavic unity"
+      ]
+    ]
   },
   "175": {
     "ner": [
       [
-        "first",
-        "ORDINAL"
+        "1911",
+        "DATE"
+      ],
+      [
+        "The Slav Epic",
+        "WORK_OF_ART"
+      ],
+      [
+        "Lord Mayor's Hall",
+        "FAC"
+      ],
+      [
+        "Slav Epic",
+        "MISC"
+      ],
+      [
+        "Lord Mayor 's Hall",
+        "LOC"
+      ],
+      [
+        "Parisian",
+        "NORP"
+      ],
+      [
+        "Mucha",
+        "PERSON"
+      ],
+      [
+        "Slavic",
+        "NORP"
       ]
     ],
-    "relations": []
+    "relations": [],
+    "srl": [
+      [
+        "Mucha",
+        "was",
+        "able to devote his attention to what he considered his most important work ; The Slav Epic , a series of large paintings illustrating the achievements of the Slavic peoples over history"
+      ],
+      [
+        "Mucha",
+        "devote",
+        "his attention to what he considered his most important work ; The Slav Epic , a series of large paintings illustrating the achievements of the Slavic peoples over history"
+      ],
+      [
+        "he",
+        "considered",
+        "his most important work"
+      ]
+    ]
   },
   "176": {
     "ner": [
       [
-        "Dürer",
-        "PERSON"
+        "Balkans",
+        "LOC"
+      ],
+      [
+        "Poles",
+        "NORP"
+      ],
+      [
+        "ten",
+        "CARDINAL"
+      ],
+      [
+        "Russians",
+        "NORP"
+      ],
+      [
+        "twenty",
+        "CARDINAL"
+      ],
+      [
+        "Hungarians",
+        "NORP"
+      ],
+      [
+        "Czechs",
+        "NORP"
+      ],
+      [
+        "Bulgarians",
+        "NORP"
+      ],
+      [
+        "Orthodox",
+        "NORP"
+      ],
+      [
+        "Serbs",
+        "NORP"
+      ],
+      [
+        "Slavic",
+        "NORP"
+      ],
+      [
+        "Mount Athos",
+        "LOC"
       ]
     ],
     "relations": []
@@ -4297,210 +4791,282 @@
   "177": {
     "ner": [
       [
-        "1522",
+        "eight meters",
+        "QUANTITY"
+      ],
+      [
+        "six",
+        "CARDINAL"
+      ]
+    ],
+    "relations": []
+  },
+  "178": {
+    "ner": [
+      [
+        "Zbiroh Castle",
+        "LOC"
+      ],
+      [
+        "Mucha",
+        "PERSON"
+      ],
+      [
+        "Bohemia",
+        "GPE"
+      ],
+      [
+        "the Zbiroh Castle",
+        "LOC"
+      ],
+      [
+        "Paris Mucha",
+        "LOC"
+      ],
+      [
+        "Paris",
+        "GPE"
+      ],
+      [
+        "1928.While",
+        "DATE"
+      ]
+    ],
+    "relations": [],
+    "srl": [
+      [
+        "he",
+        "paint",
+        "them"
+      ],
+      [
+        "he",
+        "rented",
+        "an apartment and a studio in the Zbiroh Castle in western Bohemia , where he lived and worked until 1928.While living in Paris"
+      ],
+      [
+        "he",
+        "lived",
+        " until 1928.While the Zbiroh Castle in western Bohemia"
+      ],
+      [
+        "he",
+        "worked",
+        " until 1928.While the Zbiroh Castle in western Bohemia"
+      ],
+      [
+        "Mucha",
+        "imagined",
+        "the series as \" light shining into the souls of all people with its clear ideals and burning warnings"
+      ]
+    ]
+  },
+  "179": {
+    "ner": [
+      [
+        "Poland",
+        "GPE"
+      ],
+      [
+        "Balkans",
+        "LOC"
+      ],
+      [
+        "Slavic",
+        "NORP"
+      ],
+      [
+        "Russia",
+        "GPE"
+      ]
+    ],
+    "relations": [],
+    "srl": [
+      [
+        "he",
+        "prepare",
+        "the project"
+      ],
+      [
+        "he",
+        "traveled",
+        "to all the Slavic countries , from Russia and Poland to the Balkans making sketches and taking photographs"
+      ],
+      [
+        "he",
+        "making",
+        "sketches"
+      ],
+      [
+        "he",
+        "taking",
+        "photographs"
+      ]
+    ]
+  },
+  "181": {
+    "ner": [
+      [
+        "between 1912 and 1926",
         "DATE"
       ],
       [
-        "Apollonius",
-        "PERSON"
-      ],
-      [
-        "Libellus super viginti duobus elementis conicis'",
-        "WORK_OF_ART"
-      ],
-      [
-        "Johannes Werner's '",
-        "PERSON"
+        "twenty",
+        "CARDINAL"
       ]
     ],
     "relations": [],
     "srl": [
       [
         "He",
-        "draws",
-        "on Apollonius , and Johannes Werner 's ' Libellus super viginti duobus elementis conicis ' of 1522 also"
-      ]
-    ]
-  },
-  "178": {
-    "ner": [
-      [
-        "two-dimensional",
-        "CARDINAL"
+        "used",
+        "egg tempera paint , which , according to his research , was quicker - drying and more luminous , and would last longer"
       ],
       [
-        "second",
-        "ORDINAL"
-      ]
-    ],
-    "relations": []
-  },
-  "179": {
-    "ner": [
-      [
-        "Euclid",
-        "PERSON"
-      ],
-      [
-        "Ptolemy",
-        "PERSON"
-      ],
-      [
-        "Dürer",
-        "PERSON"
-      ]
-    ],
-    "relations": [],
-    "srl": [
-      [
-        "Dürer",
-        "favours",
-        "the methods of Ptolemy over Euclid Here"
-      ]
-    ]
-  },
-  "180": {
-    "ner": [
-      [
-        "third",
-        "ORDINAL"
-      ]
-    ],
-    "relations": []
-  },
-  "181": {
-    "ner": [
-      [
-        "Vitruvius",
-        "PERSON"
-      ],
-      [
-        "Dürer",
-        "PERSON"
-      ]
-    ],
-    "relations": [],
-    "srl": [
-      [
-        "Dürer",
-        "cites",
-        "Vitruvius In architecture"
-      ],
-      [
-        "Dürer",
-        "elaborates",
-        "his own classical designs and columns In architecture"
+        "He",
+        "created",
+        "the twenty canvases between 1912 and 1926"
       ]
     ]
   },
   "182": {
     "ner": [
       [
-        "Latin",
-        "NORP"
+        "First World War",
+        "MISC"
       ],
       [
-        "Italian",
-        "NORP"
+        "France",
+        "GPE"
       ],
       [
-        "Dürer",
-        "PERSON"
+        "the First World War",
+        "EVENT"
+      ],
+      [
+        "the Austrian Empire",
+        "GPE"
+      ],
+      [
+        "Austrian Empire",
+        "MISC"
       ]
     ],
     "relations": [],
     "srl": [
       [
-        "Dürer",
-        "depicts",
-        "the geometric construction of the Latin alphabet relying on Italian precedent In typography"
-      ],
-      [
-        "Dürer",
-        "relying",
-        "on Italian precedent"
+        "He",
+        "worked",
+        " throughout the First World War , when the Austrian Empire was at war with France , despite wartime restrictions , which made canvas hard to obtain"
       ]
     ]
   },
   "183": {
     "ner": [
       [
-        "Gothic",
-        "NORP"
-      ]
-    ],
-    "relations": []
-  },
-  "184": {
-    "ner": [
-      [
-        "second",
-        "ORDINAL"
-      ],
-      [
-        "three-dimensional",
-        "CARDINAL"
-      ],
-      [
-        "first",
-        "ORDINAL"
-      ],
-      [
-        "fourth",
-        "ORDINAL"
-      ]
-    ],
-    "relations": []
-  },
-  "185": {
-    "ner": [
-      [
-        "Platonic",
-        "NORP"
-      ],
-      [
-        "Archimedean",
-        "NORP"
-      ],
-      [
-        "seven",
-        "CARDINAL"
-      ],
-      [
-        "five",
-        "CARDINAL"
-      ],
-      [
-        "Dürer",
-        "PERSON"
+        "Czechoslovak Republic",
+        "GPE"
       ]
     ],
     "relations": [],
     "srl": [
       [
-        "Dürer",
-        "discusses",
-        "the five Platonic solids , as well as seven Archimedean semi - regular solids , as well as several of his own invention Here"
+        "He",
+        "continued",
+        "his work after the war ended , when the new Czechoslovak Republic was created"
       ]
     ]
+  },
+  "184": {
+    "ner": [
+      [
+        "Czechoslovak Republic",
+        "LOC"
+      ],
+      [
+        "1928",
+        "DATE"
+      ],
+      [
+        "the Czechoslovak Republic.Under",
+        "GPE"
+      ],
+      [
+        "Prague",
+        "GPE"
+      ],
+      [
+        "tenth",
+        "ORDINAL"
+      ]
+    ],
+    "relations": [],
+    "srl": [
+      [
+        "he",
+        "donated",
+        "his work to the city of Prague in 1928 Under the conditions of his contract"
+      ]
+    ]
+  },
+  "185": {
+    "ner": [
+      [
+        "Slav Epic",
+        "MISC"
+      ],
+      [
+        "1919",
+        "DATE"
+      ],
+      [
+        "Slav",
+        "NORP"
+      ],
+      [
+        "Epic",
+        "WORK_OF_ART"
+      ],
+      [
+        "1928",
+        "DATE"
+      ],
+      [
+        "Prague",
+        "GPE"
+      ]
+    ],
+    "relations": []
   },
   "186": {
     "ner": [
       [
-        "the Four Books on Human Proportion",
-        "WORK_OF_ART"
-      ],
-      [
-        "(Vier Bücher von Menschlicher Proportion)",
-        "WORK_OF_ART"
-      ],
-      [
-        "1528",
+        "1963 until 2012",
         "DATE"
       ],
       [
-        "Dürer",
-        "PERSON"
+        "the Czech Republic",
+        "GPE"
+      ],
+      [
+        "Moravský Krumlov",
+        "GPE"
+      ],
+      [
+        "1928",
+        "DATE"
+      ],
+      [
+        "Czech Republic",
+        "LOC"
+      ],
+      [
+        "the South Moravian Region",
+        "LOC"
+      ],
+      [
+        "South Moravian Region",
+        "LOC"
       ]
     ],
     "relations": []
@@ -4508,205 +5074,312 @@
   "187": {
     "ner": [
       [
-        "five",
-        "CARDINAL"
+        "National Gallery",
+        "ORG"
       ],
       [
-        "first",
-        "ORDINAL"
+        "Veletržní Palace",
+        "FAC"
       ],
       [
-        "1512/13",
-        "DATE"
+        "the National Gallery's",
+        "ORG"
       ],
       [
-        "1523",
+        "Prague",
+        "GPE"
+      ],
+      [
+        "2012",
         "DATE"
       ]
     ],
-    "relations": []
+    "relations": [
+      [
+        "the National Gallery's",
+        "based_in",
+        "Prague"
+      ]
+    ]
   },
   "188": {
     "ner": [
       [
-        "Vitruvius",
-        "PERSON"
+        "2021",
+        "DATE"
       ],
       [
-        "two to three hundred",
-        "CARDINAL"
+        "2026.While",
+        "DATE"
       ],
       [
-        "Dürer",
-        "PERSON"
+        "Slav Epic",
+        "MISC"
+      ],
+      [
+        "Slav",
+        "NORP"
+      ],
+      [
+        "Epic",
+        "WORK_OF_ART"
+      ],
+      [
+        "Prague",
+        "GPE"
+      ],
+      [
+        "Czech",
+        "NORP"
       ]
     ],
     "relations": [],
     "srl": [
       [
-        "Dürer",
-        "based",
-        "these constructions on both Vitruvius and empirical observations of \" two to three hundred living persons \" in his own words"
+        "he",
+        "working",
+        "on the Slav Epic"
+      ],
+      [
+        "he",
+        "did",
+        "work for the Czech government also"
       ]
     ]
   },
   "189": {
     "ner": [
       [
-        "second",
-        "ORDINAL"
-      ],
-      [
-        "De harmonica mundi totius",
-        "WORK_OF_ART"
-      ],
-      [
-        "Francesco di Giorgio's",
-        "PERSON"
-      ],
-      [
-        "eight",
-        "CARDINAL"
-      ],
-      [
-        "1525",
+        "1918",
         "DATE"
       ],
       [
-        "Dürer",
+        "American",
+        "NORP"
+      ],
+      [
+        "Charles Crane",
+        "PERSON"
+      ],
+      [
+        "Slavia",
         "PERSON"
       ]
     ],
-    "relations": [],
-    "srl": [
+    "relations": [
       [
-        "Dürer",
-        "learned",
-        "an Albertian system from Francesco di Giorgio 's De harmonica mundi totius of 1525 probably"
-      ]
-    ]
-  },
-  "190": {
-    "ner": [
-      [
-        "third",
-        "ORDINAL"
+        "Charles Crane",
+        "parent_of",
+        "Slavia"
       ],
       [
-        "Dürer",
-        "PERSON"
+        "Slavia",
+        "child_of",
+        "Charles Crane"
       ]
     ],
-    "relations": [],
     "srl": [
       [
-        "Dürer",
-        "gives",
-        "principles by which the proportions of the figures can be modified , including the mathematical simulation of convex and concave mirrors In the"
-      ],
-      [
-        "Dürer",
-        "deals",
-        "with human physiognomy also here"
+        "he",
+        "designed",
+        "the korun bank note In 1918"
       ]
     ]
   },
   "191": {
     "ner": [
       [
-        "between 1512 and 1528",
-        "DATE"
+        "the Lottery of the Union of Southwestern Moravia",
+        "EVENT"
       ],
       [
-        "fourth",
-        "ORDINAL"
+        "Lottery of the Union of Southwestern Moravia",
+        "MISC"
       ],
       [
-        "Dürer",
-        "PERSON"
+        "Prague",
+        "GPE"
       ]
     ],
     "relations": [],
     "srl": [
       [
-        "Dürer",
-        "worked",
-        "on between 1512 and 1528"
+        "He",
+        "declined",
+        "commercial work"
+      ],
+      [
+        "He",
+        "make",
+        "occasional posters for philanthropic and cultural events , such as the Lottery of the Union of Southwestern Moravia , and for Prague cultural events"
       ]
     ]
   },
   "192": {
     "ner": [
       [
-        "Alberti",
-        "PERSON"
+        "1930s",
+        "DATE"
       ],
       [
-        "Dürer",
+        "Czechoslovakia",
+        "GPE"
+      ],
+      [
+        "The Slav Epic",
+        "WORK_OF_ART"
+      ],
+      [
+        "Slav Epic",
+        "MISC"
+      ],
+      [
+        "Mucha",
         "PERSON"
       ]
     ],
-    "relations": [],
-    "srl": [
-      [
-        "Dürer",
-        "rejected",
-        "Alberti 's concept of an objective beauty"
-      ],
-      [
-        "Dürer",
-        "proposing",
-        "a relativist notion of beauty based on variety"
-      ]
-    ]
+    "relations": []
   },
   "193": {
     "ner": [
       [
-        "Dürer",
-        "PERSON"
-      ]
-    ],
-    "relations": [],
-    "srl": [
-      [
-        "Dürer",
-        "believed",
-        "that truth was hidden within nature , and that there were rules which ordered beauty still even though he found it difficult to define the criteria for such a code"
+        "Czechoslovakia",
+        "GPE"
       ],
       [
-        "he",
-        "found",
-        "it difficult to define the criteria for such a code"
-      ]
-    ]
-  },
-  "194": {
-    "ner": [
+        "139",
+        "CARDINAL"
+      ],
+      [
+        "1936",
+        "DATE"
+      ],
+      [
+        "the Slav Epic.Hitler",
+        "WORK_OF_ART"
+      ],
+      [
+        "the 1930s",
+        "DATE"
+      ],
+      [
+        "Slav Epic",
+        "MISC"
+      ],
+      [
+        "Hitler",
+        "PER"
+      ],
+      [
+        "Germany",
+        "GPE"
+      ],
+      [
+        "Nazi",
+        "NORP"
+      ],
       [
         "three",
         "CARDINAL"
       ],
       [
-        "1512/13",
-        "DATE"
+        "Paris",
+        "GPE"
+      ],
+      [
+        "Jeu de Paume",
+        "ORG"
+      ],
+      [
+        "Nazi Germany",
+        "LOC"
       ]
     ],
     "relations": []
   },
+  "194": {
+    "ner": [
+      [
+        "Age of Wisdom",
+        "MISC"
+      ],
+      [
+        "Age of Reason",
+        "MISC"
+      ],
+      [
+        "from 1936 to 1938",
+        "DATE"
+      ],
+      [
+        "Mucha",
+        "PERSON"
+      ],
+      [
+        "Age of Love",
+        "MISC"
+      ]
+    ],
+    "relations": [],
+    "srl": [
+      [
+        "Mucha",
+        "began",
+        "work on a new series , a triptych depicting the Age of Reason , the Age of Wisdom and the Age of Love , which he worked on from 1936 to 1938 , but never completed"
+      ],
+      [
+        "he",
+        "worked",
+        "on from 1936 to 1938"
+      ],
+      [
+        "he",
+        "never completed",
+        "a triptych depicting the Age of Reason , the Age of Wisdom and the Age of Love"
+      ]
+    ]
+  },
   "195": {
     "ner": [
       [
-        "Alberti",
+        "German",
+        "NORP"
+      ],
+      [
+        "Hitler",
         "PERSON"
       ],
       [
-        "Leonardo",
-        "PERSON"
+        "Czechoslovakia",
+        "GPE"
       ],
       [
-        "Dürer",
-        "PERSON"
+        "the Greater German Reich",
+        "GPE"
+      ],
+      [
+        "Greater German Reich",
+        "LOC"
+      ],
+      [
+        "Protectorate of Bohemia",
+        "LOC"
+      ],
+      [
+        "Prague",
+        "GPE"
+      ],
+      [
+        "Moravia",
+        "LOC"
+      ],
+      [
+        "15 March 1939",
+        "DATE"
+      ],
+      [
+        "the Protectorate of Bohemia and Moravia",
+        "GPE"
       ]
     ],
     "relations": []
@@ -4714,82 +5387,100 @@
   "196": {
     "ner": [
       [
-        "1512",
-        "DATE"
-      ],
-      [
-        "1528",
-        "DATE"
-      ],
-      [
-        "Dürer",
+        "Mucha",
         "PERSON"
+      ],
+      [
+        "Slav",
+        "NORP"
+      ],
+      [
+        "Freemason",
+        "NORP"
       ]
     ],
-    "relations": []
-  },
-  "198": {
-    "ner": [
+    "relations": [
       [
-        "one",
-        "CARDINAL"
-      ],
-      [
-        "Dürer",
-        "PERSON"
+        "Mucha",
+        "origin",
+        "Slav"
       ]
-    ],
-    "relations": []
+    ]
   },
-  "199": {
+  "197": {
     "ner": [
       [
-        "Etliche Underricht zu Befestigung der Stett, Schloss und Flecken",
-        "WORK_OF_ART"
-      ],
-      [
-        "1527",
+        "several",
         "DATE"
-      ],
-      [
-        "Dürer",
-        "PERSON"
-      ],
-      [
-        "Various Lessons on the Fortification of Cities, Castles, and Localities",
-        "WORK_OF_ART"
       ]
     ],
     "relations": [],
     "srl": [
       [
-        "Dürer",
-        "published",
-        "Various Lessons on the Fortification of Cities , Castles , and Localities  In 1527 also"
+        "He",
+        "interrogated",
+        " for several days"
+      ]
+    ]
+  },
+  "199": {
+    "ner": [
+      [
+        "14 July 1939",
+        "DATE"
+      ],
+      [
+        "the Second World War",
+        "EVENT"
+      ],
+      [
+        "10 days",
+        "DATE"
+      ],
+      [
+        "79th",
+        "ORDINAL"
+      ],
+      [
+        "over a month",
+        "DATE"
+      ],
+      [
+        "Second World War",
+        "MISC"
+      ]
+    ],
+    "relations": [],
+    "srl": [
+      [
+        "He",
+        "contracted",
+        "pneumonia"
+      ],
+      [
+        "He",
+        "died",
+        " 10 days short of his 79th birthday and over a month before the outbreak of the Second World War"
       ]
     ]
   },
   "200": {
     "ner": [
       [
-        "Nuremberg",
-        "GPE"
+        "Slavín Monument of Vyšehrad",
+        "FAC"
       ],
       [
-        "Johan Janssenn",
-        "PERSON"
+        "Vyšehrad",
+        "LOC"
       ],
       [
-        "1603",
-        "DATE"
+        "Czech",
+        "NORP"
       ],
       [
-        "Hieronymus Andreae",
-        "PERSON"
-      ],
-      [
-        "Arnhem",
-        "GPE"
+        "Slavín Monument",
+        "LOC"
       ]
     ],
     "relations": []
@@ -4797,188 +5488,438 @@
   "201": {
     "ner": [
       [
-        "Paris.The",
-        "GPE"
-      ],
-      [
-        "Christian Wechel",
+        "Mucha",
         "PERSON"
       ],
       [
-        "Wecheli",
-        "PERSON"
-      ],
-      [
-        "On Cities, Forts, and Castles, Designed and Strengthened by Several Manners: Presented for the Most Necessary Accommodation of War (De vrbibus, arcibus, castellisque condendis, ac muniendis rationes aliquot : praesenti bellorum necessitati accommodatissimae",
-        "WORK_OF_ART"
-      ],
-      [
-        "Latin",
-        "LANGUAGE"
-      ],
-      [
-        "Baltic",
-        "LOC"
-      ],
-      [
-        "German",
-        "NORP"
-      ],
-      [
-        "Italian",
-        "NORP"
-      ],
-      [
-        "1535",
-        "DATE"
-      ],
-      [
-        "Wechelus",
-        "PERSON"
+        "Art Nouveau",
+        "MISC"
       ]
     ],
-    "relations": []
+    "relations": [],
+    "srl": [
+      [
+        "Mucha",
+        "was",
+        "for his Art Nouveau work"
+      ],
+      [
+        "Mucha",
+        "remains",
+        "widely known for his Art Nouveau work , which frustrated him"
+      ],
+      [
+        "Mucha",
+        "known",
+        "for his Art Nouveau work , which frustrated him"
+      ]
+    ]
   },
   "202": {
     "ner": [
       [
-        "Dürer",
+        "Art Nouveau",
+        "ORG"
+      ],
+      [
+        "Jiří Mucha",
         "PERSON"
       ]
     ],
     "relations": [],
     "srl": [
       [
-        "Dürer",
+        "he",
+        "not think",
+        "much of Art Nouveau According to his son and biographer , Jiří Mucha"
+      ]
+    ]
+  },
+  "205": {
+    "ner": [
+      [
+        "today",
+        "DATE"
+      ],
+      [
+        "Mucha",
+        "PERSON"
+      ]
+    ],
+    "relations": [],
+    "srl": [
+      [
+        "He",
+        "took",
+        "the greatest pride in his work as a history painter"
+      ]
+    ]
+  },
+  "206": {
+    "ner": [
+      [
+        "Jiří Mucha",
+        "PERSON"
+      ]
+    ],
+    "relations": []
+  },
+  "207": {
+    "ner": [
+      [
+        "Mucha",
+        "PERSON"
+      ]
+    ],
+    "relations": []
+  },
+  "208": {
+    "ner": [
+      [
+        "Slav Epic",
+        "MISC"
+      ],
+      [
+        "twenty-five years",
+        "DATE"
+      ],
+      [
+        "The Slav Epic",
+        "WORK_OF_ART"
+      ],
+      [
+        "Moravský Krumlov",
+        "GPE"
+      ]
+    ],
+    "relations": []
+  },
+  "209": {
+    "ner": [
+      [
+        "The Slav Epic",
+        "WORK_OF_ART"
+      ],
+      [
+        "National Gallery",
+        "ORG"
+      ],
+      [
+        "The National Gallery",
+        "ORG"
+      ],
+      [
+        "1998",
+        "DATE"
+      ],
+      [
+        "Mucha Museum",
+        "LOC"
+      ],
+      [
+        "Prague",
+        "GPE"
+      ],
+      [
+        "Czech",
+        "NORP"
+      ],
+      [
+        "Mucha",
+        "PERSON"
+      ],
+      [
+        "Czech Freemasonry",
+        "MISC"
+      ],
+      [
+        "Freemasonry.The Mucha Museum",
+        "ORG"
+      ]
+    ],
+    "relations": [],
+    "srl": [
+      [
+        "Mucha",
+        "credited",
+        "with restoring the movement of Czech Freemasonry"
+      ],
+      [
+        "Mucha",
+        "restoring",
+        "the movement of Czech Freemasonry"
+      ]
+    ]
+  },
+  "210": {
+    "ner": [
+      [
+        "Ivan Lendl",
+        "PERSON"
+      ],
+      [
+        "1982",
+        "DATE"
+      ],
+      [
+        "nine-year",
+        "DATE"
+      ],
+      [
+        "1",
+        "CARDINAL"
+      ],
+      [
+        "Jiří Mucha",
+        "PERSON"
+      ],
+      [
+        "World No . 1",
+        "MISC"
+      ],
+      [
+        "Mucha",
+        "PERSON"
+      ]
+    ],
+    "relations": [
+      [
+        "Ivan Lendl",
+        "has_title",
+        "1"
+      ]
+    ]
+  },
+  "211": {
+    "ner": [
+      [
+        "Google",
+        "ORG"
+      ],
+      [
+        "150th",
+        "ORDINAL"
+      ],
+      [
+        "Prague",
+        "LOC"
+      ],
+      [
+        "first",
+        "ORDINAL"
+      ],
+      [
+        "24 July 2010",
+        "DATE"
+      ],
+      [
+        "Alfonse Mucha's",
+        "PERSON"
+      ],
+      [
+        "Alfonse Mucha",
+        "PER"
+      ],
+      [
+        "2013",
+        "DATE"
+      ],
+      [
+        "Prague.On",
+        "GPE"
+      ]
+    ],
+    "relations": []
+  },
+  "81": {
+    "ner": [
+      [
+        "Champenois",
+        "PER"
+      ]
+    ],
+    "relations": [],
+    "srl": [
+      [
+        "he",
         "created",
-        "many sketches and woodcuts of soldiers and knights over the course of his life"
+        "a new kind of product , a decorative panel , a poster without text , purely for decoration With Champenois also"
       ]
     ]
   },
   "203": {
     "ner": [
       [
-        "26-232",
-        "CARDINAL"
-      ],
-      [
-        "1512",
-        "DATE"
-      ],
-      [
-        "Οπλοδιδασκαλια sive Armorvm Tractandorvm Meditatio Alberti Dvreri",
-        "WORK_OF_ART"
-      ],
-      [
-        "the Nuremberg Group",
-        "ORG"
-      ],
-      [
-        "Maximilian I.",
-        "PERSON"
-      ],
-      [
-        "Meditation on the Handling of Weapons",
-        "WORK_OF_ART"
-      ],
-      [
-        "Albrecht Dürer's",
-        "PERSON"
+        "Art Nouveau",
+        "MISC"
       ]
     ],
-    "relations": []
-  },
-  "204": {
-    "ner": [
-      [
-        "Berlin Picture Book (Libr.Pict.A.83",
-        "WORK_OF_ART"
-      ],
-      [
-        "Nuremberg",
-        "GPE"
-      ],
-      [
-        "this time",
-        "DATE"
-      ],
-      [
-        "one",
-        "CARDINAL"
-      ],
-      [
-        "Hans Talhoffer's",
-        "PERSON"
-      ]
-    ],
-    "relations": []
-  },
-  "205": {
-    "ner": [
-      [
-        "Dürer",
-        "PERSON"
-      ]
-    ],
-    "relations": []
-  },
-  "206": {
-    "ner": [
-      [
-        "Albrecht Dürer",
-        "PERSON"
-      ]
-    ],
-    "relations": []
-  },
-  "7": {},
-  "15": {},
-  "39": {
-    "srl": [
-      [
-        "He",
-        "called",
-        "her an \" old crow \""
-      ],
-      [
-        "He",
-        "made",
-        "other vulgar remarks"
-      ]
-    ]
-  },
-  "58": {},
-  "65": {
+    "relations": [],
     "srl": [
       [
         "he",
-        "begun",
-        "learning this skill during his early training with his father as it was also an essential skill of the goldsmith"
-      ],
-      [
-        "he",
-        "learning",
-        "this skill during his early training with his father"
+        "asked",
+        "What is it , Art Nouveau"
       ]
     ]
   },
-  "70": {},
-  "76": {},
-  "95": {},
-  "114": {},
-  "130": {},
-  "131": {},
-  "136": {
+  "3": {
+    "srl": [
+      [
+        "He",
+        "considered",
+        "it his most important work"
+      ]
+    ]
+  },
+  "8": {
+    "srl": [
+      [
+        "he",
+        "drew",
+        " In the preschool period exclusively"
+      ]
+    ]
+  },
+  "12": {
     "srl": [
       [
         "he",
         "gave",
-        "the time to the preparation of his theoretical works on geometry and perspective , the proportions of men and horses , and fortification"
+        "his chorister position After his voice broke"
+      ],
+      [
+        "he",
+        "played",
+        "as a violinist during masses"
+      ],
+      [
+        "He",
+        "became",
+        "devoutly religious"
+      ],
+      [
+        "He",
+        "wrote",
+        "For me , the notions of painting , going to church , and music are so closely knit that often I can not decide whether I like church for its music , or music for its place in the mystery which it accompanies later"
       ]
     ]
   },
-  "154": {},
-  "172": {},
-  "197": {},
+  "15": {
+    "srl": [
+      [
+        "He",
+        "found",
+        "some employment designing theatrical scenery and other decorations"
+      ],
+      [
+        "He",
+        "designing",
+        "theatrical scenery and other decorations"
+      ]
+    ]
+  },
+  "26": {
+    "srl": [
+      [
+        "He",
+        "showed",
+        "his skill at mythological themes , the female form , and lush vegetal decoration"
+      ]
+    ]
+  },
+  "35": {},
+  "51": {
+    "srl": [
+      [
+        "He",
+        "took",
+        "pictures of himself and his friends"
+      ],
+      [
+        "He",
+        "used",
+        "it to compose his drawings regularly also"
+      ],
+      [
+        "He",
+        "compose",
+        "his drawings"
+      ]
+    ]
+  },
+  "67": {},
+  "69": {},
+  "82": {},
+  "85": {
+    "srl": [
+      [
+        "He",
+        "designed",
+        "a calendar with a woman 's head surrounded by the signs of the zodiac also"
+      ]
+    ]
+  },
+  "105": {
+    "srl": [
+      [
+        "he",
+        "done",
+        "with his theater work"
+      ],
+      [
+        "he",
+        "took",
+        "photographs of posed models often As he had done with his theater work"
+      ],
+      [
+        "he",
+        "painted",
+        " often simplifying the forms"
+      ],
+      [
+        "he",
+        "simplifying",
+        "the forms"
+      ]
+    ]
+  },
+  "106": {},
+  "124": {},
+  "129": {},
+  "136": {},
+  "137": {},
+  "138": {},
+  "155": {},
+  "180": {
+    "srl": [
+      [
+        "He",
+        "used",
+        "costumed models and still and motion picture cameras to set the scenes"
+      ],
+      [
+        "He",
+        "set",
+        "the scenes"
+      ],
+      [
+        "He",
+        "encouraging",
+        "the models to create their own poses often"
+      ]
+    ]
+  },
+  "190": {
+    "srl": [
+      [
+        "He",
+        "designed",
+        "postage stamps for his new country"
+      ]
+    ]
+  },
+  "198": {},
+  "204": {},
   "-1": {}
 }

@@ -431,19 +431,19 @@
         },
         {
           "event": "Albrecht_Dürer-pr-Albrecht_Dürer-ev-140",
-          "role": "role-left"
+          "role": "role-work"
         },
         {
           "event": "Albrecht_Dürer-pr-Albrecht_Dürer-ev-140",
+          "role": "role-work"
+        },
+        {
+          "event": "Albrecht_Dürer-pr-Albrecht_Dürer-ev-141",
           "role": "role-left"
         },
         {
           "event": "Albrecht_Dürer-pr-Albrecht_Dürer-ev-141",
-          "role": "role-work"
-        },
-        {
-          "event": "Albrecht_Dürer-pr-Albrecht_Dürer-ev-141",
-          "role": "role-work"
+          "role": "role-left"
         },
         {
           "event": "Albrecht_Dürer-pr-Albrecht_Dürer-ev-142",
@@ -494,12 +494,16 @@
           "role": "role-remaining"
         },
         {
-          "event": "Albrecht_Dürer-pr-Albrecht_Dürer-ev-146",
-          "role": "role-remaining"
+          "event": "Albrecht_Dürer-pr-Albrecht_Dürer-ev-148",
+          "role": "role-worked"
         },
         {
-          "event": "Albrecht_Dürer-pr-Albrecht_Dürer-ev-146",
-          "role": "role-remaining"
+          "event": "Albrecht_Dürer-pr-Albrecht_Dürer-ev-148",
+          "role": "role-worked"
+        },
+        {
+          "event": "Albrecht_Dürer-pr-Albrecht_Dürer-ev-149",
+          "role": "role-worked"
         },
         {
           "event": "Albrecht_Dürer-pr-Albrecht_Dürer-ev-149",
@@ -510,11 +514,7 @@
           "role": "role-worked"
         },
         {
-          "event": "Albrecht_Dürer-pr-Albrecht_Dürer-ev-150",
-          "role": "role-worked"
-        },
-        {
-          "event": "Albrecht_Dürer-pr-Albrecht_Dürer-ev-150",
+          "event": "Albrecht_Dürer-pr-Albrecht_Dürer-ev-149",
           "role": "role-worked"
         },
         {
@@ -676,6 +676,14 @@
         {
           "event": "Albrecht_Dürer-pr-Albrecht_Dürer-ev-170",
           "role": "role-published"
+        },
+        {
+          "event": "Albrecht_Dürer-pr-Albrecht_Dürer-ev-171",
+          "role": "role-died on"
+        },
+        {
+          "event": "Albrecht_Dürer-pr-Albrecht_Dürer-ev-171",
+          "role": "role-died on"
         }
       ],
       "kind": "person"
@@ -889,11 +897,7 @@
         }
       ],
       "relations": [],
-      "kind": "place",
-      "geometry": {
-        "type": "Point",
-        "coordinates": null
-      }
+      "kind": "place"
     },
     {
       "id": "Albrecht_Dürer-pr-Martin_Schongauer",
@@ -1008,10 +1012,6 @@
         {
           "label": "Willibald_Pirckheimer",
           "url": "https://en.wikipedia.org/wiki/Willibald_Pirckheimer"
-        },
-        {
-          "label": "Q62663",
-          "url": "http://www.wikidata.org/entity/Q62663"
         }
       ],
       "media": [],
@@ -1095,11 +1095,7 @@
       },
       "linkedIds": [],
       "relations": [],
-      "kind": "place",
-      "geometry": {
-        "type": "Point",
-        "coordinates": null
-      }
+      "kind": "place"
     },
     {
       "id": "Albrecht_Dürer-pr-003",
@@ -1151,6 +1147,10 @@
         {
           "label": "Johannes_Stabius",
           "url": "https://en.wikipedia.org/wiki/Johannes_Stabius"
+        },
+        {
+          "label": "Q574405",
+          "url": "http://www.wikidata.org/entity/Q574405"
         }
       ],
       "media": [],
@@ -1253,6 +1253,10 @@
         {
           "label": "Martin_Luther",
           "url": "https://en.wikipedia.org/wiki/Martin_Luther"
+        },
+        {
+          "label": "Q9554",
+          "url": "http://www.wikidata.org/entity/Q9554"
         }
       ],
       "media": [],
@@ -1401,6 +1405,10 @@
         {
           "label": "Raphael",
           "url": "https://en.wikipedia.org/wiki/Raphael"
+        },
+        {
+          "label": "Q5597",
+          "url": "http://www.wikidata.org/entity/Q5597"
         }
       ],
       "media": [],
@@ -1486,11 +1494,7 @@
       },
       "linkedIds": [],
       "relations": [],
-      "kind": "place",
-      "geometry": {
-        "type": "Point",
-        "coordinates": null
-      }
+      "kind": "place"
     },
     {
       "id": "Albrecht_Dürer-pl-Northern_Renaissance",
@@ -1508,11 +1512,7 @@
         }
       ],
       "relations": [],
-      "kind": "place",
-      "geometry": {
-        "type": "Point",
-        "coordinates": null
-      }
+      "kind": "place"
     },
     {
       "id": "Albrecht_Dürer-pr-009",
@@ -1561,11 +1561,7 @@
           "role": "role-place_of_residence"
         }
       ],
-      "kind": "place",
-      "geometry": {
-        "type": "Point",
-        "coordinates": null
-      }
+      "kind": "place"
     },
     {
       "id": "Albrecht_Dürer-pl-Gyula_(town)",
@@ -1592,11 +1588,7 @@
           "role": "role-place_of_residence"
         }
       ],
-      "kind": "place",
-      "geometry": {
-        "type": "Point",
-        "coordinates": null
-      }
+      "kind": "place"
     },
     {
       "id": "Albrecht_Dürer-pl-Kingdom_of_Hungary",
@@ -1763,6 +1755,10 @@
         {
           "label": "Anton_Koberger",
           "url": "https://en.wikipedia.org/wiki/Anton_Koberger"
+        },
+        {
+          "label": "Q64233",
+          "url": "http://www.wikidata.org/entity/Q64233"
         }
       ],
       "media": [],
@@ -1906,11 +1902,7 @@
       },
       "linkedIds": [],
       "relations": [],
-      "kind": "place",
-      "geometry": {
-        "type": "Point",
-        "coordinates": null
-      }
+      "kind": "place"
     },
     {
       "id": "Albrecht_Dürer-pl-Netherlands",
@@ -1924,11 +1916,7 @@
         }
       ],
       "relations": [],
-      "kind": "place",
-      "geometry": {
-        "type": "Point",
-        "coordinates": null
-      }
+      "kind": "place"
     },
     {
       "id": "Albrecht_Dürer-pr-018",
@@ -2143,14 +2131,14 @@
         {
           "label": "Strasbourg",
           "url": "https://en.wikipedia.org/wiki/Strasbourg"
+        },
+        {
+          "label": "Q6602",
+          "url": "http://www.wikidata.org/entity/Q6602"
         }
       ],
       "relations": [],
-      "kind": "place",
-      "geometry": {
-        "type": "Point",
-        "coordinates": null
-      }
+      "kind": "place"
     },
     {
       "id": "Albrecht_Dürer-pr-Nikolaus_Gerhaert",
@@ -2176,18 +2164,10 @@
         {
           "label": "Louvre",
           "url": "https://en.wikipedia.org/wiki/Louvre"
-        },
-        {
-          "label": "Q19675",
-          "url": "http://www.wikidata.org/entity/Q19675"
         }
       ],
       "relations": [],
-      "kind": "place",
-      "geometry": {
-        "type": "Point",
-        "coordinates": null
-      }
+      "kind": "place"
     },
     {
       "id": "Albrecht_Dürer-pl-007",
@@ -2196,11 +2176,7 @@
       },
       "linkedIds": [],
       "relations": [],
-      "kind": "place",
-      "geometry": {
-        "type": "Point",
-        "coordinates": null
-      }
+      "kind": "place"
     },
     {
       "id": "Albrecht_Dürer-pr-022",
@@ -2331,6 +2307,10 @@
         {
           "label": "Lorenzo_di_Credi",
           "url": "https://en.wikipedia.org/wiki/Lorenzo_di_Credi"
+        },
+        {
+          "label": "Q8511",
+          "url": "http://www.wikidata.org/entity/Q8511"
         }
       ],
       "media": [],
@@ -2364,11 +2344,7 @@
         }
       ],
       "relations": [],
-      "kind": "place",
-      "geometry": {
-        "type": "Point",
-        "coordinates": null
-      }
+      "kind": "place"
     },
     {
       "id": "Albrecht_Dürer-pl-Mantua",
@@ -2489,11 +2465,7 @@
       },
       "linkedIds": [],
       "relations": [],
-      "kind": "place",
-      "geometry": {
-        "type": "Point",
-        "coordinates": null
-      }
+      "kind": "place"
     },
     {
       "id": "Albrecht_Dürer-ob-010",
@@ -2691,10 +2663,6 @@
         {
           "label": "Jacopo_de'_Barbari",
           "url": "https://en.wikipedia.org/wiki/Jacopo_de%27_Barbari"
-        },
-        {
-          "label": "Q927350",
-          "url": "http://www.wikidata.org/entity/Q927350"
         }
       ],
       "media": [],
@@ -3014,6 +2982,10 @@
         {
           "label": "Adoration_of_the_Trinity",
           "url": "https://en.wikipedia.org/wiki/Adoration_of_the_Trinity"
+        },
+        {
+          "label": "Q688870",
+          "url": "http://www.wikidata.org/entity/Q688870"
         }
       ],
       "description": "",
@@ -3379,6 +3351,10 @@
         {
           "label": "Hans_Springinklee",
           "url": "https://en.wikipedia.org/wiki/Hans_Springinklee"
+        },
+        {
+          "label": "Q269079",
+          "url": "http://www.wikidata.org/entity/Q269079"
         }
       ],
       "media": [],
@@ -3453,10 +3429,6 @@
         {
           "label": "Konrad_Peutinger",
           "url": "https://en.wikipedia.org/wiki/Konrad_Peutinger"
-        },
-        {
-          "label": "Q60958",
-          "url": "http://www.wikidata.org/entity/Q60958"
         }
       ],
       "media": [],
@@ -3495,11 +3467,7 @@
       },
       "linkedIds": [],
       "relations": [],
-      "kind": "place",
-      "geometry": {
-        "type": "Point",
-        "coordinates": null
-      }
+      "kind": "place"
     },
     {
       "id": "Albrecht_Dürer-pl-011",
@@ -3508,11 +3476,7 @@
       },
       "linkedIds": [],
       "relations": [],
-      "kind": "place",
-      "geometry": {
-        "type": "Point",
-        "coordinates": null
-      }
+      "kind": "place"
     },
     {
       "id": "Albrecht_Dürer-pr-038",
@@ -3617,11 +3581,7 @@
         }
       ],
       "relations": [],
-      "kind": "place",
-      "geometry": {
-        "type": "Point",
-        "coordinates": null
-      }
+      "kind": "place"
     },
     {
       "id": "Albrecht_Dürer-pl-Antwerp",
@@ -3675,11 +3635,7 @@
         }
       ],
       "relations": [],
-      "kind": "place",
-      "geometry": {
-        "type": "Point",
-        "coordinates": null
-      }
+      "kind": "place"
     },
     {
       "id": "Albrecht_Dürer-pl-012",
@@ -3688,11 +3644,7 @@
       },
       "linkedIds": [],
       "relations": [],
-      "kind": "place",
-      "geometry": {
-        "type": "Point",
-        "coordinates": null
-      }
+      "kind": "place"
     },
     {
       "id": "Albrecht_Dürer-pl-Bruges",
@@ -4064,11 +4016,7 @@
       },
       "linkedIds": [],
       "relations": [],
-      "kind": "place",
-      "geometry": {
-        "type": "Point",
-        "coordinates": null
-      }
+      "kind": "place"
     },
     {
       "id": "Albrecht_Dürer-pr-045",
@@ -4117,11 +4065,7 @@
       },
       "linkedIds": [],
       "relations": [],
-      "kind": "place",
-      "geometry": {
-        "type": "Point",
-        "coordinates": null
-      }
+      "kind": "place"
     },
     {
       "id": "Albrecht_Dürer-pr-046",
@@ -4228,11 +4172,7 @@
       },
       "linkedIds": [],
       "relations": [],
-      "kind": "place",
-      "geometry": {
-        "type": "Point",
-        "coordinates": null
-      }
+      "kind": "place"
     },
     {
       "id": "Albrecht_Dürer-pr-Bernhard_Walther",
@@ -4331,6 +4271,10 @@
         {
           "label": "Huldrych_Zwingli",
           "url": "https://en.wikipedia.org/wiki/Huldrych_Zwingli"
+        },
+        {
+          "label": "Q123034",
+          "url": "http://www.wikidata.org/entity/Q123034"
         }
       ],
       "media": [],
@@ -4470,6 +4414,10 @@
         {
           "label": "Giulio_Campagnola",
           "url": "https://en.wikipedia.org/wiki/Giulio_Campagnola"
+        },
+        {
+          "label": "Q1989594",
+          "url": "http://www.wikidata.org/entity/Q1989594"
         }
       ],
       "media": [],
@@ -4553,11 +4501,7 @@
       },
       "linkedIds": [],
       "relations": [],
-      "kind": "place",
-      "geometry": {
-        "type": "Point",
-        "coordinates": null
-      }
+      "kind": "place"
     },
     {
       "id": "Albrecht_Dürer-gr-003",
@@ -4601,10 +4545,6 @@
         {
           "label": "Hans_Burgkmair",
           "url": "https://en.wikipedia.org/wiki/Hans_Burgkmair"
-        },
-        {
-          "label": "Q313163",
-          "url": "http://www.wikidata.org/entity/Q313163"
         }
       ],
       "media": [],
@@ -4760,6 +4700,10 @@
         {
           "label": "Euclid",
           "url": "https://en.wikipedia.org/wiki/Euclid"
+        },
+        {
+          "label": "Q8747",
+          "url": "http://www.wikidata.org/entity/Q8747"
         }
       ],
       "media": [],
@@ -4918,11 +4862,7 @@
       },
       "linkedIds": [],
       "relations": [],
-      "kind": "place",
-      "geometry": {
-        "type": "Point",
-        "coordinates": null
-      }
+      "kind": "place"
     },
     {
       "id": "Albrecht_Dürer-ob-045",
@@ -4980,11 +4920,7 @@
       },
       "linkedIds": [],
       "relations": [],
-      "kind": "place",
-      "geometry": {
-        "type": "Point",
-        "coordinates": null
-      }
+      "kind": "place"
     },
     {
       "id": "Albrecht_Dürer-pl-019",
@@ -4993,11 +4929,7 @@
       },
       "linkedIds": [],
       "relations": [],
-      "kind": "place",
-      "geometry": {
-        "type": "Point",
-        "coordinates": null
-      }
+      "kind": "place"
     },
     {
       "id": "Albrecht_Dürer-gr-004",
@@ -5124,7 +5056,8 @@
           "entity": "Albrecht_Dürer-pr-Albrecht_Dürer",
           "role": "role-child_of"
         }
-      ]
+      ],
+      "startDate": "1471-05-30T00:00:00Z"
     },
     {
       "id": "Albrecht_Dürer-pr-Albrecht_Dürer-ev-003",
@@ -5141,7 +5074,8 @@
           "entity": "Albrecht_Dürer-pr-Albrecht_Dürer",
           "role": "role-child_of"
         }
-      ]
+      ],
+      "startDate": "1471-05-30T00:00:00Z"
     },
     {
       "id": "Albrecht_Dürer-pr-Albrecht_Dürer-ev-004",
@@ -5175,7 +5109,8 @@
           "entity": "Albrecht_Dürer-pr-Albrecht_Dürer",
           "role": "role-child_of"
         }
-      ]
+      ],
+      "startDate": "1471-05-30T00:00:00Z"
     },
     {
       "id": "Albrecht_Dürer-pr-Albrecht_Dürer-ev-006",
@@ -5243,7 +5178,8 @@
           "entity": "Albrecht_Dürer-pr-Albrecht_Dürer",
           "role": "role-sibling_of"
         }
-      ]
+      ],
+      "startDate": "1471-05-30T00:00:00Z"
     },
     {
       "id": "Albrecht_Dürer-pr-Albrecht_Dürer-ev-010",
@@ -5260,7 +5196,8 @@
           "entity": "Albrecht_Dürer-pr-Hans_Dürer",
           "role": "role-sibling_of"
         }
-      ]
+      ],
+      "startDate": "1471-05-30T00:00:00Z"
     },
     {
       "id": "Albrecht_Dürer-pr-Albrecht_Dürer-ev-011",
@@ -5277,7 +5214,8 @@
           "entity": "Albrecht_Dürer-pr-Albrecht_Dürer",
           "role": "role-sibling_of"
         }
-      ]
+      ],
+      "startDate": "1471-05-30T00:00:00Z"
     },
     {
       "id": "Albrecht_Dürer-pr-Albrecht_Dürer-ev-012",
@@ -5294,7 +5232,8 @@
           "entity": "Albrecht_Dürer-pr-011",
           "role": "role-sibling_of"
         }
-      ]
+      ],
+      "startDate": "1471-05-30T00:00:00Z"
     },
     {
       "id": "Albrecht_Dürer-pr-Albrecht_Dürer-ev-013",
@@ -5328,7 +5267,8 @@
           "entity": "Albrecht_Dürer-pr-Albrecht_Dürer",
           "role": "role-child_of"
         }
-      ]
+      ],
+      "startDate": "1471-05-30T00:00:00Z"
     },
     {
       "id": "Albrecht_Dürer-pr-Albrecht_Dürer-ev-015",
@@ -5447,7 +5387,8 @@
           "entity": "Albrecht_Dürer-pr-Albrecht_Dürer",
           "role": "role-child_of"
         }
-      ]
+      ],
+      "startDate": "1471-05-30T00:00:00Z"
     },
     {
       "id": "Albrecht_Dürer-pr-Albrecht_Dürer_the_Elder-ev-022",
@@ -5515,7 +5456,8 @@
           "entity": "Albrecht_Dürer-pr-Albrecht_Dürer",
           "role": "role-child_of"
         }
-      ]
+      ],
+      "startDate": "1471-05-30T00:00:00Z"
     },
     {
       "id": "Albrecht_Dürer-pr-002-ev-026",
@@ -5583,7 +5525,8 @@
           "entity": "Albrecht_Dürer-pr-Martin_Schongauer",
           "role": "role-sibling_of"
         }
-      ]
+      ],
+      "startDate": "1471-05-30T00:00:00Z"
     },
     {
       "id": "Albrecht_Dürer-pr-Martin_Schongauer-ev-030",
@@ -5600,7 +5543,8 @@
           "entity": "Albrecht_Dürer-pr-Martin_Schongauer",
           "role": "role-sibling_of"
         }
-      ]
+      ],
+      "startDate": "1471-05-30T00:00:00Z"
     },
     {
       "id": "Albrecht_Dürer-pr-Martin_Schongauer-ev-031",
@@ -5617,7 +5561,8 @@
           "entity": "Albrecht_Dürer-pr-Martin_Schongauer",
           "role": "role-sibling_of"
         }
-      ]
+      ],
+      "startDate": "1471-05-30T00:00:00Z"
     },
     {
       "id": "Albrecht_Dürer-pr-Martin_Schongauer-ev-032",
@@ -5634,7 +5579,8 @@
           "entity": "Albrecht_Dürer-pr-018",
           "role": "role-sibling_of"
         }
-      ]
+      ],
+      "startDate": "1471-05-30T00:00:00Z"
     },
     {
       "id": "Albrecht_Dürer-pr-Martin_Schongauer-ev-033",
@@ -5651,7 +5597,8 @@
           "entity": "Albrecht_Dürer-pr-019",
           "role": "role-sibling_of"
         }
-      ]
+      ],
+      "startDate": "1471-05-30T00:00:00Z"
     },
     {
       "id": "Albrecht_Dürer-pr-Agnes_Frey-ev-034",
@@ -5957,7 +5904,8 @@
           "entity": "Albrecht_Dürer-pr-Albrecht_Dürer",
           "role": "role-sibling_of"
         }
-      ]
+      ],
+      "startDate": "1471-05-30T00:00:00Z"
     },
     {
       "id": "Albrecht_Dürer-pr-Hans_Dürer-ev-052",
@@ -5974,7 +5922,8 @@
           "entity": "Albrecht_Dürer-pr-Hans_Dürer",
           "role": "role-sibling_of"
         }
-      ]
+      ],
+      "startDate": "1471-05-30T00:00:00Z"
     },
     {
       "id": "Albrecht_Dürer-pr-011-ev-053",
@@ -5991,7 +5940,8 @@
           "entity": "Albrecht_Dürer-pr-Albrecht_Dürer",
           "role": "role-sibling_of"
         }
-      ]
+      ],
+      "startDate": "1471-05-30T00:00:00Z"
     },
     {
       "id": "Albrecht_Dürer-pr-011-ev-054",
@@ -6008,7 +5958,8 @@
           "entity": "Albrecht_Dürer-pr-011",
           "role": "role-sibling_of"
         }
-      ]
+      ],
+      "startDate": "1471-05-30T00:00:00Z"
     },
     {
       "id": "Albrecht_Dürer-pr-012-ev-055",
@@ -6042,7 +5993,8 @@
           "entity": "Albrecht_Dürer-pr-Albrecht_Dürer",
           "role": "role-child_of"
         }
-      ]
+      ],
+      "startDate": "1471-05-30T00:00:00Z"
     },
     {
       "id": "Albrecht_Dürer-pr-Anton_Koberger-ev-057",
@@ -6059,7 +6011,8 @@
           "entity": "Albrecht_Dürer-pr-Albrecht_Dürer",
           "role": "role-child_of"
         }
-      ]
+      ],
+      "startDate": "1471-05-30T00:00:00Z"
     },
     {
       "id": "Albrecht_Dürer-ob-003-ev-058",
@@ -6110,7 +6063,8 @@
           "entity": "Albrecht_Dürer-pr-Martin_Schongauer",
           "role": "role-sibling_of"
         }
-      ]
+      ],
+      "startDate": "1471-05-30T00:00:00Z"
     },
     {
       "id": "Albrecht_Dürer-pr-018-ev-061",
@@ -6127,7 +6081,8 @@
           "entity": "Albrecht_Dürer-pr-018",
           "role": "role-sibling_of"
         }
-      ]
+      ],
+      "startDate": "1471-05-30T00:00:00Z"
     },
     {
       "id": "Albrecht_Dürer-pr-018-ev-062",
@@ -6144,7 +6099,8 @@
           "entity": "Albrecht_Dürer-pr-018",
           "role": "role-sibling_of"
         }
-      ]
+      ],
+      "startDate": "1471-05-30T00:00:00Z"
     },
     {
       "id": "Albrecht_Dürer-pr-018-ev-063",
@@ -6161,7 +6117,8 @@
           "entity": "Albrecht_Dürer-pr-018",
           "role": "role-sibling_of"
         }
-      ]
+      ],
+      "startDate": "1471-05-30T00:00:00Z"
     },
     {
       "id": "Albrecht_Dürer-pr-018-ev-064",
@@ -6178,7 +6135,8 @@
           "entity": "Albrecht_Dürer-pr-019",
           "role": "role-sibling_of"
         }
-      ]
+      ],
+      "startDate": "1471-05-30T00:00:00Z"
     },
     {
       "id": "Albrecht_Dürer-pr-018-ev-065",
@@ -6195,7 +6153,8 @@
           "entity": "Albrecht_Dürer-pr-020",
           "role": "role-sibling_of"
         }
-      ]
+      ],
+      "startDate": "1471-05-30T00:00:00Z"
     },
     {
       "id": "Albrecht_Dürer-pr-019-ev-066",
@@ -6212,7 +6171,8 @@
           "entity": "Albrecht_Dürer-pr-Martin_Schongauer",
           "role": "role-sibling_of"
         }
-      ]
+      ],
+      "startDate": "1471-05-30T00:00:00Z"
     },
     {
       "id": "Albrecht_Dürer-pr-019-ev-067",
@@ -6229,7 +6189,8 @@
           "entity": "Albrecht_Dürer-pr-019",
           "role": "role-sibling_of"
         }
-      ]
+      ],
+      "startDate": "1471-05-30T00:00:00Z"
     },
     {
       "id": "Albrecht_Dürer-pr-019-ev-068",
@@ -6246,7 +6207,8 @@
           "entity": "Albrecht_Dürer-pr-018",
           "role": "role-sibling_of"
         }
-      ]
+      ],
+      "startDate": "1471-05-30T00:00:00Z"
     },
     {
       "id": "Albrecht_Dürer-pr-019-ev-069",
@@ -6263,7 +6225,8 @@
           "entity": "Albrecht_Dürer-pr-019",
           "role": "role-sibling_of"
         }
-      ]
+      ],
+      "startDate": "1471-05-30T00:00:00Z"
     },
     {
       "id": "Albrecht_Dürer-pr-019-ev-070",
@@ -6280,7 +6243,8 @@
           "entity": "Albrecht_Dürer-pr-019",
           "role": "role-sibling_of"
         }
-      ]
+      ],
+      "startDate": "1471-05-30T00:00:00Z"
     },
     {
       "id": "Albrecht_Dürer-pr-019-ev-071",
@@ -6297,7 +6261,8 @@
           "entity": "Albrecht_Dürer-pr-020",
           "role": "role-sibling_of"
         }
-      ]
+      ],
+      "startDate": "1471-05-30T00:00:00Z"
     },
     {
       "id": "Albrecht_Dürer-pr-020-ev-072",
@@ -6314,7 +6279,8 @@
           "entity": "Albrecht_Dürer-pr-Martin_Schongauer",
           "role": "role-sibling_of"
         }
-      ]
+      ],
+      "startDate": "1471-05-30T00:00:00Z"
     },
     {
       "id": "Albrecht_Dürer-pr-020-ev-073",
@@ -6331,7 +6297,8 @@
           "entity": "Albrecht_Dürer-pr-018",
           "role": "role-sibling_of"
         }
-      ]
+      ],
+      "startDate": "1471-05-30T00:00:00Z"
     },
     {
       "id": "Albrecht_Dürer-pr-020-ev-074",
@@ -6348,7 +6315,8 @@
           "entity": "Albrecht_Dürer-pr-020",
           "role": "role-sibling_of"
         }
-      ]
+      ],
+      "startDate": "1471-05-30T00:00:00Z"
     },
     {
       "id": "Albrecht_Dürer-pr-020-ev-075",
@@ -6365,7 +6333,8 @@
           "entity": "Albrecht_Dürer-pr-019",
           "role": "role-sibling_of"
         }
-      ]
+      ],
+      "startDate": "1471-05-30T00:00:00Z"
     },
     {
       "id": "Albrecht_Dürer-pr-020-ev-076",
@@ -6382,7 +6351,8 @@
           "entity": "Albrecht_Dürer-pr-020",
           "role": "role-sibling_of"
         }
-      ]
+      ],
+      "startDate": "1471-05-30T00:00:00Z"
     },
     {
       "id": "Albrecht_Dürer-pr-023-ev-077",
@@ -7460,24 +7430,6 @@
     {
       "id": "Albrecht_Dürer-pr-Albrecht_Dürer-ev-140",
       "label": {
-        "default": "Dürer left  in 1490"
-      },
-      "kind": "event-kind-left",
-      "relations": [
-        {
-          "entity": "Albrecht_Dürer-pr-Albrecht_Dürer",
-          "role": "role-left"
-        },
-        {
-          "entity": "Albrecht_Dürer-pr-Albrecht_Dürer",
-          "role": "role-left"
-        }
-      ],
-      "startDate": "1490-01-01"
-    },
-    {
-      "id": "Albrecht_Dürer-pr-Albrecht_Dürer-ev-141",
-      "label": {
         "default": "Dürer work under Martin Schongauer , the leading engraver of Northern Europe , but who died shortly before Dürer 's arrival at Colmar in 1492 possibly"
       },
       "kind": "event-kind-work",
@@ -7492,6 +7444,24 @@
         }
       ],
       "startDate": "1492-01-01"
+    },
+    {
+      "id": "Albrecht_Dürer-pr-Albrecht_Dürer-ev-141",
+      "label": {
+        "default": "Dürer left  in 1490"
+      },
+      "kind": "event-kind-left",
+      "relations": [
+        {
+          "entity": "Albrecht_Dürer-pr-Albrecht_Dürer",
+          "role": "role-left"
+        },
+        {
+          "entity": "Albrecht_Dürer-pr-Albrecht_Dürer",
+          "role": "role-left"
+        }
+      ],
+      "startDate": "1490-01-01"
     },
     {
       "id": "Albrecht_Dürer-pr-Albrecht_Dürer-ev-142",
@@ -7602,22 +7572,22 @@
       "startDate": "1520-01-01"
     },
     {
-      "id": "Albrecht_Dürer-pr-Albrecht_Dürer-ev-146",
+      "id": "Albrecht_Dürer-pr-Albrecht_Dürer-ev-148",
       "label": {
-        "default": "Dürer remaining  until 1520 Despite the regard in which he was held by the Venetians in Germany"
+        "default": "Dürer worked on some of his most celebrated paintings : Adam and Eve  Between 1507 and 1511"
       },
-      "kind": "event-kind-remaining",
+      "kind": "event-kind-worked",
       "relations": [
         {
           "entity": "Albrecht_Dürer-pr-Albrecht_Dürer",
-          "role": "role-remaining"
+          "role": "role-worked"
         },
         {
           "entity": "Albrecht_Dürer-pr-Albrecht_Dürer",
-          "role": "role-remaining"
+          "role": "role-worked"
         }
       ],
-      "startDate": "1520-01-01"
+      "startDate": "1507-01-01"
     },
     {
       "id": "Albrecht_Dürer-pr-Albrecht_Dürer-ev-149",
@@ -7638,7 +7608,7 @@
       "startDate": "1511-01-01"
     },
     {
-      "id": "Albrecht_Dürer-pr-Albrecht_Dürer-ev-150",
+      "id": "Albrecht_Dürer-pr-Albrecht_Dürer-ev-149",
       "label": {
         "default": "Dürer worked on some of his most celebrated paintings : Adam and Eve  Between 1507 and 1511"
       },
@@ -7653,7 +7623,7 @@
           "role": "role-worked"
         }
       ],
-      "startDate": "1507-01-01"
+      "startDate": "1511-01-01"
     },
     {
       "id": "Albrecht_Dürer-pr-Albrecht_Dürer-ev-151",
@@ -8014,6 +7984,24 @@
         }
       ],
       "startDate": "1527-01-01"
+    },
+    {
+      "id": "Albrecht_Dürer-pr-Albrecht_Dürer-ev-171",
+      "label": {
+        "default": "Dürer died on 1528-04-16"
+      },
+      "kind": "event-kind-died on",
+      "relations": [
+        {
+          "entity": "Albrecht_Dürer-pr-Albrecht_Dürer",
+          "role": "role-died on"
+        },
+        {
+          "entity": "Albrecht_Dürer-pr-Albrecht_Dürer",
+          "role": "role-died on"
+        }
+      ],
+      "startDate": "1528-01-01"
     }
   ],
   "media": [],
@@ -8081,15 +8069,15 @@
         }
       },
       {
-        "id": "event-kind-left",
-        "label": {
-          "default": "left"
-        }
-      },
-      {
         "id": "event-kind-work",
         "label": {
           "default": "work"
+        }
+      },
+      {
+        "id": "event-kind-left",
+        "label": {
+          "default": "left"
         }
       },
       {
@@ -8193,6 +8181,12 @@
         "label": {
           "default": "published"
         }
+      },
+      {
+        "id": "event-kind-died on",
+        "label": {
+          "default": "died on"
+        }
       }
     ],
     "role": [
@@ -8281,15 +8275,15 @@
         }
       },
       {
-        "id": "role-left",
-        "label": {
-          "default": "left"
-        }
-      },
-      {
         "id": "role-work",
         "label": {
           "default": "work"
+        }
+      },
+      {
+        "id": "role-left",
+        "label": {
+          "default": "left"
         }
       },
       {
@@ -8392,6 +8386,12 @@
         "id": "role-published",
         "label": {
           "default": "published"
+        }
+      },
+      {
+        "id": "role-died on",
+        "label": {
+          "default": "died on"
         }
       }
     ]

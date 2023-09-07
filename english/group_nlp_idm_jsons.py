@@ -74,11 +74,11 @@ def unify_idm_jsons(movement_name: str):
 
     # Save the Grouped Entities, Relations and Events into a single IDM JSON
     group_parent_idm = {
-        "entities": sorted(all_entities.values(), key= lambda x: x["id"]),
+        "entities": sorted(all_entities.values(), key= lambda x: - len(x["relations"])),
         "events": sorted(all_events.values(), key= lambda x: x["id"]),
         "media": [],
         "biographies": [],
-        "vocabularies": {"event-kind": sorted(all_event_kinds), "role": sorted(all_roles)},
+        "vocabularies": {"event-kind": list(all_event_kinds.values()), "role": list(all_roles.values())},
         "unmappedEntities": [],
         "collections": {}
     }
@@ -87,6 +87,5 @@ def unify_idm_jsons(movement_name: str):
 
 
 if __name__ == "__main__":
-    #generate_idms_from_group("Art_Nouveau")
+    generate_idms_from_group("Art_Nouveau")
     unify_idm_jsons("Art_Nouveau")
-    pass

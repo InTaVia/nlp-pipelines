@@ -14,6 +14,23 @@ class RankedArticle:
     token_overlap: float = -1
     dates_confidence: int = -1
 
+def add_inbetween_spaces(raw_text: str) -> str:
+    # t = t = "This is a abbr. J. K.L. test.Where we do not have proper.Spaces need to be... introduced."
+    clean_text = ""
+    checkpoints = [-1]
+    # Look for places in the string where there are no spaces after a period.
+    for m in regex.finditer(r"\.\S", raw_text):
+        if raw_text[m.start()+1] != ".":
+            checkpoints.append(m.start())
+    # If such places were found then introduce a space in each of the errors. Otherwise return the original string
+    if len(checkpoints) > 1:
+        for i, j in zip(checkpoints, checkpoints[1:]):
+            clean_text += raw_text[i+1:j+1] + " "
+        clean_text += raw_text[checkpoints[-1]+1:]
+    else:
+        clean_text = raw_text
+    return clean_text
+
 
 def get_wikipedia_url_encoded(wikipedia_metadata_link: str):
     safe_string = urllib.parse.quote_plus(wikipedia_metadata_link).replace("+", "_")
@@ -161,18 +178,19 @@ def get_raw_wikipedia_article(wiki_title: str = None, wiki_url: str = None) -> D
 
 
 def save_wikipedia_page(page: wikipedia.WikipediaPage, output_path:str, include_metadata: bool = False, include_sections: bool = True, include_infobox: bool = True):
+    clean_text = add_inbetween_spaces(page.content) 
     # Save JSON File
     if include_metadata:
         meta_path = f"{output_path}.meta.json"
         if include_sections:
-            section_dict = extract_sections(page.content)
+            section_dict = extract_sections(clean_text)
         else:
             section_dict = None
         metadata = {
             "title": page.title,
             "url": page.url,
             "original_title": page.original_title,
-            "text": page.content,
+            "text": clean_text,
             "summary": page.summary,
             "sections": section_dict,
             "categories": page.categories,
@@ -189,7 +207,7 @@ def save_wikipedia_page(page: wikipedia.WikipediaPage, output_path:str, include_
             json.dump(metadata, f, indent=2, ensure_ascii=False)
     # Save Plain Text
     with open(output_path, "w") as f:
-        f.write(page.content)
+        f.write(clean_text)
 
 
 def extract_sections(page_text: str) -> Dict[str, str]:
@@ -224,8 +242,8 @@ def extract_infobox(raw_text:str) -> Tuple[str, Dict[str, str]]:
     except TimeoutError:
         match = None
     # Check if a match is found
-    print("InfoBoxMatch", match.span())
     if match:
+        # print("InfoBoxMatch", match.span())
         infobox_str = match.group()
     else:
         return None, None
@@ -322,9 +340,9 @@ def get_idm_coordinates(wiki_coordinates: str) -> Tuple[float, float]:
             long_degree_decimals, long_dir = wiki_coordinates[3:5]
             lat_degree_decimals, long_degree_decimals = float(lat_degree_decimals), float(long_degree_decimals)
 
-        print(len(wiki_coordinates), wiki_coordinates)
-        print(long_degree_decimals,lat_degree_decimals)
-        print("------------------")
+        # print(len(wiki_coordinates), wiki_coordinates)
+        # print(long_degree_decimals,lat_degree_decimals)
+        # print("------------------")
         
         # North or East are Positive | South or West are Negative
         if lat_dir == 'S': lat_degree_decimals = lat_degree_decimals * -1.0

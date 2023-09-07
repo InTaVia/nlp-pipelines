@@ -3,7 +3,7 @@ import json, os, re, time
 import copy
 from collections import defaultdict, Counter
 from utils.utils_wiki import get_raw_wikipedia_article, get_wiki_linked_entities, get_relevant_items_from_infobox, get_wikipedia_url_encoded
-from utils.wikidata_querier import get_wikidata_id_from_wikipedia_url
+from utils.wikidata_querier import get_wikidata_id_from_wikipedia_url, get_wikidata_basic_info
 from urllib.parse import unquote
 import datetime
 import dateutil.parser as parser
@@ -46,7 +46,7 @@ place_template = {
     "relations": [],
     "kind": "place",
     # "type": { }, # { "id": "place-type-city", "label": { "default": "city" } }
-    "geometry": { "type": "Point", "coordinates": None } # { "type": "Point", "coordinates": [8.34915, 49.69025] }
+    # "geometry": { "type": "Point", "coordinates": None } # { "type": "Point", "coordinates": [8.34915, 49.69025] }
 }
 
 object_template = {
@@ -87,6 +87,18 @@ def convert_nlp_to_idm_json(nlp_path: str, idm_out_path: str, wiki_root_path: st
     lastname = person_name.split("_")[-1]
     main_person_url = get_wikipedia_url_encoded(person_name.replace("_", " ").title())
     main_person_id = unquote(main_person_url.split("/")[-1])
+    # Complete IDM with Wikidata Information of the main person...
+    main_wikidata_info = get_wikidata_basic_info(main_person_url)
+    main_wikidata_id = main_wikidata_info.get("wikidata_id")
+    main_birth_date = main_wikidata_info.get("birth_date")
+    if main_birth_date: main_birth_date = main_birth_date.split("T")[0]
+    main_death_date = main_wikidata_info.get("death_date")
+    if main_death_date: main_death_date = main_death_date.split("T")[0]
+    main_person_image = main_wikidata_info.get("main_image")
+    print(main_wikidata_id, main_birth_date, main_death_date, main_person_image)
+
+    # Insert Birth and Death Events by default?
+
 
     all_sentences = {str(sent["sentenceID"]): sent["text"] for sent in nlp_dict["data"]["morpho_syntax"]["flair_0.12.2"]}
     
@@ -97,10 +109,18 @@ def convert_nlp_to_idm_json(nlp_path: str, idm_out_path: str, wiki_root_path: st
     for meta_link in wiki_meta["links"]:
         wiki_linked_dict[meta_link] = get_wikipedia_url_encoded(meta_link)
     wiki_linked_dict[person_name.replace("_", " ").title()] = main_person_url
+    # TRICK! Add to the dictionary the last token of each entry (most of the times are Last Names of people!) 
+    # That way is easier to link entities to NER when only the lastname is mentioned
+    to_add = []
+    for name_str, wiki_url in wiki_linked_dict.items():
+        toks = name_str.split()
+        if len(toks) == 2 and all([t[0].upper() == t[0] for t in toks]):
+            to_add.append((toks[-1], wiki_url))
+    for x,y in to_add:
+        wiki_linked_dict[x] = y
     json.dump(wiki_linked_dict, open("cheche_wiki_linked.json", "w"), indent=2, ensure_ascii=False)
 
     universal_dict = {} # {(locStart, locEnd): {prop: val, prop: val, ...}}
-    surfaceForm_dict = defaultdict(list) # Across ALL NLP LAYERS collect all the ID's that match to a surface form
     # Add Entities
     entity_dict = {}
     for ent_obj in nlp_dict["data"]["entities"]:
@@ -111,7 +131,6 @@ def convert_nlp_to_idm_json(nlp_path: str, idm_out_path: str, wiki_root_path: st
             universal_dict[key] = {"nlp_id":ent_obj["ID"], "sent_id": ent_obj["sentenceID"], "locationStart": ent_obj["locationStart"], "locationEnd": ent_obj["locationEnd"],
                                     "surfaceForm": ent_obj["surfaceForm"], "ner": [ent_obj["category"]], "relations": [], "cluster_id": -1}
         entity_dict[ent_obj["ID"]] = ent_obj
-        surfaceForm_dict[key].append(ent_obj["ID"])
     # Add Relations
     relation_dict = {}
     for relation in nlp_dict["data"].get("relations", []):
@@ -223,6 +242,9 @@ def convert_nlp_to_idm_json(nlp_path: str, idm_out_path: str, wiki_root_path: st
                     prop = (date, srl)
                     triples_with_events.append(prop)
 
+    if main_death_date:
+        triples_with_events.append((main_death_date.split("-")[0], (lastname, "died on", main_death_date.split("T")[0])))
+
     with open(f"data/idm/nlpidm_sentence_based_events.txt", "w") as f:
         for sent in sentences_with_events:
             f.write(f"{sent}\n")
@@ -287,37 +309,45 @@ def convert_nlp_to_idm_json(nlp_path: str, idm_out_path: str, wiki_root_path: st
 
     # 1) Populate Valid Entities (NLP + WikiMeta)
     idm_entity_dict = {}
+    idm_surface_form_entities = {} # {surface_form: idm_ent_id}
     univ_id2idm_id, idm_id2univ_id = {}, {}
     per_ix, pl_ix, gr_ix, obj_ix = 0,0,0,0
     event_ix = 1
+    media_ix = 2
     kown_coords_dict = {} # To avoid querying more than once for the same entity
     event_vocab, role_vocab = {}, {}
     processed_idm_ids = {}
+    media_to_insert = {}
     for ent_id, unified_ent_obj in unified_universal_dict.items():
         idm_ent = None
         # A) Choose the IDM Values best on the Most Common when unified
         surface_form = sorted(unified_ent_obj["surfaceForms"], key= lambda x: len(x))[-1] # Assign the longest found form (otherwise lastName is chosen)
         ner_category = Counter(unified_ent_obj["ner"]).most_common(1)[0][0] # Assign the most NER predicted label
-        wiki_link = wiki_linked_dict.get(surface_form)
+        if ner_category in ["PER", "PERSON", "LOC", "GPE", "FAC", "ORG", "WORK_OF_ART"]:
+            wiki_link = wiki_linked_dict.get(surface_form)
+            print(ner_category, surface_form, wiki_link)
         # B) IDM ENTITIES
         if ner_category in ["PER", "PERSON"]:
             idm_ent = copy.deepcopy(person_template)
             idm_ent["kind"] = "person"
-            if wiki_link or per_ix == 0: # By default always the first entity is the Main Entity
+            if wiki_link or per_ix == 0:
+                # By default always the first entity is the Main Entity
                 if per_ix == 0: 
                     wiki_link = main_person_url
                     per_ix += 1
+                    if main_person_image:
+                        idm_ent["media"] = [f"{main_person_id}-m-001"]
                 wiki_name = unquote(wiki_link.split('/')[-1])
                 idm_ent["id"] = f"{main_person_id}-pr-{wiki_name}"
                 idm_ent["linkedIds"].append({"label": f"{wiki_name}", "url": wiki_link})
-                wikidata_url = get_wikidata_id_from_wikipedia_url(wiki_link)
+                wikidata_url, wikidata_image = get_wikidata_id_from_wikipedia_url(wiki_link)
+                print("--->",ner_category, wikidata_url)
                 if wikidata_url:
-                    print(wikidata_url)
                     wikidata_name = wikidata_url.split("/")[-1]
                     idm_ent["linkedIds"].append({"label": f"{wikidata_name}", "url": wikidata_url})
-            else:
-                per_ix += 1
-                idm_ent["id"] = f"{main_person_id}-pr-{stringify_id(per_ix)}"
+                else:
+                    per_ix += 1
+                    idm_ent["id"] = f"{main_person_id}-pr-{stringify_id(per_ix)}"
         elif ner_category in ["LOC", "GPE", "FAC"]:
             idm_ent = copy.deepcopy(place_template)
             idm_ent["kind"] = "place"
@@ -325,9 +355,9 @@ def convert_nlp_to_idm_json(nlp_path: str, idm_out_path: str, wiki_root_path: st
                 wiki_name = unquote(wiki_link.split('/')[-1])
                 idm_ent["id"] = f"{main_person_id}-pl-{wiki_name}"
                 idm_ent["linkedIds"].append({"label": f"{wiki_name}", "url": wiki_link})
-                wikidata_url = get_wikidata_id_from_wikipedia_url(wiki_link)
+                wikidata_url, wikidata_image = get_wikidata_id_from_wikipedia_url(wiki_link)
                 if wikidata_url:
-                    print(wikidata_url)
+                    print(ner_category, wikidata_url)
                     wikidata_name = wikidata_url.split("/")[-1]
                     idm_ent["linkedIds"].append({"label": f"{wikidata_name}", "url": wikidata_url})
             else:
@@ -340,9 +370,9 @@ def convert_nlp_to_idm_json(nlp_path: str, idm_out_path: str, wiki_root_path: st
                 wiki_name = unquote(wiki_link.split('/')[-1])
                 idm_ent["id"] = f"{main_person_id}-gr-{wiki_name}"
                 idm_ent["linkedIds"].append({"label": f"{wiki_name}", "url": wiki_link})
-                wikidata_url = get_wikidata_id_from_wikipedia_url(wiki_link)
+                wikidata_url, wikidata_image = get_wikidata_id_from_wikipedia_url(wiki_link)
                 if wikidata_url:
-                    print(wikidata_url)
+                    print(ner_category, wikidata_url)
                     wikidata_name = wikidata_url.split("/")[-1]
                     idm_ent["linkedIds"].append({"label": f"{wikidata_name}", "url": wikidata_url})
             else:
@@ -355,11 +385,16 @@ def convert_nlp_to_idm_json(nlp_path: str, idm_out_path: str, wiki_root_path: st
                 wiki_name = unquote(wiki_link.split('/')[-1])
                 idm_ent["id"] = f"{main_person_id}-ob-{wiki_name}"
                 idm_ent["linkedIds"].append({"label": f"{wiki_name}", "url": wiki_link})
-                wikidata_url = get_wikidata_id_from_wikipedia_url(wiki_link)
+                wikidata_url, wikidata_image = get_wikidata_id_from_wikipedia_url(wiki_link)
                 if wikidata_url:
-                    print(wikidata_url)
+                    print(ner_category, wikidata_url, wikidata_image)
                     wikidata_name = wikidata_url.split("/")[-1]
                     idm_ent["linkedIds"].append({"label": f"{wikidata_name}", "url": wikidata_url})
+                if wikidata_image:
+                    media_id = f"{main_person_id}-m-{stringify_id(media_ix)}"
+                    idm_ent["media"] = [media_id]
+                    media_to_insert[media_id] = get_media_item(media_id, unified_ent_obj["surfaceForms"][0], wikidata_image)
+                    media_ix += 1
             else:
                 obj_ix += 1
                 idm_ent["id"] = f"{main_person_id}-ob-{stringify_id(obj_ix)}"
@@ -369,13 +404,13 @@ def convert_nlp_to_idm_json(nlp_path: str, idm_out_path: str, wiki_root_path: st
             continue
         else:
             # LAST) Add to the IDM Entities
-            univ_id2idm_id[ent_id] = "-"
-            if idm_ent:
+            if idm_ent and surface_form not in idm_surface_form_entities:
                 processed_idm_ids[idm_ent["id"]] = 1
                 univ_id2idm_id[ent_id] = idm_ent["id"]
                 idm_id2univ_id[idm_ent["id"]] = ent_id
                 idm_ent["label"] = {"default": surface_form}
                 idm_entity_dict[ent_id] = idm_ent
+                idm_surface_form_entities[surface_form] = idm_ent["id"]
 
 
     for ent_id, unified_ent_obj in unified_universal_dict.items():
@@ -389,7 +424,7 @@ def convert_nlp_to_idm_json(nlp_path: str, idm_out_path: str, wiki_root_path: st
             else:
                 wiki_link = None
             if wiki_link:
-                print(wiki_link)
+                # print(wiki_link)
                 if wiki_link not in kown_coords_dict:
                     items_dict = get_relevant_items_from_infobox(wiki_link)
                     coord = items_dict.get("coordinates")
@@ -410,7 +445,10 @@ def convert_nlp_to_idm_json(nlp_path: str, idm_out_path: str, wiki_root_path: st
                               "event_kind": "creation", 
                               "subj_role": "was_creator", 
                               "obj_role": "object_created"}
-                subj_idm_ent, idm_ent, event_obj, event_vocab, role_vocab = create_idm_event(event_info, subj_idm_id, subj_idm_ent, idm_ent, event_vocab, role_vocab)
+                event_relations = [{ "entity": idm_ent["id"], "role": f"role-{event_info['obj_role']}"},
+                              { "entity": subj_idm_id, "role": f"role-{event_info['subj_role']}" }
+                            ]
+                subj_idm_ent, idm_ent, event_obj, event_vocab, role_vocab = create_idm_event(event_info, subj_idm_id, subj_idm_ent, idm_ent, event_relations, event_vocab, role_vocab)
                 # Add updated object back to dict
                 idm_entity_dict[idm_id2univ_id[subj_idm_id]] = subj_idm_ent
                 # Add Event to IDM Main Object
@@ -427,12 +465,17 @@ def convert_nlp_to_idm_json(nlp_path: str, idm_out_path: str, wiki_root_path: st
                               "event_kind": f"event-kind-{subj_role}", 
                               "subj_role": subj_role, 
                               "obj_role": obj_role}
+                if main_birth_date and subj_role == "date_of_birth" or subj_role == "child_of" or subj_role == "sibling_of":
+                    event_info["startDate"] = main_birth_date
                 subj_univ_id = ent_nlp2ent_univ[rel_obj['subjectID']] 
-                subj_idm_id = univ_id2idm_id[subj_univ_id]
+                subj_idm_id = univ_id2idm_id.get(subj_univ_id)
                 obj_univ_id = ent_nlp2ent_univ[rel_obj['objectID']]
                 obj_idm_ent = idm_entity_dict.get(obj_univ_id) # They don't exist when it is a labeled entity outside the scope of interest (e.g. NORP, DATE, etc...)
                 if obj_idm_ent and subj_idm_id:
-                    idm_ent, obj_idm_ent, event_obj, event_vocab, role_vocab = create_idm_event(event_info, subj_idm_id, idm_ent, obj_idm_ent, event_vocab, role_vocab)
+                    event_relations = [{ "entity": obj_idm_ent["id"], "role": f"role-{event_info['obj_role']}"},
+                              { "entity": subj_idm_id, "role": f"role-{event_info['subj_role']}" }
+                            ]
+                    idm_ent, obj_idm_ent, event_obj, event_vocab, role_vocab = create_idm_event(event_info, subj_idm_id, idm_ent, obj_idm_ent, event_relations, event_vocab, role_vocab)
                     # Add updated object back to dict
                     idm_entity_dict[obj_univ_id] = obj_idm_ent
                     # Add Event to IDM Main Object
@@ -449,33 +492,67 @@ def convert_nlp_to_idm_json(nlp_path: str, idm_out_path: str, wiki_root_path: st
         date, event_triple = tr[0], tr[1]
         ev_sub_id = subj_idm_ent["id"]
         start_date, end_date = normalize_date(date)
-        if start_date:
-            event_info = {"full_event_id": f"{ev_sub_id}-ev-{stringify_id(event_ix)}", 
-                            "event_label": f"{lastname.title()} {event_triple[1]} {event_triple[2]}", #" ".join(event_triple), 
-                            "event_kind": event_triple[1], 
-                            "subj_role": event_triple[1], 
-                            "obj_role": event_triple[1],
-                            "startDate": start_date
-                            }
-        # else:
-        #     print("FAILED DATE!", date)
-        if end_date: event_info["endDate"] = end_date
-        subj_idm_ent, idm_ent, event_obj, event_vocab, role_vocab = create_idm_event(event_info, subj_idm_id, subj_idm_ent, subj_idm_ent, event_vocab, role_vocab)
-        # Add updated object back to dict
-        idm_entity_dict[idm_id2univ_id[subj_idm_id]] = subj_idm_ent
-        # Add Event to IDM Main Object
-        parent_idm["events"].append(event_obj)
-        event_ix += 1
+        # Check if an Entity appears in the triple object (argument string) to link it properly...
+        contains_entities = []
+        for ent_surface_form in idm_surface_form_entities.keys():
+            if ent_surface_form in event_triple[2]:
+                contains_entities.append(idm_surface_form_entities[ent_surface_form])
+        # If and only if the triple contains a DATE AND an at least one ENTITY then it is useful to visualize otherwise we ignore it...
+        if start_date and len(contains_entities) > 0:
 
-    # 4) Transfer The MERGED Entity-Rel-Linked info into the parent object
+            # ---- <EXP_START/>
+            # Prepare Event Info
+            full_event_id = f"{ev_sub_id}-ev-{stringify_id(event_ix)}"
+            event_obj = {
+                        "id": full_event_id,
+                        "label": { "default": f"{lastname.title()} {event_triple[1]} {event_triple[2]}" },
+                        "kind": f"event-kind-{event_triple[1]}",
+                        "relations": []
+                    }
+            subj_role = event_triple[1] 
+            event_obj["startDate"] = start_date
+            if end_date: event_obj["endDate"] = end_date
+            # Add one relation per entity match
+            event_relations = [{ "entity": subj_idm_id, "role": f"role-{event_info['subj_role']}" }]
+            role_vocab[f"role-{subj_role}"] = { "id": f"role-{subj_role}", "label": { "default": subj_role}}
+            event_kind = f"event-kind-{subj_role}"
+            for entity_found in contains_entities:
+                obj_idm_ent = idm_entity_dict[idm_id2univ_id[entity_found]]
+                obj_role = event_triple[1]
+                event_relations.append({ "entity": obj_idm_ent["id"], "role": f"role-{obj_role}"})
+                obj_idm_ent["relations"].append({"event": full_event_id, "role": f"role-{obj_role}"})
+                role_vocab[f"role-{obj_role}"] = { "id": f"role-{obj_role}", "label": { "default": obj_role}}
+                event_vocab[f"event-kind-{event_kind}"] = {"id": f"event-kind-{event_kind}", "label": {"default": f"{obj_role}"}}
+
+            event_obj["relations"] = event_relations
+            subj_idm_ent["relations"].append({"event": full_event_id, "role": f"role-{subj_role}"})            
+
+            # ---- <EXP_END/>
+            
+            # subj_idm_ent, idm_ent, event_obj, event_vocab, role_vocab = create_idm_event(event_info, subj_idm_id, subj_idm_ent, obj_idm_ent, event_vocab, role_vocab)
+            
+            # Add updated object back to dict
+            idm_entity_dict[idm_id2univ_id[subj_idm_id]] = subj_idm_ent
+            # Add Event to IDM Main Object
+            parent_idm["events"].append(event_obj)
+            event_ix += 1
+
+    # Transfer The MERGED Entity-Rel-Linked info into the parent object
     for _, ent_obj in idm_entity_dict.items():
         parent_idm["entities"].append(ent_obj)
-    
+
     # Fill In Vocabularies
     parent_idm["vocabularies"]["event-kind"] = list(event_vocab.values())
     parent_idm["vocabularies"]["role"] = list(role_vocab.values())
 
-    # 6) Save IDM JSON File
+    # Insert Image for the Main Entity
+    if main_person_image:
+        parent_idm["media"].append(get_media_item(f"{main_person_id}-m-001", f"{main_person_id} Main Image", main_person_image))
+    for media_id, item in media_to_insert.items():
+        parent_idm["media"].append(item)
+
+
+    # Save IDM JSON File
     with open(idm_out_path, "w") as fp:
         json.dump(parent_idm, fp, indent=2, ensure_ascii=False)
 
@@ -491,18 +568,28 @@ def stringify_id(number: int) -> str:
 
 def normalize_date(datelike_string: str) -> Tuple[str,str]:
     start_date, end_date = None, None
-    if (len(datelike_string) == 4 or len(datelike_string) == 3) and (re.match(r"^\d{4}$", datelike_string) or re.match(r"^\d{3}$", datelike_string)):
+    if (len(datelike_string) == 4 or len(datelike_string) == 3):
         start_date = datetime.datetime(int(datelike_string),1,1).isoformat().split("T")[0]
-    elif re.match(r"^\d{4}-\d{4}$", datelike_string) or re.match(r"^\d{3}-\d{4}$", datelike_string) or re.match(r"^\d{3}-\d{3}$", datelike_string):
-        st, en = datelike_string.split("-")
-        start_date = datetime.datetime(int(st),1,1).isoformat().split("T")[0]
-        end_date = datetime.datetime(int(en),12,31).isoformat().split("T")[0]
-    #elif 
+    elif re.search(r"\d{4}", datelike_string):
+        matches = re.finditer(r"\d{4}", datelike_string)
+        for ix, match in enumerate(matches):
+            date_str = datelike_string[match.start():match.end()]
+            try:
+                date_str = parser.parse(datelike_string, default=datetime.datetime(1900,1,1)).isoformat().split("T")[0]
+            except:
+                date_str = parser.parse(date_str, default=datetime.datetime(1900,1,1)).isoformat().split("T")[0]
+            if  ix == 0:
+                start_date = date_str
+            elif ix == 1:
+                end_date = date_str
+            else:
+                break
     else:
         try:
-            start_date = parser.parse(datelike_string).split("T")[0]
+            start_date = parser.parse(datelike_string, default=datetime.datetime(1900,1,1)).isoformat().split("T")[0]
         except:
             pass
+    # print("CHECHE-DATE", datelike_string, start_date, end_date)
     return start_date, end_date
 
 
@@ -564,7 +651,7 @@ def create_unified_universal_dict(nlp_dict: Dict[str, Any], universal_dict: Dict
     return unified_universal_dict, clustered_items, ent_nlp2ent_univ, singleton_ids, surfaceForm2ent_univ
 
 
-def create_idm_event(event_info: Dict[str, str], subj_idm_id: str, subj_idm_ent: Dict, obj_idm_ent: Dict, event_vocab: Dict, role_vocab: Dict):
+def create_idm_event(event_info: Dict[str, str], subj_idm_id: str, subj_idm_ent: Dict, obj_idm_ent: Dict, event_relations: List[Dict], event_vocab: Dict, role_vocab: Dict):
     full_event_id = event_info["full_event_id"]
     event_label = event_info["event_label"]
     event_kind = event_info["event_kind"] # "creation"
@@ -577,11 +664,9 @@ def create_idm_event(event_info: Dict[str, str], subj_idm_id: str, subj_idm_ent:
                 "id": full_event_id,
                 "label": { "default": event_label },
                 "kind": f"event-kind-{event_kind}",
-                "relations": [{ "entity": obj_idm_ent["id"], "role": f"role-{obj_role}" },
-                              { "entity": subj_idm_id, "role": f"role-{subj_role}" }
-                            ]
+                "relations": event_relations
             }
-    
+
     if event_info.get("startDate"):
         event_obj["startDate"] = event_info.get("startDate")
     if event_info.get("endDate"):
@@ -672,6 +757,20 @@ def get_smart_srl_triples(srl_list: Dict, first_name: str, last_name: str) -> Li
     return valid_triples
 
 
+def get_media_item(media_id, media_title, media_url):
+    return {
+        "id": media_id,
+        "label": {
+        "default": f"{media_title}"
+        },
+        "description": f"{media_title}",
+        "attribution": "",
+        "url": media_url,
+        "kind": "media-kind-image"
+    }
+    
+
 if __name__ == "__main__":
-    convert_nlp_to_idm_json("data/json/albrecht_dürer.json", "data/idm/albrecht_dürer.idm.json")
+    # convert_nlp_to_idm_json("data/json/albrecht_dürer.json", "data/idm/albrecht_dürer.idm.json")
+    convert_nlp_to_idm_json("data/wikipedia/Art_Nouveau/alphonse_mucha.nlp.json","data/idm/Art_Nouveau/alphonse_mucha.idm.json", wiki_root_path = "data/wikipedia/Art_Nouveau")
     # convert_nlp_to_idm_json("english/data/json/ida_laura_pfeiffer.json", "english/data/idm/ida_pfeiffer.idm.json")

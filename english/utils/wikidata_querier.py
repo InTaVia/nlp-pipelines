@@ -3,17 +3,20 @@
 import requests
 import sys, os
 import pandas as pd
+from typing import Dict, Any
 
 
 def get_wikidata_id_from_wikipedia_url(wiki_url: str):
     url = 'https://query.wikidata.org/sparql'
     query = f"""
-    SELECT ?wikidataID
+    SELECT ?wikidataID ?image
     WHERE {{
     <{wiki_url}> schema:about ?wikidataID .
+    OPTIONAL {{?wikidataID wdt:P18 ?image}}
     }}
     """
     wikidata_id = None
+    main_image = None
     # Call API
     try:
         r = requests.get(url, params={'format': 'json', 'query': query}, timeout=3)
@@ -26,8 +29,52 @@ def get_wikidata_id_from_wikipedia_url(wiki_url: str):
         # Feed data from Wikidata Response
         for item in data["results"]["bindings"]:
             wikidata_id = item["wikidataID"]["value"]
-    return wikidata_id
+            main_image = item.get("image", {}).get("value", {})
+            if main_image == {}: main_image = None
+    return wikidata_id, main_image
 
+
+def get_wikidata_basic_info(wikipedia_url: str) -> Dict[str, Any]:
+    url = 'https://query.wikidata.org/sparql'
+    query = f"""
+    SELECT ?wikidataID ?image ?birthDate ?deathDate
+    WHERE {{
+    <{wikipedia_url}> schema:about ?wikidataID .
+    OPTIONAL {{?wikidataID wdt:P18 ?image}}
+    OPTIONAL {{?wikidataID wdt:P569 ?birthDate}} #To show property options in the sparql endpoint -> [fn]+control+space
+    OPTIONAL {{?wikidataID wdt:P570 ?deathDate}}
+    }}
+    """
+    wikidata_id = None
+    main_image, birth_date, death_date = None, None, None
+    # Call API
+    try:
+        r = requests.get(url, params={'format': 'json', 'query': query}, timeout=3)
+        data = r.json() if r.status_code == 200 else None
+    except:
+        print("Failed to query Wikidata")
+        data = None
+    
+    if data:
+        # Feed data from Wikidata Response
+        for item in data["results"]["bindings"]:
+            wikidata_id = item["wikidataID"]["value"]
+            main_image = item.get("image", {}).get("value", {})
+            if main_image == {}: main_image = None
+            if not birth_date:
+                birth_date = item.get("birthDate", {}).get("value", {})
+            if not death_date:
+                death_date = item.get("deathDate", {}).get("value", {})
+            if birth_date == {}: birth_date = None
+            if death_date == {}: death_date = None
+        return {
+            "wikidata_id": wikidata_id,
+            "main_image": main_image,
+            "birth_date": birth_date,
+            "death_date": death_date
+        }
+    else:
+        return None
 
 def get_wiki_persons_from_movement(movement_id: str):
     # This query works for literary, artistic, scientific or philosophical movement or scene associated with this person or work. 
