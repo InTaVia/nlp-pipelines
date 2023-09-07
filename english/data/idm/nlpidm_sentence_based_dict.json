@@ -2,16 +2,24 @@
   "0": {
     "ner": [
       [
+        "Sarah Bernhardt",
+        "PERSON"
+      ],
+      [
+        "Alphonse Mucha",
+        "PERSON"
+      ],
+      [
+        "Paris",
+        "GPE"
+      ],
+      [
         "14 July 1939",
         "DATE"
       ],
       [
         "Alfons Maria Mucha",
         "PERSON"
-      ],
-      [
-        "Paris",
-        "GPE"
       ],
       [
         "24 July 1860",
@@ -22,32 +30,19 @@
         "NORP"
       ],
       [
-        "Art Nouveau",
-        "DATE"
-      ],
-      [
-        "Sarah Bernhardt",
-        "PERSON"
-      ],
-      [
         "ˈalfons ˈmuxa",
         "ORG"
       ],
       [
-        "Alphonse Mucha",
-        "PERSON"
+        "Art Nouveau",
+        "DATE"
       ]
     ],
     "relations": [
       [
-        "Alphonse Mucha",
-        "date_of_birth",
-        "24 July 1860"
-      ],
-      [
         "Alfons Maria Mucha",
-        "date_of_birth",
-        "24 July 1860"
+        "origin",
+        "Czech"
       ],
       [
         "Alphonse Mucha",
@@ -55,9 +50,9 @@
         "Alfons Maria Mucha"
       ],
       [
-        "Alphonse Mucha",
-        "origin",
-        "Czech"
+        "Alfons Maria Mucha",
+        "date_of_birth",
+        "24 July 1860"
       ],
       [
         "Alfons Maria Mucha",
@@ -66,41 +61,46 @@
       ],
       [
         "Alphonse Mucha",
-        "lived_in",
-        "Paris"
-      ],
-      [
-        "Alfons Maria Mucha",
         "origin",
         "Czech"
+      ],
+      [
+        "Alphonse Mucha",
+        "date_of_birth",
+        "24 July 1860"
+      ],
+      [
+        "Alphonse Mucha",
+        "lived_in",
+        "Paris"
       ]
     ]
   },
   "1": {
     "ner": [
       [
-        "The Slav Epic",
-        "WORK_OF_ART"
-      ],
-      [
         "Slavic",
         "NORP"
       ],
       [
-        "57",
-        "DATE"
+        "second",
+        "ORDINAL"
+      ],
+      [
+        "The Slav Epic",
+        "WORK_OF_ART"
       ],
       [
         "twenty",
         "CARDINAL"
       ],
       [
-        "between 1912 and 1926",
+        "57",
         "DATE"
       ],
       [
-        "second",
-        "ORDINAL"
+        "between 1912 and 1926",
+        "DATE"
       ]
     ],
     "relations": [],
@@ -130,20 +130,20 @@
   "2": {
     "ner": [
       [
-        "10th",
-        "ORDINAL"
-      ],
-      [
-        "Czechoslovakia",
-        "GPE"
-      ],
-      [
         "1928",
         "DATE"
       ],
       [
         "Czech",
         "NORP"
+      ],
+      [
+        "10th",
+        "ORDINAL"
+      ],
+      [
+        "Czechoslovakia",
+        "GPE"
       ]
     ],
     "relations": [],
@@ -158,39 +158,44 @@
   "4": {
     "ner": [
       [
-        "the Austrian Empire",
-        "ORG"
-      ],
-      [
         "Moravia",
         "GPE"
       ],
       [
-        "the Czech Republic",
-        "GPE"
+        "the Austrian Empire",
+        "ORG"
       ],
       [
-        "Ivančice",
-        "GPE"
+        "Mucha",
+        "PERSON"
       ],
       [
         "Austrian Empire",
         "MISC"
       ],
       [
-        "Czech Republic",
-        "LOC"
-      ],
-      [
         "24 July 1860",
         "DATE"
       ],
       [
-        "Mucha",
-        "PERSON"
+        "Ivančice",
+        "GPE"
+      ],
+      [
+        "Czech Republic",
+        "LOC"
+      ],
+      [
+        "the Czech Republic",
+        "GPE"
       ]
     ],
     "relations": [
+      [
+        "Mucha",
+        "date_of_birth",
+        "24 July 1860"
+      ],
       [
         "Mucha",
         "born_in",
@@ -200,11 +205,6 @@
         "Mucha",
         "born_in",
         "Ivančice"
-      ],
-      [
-        "Mucha",
-        "date_of_birth",
-        "24 July 1860"
       ]
     ],
     "srl": [
@@ -242,16 +242,16 @@
   "6": {
     "ner": [
       [
-        "A.",
-        "PER"
-      ],
-      [
         "Ondřej",
         "PERSON"
       ],
       [
         "six",
         "CARDINAL"
+      ],
+      [
+        "A.",
+        "PER"
       ]
     ],
     "relations": []
@@ -259,12 +259,24 @@
   "7": {
     "ner": [
       [
+        "Anděla.Mucha",
+        "PERSON"
+      ],
+      [
+        "Amálie",
+        "PERSON"
+      ],
+      [
         "Mucha",
         "PER"
       ],
       [
-        "Anděla.Mucha",
+        "Alphonse",
         "PERSON"
+      ],
+      [
+        "first",
+        "ORDINAL"
       ],
       [
         "Anna",
@@ -273,30 +285,18 @@
       [
         "Anděla",
         "PER"
-      ],
-      [
-        "Amálie",
-        "PERSON"
-      ],
-      [
-        "first",
-        "ORDINAL"
-      ],
-      [
-        "Alphonse",
-        "PERSON"
       ]
     ],
     "relations": [
       [
         "Amálie",
         "parent_of",
-        "Anna"
+        "Alphonse"
       ],
       [
         "Amálie",
         "parent_of",
-        "Alphonse"
+        "Anna"
       ]
     ],
     "srl": [
@@ -355,10 +355,6 @@
   "10": {
     "ner": [
       [
-        "St Thomas's Abbey",
-        "ORG"
-      ],
-      [
         "St Thomas 's Abbey",
         "LOC"
       ],
@@ -369,6 +365,10 @@
       [
         "Pavel Křížkovský",
         "PERSON"
+      ],
+      [
+        "St Thomas's Abbey",
+        "ORG"
       ]
     ],
     "relations": [
@@ -390,28 +390,28 @@
         "ORG"
       ],
       [
-        "Paul",
+        "Brno",
+        "GPE"
+      ],
+      [
+        "Leoš Janáček",
         "PER"
       ],
       [
-        "Cathedral of St. Peter",
-        "LOC"
+        "Paul",
+        "PER"
       ],
       [
         "Leoš Janáček.Křížovský",
         "PERSON"
       ],
       [
-        "Brno",
-        "GPE"
-      ],
-      [
         "Křížovský",
         "PERSON"
       ],
       [
-        "Leoš Janáček",
-        "PER"
+        "Cathedral of St. Peter",
+        "LOC"
       ]
     ],
     "relations": [],
@@ -462,20 +462,20 @@
   "14": {
     "ner": [
       [
-        "Brno",
-        "GPE"
+        "Gymnázium Brno",
+        "LOC"
       ],
       [
-        "the Gymnázium Brno",
-        "ORG"
+        "Brno",
+        "GPE"
       ],
       [
         "Moravian",
         "NORP"
       ],
       [
-        "Gymnázium Brno",
-        "LOC"
+        "the Gymnázium Brno",
+        "ORG"
       ]
     ],
     "relations": [],
@@ -494,16 +494,16 @@
         "ORG"
       ],
       [
-        "1878",
-        "DATE"
+        "Academy of Fine Arts",
+        "ORG"
       ],
       [
         "Prague",
         "GPE"
       ],
       [
-        "Academy of Fine Arts",
-        "ORG"
+        "1878",
+        "DATE"
       ]
     ],
     "relations": [
@@ -539,8 +539,8 @@
   "17": {
     "ner": [
       [
-        "Vienna",
-        "GPE"
+        "19",
+        "DATE"
       ],
       [
         "Empire",
@@ -551,8 +551,8 @@
         "DATE"
       ],
       [
-        "19",
-        "DATE"
+        "Vienna",
+        "GPE"
       ]
     ],
     "relations": [],
@@ -663,11 +663,11 @@
   "23": {
     "ner": [
       [
-        "Mikulov",
+        "Moravia",
         "GPE"
       ],
       [
-        "Moravia",
+        "Mikulov",
         "GPE"
       ]
     ],
@@ -706,12 +706,12 @@
         "FAC"
       ],
       [
-        "Emmahof Castle",
-        "FAC"
-      ],
-      [
         "Tyrol",
         "GPE"
+      ],
+      [
+        "Emmahof Castle",
+        "FAC"
       ]
     ],
     "relations": [
@@ -723,12 +723,12 @@
       [
         "Eduard Khuen Belasi",
         "lived_in",
-        "Gandegg Castle"
+        "Tyrol"
       ],
       [
         "Eduard Khuen Belasi",
         "lived_in",
-        "Tyrol"
+        "Gandegg Castle"
       ]
     ],
     "srl": [
@@ -759,8 +759,8 @@
   "27": {
     "ner": [
       [
-        "Milan",
-        "GPE"
+        "Mucha",
+        "PERSON"
       ],
       [
         "Munich",
@@ -771,24 +771,24 @@
         "GPE"
       ],
       [
-        "Wilhelm Kray",
+        "Belasi",
         "PERSON"
       ],
       [
-        "Belasi",
-        "PERSON"
+        "Bavarian",
+        "NORP"
+      ],
+      [
+        "Milan",
+        "GPE"
       ],
       [
         "Florence",
         "GPE"
       ],
       [
-        "Mucha",
+        "Wilhelm Kray",
         "PERSON"
-      ],
-      [
-        "Bavarian",
-        "NORP"
       ]
     ],
     "relations": [
@@ -807,20 +807,20 @@
   "28": {
     "ner": [
       [
-        "the Munich Academy of Fine Arts",
-        "ORG"
-      ],
-      [
         "Munich",
         "GPE"
+      ],
+      [
+        "Mucha",
+        "PERSON"
       ],
       [
         "Belasi",
         "PERSON"
       ],
       [
-        "Mucha",
-        "PERSON"
+        "the Munich Academy of Fine Arts",
+        "ORG"
       ],
       [
         "Munich Academy of Fine Arts",
@@ -834,14 +834,14 @@
         "the Munich Academy of Fine Arts"
       ],
       [
-        "the Munich Academy of Fine Arts",
-        "based_in",
-        "Munich"
-      ],
-      [
         "Mucha",
         "school_attended",
         "the Munich Academy of Fine Arts"
+      ],
+      [
+        "the Munich Academy of Fine Arts",
+        "based_in",
+        "Munich"
       ]
     ]
   },
@@ -864,16 +864,16 @@
   "30": {
     "ner": [
       [
+        "the Munich Academy",
+        "ORG"
+      ],
+      [
         "Mucha",
         "PERSON"
       ],
       [
         "Munich Academy",
         "LOC"
-      ],
-      [
-        "the Munich Academy",
-        "ORG"
       ]
     ],
     "relations": [
@@ -887,15 +887,11 @@
   "31": {
     "ner": [
       [
-        "Karel Vítězslav Mašek",
-        "PERSON"
+        "Slavic",
+        "NORP"
       ],
       [
         "Leonid Pasternak",
-        "PERSON"
-      ],
-      [
-        "Ludek Marold",
         "PERSON"
       ],
       [
@@ -907,16 +903,45 @@
         "PERSON"
       ],
       [
+        "Ludek Marold",
+        "PERSON"
+      ],
+      [
         "Russian",
         "NORP"
       ],
       [
-        "Slavic",
-        "NORP"
+        "Karel Vítězslav Mašek",
+        "PERSON"
       ]
     ],
     "relations": [
       [
+        "Boris Pasternak",
+        "origin",
+        "Russian"
+      ],
+      [
+        "Ludek Marold",
+        "origin",
+        "Russian"
+      ],
+      [
+        "Karel Vítězslav Mašek",
+        "origin",
+        "Russian"
+      ],
+      [
+        "Ludek Marold",
+        "origin",
+        "Slavic"
+      ],
+      [
+        "Ludek Marold",
+        "origin",
+        "Czechs"
+      ],
+      [
         "Karel Vítězslav Mašek",
         "origin",
         "Slavic"
@@ -927,42 +952,12 @@
         "Russian"
       ],
       [
-        "Karel Vítězslav Mašek",
-        "origin",
-        "Russian"
-      ],
-      [
         "Boris Pasternak",
         "origin",
         "Slavic"
       ],
       [
-        "Karel Vítězslav Mašek",
-        "origin",
-        "Czechs"
-      ],
-      [
         "Boris Pasternak",
-        "origin",
-        "Russian"
-      ],
-      [
-        "Ludek Marold",
-        "origin",
-        "Slavic"
-      ],
-      [
-        "Boris Pasternak",
-        "origin",
-        "Czechs"
-      ],
-      [
-        "Ludek Marold",
-        "origin",
-        "Russian"
-      ],
-      [
-        "Ludek Marold",
         "origin",
         "Czechs"
       ],
@@ -970,6 +965,11 @@
         "Leonid Pasternak",
         "origin",
         "Slavic"
+      ],
+      [
+        "Karel Vítězslav Mašek",
+        "origin",
+        "Czechs"
       ]
     ],
     "srl": [
@@ -1008,6 +1008,10 @@
   "33": {
     "ner": [
       [
+        "Roman Catholic",
+        "NORP"
+      ],
+      [
         "Methodius",
         "PERSON"
       ],
@@ -1022,10 +1026,6 @@
       [
         "1886",
         "DATE"
-      ],
-      [
-        "Roman Catholic",
-        "NORP"
       ],
       [
         "Czech",
@@ -1103,7 +1103,7 @@
   "38": {
     "ner": [
       [
-        "Paris",
+        "Rome",
         "GPE"
       ],
       [
@@ -1111,7 +1111,7 @@
         "PERSON"
       ],
       [
-        "Rome",
+        "Paris",
         "GPE"
       ]
     ],
@@ -1127,16 +1127,16 @@
   "39": {
     "ner": [
       [
-        "Paris",
-        "GPE"
+        "1887",
+        "DATE"
       ],
       [
         "Belasi",
         "PERSON"
       ],
       [
-        "1887",
-        "DATE"
+        "Paris",
+        "GPE"
       ]
     ],
     "relations": [
@@ -1162,11 +1162,23 @@
   "40": {
     "ner": [
       [
-        "1889",
+        "Mucha",
+        "PERSON"
+      ],
+      [
+        "the following year",
         "DATE"
       ],
       [
-        "1888",
+        "the Académie Julian",
+        "ORG"
+      ],
+      [
+        "Paris",
+        "GPE"
+      ],
+      [
+        "1889",
         "DATE"
       ],
       [
@@ -1178,20 +1190,8 @@
         "ORG"
       ],
       [
-        "Paris",
-        "GPE"
-      ],
-      [
-        "the Académie Julian",
-        "ORG"
-      ],
-      [
-        "the following year",
+        "1888",
         "DATE"
-      ],
-      [
-        "Mucha",
-        "PERSON"
       ]
     ],
     "relations": [
@@ -1230,11 +1230,7 @@
         "PER"
       ],
       [
-        "Paul Laurens",
-        "PER"
-      ],
-      [
-        "Académie Julian",
+        "the Académie Julian",
         "ORG"
       ],
       [
@@ -1242,7 +1238,11 @@
         "PERSON"
       ],
       [
-        "the Académie Julian",
+        "first",
+        "ORDINAL"
+      ],
+      [
+        "Académie Julian",
         "ORG"
       ],
       [
@@ -1250,8 +1250,8 @@
         "PERSON"
       ],
       [
-        "first",
-        "ORDINAL"
+        "Paul Laurens",
+        "PER"
       ]
     ],
     "relations": [
@@ -1265,6 +1265,18 @@
   "43": {
     "ner": [
       [
+        "Mucha",
+        "PERSON"
+      ],
+      [
+        "Slavic",
+        "NORP"
+      ],
+      [
+        "Paris",
+        "GPE"
+      ],
+      [
         "thirty",
         "DATE"
       ],
@@ -1277,20 +1289,8 @@
         "PER"
       ],
       [
-        "Paris",
-        "GPE"
-      ],
-      [
         "the end of 1889",
         "DATE"
-      ],
-      [
-        "Mucha",
-        "PERSON"
-      ],
-      [
-        "Slavic",
-        "NORP"
       ]
     ],
     "relations": [
@@ -1340,11 +1340,11 @@
         "FAC"
       ],
       [
-        "13",
+        "Crémerie",
         "FAC"
       ],
       [
-        "Crémerie",
+        "13",
         "FAC"
       ],
       [
@@ -1369,11 +1369,11 @@
   "45": {
     "ner": [
       [
-        "Mucha",
-        "PERSON"
+        "Munich",
+        "GPE"
       ],
       [
-        "Ludek Marold",
+        "Mucha",
         "PERSON"
       ],
       [
@@ -1381,8 +1381,8 @@
         "NORP"
       ],
       [
-        "Munich",
-        "GPE"
+        "Ludek Marold",
+        "PERSON"
       ]
     ],
     "relations": [
@@ -1413,24 +1413,24 @@
   "46": {
     "ner": [
       [
-        "weekly",
-        "DATE"
-      ],
-      [
-        "1891",
-        "DATE"
+        "La Vie",
+        "ORG"
       ],
       [
         "La Vie populaire",
         "ORG"
       ],
       [
+        "1891",
+        "DATE"
+      ],
+      [
         "1890",
         "DATE"
       ],
       [
-        "La Vie",
-        "ORG"
+        "weekly",
+        "DATE"
       ]
     ],
     "relations": [],
@@ -1450,16 +1450,16 @@
   "47": {
     "ner": [
       [
-        "Guy de Maupassant",
-        "PERSON"
+        "The Useless Beauty",
+        "WORK_OF_ART"
       ],
       [
         "22 May 1890",
         "DATE"
       ],
       [
-        "The Useless Beauty",
-        "WORK_OF_ART"
+        "Guy de Maupassant",
+        "PERSON"
       ]
     ],
     "relations": []
@@ -1483,16 +1483,16 @@
   "49": {
     "ner": [
       [
-        "23 January 1892",
-        "DATE"
-      ],
-      [
         "Franco",
         "PER"
       ],
       [
         "the Franco-Prussian War",
         "EVENT"
+      ],
+      [
+        "23 January 1892",
+        "DATE"
       ],
       [
         "Prussian War",
@@ -1532,7 +1532,15 @@
   "52": {
     "ner": [
       [
+        "Paul Gauguin",
+        "PERSON"
+      ],
+      [
         "1893",
+        "DATE"
+      ],
+      [
+        "the",
         "DATE"
       ],
       [
@@ -1540,15 +1548,7 @@
         "GPE"
       ],
       [
-        "the",
-        "DATE"
-      ],
-      [
         "Gauguin",
-        "PERSON"
-      ],
-      [
-        "Paul Gauguin",
         "PERSON"
       ]
     ],
@@ -1569,11 +1569,15 @@
   "53": {
     "ner": [
       [
-        "August Strindberg",
+        "Charles Seignobos",
         "PERSON"
       ],
       [
-        "Charles Seignobos",
+        "Scenes and Episodes",
+        "MISC"
+      ],
+      [
+        "August Strindberg",
         "PERSON"
       ],
       [
@@ -1583,10 +1587,6 @@
       [
         "Scenes and Episodes of German History",
         "WORK_OF_ART"
-      ],
-      [
-        "Scenes and Episodes",
-        "MISC"
       ],
       [
         "German History",
@@ -1615,12 +1615,12 @@
   "54": {
     "ner": [
       [
-        "Four",
-        "CARDINAL"
-      ],
-      [
         "Frederic Barbarossa",
         "PERSON"
+      ],
+      [
+        "Four",
+        "CARDINAL"
       ],
       [
         "1894",
@@ -1636,24 +1636,24 @@
   "55": {
     "ner": [
       [
-        "Mucha",
-        "PER"
+        "Central Library of Fine Arts",
+        "ORG"
       ],
       [
         "the Central Library of Fine Arts",
         "ORG"
       ],
       [
-        "Central Library of Fine Arts",
-        "ORG"
-      ],
-      [
-        "the early 1890s",
-        "DATE"
+        "Mucha",
+        "PER"
       ],
       [
         "first",
         "ORDINAL"
+      ],
+      [
+        "the early 1890s",
+        "DATE"
       ]
     ],
     "relations": [],
@@ -1673,16 +1673,16 @@
   "56": {
     "ner": [
       [
-        "Art Nouveau",
-        "MISC"
-      ],
-      [
         "1897",
         "DATE"
       ],
       [
         "Art et Decoration",
         "ORG"
+      ],
+      [
+        "Art Nouveau",
+        "MISC"
       ]
     ],
     "relations": []
@@ -1690,12 +1690,12 @@
   "57": {
     "ner": [
       [
-        "Eugène Manuel",
-        "PERSON"
-      ],
-      [
         "La Costume au théâtre",
         "ORG"
+      ],
+      [
+        "Eugène Manuel",
+        "PERSON"
       ]
     ],
     "relations": [],
@@ -1720,12 +1720,12 @@
   "58": {
     "ner": [
       [
-        "the end of 1894",
-        "DATE"
-      ],
-      [
         "Sarah Bernhardt",
         "PERSON"
+      ],
+      [
+        "the end of 1894",
+        "DATE"
       ],
       [
         "French",
@@ -1749,19 +1749,11 @@
   "59": {
     "ner": [
       [
-        "26 December",
-        "DATE"
-      ],
-      [
-        "Maurice de Brunhoff",
+        "Mucha",
         "PERSON"
       ],
       [
-        "Gismonda",
-        "WORK_OF_ART"
-      ],
-      [
-        "Mucha",
+        "Bernhardt",
         "PERSON"
       ],
       [
@@ -1769,8 +1761,16 @@
         "ORG"
       ],
       [
-        "Bernhardt",
+        "Maurice de Brunhoff",
         "PERSON"
+      ],
+      [
+        "26 December",
+        "DATE"
+      ],
+      [
+        "Gismonda",
+        "WORK_OF_ART"
       ]
     ],
     "relations": [],
@@ -1785,28 +1785,28 @@
   "60": {
     "ner": [
       [
-        "31 October 1894",
-        "DATE"
+        "the Boulevard Saint-Martin",
+        "FAC"
       ],
       [
         "Martin",
         "PER"
       ],
       [
-        "the Boulevard Saint-Martin",
-        "FAC"
-      ],
-      [
-        "Victorien Sardou",
-        "PERSON"
+        "Théâtre de la Renaissance",
+        "LOC"
       ],
       [
         "Boulevard Saint",
         "LOC"
       ],
       [
-        "Théâtre de la Renaissance",
-        "LOC"
+        "Victorien Sardou",
+        "PERSON"
+      ],
+      [
+        "31 October 1894",
+        "DATE"
       ],
       [
         "the Théâtre de la Renaissance",
@@ -1818,12 +1818,12 @@
   "61": {
     "ner": [
       [
-        "Bernhardt",
-        "PERSON"
-      ],
-      [
         "Christmas",
         "DATE"
+      ],
+      [
+        "Bernhardt",
+        "PERSON"
       ],
       [
         "1 January 1895",
@@ -1839,12 +1839,12 @@
         "PERSON"
       ],
       [
-        "Lemercier",
-        "FAC"
-      ],
-      [
         "Bernhardt",
         "PERSON"
+      ],
+      [
+        "Lemercier",
+        "FAC"
       ]
     ],
     "relations": [],
@@ -1907,15 +1907,15 @@
   "64": {
     "ner": [
       [
+        "Mucha",
+        "PERSON"
+      ],
+      [
+        "Bernhardt",
+        "PERSON"
+      ],
+      [
         "October 1894",
-        "DATE"
-      ],
-      [
-        "Gismonda",
-        "FAC"
-      ],
-      [
-        "Christmas",
         "DATE"
       ],
       [
@@ -1923,24 +1923,24 @@
         "MONEY"
       ],
       [
-        "Brunhoff",
-        "PER"
+        "Gismonda",
+        "FAC"
       ],
       [
-        "Christmas 1894",
-        "DATE"
+        "Brunhoff",
+        "PER"
       ],
       [
         "Le Gaulois",
         "ORG"
       ],
       [
-        "Mucha",
-        "PERSON"
+        "Christmas 1894",
+        "DATE"
       ],
       [
-        "Bernhardt",
-        "PERSON"
+        "Christmas",
+        "DATE"
       ]
     ],
     "relations": [],
@@ -1995,12 +1995,12 @@
   "70": {
     "ner": [
       [
-        "Paris",
-        "GPE"
-      ],
-      [
         "1 January 1895",
         "DATE"
+      ],
+      [
+        "Paris",
+        "GPE"
       ]
     ],
     "relations": []
@@ -2008,16 +2008,8 @@
   "71": {
     "ner": [
       [
-        "1895",
-        "DATE"
-      ],
-      [
-        "1896",
-        "DATE"
-      ],
-      [
-        "six-year",
-        "DATE"
+        "four thousand",
+        "CARDINAL"
       ],
       [
         "Mucha",
@@ -2028,8 +2020,16 @@
         "PERSON"
       ],
       [
-        "four thousand",
-        "CARDINAL"
+        "1895",
+        "DATE"
+      ],
+      [
+        "six-year",
+        "DATE"
+      ],
+      [
+        "1896",
+        "DATE"
       ]
     ],
     "relations": [],
@@ -2049,19 +2049,19 @@
   "72": {
     "ner": [
       [
-        "six years",
-        "DATE"
-      ],
-      [
-        "Gismonda",
-        "PERSON"
-      ],
-      [
         "Mucha",
         "PERSON"
       ],
       [
         "Bernhardt",
+        "PERSON"
+      ],
+      [
+        "six years",
+        "DATE"
+      ],
+      [
+        "Gismonda",
         "PERSON"
       ],
       [
@@ -2081,20 +2081,20 @@
   "73": {
     "ner": [
       [
-        "Boulevard Saint Michel",
-        "FAC"
+        "Champenois",
+        "PERSON"
       ],
       [
         "twenty",
         "CARDINAL"
       ],
       [
-        "three hundred",
-        "CARDINAL"
+        "Boulevard Saint Michel",
+        "FAC"
       ],
       [
-        "Champenois",
-        "PERSON"
+        "three hundred",
+        "CARDINAL"
       ]
     ],
     "relations": []
@@ -2122,8 +2122,8 @@
   "75": {
     "ner": [
       [
-        "La Tosca",
-        "WORK_OF_ART"
+        "Bernhardt",
+        "PERSON"
       ],
       [
         "François Mansart.Mucha",
@@ -2134,24 +2134,8 @@
         "FAC"
       ],
       [
-        "6",
-        "FAC"
-      ],
-      [
-        "rue du Val",
-        "LOC"
-      ],
-      [
-        "three-bedroom",
-        "CARDINAL"
-      ],
-      [
         "Lorenzaccio",
         "WORK_OF_ART"
-      ],
-      [
-        "Mucha",
-        "PER"
       ],
       [
         "La Dame aux Camelias",
@@ -2162,27 +2146,43 @@
         "WORK_OF_ART"
       ],
       [
-        "1899",
-        "DATE"
+        "rue du Val",
+        "LOC"
+      ],
+      [
+        "6",
+        "FAC"
       ],
       [
         "Hamlet",
         "WORK_OF_ART"
       ],
       [
-        "François Mansart",
-        "PER"
-      ],
-      [
-        "Grâce",
-        "PER"
+        "1896",
+        "DATE"
       ],
       [
         "Mucha",
         "PERSON"
       ],
       [
-        "1896",
+        "La Tosca",
+        "WORK_OF_ART"
+      ],
+      [
+        "Mucha",
+        "PER"
+      ],
+      [
+        "three-bedroom",
+        "CARDINAL"
+      ],
+      [
+        "François Mansart",
+        "PER"
+      ],
+      [
+        "1898",
         "DATE"
       ],
       [
@@ -2190,11 +2190,11 @@
         "CARDINAL"
       ],
       [
-        "Bernhardt",
-        "PERSON"
+        "Grâce",
+        "PER"
       ],
       [
-        "1898",
+        "1899",
         "DATE"
       ]
     ],
@@ -2220,12 +2220,12 @@
   "76": {
     "ner": [
       [
-        "Bernhardt",
-        "PERSON"
-      ],
-      [
         "La Tosca",
         "WORK_OF_ART"
+      ],
+      [
+        "Bernhardt",
+        "PERSON"
       ]
     ],
     "relations": [],
@@ -2283,7 +2283,23 @@
   "80": {
     "ner": [
       [
+        "Ruinart Champagne",
+        "MISC"
+      ],
+      [
+        "Nestlé",
+        "ORG"
+      ],
+      [
         "Waverly and Perfect",
+        "ORG"
+      ],
+      [
+        "Beers of the Meuse",
+        "MISC"
+      ],
+      [
+        "the Beers of the Meuse",
         "ORG"
       ],
       [
@@ -2291,27 +2307,7 @@
         "ORG"
       ],
       [
-        "Utile",
-        "ORG"
-      ],
-      [
-        "Moët-Chandon",
-        "ORG"
-      ],
-      [
-        "the Beers of the Meuse",
-        "ORG"
-      ],
-      [
-        "Waverly",
-        "PER"
-      ],
-      [
-        "Trappestine",
-        "ORG"
-      ],
-      [
-        "Beers of the Meuse",
+        "Chandon",
         "MISC"
       ],
       [
@@ -2323,27 +2319,31 @@
         "ORG"
       ],
       [
-        "Lefèvre",
-        "PER"
-      ],
-      [
-        "Chandon",
-        "MISC"
-      ],
-      [
-        "Ruinart Champagne",
-        "MISC"
-      ],
-      [
         "Moët",
         "MISC"
       ],
       [
-        "Nestlé",
+        "Trappestine",
         "ORG"
       ],
       [
+        "Lefèvre",
+        "PER"
+      ],
+      [
+        "Utile",
+        "ORG"
+      ],
+      [
+        "Waverly",
+        "PER"
+      ],
+      [
         "Lefèvre-Utile",
+        "ORG"
+      ],
+      [
+        "Moët-Chandon",
         "ORG"
       ]
     ],
@@ -2359,16 +2359,16 @@
   "83": {
     "ner": [
       [
-        "1896",
-        "DATE"
+        "four",
+        "CARDINAL"
       ],
       [
         "first",
         "ORDINAL"
       ],
       [
-        "four",
-        "CARDINAL"
+        "1896",
+        "DATE"
       ],
       [
         "The Seasons",
@@ -2380,12 +2380,12 @@
   "84": {
     "ner": [
       [
-        "1897",
-        "DATE"
-      ],
-      [
         "Reverie",
         "WORK_OF_ART"
+      ],
+      [
+        "1897",
+        "DATE"
       ],
       [
         "Champenois",
@@ -2408,12 +2408,12 @@
         "DATE"
       ],
       [
-        "La Plume",
-        "ORG"
-      ],
-      [
         "Léon Deschamps",
         "PERSON"
+      ],
+      [
+        "La Plume",
+        "ORG"
       ]
     ],
     "relations": []
@@ -2421,43 +2421,23 @@
   "87": {
     "ner": [
       [
-        "1900",
-        "DATE"
-      ],
-      [
-        "The Times of Day",
-        "WORK_OF_ART"
-      ],
-      [
-        "The Seasons",
-        "MISC"
-      ],
-      [
-        "The Flowers",
-        "MISC"
-      ],
-      [
         "The Flowers, The Arts",
         "WORK_OF_ART"
-      ],
-      [
-        "1902",
-        "DATE"
       ],
       [
         "The Arts",
         "MISC"
       ],
       [
-        "1899",
-        "DATE"
-      ],
-      [
-        "Seasons",
+        "The Times of Day",
         "WORK_OF_ART"
       ],
       [
         "The Moon and the Stars",
+        "WORK_OF_ART"
+      ],
+      [
+        "Seasons",
         "WORK_OF_ART"
       ],
       [
@@ -2467,6 +2447,26 @@
       [
         "1898",
         "DATE"
+      ],
+      [
+        "The Seasons",
+        "MISC"
+      ],
+      [
+        "1900",
+        "DATE"
+      ],
+      [
+        "The Flowers",
+        "MISC"
+      ],
+      [
+        "1899",
+        "DATE"
+      ],
+      [
+        "1902",
+        "DATE"
       ]
     ],
     "relations": []
@@ -2474,12 +2474,12 @@
   "88": {
     "ner": [
       [
-        "Mucha",
-        "PERSON"
-      ],
-      [
         "Between 1896 and 1904",
         "DATE"
+      ],
+      [
+        "Mucha",
+        "PERSON"
       ],
       [
         "Champenois",
@@ -2511,23 +2511,15 @@
   "90": {
     "ner": [
       [
-        "Monaco",
-        "GPE"
-      ],
-      [
-        "448",
-        "CARDINAL"
-      ],
-      [
         "Deschamps",
         "PERSON"
       ],
       [
-        "Carlo",
-        "PER"
+        "Monte-Carlo",
+        "GPE"
       ],
       [
-        "Monte-Carlo",
+        "Monaco",
         "GPE"
       ],
       [
@@ -2535,7 +2527,7 @@
         "GPE"
       ],
       [
-        "Monte",
+        "Monaco",
         "LOC"
       ],
       [
@@ -2543,8 +2535,12 @@
         "GPE"
       ],
       [
-        "Monaco",
-        "LOC"
+        "448",
+        "CARDINAL"
+      ],
+      [
+        "Carlo",
+        "PER"
       ],
       [
         "1896",
@@ -2557,6 +2553,10 @@
       [
         "Salon des Cent",
         "ORG"
+      ],
+      [
+        "Monte",
+        "LOC"
       ]
     ],
     "relations": [],
@@ -2576,6 +2576,14 @@
   "91": {
     "ner": [
       [
+        "Prague",
+        "GPE"
+      ],
+      [
+        "Munich",
+        "GPE"
+      ],
+      [
         "New York",
         "GPE"
       ],
@@ -2584,19 +2592,11 @@
         "GPE"
       ],
       [
-        "Prague",
-        "GPE"
-      ],
-      [
         "La Plume",
         "ORG"
       ],
       [
         "London",
-        "GPE"
-      ],
-      [
-        "Munich",
         "GPE"
       ],
       [
@@ -2609,8 +2609,8 @@
   "92": {
     "ner": [
       [
-        "Art Nouveau",
-        "MISC"
+        "Mucha",
+        "PERSON"
       ],
       [
         "The Paris Universal Exposition of 1900",
@@ -2621,12 +2621,12 @@
         "GPE"
       ],
       [
-        "Paris Universal Exposition of 1900",
+        "Art Nouveau",
         "MISC"
       ],
       [
-        "Mucha",
-        "PERSON"
+        "Paris Universal Exposition of 1900",
+        "MISC"
       ],
       [
         "first",
@@ -2672,20 +2672,20 @@
         "GPE"
       ],
       [
-        "La France",
-        "WORK_OF_ART"
-      ],
-      [
-        "Czech",
-        "NORP"
-      ],
-      [
         "Mucha",
         "PERSON"
       ],
       [
         "Sarah Bernhardt",
         "PERSON"
+      ],
+      [
+        "Czech",
+        "NORP"
+      ],
+      [
+        "La France",
+        "WORK_OF_ART"
       ]
     ],
     "relations": [
@@ -2714,16 +2714,16 @@
         "EVENT"
       ],
       [
-        "Austrian",
-        "NORP"
+        "the Pavilion of Bosnia and Herzegovina",
+        "FAC"
       ],
       [
         "Pavilion of Bosnia",
         "LOC"
       ],
       [
-        "the Pavilion of Bosnia and Herzegovina",
-        "FAC"
+        "Austrian",
+        "NORP"
       ]
     ],
     "relations": [],
@@ -2743,16 +2743,12 @@
   "97": {
     "ner": [
       [
-        "Turkey",
+        "Austria",
         "GPE"
       ],
       [
         "the Treaty of Berlin",
         "LAW"
-      ],
-      [
-        "Austria",
-        "GPE"
       ],
       [
         "1878",
@@ -2761,6 +2757,10 @@
       [
         "Treaty of Berlin",
         "LOC"
+      ],
+      [
+        "Turkey",
+        "GPE"
       ]
     ],
     "relations": []
@@ -2768,20 +2768,20 @@
   "98": {
     "ner": [
       [
-        "two",
-        "CARDINAL"
-      ],
-      [
-        "Exposition",
-        "EVENT"
-      ],
-      [
         "three",
         "CARDINAL"
       ],
       [
         "more than twelve meters",
         "QUANTITY"
+      ],
+      [
+        "Exposition",
+        "EVENT"
+      ],
+      [
+        "two",
+        "CARDINAL"
       ]
     ],
     "relations": []
@@ -2802,16 +2802,16 @@
   "100": {
     "ner": [
       [
+        "World 's Fair",
+        "MISC"
+      ],
+      [
         "Austrian",
         "NORP"
       ],
       [
         "a World's Fair",
         "EVENT"
-      ],
-      [
-        "World 's Fair",
-        "MISC"
       ]
     ],
     "relations": []
@@ -2819,7 +2819,7 @@
   "101": {
     "ner": [
       [
-        "Catholic",
+        "Orthodox",
         "NORP"
       ],
       [
@@ -2831,15 +2831,15 @@
         "MISC"
       ],
       [
+        "Catholic",
+        "NORP"
+      ],
+      [
         "Muslims",
         "NORP"
       ],
       [
         "Christians",
-        "NORP"
-      ],
-      [
-        "Orthodox",
         "NORP"
       ]
     ],
@@ -2894,24 +2894,24 @@
   "103": {
     "ner": [
       [
-        "Universal Exposition",
-        "MISC"
-      ],
-      [
         "Bosnia Offers Her Products",
         "MISC"
-      ],
-      [
-        "Bosnia Offers Her Products to the Universal Exposition",
-        "WORK_OF_ART"
       ],
       [
         "three",
         "CARDINAL"
       ],
       [
+        "Universal Exposition",
+        "MISC"
+      ],
+      [
         "one",
         "CARDINAL"
+      ],
+      [
+        "Bosnia Offers Her Products to the Universal Exposition",
+        "WORK_OF_ART"
       ]
     ],
     "relations": []
@@ -2935,20 +2935,20 @@
   "107": {
     "ner": [
       [
-        "Bosnia Pavilion",
-        "LOC"
-      ],
-      [
         "Mucha",
         "PERSON"
+      ],
+      [
+        "the Bosnia Pavilion.His",
+        "FAC"
       ],
       [
         "Exposition",
         "EVENT"
       ],
       [
-        "the Bosnia Pavilion.His",
-        "FAC"
+        "Bosnia Pavilion",
+        "LOC"
       ]
     ],
     "relations": [],
@@ -2963,20 +2963,20 @@
   "108": {
     "ner": [
       [
-        "Austrian",
-        "NORP"
-      ],
-      [
-        "Exposition",
-        "EVENT"
-      ],
-      [
         "Bosnian pavilion",
         "FAC"
       ],
       [
         "Bosnian",
         "MISC"
+      ],
+      [
+        "Exposition",
+        "EVENT"
+      ],
+      [
+        "Austrian",
+        "NORP"
       ]
     ],
     "relations": [],
@@ -2991,11 +2991,11 @@
   "109": {
     "ner": [
       [
-        "Georges Fouquet",
+        "Houbigant",
         "PERSON"
       ],
       [
-        "Houbigant",
+        "Georges Fouquet",
         "PERSON"
       ]
     ],
@@ -3015,43 +3015,47 @@
         "NORP"
       ],
       [
-        "French",
-        "MISC"
-      ],
-      [
-        "Knight of the Order",
-        "MISC"
-      ],
-      [
-        "Franz Joseph",
-        "PER"
-      ],
-      [
         "Exposition",
         "EVENT"
-      ],
-      [
-        "Austrian Pavilion",
-        "MISC"
-      ],
-      [
-        "the Grand Palais.His",
-        "FAC"
       ],
       [
         "the Legion of Honour",
         "WORK_OF_ART"
       ],
       [
-        "Austrian",
-        "NORP"
+        "Knight of the Order of Franz Joseph",
+        "WORK_OF_ART"
+      ],
+      [
+        "Knight of the Order",
+        "MISC"
       ],
       [
         "Le Pater",
         "WORK_OF_ART"
       ],
       [
+        "Franz Joseph",
+        "PER"
+      ],
+      [
+        "Legion of Honour",
+        "MISC"
+      ],
+      [
+        "French",
+        "MISC"
+      ],
+      [
+        "Austrian Pavilion",
+        "MISC"
+      ],
+      [
         "the Austrian Pavilion",
+        "FAC"
+      ],
+      [
+        "the Grand Palais.His",
         "FAC"
       ],
       [
@@ -3059,12 +3063,8 @@
         "LOC"
       ],
       [
-        "Legion of Honour",
-        "MISC"
-      ],
-      [
-        "Knight of the Order of Franz Joseph",
-        "WORK_OF_ART"
+        "Austrian",
+        "NORP"
       ]
     ],
     "relations": []
@@ -3096,16 +3096,16 @@
         "LOC"
       ],
       [
+        "Exposition",
+        "EVENT"
+      ],
+      [
         "the Eiffel Tower",
         "FAC"
       ],
       [
         "French",
         "NORP"
-      ],
-      [
-        "Exposition",
-        "EVENT"
       ]
     ],
     "relations": []
@@ -3133,20 +3133,20 @@
   "114": {
     "ner": [
       [
-        "Parisians",
-        "NORP"
+        "Exhibit",
+        "EVENT"
       ],
       [
         "the Eiffel Tower",
         "FAC"
       ],
       [
-        "Exhibit",
-        "EVENT"
-      ],
-      [
         "Eiffel Tower",
         "LOC"
+      ],
+      [
+        "Parisians",
+        "NORP"
       ]
     ],
     "relations": []
@@ -3176,24 +3176,24 @@
   "117": {
     "ner": [
       [
-        "Georges Fouquet",
+        "Bernhardt",
         "PERSON"
-      ],
-      [
-        "1899",
-        "DATE"
       ],
       [
         "Sarah Bernhardt",
         "PERSON"
       ],
       [
-        "Bernhardt",
+        "Medea",
+        "EVENT"
+      ],
+      [
+        "Georges Fouquet",
         "PERSON"
       ],
       [
-        "Medea",
-        "EVENT"
+        "1899",
+        "DATE"
       ]
     ],
     "relations": [],
@@ -3239,8 +3239,8 @@
   "120": {
     "ner": [
       [
-        "1900",
-        "DATE"
+        "Fouquet",
+        "PERSON"
       ],
       [
         "Mucha",
@@ -3251,34 +3251,14 @@
         "PRODUCT"
       ],
       [
-        "Fouquet",
-        "PERSON"
+        "1900",
+        "DATE"
       ]
     ],
     "relations": []
   },
   "121": {
     "ner": [
-      [
-        "1900",
-        "DATE"
-      ],
-      [
-        "Rue Royale",
-        "LOC"
-      ],
-      [
-        "1900 Exposition",
-        "MISC"
-      ],
-      [
-        "Fouquet",
-        "PERSON"
-      ],
-      [
-        "Exposition",
-        "EVENT"
-      ],
       [
         "Maxim's",
         "ORG"
@@ -3288,8 +3268,28 @@
         "FAC"
       ],
       [
+        "1900 Exposition",
+        "MISC"
+      ],
+      [
+        "Exposition",
+        "EVENT"
+      ],
+      [
+        "Rue Royale",
+        "LOC"
+      ],
+      [
+        "Fouquet",
+        "PERSON"
+      ],
+      [
         "Maxim 's",
         "ORG"
+      ],
+      [
+        "1900",
+        "DATE"
       ]
     ],
     "relations": []
@@ -3331,12 +3331,16 @@
   "125": {
     "ner": [
       [
-        "Art Nouveau",
-        "MISC"
+        "Nouveau",
+        "ORG"
       ],
       [
         "1901",
         "DATE"
+      ],
+      [
+        "Art Nouveau",
+        "MISC"
       ],
       [
         "Salon",
@@ -3345,10 +3349,6 @@
       [
         "Art Nouveau",
         "PERSON"
-      ],
-      [
-        "Nouveau",
-        "ORG"
       ]
     ],
     "relations": [
@@ -3371,7 +3371,11 @@
   "127": {
     "ner": [
       [
-        "1914",
+        "Paris",
+        "GPE"
+      ],
+      [
+        "1949",
         "DATE"
       ],
       [
@@ -3379,16 +3383,12 @@
         "LOC"
       ],
       [
-        "1949",
-        "DATE"
-      ],
-      [
-        "Paris",
-        "GPE"
-      ],
-      [
         "the Carnavalet Museum",
         "ORG"
+      ],
+      [
+        "1914",
+        "DATE"
       ]
     ],
     "relations": [
@@ -3402,19 +3402,15 @@
   "128": {
     "ner": [
       [
-        "1902",
-        "DATE"
-      ],
-      [
-        "the Librarie Centrale des Beaux-arts",
-        "ORG"
-      ],
-      [
-        "Documents Decoratifs",
-        "WORK_OF_ART"
+        "Mucha",
+        "PERSON"
       ],
       [
         "Librarie Centrale des Beaux",
+        "ORG"
+      ],
+      [
+        "the Librarie Centrale des Beaux-arts",
         "ORG"
       ],
       [
@@ -3422,8 +3418,12 @@
         "CARDINAL"
       ],
       [
-        "Mucha",
-        "PERSON"
+        "Documents Decoratifs",
+        "WORK_OF_ART"
+      ],
+      [
+        "1902",
+        "DATE"
       ]
     ],
     "relations": []
@@ -3431,23 +3431,23 @@
   "130": {
     "ner": [
       [
-        "about 1900",
-        "DATE"
-      ],
-      [
         "Paris",
         "GPE"
       ],
       [
-        "the Academy Colarossi",
+        "Academy Colarossi",
         "ORG"
+      ],
+      [
+        "about 1900",
+        "DATE"
       ],
       [
         "first",
         "ORDINAL"
       ],
       [
-        "Academy Colarossi",
+        "the Academy Colarossi",
         "ORG"
       ]
     ],
@@ -3529,16 +3529,16 @@
   "134": {
     "ner": [
       [
-        "January 1898",
-        "DATE"
+        "Grand Orient de France",
+        "LOC"
       ],
       [
         "the Grand Orient de France",
         "LOC"
       ],
       [
-        "Grand Orient de France",
-        "LOC"
+        "January 1898",
+        "DATE"
       ],
       [
         "Paris",
@@ -3563,16 +3563,16 @@
   "135": {
     "ner": [
       [
-        "1900",
-        "DATE"
+        "1900 Exposition",
+        "MISC"
       ],
       [
         "Exposition",
         "EVENT"
       ],
       [
-        "1900 Exposition",
-        "MISC"
+        "1900",
+        "DATE"
       ]
     ],
     "relations": [],
@@ -3587,16 +3587,16 @@
   "139": {
     "ner": [
       [
-        "The Pater Noster",
-        "WORK_OF_ART"
-      ],
-      [
         "Lord 's Prayer",
         "ORG"
       ],
       [
         "Pater Noster",
         "ORG"
+      ],
+      [
+        "The Pater Noster",
+        "WORK_OF_ART"
       ]
     ],
     "relations": []
@@ -3604,12 +3604,12 @@
   "140": {
     "ner": [
       [
-        "\"Le Pater",
-        "PER"
-      ],
-      [
         "only 510",
         "CARDINAL"
+      ],
+      [
+        "\"Le Pater",
+        "PER"
       ],
       [
         "Le Pater",
@@ -3645,20 +3645,20 @@
   "141": {
     "ner": [
       [
-        "1900",
-        "DATE"
-      ],
-      [
-        "Austrian",
-        "NORP"
+        "1900 Exposition",
+        "MISC"
       ],
       [
         "Exposition",
         "EVENT"
       ],
       [
-        "1900 Exposition",
-        "MISC"
+        "Austrian",
+        "NORP"
+      ],
+      [
+        "1900",
+        "DATE"
       ]
     ],
     "relations": []
@@ -3674,12 +3674,12 @@
         "WORK_OF_ART"
       ],
       [
-        "the New York Sun",
-        "ORG"
-      ],
-      [
         "5 January 1900",
         "DATE"
+      ],
+      [
+        "the New York Sun",
+        "ORG"
       ]
     ],
     "relations": [],
@@ -3704,12 +3704,12 @@
   "143": {
     "ner": [
       [
-        "Art et Decoration",
-        "ORG"
-      ],
-      [
         "Charles Masson",
         "PERSON"
+      ],
+      [
+        "Art et Decoration",
+        "ORG"
       ]
     ],
     "relations": [
@@ -3723,28 +3723,28 @@
   "144": {
     "ner": [
       [
-        "United States",
-        "LOC"
-      ],
-      [
-        "New York",
-        "GPE"
-      ],
-      [
-        "March 1904",
-        "DATE"
+        "Mucha",
+        "PERSON"
       ],
       [
         "the United States",
         "GPE"
       ],
       [
-        "Mucha",
-        "PERSON"
+        "New York",
+        "GPE"
       ],
       [
         "first",
         "ORDINAL"
+      ],
+      [
+        "March 1904",
+        "DATE"
+      ],
+      [
+        "United States",
+        "LOC"
       ]
     ],
     "relations": [],
@@ -3759,20 +3759,20 @@
   "145": {
     "ner": [
       [
-        "1900",
-        "DATE"
-      ],
-      [
-        "The Slav Epic",
-        "WORK_OF_ART"
-      ],
-      [
         "Exposition",
         "EVENT"
       ],
       [
         "1900 Exposition",
         "MISC"
+      ],
+      [
+        "The Slav Epic",
+        "WORK_OF_ART"
+      ],
+      [
+        "1900",
+        "DATE"
       ]
     ],
     "relations": [],
@@ -3807,24 +3807,16 @@
   "147": {
     "ner": [
       [
-        "United States",
-        "LOC"
-      ],
-      [
-        "Sarah Bernhardt",
-        "PER"
+        "the United States",
+        "GPE"
       ],
       [
         "New York",
         "GPE"
       ],
       [
-        "American",
-        "NORP"
-      ],
-      [
-        "the United States",
-        "GPE"
+        "Sarah Bernhardt",
+        "PER"
       ],
       [
         "annual",
@@ -3835,8 +3827,16 @@
         "PERSON"
       ],
       [
+        "United States",
+        "LOC"
+      ],
+      [
         "1896",
         "DATE"
+      ],
+      [
+        "American",
+        "NORP"
       ]
     ],
     "relations": [],
@@ -3856,12 +3856,12 @@
   "148": {
     "ner": [
       [
-        "Central Park",
-        "LOC"
-      ],
-      [
         "New York",
         "GPE"
+      ],
+      [
+        "Central Park",
+        "LOC"
       ]
     ],
     "relations": [],
@@ -3886,12 +3886,12 @@
   "149": {
     "ner": [
       [
-        "Pan",
-        "ORG"
-      ],
-      [
         "Pan-Slavic",
         "NORP"
+      ],
+      [
+        "Pan",
+        "ORG"
       ],
       [
         "Slavic",
@@ -3910,19 +3910,7 @@
   "150": {
     "ner": [
       [
-        "Pan-Slavic",
-        "NORP"
-      ],
-      [
         "Pan",
-        "MISC"
-      ],
-      [
-        "Charles Richard Crane",
-        "PERSON"
-      ],
-      [
-        "Slavic",
         "MISC"
       ],
       [
@@ -3930,12 +3918,24 @@
         "NORP"
       ],
       [
-        "one",
-        "CARDINAL"
+        "Slavic",
+        "MISC"
       ],
       [
         "New York City",
         "GPE"
+      ],
+      [
+        "one",
+        "CARDINAL"
+      ],
+      [
+        "Pan-Slavic",
+        "NORP"
+      ],
+      [
+        "Charles Richard Crane",
+        "PERSON"
       ]
     ],
     "relations": [],
@@ -4000,8 +4000,16 @@
   "153": {
     "ner": [
       [
+        "Mucha",
+        "PERSON"
+      ],
+      [
         "Czechoslovak",
         "NORP"
+      ],
+      [
+        "Crane",
+        "PERSON"
       ],
       [
         "Slavia",
@@ -4010,14 +4018,6 @@
       [
         "100 koruna",
         "MONEY"
-      ],
-      [
-        "Crane",
-        "PERSON"
-      ],
-      [
-        "Mucha",
-        "PERSON"
       ]
     ],
     "relations": [],
@@ -4037,11 +4037,11 @@
   "154": {
     "ner": [
       [
-        "America",
+        "Moravia",
         "GPE"
       ],
       [
-        "Moravia",
+        "America",
         "GPE"
       ],
       [
@@ -4061,11 +4061,11 @@
   "156": {
     "ner": [
       [
-        "America",
-        "GPE"
+        "\"He",
+        "PER"
       ],
       [
-        "France",
+        "Paris",
         "GPE"
       ],
       [
@@ -4073,12 +4073,12 @@
         "DATE"
       ],
       [
-        "Paris",
+        "America",
         "GPE"
       ],
       [
-        "\"He",
-        "PER"
+        "France",
+        "GPE"
       ]
     ],
     "relations": []
@@ -4086,11 +4086,19 @@
   "157": {
     "ner": [
       [
+        "four",
+        "CARDINAL"
+      ],
+      [
+        "five to six months",
+        "DATE"
+      ],
+      [
         "New York",
         "GPE"
       ],
       [
-        "five to six months",
+        "1905",
         "DATE"
       ],
       [
@@ -4098,16 +4106,8 @@
         "DATE"
       ],
       [
-        "1905",
-        "DATE"
-      ],
-      [
         "between 1905 and 1910",
         "DATE"
-      ],
-      [
-        "four",
-        "CARDINAL"
       ]
     ],
     "relations": [],
@@ -4137,27 +4137,27 @@
   "158": {
     "ner": [
       [
-        "Chytilová",
-        "PER"
+        "Prague",
+        "GPE"
       ],
       [
         "New York",
         "GPE"
       ],
       [
-        "1906",
-        "DATE"
-      ],
-      [
         "Marie / Maria",
         "PER"
       ],
       [
-        "Prague",
-        "GPE"
+        "Chytilová",
+        "PER"
       ],
       [
         "10 June 1906",
+        "DATE"
+      ],
+      [
+        "1906",
         "DATE"
       ],
       [
@@ -4208,39 +4208,43 @@
   "160": {
     "ner": [
       [
-        "United States",
-        "LOC"
-      ],
-      [
-        "the Philadelphia School of Art",
-        "ORG"
+        "the United States",
+        "GPE"
       ],
       [
         "New York",
         "GPE"
       ],
       [
-        "Jaroslava",
-        "PERSON"
+        "the Philadelphia School of Art",
+        "ORG"
+      ],
+      [
+        "the New York School of Applied Design for Women",
+        "ORG"
+      ],
+      [
+        "first",
+        "ORDINAL"
       ],
       [
         "1909.His",
         "DATE"
       ],
       [
+        "five weeks",
+        "DATE"
+      ],
+      [
+        "Jaroslava",
+        "PERSON"
+      ],
+      [
+        "United States",
+        "LOC"
+      ],
+      [
         "New York School of Applied Design for Women",
-        "ORG"
-      ],
-      [
-        "Philadelphia School of Art",
-        "ORG"
-      ],
-      [
-        "the United States",
-        "GPE"
-      ],
-      [
-        "the New York School of Applied Design for Women",
         "ORG"
       ],
       [
@@ -4248,16 +4252,12 @@
         "ORG"
       ],
       [
-        "five weeks",
-        "DATE"
+        "Philadelphia School of Art",
+        "ORG"
       ],
       [
         "Art Institute of Chicago",
         "ORG"
-      ],
-      [
-        "first",
-        "ORDINAL"
       ]
     ],
     "relations": [
@@ -4268,13 +4268,13 @@
       ],
       [
         "Jaroslava",
-        "lived_in",
-        "the United States"
+        "born_in",
+        "New York"
       ],
       [
         "Jaroslava",
-        "born_in",
-        "New York"
+        "lived_in",
+        "the United States"
       ]
     ],
     "srl": [
@@ -4293,16 +4293,16 @@
   "161": {
     "ner": [
       [
+        "1906",
+        "DATE"
+      ],
+      [
         "Savon Mucha",
         "ORG"
       ],
       [
         "one",
         "CARDINAL"
-      ],
-      [
-        "1906",
-        "DATE"
       ]
     ],
     "relations": [],
@@ -4322,32 +4322,32 @@
   "162": {
     "ner": [
       [
-        "German Theater of New York",
-        "LOC"
-      ],
-      [
-        "Art Nouveau",
-        "MISC"
-      ],
-      [
-        "New York",
-        "GPE"
-      ],
-      [
-        "Comedy and Truth",
-        "MISC"
-      ],
-      [
-        "three",
-        "CARDINAL"
-      ],
-      [
         "the German Theater",
         "FAC"
       ],
       [
         "1908",
         "DATE"
+      ],
+      [
+        "New York",
+        "GPE"
+      ],
+      [
+        "German Theater of New York",
+        "LOC"
+      ],
+      [
+        "Comedy and Truth",
+        "MISC"
+      ],
+      [
+        "Art Nouveau",
+        "MISC"
+      ],
+      [
+        "three",
+        "CARDINAL"
       ]
     ],
     "relations": [],
@@ -4367,20 +4367,20 @@
   "163": {
     "ner": [
       [
-        "German Theater",
-        "LOC"
+        "the German Theater",
+        "FAC"
       ],
       [
-        "Artistically",
-        "PER"
+        "German Theater",
+        "LOC"
       ],
       [
         "one year",
         "DATE"
       ],
       [
-        "the German Theater",
-        "FAC"
+        "Artistically",
+        "PER"
       ],
       [
         "1909",
@@ -4399,6 +4399,14 @@
   "164": {
     "ner": [
       [
+        "Bernhardt",
+        "PERSON"
+      ],
+      [
+        "Leslie Carter",
+        "PERSON"
+      ],
+      [
         "Broadway",
         "FAC"
       ],
@@ -4407,28 +4415,20 @@
         "PER"
       ],
       [
-        "Leslie Carter",
-        "PERSON"
-      ],
-      [
-        "American",
-        "NORP"
-      ],
-      [
-        "The American Sarah Bernhardt",
-        "PERSON"
+        "The American",
+        "MISC"
       ],
       [
         "Maude Adams",
         "PERSON"
       ],
       [
-        "The American",
-        "MISC"
+        "The American Sarah Bernhardt",
+        "PERSON"
       ],
       [
-        "Bernhardt",
-        "PERSON"
+        "American",
+        "NORP"
       ]
     ],
     "relations": [],
@@ -4447,16 +4447,16 @@
         "GPE"
       ],
       [
-        "Slavic",
-        "NORP"
+        "Josephine Crane Bradley",
+        "PERSON"
       ],
       [
         "Slavia",
         "PERSON"
       ],
       [
-        "Josephine Crane Bradley",
-        "PERSON"
+        "Slavic",
+        "NORP"
       ]
     ],
     "relations": []
@@ -4464,16 +4464,16 @@
   "166": {
     "ner": [
       [
-        "Crane",
-        "PERSON"
+        "Slav Epic",
+        "MISC"
       ],
       [
         "the Slav Epic",
         "WORK_OF_ART"
       ],
       [
-        "Slav Epic",
-        "MISC"
+        "Crane",
+        "PERSON"
       ]
     ],
     "relations": []
@@ -4481,20 +4481,20 @@
   "167": {
     "ner": [
       [
-        "Paris",
-        "GPE"
-      ],
-      [
-        "Europe",
-        "LOC"
-      ],
-      [
         "Mucha",
         "PERSON"
       ],
       [
         "Slavic",
         "NORP"
+      ],
+      [
+        "Europe",
+        "LOC"
+      ],
+      [
+        "Paris",
+        "GPE"
       ]
     ],
     "relations": [
@@ -4525,15 +4525,7 @@
   "168": {
     "ner": [
       [
-        "Slav Epic",
-        "MISC"
-      ],
-      [
-        "the Slav Epic",
-        "WORK_OF_ART"
-      ],
-      [
-        "February 1910",
+        "1908",
         "DATE"
       ],
       [
@@ -4541,12 +4533,20 @@
         "PERSON"
       ],
       [
+        "February 1910",
+        "DATE"
+      ],
+      [
+        "Slav Epic",
+        "MISC"
+      ],
+      [
         "1909",
         "DATE"
       ],
       [
-        "1908",
-        "DATE"
+        "the Slav Epic",
+        "WORK_OF_ART"
       ]
     ],
     "relations": [],
@@ -4594,24 +4594,24 @@
   "171": {
     "ner": [
       [
-        "Slav",
-        "NORP"
+        "Prague",
+        "GPE"
       ],
       [
         "\"His",
         "PER"
       ],
       [
-        "Prague",
-        "GPE"
+        "1910",
+        "DATE"
       ],
       [
         "first",
         "ORDINAL"
       ],
       [
-        "1910",
-        "DATE"
+        "Slav",
+        "NORP"
       ]
     ],
     "relations": [],
@@ -4655,11 +4655,11 @@
   "174": {
     "ner": [
       [
-        "Slavs",
+        "European",
         "NORP"
       ],
       [
-        "European",
+        "Slavs",
         "NORP"
       ],
       [
@@ -4684,16 +4684,20 @@
   "175": {
     "ner": [
       [
-        "1911",
-        "DATE"
+        "Mucha",
+        "PERSON"
       ],
       [
-        "The Slav Epic",
-        "WORK_OF_ART"
+        "Slavic",
+        "NORP"
       ],
       [
         "Lord Mayor's Hall",
         "FAC"
+      ],
+      [
+        "The Slav Epic",
+        "WORK_OF_ART"
       ],
       [
         "Slav Epic",
@@ -4704,15 +4708,11 @@
         "LOC"
       ],
       [
+        "1911",
+        "DATE"
+      ],
+      [
         "Parisian",
-        "NORP"
-      ],
-      [
-        "Mucha",
-        "PERSON"
-      ],
-      [
-        "Slavic",
         "NORP"
       ]
     ],
@@ -4738,39 +4738,11 @@
   "176": {
     "ner": [
       [
-        "Balkans",
-        "LOC"
-      ],
-      [
-        "Poles",
-        "NORP"
-      ],
-      [
-        "ten",
-        "CARDINAL"
-      ],
-      [
-        "Russians",
-        "NORP"
-      ],
-      [
-        "twenty",
-        "CARDINAL"
-      ],
-      [
-        "Hungarians",
-        "NORP"
-      ],
-      [
-        "Czechs",
-        "NORP"
-      ],
-      [
         "Bulgarians",
         "NORP"
       ],
       [
-        "Orthodox",
+        "Slavic",
         "NORP"
       ],
       [
@@ -4778,7 +4750,35 @@
         "NORP"
       ],
       [
-        "Slavic",
+        "Balkans",
+        "LOC"
+      ],
+      [
+        "Orthodox",
+        "NORP"
+      ],
+      [
+        "Czechs",
+        "NORP"
+      ],
+      [
+        "ten",
+        "CARDINAL"
+      ],
+      [
+        "twenty",
+        "CARDINAL"
+      ],
+      [
+        "Russians",
+        "NORP"
+      ],
+      [
+        "Hungarians",
+        "NORP"
+      ],
+      [
+        "Poles",
         "NORP"
       ],
       [
@@ -4804,19 +4804,15 @@
   "178": {
     "ner": [
       [
-        "Zbiroh Castle",
-        "LOC"
-      ],
-      [
         "Mucha",
         "PERSON"
       ],
       [
-        "Bohemia",
+        "Paris",
         "GPE"
       ],
       [
-        "the Zbiroh Castle",
+        "Zbiroh Castle",
         "LOC"
       ],
       [
@@ -4824,7 +4820,11 @@
         "LOC"
       ],
       [
-        "Paris",
+        "the Zbiroh Castle",
+        "LOC"
+      ],
+      [
+        "Bohemia",
         "GPE"
       ],
       [
@@ -4864,10 +4864,6 @@
   "179": {
     "ner": [
       [
-        "Poland",
-        "GPE"
-      ],
-      [
         "Balkans",
         "LOC"
       ],
@@ -4877,6 +4873,10 @@
       ],
       [
         "Russia",
+        "GPE"
+      ],
+      [
+        "Poland",
         "GPE"
       ]
     ],
@@ -4907,12 +4907,12 @@
   "181": {
     "ner": [
       [
-        "between 1912 and 1926",
-        "DATE"
-      ],
-      [
         "twenty",
         "CARDINAL"
+      ],
+      [
+        "between 1912 and 1926",
+        "DATE"
       ]
     ],
     "relations": [],
@@ -4932,11 +4932,11 @@
   "182": {
     "ner": [
       [
-        "First World War",
+        "Austrian Empire",
         "MISC"
       ],
       [
-        "France",
+        "the Austrian Empire",
         "GPE"
       ],
       [
@@ -4944,12 +4944,12 @@
         "EVENT"
       ],
       [
-        "the Austrian Empire",
-        "GPE"
+        "First World War",
+        "MISC"
       ],
       [
-        "Austrian Empire",
-        "MISC"
+        "France",
+        "GPE"
       ]
     ],
     "relations": [],
@@ -4980,6 +4980,10 @@
   "184": {
     "ner": [
       [
+        "Prague",
+        "GPE"
+      ],
+      [
         "Czechoslovak Republic",
         "LOC"
       ],
@@ -4989,10 +4993,6 @@
       ],
       [
         "the Czechoslovak Republic.Under",
-        "GPE"
-      ],
-      [
-        "Prague",
         "GPE"
       ],
       [
@@ -5012,28 +5012,28 @@
   "185": {
     "ner": [
       [
-        "Slav Epic",
-        "MISC"
-      ],
-      [
-        "1919",
-        "DATE"
-      ],
-      [
-        "Slav",
-        "NORP"
+        "Prague",
+        "GPE"
       ],
       [
         "Epic",
         "WORK_OF_ART"
       ],
       [
+        "1919",
+        "DATE"
+      ],
+      [
+        "Slav Epic",
+        "MISC"
+      ],
+      [
         "1928",
         "DATE"
       ],
       [
-        "Prague",
-        "GPE"
+        "Slav",
+        "NORP"
       ]
     ],
     "relations": []
@@ -5045,42 +5045,34 @@
         "DATE"
       ],
       [
-        "the Czech Republic",
-        "GPE"
-      ],
-      [
-        "Moravský Krumlov",
-        "GPE"
-      ],
-      [
-        "1928",
-        "DATE"
+        "the South Moravian Region",
+        "LOC"
       ],
       [
         "Czech Republic",
         "LOC"
       ],
       [
-        "the South Moravian Region",
-        "LOC"
+        "Moravský Krumlov",
+        "GPE"
       ],
       [
         "South Moravian Region",
         "LOC"
+      ],
+      [
+        "1928",
+        "DATE"
+      ],
+      [
+        "the Czech Republic",
+        "GPE"
       ]
     ],
     "relations": []
   },
   "187": {
     "ner": [
-      [
-        "National Gallery",
-        "ORG"
-      ],
-      [
-        "Veletržní Palace",
-        "FAC"
-      ],
       [
         "the National Gallery's",
         "ORG"
@@ -5092,6 +5084,14 @@
       [
         "2012",
         "DATE"
+      ],
+      [
+        "Veletržní Palace",
+        "FAC"
+      ],
+      [
+        "National Gallery",
+        "ORG"
       ]
     ],
     "relations": [
@@ -5105,11 +5105,15 @@
   "188": {
     "ner": [
       [
-        "2021",
-        "DATE"
+        "Prague",
+        "GPE"
       ],
       [
-        "2026.While",
+        "Epic",
+        "WORK_OF_ART"
+      ],
+      [
+        "2021",
         "DATE"
       ],
       [
@@ -5117,19 +5121,15 @@
         "MISC"
       ],
       [
-        "Slav",
-        "NORP"
-      ],
-      [
-        "Epic",
-        "WORK_OF_ART"
-      ],
-      [
-        "Prague",
-        "GPE"
+        "2026.While",
+        "DATE"
       ],
       [
         "Czech",
+        "NORP"
+      ],
+      [
+        "Slav",
         "NORP"
       ]
     ],
@@ -5150,32 +5150,32 @@
   "189": {
     "ner": [
       [
+        "Charles Crane",
+        "PERSON"
+      ],
+      [
         "1918",
         "DATE"
       ],
       [
-        "American",
-        "NORP"
-      ],
-      [
-        "Charles Crane",
-        "PERSON"
-      ],
-      [
         "Slavia",
         "PERSON"
+      ],
+      [
+        "American",
+        "NORP"
       ]
     ],
     "relations": [
       [
-        "Charles Crane",
-        "parent_of",
-        "Slavia"
-      ],
-      [
         "Slavia",
         "child_of",
         "Charles Crane"
+      ],
+      [
+        "Charles Crane",
+        "parent_of",
+        "Slavia"
       ]
     ],
     "srl": [
@@ -5189,16 +5189,16 @@
   "191": {
     "ner": [
       [
-        "the Lottery of the Union of Southwestern Moravia",
-        "EVENT"
+        "Prague",
+        "GPE"
       ],
       [
         "Lottery of the Union of Southwestern Moravia",
         "MISC"
       ],
       [
-        "Prague",
-        "GPE"
+        "the Lottery of the Union of Southwestern Moravia",
+        "EVENT"
       ]
     ],
     "relations": [],
@@ -5222,8 +5222,8 @@
         "DATE"
       ],
       [
-        "Czechoslovakia",
-        "GPE"
+        "Mucha",
+        "PERSON"
       ],
       [
         "The Slav Epic",
@@ -5234,8 +5234,8 @@
         "MISC"
       ],
       [
-        "Mucha",
-        "PERSON"
+        "Czechoslovakia",
+        "GPE"
       ]
     ],
     "relations": []
@@ -5243,35 +5243,15 @@
   "193": {
     "ner": [
       [
-        "Czechoslovakia",
-        "GPE"
-      ],
-      [
-        "139",
-        "CARDINAL"
+        "the Slav Epic.Hitler",
+        "WORK_OF_ART"
       ],
       [
         "1936",
         "DATE"
       ],
       [
-        "the Slav Epic.Hitler",
-        "WORK_OF_ART"
-      ],
-      [
-        "the 1930s",
-        "DATE"
-      ],
-      [
-        "Slav Epic",
-        "MISC"
-      ],
-      [
-        "Hitler",
-        "PER"
-      ],
-      [
-        "Germany",
+        "Paris",
         "GPE"
       ],
       [
@@ -5279,20 +5259,40 @@
         "NORP"
       ],
       [
+        "the 1930s",
+        "DATE"
+      ],
+      [
+        "Nazi Germany",
+        "LOC"
+      ],
+      [
         "three",
         "CARDINAL"
       ],
       [
-        "Paris",
+        "Germany",
         "GPE"
+      ],
+      [
+        "Slav Epic",
+        "MISC"
       ],
       [
         "Jeu de Paume",
         "ORG"
       ],
       [
-        "Nazi Germany",
-        "LOC"
+        "Czechoslovakia",
+        "GPE"
+      ],
+      [
+        "Hitler",
+        "PER"
+      ],
+      [
+        "139",
+        "CARDINAL"
       ]
     ],
     "relations": []
@@ -5300,20 +5300,20 @@
   "194": {
     "ner": [
       [
-        "Age of Wisdom",
+        "Age of Reason",
         "MISC"
       ],
       [
-        "Age of Reason",
-        "MISC"
+        "Mucha",
+        "PERSON"
       ],
       [
         "from 1936 to 1938",
         "DATE"
       ],
       [
-        "Mucha",
-        "PERSON"
+        "Age of Wisdom",
+        "MISC"
       ],
       [
         "Age of Love",
@@ -5342,12 +5342,32 @@
   "195": {
     "ner": [
       [
+        "Prague",
+        "GPE"
+      ],
+      [
+        "the Protectorate of Bohemia and Moravia",
+        "GPE"
+      ],
+      [
+        "15 March 1939",
+        "DATE"
+      ],
+      [
         "German",
         "NORP"
       ],
       [
+        "Moravia",
+        "LOC"
+      ],
+      [
         "Hitler",
         "PERSON"
+      ],
+      [
+        "Protectorate of Bohemia",
+        "LOC"
       ],
       [
         "Czechoslovakia",
@@ -5360,26 +5380,6 @@
       [
         "Greater German Reich",
         "LOC"
-      ],
-      [
-        "Protectorate of Bohemia",
-        "LOC"
-      ],
-      [
-        "Prague",
-        "GPE"
-      ],
-      [
-        "Moravia",
-        "LOC"
-      ],
-      [
-        "15 March 1939",
-        "DATE"
-      ],
-      [
-        "the Protectorate of Bohemia and Moravia",
-        "GPE"
       ]
     ],
     "relations": []
@@ -5387,15 +5387,15 @@
   "196": {
     "ner": [
       [
+        "Freemason",
+        "NORP"
+      ],
+      [
         "Mucha",
         "PERSON"
       ],
       [
         "Slav",
-        "NORP"
-      ],
-      [
-        "Freemason",
         "NORP"
       ]
     ],
@@ -5426,10 +5426,6 @@
   "199": {
     "ner": [
       [
-        "14 July 1939",
-        "DATE"
-      ],
-      [
         "the Second World War",
         "EVENT"
       ],
@@ -5438,16 +5434,20 @@
         "DATE"
       ],
       [
+        "14 July 1939",
+        "DATE"
+      ],
+      [
+        "Second World War",
+        "MISC"
+      ],
+      [
         "79th",
         "ORDINAL"
       ],
       [
         "over a month",
         "DATE"
-      ],
-      [
-        "Second World War",
-        "MISC"
       ]
     ],
     "relations": [],
@@ -5467,16 +5467,16 @@
   "200": {
     "ner": [
       [
+        "Czech",
+        "NORP"
+      ],
+      [
         "Slavín Monument of Vyšehrad",
         "FAC"
       ],
       [
         "Vyšehrad",
         "LOC"
-      ],
-      [
-        "Czech",
-        "NORP"
       ],
       [
         "Slavín Monument",
@@ -5580,16 +5580,16 @@
         "MISC"
       ],
       [
+        "Moravský Krumlov",
+        "GPE"
+      ],
+      [
         "twenty-five years",
         "DATE"
       ],
       [
         "The Slav Epic",
         "WORK_OF_ART"
-      ],
-      [
-        "Moravský Krumlov",
-        "GPE"
       ]
     ],
     "relations": []
@@ -5597,32 +5597,8 @@
   "209": {
     "ner": [
       [
-        "The Slav Epic",
-        "WORK_OF_ART"
-      ],
-      [
-        "National Gallery",
-        "ORG"
-      ],
-      [
-        "The National Gallery",
-        "ORG"
-      ],
-      [
-        "1998",
-        "DATE"
-      ],
-      [
-        "Mucha Museum",
-        "LOC"
-      ],
-      [
         "Prague",
         "GPE"
-      ],
-      [
-        "Czech",
-        "NORP"
       ],
       [
         "Mucha",
@@ -5631,6 +5607,30 @@
       [
         "Czech Freemasonry",
         "MISC"
+      ],
+      [
+        "1998",
+        "DATE"
+      ],
+      [
+        "National Gallery",
+        "ORG"
+      ],
+      [
+        "The Slav Epic",
+        "WORK_OF_ART"
+      ],
+      [
+        "Mucha Museum",
+        "LOC"
+      ],
+      [
+        "Czech",
+        "NORP"
+      ],
+      [
+        "The National Gallery",
+        "ORG"
       ],
       [
         "Freemasonry.The Mucha Museum",
@@ -5654,12 +5654,12 @@
   "210": {
     "ner": [
       [
-        "Ivan Lendl",
+        "Mucha",
         "PERSON"
       ],
       [
-        "1982",
-        "DATE"
+        "Jiří Mucha",
+        "PERSON"
       ],
       [
         "nine-year",
@@ -5670,7 +5670,7 @@
         "CARDINAL"
       ],
       [
-        "Jiří Mucha",
+        "Ivan Lendl",
         "PERSON"
       ],
       [
@@ -5678,8 +5678,8 @@
         "MISC"
       ],
       [
-        "Mucha",
-        "PERSON"
+        "1982",
+        "DATE"
       ]
     ],
     "relations": [
@@ -5693,22 +5693,6 @@
   "211": {
     "ner": [
       [
-        "Google",
-        "ORG"
-      ],
-      [
-        "150th",
-        "ORDINAL"
-      ],
-      [
-        "Prague",
-        "LOC"
-      ],
-      [
-        "first",
-        "ORDINAL"
-      ],
-      [
         "24 July 2010",
         "DATE"
       ],
@@ -5717,16 +5701,32 @@
         "PERSON"
       ],
       [
-        "Alfonse Mucha",
-        "PER"
+        "Prague.On",
+        "GPE"
+      ],
+      [
+        "first",
+        "ORDINAL"
+      ],
+      [
+        "Prague",
+        "LOC"
       ],
       [
         "2013",
         "DATE"
       ],
       [
-        "Prague.On",
-        "GPE"
+        "Google",
+        "ORG"
+      ],
+      [
+        "150th",
+        "ORDINAL"
+      ],
+      [
+        "Alfonse Mucha",
+        "PER"
       ]
     ],
     "relations": []

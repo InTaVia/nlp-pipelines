@@ -243,7 +243,7 @@ def convert_nlp_to_idm_json(nlp_path: str, idm_out_path: str, wiki_root_path: st
                     triples_with_events.append(prop)
 
     if main_death_date:
-        triples_with_events.append((main_death_date.split("-")[0], (lastname, "died on", main_death_date.split("T")[0])))
+        triples_with_events.append((main_death_date, (main_person_id, "died on", main_death_date.split("T")[0])))
 
     with open(f"data/idm/nlpidm_sentence_based_events.txt", "w") as f:
         for sent in sentences_with_events:
@@ -498,8 +498,7 @@ def convert_nlp_to_idm_json(nlp_path: str, idm_out_path: str, wiki_root_path: st
             if ent_surface_form in event_triple[2]:
                 contains_entities.append(idm_surface_form_entities[ent_surface_form])
         # If and only if the triple contains a DATE AND an at least one ENTITY then it is useful to visualize otherwise we ignore it...
-        if start_date and len(contains_entities) > 0:
-
+        if (start_date and len(contains_entities) > 0) or event_triple[0] == main_person_id:
             # ---- <EXP_START/>
             # Prepare Event Info
             full_event_id = f"{ev_sub_id}-ev-{stringify_id(event_ix)}"
@@ -589,7 +588,7 @@ def normalize_date(datelike_string: str) -> Tuple[str,str]:
             start_date = parser.parse(datelike_string, default=datetime.datetime(1900,1,1)).isoformat().split("T")[0]
         except:
             pass
-    # print("CHECHE-DATE", datelike_string, start_date, end_date)
+    # print("NORM-DATE", datelike_string, start_date, end_date)
     return start_date, end_date
 
 
