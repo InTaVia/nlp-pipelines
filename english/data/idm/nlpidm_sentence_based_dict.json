@@ -2,4645 +2,203 @@
   "0": {
     "ner": [
       [
-        "Sarah Bernhardt",
+        "Adolfo Hohenstein",
         "PERSON"
       ],
       [
-        "Alphonse Mucha",
-        "PERSON"
-      ],
-      [
-        "Paris",
-        "GPE"
-      ],
-      [
-        "14 July 1939",
+        "18 March 1854",
         "DATE"
       ],
       [
-        "Alfons Maria Mucha",
-        "PERSON"
-      ],
-      [
-        "24 July 1860",
+        "12 April 1928",
         "DATE"
       ],
       [
-        "Czech",
+        "German",
         "NORP"
-      ],
-      [
-        "ˈalfons ˈmuxa",
-        "ORG"
-      ],
-      [
-        "Art Nouveau",
-        "DATE"
       ]
     ],
     "relations": [
       [
-        "Alfons Maria Mucha",
-        "origin",
-        "Czech"
-      ],
-      [
-        "Alphonse Mucha",
-        "origin",
-        "Alfons Maria Mucha"
-      ],
-      [
-        "Alfons Maria Mucha",
+        "Adolfo Hohenstein",
         "date_of_birth",
-        "24 July 1860"
+        "18 March 1854"
       ],
       [
-        "Alfons Maria Mucha",
-        "lived_in",
-        "Paris"
-      ],
-      [
-        "Alphonse Mucha",
+        "Adolfo Hohenstein",
         "origin",
-        "Czech"
+        "German"
       ],
       [
-        "Alphonse Mucha",
-        "date_of_birth",
-        "24 July 1860"
-      ],
-      [
-        "Alphonse Mucha",
-        "lived_in",
-        "Paris"
+        "Adolfo Hohenstein",
+        "date_of_death",
+        "12 April 1928"
       ]
     ]
   },
   "1": {
     "ner": [
       [
-        "Slavic",
+        "Hohenstein",
+        "PERSON"
+      ],
+      [
+        "Italian",
         "NORP"
       ],
       [
-        "second",
-        "ORDINAL"
+        "Stile Liberty",
+        "MISC"
       ],
       [
-        "The Slav Epic",
-        "WORK_OF_ART"
-      ],
-      [
-        "twenty",
-        "CARDINAL"
-      ],
-      [
-        "57",
-        "DATE"
-      ],
-      [
-        "between 1912 and 1926",
-        "DATE"
+        "Art Nouveau",
+        "MISC"
       ]
     ],
-    "relations": [],
-    "srl": [
-      [
-        "He",
-        "produced",
-        "illustrations , advertisements , decorative panels , as well as designs , which became among the best - known images of the period"
-      ],
-      [
-        "he",
-        "returned",
-        "to his homeland at the age of 57"
-      ],
-      [
-        "he",
-        "devoted",
-        "himself to a series of twenty monumental symbolist canvases known as The Slav Epic , depicting the history of all the Slavic peoples of the world , which he painted between 1912 and 1926 at the age of 57"
-      ],
-      [
-        "he",
-        "painted",
-        "the history of all the Slavic peoples of the world between 1912 and 1926"
-      ]
-    ]
+    "relations": []
   },
   "2": {
     "ner": [
       [
-        "1928",
-        "DATE"
-      ],
-      [
-        "Czech",
-        "NORP"
-      ],
-      [
-        "10th",
-        "ORDINAL"
-      ],
-      [
-        "Czechoslovakia",
-        "GPE"
-      ]
-    ],
-    "relations": [],
-    "srl": [
-      [
-        "he",
-        "presented",
-        "the series to the Czech nation on the 10th anniversary of the independence of Czechoslovakia"
-      ]
-    ]
-  },
-  "4": {
-    "ner": [
-      [
-        "Moravia",
-        "GPE"
-      ],
-      [
-        "the Austrian Empire",
-        "ORG"
-      ],
-      [
-        "Mucha",
+        "Giovanni Mario Mataloni",
         "PERSON"
       ],
       [
-        "Austrian Empire",
-        "MISC"
+        "Leopoldo Metlicovitz",
+        "PERSON"
       ],
       [
-        "24 July 1860",
-        "DATE"
+        "Italian",
+        "NORP"
       ],
       [
-        "Ivančice",
+        "Leonetto Cappiello",
+        "PERSON"
+      ],
+      [
+        "Marcello Dudovich",
+        "PERSON"
+      ]
+    ],
+    "relations": [
+      [
+        "Marcello Dudovich",
+        "origin",
+        "Italian"
+      ]
+    ]
+  },
+  "3": {
+    "ner": [
+      [
+        "Julius",
+        "PERSON"
+      ],
+      [
+        "Saint Petersburg",
         "GPE"
       ],
       [
-        "Czech Republic",
-        "LOC"
+        "German",
+        "NORP"
       ],
       [
-        "the Czech Republic",
+        "Adolfo Hohenstein",
+        "PERSON"
+      ],
+      [
+        "Laura Irack",
+        "PERSON"
+      ],
+      [
+        "Russian Empire",
         "GPE"
       ]
     ],
     "relations": [
       [
-        "Mucha",
-        "date_of_birth",
-        "24 July 1860"
+        "Julius",
+        "parent_of",
+        "Adolfo Hohenstein"
       ],
       [
-        "Mucha",
+        "Adolfo Hohenstein",
         "born_in",
-        "Moravia"
+        "Saint Petersburg"
       ],
       [
-        "Mucha",
-        "born_in",
-        "Ivančice"
-      ]
-    ],
-    "srl": [
+        "Adolfo Hohenstein",
+        "child_of",
+        "Julius"
+      ],
       [
-        "Mucha",
-        "born",
-        " on 24 July 1860 in the small town of Ivančice in southern Moravia , then a province of the Austrian Empire ( currently a region of the Czech Republic )"
+        "Adolfo Hohenstein",
+        "child_of",
+        "Laura Irack"
+      ],
+      [
+        "Laura Irack",
+        "married_to",
+        "Julius"
+      ],
+      [
+        "Julius",
+        "married_to",
+        "Laura Irack"
+      ],
+      [
+        "Laura Irack",
+        "parent_of",
+        "Adolfo Hohenstein"
+      ],
+      [
+        "Adolfo Hohenstein",
+        "born_in",
+        "Russian Empire"
       ]
     ]
   },
   "5": {
     "ner": [
       [
-        "Ondřej",
-        "PERSON"
+        "Vienna",
+        "GPE"
       ],
       [
-        "Amálie",
+        "Adolfo",
         "PERSON"
       ]
     ],
     "relations": [
       [
-        "Amálie",
-        "related_to",
-        "Ondřej"
+        "Adolfo",
+        "lived_in",
+        "Vienna"
+      ]
+    ],
+    "srl": [
+      [
+        "Adolfo",
+        "moved",
+        "to Vienna where he grew up and completed his studies"
       ],
       [
-        "Ondřej",
-        "child_of",
-        "Amálie"
+        "he",
+        "grew",
+        " Vienna"
+      ],
+      [
+        "he",
+        "completed",
+        "his studies Vienna"
       ]
     ]
   },
   "6": {
     "ner": [
       [
-        "Ondřej",
-        "PERSON"
-      ],
-      [
-        "six",
-        "CARDINAL"
-      ],
-      [
-        "A.",
-        "PER"
-      ]
-    ],
-    "relations": []
-  },
-  "7": {
-    "ner": [
-      [
-        "Anděla.Mucha",
-        "PERSON"
-      ],
-      [
-        "Amálie",
-        "PERSON"
-      ],
-      [
-        "Mucha",
-        "PER"
-      ],
-      [
-        "Alphonse",
-        "PERSON"
-      ],
-      [
-        "first",
-        "ORDINAL"
-      ],
-      [
-        "Anna",
-        "PERSON"
-      ],
-      [
-        "Anděla",
-        "PER"
-      ]
-    ],
-    "relations": [
-      [
-        "Amálie",
-        "parent_of",
-        "Alphonse"
-      ],
-      [
-        "Amálie",
-        "parent_of",
-        "Anna"
-      ]
-    ],
-    "srl": [
-      [
-        "Alphonse",
-        "was",
-        "his first child"
-      ],
-      [
-        "Mucha",
-        "showed",
-        "an early talent for drawing"
-      ]
-    ]
-  },
-  "9": {
-    "ner": [
-      [
-        "three",
-        "CARDINAL"
-      ],
-      [
-        "Volksschule",
-        "FAC"
-      ]
-    ],
-    "relations": [],
-    "srl": [
-      [
-        "He",
-        "had",
-        "a talent for music also"
-      ],
-      [
-        "he",
-        "was",
-        "an alto singer and violin player"
-      ],
-      [
-        "he",
-        "completing",
-        "Volksschule"
-      ],
-      [
-        "he",
-        "wanted",
-        "to continue with his studies After completing Volksschule"
-      ],
-      [
-        "he",
-        "continue",
-        "with his studies"
-      ]
-    ]
-  },
-  "10": {
-    "ner": [
-      [
-        "St Thomas 's Abbey",
-        "LOC"
-      ],
-      [
-        "Brno",
+        "India",
         "GPE"
-      ],
-      [
-        "Pavel Křížkovský",
-        "PERSON"
-      ],
-      [
-        "St Thomas's Abbey",
-        "ORG"
-      ]
-    ],
-    "relations": [
-      [
-        "Pavel Křížkovský",
-        "employee_of",
-        "St Thomas's Abbey"
-      ]
-    ]
-  },
-  "11": {
-    "ner": [
-      [
-        "Křížovský",
-        "PER"
-      ],
-      [
-        "the Cathedral of St. Peter and Paul",
-        "ORG"
-      ],
-      [
-        "Brno",
-        "GPE"
-      ],
-      [
-        "Leoš Janáček",
-        "PER"
-      ],
-      [
-        "Paul",
-        "PER"
-      ],
-      [
-        "Leoš Janáček.Křížovský",
-        "PERSON"
-      ],
-      [
-        "Křížovský",
-        "PERSON"
-      ],
-      [
-        "Cathedral of St. Peter",
-        "LOC"
-      ]
-    ],
-    "relations": [],
-    "srl": [
-      [
-        "he",
-        "not was",
-        "able to admit and fund him as he had just admitted another talented young musician"
-      ],
-      [
-        "he",
-        "admit",
-        "him"
-      ],
-      [
-        "he",
-        "fund",
-        "him"
-      ],
-      [
-        "he",
-        "admitted",
-        "another talented young musician just"
-      ],
-      [
-        "he",
-        "received",
-        "his secondary school education the gymnasium in Brno"
-      ]
-    ]
-  },
-  "13": {
-    "ner": [
-      [
-        "Czech",
-        "NORP"
-      ]
-    ],
-    "relations": [],
-    "srl": [
-      [
-        "He",
-        "grew",
-        " in an environment of intense Czech nationalism in all the arts , from music to literature and painting"
-      ]
-    ]
-  },
-  "14": {
-    "ner": [
-      [
-        "Gymnázium Brno",
-        "LOC"
-      ],
-      [
-        "Brno",
-        "GPE"
-      ],
-      [
-        "Moravian",
-        "NORP"
-      ],
-      [
-        "the Gymnázium Brno",
-        "ORG"
-      ]
-    ],
-    "relations": [],
-    "srl": [
-      [
-        "He",
-        "designed",
-        "flyers and posters"
-      ]
-    ]
-  },
-  "16": {
-    "ner": [
-      [
-        "the Academy of Fine Arts",
-        "ORG"
-      ],
-      [
-        "Academy of Fine Arts",
-        "ORG"
-      ],
-      [
-        "Prague",
-        "GPE"
-      ],
-      [
-        "1878",
-        "DATE"
-      ]
-    ],
-    "relations": [
-      [
-        "the Academy of Fine Arts",
-        "based_in",
-        "Prague"
-      ]
-    ],
-    "srl": [
-      [
-        "he",
-        "applied",
-        "to the Academy of Fine Arts in Prague In 1878"
-      ],
-      [
-        "he",
-        "rejected",
-        "to \" find a different career \""
-      ],
-      [
-        "he",
-        "advised",
-        "to \" find a different career \""
-      ],
-      [
-        "he",
-        "find",
-        "a different career"
-      ]
-    ]
-  },
-  "17": {
-    "ner": [
-      [
-        "19",
-        "DATE"
-      ],
-      [
-        "Empire",
-        "ORG"
-      ],
-      [
-        "1880",
-        "DATE"
-      ],
-      [
-        "Vienna",
-        "GPE"
-      ]
-    ],
-    "relations": [],
-    "srl": [
-      [
-        "he",
-        "traveled",
-        "to Vienna , the political and cultural capital of the Empire at the age of 19"
-      ],
-      [
-        "he",
-        "found",
-        "employment as an apprentice scenery painter for a company which made sets for Vienna theaters at the age of 19"
-      ]
-    ]
-  },
-  "18": {
-    "ner": [
-      [
-        "Vienna",
-        "GPE"
-      ]
-    ],
-    "relations": [],
-    "srl": [
-      [
-        "he",
-        "discovered",
-        "the museums , churches , palaces and especially theaters , for which he received free tickets from his employer While in Vienna"
-      ],
-      [
-        "he",
-        "received",
-        "free tickets from his employer the museums , churches , palaces and especially theaters"
-      ]
-    ]
-  },
-  "19": {
-    "ner": [
-      [
-        "Hans Makart",
-        "PERSON"
-      ],
-      [
-        "Vienna",
-        "GPE"
-      ]
-    ],
-    "relations": [],
-    "srl": [
-      [
-        "He",
-        "discovered",
-        "Hans Makart , a very prominent academic painter , who created murals for many of the palaces and government buildings in Vienna , and was a master of portraits and historical paintings in grand format"
-      ]
-    ]
-  },
-  "20": {
-    "ner": [
-      [
-        "Mucha",
-        "PERSON"
-      ]
-    ],
-    "relations": []
-  },
-  "21": {
-    "ner": [
-      [
-        "Ringtheater",
-        "FAC"
-      ],
-      [
-        "1881",
-        "DATE"
-      ]
-    ],
-    "relations": [],
-    "srl": [
-      [
-        "He",
-        "began",
-        "experimenting with photography , which became an important tool in his later work"
-      ],
-      [
-        "He",
-        "experimenting",
-        "with photography , which became an important tool in his later work"
-      ]
-    ]
-  },
-  "22": {
-    "ner": [
-      [
-        "1881",
-        "DATE"
-      ]
-    ],
-    "relations": [],
-    "srl": [
-      [
-        "he",
-        "took",
-        "a train Later in 1881"
-      ]
-    ]
-  },
-  "23": {
-    "ner": [
-      [
-        "Moravia",
-        "GPE"
-      ],
-      [
-        "Mikulov",
-        "GPE"
-      ]
-    ],
-    "relations": [],
-    "srl": [
-      [
-        "He",
-        "arrived",
-        "in Mikulov in southern Moravia"
-      ],
-      [
-        "He",
-        "began",
-        "making portraits , decorative art and lettering for tombstones"
-      ],
-      [
-        "He",
-        "making",
-        "portraits , decorative art and lettering for tombstones"
-      ],
-      [
-        "He",
-        "lettering",
-        "for tombstones"
-      ]
-    ]
-  },
-  "24": {
-    "ner": [
-      [
-        "Eduard Khuen Belasi",
-        "PERSON"
-      ],
-      [
-        "Gandegg Castle",
-        "FAC"
-      ],
-      [
-        "Tyrol",
-        "GPE"
-      ],
-      [
-        "Emmahof Castle",
-        "FAC"
-      ]
-    ],
-    "relations": [
-      [
-        "Eduard Khuen Belasi",
-        "lived_in",
-        "Emmahof Castle"
-      ],
-      [
-        "Eduard Khuen Belasi",
-        "lived_in",
-        "Tyrol"
-      ],
-      [
-        "Eduard Khuen Belasi",
-        "lived_in",
-        "Gandegg Castle"
-      ]
-    ],
-    "srl": [
-      [
-        "he",
-        "paint",
-        "a series of murals"
-      ]
-    ]
-  },
-  "25": {
-    "ner": [
-      [
-        "1948",
-        "DATE"
-      ],
-      [
-        "Brno",
-        "GPE"
-      ],
-      [
-        "Emmahof",
-        "FAC"
-      ]
-    ],
-    "relations": []
-  },
-  "27": {
-    "ner": [
-      [
-        "Mucha",
-        "PERSON"
-      ],
-      [
-        "Munich",
-        "GPE"
-      ],
-      [
-        "Venice",
-        "GPE"
-      ],
-      [
-        "Belasi",
-        "PERSON"
-      ],
-      [
-        "Bavarian",
-        "NORP"
-      ],
-      [
-        "Milan",
-        "GPE"
-      ],
-      [
-        "Florence",
-        "GPE"
-      ],
-      [
-        "Wilhelm Kray",
-        "PERSON"
-      ]
-    ],
-    "relations": [
-      [
-        "Belasi",
-        "lived_in",
-        "Munich"
-      ],
-      [
-        "Wilhelm Kray",
-        "lived_in",
-        "Munich"
-      ]
-    ]
-  },
-  "28": {
-    "ner": [
-      [
-        "Munich",
-        "GPE"
-      ],
-      [
-        "Mucha",
-        "PERSON"
-      ],
-      [
-        "Belasi",
-        "PERSON"
-      ],
-      [
-        "the Munich Academy of Fine Arts",
-        "ORG"
-      ],
-      [
-        "Munich Academy of Fine Arts",
-        "ORG"
-      ]
-    ],
-    "relations": [
-      [
-        "Belasi",
-        "school_attended",
-        "the Munich Academy of Fine Arts"
-      ],
-      [
-        "Mucha",
-        "school_attended",
-        "the Munich Academy of Fine Arts"
-      ],
-      [
-        "the Munich Academy of Fine Arts",
-        "based_in",
-        "Munich"
-      ]
-    ]
-  },
-  "29": {
-    "ner": [
-      [
-        "September 1885",
-        "DATE"
-      ]
-    ],
-    "relations": [],
-    "srl": [
-      [
-        "He",
-        "moved",
-        "there in September 1885"
-      ]
-    ]
-  },
-  "30": {
-    "ner": [
-      [
-        "the Munich Academy",
-        "ORG"
-      ],
-      [
-        "Mucha",
-        "PERSON"
-      ],
-      [
-        "Munich Academy",
-        "LOC"
-      ]
-    ],
-    "relations": [
-      [
-        "Mucha",
-        "school_attended",
-        "the Munich Academy"
-      ]
-    ]
-  },
-  "31": {
-    "ner": [
-      [
-        "Slavic",
-        "NORP"
-      ],
-      [
-        "Leonid Pasternak",
-        "PERSON"
-      ],
-      [
-        "Czechs",
-        "NORP"
-      ],
-      [
-        "Boris Pasternak",
-        "PERSON"
-      ],
-      [
-        "Ludek Marold",
-        "PERSON"
-      ],
-      [
-        "Russian",
-        "NORP"
-      ],
-      [
-        "Karel Vítězslav Mašek",
-        "PERSON"
-      ]
-    ],
-    "relations": [
-      [
-        "Boris Pasternak",
-        "origin",
-        "Russian"
-      ],
-      [
-        "Ludek Marold",
-        "origin",
-        "Russian"
-      ],
-      [
-        "Karel Vítězslav Mašek",
-        "origin",
-        "Russian"
-      ],
-      [
-        "Ludek Marold",
-        "origin",
-        "Slavic"
-      ],
-      [
-        "Ludek Marold",
-        "origin",
-        "Czechs"
-      ],
-      [
-        "Karel Vítězslav Mašek",
-        "origin",
-        "Slavic"
-      ],
-      [
-        "Leonid Pasternak",
-        "origin",
-        "Russian"
-      ],
-      [
-        "Boris Pasternak",
-        "origin",
-        "Slavic"
-      ],
-      [
-        "Boris Pasternak",
-        "origin",
-        "Czechs"
-      ],
-      [
-        "Leonid Pasternak",
-        "origin",
-        "Slavic"
-      ],
-      [
-        "Karel Vítězslav Mašek",
-        "origin",
-        "Czechs"
-      ]
-    ],
-    "srl": [
-      [
-        "he",
-        "become",
-        "friends with a number of notable Slavic artists there , including the Czechs Karel Vítězslav Mašek and Ludek Marold and the Russian Leonid Pasternak , father of the famous poet and novelist Boris Pasternak"
-      ]
-    ]
-  },
-  "32": {
-    "ner": [
-      [
-        "Prague",
-        "GPE"
-      ],
-      [
-        "Czech",
-        "NORP"
-      ]
-    ],
-    "relations": [],
-    "srl": [
-      [
-        "He",
-        "founded",
-        "a Czech students ' club"
-      ],
-      [
-        "He",
-        "contributed",
-        "political illustrations to nationalist publications in Prague"
-      ]
-    ]
-  },
-  "33": {
-    "ner": [
-      [
-        "Roman Catholic",
-        "NORP"
-      ],
-      [
-        "Methodius",
-        "PERSON"
-      ],
-      [
-        "North Dakota",
-        "GPE"
-      ],
-      [
-        "Cyril",
-        "PERSON"
-      ],
-      [
-        "1886",
-        "DATE"
-      ],
-      [
-        "Czech",
-        "NORP"
-      ],
-      [
-        "Pisek",
-        "GPE"
-      ]
-    ],
-    "relations": [],
-    "srl": [
-      [
-        "he",
-        "received",
-        "a notable commission for a painting of the Czech patron saints Cyril and Methodius , from a group of Czech emigrants , including some of his relatives , who had founded a Roman Catholic church in the town of Pisek , North Dakota In 1886"
-      ]
-    ]
-  },
-  "34": {
-    "ner": [
-      [
-        "Munich",
-        "GPE"
-      ]
-    ],
-    "relations": [],
-    "srl": [
-      [
-        "He",
-        "was",
-        "very happy with the artistic environment of Munich"
-      ],
-      [
-        "he",
-        "wrote",
-        "Here I am in my new element , painting to friends"
-      ]
-    ]
-  },
-  "36": {
-    "ner": [
-      [
-        "first",
-        "ORDINAL"
-      ]
-    ],
-    "relations": []
-  },
-  "37": {
-    "ner": [
-      [
-        "Munich",
-        "GPE"
-      ],
-      [
-        "Bavarian",
-        "NORP"
-      ]
-    ],
-    "relations": [],
-    "srl": [
-      [
-        "he",
-        "found",
-        "he could not remain forever in Munich"
-      ],
-      [
-        "he",
-        "not remain",
-        " forever in Munich"
-      ]
-    ]
-  },
-  "38": {
-    "ner": [
-      [
-        "Rome",
-        "GPE"
-      ],
-      [
-        "Belasi",
-        "PERSON"
-      ],
-      [
-        "Paris",
-        "GPE"
-      ]
-    ],
-    "relations": [],
-    "srl": [
-      [
-        "he",
-        "travel",
-        "either to Rome or to Paris"
-      ]
-    ]
-  },
-  "39": {
-    "ner": [
-      [
-        "1887",
-        "DATE"
-      ],
-      [
-        "Belasi",
-        "PERSON"
-      ],
-      [
-        "Paris",
-        "GPE"
-      ]
-    ],
-    "relations": [
-      [
-        "Belasi",
-        "lived_in",
-        "Paris"
-      ]
-    ],
-    "srl": [
-      [
-        "he",
-        "decided",
-        "to move to Paris in 1887"
-      ],
-      [
-        "he",
-        "move",
-        "to Paris"
-      ]
-    ]
-  },
-  "40": {
-    "ner": [
-      [
-        "Mucha",
-        "PERSON"
-      ],
-      [
-        "the following year",
-        "DATE"
-      ],
-      [
-        "the Académie Julian",
-        "ORG"
-      ],
-      [
-        "Paris",
-        "GPE"
-      ],
-      [
-        "1889",
-        "DATE"
-      ],
-      [
-        "Académie Julian",
-        "MISC"
-      ],
-      [
-        "Académie Colarossi",
-        "ORG"
-      ],
-      [
-        "1888",
-        "DATE"
-      ]
-    ],
-    "relations": [
-      [
-        "Mucha",
-        "lived_in",
-        "Paris"
-      ]
-    ],
-    "srl": [
-      [
-        "Mucha",
-        "moved",
-        "where he enrolled in the Académie Julian and the following year , 1889 , Académie Colarossi in 1888"
-      ],
-      [
-        "he",
-        "enrolled",
-        "in the Académie Julian and the following year , 1889 , Académie Colarossi Paris"
-      ]
-    ]
-  },
-  "41": {
-    "ner": [
-      [
-        "two",
-        "CARDINAL"
-      ]
-    ],
-    "relations": []
-  },
-  "42": {
-    "ner": [
-      [
-        "Jean",
-        "PER"
-      ],
-      [
-        "the Académie Julian",
-        "ORG"
-      ],
-      [
-        "Jules Lefebvre",
-        "PERSON"
-      ],
-      [
-        "first",
-        "ORDINAL"
-      ],
-      [
-        "Académie Julian",
-        "ORG"
-      ],
-      [
-        "Jean-Paul Laurens",
-        "PERSON"
-      ],
-      [
-        "Paul Laurens",
-        "PER"
-      ]
-    ],
-    "relations": [
-      [
-        "Jules Lefebvre",
-        "school_attended",
-        "the Académie Julian"
-      ]
-    ]
-  },
-  "43": {
-    "ner": [
-      [
-        "Mucha",
-        "PERSON"
-      ],
-      [
-        "Slavic",
-        "NORP"
-      ],
-      [
-        "Paris",
-        "GPE"
-      ],
-      [
-        "thirty",
-        "DATE"
-      ],
-      [
-        "Belasi",
-        "PERSON"
-      ],
-      [
-        "Count Belasi",
-        "PER"
-      ],
-      [
-        "the end of 1889",
-        "DATE"
-      ]
-    ],
-    "relations": [
-      [
-        "Belasi",
-        "has_age",
-        "thirty"
-      ],
-      [
-        "Mucha",
-        "has_age",
-        "thirty"
-      ]
-    ],
-    "srl": [
-      [
-        "he",
-        "approached",
-        "the age of thirty"
-      ],
-      [
-        "Mucha",
-        "received",
-        "enough education"
-      ],
-      [
-        "Mucha",
-        "ended",
-        "his subsidies"
-      ],
-      [
-        "he",
-        "arrived",
-        "in Paris When"
-      ],
-      [
-        "Mucha",
-        "found",
-        "shelter When he arrived in Paris"
-      ]
-    ]
-  },
-  "44": {
-    "ner": [
-      [
-        "rue de la Grande Chaumière",
-        "FAC"
-      ],
-      [
-        "Crémerie",
-        "FAC"
-      ],
-      [
-        "13",
-        "FAC"
-      ],
-      [
-        "Charlotte Caron",
-        "PERSON"
-      ]
-    ],
-    "relations": [],
-    "srl": [
-      [
-        "He",
-        "lived",
-        " in a boarding house called the Crémerie at 13 rue de la Grande Chaumière , whose owner , Charlotte Caron , was famous for sheltering struggling artists"
-      ],
-      [
-        "she",
-        "accepted",
-        "paintings or drawings when needed in place of rent"
-      ]
-    ]
-  },
-  "45": {
-    "ner": [
-      [
-        "Munich",
-        "GPE"
-      ],
-      [
-        "Mucha",
-        "PERSON"
-      ],
-      [
-        "Czech",
-        "NORP"
-      ],
-      [
-        "Ludek Marold",
-        "PERSON"
-      ]
-    ],
-    "relations": [
-      [
-        "Ludek Marold",
-        "origin",
-        "Czech"
-      ]
-    ],
-    "srl": [
-      [
-        "Mucha",
-        "decided",
-        "to follow the path of another Czech painter he knew from Munich , Ludek Marold , who had made a successful career as an illustrator for magazines"
-      ],
-      [
-        "Mucha",
-        "follow",
-        "the path of another Czech painter he knew from Munich , Ludek Marold , who had made a successful career as an illustrator for magazines"
-      ],
-      [
-        "he",
-        "knew",
-        "another Czech painter"
-      ]
-    ]
-  },
-  "46": {
-    "ner": [
-      [
-        "La Vie",
-        "ORG"
-      ],
-      [
-        "La Vie populaire",
-        "ORG"
-      ],
-      [
-        "1891",
-        "DATE"
-      ],
-      [
-        "1890",
-        "DATE"
-      ],
-      [
-        "weekly",
-        "DATE"
-      ]
-    ],
-    "relations": [],
-    "srl": [
-      [
-        "he",
-        "began",
-        "providing illustrations for the weekly magazine La Vie populaire , which published novels in weekly segments In 1890 and 1891"
-      ],
-      [
-        "he",
-        "providing",
-        "illustrations for the weekly magazine La Vie populaire , which published novels in weekly segments"
-      ]
-    ]
-  },
-  "47": {
-    "ner": [
-      [
-        "The Useless Beauty",
-        "WORK_OF_ART"
-      ],
-      [
-        "22 May 1890",
-        "DATE"
-      ],
-      [
-        "Guy de Maupassant",
-        "PERSON"
-      ]
-    ],
-    "relations": []
-  },
-  "48": {
-    "ner": [
-      [
-        "Le Petit Français Illustré",
-        "ORG"
-      ]
-    ],
-    "relations": [],
-    "srl": [
-      [
-        "He",
-        "made",
-        "illustrations for Le Petit Français Illustré , which published stories for young people in both magazine and book form also"
-      ]
-    ]
-  },
-  "49": {
-    "ner": [
-      [
-        "Franco",
-        "PER"
-      ],
-      [
-        "the Franco-Prussian War",
-        "EVENT"
-      ],
-      [
-        "23 January 1892",
-        "DATE"
-      ],
-      [
-        "Prussian War",
-        "MISC"
-      ]
-    ],
-    "relations": [],
-    "srl": [
-      [
-        "he",
-        "provided",
-        "dramatic scenes of battles and other historic events For this magazine including a cover illustration of a scene from the Franco - Prussian War which was on 23 January 1892 edition"
-      ]
-    ]
-  },
-  "50": {
-    "ner": [
-      [
-        "first",
-        "ORDINAL"
-      ]
-    ],
-    "relations": [],
-    "srl": [
-      [
-        "He",
-        "was",
-        "able to buy a harmonium to continue his musical interests , and his first camera , which used glass - plate negatives"
-      ],
-      [
-        "He",
-        "buy",
-        "and his first camera , which used glass - plate negatives"
-      ]
-    ]
-  },
-  "52": {
-    "ner": [
-      [
-        "Paul Gauguin",
-        "PERSON"
-      ],
-      [
-        "1893",
-        "DATE"
-      ],
-      [
-        "the",
-        "DATE"
-      ],
-      [
-        "Tahiti",
-        "GPE"
-      ],
-      [
-        "Gauguin",
-        "PERSON"
-      ]
-    ],
-    "relations": [],
-    "srl": [
-      [
-        "He",
-        "became",
-        "friends with Paul Gauguin"
-      ],
-      [
-        "He",
-        "shared",
-        "a studio with him when Gauguin returned from Tahiti in the summer of 1893"
-      ]
-    ]
-  },
-  "53": {
-    "ner": [
-      [
-        "Charles Seignobos",
-        "PERSON"
-      ],
-      [
-        "Scenes and Episodes",
-        "MISC"
-      ],
-      [
-        "August Strindberg",
-        "PERSON"
-      ],
-      [
-        "late autumn 1894",
-        "DATE"
-      ],
-      [
-        "Scenes and Episodes of German History",
-        "WORK_OF_ART"
-      ],
-      [
-        "German History",
-        "MISC"
-      ]
-    ],
-    "relations": [],
-    "srl": [
-      [
-        "he",
-        "became",
-        "friends with the playwright August Strindberg , with whom he had a common interest in philosophy and mysticism In late autumn 1894 also"
-      ],
-      [
-        "he",
-        "had",
-        "a common interest in philosophy and mysticism"
-      ],
-      [
-        "he",
-        "provide",
-        "illustrations for Scenes and Episodes of German History"
-      ]
-    ]
-  },
-  "54": {
-    "ner": [
-      [
-        "Frederic Barbarossa",
-        "PERSON"
-      ],
-      [
-        "Four",
-        "CARDINAL"
-      ],
-      [
-        "1894",
-        "DATE"
-      ],
-      [
-        "Paris Salon of Artists",
-        "EVENT"
-      ]
-    ],
-    "relations": []
-  },
-  "55": {
-    "ner": [
-      [
-        "Central Library of Fine Arts",
-        "ORG"
-      ],
-      [
-        "the Central Library of Fine Arts",
-        "ORG"
-      ],
-      [
-        "Mucha",
-        "PER"
-      ],
-      [
-        "first",
-        "ORDINAL"
-      ],
-      [
-        "the early 1890s",
-        "DATE"
-      ]
-    ],
-    "relations": [],
-    "srl": [
-      [
-        "He",
-        "received",
-        "a medal of honor , his first official recognition"
-      ],
-      [
-        "Mucha",
-        "added",
-        "another important client in the early 1890s"
-      ]
-    ]
-  },
-  "56": {
-    "ner": [
-      [
-        "1897",
-        "DATE"
-      ],
-      [
-        "Art et Decoration",
-        "ORG"
-      ],
-      [
-        "Art Nouveau",
-        "MISC"
-      ]
-    ],
-    "relations": []
-  },
-  "57": {
-    "ner": [
-      [
-        "La Costume au théâtre",
-        "ORG"
-      ],
-      [
-        "Eugène Manuel",
-        "PERSON"
-      ]
-    ],
-    "relations": [],
-    "srl": [
-      [
-        "He",
-        "continued",
-        "to publish illustrations for his other clients , including illustrating a children 's book of poetry by Eugène Manuel , and illustrations for a magazine of the theater arts , called La Costume au théâtre"
-      ],
-      [
-        "He",
-        "publish",
-        "illustrations for his other clients , including illustrating a children 's book of poetry by Eugène Manuel , and illustrations for a magazine of the theater arts , called La Costume au théâtre"
-      ],
-      [
-        "He",
-        "illustrating",
-        "a children 's book of poetry by Eugène Manuel"
-      ]
-    ]
-  },
-  "58": {
-    "ner": [
-      [
-        "Sarah Bernhardt",
-        "PERSON"
-      ],
-      [
-        "the end of 1894",
-        "DATE"
-      ],
-      [
-        "French",
-        "NORP"
-      ]
-    ],
-    "relations": [],
-    "srl": [
-      [
-        "he",
-        "began",
-        "to work for French stage actress Sarah Bernhardt when"
-      ],
-      [
-        "he",
-        "work",
-        "for French stage actress Sarah Bernhardt"
-      ]
-    ]
-  },
-  "59": {
-    "ner": [
-      [
-        "Mucha",
-        "PERSON"
-      ],
-      [
-        "Bernhardt",
-        "PERSON"
-      ],
-      [
-        "Lemercier",
-        "ORG"
-      ],
-      [
-        "Maurice de Brunhoff",
-        "PERSON"
-      ],
-      [
-        "26 December",
-        "DATE"
-      ],
-      [
-        "Gismonda",
-        "WORK_OF_ART"
-      ]
-    ],
-    "relations": [],
-    "srl": [
-      [
-        "Mucha",
-        "described",
-        "it later"
-      ]
-    ]
-  },
-  "60": {
-    "ner": [
-      [
-        "the Boulevard Saint-Martin",
-        "FAC"
-      ],
-      [
-        "Martin",
-        "PER"
-      ],
-      [
-        "Théâtre de la Renaissance",
-        "LOC"
-      ],
-      [
-        "Boulevard Saint",
-        "LOC"
-      ],
-      [
-        "Victorien Sardou",
-        "PERSON"
-      ],
-      [
-        "31 October 1894",
-        "DATE"
-      ],
-      [
-        "the Théâtre de la Renaissance",
-        "FAC"
-      ]
-    ],
-    "relations": []
-  },
-  "61": {
-    "ner": [
-      [
-        "Christmas",
-        "DATE"
-      ],
-      [
-        "Bernhardt",
-        "PERSON"
-      ],
-      [
-        "1 January 1895",
-        "DATE"
-      ]
-    ],
-    "relations": []
-  },
-  "62": {
-    "ner": [
-      [
-        "Mucha",
-        "PERSON"
-      ],
-      [
-        "Bernhardt",
-        "PERSON"
-      ],
-      [
-        "Lemercier",
-        "FAC"
-      ]
-    ],
-    "relations": [],
-    "srl": [
-      [
-        "Mucha",
-        "happened",
-        " When Bernhardt called"
-      ],
-      [
-        "Mucha",
-        "be",
-        "at the publishing house correcting proofs"
-      ],
-      [
-        "Mucha",
-        "correcting",
-        "proofs"
-      ]
-    ]
-  },
-  "63": {
-    "ner": [
-      [
-        "Cleopatra",
-        "PERSON"
-      ],
-      [
-        "Bernhardt",
-        "PERSON"
-      ],
-      [
-        "1890",
-        "DATE"
-      ],
-      [
-        "Costume au Théâtre",
-        "ORG"
-      ]
-    ],
-    "relations": [],
-    "srl": [
-      [
-        "He",
-        "had",
-        "experience painting Bernhardt already"
-      ],
-      [
-        "He",
-        "painting",
-        "Bernhardt"
-      ],
-      [
-        "he",
-        "made",
-        "a series of illustrations of her performing in Cleopatra for Costume au Théâtre in 1890"
-      ]
-    ]
-  },
-  "64": {
-    "ner": [
-      [
-        "Mucha",
-        "PERSON"
-      ],
-      [
-        "Bernhardt",
-        "PERSON"
-      ],
-      [
-        "October 1894",
-        "DATE"
-      ],
-      [
-        "fifty centimes",
-        "MONEY"
-      ],
-      [
-        "Gismonda",
-        "FAC"
-      ],
-      [
-        "Brunhoff",
-        "PER"
-      ],
-      [
-        "Le Gaulois",
-        "ORG"
-      ],
-      [
-        "Christmas 1894",
-        "DATE"
-      ],
-      [
-        "Christmas",
-        "DATE"
-      ]
-    ],
-    "relations": [],
-    "srl": [
-      [
-        "Mucha",
-        "make",
-        "a series of illustrations of Bernhardt in the role for a special Christmas supplement , which was published at Christmas 1894 for the high price of fifty centimes a copy"
-      ],
-      [
-        "Mucha",
-        "design",
-        "the new poster for Bernhardt"
-      ]
-    ]
-  },
-  "65": {
-    "ner": [
-      [
-        "a little more than two meters",
-        "QUANTITY"
-      ],
-      [
-        "Bernhardt",
-        "PERSON"
-      ],
-      [
-        "Byzantine",
-        "NORP"
-      ]
-    ],
-    "relations": []
-  },
-  "66": {
-    "ner": [
-      [
-        "One",
-        "CARDINAL"
-      ]
-    ],
-    "relations": []
-  },
-  "68": {
-    "ner": [
-      [
-        "Byzantine",
-        "NORP"
-      ]
-    ],
-    "relations": []
-  },
-  "70": {
-    "ner": [
-      [
-        "1 January 1895",
-        "DATE"
-      ],
-      [
-        "Paris",
-        "GPE"
-      ]
-    ],
-    "relations": []
-  },
-  "71": {
-    "ner": [
-      [
-        "four thousand",
-        "CARDINAL"
-      ],
-      [
-        "Mucha",
-        "PERSON"
-      ],
-      [
-        "Bernhardt",
-        "PERSON"
-      ],
-      [
-        "1895",
-        "DATE"
-      ],
-      [
-        "six-year",
-        "DATE"
-      ],
-      [
-        "1896",
-        "DATE"
-      ]
-    ],
-    "relations": [],
-    "srl": [
-      [
-        "she",
-        "ordered",
-        "four thousand copies of the poster in 1895 and 1896"
-      ],
-      [
-        "she",
-        "gave",
-        "a six - year contract to produce more Mucha"
-      ]
-    ]
-  },
-  "72": {
-    "ner": [
-      [
-        "Mucha",
-        "PERSON"
-      ],
-      [
-        "Bernhardt",
-        "PERSON"
-      ],
-      [
-        "six years",
-        "DATE"
-      ],
-      [
-        "Gismonda",
-        "PERSON"
-      ],
-      [
-        "F. Champenois",
-        "ORG"
-      ]
-    ],
-    "relations": [],
-    "srl": [
-      [
-        "Mucha",
-        "found",
-        "himself quite suddenly famous"
-      ]
-    ]
-  },
-  "73": {
-    "ner": [
-      [
-        "Champenois",
-        "PERSON"
-      ],
-      [
-        "twenty",
-        "CARDINAL"
-      ],
-      [
-        "Boulevard Saint Michel",
-        "FAC"
-      ],
-      [
-        "three hundred",
-        "CARDINAL"
-      ]
-    ],
-    "relations": []
-  },
-  "74": {
-    "ner": [
-      [
-        "monthly",
-        "DATE"
-      ],
-      [
-        "Mucha",
-        "PERSON"
-      ]
-    ],
-    "relations": [],
-    "srl": [
-      [
-        "He",
-        "gave",
-        "a generous monthly salary Mucha"
-      ]
-    ]
-  },
-  "75": {
-    "ner": [
-      [
-        "Bernhardt",
-        "PERSON"
-      ],
-      [
-        "François Mansart.Mucha",
-        "PERSON"
-      ],
-      [
-        "rue du Val-de-Grâce",
-        "FAC"
-      ],
-      [
-        "Lorenzaccio",
-        "WORK_OF_ART"
-      ],
-      [
-        "La Dame aux Camelias",
-        "WORK_OF_ART"
-      ],
-      [
-        "Medea",
-        "WORK_OF_ART"
-      ],
-      [
-        "rue du Val",
-        "LOC"
-      ],
-      [
-        "6",
-        "FAC"
-      ],
-      [
-        "Hamlet",
-        "WORK_OF_ART"
-      ],
-      [
-        "1896",
-        "DATE"
-      ],
-      [
-        "Mucha",
-        "PERSON"
-      ],
-      [
-        "La Tosca",
-        "WORK_OF_ART"
-      ],
-      [
-        "Mucha",
-        "PER"
-      ],
-      [
-        "three-bedroom",
-        "CARDINAL"
-      ],
-      [
-        "François Mansart",
-        "PER"
-      ],
-      [
-        "1898",
-        "DATE"
-      ],
-      [
-        "one",
-        "CARDINAL"
-      ],
-      [
-        "Grâce",
-        "PER"
-      ],
-      [
-        "1899",
-        "DATE"
-      ]
-    ],
-    "relations": [],
-    "srl": [
-      [
-        "Mucha",
-        "was",
-        "able to move to a three - bedroom apartment with a large studio inside a large historic house at 6 rue du Val - de - Grâce originally built by François Mansart"
-      ],
-      [
-        "Mucha",
-        "move",
-        "to a three - bedroom apartment with a large studio inside a large historic house at 6 rue du Val - de - Grâce originally built by François Mansart"
-      ],
-      [
-        "Mucha",
-        "designed",
-        "posters for each successive Bernhardt play"
-      ]
-    ]
-  },
-  "76": {
-    "ner": [
-      [
-        "La Tosca",
-        "WORK_OF_ART"
-      ],
-      [
-        "Bernhardt",
-        "PERSON"
-      ]
-    ],
-    "relations": [],
-    "srl": [
-      [
-        "He",
-        "worked",
-        "from photographs of Bernhardt sometimes"
-      ],
-      [
-        "he",
-        "did",
-        "for La Tosca"
-      ]
-    ]
-  },
-  "77": {
-    "ner": [
-      [
-        "Bernhardt",
-        "PERSON"
-      ]
-    ],
-    "relations": [],
-    "srl": [
-      [
-        "he",
-        "designed",
-        "theatrical programs , sets , costumes , and jewelry for Bernhardt In addition to posters"
-      ]
-    ]
-  },
-  "78": {
-    "ner": [
-      [
-        "Bernhardt",
-        "PERSON"
-      ]
-    ],
-    "relations": []
-  },
-  "79": {
-    "ner": [
-      [
-        "Mucha",
-        "PERSON"
-      ],
-      [
-        "Bernhardt",
-        "PERSON"
-      ]
-    ],
-    "relations": []
-  },
-  "80": {
-    "ner": [
-      [
-        "Ruinart Champagne",
-        "MISC"
-      ],
-      [
-        "Nestlé",
-        "ORG"
-      ],
-      [
-        "Waverly and Perfect",
-        "ORG"
-      ],
-      [
-        "Beers of the Meuse",
-        "MISC"
-      ],
-      [
-        "the Beers of the Meuse",
-        "ORG"
-      ],
-      [
-        "JOB",
-        "ORG"
-      ],
-      [
-        "Chandon",
-        "MISC"
-      ],
-      [
-        "Idéal Chocolate",
-        "ORG"
-      ],
-      [
-        "Ruinart",
-        "ORG"
-      ],
-      [
-        "Moët",
-        "MISC"
-      ],
-      [
-        "Trappestine",
-        "ORG"
-      ],
-      [
-        "Lefèvre",
-        "PER"
-      ],
-      [
-        "Utile",
-        "ORG"
-      ],
-      [
-        "Waverly",
-        "PER"
-      ],
-      [
-        "Lefèvre-Utile",
-        "ORG"
-      ],
-      [
-        "Moët-Chandon",
-        "ORG"
-      ]
-    ],
-    "relations": [],
-    "srl": [
-      [
-        "He",
-        "designed",
-        "posters for JOB cigarette papers , Ruinart Champagne , Lefèvre - Utile biscuits , Nestlé baby food , Idéal Chocolate , the Beers of the Meuse , Moët - Chandon champagne , Trappestine brandy , and Waverly and Perfect bicycles"
-      ]
-    ]
-  },
-  "83": {
-    "ner": [
-      [
-        "four",
-        "CARDINAL"
-      ],
-      [
-        "first",
-        "ORDINAL"
-      ],
-      [
-        "1896",
-        "DATE"
-      ],
-      [
-        "The Seasons",
-        "WORK_OF_ART"
-      ]
-    ],
-    "relations": []
-  },
-  "84": {
-    "ner": [
-      [
-        "Reverie",
-        "WORK_OF_ART"
-      ],
-      [
-        "1897",
-        "DATE"
-      ],
-      [
-        "Champenois",
-        "MISC"
-      ]
-    ],
-    "relations": [],
-    "srl": [
-      [
-        "he",
-        "produced",
-        "an individual decorative panel of a young woman in a floral setting , called Reverie , for Champenois In 1897"
-      ]
-    ]
-  },
-  "86": {
-    "ner": [
-      [
-        "1897",
-        "DATE"
-      ],
-      [
-        "Léon Deschamps",
-        "PERSON"
-      ],
-      [
-        "La Plume",
-        "ORG"
-      ]
-    ],
-    "relations": []
-  },
-  "87": {
-    "ner": [
-      [
-        "The Flowers, The Arts",
-        "WORK_OF_ART"
-      ],
-      [
-        "The Arts",
-        "MISC"
-      ],
-      [
-        "The Times of Day",
-        "WORK_OF_ART"
-      ],
-      [
-        "The Moon and the Stars",
-        "WORK_OF_ART"
-      ],
-      [
-        "Seasons",
-        "WORK_OF_ART"
-      ],
-      [
-        "Precious Stones",
-        "WORK_OF_ART"
-      ],
-      [
-        "1898",
-        "DATE"
-      ],
-      [
-        "The Seasons",
-        "MISC"
-      ],
-      [
-        "1900",
-        "DATE"
-      ],
-      [
-        "The Flowers",
-        "MISC"
-      ],
-      [
-        "1899",
-        "DATE"
-      ],
-      [
-        "1902",
-        "DATE"
-      ]
-    ],
-    "relations": []
-  },
-  "88": {
-    "ner": [
-      [
-        "Between 1896 and 1904",
-        "DATE"
-      ],
-      [
-        "Mucha",
-        "PERSON"
-      ],
-      [
-        "Champenois",
-        "ORG"
-      ],
-      [
-        "over one hundred",
-        "CARDINAL"
-      ]
-    ],
-    "relations": [],
-    "srl": [
-      [
-        "Mucha",
-        "created",
-        "over one hundred poster designs for Champenois Between 1896 and 1904"
-      ]
-    ]
-  },
-  "89": {
-    "ner": [
-      [
-        "Japanese",
-        "NORP"
-      ]
-    ],
-    "relations": []
-  },
-  "90": {
-    "ner": [
-      [
-        "Deschamps",
-        "PERSON"
-      ],
-      [
-        "Monte-Carlo",
-        "GPE"
-      ],
-      [
-        "Monaco",
-        "GPE"
-      ],
-      [
-        "Paris",
-        "GPE"
-      ],
-      [
-        "Monaco",
-        "LOC"
-      ],
-      [
-        "Monaco-Monte-Carlo",
-        "GPE"
-      ],
-      [
-        "448",
-        "CARDINAL"
-      ],
-      [
-        "Carlo",
-        "PER"
-      ],
-      [
-        "1896",
-        "DATE"
-      ],
-      [
-        "1897",
-        "DATE"
-      ],
-      [
-        "Salon des Cent",
-        "ORG"
-      ],
-      [
-        "Monte",
-        "LOC"
-      ]
-    ],
-    "relations": [],
-    "srl": [
-      [
-        "he",
-        "show",
-        "his work in 1896 in the Salon des Cent exhibition"
-      ],
-      [
-        "he",
-        "have",
-        "a major retrospective in the same gallery showing 448 works in 1897"
-      ]
-    ]
-  },
-  "91": {
-    "ner": [
-      [
-        "Prague",
-        "GPE"
-      ],
-      [
-        "Munich",
-        "GPE"
-      ],
-      [
-        "New York",
-        "GPE"
-      ],
-      [
-        "Vienna",
-        "GPE"
-      ],
-      [
-        "La Plume",
-        "ORG"
-      ],
-      [
-        "London",
-        "GPE"
-      ],
-      [
-        "Brussels",
-        "GPE"
-      ]
-    ],
-    "relations": []
-  },
-  "92": {
-    "ner": [
-      [
-        "Mucha",
-        "PERSON"
-      ],
-      [
-        "The Paris Universal Exposition of 1900",
-        "EVENT"
-      ],
-      [
-        "Vienna",
-        "GPE"
-      ],
-      [
-        "Art Nouveau",
-        "MISC"
-      ],
-      [
-        "Paris Universal Exposition of 1900",
-        "MISC"
-      ],
-      [
-        "first",
-        "ORDINAL"
-      ]
-    ],
-    "relations": [],
-    "srl": [
-      [
-        "Mucha",
-        "move",
-        "toward the large - scale historical paintings which he had admired in Vienna"
-      ],
-      [
-        "he",
-        "admired",
-        "the large - scale historical paintings in Vienna"
-      ]
-    ]
-  },
-  "93": {
-    "ner": [
-      [
-        "Czech",
-        "NORP"
-      ]
-    ],
-    "relations": []
-  },
-  "94": {
-    "ner": [
-      [
-        "French",
-        "NORP"
-      ]
-    ],
-    "relations": []
-  },
-  "95": {
-    "ner": [
-      [
-        "Moravia",
-        "GPE"
-      ],
-      [
-        "Mucha",
-        "PERSON"
-      ],
-      [
-        "Sarah Bernhardt",
-        "PERSON"
-      ],
-      [
-        "Czech",
-        "NORP"
-      ],
-      [
-        "La France",
-        "WORK_OF_ART"
-      ]
-    ],
-    "relations": [
-      [
-        "Mucha",
-        "origin",
-        "Czech"
-      ]
-    ],
-    "srl": [
-      [
-        "Mucha",
-        "was",
-        "a Czech from Moravia"
-      ]
-    ]
-  },
-  "96": {
-    "ner": [
-      [
-        "Herzegovina",
-        "LOC"
-      ],
-      [
-        "Exposition",
-        "EVENT"
-      ],
-      [
-        "the Pavilion of Bosnia and Herzegovina",
-        "FAC"
-      ],
-      [
-        "Pavilion of Bosnia",
-        "LOC"
-      ],
-      [
-        "Austrian",
-        "NORP"
-      ]
-    ],
-    "relations": [],
-    "srl": [
-      [
-        "He",
-        "applied",
-        "to the Austrian government"
-      ],
-      [
-        "He",
-        "received",
-        "a commission to create murals for the Pavilion of Bosnia and Herzegovina at the Exposition"
-      ]
-    ]
-  },
-  "97": {
-    "ner": [
-      [
-        "Austria",
-        "GPE"
-      ],
-      [
-        "the Treaty of Berlin",
-        "LAW"
-      ],
-      [
-        "1878",
-        "DATE"
-      ],
-      [
-        "Treaty of Berlin",
-        "LOC"
-      ],
-      [
-        "Turkey",
-        "GPE"
-      ]
-    ],
-    "relations": []
-  },
-  "98": {
-    "ner": [
-      [
-        "three",
-        "CARDINAL"
-      ],
-      [
-        "more than twelve meters",
-        "QUANTITY"
-      ],
-      [
-        "Exposition",
-        "EVENT"
-      ],
-      [
-        "two",
-        "CARDINAL"
-      ]
-    ],
-    "relations": []
-  },
-  "99": {
-    "ner": [
-      [
-        "Mucha",
-        "PER"
-      ],
-      [
-        "Slavic",
-        "NORP"
-      ]
-    ],
-    "relations": []
-  },
-  "100": {
-    "ner": [
-      [
-        "World 's Fair",
-        "MISC"
-      ],
-      [
-        "Austrian",
-        "NORP"
-      ],
-      [
-        "a World's Fair",
-        "EVENT"
-      ]
-    ],
-    "relations": []
-  },
-  "101": {
-    "ner": [
-      [
-        "Orthodox",
-        "NORP"
-      ],
-      [
-        "Balkans",
-        "LOC"
-      ],
-      [
-        "Orthodox Christians",
-        "MISC"
-      ],
-      [
-        "Catholic",
-        "NORP"
-      ],
-      [
-        "Muslims",
-        "NORP"
-      ],
-      [
-        "Christians",
-        "NORP"
-      ]
-    ],
-    "relations": [],
-    "srl": [
-      [
-        "He",
-        "changed",
-        "his project to depict a future society in the Balkans where Catholic and Orthodox Christians and Muslims lived in harmony together"
-      ],
-      [
-        "he",
-        "began",
-        "work"
-      ]
-    ]
-  },
-  "102": {
-    "ner": [
-      [
-        "Balkan",
-        "NORP"
-      ],
-      [
-        "Mucha",
-        "PERSON"
-      ],
-      [
-        "Balkans",
-        "LOC"
-      ]
-    ],
-    "relations": [],
-    "srl": [
-      [
-        "Mucha",
-        "departed",
-        " immediately"
-      ],
-      [
-        "Mucha",
-        "make",
-        "sketches of Balkan costumes , ceremonies and architecture which he put into his new work"
-      ],
-      [
-        "he",
-        "put",
-        "sketches of Balkan costumes , ceremonies and architecture into his new work"
-      ]
-    ]
-  },
-  "103": {
-    "ner": [
-      [
-        "Bosnia Offers Her Products",
-        "MISC"
-      ],
-      [
-        "three",
-        "CARDINAL"
-      ],
-      [
-        "Universal Exposition",
-        "MISC"
-      ],
-      [
-        "one",
-        "CARDINAL"
-      ],
-      [
-        "Bosnia Offers Her Products to the Universal Exposition",
-        "WORK_OF_ART"
-      ]
-    ],
-    "relations": []
-  },
-  "104": {
-    "ner": [
-      [
-        "Bosnians",
-        "NORP"
-      ]
-    ],
-    "relations": [],
-    "srl": [
-      [
-        "He",
-        "include",
-        "some images of the sufferings of the Bosnians under foreign rule which appear in the arched band at the top of the mural"
-      ]
-    ]
-  },
-  "107": {
-    "ner": [
-      [
-        "Mucha",
-        "PERSON"
-      ],
-      [
-        "the Bosnia Pavilion.His",
-        "FAC"
-      ],
-      [
-        "Exposition",
-        "EVENT"
-      ],
-      [
-        "Bosnia Pavilion",
-        "LOC"
-      ]
-    ],
-    "relations": [],
-    "srl": [
-      [
-        "Mucha",
-        "designed",
-        "a menu for the restaurant of the Bosnia Pavilion In addition to the murals"
-      ]
-    ]
-  },
-  "108": {
-    "ner": [
-      [
-        "Bosnian pavilion",
-        "FAC"
-      ],
-      [
-        "Bosnian",
-        "MISC"
-      ],
-      [
-        "Exposition",
-        "EVENT"
-      ],
-      [
-        "Austrian",
-        "NORP"
-      ]
-    ],
-    "relations": [],
-    "srl": [
-      [
-        "He",
-        "designed",
-        "the posters for the official Austrian participation in the Exposition , the menu for the restaurant at the Bosnian pavilion , and menu for the official opening banquet"
-      ]
-    ]
-  },
-  "109": {
-    "ner": [
-      [
-        "Houbigant",
-        "PERSON"
-      ],
-      [
-        "Georges Fouquet",
-        "PERSON"
-      ]
-    ],
-    "relations": [],
-    "srl": [
-      [
-        "He",
-        "produced",
-        "displays for the jeweler Georges Fouquet and the perfume maker Houbigant"
-      ]
-    ]
-  },
-  "110": {
-    "ner": [
-      [
-        "French Government",
-        "NORP"
-      ],
-      [
-        "Exposition",
-        "EVENT"
-      ],
-      [
-        "the Legion of Honour",
-        "WORK_OF_ART"
-      ],
-      [
-        "Knight of the Order of Franz Joseph",
-        "WORK_OF_ART"
-      ],
-      [
-        "Knight of the Order",
-        "MISC"
-      ],
-      [
-        "Le Pater",
-        "WORK_OF_ART"
-      ],
-      [
-        "Franz Joseph",
-        "PER"
-      ],
-      [
-        "Legion of Honour",
-        "MISC"
-      ],
-      [
-        "French",
-        "MISC"
-      ],
-      [
-        "Austrian Pavilion",
-        "MISC"
-      ],
-      [
-        "the Austrian Pavilion",
-        "FAC"
-      ],
-      [
-        "the Grand Palais.His",
-        "FAC"
-      ],
-      [
-        "Grand Palais",
-        "LOC"
-      ],
-      [
-        "Austrian",
-        "NORP"
-      ]
-    ],
-    "relations": []
-  },
-  "111": {
-    "ner": [
-      [
-        "Mucha",
-        "PERSON"
-      ],
-      [
-        "Exposition",
-        "EVENT"
-      ]
-    ],
-    "relations": [],
-    "srl": [
-      [
-        "Mucha",
-        "proposed",
-        "another unusual project During the course of the Exposition"
-      ]
-    ]
-  },
-  "112": {
-    "ner": [
-      [
-        "Eiffel Tower",
-        "LOC"
-      ],
-      [
-        "Exposition",
-        "EVENT"
-      ],
-      [
-        "the Eiffel Tower",
-        "FAC"
-      ],
-      [
-        "French",
-        "NORP"
-      ]
-    ],
-    "relations": []
-  },
-  "113": {
-    "ner": [
-      [
-        "Mucha",
-        "PERSON"
-      ],
-      [
-        "Exposition",
-        "EVENT"
-      ]
-    ],
-    "relations": [],
-    "srl": [
-      [
-        "Mucha",
-        "proposed",
-        "that , after the Exposition , the top of the tower should be replaced by a sculptural monument to humanity be constructed on the pedestal"
-      ]
-    ]
-  },
-  "114": {
-    "ner": [
-      [
-        "Exhibit",
-        "EVENT"
-      ],
-      [
-        "the Eiffel Tower",
-        "FAC"
-      ],
-      [
-        "Eiffel Tower",
-        "LOC"
-      ],
-      [
-        "Parisians",
-        "NORP"
-      ]
-    ],
-    "relations": []
-  },
-  "115": {
-    "ner": [
-      [
-        "Mucha",
-        "PERSON"
-      ]
-    ],
-    "relations": []
-  },
-  "116": {
-    "ner": [
-      [
-        "Documents Decoratifs",
-        "WORK_OF_ART"
-      ],
-      [
-        "1902",
-        "DATE"
-      ]
-    ],
-    "relations": []
-  },
-  "117": {
-    "ner": [
-      [
-        "Bernhardt",
-        "PERSON"
-      ],
-      [
-        "Sarah Bernhardt",
-        "PERSON"
-      ],
-      [
-        "Medea",
-        "EVENT"
-      ],
-      [
-        "Georges Fouquet",
-        "PERSON"
-      ],
-      [
-        "1899",
-        "DATE"
-      ]
-    ],
-    "relations": [],
-    "srl": [
-      [
-        "he",
-        "collaborated",
-        "with the jeweler Georges Fouquet to make a bracelet for Sarah Bernhardt in the form of a serpent , made of gold and enamel , similar to the costume jewelry Bernhardt wore in Medea In 1899"
-      ],
-      [
-        "he",
-        "make",
-        "a bracelet for Sarah Bernhardt in the form of a serpent , made of gold and enamel , similar to the costume jewelry Bernhardt wore in Medea"
-      ]
-    ]
-  },
-  "118": {
-    "ner": [
-      [
-        "Jiri Mucha",
-        "PERSON"
-      ],
-      [
-        "Bernhardt",
-        "PERSON"
-      ]
-    ],
-    "relations": []
-  },
-  "119": {
-    "ner": [
-      [
-        "Mucha",
-        "PERSON"
-      ],
-      [
-        "Art Nouveau",
-        "MISC"
-      ]
-    ],
-    "relations": []
-  },
-  "120": {
-    "ner": [
-      [
-        "Fouquet",
-        "PERSON"
-      ],
-      [
-        "Mucha",
-        "PERSON"
-      ],
-      [
-        "Cascade",
-        "PRODUCT"
-      ],
-      [
-        "1900",
-        "DATE"
-      ]
-    ],
-    "relations": []
-  },
-  "121": {
-    "ner": [
-      [
-        "Maxim's",
-        "ORG"
-      ],
-      [
-        "6 Rue Royale",
-        "FAC"
-      ],
-      [
-        "1900 Exposition",
-        "MISC"
-      ],
-      [
-        "Exposition",
-        "EVENT"
-      ],
-      [
-        "Rue Royale",
-        "LOC"
-      ],
-      [
-        "Fouquet",
-        "PERSON"
-      ],
-      [
-        "Maxim 's",
-        "ORG"
-      ],
-      [
-        "1900",
-        "DATE"
-      ]
-    ],
-    "relations": []
-  },
-  "122": {
-    "ner": [
-      [
-        "Mucha",
-        "PERSON"
-      ],
-      [
-        "two",
-        "CARDINAL"
-      ]
-    ],
-    "relations": [],
-    "srl": [
-      [
-        "He",
-        "asked",
-        "to design the interior Mucha"
-      ],
-      [
-        "Mucha",
-        "design",
-        "the interior"
-      ]
-    ]
-  },
-  "123": {
-    "ner": [
-      [
-        "three",
-        "CARDINAL"
-      ]
-    ],
-    "relations": []
-  },
-  "125": {
-    "ner": [
-      [
-        "Nouveau",
-        "ORG"
-      ],
-      [
-        "1901",
-        "DATE"
-      ],
-      [
-        "Art Nouveau",
-        "MISC"
-      ],
-      [
-        "Salon",
-        "ORG"
-      ],
-      [
-        "Art Nouveau",
-        "PERSON"
-      ]
-    ],
-    "relations": [
-      [
-        "Salon",
-        "founded_in",
-        "1901"
-      ]
-    ]
-  },
-  "126": {
-    "ner": [
-      [
-        "1923",
-        "DATE"
-      ]
-    ],
-    "relations": []
-  },
-  "127": {
-    "ner": [
-      [
-        "Paris",
-        "GPE"
-      ],
-      [
-        "1949",
-        "DATE"
-      ],
-      [
-        "Carnavalet Museum",
-        "LOC"
-      ],
-      [
-        "the Carnavalet Museum",
-        "ORG"
-      ],
-      [
-        "1914",
-        "DATE"
-      ]
-    ],
-    "relations": [
-      [
-        "the Carnavalet Museum",
-        "based_in",
-        "Paris"
-      ]
-    ]
-  },
-  "128": {
-    "ner": [
-      [
-        "Mucha",
-        "PERSON"
-      ],
-      [
-        "Librarie Centrale des Beaux",
-        "ORG"
-      ],
-      [
-        "the Librarie Centrale des Beaux-arts",
-        "ORG"
-      ],
-      [
-        "seventy-two",
-        "CARDINAL"
-      ],
-      [
-        "Documents Decoratifs",
-        "WORK_OF_ART"
-      ],
-      [
-        "1902",
-        "DATE"
-      ]
-    ],
-    "relations": []
-  },
-  "130": {
-    "ner": [
-      [
-        "Paris",
-        "GPE"
-      ],
-      [
-        "Academy Colarossi",
-        "ORG"
-      ],
-      [
-        "about 1900",
-        "DATE"
-      ],
-      [
-        "first",
-        "ORDINAL"
-      ],
-      [
-        "the Academy Colarossi",
-        "ORG"
-      ]
-    ],
-    "relations": [],
-    "srl": [
-      [
-        "he",
-        "begun",
-        "to teach at the Academy Colarossi , where he himself had been a student when he first arrived in Paris In about 1900"
-      ],
-      [
-        "he",
-        "teach",
-        " at the Academy Colarossi , where he himself had been a student when he first arrived in Paris"
-      ],
-      [
-        "he",
-        "arrived",
-        "in Paris first"
-      ]
-    ]
-  },
-  "131": {
-    "ner": [
-      [
-        "Mucha",
-        "PERSON"
-      ]
-    ],
-    "relations": []
-  },
-  "132": {
-    "ner": [
-      [
-        "Mucha",
-        "PERSON"
-      ]
-    ],
-    "relations": [],
-    "srl": [
-      [
-        "Mucha",
-        "made",
-        "a considerable income from his theatrical and advertising work"
-      ],
-      [
-        "he",
-        "wished",
-        "to be recognized as a serious artist and philosopher"
-      ],
-      [
-        "he",
-        "recognized",
-        "as a serious artist and philosopher"
-      ]
-    ]
-  },
-  "133": {
-    "ner": [
-      [
-        "Catholic",
-        "NORP"
-      ]
-    ],
-    "relations": [],
-    "srl": [
-      [
-        "He",
-        "was",
-        "a devoted Catholic"
-      ],
-      [
-        "He",
-        "was",
-        "interested in mysticism also"
-      ]
-    ]
-  },
-  "134": {
-    "ner": [
-      [
-        "Grand Orient de France",
-        "LOC"
-      ],
-      [
-        "the Grand Orient de France",
-        "LOC"
-      ],
-      [
-        "January 1898",
-        "DATE"
-      ],
-      [
-        "Paris",
-        "GPE"
-      ]
-    ],
-    "relations": [
-      [
-        "the Grand Orient de France",
-        "based_in",
-        "Paris"
-      ]
-    ],
-    "srl": [
-      [
-        "he",
-        "joined",
-        "the Paris masonic lodge of the Grand Orient de France In January 1898"
-      ]
-    ]
-  },
-  "135": {
-    "ner": [
-      [
-        "1900 Exposition",
-        "MISC"
-      ],
-      [
-        "Exposition",
-        "EVENT"
-      ],
-      [
-        "1900",
-        "DATE"
-      ]
-    ],
-    "relations": [],
-    "srl": [
-      [
-        "he",
-        "wrote",
-        " in his memoirs"
-      ]
-    ]
-  },
-  "139": {
-    "ner": [
-      [
-        "Lord 's Prayer",
-        "ORG"
-      ],
-      [
-        "Pater Noster",
-        "ORG"
-      ],
-      [
-        "The Pater Noster",
-        "WORK_OF_ART"
-      ]
-    ],
-    "relations": []
-  },
-  "140": {
-    "ner": [
-      [
-        "only 510",
-        "CARDINAL"
-      ],
-      [
-        "\"Le Pater",
-        "PER"
-      ],
-      [
-        "Le Pater",
-        "WORK_OF_ART"
-      ],
-      [
-        "Henri Piazza",
-        "PERSON"
-      ],
-      [
-        "First",
-        "ORDINAL"
-      ],
-      [
-        "20 December 1899",
-        "DATE"
-      ]
-    ],
-    "relations": [],
-    "srl": [
-      [
-        "He",
-        "approached",
-        "his publisher , Henri Piazza"
-      ],
-      [
-        "He",
-        "proposed",
-        "the book"
-      ]
-    ]
-  },
-  "141": {
-    "ner": [
-      [
-        "1900 Exposition",
-        "MISC"
-      ],
-      [
-        "Exposition",
-        "EVENT"
-      ],
-      [
-        "Austrian",
-        "NORP"
-      ],
-      [
-        "1900",
-        "DATE"
-      ]
-    ],
-    "relations": []
-  },
-  "142": {
-    "ner": [
-      [
-        "New York Sun",
-        "LOC"
-      ],
-      [
-        "Le Pater",
-        "WORK_OF_ART"
-      ],
-      [
-        "5 January 1900",
-        "DATE"
-      ],
-      [
-        "the New York Sun",
-        "ORG"
-      ]
-    ],
-    "relations": [],
-    "srl": [
-      [
-        "He",
-        "considered",
-        "Le Pater to be his printed masterpiece"
-      ],
-      [
-        "He",
-        "referred",
-        "to it as a work into which he had \" put his soul \" in the New York Sun of 5 January 1900"
-      ],
-      [
-        "he",
-        "put",
-        "his soul a work"
-      ]
-    ]
-  },
-  "143": {
-    "ner": [
-      [
-        "Charles Masson",
-        "PERSON"
-      ],
-      [
-        "Art et Decoration",
-        "ORG"
-      ]
-    ],
-    "relations": [
-      [
-        "Charles Masson",
-        "employee_of",
-        "Art et Decoration"
-      ]
-    ]
-  },
-  "144": {
-    "ner": [
-      [
-        "Mucha",
-        "PERSON"
-      ],
-      [
-        "the United States",
-        "GPE"
-      ],
-      [
-        "New York",
-        "GPE"
-      ],
-      [
-        "first",
-        "ORDINAL"
-      ],
-      [
-        "March 1904",
-        "DATE"
-      ],
-      [
-        "United States",
-        "LOC"
-      ]
-    ],
-    "relations": [],
-    "srl": [
-      [
-        "Mucha",
-        "sailed",
-        " In March 1904"
-      ]
-    ]
-  },
-  "145": {
-    "ner": [
-      [
-        "Exposition",
-        "EVENT"
-      ],
-      [
-        "1900 Exposition",
-        "MISC"
-      ],
-      [
-        "The Slav Epic",
-        "WORK_OF_ART"
-      ],
-      [
-        "1900",
-        "DATE"
-      ]
-    ],
-    "relations": [],
-    "srl": [
-      [
-        "he",
-        "conceived",
-        "his grand project , The Slav Epic during the 1900 Exposition"
-      ]
-    ]
-  },
-  "146": {
-    "ner": [
-      [
-        "Salomon de Rothschild",
-        "PERSON"
-      ],
-      [
-        "Baroness Salomon de Rothschild",
-        "PER"
-      ]
-    ],
-    "relations": [],
-    "srl": [
-      [
-        "He",
-        "had",
-        "letters of introduction from Baroness Salomon de Rothschild"
-      ]
-    ]
-  },
-  "147": {
-    "ner": [
-      [
-        "the United States",
-        "GPE"
-      ],
-      [
-        "New York",
-        "GPE"
-      ],
-      [
-        "Sarah Bernhardt",
-        "PER"
-      ],
-      [
-        "annual",
-        "DATE"
-      ],
-      [
-        "Sarah Bernhardt's",
-        "PERSON"
-      ],
-      [
-        "United States",
-        "LOC"
-      ],
-      [
-        "1896",
-        "DATE"
-      ],
-      [
-        "American",
-        "NORP"
-      ]
-    ],
-    "relations": [],
-    "srl": [
-      [
-        "he",
-        "landed",
-        " When in New York"
-      ],
-      [
-        "he",
-        "was",
-        "a celebrity already in the United States"
-      ]
-    ]
-  },
-  "148": {
-    "ner": [
-      [
-        "New York",
-        "GPE"
-      ],
-      [
-        "Central Park",
-        "LOC"
-      ]
-    ],
-    "relations": [],
-    "srl": [
-      [
-        "He",
-        "rented",
-        "a studio near Central Park , in New York"
-      ],
-      [
-        "He",
-        "made",
-        "portraits"
-      ],
-      [
-        "He",
-        "gave",
-        "interviews and lectures"
-      ]
-    ]
-  },
-  "149": {
-    "ner": [
-      [
-        "Pan-Slavic",
-        "NORP"
-      ],
-      [
-        "Pan",
-        "ORG"
-      ],
-      [
-        "Slavic",
-        "MISC"
-      ]
-    ],
-    "relations": [],
-    "srl": [
-      [
-        "He",
-        "made",
-        "contact with Pan - Slavic organizations also"
-      ]
-    ]
-  },
-  "150": {
-    "ner": [
-      [
-        "Pan",
-        "MISC"
-      ],
-      [
-        "Slavophile",
-        "NORP"
-      ],
-      [
-        "Slavic",
-        "MISC"
-      ],
-      [
-        "New York City",
-        "GPE"
-      ],
-      [
-        "one",
-        "CARDINAL"
-      ],
-      [
-        "Pan-Slavic",
-        "NORP"
-      ],
-      [
-        "Charles Richard Crane",
-        "PERSON"
-      ]
-    ],
-    "relations": [],
-    "srl": [
-      [
-        "he",
-        "met",
-        "Charles Richard Crane , a wealthy businessman and philanthropist , who was a passionate Slavophile At one Pan - Slavic banquet in New York City"
-      ]
-    ]
-  },
-  "151": {
-    "ner": [
-      [
-        "Mucha",
-        "PERSON"
-      ],
-      [
-        "Slavic",
-        "NORP"
-      ]
-    ],
-    "relations": [],
-    "srl": [
-      [
-        "He",
-        "commissioned",
-        "to make a portrait of his daughter in a traditional Slavic style Mucha"
-      ],
-      [
-        "Mucha",
-        "make",
-        "a portrait of his daughter in a traditional Slavic style"
-      ]
-    ]
-  },
-  "152": {
-    "ner": [
-      [
-        "Mucha",
-        "PERSON"
-      ],
-      [
-        "Slavic",
-        "NORP"
-      ]
-    ],
-    "relations": [],
-    "srl": [
-      [
-        "he",
-        "shared",
-        "Mucha 's enthusiasm for a series of monumental paintings on Slavic history"
-      ],
-      [
-        "he",
-        "became",
-        "Mucha 's most important patron"
-      ]
-    ]
-  },
-  "153": {
-    "ner": [
-      [
-        "Mucha",
-        "PERSON"
-      ],
-      [
-        "Czechoslovak",
-        "NORP"
-      ],
-      [
-        "Crane",
-        "PERSON"
-      ],
-      [
-        "Slavia",
-        "PERSON"
-      ],
-      [
-        "100 koruna",
-        "MONEY"
-      ]
-    ],
-    "relations": [],
-    "srl": [
-      [
-        "Mucha",
-        "designed",
-        "the Czechoslovak bills When"
-      ],
-      [
-        "he",
-        "used",
-        "his portrait of Crane 's daughter as the model for Slavia for the 100 koruna bill When Mucha designed the Czechoslovak bills"
-      ]
-    ]
-  },
-  "154": {
-    "ner": [
-      [
-        "Moravia",
-        "GPE"
-      ],
-      [
-        "America",
-        "GPE"
-      ],
-      [
-        "New York",
-        "GPE"
-      ]
-    ],
-    "relations": [],
-    "srl": [
-      [
-        "he",
-        "wrote",
-        "You must have been very surprised by my decision to come to America , perhaps even amazed to his family in Moravia"
-      ]
-    ]
-  },
-  "156": {
-    "ner": [
-      [
-        "\"He",
-        "PER"
-      ],
-      [
-        "Paris",
-        "GPE"
-      ],
-      [
-        "the end of May 1904",
-        "DATE"
-      ],
-      [
-        "America",
-        "GPE"
-      ],
-      [
-        "France",
-        "GPE"
-      ]
-    ],
-    "relations": []
-  },
-  "157": {
-    "ner": [
-      [
-        "four",
-        "CARDINAL"
-      ],
-      [
-        "five to six months",
-        "DATE"
-      ],
-      [
-        "New York",
-        "GPE"
-      ],
-      [
-        "1905",
-        "DATE"
-      ],
-      [
-        "early",
-        "DATE"
-      ],
-      [
-        "between 1905 and 1910",
-        "DATE"
-      ]
-    ],
-    "relations": [],
-    "srl": [
-      [
-        "He",
-        "finished",
-        "his commissions"
-      ],
-      [
-        "He",
-        "returned",
-        "to New York in early January 1905"
-      ],
-      [
-        "He",
-        "made",
-        "four more trips between 1905 and 1910"
-      ],
-      [
-        "He",
-        "staying",
-        " for five to six months"
-      ]
-    ]
-  },
-  "158": {
-    "ner": [
-      [
-        "Prague",
-        "GPE"
-      ],
-      [
-        "New York",
-        "GPE"
-      ],
-      [
-        "Marie / Maria",
-        "PER"
-      ],
-      [
-        "Chytilová",
-        "PER"
-      ],
-      [
-        "10 June 1906",
-        "DATE"
-      ],
-      [
-        "1906",
-        "DATE"
-      ],
-      [
-        "(Marie/Maria) Chytilová",
-        "PERSON"
-      ]
-    ],
-    "relations": [
-      [
-        "(Marie/Maria) Chytilová",
-        "lived_in",
-        "New York"
-      ]
-    ],
-    "srl": [
-      [
-        "he",
-        "returned",
-        "to New York In 1906"
-      ],
-      [
-        "he",
-        "married",
-        "his new wife ,  on 10 June 1906 in Prague"
-      ]
-    ]
-  },
-  "159": {
-    "ner": [
-      [
-        "U.S.",
-        "GPE"
-      ],
-      [
-        "1909",
-        "DATE"
-      ]
-    ],
-    "relations": [],
-    "srl": [
-      [
-        "He",
-        "remained",
-        "in the U.S. until 1909"
-      ]
-    ]
-  },
-  "160": {
-    "ner": [
-      [
-        "the United States",
-        "GPE"
-      ],
-      [
-        "New York",
-        "GPE"
-      ],
-      [
-        "the Philadelphia School of Art",
-        "ORG"
-      ],
-      [
-        "the New York School of Applied Design for Women",
-        "ORG"
-      ],
-      [
-        "first",
-        "ORDINAL"
-      ],
-      [
-        "1909.His",
-        "DATE"
-      ],
-      [
-        "five weeks",
-        "DATE"
-      ],
-      [
-        "Jaroslava",
-        "PERSON"
-      ],
-      [
-        "United States",
-        "LOC"
-      ],
-      [
-        "New York School of Applied Design for Women",
-        "ORG"
-      ],
-      [
-        "the Art Institute of Chicago",
-        "ORG"
-      ],
-      [
-        "Philadelphia School of Art",
-        "ORG"
-      ],
-      [
-        "Art Institute of Chicago",
-        "ORG"
-      ]
-    ],
-    "relations": [
-      [
-        "Jaroslava",
-        "date_of_birth",
-        "1909.His"
-      ],
-      [
-        "Jaroslava",
-        "born_in",
-        "New York"
-      ],
-      [
-        "Jaroslava",
-        "lived_in",
-        "the United States"
-      ]
-    ],
-    "srl": [
-      [
-        "he",
-        "taught",
-        "illustration and design for five weeks at the Philadelphia School of Art"
-      ],
-      [
-        "he",
-        "became",
-        "a visiting professor at the Art Institute of Chicago"
-      ]
-    ]
-  },
-  "161": {
-    "ner": [
-      [
-        "1906",
-        "DATE"
-      ],
-      [
-        "Savon Mucha",
-        "ORG"
-      ],
-      [
-        "one",
-        "CARDINAL"
-      ]
-    ],
-    "relations": [],
-    "srl": [
-      [
-        "He",
-        "rejected",
-        "most commercial proposals"
-      ],
-      [
-        "He",
-        "accepted",
-        "one proposal in 1906"
-      ]
-    ]
-  },
-  "162": {
-    "ner": [
-      [
-        "the German Theater",
-        "FAC"
-      ],
-      [
-        "1908",
-        "DATE"
-      ],
-      [
-        "New York",
-        "GPE"
-      ],
-      [
-        "German Theater of New York",
-        "LOC"
-      ],
-      [
-        "Comedy and Truth",
-        "MISC"
-      ],
-      [
-        "Art Nouveau",
-        "MISC"
-      ],
-      [
-        "three",
-        "CARDINAL"
-      ]
-    ],
-    "relations": [],
-    "srl": [
-      [
-        "he",
-        "undertook",
-        "one large decoration project , for the interior of the German Theater of New York In 1908"
-      ],
-      [
-        "he",
-        "produced",
-        "three large allegorical murals , in the Art Nouveau style , representing Tragedy , Comedy and Truth"
-      ]
-    ]
-  },
-  "163": {
-    "ner": [
-      [
-        "the German Theater",
-        "FAC"
-      ],
-      [
-        "German Theater",
-        "LOC"
-      ],
-      [
-        "one year",
-        "DATE"
-      ],
-      [
-        "Artistically",
-        "PER"
-      ],
-      [
-        "1909",
-        "DATE"
-      ]
-    ],
-    "relations": [],
-    "srl": [
-      [
-        "he",
-        "made",
-        "graphic designs , stage and costume designs Besides the decoration"
-      ]
-    ]
-  },
-  "164": {
-    "ner": [
-      [
-        "Bernhardt",
-        "PERSON"
-      ],
-      [
-        "Leslie Carter",
-        "PERSON"
-      ],
-      [
-        "Broadway",
-        "FAC"
-      ],
-      [
-        "Sarah Bernhardt",
-        "PER"
-      ],
-      [
-        "The American",
-        "MISC"
-      ],
-      [
-        "Maude Adams",
-        "PERSON"
-      ],
-      [
-        "The American Sarah Bernhardt",
-        "PERSON"
-      ],
-      [
-        "American",
-        "NORP"
-      ]
-    ],
-    "relations": [],
-    "srl": [
-      [
-        "He",
-        "made",
-        "posters for the American actress Mrs. Leslie Carter "
-      ]
-    ]
-  },
-  "165": {
-    "ner": [
-      [
-        "America",
-        "GPE"
-      ],
-      [
-        "Josephine Crane Bradley",
-        "PERSON"
-      ],
-      [
-        "Slavia",
-        "PERSON"
-      ],
-      [
-        "Slavic",
-        "NORP"
-      ]
-    ],
-    "relations": []
-  },
-  "166": {
-    "ner": [
-      [
-        "Slav Epic",
-        "MISC"
-      ],
-      [
-        "the Slav Epic",
-        "WORK_OF_ART"
-      ],
-      [
-        "Crane",
-        "PERSON"
-      ]
-    ],
-    "relations": []
-  },
-  "167": {
-    "ner": [
-      [
-        "Mucha",
-        "PERSON"
-      ],
-      [
-        "Slavic",
-        "NORP"
-      ],
-      [
-        "Europe",
-        "LOC"
-      ],
-      [
-        "Paris",
-        "GPE"
-      ]
-    ],
-    "relations": [
-      [
-        "Mucha",
-        "lived_in",
-        "Paris"
-      ]
-    ],
-    "srl": [
-      [
-        "Mucha",
-        "never given",
-        "his dream of being a history painter During his long stay in Paris"
-      ],
-      [
-        "Mucha",
-        "being",
-        "a history painter"
-      ],
-      [
-        "Mucha",
-        "illustrate",
-        "accomplishments of the Slavic peoples of Europe"
-      ]
-    ]
-  },
-  "168": {
-    "ner": [
-      [
-        "1908",
-        "DATE"
-      ],
-      [
-        "Charles Crane",
-        "PERSON"
-      ],
-      [
-        "February 1910",
-        "DATE"
-      ],
-      [
-        "Slav Epic",
-        "MISC"
-      ],
-      [
-        "1909",
-        "DATE"
-      ],
-      [
-        "the Slav Epic",
-        "WORK_OF_ART"
-      ]
-    ],
-    "relations": [],
-    "srl": [
-      [
-        "He",
-        "completed",
-        "his plans for the Slav Epic in 1908 and 1909"
-      ]
-    ]
-  },
-  "169": {
-    "ner": [
-      [
-        "Prague",
-        "GPE"
-      ],
-      [
-        "1909",
-        "DATE"
-      ]
-    ],
-    "relations": []
-  },
-  "170": {
-    "ner": [
-      [
-        "Austrian Empire",
-        "MISC"
-      ],
-      [
-        "the Austrian Empire",
-        "GPE"
-      ]
-    ],
-    "relations": [],
-    "srl": [
-      [
-        "He",
-        "made",
-        "the decision to return to his old country , still then part of the Austrian Empire"
-      ]
-    ]
-  },
-  "171": {
-    "ner": [
-      [
-        "Prague",
-        "GPE"
-      ],
-      [
-        "\"His",
-        "PER"
-      ],
-      [
-        "1910",
-        "DATE"
-      ],
-      [
-        "first",
-        "ORDINAL"
-      ],
-      [
-        "Slav",
-        "NORP"
-      ]
-    ],
-    "relations": [],
-    "srl": [
-      [
-        "He",
-        "wrote",
-        "I will be able to do something really good , not just for the art critic but for our Slav souls to his wife"
-      ]
-    ]
-  },
-  "172": {
-    "ner": [
-      [
-        "Prague",
-        "GPE"
-      ]
-    ],
-    "relations": []
-  },
-  "173": {
-    "ner": [
-      [
-        "the Lord Mayor's Hall",
-        "FAC"
-      ],
-      [
-        "Lord Mayor 's Hall",
-        "LOC"
       ]
     ],
     "relations": [],
@@ -4648,1278 +206,882 @@
       [
         "he",
         "decorated",
-        "the Lord Mayor 's Hall while the other artists decorated the other rooms"
+        "the houses of the local nobility India"
       ]
     ]
   },
-  "174": {
+  "7": {
     "ner": [
       [
-        "European",
-        "NORP"
+        "Italy",
+        "GPE"
       ],
       [
-        "Slavs",
-        "NORP"
+        "1879",
+        "DATE"
       ],
       [
-        "Slavic",
-        "NORP"
+        "Milan",
+        "GPE"
+      ]
+    ],
+    "relations": [],
+    "srl": [
+      [
+        "he",
+        "settled",
+        " In 1879 in Milan , Italy"
+      ]
+    ]
+  },
+  "8": {
+    "ner": [
+      [
+        "La Scala",
+        "ORG"
       ]
     ],
     "relations": [],
     "srl": [
       [
         "He",
-        "designed",
-        "a series of large - scale murals for the domed ceiling and walls with athletic figures in heroic poses , depicting the contributions of Slavs to European history over the centuries , and the theme of Slavic unity"
-      ],
-      [
-        "He",
-        "created",
-        "a series of large - scale murals for the domed ceiling and walls with athletic figures in heroic poses , depicting the contributions of Slavs to European history over the centuries , and the theme of Slavic unity"
+        "became",
+        "a set and costume designer for La Scala and other theatres"
       ]
     ]
   },
-  "175": {
+  "9": {
     "ner": [
       [
-        "Mucha",
+        "Giulio Ricordi",
         "PERSON"
       ],
       [
-        "Slavic",
-        "NORP"
-      ],
-      [
-        "Lord Mayor's Hall",
-        "FAC"
-      ],
-      [
-        "The Slav Epic",
-        "WORK_OF_ART"
-      ],
-      [
-        "Slav Epic",
-        "MISC"
-      ],
-      [
-        "Lord Mayor 's Hall",
-        "LOC"
-      ],
-      [
-        "1911",
-        "DATE"
-      ],
-      [
-        "Parisian",
-        "NORP"
-      ]
-    ],
-    "relations": [],
-    "srl": [
-      [
-        "Mucha",
-        "was",
-        "able to devote his attention to what he considered his most important work ; The Slav Epic , a series of large paintings illustrating the achievements of the Slavic peoples over history"
-      ],
-      [
-        "Mucha",
-        "devote",
-        "his attention to what he considered his most important work ; The Slav Epic , a series of large paintings illustrating the achievements of the Slavic peoples over history"
-      ],
-      [
-        "he",
-        "considered",
-        "his most important work"
-      ]
-    ]
-  },
-  "176": {
-    "ner": [
-      [
-        "Bulgarians",
-        "NORP"
-      ],
-      [
-        "Slavic",
-        "NORP"
-      ],
-      [
-        "Serbs",
-        "NORP"
-      ],
-      [
-        "Balkans",
-        "LOC"
-      ],
-      [
-        "Orthodox",
-        "NORP"
-      ],
-      [
-        "Czechs",
-        "NORP"
-      ],
-      [
-        "ten",
-        "CARDINAL"
-      ],
-      [
-        "twenty",
-        "CARDINAL"
-      ],
-      [
-        "Russians",
-        "NORP"
-      ],
-      [
-        "Hungarians",
-        "NORP"
-      ],
-      [
-        "Poles",
-        "NORP"
-      ],
-      [
-        "Mount Athos",
-        "LOC"
-      ]
-    ],
-    "relations": []
-  },
-  "177": {
-    "ner": [
-      [
-        "eight meters",
-        "QUANTITY"
-      ],
-      [
-        "six",
-        "CARDINAL"
-      ]
-    ],
-    "relations": []
-  },
-  "178": {
-    "ner": [
-      [
-        "Mucha",
-        "PERSON"
-      ],
-      [
-        "Paris",
-        "GPE"
-      ],
-      [
-        "Zbiroh Castle",
-        "LOC"
-      ],
-      [
-        "Paris Mucha",
-        "LOC"
-      ],
-      [
-        "the Zbiroh Castle",
-        "LOC"
-      ],
-      [
-        "Bohemia",
-        "GPE"
-      ],
-      [
-        "1928.While",
-        "DATE"
-      ]
-    ],
-    "relations": [],
-    "srl": [
-      [
-        "he",
-        "paint",
-        "them"
-      ],
-      [
-        "he",
-        "rented",
-        "an apartment and a studio in the Zbiroh Castle in western Bohemia , where he lived and worked until 1928.While living in Paris"
-      ],
-      [
-        "he",
-        "lived",
-        " until 1928.While the Zbiroh Castle in western Bohemia"
-      ],
-      [
-        "he",
-        "worked",
-        " until 1928.While the Zbiroh Castle in western Bohemia"
-      ],
-      [
-        "Mucha",
-        "imagined",
-        "the series as \" light shining into the souls of all people with its clear ideals and burning warnings"
-      ]
-    ]
-  },
-  "179": {
-    "ner": [
-      [
-        "Balkans",
-        "LOC"
-      ],
-      [
-        "Slavic",
-        "NORP"
-      ],
-      [
-        "Russia",
-        "GPE"
-      ],
-      [
-        "Poland",
-        "GPE"
-      ]
-    ],
-    "relations": [],
-    "srl": [
-      [
-        "he",
-        "prepare",
-        "the project"
-      ],
-      [
-        "he",
-        "traveled",
-        "to all the Slavic countries , from Russia and Poland to the Balkans making sketches and taking photographs"
-      ],
-      [
-        "he",
-        "making",
-        "sketches"
-      ],
-      [
-        "he",
-        "taking",
-        "photographs"
-      ]
-    ]
-  },
-  "181": {
-    "ner": [
-      [
-        "twenty",
-        "CARDINAL"
-      ],
-      [
-        "between 1912 and 1926",
-        "DATE"
-      ]
-    ],
-    "relations": [],
-    "srl": [
-      [
-        "He",
-        "used",
-        "egg tempera paint , which , according to his research , was quicker - drying and more luminous , and would last longer"
-      ],
-      [
-        "He",
-        "created",
-        "the twenty canvases between 1912 and 1926"
-      ]
-    ]
-  },
-  "182": {
-    "ner": [
-      [
-        "Austrian Empire",
-        "MISC"
-      ],
-      [
-        "the Austrian Empire",
-        "GPE"
-      ],
-      [
-        "the First World War",
-        "EVENT"
-      ],
-      [
-        "First World War",
-        "MISC"
-      ],
-      [
-        "France",
-        "GPE"
-      ]
-    ],
-    "relations": [],
-    "srl": [
-      [
-        "He",
-        "worked",
-        " throughout the First World War , when the Austrian Empire was at war with France , despite wartime restrictions , which made canvas hard to obtain"
-      ]
-    ]
-  },
-  "183": {
-    "ner": [
-      [
-        "Czechoslovak Republic",
-        "GPE"
-      ]
-    ],
-    "relations": [],
-    "srl": [
-      [
-        "He",
-        "continued",
-        "his work after the war ended , when the new Czechoslovak Republic was created"
-      ]
-    ]
-  },
-  "184": {
-    "ner": [
-      [
-        "Prague",
-        "GPE"
-      ],
-      [
-        "Czechoslovak Republic",
-        "LOC"
-      ],
-      [
-        "1928",
-        "DATE"
-      ],
-      [
-        "the Czechoslovak Republic.Under",
-        "GPE"
-      ],
-      [
-        "tenth",
-        "ORDINAL"
-      ]
-    ],
-    "relations": [],
-    "srl": [
-      [
-        "he",
-        "donated",
-        "his work to the city of Prague in 1928 Under the conditions of his contract"
-      ]
-    ]
-  },
-  "185": {
-    "ner": [
-      [
-        "Prague",
-        "GPE"
-      ],
-      [
-        "Epic",
-        "WORK_OF_ART"
-      ],
-      [
-        "1919",
-        "DATE"
-      ],
-      [
-        "Slav Epic",
-        "MISC"
-      ],
-      [
-        "1928",
-        "DATE"
-      ],
-      [
-        "Slav",
-        "NORP"
-      ]
-    ],
-    "relations": []
-  },
-  "186": {
-    "ner": [
-      [
-        "1963 until 2012",
-        "DATE"
-      ],
-      [
-        "the South Moravian Region",
-        "LOC"
-      ],
-      [
-        "Czech Republic",
-        "LOC"
-      ],
-      [
-        "Moravský Krumlov",
-        "GPE"
-      ],
-      [
-        "South Moravian Region",
-        "LOC"
-      ],
-      [
-        "1928",
-        "DATE"
-      ],
-      [
-        "the Czech Republic",
-        "GPE"
-      ]
-    ],
-    "relations": []
-  },
-  "187": {
-    "ner": [
-      [
-        "the National Gallery's",
+        "Ricordi Graphical Workshops",
         "ORG"
       ],
       [
-        "Prague",
-        "GPE"
-      ],
-      [
-        "2012",
-        "DATE"
-      ],
-      [
-        "Veletržní Palace",
-        "FAC"
-      ],
-      [
-        "National Gallery",
+        "the Ricordi Graphical Workshops",
         "ORG"
+      ],
+      [
+        "1889",
+        "DATE"
       ]
     ],
     "relations": [
       [
-        "the National Gallery's",
-        "based_in",
-        "Prague"
-      ]
-    ]
-  },
-  "188": {
-    "ner": [
-      [
-        "Prague",
-        "GPE"
-      ],
-      [
-        "Epic",
-        "WORK_OF_ART"
-      ],
-      [
-        "2021",
-        "DATE"
-      ],
-      [
-        "Slav Epic",
-        "MISC"
-      ],
-      [
-        "2026.While",
-        "DATE"
-      ],
-      [
-        "Czech",
-        "NORP"
-      ],
-      [
-        "Slav",
-        "NORP"
-      ]
-    ],
-    "relations": [],
-    "srl": [
-      [
-        "he",
-        "working",
-        "on the Slav Epic"
-      ],
-      [
-        "he",
-        "did",
-        "work for the Czech government also"
-      ]
-    ]
-  },
-  "189": {
-    "ner": [
-      [
-        "Charles Crane",
-        "PERSON"
-      ],
-      [
-        "1918",
-        "DATE"
-      ],
-      [
-        "Slavia",
-        "PERSON"
-      ],
-      [
-        "American",
-        "NORP"
-      ]
-    ],
-    "relations": [
-      [
-        "Slavia",
-        "child_of",
-        "Charles Crane"
-      ],
-      [
-        "Charles Crane",
-        "parent_of",
-        "Slavia"
+        "Giulio Ricordi",
+        "employee_of",
+        "the Ricordi Graphical Workshops"
       ]
     ],
     "srl": [
       [
         "he",
-        "designed",
-        "the korun bank note In 1918"
+        "met",
+        "the musical publisher Giulio Ricordi There"
+      ],
+      [
+        "he",
+        "began",
+        "to work for the Ricordi Graphical Workshops , where he shortly became the artistic director in charge of the graphical part in 1889 There"
+      ],
+      [
+        "he",
+        "work",
+        "for the Ricordi Graphical Workshops , where he shortly became the artistic director in charge of the graphical part"
+      ],
+      [
+        "he",
+        "became",
+        "the artistic director in charge of the graphical part shortly the Ricordi Graphical Workshops"
       ]
     ]
   },
-  "191": {
+  "10": {
     "ner": [
       [
-        "Prague",
-        "GPE"
+        "Campari",
+        "ORG"
       ],
       [
-        "Lottery of the Union of Southwestern Moravia",
-        "MISC"
+        "Corriere della Sera",
+        "ORG"
       ],
       [
-        "the Lottery of the Union of Southwestern Moravia",
-        "EVENT"
+        "La Bohème",
+        "ORG"
+      ],
+      [
+        "Buitoni",
+        "ORG"
+      ],
+      [
+        "Tosca",
+        "ORG"
       ]
     ],
     "relations": [],
     "srl": [
       [
         "He",
-        "declined",
-        "commercial work"
-      ],
-      [
-        "He",
-        "make",
-        "occasional posters for philanthropic and cultural events , such as the Lottery of the Union of Southwestern Moravia , and for Prague cultural events"
+        "created",
+        "the posters for La Bohème and Tosca , as well as publicity for Campari , Buitoni and Corriere della Sera , numerous postcards , covers for scores and booklets"
       ]
     ]
   },
-  "192": {
+  "11": {
     "ner": [
       [
-        "1930s",
-        "DATE"
-      ],
-      [
-        "Mucha",
-        "PERSON"
-      ],
-      [
-        "The Slav Epic",
+        "Falstaff",
         "WORK_OF_ART"
       ],
       [
-        "Slav Epic",
-        "MISC"
+        "1904",
+        "DATE"
       ],
       [
-        "Czechoslovakia",
-        "GPE"
+        "Madama Butterfly",
+        "WORK_OF_ART"
+      ],
+      [
+        "Le Villi",
+        "WORK_OF_ART"
+      ],
+      [
+        "Giacomo Puccini",
+        "PERSON"
+      ],
+      [
+        "Giuseppe Verdi",
+        "PER"
+      ],
+      [
+        "1893",
+        "DATE"
+      ],
+      [
+        "1884",
+        "DATE"
+      ],
+      [
+        "Giuseppe Verdi's",
+        "PERSON"
       ]
     ],
     "relations": []
   },
-  "193": {
+  "12": {
     "ner": [
       [
-        "the Slav Epic.Hitler",
-        "WORK_OF_ART"
+        "Giovanni Mario Mataloni",
+        "PERSON"
       ],
       [
-        "1936",
-        "DATE"
+        "Leopoldo Metlicovitz",
+        "PERSON"
       ],
       [
-        "Paris",
+        "Ricordi",
+        "ORG"
+      ],
+      [
+        "Marcello Dudovich",
+        "PERSON"
+      ]
+    ],
+    "relations": [],
+    "srl": [
+      [
+        "he",
+        "had",
+        "as colleague Giovanni Mario Mataloni and as students Leopoldo Metlicovitz and Marcello Dudovich At Ricordi 's"
+      ]
+    ]
+  },
+  "13": {
+    "ner": [
+      [
+        "Katharina Plaskuda",
+        "PERSON"
+      ],
+      [
+        "Milan",
         "GPE"
       ],
       [
-        "Nazi",
-        "NORP"
-      ],
-      [
-        "the 1930s",
+        "1906",
         "DATE"
       ],
       [
-        "Nazi Germany",
-        "LOC"
-      ],
-      [
-        "three",
-        "CARDINAL"
+        "Esposizione per il Traforo del Sempione",
+        "MISC"
       ],
       [
         "Germany",
         "GPE"
       ],
       [
-        "Slav Epic",
-        "MISC"
+        "the \"Esposizione per il Traforo del Sempione\"",
+        "EVENT"
       ],
       [
-        "Jeu de Paume",
-        "ORG"
-      ],
-      [
-        "Czechoslovakia",
+        "Italy",
         "GPE"
       ],
       [
-        "Hitler",
-        "PER"
-      ],
-      [
-        "139",
-        "CARDINAL"
-      ]
-    ],
-    "relations": []
-  },
-  "194": {
-    "ner": [
-      [
-        "Age of Reason",
-        "MISC"
-      ],
-      [
-        "Mucha",
-        "PERSON"
-      ],
-      [
-        "from 1936 to 1938",
+        "the first years of the 1900s",
         "DATE"
       ],
       [
-        "Age of Wisdom",
-        "MISC"
+        "Bonn",
+        "GPE"
       ],
       [
-        "Age of Love",
-        "MISC"
+        "Düsseldorf",
+        "GPE"
+      ]
+    ],
+    "relations": [
+      [
+        "the \"Esposizione per il Traforo del Sempione\"",
+        "married_to",
+        "Katharina Plaskuda"
+      ]
+    ],
+    "srl": [
+      [
+        "he",
+        "marrying",
+        "Katharina Plaskuda , a widow"
+      ],
+      [
+        "he",
+        "traveled",
+        "between Italy and Germany till 1906 , when , after winning the competition for the graphical symbol and the poster for the \" Esposizione per il Traforo del Sempione \" , he left Milan for Bonn and Düsseldorf definitively"
+      ],
+      [
+        "he",
+        "winning",
+        "the competition for the graphical symbol and the poster for the \" Esposizione per il Traforo del Sempione \""
+      ],
+      [
+        "he",
+        "left",
+        "Milan for Bonn after winning the competition for the graphical symbol and the poster for the \" Esposizione per il Traforo del Sempione \""
+      ]
+    ]
+  },
+  "14": {
+    "ner": [
+      [
+        "Bonn",
+        "GPE"
+      ],
+      [
+        "1918",
+        "DATE"
       ]
     ],
     "relations": [],
     "srl": [
       [
-        "Mucha",
-        "began",
-        "work on a new series , a triptych depicting the Age of Reason , the Age of Wisdom and the Age of Love , which he worked on from 1936 to 1938 , but never completed"
-      ],
-      [
-        "he",
-        "worked",
-        "on from 1936 to 1938"
-      ],
-      [
-        "he",
-        "never completed",
-        "a triptych depicting the Age of Reason , the Age of Wisdom and the Age of Love"
+        "He",
+        "settled",
+        "in Bonn in 1918"
       ]
     ]
   },
-  "195": {
+  "15": {
     "ner": [
       [
-        "Prague",
-        "GPE"
-      ],
-      [
-        "the Protectorate of Bohemia and Moravia",
-        "GPE"
-      ],
-      [
-        "15 March 1939",
-        "DATE"
+        "first",
+        "ORDINAL"
       ],
       [
         "German",
         "NORP"
       ],
       [
-        "Moravia",
-        "LOC"
-      ],
-      [
-        "Hitler",
-        "PERSON"
-      ],
-      [
-        "Protectorate of Bohemia",
-        "LOC"
-      ],
-      [
-        "Czechoslovakia",
+        "Renania",
         "GPE"
       ],
       [
-        "the Greater German Reich",
-        "GPE"
+        "years",
+        "DATE"
       ],
       [
-        "Greater German Reich",
-        "LOC"
+        "1911",
+        "DATE"
       ]
     ],
     "relations": []
   },
-  "196": {
+  "16": {
     "ner": [
       [
-        "Freemason",
-        "NORP"
-      ],
+        "Düsseldorf",
+        "GPE"
+      ]
+    ],
+    "relations": [],
+    "srl": [
       [
-        "Mucha",
+        "He",
+        "associated",
+        "with the Düsseldorf school of painting"
+      ]
+    ]
+  },
+  "17": {
+    "ner": [
+      [
+        "Adolfo Hohenstein",
         "PERSON"
       ],
       [
-        "Slav",
-        "NORP"
+        "12 April 1928",
+        "DATE"
+      ],
+      [
+        "Bonn",
+        "GPE"
       ]
     ],
     "relations": [
       [
-        "Mucha",
-        "origin",
-        "Slav"
-      ]
-    ]
-  },
-  "197": {
-    "ner": [
+        "Adolfo Hohenstein",
+        "died_in",
+        "Bonn"
+      ],
       [
-        "several",
-        "DATE"
+        "Adolfo Hohenstein",
+        "date_of_death",
+        "12 April 1928"
       ]
     ],
-    "relations": [],
     "srl": [
       [
-        "He",
-        "interrogated",
-        " for several days"
+        "Adolfo Hohenstein",
+        "died",
+        " 12 April 1928 in Bonn"
       ]
     ]
   },
-  "199": {
+  "18": {
     "ner": [
       [
-        "the Second World War",
+        "1899",
+        "DATE"
+      ],
+      [
+        "Onoranze",
+        "PER"
+      ],
+      [
+        "Corriere della Sera",
+        "ORG"
+      ],
+      [
+        "1898",
+        "DATE"
+      ],
+      [
+        "Volta",
+        "PER"
+      ],
+      [
+        "Cesare Urtis & Co",
+        "ORG"
+      ]
+    ],
+    "relations": []
+  },
+  "19": {
+    "ner": [
+      [
+        "Torino",
+        "GPE"
+      ]
+    ],
+    "relations": []
+  },
+  "20": {
+    "ner": [
+      [
+        "Esposizione d'Igiene",
         "EVENT"
       ],
       [
-        "10 days",
+        "1900",
         "DATE"
       ],
       [
-        "14 July 1939",
-        "DATE"
-      ],
-      [
-        "Second World War",
-        "MISC"
-      ],
-      [
-        "79th",
-        "ORDINAL"
-      ],
-      [
-        "over a month",
-        "DATE"
-      ]
-    ],
-    "relations": [],
-    "srl": [
-      [
-        "He",
-        "contracted",
-        "pneumonia"
-      ],
-      [
-        "He",
-        "died",
-        " 10 days short of his 79th birthday and over a month before the outbreak of the Second World War"
-      ]
-    ]
-  },
-  "200": {
-    "ner": [
-      [
-        "Czech",
-        "NORP"
-      ],
-      [
-        "Slavín Monument of Vyšehrad",
-        "FAC"
-      ],
-      [
-        "Vyšehrad",
-        "LOC"
-      ],
-      [
-        "Slavín Monument",
-        "LOC"
+        "Monte Carlo",
+        "GPE"
       ]
     ],
     "relations": []
   },
-  "201": {
+  "21": {
     "ner": [
       [
-        "Mucha",
-        "PERSON"
-      ],
-      [
-        "Art Nouveau",
-        "MISC"
-      ]
-    ],
-    "relations": [],
-    "srl": [
-      [
-        "Mucha",
-        "was",
-        "for his Art Nouveau work"
-      ],
-      [
-        "Mucha",
-        "remains",
-        "widely known for his Art Nouveau work , which frustrated him"
-      ],
-      [
-        "Mucha",
-        "known",
-        "for his Art Nouveau work , which frustrated him"
-      ]
-    ]
-  },
-  "202": {
-    "ner": [
-      [
-        "Art Nouveau",
-        "ORG"
-      ],
-      [
-        "Jiří Mucha",
-        "PERSON"
-      ]
-    ],
-    "relations": [],
-    "srl": [
-      [
-        "he",
-        "not think",
-        "much of Art Nouveau According to his son and biographer , Jiří Mucha"
-      ]
-    ]
-  },
-  "205": {
-    "ner": [
-      [
-        "today",
-        "DATE"
-      ],
-      [
-        "Mucha",
-        "PERSON"
-      ]
-    ],
-    "relations": [],
-    "srl": [
-      [
-        "He",
-        "took",
-        "the greatest pride in his work as a history painter"
-      ]
-    ]
-  },
-  "206": {
-    "ner": [
-      [
-        "Jiří Mucha",
-        "PERSON"
-      ]
-    ],
-    "relations": []
-  },
-  "207": {
-    "ner": [
-      [
-        "Mucha",
-        "PERSON"
-      ]
-    ],
-    "relations": []
-  },
-  "208": {
-    "ner": [
-      [
-        "Slav Epic",
-        "MISC"
-      ],
-      [
-        "Moravský Krumlov",
+        "Monaco",
         "GPE"
       ],
       [
-        "twenty-five years",
+        "1900",
         "DATE"
-      ],
-      [
-        "The Slav Epic",
-        "WORK_OF_ART"
       ]
     ],
     "relations": []
   },
-  "209": {
+  "22": {
     "ner": [
       [
-        "Prague",
+        "Puccini",
+        "PERSON"
+      ],
+      [
+        "Milan",
         "GPE"
       ],
       [
-        "Mucha",
-        "PERSON"
+        "62",
+        "CARDINAL"
       ],
       [
-        "Czech Freemasonry",
-        "MISC"
-      ],
-      [
-        "1998",
-        "DATE"
-      ],
-      [
-        "National Gallery",
-        "ORG"
-      ],
-      [
-        "The Slav Epic",
+        "La Wally",
         "WORK_OF_ART"
-      ],
-      [
-        "Mucha Museum",
-        "LOC"
-      ],
-      [
-        "Czech",
-        "NORP"
-      ],
-      [
-        "The National Gallery",
-        "ORG"
-      ],
-      [
-        "Freemasonry.The Mucha Museum",
-        "ORG"
-      ]
-    ],
-    "relations": [],
-    "srl": [
-      [
-        "Mucha",
-        "credited",
-        "with restoring the movement of Czech Freemasonry"
-      ],
-      [
-        "Mucha",
-        "restoring",
-        "the movement of Czech Freemasonry"
-      ]
-    ]
-  },
-  "210": {
-    "ner": [
-      [
-        "Mucha",
-        "PERSON"
-      ],
-      [
-        "Jiří Mucha",
-        "PERSON"
-      ],
-      [
-        "nine-year",
-        "DATE"
       ],
       [
         "1",
         "CARDINAL"
       ],
       [
-        "Ivan Lendl",
-        "PERSON"
-      ],
-      [
-        "World No . 1",
-        "MISC"
-      ],
-      [
-        "1982",
-        "DATE"
-      ]
-    ],
-    "relations": [
-      [
-        "Ivan Lendl",
-        "has_title",
-        "1"
-      ]
-    ]
-  },
-  "211": {
-    "ner": [
-      [
-        "24 July 2010",
+        "1901",
         "DATE"
       ],
       [
-        "Alfonse Mucha's",
-        "PERSON"
+        "propsPietro Mascagni",
+        "PER"
       ],
       [
-        "Prague.On",
-        "GPE"
-      ],
-      [
-        "first",
-        "ORDINAL"
-      ],
-      [
-        "Prague",
-        "LOC"
-      ],
-      [
-        "2013",
+        "1894",
         "DATE"
       ],
       [
-        "Google",
+        "Bitter Campari",
         "ORG"
       ],
       [
-        "150th",
-        "ORDINAL"
+        "Rome",
+        "GPE"
       ],
       [
-        "Alfonse Mucha",
+        "one",
+        "CARDINAL"
+      ],
+      [
+        "Nuremberg",
+        "LOC"
+      ],
+      [
+        "1 March 19024",
+        "DATE"
+      ],
+      [
+        "Risurrezione",
+        "WORK_OF_ART"
+      ],
+      [
+        "Teatro Regio",
         "PER"
+      ],
+      [
+        "Manon Lescaut",
+        "WORK_OF_ART"
+      ],
+      [
+        "2",
+        "CARDINAL"
+      ],
+      [
+        "propsAlberto Franchetti",
+        "PER"
+      ],
+      [
+        "Teatro Argentina",
+        "LOC"
+      ],
+      [
+        "propsGiacomo Puccini",
+        "PER"
+      ],
+      [
+        "propsFranco Alfano",
+        "PER"
+      ],
+      [
+        "Le Villi",
+        "FAC"
+      ],
+      [
+        "20 January 18924",
+        "DATE"
+      ],
+      [
+        "Katalog der Frühjahrs",
+        "ORG"
+      ],
+      [
+        "Teatro Argentina",
+        "FAC"
+      ],
+      [
+        "costumesAlfredo Catalani",
+        "PER"
+      ],
+      [
+        "Mascagni",
+        "PERSON"
+      ],
+      [
+        "16 June – 30 September",
+        "DATE"
+      ],
+      [
+        "22 November 18983",
+        "DATE"
+      ],
+      [
+        "1916",
+        "DATE"
+      ],
+      [
+        "Schwarzwaldküche",
+        "PER"
+      ],
+      [
+        "95",
+        "CARDINAL"
+      ],
+      [
+        "Große Berliner Kunstausstellung",
+        "EVENT"
+      ],
+      [
+        "designsGiacomo Puccini",
+        "PER"
+      ],
+      [
+        "Teatro Regio",
+        "ORG"
+      ],
+      [
+        "19042",
+        "DATE"
+      ],
+      [
+        "16 February 189042",
+        "DATE"
+      ],
+      [
+        "Germania",
+        "GPE"
+      ],
+      [
+        "4",
+        "CARDINAL"
+      ],
+      [
+        "Verdi",
+        "PERSON"
+      ],
+      [
+        "Alfano",
+        "PERSON"
+      ],
+      [
+        "Teatro Costanzi",
+        "PER"
+      ],
+      [
+        "Cristoforo Colombo",
+        "PERSON"
+      ],
+      [
+        "1905",
+        "DATE"
+      ],
+      [
+        "del Dottor Craveri",
+        "PER"
+      ],
+      [
+        "26 January 189290",
+        "DATE"
+      ],
+      [
+        "Catalani",
+        "PERSON"
+      ],
+      [
+        "Katalog der Großen Kunstausstellung Düsseldorf",
+        "ORG"
+      ],
+      [
+        "Biblioteca Nazionale Braidense",
+        "FAC"
+      ],
+      [
+        "Teatro alla Scala",
+        "PER"
+      ],
+      [
+        "Neue Folge",
+        "LOC"
+      ],
+      [
+        "Franchetti",
+        "PERSON"
+      ],
+      [
+        "Zentralinstitut für Kunstgeschichte",
+        "ORG"
+      ],
+      [
+        "Teatro Regio",
+        "FAC"
+      ],
+      [
+        "Kunstpalast",
+        "LOC"
+      ],
+      [
+        "Edgar",
+        "WORK_OF_ART"
+      ],
+      [
+        "49",
+        "CARDINAL"
+      ],
+      [
+        "9",
+        "CARDINAL"
+      ],
+      [
+        "La Bohème",
+        "WORK_OF_ART"
+      ],
+      [
+        "Großen Kunstausstellung",
+        "EVENT"
+      ],
+      [
+        "Iris",
+        "WORK_OF_ART"
+      ],
+      [
+        "41",
+        "CARDINAL"
+      ],
+      [
+        "21 April 188954",
+        "DATE"
+      ],
+      [
+        "Birra Italia Giacomo Puccini",
+        "PER"
+      ],
+      [
+        "Ausstellung",
+        "ORG"
+      ],
+      [
+        "propsAlfredo Catalani",
+        "PER"
+      ],
+      [
+        "Kunstchronik",
+        "LOC"
+      ],
+      [
+        "31 May 18842",
+        "DATE"
+      ],
+      [
+        "Düsseldorf",
+        "GPE"
+      ],
+      [
+        "Teatro alla Scala",
+        "FAC"
+      ],
+      [
+        "Teatro alla Scala",
+        "ORG"
+      ],
+      [
+        "1912",
+        "DATE"
+      ],
+      [
+        "propsRichard Wagner",
+        "PER"
+      ],
+      [
+        "Craveri",
+        "PERSON"
+      ],
+      [
+        "Teatro Dal Verme",
+        "FAC"
+      ],
+      [
+        "7",
+        "CARDINAL"
+      ],
+      [
+        "1917",
+        "DATE"
+      ],
+      [
+        "Große Berliner Kunstausstellung",
+        "LOC"
+      ],
+      [
+        "Loreley",
+        "WORK_OF_ART"
+      ],
+      [
+        "Wagner",
+        "PERSON"
+      ],
+      [
+        "Tosca",
+        "WORK_OF_ART"
+      ],
+      [
+        "Mastersingers of Nuremberg",
+        "WORK_OF_ART"
+      ],
+      [
+        "14 January 19003",
+        "DATE"
+      ],
+      [
+        "Munich",
+        "GPE"
+      ],
+      [
+        "Torino",
+        "GPE"
+      ],
+      [
+        "5",
+        "CARDINAL"
+      ],
+      [
+        "27 May – 8 October",
+        "DATE"
+      ],
+      [
+        "9 February 18935",
+        "DATE"
+      ],
+      [
+        "Esposizioni Riunite",
+        "EVENT"
+      ],
+      [
+        "Giacomo Puccini",
+        "PERSON"
+      ],
+      [
+        "van Westerhout",
+        "PERSON"
+      ],
+      [
+        "40",
+        "CARDINAL"
+      ],
+      [
+        "3 March – 14 April",
+        "DATE"
+      ],
+      [
+        "26 December 188962",
+        "DATE"
+      ],
+      [
+        "Teatro Costanzi",
+        "FAC"
+      ],
+      [
+        "3",
+        "CARDINAL"
+      ],
+      [
+        "Cimbelino",
+        "WORK_OF_ART"
+      ],
+      [
+        "7 April 189237",
+        "DATE"
+      ],
+      [
+        "MascagniGiacomo Puccini",
+        "PER"
+      ],
+      [
+        "1 February 18963",
+        "DATE"
+      ],
+      [
+        "26",
+        "CARDINAL"
+      ],
+      [
+        "Falstaff",
+        "WORK_OF_ART"
+      ],
+      [
+        "1906",
+        "DATE"
+      ],
+      [
+        "propsGiuseppe Verdi",
+        "PER"
+      ],
+      [
+        "Mastersingers",
+        "PER"
+      ],
+      [
+        "13",
+        "CARDINAL"
+      ],
+      [
+        "1911",
+        "DATE"
+      ],
+      [
+        "Black Forest",
+        "LOC"
+      ],
+      [
+        "originaliNiccolò van Westerhout",
+        "PER"
+      ],
+      [
+        "189357",
+        "DATE"
       ]
     ],
     "relations": []
   },
-  "81": {
-    "ner": [
-      [
-        "Champenois",
-        "PER"
-      ]
-    ],
-    "relations": [],
-    "srl": [
-      [
-        "he",
-        "created",
-        "a new kind of product , a decorative panel , a poster without text , purely for decoration With Champenois also"
-      ]
-    ]
-  },
-  "203": {
-    "ner": [
-      [
-        "Art Nouveau",
-        "MISC"
-      ]
-    ],
-    "relations": [],
-    "srl": [
-      [
-        "he",
-        "asked",
-        "What is it , Art Nouveau"
-      ]
-    ]
-  },
-  "3": {
-    "srl": [
-      [
-        "He",
-        "considered",
-        "it his most important work"
-      ]
-    ]
-  },
-  "8": {
-    "srl": [
-      [
-        "he",
-        "drew",
-        " In the preschool period exclusively"
-      ]
-    ]
-  },
-  "12": {
-    "srl": [
-      [
-        "he",
-        "gave",
-        "his chorister position After his voice broke"
-      ],
-      [
-        "he",
-        "played",
-        "as a violinist during masses"
-      ],
-      [
-        "He",
-        "became",
-        "devoutly religious"
-      ],
-      [
-        "He",
-        "wrote",
-        "For me , the notions of painting , going to church , and music are so closely knit that often I can not decide whether I like church for its music , or music for its place in the mystery which it accompanies later"
-      ]
-    ]
-  },
-  "15": {
-    "srl": [
-      [
-        "He",
-        "found",
-        "some employment designing theatrical scenery and other decorations"
-      ],
-      [
-        "He",
-        "designing",
-        "theatrical scenery and other decorations"
-      ]
-    ]
-  },
-  "26": {
-    "srl": [
-      [
-        "He",
-        "showed",
-        "his skill at mythological themes , the female form , and lush vegetal decoration"
-      ]
-    ]
-  },
-  "35": {},
-  "51": {
-    "srl": [
-      [
-        "He",
-        "took",
-        "pictures of himself and his friends"
-      ],
-      [
-        "He",
-        "used",
-        "it to compose his drawings regularly also"
-      ],
-      [
-        "He",
-        "compose",
-        "his drawings"
-      ]
-    ]
-  },
-  "67": {},
-  "69": {},
-  "82": {},
-  "85": {
-    "srl": [
-      [
-        "He",
-        "designed",
-        "a calendar with a woman 's head surrounded by the signs of the zodiac also"
-      ]
-    ]
-  },
-  "105": {
-    "srl": [
-      [
-        "he",
-        "done",
-        "with his theater work"
-      ],
-      [
-        "he",
-        "took",
-        "photographs of posed models often As he had done with his theater work"
-      ],
-      [
-        "he",
-        "painted",
-        " often simplifying the forms"
-      ],
-      [
-        "he",
-        "simplifying",
-        "the forms"
-      ]
-    ]
-  },
-  "106": {},
-  "124": {},
-  "129": {},
-  "136": {},
-  "137": {},
-  "138": {},
-  "155": {},
-  "180": {
-    "srl": [
-      [
-        "He",
-        "used",
-        "costumed models and still and motion picture cameras to set the scenes"
-      ],
-      [
-        "He",
-        "set",
-        "the scenes"
-      ],
-      [
-        "He",
-        "encouraging",
-        "the models to create their own poses often"
-      ]
-    ]
-  },
-  "190": {
-    "srl": [
-      [
-        "He",
-        "designed",
-        "postage stamps for his new country"
-      ]
-    ]
-  },
-  "198": {},
-  "204": {},
+  "4": {},
   "-1": {}
 }

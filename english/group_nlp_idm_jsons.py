@@ -1,5 +1,5 @@
 import glob, os, json
-from nlp_to_idm_json import convert_nlp_to_idm_json, stringify_id
+from nlp_to_idm_json import convert_nlp_to_idm_json, stringify_id, create_idm_event
 from nlp_to_idm_json import person_template, place_template, group_template, object_template
 
 
@@ -18,11 +18,14 @@ def unify_idm_jsons(movement_name: str):
     event_id, all_events, event_mapper = 0, {}, {}
     all_event_kinds, all_roles = {}, {}
     aek_id, ar_id = 0, 0
+    main_entities = []
     for filepath in glob.glob(f"data/idm/{movement_name}/*.idm.json"):
         obj = json.load(open(filepath))
         # Handle Unification of ENTITIES
         print(len(obj["entities"]))
-        for ent in obj["entities"]:
+        for ix, ent in enumerate(obj["entities"]):
+            if len(ent["id"]) == 0: continue
+            if ix == 0: main_entities.append(ent["id"])
             bio_id = ent["id"].split('-')[0]
             type_id = ent["id"].split('-')[1]
             unique_id = "-".join(ent["id"].split('-')[2:])
@@ -69,8 +72,28 @@ def unify_idm_jsons(movement_name: str):
         for rel in event["relations"]:
             if rel["entity"]:
                 rel["entity"] = entity_mapper[rel["entity"]]
-            else:
-                print(event)
+
+    # # An extra relation to Connect main subjects
+    # for subj_ent_id, obj_ent_id in zip(main_entities, main_entities[1:]):
+    #     subj_idm_id = entity_mapper[subj_ent_id]
+    #     obj_idm_id = entity_mapper[obj_ent_id]
+    #     ev_sub_id = f"{movement_name}-ev-{stringify_id(event_id)}"
+    #     # This event is "passive" (the object "was created"), that's why the other entity we need to get is the Subj Entity (the creator)
+    #     # We are assuming the first entity of the text == Subject of the Biography
+    #     subj_idm_ent = all_entities[subj_idm_id]
+    #     obj_idm_ent = all_entities[obj_idm_id]
+    #     event_info = {"full_event_id": ev_sub_id, 
+    #                     "event_label": "same_movement_as", 
+    #                     "event_kind": "same_movement_as", 
+    #                     "subj_role": "same_movement_as", 
+    #                     "obj_role": "same_movement_as"}
+    #     event_relations = [{ "entity": obj_idm_ent, "role": f"role-{event_info['obj_role']}"},
+    #                     { "entity": subj_idm_id, "role": f"role-{event_info['subj_role']}" }
+    #                 ]
+    #     subj_idm_ent, obj_idm_ent, event_obj, all_event_kinds, all_roles = create_idm_event(event_info, subj_idm_id, subj_idm_ent, obj_idm_ent, event_relations, all_event_kinds, all_roles)
+    #     event_id += 1
+    #     all_events[ev_sub_id] = event_obj
+        
 
     # Save the Grouped Entities, Relations and Events into a single IDM JSON
     group_parent_idm = {
@@ -87,5 +110,5 @@ def unify_idm_jsons(movement_name: str):
 
 
 if __name__ == "__main__":
-    generate_idms_from_group("Art_Nouveau")
+    # generate_idms_from_group("Art_Nouveau")
     unify_idm_jsons("Art_Nouveau")

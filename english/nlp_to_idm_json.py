@@ -83,6 +83,7 @@ def convert_nlp_to_idm_json(nlp_path: str, idm_out_path: str, wiki_root_path: st
     
     nlp_dict = json.load(open(nlp_path))
     person_name = os.path.basename(nlp_path).split(".")[0]
+
     firstname = person_name.split("_")[0]
     lastname = person_name.split("_")[-1]
     main_person_url = get_wikipedia_url_encoded(person_name.replace("_", " ").title())
@@ -330,13 +331,13 @@ def convert_nlp_to_idm_json(nlp_path: str, idm_out_path: str, wiki_root_path: st
         if ner_category in ["PER", "PERSON"]:
             idm_ent = copy.deepcopy(person_template)
             idm_ent["kind"] = "person"
-            if wiki_link or per_ix == 0:
-                # By default always the first entity is the Main Entity
-                if per_ix == 0: 
-                    wiki_link = main_person_url
-                    per_ix += 1
-                    if main_person_image:
-                        idm_ent["media"] = [f"{main_person_id}-m-001"]
+            # By default always the first entity is the Main Entity
+            if per_ix == 0:
+                per_ix += 1
+                idm_ent["id"] = f"{main_person_id}-pr-{main_person_id}"
+                if main_person_image:
+                    idm_ent["media"] = [f"{main_person_id}-m-001"]
+            if wiki_link:
                 wiki_name = unquote(wiki_link.split('/')[-1])
                 idm_ent["id"] = f"{main_person_id}-pr-{wiki_name}"
                 idm_ent["linkedIds"].append({"label": f"{wiki_name}", "url": wiki_link})
@@ -465,7 +466,7 @@ def convert_nlp_to_idm_json(nlp_path: str, idm_out_path: str, wiki_root_path: st
                               "event_kind": f"event-kind-{subj_role}", 
                               "subj_role": subj_role, 
                               "obj_role": obj_role}
-                if main_birth_date and subj_role == "date_of_birth" or subj_role == "child_of" or subj_role == "sibling_of":
+                if main_birth_date and (subj_role == "date_of_birth" or subj_role == "child_of" or subj_role == "sibling_of"):
                     event_info["startDate"] = main_birth_date
                 subj_univ_id = ent_nlp2ent_univ[rel_obj['subjectID']] 
                 subj_idm_id = univ_id2idm_id.get(subj_univ_id)
@@ -771,5 +772,6 @@ def get_media_item(media_id, media_title, media_url):
 
 if __name__ == "__main__":
     # convert_nlp_to_idm_json("data/json/albrecht_dürer.json", "data/idm/albrecht_dürer.idm.json")
-    convert_nlp_to_idm_json("data/wikipedia/Art_Nouveau/alphonse_mucha.nlp.json","data/idm/Art_Nouveau/alphonse_mucha.idm.json", wiki_root_path = "data/wikipedia/Art_Nouveau")
+    convert_nlp_to_idm_json("data/wikipedia/Art_Nouveau/hede_von_trapp.nlp.json","data/idm/Art_Nouveau/hede_von_trapp.idm.json", wiki_root_path = "data/wikipedia/Art_Nouveau")
+    # convert_nlp_to_idm_json("data/wikipedia/Art_Nouveau/alphonse_mucha.nlp.json","data/idm/Art_Nouveau/alphonse_mucha.idm.json", wiki_root_path = "data/wikipedia/Art_Nouveau")
     # convert_nlp_to_idm_json("english/data/json/ida_laura_pfeiffer.json", "english/data/idm/ida_pfeiffer.idm.json")
