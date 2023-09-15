@@ -73,7 +73,7 @@ def unify_idm_jsons(movement_name: str):
             if rel["entity"]:
                 rel["entity"] = entity_mapper[rel["entity"]]
 
-    # # An extra relation to Connect main subjects
+    # # An extra event to Connect main subjects ?? Or just a Relation?? This gives Internal Server Error
     # for subj_ent_id, obj_ent_id in zip(main_entities, main_entities[1:]):
     #     subj_idm_id = entity_mapper[subj_ent_id]
     #     obj_idm_id = entity_mapper[obj_ent_id]
@@ -88,11 +88,14 @@ def unify_idm_jsons(movement_name: str):
     #                     "subj_role": "same_movement_as", 
     #                     "obj_role": "same_movement_as"}
     #     event_relations = [{ "entity": obj_idm_ent, "role": f"role-{event_info['obj_role']}"},
-    #                     { "entity": subj_idm_id, "role": f"role-{event_info['subj_role']}" }
+    #                     {"entity": subj_idm_id, "role": f"role-{event_info['subj_role']}" }
     #                 ]
     #     subj_idm_ent, obj_idm_ent, event_obj, all_event_kinds, all_roles = create_idm_event(event_info, subj_idm_id, subj_idm_ent, obj_idm_ent, event_relations, all_event_kinds, all_roles)
     #     event_id += 1
     #     all_events[ev_sub_id] = event_obj
+    #     # Add updated object back to dict
+    #     all_entities[subj_idm_id] = subj_idm_ent
+    #     all_entities[obj_idm_id] = obj_idm_ent
         
 
     # Save the Grouped Entities, Relations and Events into a single IDM JSON
@@ -110,5 +113,5 @@ def unify_idm_jsons(movement_name: str):
 
 
 if __name__ == "__main__":
-    # generate_idms_from_group("Art_Nouveau")
+    generate_idms_from_group("Art_Nouveau")
     unify_idm_jsons("Art_Nouveau")

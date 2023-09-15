@@ -1,7 +1,7 @@
 
 
 import requests
-import sys, os
+import time
 import pandas as pd
 from typing import Dict, Any
 
@@ -9,14 +9,12 @@ from typing import Dict, Any
 def get_wikidata_id_from_wikipedia_url(wiki_url: str):
     url = 'https://query.wikidata.org/sparql'
     query = f"""
-    SELECT ?wikidataID ?image
+    SELECT ?wikidataID
     WHERE {{
     <{wiki_url}> schema:about ?wikidataID .
-    OPTIONAL {{?wikidataID wdt:P18 ?image}}
     }}
     """
     wikidata_id = None
-    main_image = None
     # Call API
     try:
         r = requests.get(url, params={'format': 'json', 'query': query}, timeout=3)
@@ -24,33 +22,36 @@ def get_wikidata_id_from_wikipedia_url(wiki_url: str):
     except:
         print("Failed to query Wikidata")
         data = None
-    
+    # Feed data from Wikidata Response
     if data:
-        # Feed data from Wikidata Response
         for item in data["results"]["bindings"]:
             wikidata_id = item["wikidataID"]["value"]
-            main_image = item.get("image", {}).get("value", {})
-            if main_image == {}: main_image = None
-    return wikidata_id, main_image
+    return wikidata_id
 
 
 def get_wikidata_basic_info(wikipedia_url: str) -> Dict[str, Any]:
     url = 'https://query.wikidata.org/sparql'
     query = f"""
-    SELECT ?wikidataID ?image ?birthDate ?deathDate
+    SELECT ?wikidataID ?image ?coordinates ?birthDate ?deathDate
     WHERE {{
     <{wikipedia_url}> schema:about ?wikidataID .
     OPTIONAL {{?wikidataID wdt:P18 ?image}}
+    OPTIONAL {{?wikidataID wdt:P625 ?coordinates}}
     OPTIONAL {{?wikidataID wdt:P569 ?birthDate}} #To show property options in the sparql endpoint -> [fn]+control+space
     OPTIONAL {{?wikidataID wdt:P570 ?deathDate}}
     }}
     """
     wikidata_id = None
     main_image, birth_date, death_date = None, None, None
+    coordinates = None
     # Call API
     try:
         r = requests.get(url, params={'format': 'json', 'query': query}, timeout=3)
         data = r.json() if r.status_code == 200 else None
+        if r.status_code == 429:
+            time.sleep(2)
+            r = requests.get(url, params={'format': 'json', 'query': query}, timeout=3)
+            data = r.json() if r.status_code == 200 else None
     except:
         print("Failed to query Wikidata")
         data = None
@@ -65,13 +66,17 @@ def get_wikidata_basic_info(wikipedia_url: str) -> Dict[str, Any]:
                 birth_date = item.get("birthDate", {}).get("value", {})
             if not death_date:
                 death_date = item.get("deathDate", {}).get("value", {})
+            if not coordinates:
+                coordinates = item.get("coordinates", {}).get("value", {})
             if birth_date == {}: birth_date = None
             if death_date == {}: death_date = None
+            if coordinates == {}: coordinates = None
         return {
             "wikidata_id": wikidata_id,
             "main_image": main_image,
             "birth_date": birth_date,
-            "death_date": death_date
+            "death_date": death_date,
+            "coordinates": _fix_coordinates(coordinates)
         }
     else:
         return None
@@ -186,6 +191,13 @@ def get_all_instaces_of_category(category_id: str):
     
     return tabular_data_all
 
+
+def _fix_coordinates(wikidata_point: str):
+    if not wikidata_point: return None
+    start, end = wikidata_point.split()
+    longitude = float(start.strip("Point(").strip())
+    latitude = float(end.strip(")").strip())
+    return (round(longitude, 6), round(latitude, 6))
 
 if __name__ == "__main__":
     category_id = "wd:Q968159" # Art movement
