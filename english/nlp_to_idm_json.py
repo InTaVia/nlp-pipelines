@@ -315,7 +315,7 @@ def convert_nlp_to_idm_json(nlp_path: str, idm_out_path: str, wiki_root_path: st
     per_ix, pl_ix, gr_ix, obj_ix = 0,0,0,0
     event_ix = 1
     media_ix = 2
-    kown_coords_dict = {} # To avoid querying more than once for the same entity
+    kown_coords_dict, known_wikidata_dict = {}, {} # To avoid querying more than once for the same entity
     event_vocab, role_vocab = {}, {}
     processed_idm_ids = {}
     media_to_insert = {}
@@ -327,6 +327,18 @@ def convert_nlp_to_idm_json(nlp_path: str, idm_out_path: str, wiki_root_path: st
         if ner_category in ["PER", "PERSON", "LOC", "GPE", "FAC", "ORG", "WORK_OF_ART"]:
             wiki_link = wiki_linked_dict.get(surface_form)
             print(f"--------\n{ner_category} {surface_form} WikiLink ---> {wiki_link}")
+            if wiki_link in known_wikidata_dict:
+                wikidata_info = known_wikidata_dict[wiki_link]
+            else:
+                wikidata_info = get_wikidata_basic_info(wiki_link)
+                known_wikidata_dict[wiki_link] = wikidata_info
+            print(wikidata_info)
+            if wikidata_info:
+                wikidata_url, wikidata_image, wikidata_coords = wikidata_info["wikidata_id"], wikidata_info["main_image"], wikidata_info["coordinates"]
+            else:
+                wikidata_url, wikidata_image, wikidata_coords = None, None, None
+        else:
+            wiki_link, wikidata_url, wikidata_image, wikidata_coords = None, None, None, None
         # B) IDM ENTITIES
         if ner_category in ["PER", "PERSON"]:
             idm_ent = copy.deepcopy(person_template)
@@ -341,12 +353,6 @@ def convert_nlp_to_idm_json(nlp_path: str, idm_out_path: str, wiki_root_path: st
                 if idm_ent["id"] != f"{main_person_id}-pr-{main_person_id}":
                     idm_ent["id"] = f"{main_person_id}-pr-{wiki_name}"
                 idm_ent["linkedIds"].append({"label": f"{wiki_name}", "url": wiki_link})
-                wikidata_info = get_wikidata_basic_info(wiki_link)
-                print(ner_category, surface_form, wikidata_info)
-                if wikidata_info:
-                    wikidata_url, wikidata_image = wikidata_info["wikidata_id"], wikidata_info["main_image"]
-                else:
-                    wikidata_url, wikidata_image = None, None
                 if wikidata_image and wikidata_image != main_person_image:
                     media_id = f"{main_person_id}-m-{stringify_id(media_ix)}"
                     idm_ent["media"] = [media_id]
@@ -365,12 +371,6 @@ def convert_nlp_to_idm_json(nlp_path: str, idm_out_path: str, wiki_root_path: st
                 wiki_name = unquote(wiki_link.split('/')[-1])
                 idm_ent["id"] = f"{main_person_id}-pl-{wiki_name}"
                 idm_ent["linkedIds"].append({"label": f"{wiki_name}", "url": wiki_link})
-                wikidata_info = get_wikidata_basic_info(wiki_link)
-                print(ner_category, surface_form, wikidata_info)
-                if wikidata_info:
-                    wikidata_url, wikidata_image, wikidata_coords = wikidata_info["wikidata_id"], wikidata_info["main_image"], wikidata_info["coordinates"]
-                else:
-                    wikidata_url, wikidata_image, wikidata_coords = None, None, None
                 if wikidata_url:
                     wikidata_name = wikidata_url.split("/")[-1]
                     idm_ent["linkedIds"].append({"label": f"{wikidata_name}", "url": wikidata_url})
@@ -387,12 +387,11 @@ def convert_nlp_to_idm_json(nlp_path: str, idm_out_path: str, wiki_root_path: st
                 wiki_name = unquote(wiki_link.split('/')[-1])
                 idm_ent["id"] = f"{main_person_id}-gr-{wiki_name}"
                 idm_ent["linkedIds"].append({"label": f"{wiki_name}", "url": wiki_link})
-                wikidata_info = get_wikidata_basic_info(wiki_link)
-                print(ner_category, surface_form, wikidata_info)
-                if wikidata_info:
-                    wikidata_url, wikidata_image = wikidata_info["wikidata_id"], wikidata_info["main_image"]
-                else:
-                    wikidata_url, wikidata_image = None, None
+                if wikidata_image:
+                    media_id = f"{main_person_id}-m-{stringify_id(media_ix)}"
+                    idm_ent["media"] = [media_id]
+                    media_to_insert[media_id] = get_media_item(media_id, unified_ent_obj["surfaceForms"][0], wikidata_image)
+                    media_ix += 1
                 if wikidata_url:
                     wikidata_name = wikidata_url.split("/")[-1]
                     idm_ent["linkedIds"].append({"label": f"{wikidata_name}", "url": wikidata_url})
@@ -406,12 +405,6 @@ def convert_nlp_to_idm_json(nlp_path: str, idm_out_path: str, wiki_root_path: st
                 wiki_name = unquote(wiki_link.split('/')[-1])
                 idm_ent["id"] = f"{main_person_id}-ob-{wiki_name}"
                 idm_ent["linkedIds"].append({"label": f"{wiki_name}", "url": wiki_link})
-                wikidata_info = get_wikidata_basic_info(wiki_link)
-                print(ner_category, surface_form, wikidata_info)
-                if wikidata_info:
-                    wikidata_url, wikidata_image = wikidata_info["wikidata_id"], wikidata_info["main_image"]
-                else:
-                    wikidata_url, wikidata_image = None, None
                 if wikidata_url:
                     wikidata_name = wikidata_url.split("/")[-1]
                     idm_ent["linkedIds"].append({"label": f"{wikidata_name}", "url": wikidata_url})

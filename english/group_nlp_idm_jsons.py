@@ -13,12 +13,14 @@ def generate_idms_from_group(movement_name: str):
 
 def unify_idm_jsons(movement_name: str):
     all_entities = {}
-    entity_mapper = {} # Map faile-specific IDs to Group General IDs
+    all_biographies = []
+    entity_mapper = {} # Map file-specific IDs to Group General IDs
     all_pr_id, all_pl_id, all_gr_id, all_ob_id = 0, 0, 0, 0
     event_id, all_events, event_mapper = 0, {}, {}
+    all_md_id, media_mapper, all_media_objs = 0, {}, []
     all_event_kinds, all_roles = {}, {}
     aek_id, ar_id = 0, 0
-    main_entities = []
+    main_entities = [] # This list contains the central entity of each "Original ego network"
     for filepath in glob.glob(f"data/idm/{movement_name}/*.idm.json"):
         obj = json.load(open(filepath))
         # Handle Unification of ENTITIES
@@ -29,7 +31,7 @@ def unify_idm_jsons(movement_name: str):
             bio_id = ent["id"].split('-')[0]
             type_id = ent["id"].split('-')[1]
             unique_id = "-".join(ent["id"].split('-')[2:])
-            if "0" in unique_id or "1" in unique_id or "2" in unique_id:
+            if "0" in unique_id or "1" in unique_id or "2" in unique_id or "3" in unique_id:
                 if type_id == "pr":
                     all_pr_id += 1
                     mov_ent_id = f"{movement_name}-{type_id}-{stringify_id(all_pr_id)}"
@@ -47,6 +49,13 @@ def unify_idm_jsons(movement_name: str):
             # Change Fields to be in the Unified Movement IDM
             entity_mapper[ent["id"]] = mov_ent_id
             ent["id"] = mov_ent_id
+            # Change media-ids to a general counter
+            if "media" in ent and len(ent["media"]) > 0:
+                all_md_id += 1
+                mov_ent_media_id = f"{movement_name}-m-{stringify_id(all_md_id)}"
+                media_mapper[ent["media"][0]] = mov_ent_media_id
+                ent["media"] = [mov_ent_media_id]
+            # Add to the General Entity Dict
             all_entities[mov_ent_id] = ent
         # Unification of EVENTS with a single event index for all files
         for event in obj["events"]:
@@ -61,6 +70,12 @@ def unify_idm_jsons(movement_name: str):
         for r in obj["vocabularies"]["role"]:
             ar_id += 1
             all_roles[ar_id] = r
+        # Map the Media Objects to the new Ids
+        for media_obj in obj["media"]:
+            all_media_objs.append(media_obj)
+        # Add all the biographies available
+        for bio in obj["biographies"]:
+            all_biographies.append(bio)
 
     json.dump(entity_mapper, open("cheche_entity_mapper.json", "w"), indent=2, ensure_ascii=False)  
     # Map the File-based ID's to the Movement IDs in the relations of all entities    
@@ -72,6 +87,12 @@ def unify_idm_jsons(movement_name: str):
         for rel in event["relations"]:
             if rel["entity"]:
                 rel["entity"] = entity_mapper[rel["entity"]]
+
+    json.dump(media_mapper, open("cheche_media_mapper.json", "w"), indent=2, ensure_ascii=False)     
+
+    for media_obj in all_media_objs:
+        if media_obj["id"] in media_mapper:
+            media_obj["id"] = media_mapper[media_obj["id"]]
 
     # # An extra event to Connect main subjects ?? Or just a Relation?? This gives Internal Server Error
     # for subj_ent_id, obj_ent_id in zip(main_entities, main_entities[1:]):
@@ -102,8 +123,8 @@ def unify_idm_jsons(movement_name: str):
     group_parent_idm = {
         "entities": sorted(all_entities.values(), key= lambda x: - len(x["relations"])),
         "events": sorted(all_events.values(), key= lambda x: x["id"]),
-        "media": [],
-        "biographies": [],
+        "media": all_media_objs,
+        "biographies": all_biographies,
         "vocabularies": {"event-kind": list(all_event_kinds.values()), "role": list(all_roles.values())},
         "unmappedEntities": [],
         "collections": {}
@@ -113,5 +134,5 @@ def unify_idm_jsons(movement_name: str):
 
 
 if __name__ == "__main__":
-    generate_idms_from_group("Art_Nouveau")
+    # generate_idms_from_group("Art_Nouveau")
     unify_idm_jsons("Art_Nouveau")
