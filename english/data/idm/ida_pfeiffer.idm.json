@@ -1,0 +1,7330 @@
+{
+  "entities": [
+    {
+      "id": "Ida_Laura_Pfeiffer-pl-Vienna",
+      "label": {
+        "default": "Vienna"
+      },
+      "linkedIds": [
+        {
+          "label": "Vienna",
+          "url": "https://en.wikipedia.org/wiki/Vienna"
+        },
+        {
+          "label": "Q1741",
+          "url": "http://www.wikidata.org/entity/Q1741"
+        }
+      ],
+      "relations": [
+        {
+          "event": "Ida_Laura_Pfeiffer-pl-Vienna-ev-001",
+          "role": "role-born_in"
+        },
+        {
+          "event": "Ida_Laura_Pfeiffer-pl-Vienna-ev-001",
+          "role": "role-place_of_birth"
+        },
+        {
+          "event": "Ida_Laura_Pfeiffer-pl-Vienna-ev-002",
+          "role": "role-lived_in"
+        },
+        {
+          "event": "Ida_Laura_Pfeiffer-pl-Vienna-ev-002",
+          "role": "role-place_of_residence"
+        },
+        {
+          "event": "Ida_Laura_Pfeiffer-pl-Vienna-ev-003",
+          "role": "role-died_in"
+        },
+        {
+          "event": "Ida_Laura_Pfeiffer-pl-Vienna-ev-003",
+          "role": "role-unk"
+        },
+        {
+          "event": "Ida_Laura_Pfeiffer-pl-Vienna-ev-004",
+          "role": "role-died_in"
+        },
+        {
+          "event": "Ida_Laura_Pfeiffer-pl-Vienna-ev-004",
+          "role": "role-unk"
+        },
+        {
+          "event": "Ida_Laura_Pfeiffer-pl-Vienna-ev-005",
+          "role": "role-based_in"
+        },
+        {
+          "event": "Ida_Laura_Pfeiffer-pl-Vienna-ev-005",
+          "role": "role-location_of"
+        },
+        {
+          "event": "Ida_Laura_Pfeiffer-pl-Vienna-ev-006",
+          "role": "role-based_in"
+        },
+        {
+          "event": "Ida_Laura_Pfeiffer-pl-Vienna-ev-006",
+          "role": "role-location_of"
+        },
+        {
+          "event": "Ida_Laura_Pfeiffer-pr-Ida_Laura_Pfeiffer-ev-007",
+          "role": "role-place_of_birth"
+        },
+        {
+          "event": "Ida_Laura_Pfeiffer-pr-Ida_Laura_Pfeiffer-ev-009",
+          "role": "role-place_of_residence"
+        },
+        {
+          "event": "Ida_Laura_Pfeiffer-pr-Ida_Laura_Pfeiffer-ev-011",
+          "role": "role-unk"
+        },
+        {
+          "event": "Ida_Laura_Pfeiffer-gr-005-ev-030",
+          "role": "role-location_of"
+        },
+        {
+          "event": "Ida_Laura_Pfeiffer-pr-020-ev-041",
+          "role": "role-unk"
+        },
+        {
+          "event": "Ida_Laura_Pfeiffer-pl-031-ev-044",
+          "role": "role-location_of"
+        },
+        {
+          "event": "Ida_Laura_Pfeiffer-pr-Ida_Laura_Pfeiffer-ev-048",
+          "role": "role-gave"
+        },
+        {
+          "event": "Ida_Laura_Pfeiffer-pr-Ida_Laura_Pfeiffer-ev-049",
+          "role": "role-gave"
+        },
+        {
+          "event": "Ida_Laura_Pfeiffer-pr-Ida_Laura_Pfeiffer-ev-050",
+          "role": "role-stayed"
+        },
+        {
+          "event": "Ida_Laura_Pfeiffer-pr-Ida_Laura_Pfeiffer-ev-053",
+          "role": "role-published"
+        },
+        {
+          "event": "Ida_Laura_Pfeiffer-pr-Ida_Laura_Pfeiffer-ev-054",
+          "role": "role-came"
+        },
+        {
+          "event": "Ida_Laura_Pfeiffer-pr-Ida_Laura_Pfeiffer-ev-055",
+          "role": "role-returning"
+        }
+      ],
+      "kind": "place",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.3725,
+          48.208333
+        ]
+      }
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pr-Ida_Laura_Pfeiffer",
+      "label": {
+        "default": "Ida Laura Pfeiffer"
+      },
+      "linkedIds": [
+        {
+          "label": "Ida_Laura_Pfeiffer",
+          "url": "https://en.wikipedia.org/wiki/Ida_Laura_Pfeiffer"
+        },
+        {
+          "label": "Q78873",
+          "url": "http://www.wikidata.org/entity/Q78873"
+        }
+      ],
+      "media": [
+        "Ida_Laura_Pfeiffer-m-001"
+      ],
+      "relations": [
+        {
+          "event": "Ida_Laura_Pfeiffer-pr-Ida_Laura_Pfeiffer-ev-007",
+          "role": "role-born_in"
+        },
+        {
+          "event": "Ida_Laura_Pfeiffer-pr-Ida_Laura_Pfeiffer-ev-008",
+          "role": "role-child_of"
+        },
+        {
+          "event": "Ida_Laura_Pfeiffer-pr-Ida_Laura_Pfeiffer-ev-009",
+          "role": "role-lived_in"
+        },
+        {
+          "event": "Ida_Laura_Pfeiffer-pr-Ida_Laura_Pfeiffer-ev-010",
+          "role": "role-lived_in"
+        },
+        {
+          "event": "Ida_Laura_Pfeiffer-pr-Ida_Laura_Pfeiffer-ev-011",
+          "role": "role-died_in"
+        },
+        {
+          "event": "Ida_Laura_Pfeiffer-pr-Ida_Laura_Pfeiffer-ev-012",
+          "role": "role-sibling_of"
+        },
+        {
+          "event": "Ida_Laura_Pfeiffer-pr-Ida_Laura_Pfeiffer-ev-013",
+          "role": "role-sibling_of"
+        },
+        {
+          "event": "Ida_Laura_Pfeiffer-pr-Ida_Laura_Pfeiffer-ev-013",
+          "role": "role-sibling_of"
+        },
+        {
+          "event": "Ida_Laura_Pfeiffer-pr-Ida_Laura_Pfeiffer-ev-014",
+          "role": "role-lived_in"
+        },
+        {
+          "event": "Ida_Laura_Pfeiffer-ob-001-ev-024",
+          "role": "role-related_to"
+        },
+        {
+          "event": "Ida_Laura_Pfeiffer-ob-002-ev-025",
+          "role": "role-related_to"
+        },
+        {
+          "event": "Ida_Laura_Pfeiffer-ob-003-ev-026",
+          "role": "role-related_to"
+        },
+        {
+          "event": "Ida_Laura_Pfeiffer-ob-004-ev-027",
+          "role": "role-related_to"
+        },
+        {
+          "event": "Ida_Laura_Pfeiffer-ob-005-ev-028",
+          "role": "role-related_to"
+        },
+        {
+          "event": "Ida_Laura_Pfeiffer-ob-006-ev-029",
+          "role": "role-related_to"
+        },
+        {
+          "event": "Ida_Laura_Pfeiffer-ob-007-ev-035",
+          "role": "role-related_to"
+        },
+        {
+          "event": "Ida_Laura_Pfeiffer-ob-008-ev-036",
+          "role": "role-related_to"
+        },
+        {
+          "event": "Ida_Laura_Pfeiffer-ob-009-ev-037",
+          "role": "role-related_to"
+        },
+        {
+          "event": "Ida_Laura_Pfeiffer-ob-010-ev-038",
+          "role": "role-related_to"
+        },
+        {
+          "event": "Ida_Laura_Pfeiffer-pr-020-ev-040",
+          "role": "role-sibling_of"
+        },
+        {
+          "event": "Ida_Laura_Pfeiffer-ob-011-ev-042",
+          "role": "role-related_to"
+        },
+        {
+          "event": "Ida_Laura_Pfeiffer-ob-Descent_of_Man-ev-043",
+          "role": "role-related_to"
+        },
+        {
+          "event": "Ida_Laura_Pfeiffer-ob-012-ev-045",
+          "role": "role-related_to"
+        },
+        {
+          "event": "Ida_Laura_Pfeiffer-ob-013-ev-046",
+          "role": "role-related_to"
+        },
+        {
+          "event": "Ida_Laura_Pfeiffer-ob-014-ev-047",
+          "role": "role-related_to"
+        },
+        {
+          "event": "Ida_Laura_Pfeiffer-pr-Ida_Laura_Pfeiffer-ev-048",
+          "role": "role-gave"
+        },
+        {
+          "event": "Ida_Laura_Pfeiffer-pr-Ida_Laura_Pfeiffer-ev-049",
+          "role": "role-gave"
+        },
+        {
+          "event": "Ida_Laura_Pfeiffer-pr-Ida_Laura_Pfeiffer-ev-050",
+          "role": "role-stayed"
+        },
+        {
+          "event": "Ida_Laura_Pfeiffer-pr-Ida_Laura_Pfeiffer-ev-051",
+          "role": "role-traveled"
+        },
+        {
+          "event": "Ida_Laura_Pfeiffer-pr-Ida_Laura_Pfeiffer-ev-052",
+          "role": "role-returned"
+        },
+        {
+          "event": "Ida_Laura_Pfeiffer-pr-Ida_Laura_Pfeiffer-ev-053",
+          "role": "role-published"
+        },
+        {
+          "event": "Ida_Laura_Pfeiffer-pr-Ida_Laura_Pfeiffer-ev-054",
+          "role": "role-came"
+        },
+        {
+          "event": "Ida_Laura_Pfeiffer-pr-Ida_Laura_Pfeiffer-ev-055",
+          "role": "role-returning"
+        },
+        {
+          "event": "Ida_Laura_Pfeiffer-pr-Ida_Laura_Pfeiffer-ev-056",
+          "role": "role-boarded"
+        },
+        {
+          "event": "Ida_Laura_Pfeiffer-pr-Ida_Laura_Pfeiffer-ev-057",
+          "role": "role-entering"
+        },
+        {
+          "event": "Ida_Laura_Pfeiffer-pr-Ida_Laura_Pfeiffer-ev-058",
+          "role": "role-set"
+        },
+        {
+          "event": "Ida_Laura_Pfeiffer-pr-Ida_Laura_Pfeiffer-ev-059",
+          "role": "role-arriving"
+        },
+        {
+          "event": "Ida_Laura_Pfeiffer-pr-Ida_Laura_Pfeiffer-ev-060",
+          "role": "role-left"
+        },
+        {
+          "event": "Ida_Laura_Pfeiffer-pr-Ida_Laura_Pfeiffer-ev-061",
+          "role": "role-boarded"
+        },
+        {
+          "event": "Ida_Laura_Pfeiffer-pr-Ida_Laura_Pfeiffer-ev-062",
+          "role": "role-completed"
+        },
+        {
+          "event": "Ida_Laura_Pfeiffer-pr-Ida_Laura_Pfeiffer-ev-063",
+          "role": "role-set"
+        },
+        {
+          "event": "Ida_Laura_Pfeiffer-pr-Ida_Laura_Pfeiffer-ev-064",
+          "role": "role-left"
+        },
+        {
+          "event": "Ida_Laura_Pfeiffer-pr-Ida_Laura_Pfeiffer-ev-065",
+          "role": "role-died on"
+        }
+      ],
+      "kind": "person",
+      "biographies": [
+        "Ida_Laura_Pfeiffer-bio-001"
+      ]
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pl-Berlin",
+      "label": {
+        "default": "Berlin"
+      },
+      "linkedIds": [
+        {
+          "label": "Berlin",
+          "url": "https://en.wikipedia.org/wiki/Berlin"
+        },
+        {
+          "label": "Q64",
+          "url": "http://www.wikidata.org/entity/Q64"
+        }
+      ],
+      "relations": [],
+      "kind": "place",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.405,
+          52.52
+        ]
+      }
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pl-Lemberg",
+      "label": {
+        "default": "Lemberg"
+      },
+      "linkedIds": [
+        {
+          "label": "Lemberg",
+          "url": "https://en.wikipedia.org/wiki/Lemberg"
+        }
+      ],
+      "relations": [
+        {
+          "event": "Ida_Laura_Pfeiffer-pr-Ida_Laura_Pfeiffer-ev-010",
+          "role": "role-place_of_residence"
+        },
+        {
+          "event": "Ida_Laura_Pfeiffer-pl-Lemberg-ev-015",
+          "role": "role-lived_in"
+        },
+        {
+          "event": "Ida_Laura_Pfeiffer-pl-Lemberg-ev-015",
+          "role": "role-place_of_residence"
+        },
+        {
+          "event": "Ida_Laura_Pfeiffer-pr-Ida_Laura_Pfeiffer-ev-050",
+          "role": "role-stayed"
+        }
+      ],
+      "kind": "place"
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pl-Beirut",
+      "label": {
+        "default": "Beirut"
+      },
+      "linkedIds": [
+        {
+          "label": "Beirut",
+          "url": "https://en.wikipedia.org/wiki/Beirut"
+        },
+        {
+          "label": "Q3820",
+          "url": "http://www.wikidata.org/entity/Q3820"
+        }
+      ],
+      "relations": [
+        {
+          "event": "Ida_Laura_Pfeiffer-pr-Ida_Laura_Pfeiffer-ev-052",
+          "role": "role-returned"
+        }
+      ],
+      "kind": "place",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.505696,
+          33.898316
+        ]
+      }
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pl-001",
+      "label": {
+        "default": "Egypt"
+      },
+      "linkedIds": [],
+      "relations": [],
+      "kind": "place",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.216667,
+          30.033333
+        ]
+      }
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pl-Iceland",
+      "label": {
+        "default": "Iceland"
+      },
+      "linkedIds": [
+        {
+          "label": "Iceland",
+          "url": "https://en.wikipedia.org/wiki/Iceland"
+        },
+        {
+          "label": "Q189",
+          "url": "http://www.wikidata.org/entity/Q189"
+        }
+      ],
+      "relations": [],
+      "kind": "place",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -21.933333,
+          64.133333
+        ]
+      }
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pl-Rio_de_Janeiro",
+      "label": {
+        "default": "Rio de Janeiro"
+      },
+      "linkedIds": [
+        {
+          "label": "Rio_de_Janeiro",
+          "url": "https://en.wikipedia.org/wiki/Rio_de_Janeiro"
+        },
+        {
+          "label": "Q8678",
+          "url": "http://www.wikidata.org/entity/Q8678"
+        }
+      ],
+      "relations": [
+        {
+          "event": "Ida_Laura_Pfeiffer-pr-Ida_Laura_Pfeiffer-ev-056",
+          "role": "role-boarded"
+        },
+        {
+          "event": "Ida_Laura_Pfeiffer-pr-Ida_Laura_Pfeiffer-ev-057",
+          "role": "role-entering"
+        }
+      ],
+      "kind": "place",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.205556,
+          -22.911111
+        ]
+      }
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pl-Bombay",
+      "label": {
+        "default": "Bombay"
+      },
+      "linkedIds": [
+        {
+          "label": "Bombay",
+          "url": "https://en.wikipedia.org/wiki/Bombay"
+        }
+      ],
+      "relations": [
+        {
+          "event": "Ida_Laura_Pfeiffer-pr-Ida_Laura_Pfeiffer-ev-060",
+          "role": "role-left"
+        }
+      ],
+      "kind": "place",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8775,
+          19.076111
+        ]
+      }
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pl-002",
+      "label": {
+        "default": "Britain"
+      },
+      "linkedIds": [],
+      "relations": [],
+      "kind": "place",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.116667,
+          51.5
+        ]
+      }
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pl-Hamburg",
+      "label": {
+        "default": "Hamburg"
+      },
+      "linkedIds": [
+        {
+          "label": "Hamburg",
+          "url": "https://en.wikipedia.org/wiki/Hamburg"
+        },
+        {
+          "label": "Q1055",
+          "url": "http://www.wikidata.org/entity/Q1055"
+        }
+      ],
+      "relations": [
+        {
+          "event": "Ida_Laura_Pfeiffer-pr-Ida_Laura_Pfeiffer-ev-056",
+          "role": "role-boarded"
+        }
+      ],
+      "kind": "place",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.0,
+          53.55
+        ]
+      }
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pl-London",
+      "label": {
+        "default": "London"
+      },
+      "linkedIds": [
+        {
+          "label": "London",
+          "url": "https://en.wikipedia.org/wiki/London"
+        },
+        {
+          "label": "Q84",
+          "url": "http://www.wikidata.org/entity/Q84"
+        }
+      ],
+      "relations": [
+        {
+          "event": "Ida_Laura_Pfeiffer-pl-London-ev-016",
+          "role": "role-based_in"
+        },
+        {
+          "event": "Ida_Laura_Pfeiffer-pl-London-ev-016",
+          "role": "role-location_of"
+        },
+        {
+          "event": "Ida_Laura_Pfeiffer-gr-001-ev-018",
+          "role": "role-location_of"
+        },
+        {
+          "event": "Ida_Laura_Pfeiffer-pr-Ida_Laura_Pfeiffer-ev-064",
+          "role": "role-left"
+        }
+      ],
+      "kind": "place",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1275,
+          51.507222
+        ]
+      }
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pr-Charles_Darwin",
+      "label": {
+        "default": "Charles Darwin"
+      },
+      "linkedIds": [
+        {
+          "label": "Charles_Darwin",
+          "url": "https://en.wikipedia.org/wiki/Charles_Darwin"
+        },
+        {
+          "label": "Q1035",
+          "url": "http://www.wikidata.org/entity/Q1035"
+        }
+      ],
+      "media": [
+        "Ida_Laura_Pfeiffer-m-002"
+      ],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pl-Africa",
+      "label": {
+        "default": "Africa"
+      },
+      "linkedIds": [
+        {
+          "label": "Africa",
+          "url": "https://en.wikipedia.org/wiki/Africa"
+        },
+        {
+          "label": "Q15",
+          "url": "http://www.wikidata.org/entity/Q15"
+        }
+      ],
+      "relations": [],
+      "kind": "place",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.1881,
+          21.09375
+        ]
+      }
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pl-Jerusalem",
+      "label": {
+        "default": "Jerusalem"
+      },
+      "linkedIds": [
+        {
+          "label": "Jerusalem",
+          "url": "https://en.wikipedia.org/wiki/Jerusalem"
+        },
+        {
+          "label": "Q1218",
+          "url": "http://www.wikidata.org/entity/Q1218"
+        }
+      ],
+      "relations": [],
+      "kind": "place",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.225556,
+          31.778889
+        ]
+      }
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pl-Ecuador",
+      "label": {
+        "default": "Ecuador"
+      },
+      "linkedIds": [
+        {
+          "label": "Ecuador",
+          "url": "https://en.wikipedia.org/wiki/Ecuador"
+        },
+        {
+          "label": "Q736",
+          "url": "http://www.wikidata.org/entity/Q736"
+        }
+      ],
+      "relations": [],
+      "kind": "place",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.511944,
+          -0.22
+        ]
+      }
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pl-003",
+      "label": {
+        "default": "South Africa"
+      },
+      "linkedIds": [],
+      "relations": [],
+      "kind": "place"
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pl-Madagascar",
+      "label": {
+        "default": "Madagascar"
+      },
+      "linkedIds": [
+        {
+          "label": "Madagascar",
+          "url": "https://en.wikipedia.org/wiki/Madagascar"
+        },
+        {
+          "label": "Q1019",
+          "url": "http://www.wikidata.org/entity/Q1019"
+        }
+      ],
+      "relations": [
+        {
+          "event": "Ida_Laura_Pfeiffer-pr-Ida_Laura_Pfeiffer-ev-014",
+          "role": "role-place_of_residence"
+        },
+        {
+          "event": "Ida_Laura_Pfeiffer-pl-Madagascar-ev-017",
+          "role": "role-lived_in"
+        },
+        {
+          "event": "Ida_Laura_Pfeiffer-pl-Madagascar-ev-017",
+          "role": "role-place_of_residence"
+        },
+        {
+          "event": "Ida_Laura_Pfeiffer-pr-Ida_Laura_Pfeiffer-ev-063",
+          "role": "role-set"
+        }
+      ],
+      "kind": "place",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          47.516667,
+          -18.916667
+        ]
+      }
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pl-004",
+      "label": {
+        "default": "the conspiracy"
+      },
+      "linkedIds": [],
+      "relations": [],
+      "kind": "place"
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pr-Henry_David_Thoreau",
+      "label": {
+        "default": "Thoreau"
+      },
+      "linkedIds": [
+        {
+          "label": "Henry_David_Thoreau",
+          "url": "https://en.wikipedia.org/wiki/Henry_David_Thoreau"
+        },
+        {
+          "label": "Q131149",
+          "url": "http://www.wikidata.org/entity/Q131149"
+        }
+      ],
+      "media": [
+        "Ida_Laura_Pfeiffer-m-003"
+      ],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pr-Alfred_Wallace",
+      "label": {
+        "default": "Alfred Wallace"
+      },
+      "linkedIds": [
+        {
+          "label": "Alfred_Wallace",
+          "url": "https://en.wikipedia.org/wiki/Alfred_Wallace"
+        }
+      ],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pr-002",
+      "label": {
+        "default": "Reyer"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pl-Southeast_Asia",
+      "label": {
+        "default": "Southeast Asia"
+      },
+      "linkedIds": [
+        {
+          "label": "Southeast_Asia",
+          "url": "https://en.wikipedia.org/wiki/Southeast_Asia"
+        },
+        {
+          "label": "Q11708",
+          "url": "http://www.wikidata.org/entity/Q11708"
+        }
+      ],
+      "relations": [],
+      "kind": "place",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.1,
+          12.0
+        ]
+      }
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pl-The_Americas",
+      "label": {
+        "default": "Americas"
+      },
+      "linkedIds": [
+        {
+          "label": "The_Americas",
+          "url": "https://en.wikipedia.org/wiki/The_Americas"
+        }
+      ],
+      "relations": [],
+      "kind": "place"
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pl-005",
+      "label": {
+        "default": "the Middle East"
+      },
+      "linkedIds": [],
+      "relations": [],
+      "kind": "place"
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pl-006",
+      "label": {
+        "default": "Paris"
+      },
+      "linkedIds": [],
+      "relations": [],
+      "kind": "place"
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-gr-001",
+      "label": {
+        "default": "the Royal Geographical Society"
+      },
+      "linkedIds": [],
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [
+        {
+          "event": "Ida_Laura_Pfeiffer-gr-001-ev-018",
+          "role": "role-based_in"
+        }
+      ],
+      "kind": "group",
+      "type": {}
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pr-003",
+      "label": {
+        "default": "Aloys Reyer"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [
+        {
+          "event": "Ida_Laura_Pfeiffer-pr-Ida_Laura_Pfeiffer-ev-008",
+          "role": "role-parent_of"
+        },
+        {
+          "event": "Ida_Laura_Pfeiffer-pr-003-ev-019",
+          "role": "role-child_of"
+        },
+        {
+          "event": "Ida_Laura_Pfeiffer-pr-003-ev-019",
+          "role": "role-parent_of"
+        }
+      ],
+      "kind": "person"
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pl-007",
+      "label": {
+        "default": "Palestine"
+      },
+      "linkedIds": [],
+      "relations": [],
+      "kind": "place"
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pr-004",
+      "label": {
+        "default": "Anna"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pr-Napoleon_I_of_France",
+      "label": {
+        "default": "Napoleon Bonaparte"
+      },
+      "linkedIds": [
+        {
+          "label": "Napoleon_I_of_France",
+          "url": "https://en.wikipedia.org/wiki/Napoleon_I_of_France"
+        }
+      ],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pl-Schönbrunn_Palace",
+      "label": {
+        "default": "Schönbrunn Palace"
+      },
+      "linkedIds": [
+        {
+          "label": "Schönbrunn_Palace",
+          "url": "https://en.wikipedia.org/wiki/Sch%C3%B6nbrunn_Palace"
+        },
+        {
+          "label": "Q131330",
+          "url": "http://www.wikidata.org/entity/Q131330"
+        }
+      ],
+      "relations": [],
+      "kind": "place",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.311865,
+          48.184516
+        ]
+      }
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pr-006",
+      "label": {
+        "default": "Franz Josef Trimmel"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pr-Robinson_Crusoe",
+      "label": {
+        "default": "Robinson Crusoe"
+      },
+      "linkedIds": [
+        {
+          "label": "Robinson_Crusoe",
+          "url": "https://en.wikipedia.org/wiki/Robinson_Crusoe"
+        },
+        {
+          "label": "Q483034",
+          "url": "http://www.wikidata.org/entity/Q483034"
+        }
+      ],
+      "media": [
+        "Ida_Laura_Pfeiffer-m-005"
+      ],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pr-Alexander_von_Humboldt",
+      "label": {
+        "default": "Alexander von Humboldt"
+      },
+      "linkedIds": [
+        {
+          "label": "Alexander_von_Humboldt",
+          "url": "https://en.wikipedia.org/wiki/Alexander_von_Humboldt"
+        },
+        {
+          "label": "Q6694",
+          "url": "http://www.wikidata.org/entity/Q6694"
+        }
+      ],
+      "media": [
+        "Ida_Laura_Pfeiffer-m-006"
+      ],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pr-007",
+      "label": {
+        "default": "Mark Anton Pfeiffer"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pl-Lviv",
+      "label": {
+        "default": "Lviv"
+      },
+      "linkedIds": [
+        {
+          "label": "Lviv",
+          "url": "https://en.wikipedia.org/wiki/Lviv"
+        },
+        {
+          "label": "Q36036",
+          "url": "http://www.wikidata.org/entity/Q36036"
+        }
+      ],
+      "relations": [],
+      "kind": "place",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.032222,
+          49.8425
+        ]
+      }
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pl-Galicia_(Central_Europe)",
+      "label": {
+        "default": "Galicia"
+      },
+      "linkedIds": [
+        {
+          "label": "Galicia_(Central_Europe)",
+          "url": "https://en.wikipedia.org/wiki/Galicia_%28Central_Europe%29"
+        }
+      ],
+      "relations": [],
+      "kind": "place"
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pr-008",
+      "label": {
+        "default": "Alfred"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [
+        {
+          "event": "Ida_Laura_Pfeiffer-pr-008-ev-020",
+          "role": "role-sibling_of"
+        },
+        {
+          "event": "Ida_Laura_Pfeiffer-pr-008-ev-021",
+          "role": "role-sibling_of"
+        },
+        {
+          "event": "Ida_Laura_Pfeiffer-pr-008-ev-021",
+          "role": "role-sibling_of"
+        },
+        {
+          "event": "Ida_Laura_Pfeiffer-pr-009-ev-023",
+          "role": "role-sibling_of"
+        },
+        {
+          "event": "Ida_Laura_Pfeiffer-pr-Ida_Laura_Pfeiffer-ev-048",
+          "role": "role-gave"
+        },
+        {
+          "event": "Ida_Laura_Pfeiffer-pr-Ida_Laura_Pfeiffer-ev-049",
+          "role": "role-gave"
+        }
+      ],
+      "kind": "person"
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pr-009",
+      "label": {
+        "default": "Oscar"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [
+        {
+          "event": "Ida_Laura_Pfeiffer-pr-008-ev-020",
+          "role": "role-sibling_of"
+        },
+        {
+          "event": "Ida_Laura_Pfeiffer-pr-009-ev-022",
+          "role": "role-sibling_of"
+        },
+        {
+          "event": "Ida_Laura_Pfeiffer-pr-009-ev-022",
+          "role": "role-sibling_of"
+        },
+        {
+          "event": "Ida_Laura_Pfeiffer-pr-009-ev-023",
+          "role": "role-sibling_of"
+        },
+        {
+          "event": "Ida_Laura_Pfeiffer-pr-Ida_Laura_Pfeiffer-ev-048",
+          "role": "role-gave"
+        },
+        {
+          "event": "Ida_Laura_Pfeiffer-pr-Ida_Laura_Pfeiffer-ev-049",
+          "role": "role-gave"
+        }
+      ],
+      "kind": "person"
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-ob-001",
+      "label": {
+        "default": "Reise nach dem skandinavischen Norden und der Insel Island"
+      },
+      "linkedIds": [],
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [
+        {
+          "event": "Ida_Laura_Pfeiffer-ob-001-ev-024",
+          "role": "role-object_created"
+        }
+      ],
+      "kind": "cultural-heritage-object",
+      "type": {}
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pl-008",
+      "label": {
+        "default": "Leipzig"
+      },
+      "linkedIds": [],
+      "relations": [],
+      "kind": "place",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.375,
+          51.34
+        ]
+      }
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pl-Danube",
+      "label": {
+        "default": "Danube"
+      },
+      "linkedIds": [
+        {
+          "label": "Danube",
+          "url": "https://en.wikipedia.org/wiki/Danube"
+        },
+        {
+          "label": "Q1653",
+          "url": "http://www.wikidata.org/entity/Q1653"
+        }
+      ],
+      "relations": [],
+      "kind": "place",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.154889,
+          48.095111
+        ]
+      }
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pl-Istanbul",
+      "label": {
+        "default": "Istanbul"
+      },
+      "linkedIds": [
+        {
+          "label": "Istanbul",
+          "url": "https://en.wikipedia.org/wiki/Istanbul"
+        },
+        {
+          "label": "Q406",
+          "url": "http://www.wikidata.org/entity/Q406"
+        }
+      ],
+      "relations": [
+        {
+          "event": "Ida_Laura_Pfeiffer-pr-Ida_Laura_Pfeiffer-ev-051",
+          "role": "role-traveled"
+        }
+      ],
+      "kind": "place",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.955,
+          41.013611
+        ]
+      }
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pl-Alexandria",
+      "label": {
+        "default": "Alexandria"
+      },
+      "linkedIds": [
+        {
+          "label": "Alexandria",
+          "url": "https://en.wikipedia.org/wiki/Alexandria"
+        },
+        {
+          "label": "Q87",
+          "url": "http://www.wikidata.org/entity/Q87"
+        }
+      ],
+      "relations": [],
+      "kind": "place",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.8925,
+          31.1975
+        ]
+      }
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pl-Cairo",
+      "label": {
+        "default": "Cairo"
+      },
+      "linkedIds": [
+        {
+          "label": "Cairo",
+          "url": "https://en.wikipedia.org/wiki/Cairo"
+        },
+        {
+          "label": "Q85",
+          "url": "http://www.wikidata.org/entity/Q85"
+        }
+      ],
+      "relations": [],
+      "kind": "place",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.235833,
+          30.044444
+        ]
+      }
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pl-Rome",
+      "label": {
+        "default": "Rome"
+      },
+      "linkedIds": [
+        {
+          "label": "Rome",
+          "url": "https://en.wikipedia.org/wiki/Rome"
+        },
+        {
+          "label": "Q220",
+          "url": "http://www.wikidata.org/entity/Q220"
+        }
+      ],
+      "relations": [],
+      "kind": "place",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.482778,
+          41.893333
+        ]
+      }
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pr-Hubert_Sattler",
+      "label": {
+        "default": "Hubert Sattler"
+      },
+      "linkedIds": [
+        {
+          "label": "Hubert_Sattler",
+          "url": "https://en.wikipedia.org/wiki/Hubert_Sattler"
+        },
+        {
+          "label": "Q88262",
+          "url": "http://www.wikidata.org/entity/Q88262"
+        }
+      ],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pr-William_Henry_Bartlett",
+      "label": {
+        "default": "William Henry Bartlett"
+      },
+      "linkedIds": [
+        {
+          "label": "William_Henry_Bartlett",
+          "url": "https://en.wikipedia.org/wiki/William_Henry_Bartlett"
+        },
+        {
+          "label": "Q328705",
+          "url": "http://www.wikidata.org/entity/Q328705"
+        }
+      ],
+      "media": [
+        "Ida_Laura_Pfeiffer-m-007"
+      ],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pr-Friedrich_von_Berchtold",
+      "label": {
+        "default": "Count Friedrich von Berchtold"
+      },
+      "linkedIds": [
+        {
+          "label": "Friedrich_von_Berchtold",
+          "url": "https://en.wikipedia.org/wiki/Friedrich_von_Berchtold"
+        },
+        {
+          "label": "Q940150",
+          "url": "http://www.wikidata.org/entity/Q940150"
+        }
+      ],
+      "media": [
+        "Ida_Laura_Pfeiffer-m-008"
+      ],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-ob-002",
+      "label": {
+        "default": "Reise einer Wienerin"
+      },
+      "linkedIds": [],
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [
+        {
+          "event": "Ida_Laura_Pfeiffer-ob-002-ev-025",
+          "role": "role-object_created"
+        },
+        {
+          "event": "Ida_Laura_Pfeiffer-pr-Ida_Laura_Pfeiffer-ev-053",
+          "role": "role-published"
+        }
+      ],
+      "kind": "cultural-heritage-object",
+      "type": {}
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pl-009",
+      "label": {
+        "default": "das Heilige Land"
+      },
+      "linkedIds": [],
+      "relations": [
+        {
+          "event": "Ida_Laura_Pfeiffer-pr-Ida_Laura_Pfeiffer-ev-053",
+          "role": "role-published"
+        }
+      ],
+      "kind": "place"
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-ob-003",
+      "label": {
+        "default": "the Holy Land"
+      },
+      "linkedIds": [],
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [
+        {
+          "event": "Ida_Laura_Pfeiffer-ob-003-ev-026",
+          "role": "role-object_created"
+        },
+        {
+          "event": "Ida_Laura_Pfeiffer-pr-Ida_Laura_Pfeiffer-ev-053",
+          "role": "role-published"
+        }
+      ],
+      "kind": "cultural-heritage-object",
+      "type": {}
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pl-Scandinavia",
+      "label": {
+        "default": "Scandinavia"
+      },
+      "linkedIds": [
+        {
+          "label": "Scandinavia",
+          "url": "https://en.wikipedia.org/wiki/Scandinavia"
+        },
+        {
+          "label": "Q21195",
+          "url": "http://www.wikidata.org/entity/Q21195"
+        }
+      ],
+      "relations": [],
+      "kind": "place",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.760936,
+          64.779642
+        ]
+      }
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pl-Copenhagen",
+      "label": {
+        "default": "Copenhagen"
+      },
+      "linkedIds": [
+        {
+          "label": "Copenhagen",
+          "url": "https://en.wikipedia.org/wiki/Copenhagen"
+        },
+        {
+          "label": "Q1748",
+          "url": "http://www.wikidata.org/entity/Q1748"
+        }
+      ],
+      "relations": [],
+      "kind": "place",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.568333,
+          55.676111
+        ]
+      }
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pl-Hafnarfjörður",
+      "label": {
+        "default": "Hafnarfjörður"
+      },
+      "linkedIds": [
+        {
+          "label": "Hafnarfjörður",
+          "url": "https://en.wikipedia.org/wiki/Hafnarfj%C3%B6r%C3%B0ur"
+        },
+        {
+          "label": "Q103725",
+          "url": "http://www.wikidata.org/entity/Q103725"
+        }
+      ],
+      "relations": [],
+      "kind": "place",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -21.9606,
+          64.02235
+        ]
+      }
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pl-Reykjavík",
+      "label": {
+        "default": "Reykjavík"
+      },
+      "linkedIds": [
+        {
+          "label": "Reykjavík",
+          "url": "https://en.wikipedia.org/wiki/Reykjav%C3%ADk"
+        },
+        {
+          "label": "Q1764",
+          "url": "http://www.wikidata.org/entity/Q1764"
+        }
+      ],
+      "relations": [],
+      "kind": "place",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -21.94,
+          64.146667
+        ]
+      }
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pl-Krýsuvík",
+      "label": {
+        "default": "Krýsuvík"
+      },
+      "linkedIds": [
+        {
+          "label": "Krýsuvík",
+          "url": "https://en.wikipedia.org/wiki/Kr%C3%BDsuv%C3%ADk"
+        },
+        {
+          "label": "Q776480",
+          "url": "http://www.wikidata.org/entity/Q776480"
+        }
+      ],
+      "relations": [],
+      "kind": "place",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -22.063,
+          63.875
+        ]
+      }
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pl-010",
+      "label": {
+        "default": "the Golden Falls"
+      },
+      "linkedIds": [],
+      "relations": [],
+      "kind": "place"
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pl-Hekla",
+      "label": {
+        "default": "Mount Hekla"
+      },
+      "linkedIds": [
+        {
+          "label": "Hekla",
+          "url": "https://en.wikipedia.org/wiki/Hekla"
+        },
+        {
+          "label": "Q184975",
+          "url": "http://www.wikidata.org/entity/Q184975"
+        }
+      ],
+      "relations": [],
+      "kind": "place",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -19.665833,
+          63.992222
+        ]
+      }
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pl-011",
+      "label": {
+        "default": "Denmark"
+      },
+      "linkedIds": [],
+      "relations": [],
+      "kind": "place"
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pl-Gothenburg",
+      "label": {
+        "default": "Gothenburg"
+      },
+      "linkedIds": [
+        {
+          "label": "Gothenburg",
+          "url": "https://en.wikipedia.org/wiki/Gothenburg"
+        },
+        {
+          "label": "Q25287",
+          "url": "http://www.wikidata.org/entity/Q25287"
+        }
+      ],
+      "relations": [],
+      "kind": "place",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.9675,
+          57.7075
+        ]
+      }
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pl-Norway",
+      "label": {
+        "default": "Norway"
+      },
+      "linkedIds": [
+        {
+          "label": "Norway",
+          "url": "https://en.wikipedia.org/wiki/Norway"
+        },
+        {
+          "label": "Q20",
+          "url": "http://www.wikidata.org/entity/Q20"
+        }
+      ],
+      "relations": [],
+      "kind": "place",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.683333,
+          59.933333
+        ]
+      }
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pr-010",
+      "label": {
+        "default": "Norden"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pl-012",
+      "label": {
+        "default": "US"
+      },
+      "linkedIds": [],
+      "relations": [],
+      "kind": "place"
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pl-Brazil",
+      "label": {
+        "default": "Brazil"
+      },
+      "linkedIds": [
+        {
+          "label": "Brazil",
+          "url": "https://en.wikipedia.org/wiki/Brazil"
+        },
+        {
+          "label": "Q155",
+          "url": "http://www.wikidata.org/entity/Q155"
+        }
+      ],
+      "relations": [],
+      "kind": "place",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -47.866667,
+          -15.783333
+        ]
+      }
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pl-Chile",
+      "label": {
+        "default": "Chile"
+      },
+      "linkedIds": [
+        {
+          "label": "Chile",
+          "url": "https://en.wikipedia.org/wiki/Chile"
+        },
+        {
+          "label": "Q298",
+          "url": "http://www.wikidata.org/entity/Q298"
+        }
+      ],
+      "relations": [],
+      "kind": "place",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.666667,
+          -33.433333
+        ]
+      }
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pl-South_America",
+      "label": {
+        "default": "South America"
+      },
+      "linkedIds": [
+        {
+          "label": "South_America",
+          "url": "https://en.wikipedia.org/wiki/South_America"
+        },
+        {
+          "label": "Q18",
+          "url": "http://www.wikidata.org/entity/Q18"
+        }
+      ],
+      "relations": [],
+      "kind": "place",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -59.0,
+          -21.0
+        ]
+      }
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pl-Tahiti",
+      "label": {
+        "default": "Tahiti"
+      },
+      "linkedIds": [
+        {
+          "label": "Tahiti",
+          "url": "https://en.wikipedia.org/wiki/Tahiti"
+        },
+        {
+          "label": "Q42000",
+          "url": "http://www.wikidata.org/entity/Q42000"
+        }
+      ],
+      "relations": [],
+      "kind": "place",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.416667,
+          -17.666667
+        ]
+      }
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pl-China",
+      "label": {
+        "default": "China"
+      },
+      "linkedIds": [
+        {
+          "label": "China",
+          "url": "https://en.wikipedia.org/wiki/China"
+        },
+        {
+          "label": "Q148",
+          "url": "http://www.wikidata.org/entity/Q148"
+        }
+      ],
+      "relations": [],
+      "kind": "place",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.383333,
+          39.916667
+        ]
+      }
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pl-India",
+      "label": {
+        "default": "India"
+      },
+      "linkedIds": [
+        {
+          "label": "India",
+          "url": "https://en.wikipedia.org/wiki/India"
+        },
+        {
+          "label": "Q668",
+          "url": "http://www.wikidata.org/entity/Q668"
+        }
+      ],
+      "relations": [],
+      "kind": "place",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.208333,
+          28.613889
+        ]
+      }
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pl-Persian_Empire",
+      "label": {
+        "default": "Persia"
+      },
+      "linkedIds": [
+        {
+          "label": "Persian_Empire",
+          "url": "https://en.wikipedia.org/wiki/Persian_Empire"
+        },
+        {
+          "label": "Q83311",
+          "url": "http://www.wikidata.org/entity/Q83311"
+        }
+      ],
+      "relations": [],
+      "kind": "place",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.416667,
+          35.683333
+        ]
+      }
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-gr-Asia_Minor",
+      "label": {
+        "default": "Asia Minor"
+      },
+      "linkedIds": [
+        {
+          "label": "Asia_Minor",
+          "url": "https://en.wikipedia.org/wiki/Asia_Minor"
+        }
+      ],
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [],
+      "kind": "group",
+      "type": {}
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pl-Greece",
+      "label": {
+        "default": "Greece"
+      },
+      "linkedIds": [
+        {
+          "label": "Greece",
+          "url": "https://en.wikipedia.org/wiki/Greece"
+        },
+        {
+          "label": "Q41",
+          "url": "http://www.wikidata.org/entity/Q41"
+        }
+      ],
+      "relations": [],
+      "kind": "place",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.716667,
+          37.966667
+        ]
+      }
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-ob-004",
+      "label": {
+        "default": "Eine Frauenfahrt"
+      },
+      "linkedIds": [],
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [
+        {
+          "event": "Ida_Laura_Pfeiffer-ob-004-ev-027",
+          "role": "role-object_created"
+        }
+      ],
+      "kind": "cultural-heritage-object",
+      "type": {}
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-ob-005",
+      "label": {
+        "default": "Welt (\"A Woman's Journey round the World"
+      },
+      "linkedIds": [],
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [
+        {
+          "event": "Ida_Laura_Pfeiffer-ob-005-ev-028",
+          "role": "role-object_created"
+        }
+      ],
+      "kind": "cultural-heritage-object",
+      "type": {}
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pl-Atlantic",
+      "label": {
+        "default": "Atlantic"
+      },
+      "linkedIds": [
+        {
+          "label": "Atlantic",
+          "url": "https://en.wikipedia.org/wiki/Atlantic"
+        }
+      ],
+      "relations": [
+        {
+          "event": "Ida_Laura_Pfeiffer-pr-Ida_Laura_Pfeiffer-ev-056",
+          "role": "role-boarded"
+        }
+      ],
+      "kind": "place"
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pl-013",
+      "label": {
+        "default": "the Macacu River"
+      },
+      "linkedIds": [],
+      "relations": [],
+      "kind": "place"
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pl-Nova_Friburgo",
+      "label": {
+        "default": "Nova Friburgo"
+      },
+      "linkedIds": [
+        {
+          "label": "Nova_Friburgo",
+          "url": "https://en.wikipedia.org/wiki/Nova_Friburgo"
+        },
+        {
+          "label": "Q468563",
+          "url": "http://www.wikidata.org/entity/Q468563"
+        }
+      ],
+      "relations": [],
+      "kind": "place",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.530833,
+          -22.281944
+        ]
+      }
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pl-014",
+      "label": {
+        "default": "Rio"
+      },
+      "linkedIds": [],
+      "relations": [
+        {
+          "event": "Ida_Laura_Pfeiffer-pr-Ida_Laura_Pfeiffer-ev-056",
+          "role": "role-boarded"
+        },
+        {
+          "event": "Ida_Laura_Pfeiffer-pr-Ida_Laura_Pfeiffer-ev-057",
+          "role": "role-entering"
+        },
+        {
+          "event": "Ida_Laura_Pfeiffer-pr-Ida_Laura_Pfeiffer-ev-058",
+          "role": "role-set"
+        }
+      ],
+      "kind": "place",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.205556,
+          -22.911111
+        ]
+      }
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pr-011",
+      "label": {
+        "default": "John Renwick"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pl-Valparaiso",
+      "label": {
+        "default": "Valparaiso"
+      },
+      "linkedIds": [
+        {
+          "label": "Valparaiso",
+          "url": "https://en.wikipedia.org/wiki/Valparaiso"
+        }
+      ],
+      "relations": [
+        {
+          "event": "Ida_Laura_Pfeiffer-pr-Ida_Laura_Pfeiffer-ev-058",
+          "role": "role-set"
+        },
+        {
+          "event": "Ida_Laura_Pfeiffer-pr-Ida_Laura_Pfeiffer-ev-059",
+          "role": "role-arriving"
+        }
+      ],
+      "kind": "place",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.619722,
+          -33.046111
+        ]
+      }
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pl-Macao",
+      "label": {
+        "default": "Macao"
+      },
+      "linkedIds": [
+        {
+          "label": "Macao",
+          "url": "https://en.wikipedia.org/wiki/Macao"
+        }
+      ],
+      "relations": [],
+      "kind": "place"
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pl-Hong_Kong",
+      "label": {
+        "default": "Hong Kong"
+      },
+      "linkedIds": [
+        {
+          "label": "Hong_Kong",
+          "url": "https://en.wikipedia.org/wiki/Hong_Kong"
+        },
+        {
+          "label": "Q8646",
+          "url": "http://www.wikidata.org/entity/Q8646"
+        }
+      ],
+      "relations": [],
+      "kind": "place",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.158611,
+          22.278333
+        ]
+      }
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pl-Singapore",
+      "label": {
+        "default": "Singapore"
+      },
+      "linkedIds": [
+        {
+          "label": "Singapore",
+          "url": "https://en.wikipedia.org/wiki/Singapore"
+        },
+        {
+          "label": "Q334",
+          "url": "http://www.wikidata.org/entity/Q334"
+        }
+      ],
+      "relations": [],
+      "kind": "place",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.833333,
+          1.283333
+        ]
+      }
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pl-Colombo",
+      "label": {
+        "default": "Colombo"
+      },
+      "linkedIds": [
+        {
+          "label": "Colombo",
+          "url": "https://en.wikipedia.org/wiki/Colombo"
+        },
+        {
+          "label": "Q35381",
+          "url": "http://www.wikidata.org/entity/Q35381"
+        }
+      ],
+      "relations": [],
+      "kind": "place",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.842778,
+          6.934444
+        ]
+      }
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pl-Kandy",
+      "label": {
+        "default": "Kandy"
+      },
+      "linkedIds": [
+        {
+          "label": "Kandy",
+          "url": "https://en.wikipedia.org/wiki/Kandy"
+        },
+        {
+          "label": "Q203197",
+          "url": "http://www.wikidata.org/entity/Q203197"
+        }
+      ],
+      "relations": [],
+      "kind": "place",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.638453,
+          7.296961
+        ]
+      }
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pl-Calcutta",
+      "label": {
+        "default": "Calcutta"
+      },
+      "linkedIds": [
+        {
+          "label": "Calcutta",
+          "url": "https://en.wikipedia.org/wiki/Calcutta"
+        }
+      ],
+      "relations": [],
+      "kind": "place",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.37,
+          22.5675
+        ]
+      }
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pl-Benares",
+      "label": {
+        "default": "Benares"
+      },
+      "linkedIds": [
+        {
+          "label": "Benares",
+          "url": "https://en.wikipedia.org/wiki/Benares"
+        }
+      ],
+      "relations": [],
+      "kind": "place",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.012778,
+          25.318889
+        ]
+      }
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pl-Delhi",
+      "label": {
+        "default": "Delhi"
+      },
+      "linkedIds": [
+        {
+          "label": "Delhi",
+          "url": "https://en.wikipedia.org/wiki/Delhi"
+        },
+        {
+          "label": "Q1353",
+          "url": "http://www.wikidata.org/entity/Q1353"
+        }
+      ],
+      "relations": [],
+      "kind": "place",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.23,
+          28.61
+        ]
+      }
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pr-Aloys_Sprenger",
+      "label": {
+        "default": "Aloys Sprenger"
+      },
+      "linkedIds": [
+        {
+          "label": "Aloys_Sprenger",
+          "url": "https://en.wikipedia.org/wiki/Aloys_Sprenger"
+        },
+        {
+          "label": "Q78886",
+          "url": "http://www.wikidata.org/entity/Q78886"
+        }
+      ],
+      "media": [
+        "Ida_Laura_Pfeiffer-m-010"
+      ],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pl-Hyderabad",
+      "label": {
+        "default": "Hyderabad"
+      },
+      "linkedIds": [
+        {
+          "label": "Hyderabad",
+          "url": "https://en.wikipedia.org/wiki/Hyderabad"
+        },
+        {
+          "label": "Q1361",
+          "url": "http://www.wikidata.org/entity/Q1361"
+        }
+      ],
+      "relations": [],
+      "kind": "place",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.486694,
+          17.385
+        ]
+      }
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pl-015",
+      "label": {
+        "default": "the Daulatabad Fort"
+      },
+      "linkedIds": [],
+      "relations": [],
+      "kind": "place"
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pl-016",
+      "label": {
+        "default": "the Ellora Caves"
+      },
+      "linkedIds": [],
+      "relations": [],
+      "kind": "place"
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pl-Aurangabad",
+      "label": {
+        "default": "Aurangabad"
+      },
+      "linkedIds": [
+        {
+          "label": "Aurangabad",
+          "url": "https://en.wikipedia.org/wiki/Aurangabad"
+        },
+        {
+          "label": "Q200713",
+          "url": "http://www.wikidata.org/entity/Q200713"
+        }
+      ],
+      "relations": [],
+      "kind": "place",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.32,
+          19.88
+        ]
+      }
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pl-Baghdad",
+      "label": {
+        "default": "Baghdad"
+      },
+      "linkedIds": [
+        {
+          "label": "Baghdad",
+          "url": "https://en.wikipedia.org/wiki/Baghdad"
+        },
+        {
+          "label": "Q1530",
+          "url": "http://www.wikidata.org/entity/Q1530"
+        }
+      ],
+      "relations": [],
+      "kind": "place",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.366111,
+          33.315278
+        ]
+      }
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pl-017",
+      "label": {
+        "default": "the Ottoman Empire"
+      },
+      "linkedIds": [],
+      "relations": [],
+      "kind": "place"
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pl-Ctesiphon",
+      "label": {
+        "default": "Ctesiphon"
+      },
+      "linkedIds": [
+        {
+          "label": "Ctesiphon",
+          "url": "https://en.wikipedia.org/wiki/Ctesiphon"
+        },
+        {
+          "label": "Q192541",
+          "url": "http://www.wikidata.org/entity/Q192541"
+        }
+      ],
+      "relations": [],
+      "kind": "place",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.580833,
+          33.093611
+        ]
+      }
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pr-012",
+      "label": {
+        "default": "Emam Qoli Mirza"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pr-Henry_Creswicke_Rawlinson",
+      "label": {
+        "default": "Henry Creswicke Rawlinson"
+      },
+      "linkedIds": [
+        {
+          "label": "Henry_Creswicke_Rawlinson",
+          "url": "https://en.wikipedia.org/wiki/Henry_Creswicke_Rawlinson"
+        }
+      ],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pr-Hormuzd_Rassam",
+      "label": {
+        "default": "Hormuzd Rassam"
+      },
+      "linkedIds": [
+        {
+          "label": "Hormuzd_Rassam",
+          "url": "https://en.wikipedia.org/wiki/Hormuzd_Rassam"
+        },
+        {
+          "label": "Q1285498",
+          "url": "http://www.wikidata.org/entity/Q1285498"
+        }
+      ],
+      "media": [
+        "Ida_Laura_Pfeiffer-m-011"
+      ],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pl-Mosul",
+      "label": {
+        "default": "Mosul"
+      },
+      "linkedIds": [
+        {
+          "label": "Mosul",
+          "url": "https://en.wikipedia.org/wiki/Mosul"
+        },
+        {
+          "label": "Q83317",
+          "url": "http://www.wikidata.org/entity/Q83317"
+        }
+      ],
+      "relations": [],
+      "kind": "place",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.13,
+          36.34
+        ]
+      }
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pl-Tabriz",
+      "label": {
+        "default": "Tabriz"
+      },
+      "linkedIds": [
+        {
+          "label": "Tabriz",
+          "url": "https://en.wikipedia.org/wiki/Tabriz"
+        },
+        {
+          "label": "Q80053",
+          "url": "http://www.wikidata.org/entity/Q80053"
+        }
+      ],
+      "relations": [],
+      "kind": "place",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.296111,
+          38.073889
+        ]
+      }
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pl-Azerbaijan",
+      "label": {
+        "default": "Azerbaijan"
+      },
+      "linkedIds": [
+        {
+          "label": "Azerbaijan",
+          "url": "https://en.wikipedia.org/wiki/Azerbaijan"
+        },
+        {
+          "label": "Q227",
+          "url": "http://www.wikidata.org/entity/Q227"
+        }
+      ],
+      "relations": [],
+      "kind": "place",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          49.882222,
+          40.395278
+        ]
+      }
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pl-East_Azerbaijan_Province",
+      "label": {
+        "default": "East Azerbaijan Province"
+      },
+      "linkedIds": [
+        {
+          "label": "East_Azerbaijan_Province",
+          "url": "https://en.wikipedia.org/wiki/East_Azerbaijan_Province"
+        }
+      ],
+      "relations": [],
+      "kind": "place"
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pl-Iran",
+      "label": {
+        "default": "Iran"
+      },
+      "linkedIds": [
+        {
+          "label": "Iran",
+          "url": "https://en.wikipedia.org/wiki/Iran"
+        },
+        {
+          "label": "Q794",
+          "url": "http://www.wikidata.org/entity/Q794"
+        }
+      ],
+      "relations": [],
+      "kind": "place",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.416667,
+          35.683333
+        ]
+      }
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pr-Bahman_Mirza",
+      "label": {
+        "default": "Bahman Mirza"
+      },
+      "linkedIds": [
+        {
+          "label": "Bahman_Mirza",
+          "url": "https://en.wikipedia.org/wiki/Bahman_Mirza"
+        }
+      ],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pl-Nakhchivan_(city)",
+      "label": {
+        "default": "Nakhchivan"
+      },
+      "linkedIds": [
+        {
+          "label": "Nakhchivan_(city)",
+          "url": "https://en.wikipedia.org/wiki/Nakhchivan_%28city%29"
+        }
+      ],
+      "relations": [],
+      "kind": "place",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.410556,
+          39.216111
+        ]
+      }
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pl-Armenia",
+      "label": {
+        "default": "Armenia"
+      },
+      "linkedIds": [
+        {
+          "label": "Armenia",
+          "url": "https://en.wikipedia.org/wiki/Armenia"
+        },
+        {
+          "label": "Q399",
+          "url": "http://www.wikidata.org/entity/Q399"
+        }
+      ],
+      "relations": [],
+      "kind": "place",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.516667,
+          40.183333
+        ]
+      }
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pl-Tbilisi",
+      "label": {
+        "default": "Tbilisi"
+      },
+      "linkedIds": [
+        {
+          "label": "Tbilisi",
+          "url": "https://en.wikipedia.org/wiki/Tbilisi"
+        },
+        {
+          "label": "Q994",
+          "url": "http://www.wikidata.org/entity/Q994"
+        }
+      ],
+      "relations": [],
+      "kind": "place",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.7925,
+          41.7225
+        ]
+      }
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pl-Georgia_(country)",
+      "label": {
+        "default": "Georgia"
+      },
+      "linkedIds": [
+        {
+          "label": "Georgia_(country)",
+          "url": "https://en.wikipedia.org/wiki/Georgia_%28country%29"
+        }
+      ],
+      "relations": [],
+      "kind": "place",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.783333,
+          41.716667
+        ]
+      }
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pl-018",
+      "label": {
+        "default": "the Black Sea"
+      },
+      "linkedIds": [],
+      "relations": [],
+      "kind": "place"
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pl-019",
+      "label": {
+        "default": "the Russian Empire"
+      },
+      "linkedIds": [],
+      "relations": [],
+      "kind": "place"
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-ob-006",
+      "label": {
+        "default": "A Woman's Journey Round the World"
+      },
+      "linkedIds": [],
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [
+        {
+          "event": "Ida_Laura_Pfeiffer-ob-006-ev-029",
+          "role": "role-object_created"
+        }
+      ],
+      "kind": "cultural-heritage-object",
+      "type": {}
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-gr-Le_Constitutionnel",
+      "label": {
+        "default": "Le Constitutionnel"
+      },
+      "linkedIds": [
+        {
+          "label": "Le_Constitutionnel",
+          "url": "https://en.wikipedia.org/wiki/Le_Constitutionnel"
+        },
+        {
+          "label": "Q3221742",
+          "url": "http://www.wikidata.org/entity/Q3221742"
+        }
+      ],
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [],
+      "kind": "group",
+      "type": {},
+      "media": [
+        "Ida_Laura_Pfeiffer-m-012"
+      ]
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-gr-The_Athenaeum_(British_magazine)",
+      "label": {
+        "default": "The Athenaeum"
+      },
+      "linkedIds": [
+        {
+          "label": "The_Athenaeum_(British_magazine)",
+          "url": "https://en.wikipedia.org/wiki/The_Athenaeum_%28British_magazine%29"
+        }
+      ],
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [],
+      "kind": "group",
+      "type": {}
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-gr-The_Westminster_Review",
+      "label": {
+        "default": "The Westminster Review"
+      },
+      "linkedIds": [
+        {
+          "label": "The_Westminster_Review",
+          "url": "https://en.wikipedia.org/wiki/The_Westminster_Review"
+        },
+        {
+          "label": "Q7989198",
+          "url": "http://www.wikidata.org/entity/Q7989198"
+        }
+      ],
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [],
+      "kind": "group",
+      "type": {},
+      "media": [
+        "Ida_Laura_Pfeiffer-m-013"
+      ]
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-gr-The_Literary_Gazette",
+      "label": {
+        "default": "The Literary Gazette"
+      },
+      "linkedIds": [
+        {
+          "label": "The_Literary_Gazette",
+          "url": "https://en.wikipedia.org/wiki/The_Literary_Gazette"
+        },
+        {
+          "label": "Q6647602",
+          "url": "http://www.wikidata.org/entity/Q6647602"
+        }
+      ],
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [],
+      "kind": "group",
+      "type": {}
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-gr-The_Straits_Times",
+      "label": {
+        "default": "The Straits Times"
+      },
+      "linkedIds": [
+        {
+          "label": "The_Straits_Times",
+          "url": "https://en.wikipedia.org/wiki/The_Straits_Times"
+        },
+        {
+          "label": "Q498921",
+          "url": "http://www.wikidata.org/entity/Q498921"
+        }
+      ],
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [],
+      "kind": "group",
+      "type": {}
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-gr-Calcutta_Review",
+      "label": {
+        "default": "Calcutta Review"
+      },
+      "linkedIds": [
+        {
+          "label": "Calcutta_Review",
+          "url": "https://en.wikipedia.org/wiki/Calcutta_Review"
+        },
+        {
+          "label": "Q5018953",
+          "url": "http://www.wikidata.org/entity/Q5018953"
+        }
+      ],
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [],
+      "kind": "group",
+      "type": {}
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-gr-002",
+      "label": {
+        "default": "the Royal Museum of Vienna"
+      },
+      "linkedIds": [],
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [],
+      "kind": "group",
+      "type": {}
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pr-Carl_Franz_Anton_Ritter_von_Schreibers",
+      "label": {
+        "default": "Carl von Schreibers"
+      },
+      "linkedIds": [
+        {
+          "label": "Carl_Franz_Anton_Ritter_von_Schreibers",
+          "url": "https://en.wikipedia.org/wiki/Carl_Franz_Anton_Ritter_von_Schreibers"
+        },
+        {
+          "label": "Q79159",
+          "url": "http://www.wikidata.org/entity/Q79159"
+        }
+      ],
+      "media": [
+        "Ida_Laura_Pfeiffer-m-014"
+      ],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pr-Joseph_Calasanza_von_Arneth",
+      "label": {
+        "default": "Josef von Arneth"
+      },
+      "linkedIds": [
+        {
+          "label": "Joseph_Calasanza_von_Arneth",
+          "url": "https://en.wikipedia.org/wiki/Joseph_Calasanza_von_Arneth"
+        },
+        {
+          "label": "Q78777",
+          "url": "http://www.wikidata.org/entity/Q78777"
+        }
+      ],
+      "media": [
+        "Ida_Laura_Pfeiffer-m-015"
+      ],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pr-John_Muir",
+      "label": {
+        "default": "John Muir"
+      },
+      "linkedIds": [
+        {
+          "label": "John_Muir",
+          "url": "https://en.wikipedia.org/wiki/John_Muir"
+        },
+        {
+          "label": "Q379580",
+          "url": "http://www.wikidata.org/entity/Q379580"
+        }
+      ],
+      "media": [
+        "Ida_Laura_Pfeiffer-m-018"
+      ],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pr-Ernst_Haeckel",
+      "label": {
+        "default": "Ernst Haeckel"
+      },
+      "linkedIds": [
+        {
+          "label": "Ernst_Haeckel",
+          "url": "https://en.wikipedia.org/wiki/Ernst_Haeckel"
+        },
+        {
+          "label": "Q48246",
+          "url": "http://www.wikidata.org/entity/Q48246"
+        }
+      ],
+      "media": [
+        "Ida_Laura_Pfeiffer-m-019"
+      ],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pr-Carl_Ritter",
+      "label": {
+        "default": "Carl Ritter"
+      },
+      "linkedIds": [
+        {
+          "label": "Carl_Ritter",
+          "url": "https://en.wikipedia.org/wiki/Carl_Ritter"
+        },
+        {
+          "label": "Q29297",
+          "url": "http://www.wikidata.org/entity/Q29297"
+        }
+      ],
+      "media": [
+        "Ida_Laura_Pfeiffer-m-020"
+      ],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-gr-003",
+      "label": {
+        "default": "the University of Berlin"
+      },
+      "linkedIds": [],
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [],
+      "kind": "group",
+      "type": {}
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pr-013",
+      "label": {
+        "default": "Humboldt"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-gr-004",
+      "label": {
+        "default": "the Geographical Society"
+      },
+      "linkedIds": [],
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [],
+      "kind": "group",
+      "type": {}
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pr-Richard_Owen",
+      "label": {
+        "default": "Richard Owen"
+      },
+      "linkedIds": [
+        {
+          "label": "Richard_Owen",
+          "url": "https://en.wikipedia.org/wiki/Richard_Owen"
+        },
+        {
+          "label": "Q151556",
+          "url": "http://www.wikidata.org/entity/Q151556"
+        }
+      ],
+      "media": [
+        "Ida_Laura_Pfeiffer-m-022"
+      ],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pr-August_Heinrich_Petermann",
+      "label": {
+        "default": "Augustus Petermann"
+      },
+      "linkedIds": [
+        {
+          "label": "August_Heinrich_Petermann",
+          "url": "https://en.wikipedia.org/wiki/August_Heinrich_Petermann"
+        },
+        {
+          "label": "Q63230",
+          "url": "http://www.wikidata.org/entity/Q63230"
+        }
+      ],
+      "media": [
+        "Ida_Laura_Pfeiffer-m-023"
+      ],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pr-014",
+      "label": {
+        "default": "William Bartlett"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pl-Cape_Town",
+      "label": {
+        "default": "Cape Town"
+      },
+      "linkedIds": [
+        {
+          "label": "Cape_Town",
+          "url": "https://en.wikipedia.org/wiki/Cape_Town"
+        },
+        {
+          "label": "Q5465",
+          "url": "http://www.wikidata.org/entity/Q5465"
+        }
+      ],
+      "relations": [],
+      "kind": "place",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.423889,
+          -33.925278
+        ]
+      }
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pr-Vincenz_Kollar",
+      "label": {
+        "default": "Vincenz Kollar"
+      },
+      "linkedIds": [
+        {
+          "label": "Vincenz_Kollar",
+          "url": "https://en.wikipedia.org/wiki/Vincenz_Kollar"
+        },
+        {
+          "label": "Q2355754",
+          "url": "http://www.wikidata.org/entity/Q2355754"
+        }
+      ],
+      "media": [
+        "Ida_Laura_Pfeiffer-m-024"
+      ],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-gr-005",
+      "label": {
+        "default": "the Natural History Museum"
+      },
+      "linkedIds": [],
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [
+        {
+          "event": "Ida_Laura_Pfeiffer-gr-005-ev-030",
+          "role": "role-based_in"
+        }
+      ],
+      "kind": "group",
+      "type": {}
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pl-020",
+      "label": {
+        "default": "the Indian Ocean"
+      },
+      "linkedIds": [],
+      "relations": [],
+      "kind": "place"
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pl-021",
+      "label": {
+        "default": "the Sunda Islands"
+      },
+      "linkedIds": [],
+      "relations": [],
+      "kind": "place"
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pr-015",
+      "label": {
+        "default": "John Brooke"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [
+        {
+          "event": "Ida_Laura_Pfeiffer-pr-015-ev-031",
+          "role": "role-related_to"
+        },
+        {
+          "event": "Ida_Laura_Pfeiffer-pr-015-ev-032",
+          "role": "role-related_to"
+        },
+        {
+          "event": "Ida_Laura_Pfeiffer-pr-015-ev-032",
+          "role": "role-unk"
+        },
+        {
+          "event": "Ida_Laura_Pfeiffer-pr-James_Brooke-ev-034",
+          "role": "role-unk"
+        }
+      ],
+      "kind": "person"
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pr-James_Brooke",
+      "label": {
+        "default": "James Brooke"
+      },
+      "linkedIds": [
+        {
+          "label": "James_Brooke",
+          "url": "https://en.wikipedia.org/wiki/James_Brooke"
+        },
+        {
+          "label": "Q441276",
+          "url": "http://www.wikidata.org/entity/Q441276"
+        }
+      ],
+      "media": [
+        "Ida_Laura_Pfeiffer-m-025"
+      ],
+      "relations": [
+        {
+          "event": "Ida_Laura_Pfeiffer-pr-015-ev-031",
+          "role": "role-unk"
+        },
+        {
+          "event": "Ida_Laura_Pfeiffer-pr-James_Brooke-ev-033",
+          "role": "role-related_to"
+        },
+        {
+          "event": "Ida_Laura_Pfeiffer-pr-James_Brooke-ev-033",
+          "role": "role-unk"
+        },
+        {
+          "event": "Ida_Laura_Pfeiffer-pr-James_Brooke-ev-034",
+          "role": "role-related_to"
+        }
+      ],
+      "kind": "person"
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pl-Borneo",
+      "label": {
+        "default": "Borneo"
+      },
+      "linkedIds": [
+        {
+          "label": "Borneo",
+          "url": "https://en.wikipedia.org/wiki/Borneo"
+        },
+        {
+          "label": "Q36117",
+          "url": "http://www.wikidata.org/entity/Q36117"
+        }
+      ],
+      "relations": [],
+      "kind": "place",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pl-Batak_(Indonesia)",
+      "label": {
+        "default": "Bataks"
+      },
+      "linkedIds": [
+        {
+          "label": "Batak_(Indonesia)",
+          "url": "https://en.wikipedia.org/wiki/Batak_%28Indonesia%29"
+        }
+      ],
+      "relations": [],
+      "kind": "place"
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pl-West_Sumatra",
+      "label": {
+        "default": "Sumatra"
+      },
+      "linkedIds": [
+        {
+          "label": "West_Sumatra",
+          "url": "https://en.wikipedia.org/wiki/West_Sumatra"
+        },
+        {
+          "label": "Q2772",
+          "url": "http://www.wikidata.org/entity/Q2772"
+        }
+      ],
+      "relations": [],
+      "kind": "place",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pl-Maluku_Islands",
+      "label": {
+        "default": "Malukus"
+      },
+      "linkedIds": [
+        {
+          "label": "Maluku_Islands",
+          "url": "https://en.wikipedia.org/wiki/Maluku_Islands"
+        },
+        {
+          "label": "Q3827",
+          "url": "http://www.wikidata.org/entity/Q3827"
+        }
+      ],
+      "relations": [],
+      "kind": "place",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.0,
+          -2.0
+        ]
+      }
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pr-016",
+      "label": {
+        "default": "Sultan Abdu'l Rashid Muhammad Jamal ud-din"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pl-Sintang_Regency",
+      "label": {
+        "default": "Sintang"
+      },
+      "linkedIds": [
+        {
+          "label": "Sintang_Regency",
+          "url": "https://en.wikipedia.org/wiki/Sintang_Regency"
+        },
+        {
+          "label": "Q14167",
+          "url": "http://www.wikidata.org/entity/Q14167"
+        }
+      ],
+      "relations": [],
+      "kind": "place",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.083333,
+          -0.083333
+        ]
+      }
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pr-Pieter_Bleeker",
+      "label": {
+        "default": "Pieter Bleeker"
+      },
+      "linkedIds": [
+        {
+          "label": "Pieter_Bleeker",
+          "url": "https://en.wikipedia.org/wiki/Pieter_Bleeker"
+        },
+        {
+          "label": "Q446239",
+          "url": "http://www.wikidata.org/entity/Q446239"
+        }
+      ],
+      "media": [
+        "Ida_Laura_Pfeiffer-m-026"
+      ],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pl-Batavia,_Dutch_East_Indies",
+      "label": {
+        "default": "Batavia"
+      },
+      "linkedIds": [
+        {
+          "label": "Batavia,_Dutch_East_Indies",
+          "url": "https://en.wikipedia.org/wiki/Batavia%2C_Dutch_East_Indies"
+        }
+      ],
+      "relations": [],
+      "kind": "place"
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pl-Jakarta",
+      "label": {
+        "default": "Jakarta"
+      },
+      "linkedIds": [
+        {
+          "label": "Jakarta",
+          "url": "https://en.wikipedia.org/wiki/Jakarta"
+        },
+        {
+          "label": "Q3630",
+          "url": "http://www.wikidata.org/entity/Q3630"
+        }
+      ],
+      "relations": [],
+      "kind": "place",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8275,
+          -6.175
+        ]
+      }
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pr-017",
+      "label": {
+        "default": "van der Hart"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pl-Bukittinggi",
+      "label": {
+        "default": "Bukittinggi"
+      },
+      "linkedIds": [
+        {
+          "label": "Bukittinggi",
+          "url": "https://en.wikipedia.org/wiki/Bukittinggi"
+        },
+        {
+          "label": "Q7248",
+          "url": "http://www.wikidata.org/entity/Q7248"
+        }
+      ],
+      "relations": [],
+      "kind": "place",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.369167,
+          -0.305556
+        ]
+      }
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pl-022",
+      "label": {
+        "default": "Pacific"
+      },
+      "linkedIds": [],
+      "relations": [],
+      "kind": "place"
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pl-North_America",
+      "label": {
+        "default": "North America"
+      },
+      "linkedIds": [
+        {
+          "label": "North_America",
+          "url": "https://en.wikipedia.org/wiki/North_America"
+        },
+        {
+          "label": "Q49",
+          "url": "http://www.wikidata.org/entity/Q49"
+        }
+      ],
+      "relations": [],
+      "kind": "place",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.0,
+          47.0
+        ]
+      }
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pl-023",
+      "label": {
+        "default": "the United States"
+      },
+      "linkedIds": [],
+      "relations": [],
+      "kind": "place"
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pl-Sacramento",
+      "label": {
+        "default": "Sacramento"
+      },
+      "linkedIds": [
+        {
+          "label": "Sacramento",
+          "url": "https://en.wikipedia.org/wiki/Sacramento"
+        }
+      ],
+      "relations": [],
+      "kind": "place",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.494444,
+          38.581667
+        ]
+      }
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pl-Marysville,_California",
+      "label": {
+        "default": "Marysville"
+      },
+      "linkedIds": [
+        {
+          "label": "Marysville,_California",
+          "url": "https://en.wikipedia.org/wiki/Marysville%2C_California"
+        }
+      ],
+      "relations": [],
+      "kind": "place"
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pl-Crescent_City,_California",
+      "label": {
+        "default": "Crescent City"
+      },
+      "linkedIds": [
+        {
+          "label": "Crescent_City,_California",
+          "url": "https://en.wikipedia.org/wiki/Crescent_City%2C_California"
+        }
+      ],
+      "relations": [],
+      "kind": "place",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -124.201667,
+          41.756111
+        ]
+      }
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pl-Santa_Clara_County,_California",
+      "label": {
+        "default": "Santa Clara"
+      },
+      "linkedIds": [
+        {
+          "label": "Santa_Clara_County,_California",
+          "url": "https://en.wikipedia.org/wiki/Santa_Clara_County%2C_California"
+        }
+      ],
+      "relations": [],
+      "kind": "place"
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pl-San_Jose,_California",
+      "label": {
+        "default": "San Jose"
+      },
+      "linkedIds": [
+        {
+          "label": "San_Jose,_California",
+          "url": "https://en.wikipedia.org/wiki/San_Jose%2C_California"
+        }
+      ],
+      "relations": [],
+      "kind": "place",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.890556,
+          37.336111
+        ]
+      }
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pl-Central_America",
+      "label": {
+        "default": "Central America"
+      },
+      "linkedIds": [
+        {
+          "label": "Central_America",
+          "url": "https://en.wikipedia.org/wiki/Central_America"
+        },
+        {
+          "label": "Q27611",
+          "url": "http://www.wikidata.org/entity/Q27611"
+        }
+      ],
+      "relations": [],
+      "kind": "place",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.0,
+          12.0
+        ]
+      }
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pl-Republic_of_the_New_Granada",
+      "label": {
+        "default": "New Granada"
+      },
+      "linkedIds": [
+        {
+          "label": "Republic_of_the_New_Granada",
+          "url": "https://en.wikipedia.org/wiki/Republic_of_the_New_Granada"
+        }
+      ],
+      "relations": [],
+      "kind": "place"
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pl-Peru",
+      "label": {
+        "default": "Peru"
+      },
+      "linkedIds": [
+        {
+          "label": "Peru",
+          "url": "https://en.wikipedia.org/wiki/Peru"
+        },
+        {
+          "label": "Q419",
+          "url": "http://www.wikidata.org/entity/Q419"
+        }
+      ],
+      "relations": [],
+      "kind": "place",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.028333,
+          -12.043333
+        ]
+      }
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pl-Guayaquil",
+      "label": {
+        "default": "Guayaquil"
+      },
+      "linkedIds": [
+        {
+          "label": "Guayaquil",
+          "url": "https://en.wikipedia.org/wiki/Guayaquil"
+        },
+        {
+          "label": "Q43509",
+          "url": "http://www.wikidata.org/entity/Q43509"
+        }
+      ],
+      "relations": [],
+      "kind": "place",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.8875,
+          -2.19
+        ]
+      }
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-ob-007",
+      "label": {
+        "default": "A Lady's Second Journey Round the World"
+      },
+      "linkedIds": [],
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [
+        {
+          "event": "Ida_Laura_Pfeiffer-ob-007-ev-035",
+          "role": "role-object_created"
+        }
+      ],
+      "kind": "cultural-heritage-object",
+      "type": {}
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pr-Friedrich_Hassaurek",
+      "label": {
+        "default": "Friedrich Hassaurek"
+      },
+      "linkedIds": [
+        {
+          "label": "Friedrich_Hassaurek",
+          "url": "https://en.wikipedia.org/wiki/Friedrich_Hassaurek"
+        },
+        {
+          "label": "Q5503818",
+          "url": "http://www.wikidata.org/entity/Q5503818"
+        }
+      ],
+      "media": [
+        "Ida_Laura_Pfeiffer-m-027"
+      ],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-ob-008",
+      "label": {
+        "default": "Four Years"
+      },
+      "linkedIds": [],
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [
+        {
+          "event": "Ida_Laura_Pfeiffer-ob-008-ev-036",
+          "role": "role-object_created"
+        }
+      ],
+      "kind": "cultural-heritage-object",
+      "type": {}
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pl-New_Orleans",
+      "label": {
+        "default": "New Orleans"
+      },
+      "linkedIds": [
+        {
+          "label": "New_Orleans",
+          "url": "https://en.wikipedia.org/wiki/New_Orleans"
+        },
+        {
+          "label": "Q34404",
+          "url": "http://www.wikidata.org/entity/Q34404"
+        }
+      ],
+      "relations": [
+        {
+          "event": "Ida_Laura_Pfeiffer-pr-Ida_Laura_Pfeiffer-ev-061",
+          "role": "role-boarded"
+        }
+      ],
+      "kind": "place",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.07507,
+          29.95465
+        ]
+      }
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pl-025",
+      "label": {
+        "default": "the Great Lakes Region"
+      },
+      "linkedIds": [],
+      "relations": [],
+      "kind": "place"
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pl-026",
+      "label": {
+        "default": "the Manhattan Detention Complex"
+      },
+      "linkedIds": [],
+      "relations": [],
+      "kind": "place"
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pr-Washington_Irving",
+      "label": {
+        "default": "Washington Irving"
+      },
+      "linkedIds": [
+        {
+          "label": "Washington_Irving",
+          "url": "https://en.wikipedia.org/wiki/Washington_Irving"
+        },
+        {
+          "label": "Q181667",
+          "url": "http://www.wikidata.org/entity/Q181667"
+        }
+      ],
+      "media": [
+        "Ida_Laura_Pfeiffer-m-028"
+      ],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pr-John_Collins_Warren",
+      "label": {
+        "default": "John Collins Warren"
+      },
+      "linkedIds": [
+        {
+          "label": "John_Collins_Warren",
+          "url": "https://en.wikipedia.org/wiki/John_Collins_Warren"
+        },
+        {
+          "label": "Q969253",
+          "url": "http://www.wikidata.org/entity/Q969253"
+        }
+      ],
+      "media": [
+        "Ida_Laura_Pfeiffer-m-029"
+      ],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pr-Louis_Agassiz",
+      "label": {
+        "default": "Louis Agassiz"
+      },
+      "linkedIds": [
+        {
+          "label": "Louis_Agassiz",
+          "url": "https://en.wikipedia.org/wiki/Louis_Agassiz"
+        },
+        {
+          "label": "Q122972",
+          "url": "http://www.wikidata.org/entity/Q122972"
+        }
+      ],
+      "media": [
+        "Ida_Laura_Pfeiffer-m-030"
+      ],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-ob-009",
+      "label": {
+        "default": "Meine zweite Weltreise"
+      },
+      "linkedIds": [],
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [
+        {
+          "event": "Ida_Laura_Pfeiffer-ob-009-ev-037",
+          "role": "role-object_created"
+        },
+        {
+          "event": "Ida_Laura_Pfeiffer-pr-Ida_Laura_Pfeiffer-ev-062",
+          "role": "role-completed"
+        }
+      ],
+      "kind": "cultural-heritage-object",
+      "type": {}
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-ob-010",
+      "label": {
+        "default": "Second Journey round the World"
+      },
+      "linkedIds": [],
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [
+        {
+          "event": "Ida_Laura_Pfeiffer-ob-010-ev-038",
+          "role": "role-object_created"
+        }
+      ],
+      "kind": "cultural-heritage-object",
+      "type": {}
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-gr-006",
+      "label": {
+        "default": "Longmans"
+      },
+      "linkedIds": [],
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [],
+      "kind": "group",
+      "type": {}
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-gr-007",
+      "label": {
+        "default": "the English Edinburgh Review"
+      },
+      "linkedIds": [],
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [],
+      "kind": "group",
+      "type": {}
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-gr-008",
+      "label": {
+        "default": "Criterion"
+      },
+      "linkedIds": [],
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [],
+      "kind": "group",
+      "type": {}
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pr-Joseph-François_Lambert",
+      "label": {
+        "default": "Joseph-François Lambert"
+      },
+      "linkedIds": [
+        {
+          "label": "Joseph-François_Lambert",
+          "url": "https://en.wikipedia.org/wiki/Joseph-Fran%C3%A7ois_Lambert"
+        },
+        {
+          "label": "Q721617",
+          "url": "http://www.wikidata.org/entity/Q721617"
+        }
+      ],
+      "media": [
+        "Ida_Laura_Pfeiffer-m-031"
+      ],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pr-Jean_Laborde",
+      "label": {
+        "default": "Jean Laborde"
+      },
+      "linkedIds": [
+        {
+          "label": "Jean_Laborde",
+          "url": "https://en.wikipedia.org/wiki/Jean_Laborde"
+        },
+        {
+          "label": "Q259345",
+          "url": "http://www.wikidata.org/entity/Q259345"
+        }
+      ],
+      "media": [
+        "Ida_Laura_Pfeiffer-m-033"
+      ],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pr-018",
+      "label": {
+        "default": "Ranavalona"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pr-019",
+      "label": {
+        "default": "Rakoto"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pl-Antananarivo",
+      "label": {
+        "default": "Antananarivo"
+      },
+      "linkedIds": [
+        {
+          "label": "Antananarivo",
+          "url": "https://en.wikipedia.org/wiki/Antananarivo"
+        },
+        {
+          "label": "Q3915",
+          "url": "http://www.wikidata.org/entity/Q3915"
+        }
+      ],
+      "relations": [],
+      "kind": "place",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          47.516667,
+          -18.933333
+        ]
+      }
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pl-Mauritius",
+      "label": {
+        "default": "Mauritius"
+      },
+      "linkedIds": [
+        {
+          "label": "Mauritius",
+          "url": "https://en.wikipedia.org/wiki/Mauritius"
+        },
+        {
+          "label": "Q1027",
+          "url": "http://www.wikidata.org/entity/Q1027"
+        }
+      ],
+      "relations": [],
+      "kind": "place",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          57.5,
+          -20.2
+        ]
+      }
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pr-020",
+      "label": {
+        "default": "Carl Reyer"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [
+        {
+          "event": "Ida_Laura_Pfeiffer-pr-Ida_Laura_Pfeiffer-ev-012",
+          "role": "role-sibling_of"
+        },
+        {
+          "event": "Ida_Laura_Pfeiffer-pr-020-ev-039",
+          "role": "role-sibling_of"
+        },
+        {
+          "event": "Ida_Laura_Pfeiffer-pr-020-ev-039",
+          "role": "role-sibling_of"
+        },
+        {
+          "event": "Ida_Laura_Pfeiffer-pr-020-ev-040",
+          "role": "role-sibling_of"
+        },
+        {
+          "event": "Ida_Laura_Pfeiffer-pr-020-ev-041",
+          "role": "role-died_in"
+        }
+      ],
+      "kind": "person"
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-ob-011",
+      "label": {
+        "default": "Reise nach Madagaskar (\"Trip to Madagascar"
+      },
+      "linkedIds": [],
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [
+        {
+          "event": "Ida_Laura_Pfeiffer-ob-011-ev-042",
+          "role": "role-object_created"
+        }
+      ],
+      "kind": "cultural-heritage-object",
+      "type": {}
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pr-021",
+      "label": {
+        "default": "Oscar Pfeiffer"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-gr-Museum_für_Naturkunde",
+      "label": {
+        "default": "Museum für Naturkunde"
+      },
+      "linkedIds": [
+        {
+          "label": "Museum_für_Naturkunde",
+          "url": "https://en.wikipedia.org/wiki/Museum_f%C3%BCr_Naturkunde"
+        }
+      ],
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [],
+      "kind": "group",
+      "type": {}
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pl-027",
+      "label": {
+        "default": "the British Museum"
+      },
+      "linkedIds": [],
+      "relations": [],
+      "kind": "place"
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pl-Ambon,_Maluku",
+      "label": {
+        "default": "Ambon"
+      },
+      "linkedIds": [
+        {
+          "label": "Ambon,_Maluku",
+          "url": "https://en.wikipedia.org/wiki/Ambon%2C_Maluku"
+        }
+      ],
+      "relations": [],
+      "kind": "place",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.117222,
+          -3.638056
+        ]
+      }
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pr-Seram",
+      "label": {
+        "default": "Seram"
+      },
+      "linkedIds": [
+        {
+          "label": "Seram",
+          "url": "https://en.wikipedia.org/wiki/Seram"
+        }
+      ],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-gr-009",
+      "label": {
+        "default": "MalukuThe Naturhistorisches Museum"
+      },
+      "linkedIds": [],
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [],
+      "kind": "group",
+      "type": {}
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pr-Walden",
+      "label": {
+        "default": "Walden"
+      },
+      "linkedIds": [
+        {
+          "label": "Walden",
+          "url": "https://en.wikipedia.org/wiki/Walden"
+        },
+        {
+          "label": "Q863534",
+          "url": "http://www.wikidata.org/entity/Q863534"
+        }
+      ],
+      "media": [
+        "Ida_Laura_Pfeiffer-m-034"
+      ],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pr-Henry_Walter_Bates",
+      "label": {
+        "default": "Henry Walter Bates"
+      },
+      "linkedIds": [
+        {
+          "label": "Henry_Walter_Bates",
+          "url": "https://en.wikipedia.org/wiki/Henry_Walter_Bates"
+        },
+        {
+          "label": "Q370308",
+          "url": "http://www.wikidata.org/entity/Q370308"
+        }
+      ],
+      "media": [
+        "Ida_Laura_Pfeiffer-m-035"
+      ],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pr-Samuel_Stevens_(naturalist)",
+      "label": {
+        "default": "Samuel Stevens"
+      },
+      "linkedIds": [
+        {
+          "label": "Samuel_Stevens_(naturalist)",
+          "url": "https://en.wikipedia.org/wiki/Samuel_Stevens_%28naturalist%29"
+        }
+      ],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pl-028",
+      "label": {
+        "default": "the Malay Archipelago"
+      },
+      "linkedIds": [],
+      "relations": [],
+      "kind": "place"
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-ob-Descent_of_Man",
+      "label": {
+        "default": "Descent of Man"
+      },
+      "linkedIds": [
+        {
+          "label": "Descent_of_Man",
+          "url": "https://en.wikipedia.org/wiki/Descent_of_Man"
+        }
+      ],
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [
+        {
+          "event": "Ida_Laura_Pfeiffer-ob-Descent_of_Man-ev-043",
+          "role": "role-object_created"
+        }
+      ],
+      "kind": "cultural-heritage-object",
+      "type": {}
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pl-029",
+      "label": {
+        "default": "Java"
+      },
+      "linkedIds": [],
+      "relations": [],
+      "kind": "place",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.004444,
+          -7.491667
+        ]
+      }
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-gr-010",
+      "label": {
+        "default": "the Viennese Society for the Further Education of Women"
+      },
+      "linkedIds": [],
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [],
+      "kind": "group",
+      "type": {}
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pr-022",
+      "label": {
+        "default": "Ida Pfeiffer's"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pl-030",
+      "label": {
+        "default": "the Vienna Central Cemetery"
+      },
+      "linkedIds": [],
+      "relations": [],
+      "kind": "place"
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pl-031",
+      "label": {
+        "default": "Ida-Pfeiffer-Straße"
+      },
+      "linkedIds": [],
+      "relations": [
+        {
+          "event": "Ida_Laura_Pfeiffer-pl-031-ev-044",
+          "role": "role-based_in"
+        }
+      ],
+      "kind": "place"
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-gr-011",
+      "label": {
+        "default": "the University of Vienna"
+      },
+      "linkedIds": [],
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [],
+      "kind": "group",
+      "type": {}
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-ob-012",
+      "label": {
+        "default": "an \"Ida Pfeiffer Professorship\""
+      },
+      "linkedIds": [],
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [
+        {
+          "event": "Ida_Laura_Pfeiffer-ob-012-ev-045",
+          "role": "role-object_created"
+        }
+      ],
+      "kind": "cultural-heritage-object",
+      "type": {}
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-gr-012",
+      "label": {
+        "default": "the Faculty of Earth Sciences, Geography and Astronomy"
+      },
+      "linkedIds": [],
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [],
+      "kind": "group",
+      "type": {}
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pr-023",
+      "label": {
+        "default": "Hiltgund Jehle's"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pr-024",
+      "label": {
+        "default": "Weltreisende"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pr-025",
+      "label": {
+        "default": "Gabriele Habinger's"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pr-026",
+      "label": {
+        "default": "John van Wyhe's"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-ob-013",
+      "label": {
+        "default": "Wanderlust Ida and the World Beyond Mount Kaiserzipf"
+      },
+      "linkedIds": [],
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [
+        {
+          "event": "Ida_Laura_Pfeiffer-ob-013-ev-046",
+          "role": "role-object_created"
+        }
+      ],
+      "kind": "cultural-heritage-object",
+      "type": {}
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pr-027",
+      "label": {
+        "default": "Xavier Sistach's"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-ob-014",
+      "label": {
+        "default": "Les aventures d'Ida Pfeiffer"
+      },
+      "linkedIds": [],
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [
+        {
+          "event": "Ida_Laura_Pfeiffer-ob-014-ev-047",
+          "role": "role-object_created"
+        }
+      ],
+      "kind": "cultural-heritage-object",
+      "type": {}
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pr-028",
+      "label": {
+        "default": "née Reyer"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pl-Middle_East",
+      "label": {
+        "default": "Middle East"
+      },
+      "linkedIds": [
+        {
+          "label": "Middle_East",
+          "url": "https://en.wikipedia.org/wiki/Middle_East"
+        },
+        {
+          "label": "Q7204",
+          "url": "http://www.wikidata.org/entity/Q7204"
+        }
+      ],
+      "relations": [],
+      "kind": "place",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.0,
+          28.0
+        ]
+      }
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-gr-Royal_Geographical_Society",
+      "label": {
+        "default": "Royal Geographical Society"
+      },
+      "linkedIds": [
+        {
+          "label": "Royal_Geographical_Society",
+          "url": "https://en.wikipedia.org/wiki/Royal_Geographical_Society"
+        },
+        {
+          "label": "Q691152",
+          "url": "http://www.wikidata.org/entity/Q691152"
+        }
+      ],
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [],
+      "kind": "group",
+      "type": {},
+      "media": [
+        "Ida_Laura_Pfeiffer-m-036"
+      ]
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pl-032",
+      "label": {
+        "default": "Scandinavian North"
+      },
+      "linkedIds": [],
+      "relations": [],
+      "kind": "place"
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pl-Smyrna",
+      "label": {
+        "default": "Smyrna"
+      },
+      "linkedIds": [
+        {
+          "label": "Smyrna",
+          "url": "https://en.wikipedia.org/wiki/Smyrna"
+        },
+        {
+          "label": "Q1379299",
+          "url": "http://www.wikidata.org/entity/Q1379299"
+        }
+      ],
+      "relations": [],
+      "kind": "place",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.139167,
+          38.418611
+        ]
+      }
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pl-Rhodes",
+      "label": {
+        "default": "Rhodes"
+      },
+      "linkedIds": [
+        {
+          "label": "Rhodes",
+          "url": "https://en.wikipedia.org/wiki/Rhodes"
+        },
+        {
+          "label": "Q43048",
+          "url": "http://www.wikidata.org/entity/Q43048"
+        }
+      ],
+      "relations": [],
+      "kind": "place",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.92,
+          36.17
+        ]
+      }
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pl-Cyprus",
+      "label": {
+        "default": "Cyprus"
+      },
+      "linkedIds": [
+        {
+          "label": "Cyprus",
+          "url": "https://en.wikipedia.org/wiki/Cyprus"
+        },
+        {
+          "label": "Q229",
+          "url": "http://www.wikidata.org/entity/Q229"
+        }
+      ],
+      "relations": [],
+      "kind": "place",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.366667,
+          35.166667
+        ]
+      }
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pl-Caesarea_Maritima",
+      "label": {
+        "default": "Caesarea"
+      },
+      "linkedIds": [
+        {
+          "label": "Caesarea_Maritima",
+          "url": "https://en.wikipedia.org/wiki/Caesarea_Maritima"
+        },
+        {
+          "label": "Q319242",
+          "url": "http://www.wikidata.org/entity/Q319242"
+        }
+      ],
+      "relations": [],
+      "kind": "place",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.8923,
+          32.5011
+        ]
+      }
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pl-Jaffa",
+      "label": {
+        "default": "Jaffa"
+      },
+      "linkedIds": [
+        {
+          "label": "Jaffa",
+          "url": "https://en.wikipedia.org/wiki/Jaffa"
+        },
+        {
+          "label": "Q180294",
+          "url": "http://www.wikidata.org/entity/Q180294"
+        }
+      ],
+      "relations": [],
+      "kind": "place",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.753056,
+          32.052222
+        ]
+      }
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pl-Red_Sea",
+      "label": {
+        "default": "Red Sea"
+      },
+      "linkedIds": [
+        {
+          "label": "Red_Sea",
+          "url": "https://en.wikipedia.org/wiki/Red_Sea"
+        },
+        {
+          "label": "Q23406",
+          "url": "http://www.wikidata.org/entity/Q23406"
+        }
+      ],
+      "relations": [],
+      "kind": "place",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.0,
+          22.0
+        ]
+      }
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pl-033",
+      "label": {
+        "default": "Heilige Land"
+      },
+      "linkedIds": [],
+      "relations": [
+        {
+          "event": "Ida_Laura_Pfeiffer-pr-Ida_Laura_Pfeiffer-ev-053",
+          "role": "role-published"
+        }
+      ],
+      "kind": "place"
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pl-034",
+      "label": {
+        "default": "Holy Land"
+      },
+      "linkedIds": [],
+      "relations": [
+        {
+          "event": "Ida_Laura_Pfeiffer-pr-Ida_Laura_Pfeiffer-ev-053",
+          "role": "role-published"
+        }
+      ],
+      "kind": "place"
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pr-029",
+      "label": {
+        "default": "Johann"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pl-Gullfoss",
+      "label": {
+        "default": "Golden Falls"
+      },
+      "linkedIds": [
+        {
+          "label": "Gullfoss",
+          "url": "https://en.wikipedia.org/wiki/Gullfoss"
+        },
+        {
+          "label": "Q38519",
+          "url": "http://www.wikidata.org/entity/Q38519"
+        }
+      ],
+      "relations": [],
+      "kind": "place",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -20.121111,
+          64.326111
+        ]
+      }
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pl-Macacu_River",
+      "label": {
+        "default": "Macacu River"
+      },
+      "linkedIds": [
+        {
+          "label": "Macacu_River",
+          "url": "https://en.wikipedia.org/wiki/Macacu_River"
+        },
+        {
+          "label": "Q10362191",
+          "url": "http://www.wikidata.org/entity/Q10362191"
+        }
+      ],
+      "relations": [],
+      "kind": "place",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.0272,
+          -22.7256
+        ]
+      }
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pl-Daulatabad_Fort",
+      "label": {
+        "default": "Daulatabad Fort"
+      },
+      "linkedIds": [
+        {
+          "label": "Daulatabad_Fort",
+          "url": "https://en.wikipedia.org/wiki/Daulatabad_Fort"
+        },
+        {
+          "label": "Q88667786",
+          "url": "http://www.wikidata.org/entity/Q88667786"
+        }
+      ],
+      "relations": [],
+      "kind": "place",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.213164,
+          19.942724
+        ]
+      }
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pl-Ellora_Caves",
+      "label": {
+        "default": "Ellora Caves"
+      },
+      "linkedIds": [
+        {
+          "label": "Ellora_Caves",
+          "url": "https://en.wikipedia.org/wiki/Ellora_Caves"
+        },
+        {
+          "label": "Q189616",
+          "url": "http://www.wikidata.org/entity/Q189616"
+        }
+      ],
+      "relations": [],
+      "kind": "place",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.179167,
+          20.026389
+        ]
+      }
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-gr-013",
+      "label": {
+        "default": "Qajar Dynasty"
+      },
+      "linkedIds": [],
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [],
+      "kind": "group",
+      "type": {}
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pl-Babylon",
+      "label": {
+        "default": "Babylon"
+      },
+      "linkedIds": [
+        {
+          "label": "Babylon",
+          "url": "https://en.wikipedia.org/wiki/Babylon"
+        },
+        {
+          "label": "Q5684",
+          "url": "http://www.wikidata.org/entity/Q5684"
+        }
+      ],
+      "relations": [],
+      "kind": "place",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.421111,
+          32.5425
+        ]
+      }
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pl-Borsippa",
+      "label": {
+        "default": "Borsippa"
+      },
+      "linkedIds": [
+        {
+          "label": "Borsippa",
+          "url": "https://en.wikipedia.org/wiki/Borsippa"
+        },
+        {
+          "label": "Q625134",
+          "url": "http://www.wikidata.org/entity/Q625134"
+        }
+      ],
+      "relations": [],
+      "kind": "place",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.341689,
+          32.391997
+        ]
+      }
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pl-Nineveh",
+      "label": {
+        "default": "Nineveh"
+      },
+      "linkedIds": [
+        {
+          "label": "Nineveh",
+          "url": "https://en.wikipedia.org/wiki/Nineveh"
+        },
+        {
+          "label": "Q5680",
+          "url": "http://www.wikidata.org/entity/Q5680"
+        }
+      ],
+      "relations": [],
+      "kind": "place",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.15,
+          36.366667
+        ]
+      }
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pr-030",
+      "label": {
+        "default": "Vicegerent"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pl-Black_Sea",
+      "label": {
+        "default": "Black Sea"
+      },
+      "linkedIds": [
+        {
+          "label": "Black_Sea",
+          "url": "https://en.wikipedia.org/wiki/Black_Sea"
+        },
+        {
+          "label": "Q166",
+          "url": "http://www.wikidata.org/entity/Q166"
+        }
+      ],
+      "relations": [],
+      "kind": "place",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.0,
+          44.0
+        ]
+      }
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pl-035",
+      "label": {
+        "default": "Royal Museum of Vienna"
+      },
+      "linkedIds": [],
+      "relations": [],
+      "kind": "place"
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-gr-University_of_Berlin",
+      "label": {
+        "default": "University of Berlin"
+      },
+      "linkedIds": [
+        {
+          "label": "University_of_Berlin",
+          "url": "https://en.wikipedia.org/wiki/University_of_Berlin"
+        }
+      ],
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [],
+      "kind": "group",
+      "type": {}
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-gr-Gesellschaft_für_Erdkunde_zu_Berlin_",
+      "label": {
+        "default": "Geographical Society of Berlin"
+      },
+      "linkedIds": [
+        {
+          "label": "Gesellschaft_für_Erdkunde_zu_Berlin_",
+          "url": "https://en.wikipedia.org/wiki/Gesellschaft_f%C3%BCr_Erdkunde_zu_Berlin_"
+        }
+      ],
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [],
+      "kind": "group",
+      "type": {}
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-gr-Natural_History_Museum,_Vienna",
+      "label": {
+        "default": "Natural History Museum"
+      },
+      "linkedIds": [
+        {
+          "label": "Natural_History_Museum,_Vienna",
+          "url": "https://en.wikipedia.org/wiki/Natural_History_Museum%2C_Vienna"
+        }
+      ],
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [],
+      "kind": "group",
+      "type": {},
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.176389,
+          51.496111
+        ]
+      }
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pl-036",
+      "label": {
+        "default": "Indian Ocean"
+      },
+      "linkedIds": [],
+      "relations": [],
+      "kind": "place",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.0,
+          -20.0
+        ]
+      }
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pl-Sunda_Islands",
+      "label": {
+        "default": "Sunda Islands"
+      },
+      "linkedIds": [
+        {
+          "label": "Sunda_Islands",
+          "url": "https://en.wikipedia.org/wiki/Sunda_Islands"
+        },
+        {
+          "label": "Q154190",
+          "url": "http://www.wikidata.org/entity/Q154190"
+        }
+      ],
+      "relations": [],
+      "kind": "place",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.0,
+          -2.0
+        ]
+      }
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pr-031",
+      "label": {
+        "default": "Sultan Abdu'l Rashid Muhammad Jamal"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pr-032",
+      "label": {
+        "default": "Colonel van der Hart"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pr-033",
+      "label": {
+        "default": "Puntius"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pl-037",
+      "label": {
+        "default": "West Coast"
+      },
+      "linkedIds": [],
+      "relations": [],
+      "kind": "place"
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pl-038",
+      "label": {
+        "default": "United States"
+      },
+      "linkedIds": [],
+      "relations": [],
+      "kind": "place"
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pl-Great_Lakes_Region",
+      "label": {
+        "default": "Great Lakes Region"
+      },
+      "linkedIds": [
+        {
+          "label": "Great_Lakes_Region",
+          "url": "https://en.wikipedia.org/wiki/Great_Lakes_Region"
+        }
+      ],
+      "relations": [],
+      "kind": "place"
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pl-Manhattan_Detention_Complex",
+      "label": {
+        "default": "Manhattan Detention Complex"
+      },
+      "linkedIds": [
+        {
+          "label": "Manhattan_Detention_Complex",
+          "url": "https://en.wikipedia.org/wiki/Manhattan_Detention_Complex"
+        }
+      ],
+      "relations": [],
+      "kind": "place"
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-gr-Edinburgh_Review",
+      "label": {
+        "default": "Edinburgh Review"
+      },
+      "linkedIds": [
+        {
+          "label": "Edinburgh_Review",
+          "url": "https://en.wikipedia.org/wiki/Edinburgh_Review"
+        },
+        {
+          "label": "Q2616695",
+          "url": "http://www.wikidata.org/entity/Q2616695"
+        }
+      ],
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [],
+      "kind": "group",
+      "type": {}
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pr-034",
+      "label": {
+        "default": "Joseph"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pr-035",
+      "label": {
+        "default": "François Lambert"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pr-Radama_II_of_Madagascar",
+      "label": {
+        "default": "Radama II"
+      },
+      "linkedIds": [
+        {
+          "label": "Radama_II_of_Madagascar",
+          "url": "https://en.wikipedia.org/wiki/Radama_II_of_Madagascar"
+        }
+      ],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pr-036",
+      "label": {
+        "default": "Reise nach Madagaskar"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pl-British_Museum",
+      "label": {
+        "default": "British Museum"
+      },
+      "linkedIds": [
+        {
+          "label": "British_Museum",
+          "url": "https://en.wikipedia.org/wiki/British_Museum"
+        },
+        {
+          "label": "Q6373",
+          "url": "http://www.wikidata.org/entity/Q6373"
+        }
+      ],
+      "relations": [],
+      "kind": "place",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.126944,
+          51.519444
+        ]
+      }
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-gr-014",
+      "label": {
+        "default": "Orb"
+      },
+      "linkedIds": [],
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [],
+      "kind": "group",
+      "type": {}
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-gr-015",
+      "label": {
+        "default": "Freshwater"
+      },
+      "linkedIds": [],
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [],
+      "kind": "group",
+      "type": {}
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-gr-016",
+      "label": {
+        "default": "Palaemon idae"
+      },
+      "linkedIds": [],
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [],
+      "kind": "group",
+      "type": {}
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-gr-017",
+      "label": {
+        "default": "Snails"
+      },
+      "linkedIds": [],
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [],
+      "kind": "group",
+      "type": {}
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-gr-018",
+      "label": {
+        "default": "Vaginula idae"
+      },
+      "linkedIds": [],
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [],
+      "kind": "group",
+      "type": {}
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-gr-019",
+      "label": {
+        "default": "Pupina"
+      },
+      "linkedIds": [],
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [],
+      "kind": "group",
+      "type": {}
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pr-037",
+      "label": {
+        "default": "Madam Pfeiffer"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-gr-020",
+      "label": {
+        "default": "Malay Archipelago"
+      },
+      "linkedIds": [],
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [],
+      "kind": "group",
+      "type": {}
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-gr-021",
+      "label": {
+        "default": "Viennese Society for the Further Education of Women"
+      },
+      "linkedIds": [],
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [],
+      "kind": "group",
+      "type": {}
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pl-Vienna_Central_Cemetery",
+      "label": {
+        "default": "Vienna Central Cemetery"
+      },
+      "linkedIds": [
+        {
+          "label": "Vienna_Central_Cemetery",
+          "url": "https://en.wikipedia.org/wiki/Vienna_Central_Cemetery"
+        },
+        {
+          "label": "Q240744",
+          "url": "http://www.wikidata.org/entity/Q240744"
+        }
+      ],
+      "relations": [],
+      "kind": "place",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.44,
+          48.1525
+        ]
+      }
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pr-038",
+      "label": {
+        "default": "Straße"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-gr-University_of_Vienna",
+      "label": {
+        "default": "University of Vienna"
+      },
+      "linkedIds": [
+        {
+          "label": "University_of_Vienna",
+          "url": "https://en.wikipedia.org/wiki/University_of_Vienna"
+        },
+        {
+          "label": "Q165980",
+          "url": "http://www.wikidata.org/entity/Q165980"
+        }
+      ],
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [],
+      "kind": "group",
+      "type": {},
+      "media": [
+        "Ida_Laura_Pfeiffer-m-037"
+      ]
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-gr-022",
+      "label": {
+        "default": "Faculty of Earth Sciences"
+      },
+      "linkedIds": [],
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [],
+      "kind": "group",
+      "type": {}
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-gr-023",
+      "label": {
+        "default": "Geography and Astronomy"
+      },
+      "linkedIds": [],
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [],
+      "kind": "group",
+      "type": {}
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pr-039",
+      "label": {
+        "default": "Hiltgund Jehle"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pr-040",
+      "label": {
+        "default": "Jahrhundert"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pr-041",
+      "label": {
+        "default": "Gabriele Habinger"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pr-John_van_Wyhe",
+      "label": {
+        "default": "John van Wyhe"
+      },
+      "linkedIds": [
+        {
+          "label": "John_van_Wyhe",
+          "url": "https://en.wikipedia.org/wiki/John_van_Wyhe"
+        },
+        {
+          "label": "Q16255805",
+          "url": "http://www.wikidata.org/entity/Q16255805"
+        }
+      ],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pr-042",
+      "label": {
+        "default": "Wanderlust Ida"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pr-043",
+      "label": {
+        "default": "Xavier Sistach"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-gr-024",
+      "label": {
+        "default": "Les"
+      },
+      "linkedIds": [],
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [],
+      "kind": "group",
+      "type": {}
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pr-044",
+      "label": {
+        "default": "d'Ida Pfeiffer"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    }
+  ],
+  "events": [
+    {
+      "id": "Ida_Laura_Pfeiffer-pl-Vienna-ev-001",
+      "label": {
+        "default": "Vienna"
+      },
+      "kind": "event-kind-event-kind-born_in",
+      "relations": [
+        {
+          "entity": "Ida_Laura_Pfeiffer-pl-Vienna",
+          "role": "role-place_of_birth"
+        },
+        {
+          "entity": "Ida_Laura_Pfeiffer-pr-Ida_Laura_Pfeiffer",
+          "role": "role-born_in"
+        }
+      ]
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pl-Vienna-ev-002",
+      "label": {
+        "default": "Vienna"
+      },
+      "kind": "event-kind-event-kind-lived_in",
+      "relations": [
+        {
+          "entity": "Ida_Laura_Pfeiffer-pl-Vienna",
+          "role": "role-place_of_residence"
+        },
+        {
+          "entity": "Ida_Laura_Pfeiffer-pr-Ida_Laura_Pfeiffer",
+          "role": "role-lived_in"
+        }
+      ]
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pl-Vienna-ev-003",
+      "label": {
+        "default": "Vienna"
+      },
+      "kind": "event-kind-event-kind-died_in",
+      "relations": [
+        {
+          "entity": "Ida_Laura_Pfeiffer-pl-Vienna",
+          "role": "role-unk"
+        },
+        {
+          "entity": "Ida_Laura_Pfeiffer-pr-Ida_Laura_Pfeiffer",
+          "role": "role-died_in"
+        }
+      ]
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pl-Vienna-ev-004",
+      "label": {
+        "default": "Vienna"
+      },
+      "kind": "event-kind-event-kind-died_in",
+      "relations": [
+        {
+          "entity": "Ida_Laura_Pfeiffer-pl-Vienna",
+          "role": "role-unk"
+        },
+        {
+          "entity": "Ida_Laura_Pfeiffer-pr-020",
+          "role": "role-died_in"
+        }
+      ]
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pl-Vienna-ev-005",
+      "label": {
+        "default": "Munich"
+      },
+      "kind": "event-kind-event-kind-based_in",
+      "relations": [
+        {
+          "entity": "Ida_Laura_Pfeiffer-pl-Vienna",
+          "role": "role-location_of"
+        },
+        {
+          "entity": "Ida_Laura_Pfeiffer-pl-031",
+          "role": "role-based_in"
+        }
+      ]
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pl-Vienna-ev-006",
+      "label": {
+        "default": "Vienna"
+      },
+      "kind": "event-kind-event-kind-based_in",
+      "relations": [
+        {
+          "entity": "Ida_Laura_Pfeiffer-pl-Vienna",
+          "role": "role-location_of"
+        },
+        {
+          "entity": "Ida_Laura_Pfeiffer-gr-005",
+          "role": "role-based_in"
+        }
+      ]
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pr-Ida_Laura_Pfeiffer-ev-007",
+      "label": {
+        "default": "Vienna"
+      },
+      "kind": "event-kind-event-kind-born_in",
+      "relations": [
+        {
+          "entity": "Ida_Laura_Pfeiffer-pl-Vienna",
+          "role": "role-place_of_birth"
+        },
+        {
+          "entity": "Ida_Laura_Pfeiffer-pr-Ida_Laura_Pfeiffer",
+          "role": "role-born_in"
+        }
+      ]
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pr-Ida_Laura_Pfeiffer-ev-008",
+      "label": {
+        "default": "Aloys Reyer"
+      },
+      "kind": "event-kind-event-kind-child_of",
+      "relations": [
+        {
+          "entity": "Ida_Laura_Pfeiffer-pr-003",
+          "role": "role-parent_of"
+        },
+        {
+          "entity": "Ida_Laura_Pfeiffer-pr-Ida_Laura_Pfeiffer",
+          "role": "role-child_of"
+        }
+      ],
+      "startDate": "1797-10-14"
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pr-Ida_Laura_Pfeiffer-ev-009",
+      "label": {
+        "default": "Vienna"
+      },
+      "kind": "event-kind-event-kind-lived_in",
+      "relations": [
+        {
+          "entity": "Ida_Laura_Pfeiffer-pl-Vienna",
+          "role": "role-place_of_residence"
+        },
+        {
+          "entity": "Ida_Laura_Pfeiffer-pr-Ida_Laura_Pfeiffer",
+          "role": "role-lived_in"
+        }
+      ]
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pr-Ida_Laura_Pfeiffer-ev-010",
+      "label": {
+        "default": "Lemberg"
+      },
+      "kind": "event-kind-event-kind-lived_in",
+      "relations": [
+        {
+          "entity": "Ida_Laura_Pfeiffer-pl-Lemberg",
+          "role": "role-place_of_residence"
+        },
+        {
+          "entity": "Ida_Laura_Pfeiffer-pr-Ida_Laura_Pfeiffer",
+          "role": "role-lived_in"
+        }
+      ]
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pr-Ida_Laura_Pfeiffer-ev-011",
+      "label": {
+        "default": "Vienna"
+      },
+      "kind": "event-kind-event-kind-died_in",
+      "relations": [
+        {
+          "entity": "Ida_Laura_Pfeiffer-pl-Vienna",
+          "role": "role-unk"
+        },
+        {
+          "entity": "Ida_Laura_Pfeiffer-pr-Ida_Laura_Pfeiffer",
+          "role": "role-died_in"
+        }
+      ]
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pr-Ida_Laura_Pfeiffer-ev-012",
+      "label": {
+        "default": "Carl Reyer"
+      },
+      "kind": "event-kind-event-kind-sibling_of",
+      "relations": [
+        {
+          "entity": "Ida_Laura_Pfeiffer-pr-020",
+          "role": "role-sibling_of"
+        },
+        {
+          "entity": "Ida_Laura_Pfeiffer-pr-Ida_Laura_Pfeiffer",
+          "role": "role-sibling_of"
+        }
+      ],
+      "startDate": "1797-10-14"
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pr-Ida_Laura_Pfeiffer-ev-013",
+      "label": {
+        "default": "Ida Laura Pfeiffer"
+      },
+      "kind": "event-kind-event-kind-sibling_of",
+      "relations": [
+        {
+          "entity": "Ida_Laura_Pfeiffer-pr-Ida_Laura_Pfeiffer",
+          "role": "role-sibling_of"
+        },
+        {
+          "entity": "Ida_Laura_Pfeiffer-pr-020",
+          "role": "role-sibling_of"
+        }
+      ],
+      "startDate": "1797-10-14"
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pr-Ida_Laura_Pfeiffer-ev-014",
+      "label": {
+        "default": "Madagascar"
+      },
+      "kind": "event-kind-event-kind-lived_in",
+      "relations": [
+        {
+          "entity": "Ida_Laura_Pfeiffer-pl-Madagascar",
+          "role": "role-place_of_residence"
+        },
+        {
+          "entity": "Ida_Laura_Pfeiffer-pr-Ida_Laura_Pfeiffer",
+          "role": "role-lived_in"
+        }
+      ]
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pl-Lemberg-ev-015",
+      "label": {
+        "default": "Lemberg"
+      },
+      "kind": "event-kind-event-kind-lived_in",
+      "relations": [
+        {
+          "entity": "Ida_Laura_Pfeiffer-pl-Lemberg",
+          "role": "role-place_of_residence"
+        },
+        {
+          "entity": "Ida_Laura_Pfeiffer-pr-Ida_Laura_Pfeiffer",
+          "role": "role-lived_in"
+        }
+      ]
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pl-London-ev-016",
+      "label": {
+        "default": "London"
+      },
+      "kind": "event-kind-event-kind-based_in",
+      "relations": [
+        {
+          "entity": "Ida_Laura_Pfeiffer-pl-London",
+          "role": "role-location_of"
+        },
+        {
+          "entity": "Ida_Laura_Pfeiffer-gr-001",
+          "role": "role-based_in"
+        }
+      ]
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pl-Madagascar-ev-017",
+      "label": {
+        "default": "Madagascar"
+      },
+      "kind": "event-kind-event-kind-lived_in",
+      "relations": [
+        {
+          "entity": "Ida_Laura_Pfeiffer-pl-Madagascar",
+          "role": "role-place_of_residence"
+        },
+        {
+          "entity": "Ida_Laura_Pfeiffer-pr-Ida_Laura_Pfeiffer",
+          "role": "role-lived_in"
+        }
+      ]
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-gr-001-ev-018",
+      "label": {
+        "default": "London"
+      },
+      "kind": "event-kind-event-kind-based_in",
+      "relations": [
+        {
+          "entity": "Ida_Laura_Pfeiffer-pl-London",
+          "role": "role-location_of"
+        },
+        {
+          "entity": "Ida_Laura_Pfeiffer-gr-001",
+          "role": "role-based_in"
+        }
+      ]
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pr-003-ev-019",
+      "label": {
+        "default": "Aloys Reyer"
+      },
+      "kind": "event-kind-event-kind-child_of",
+      "relations": [
+        {
+          "entity": "Ida_Laura_Pfeiffer-pr-003",
+          "role": "role-parent_of"
+        },
+        {
+          "entity": "Ida_Laura_Pfeiffer-pr-Ida_Laura_Pfeiffer",
+          "role": "role-child_of"
+        }
+      ],
+      "startDate": "1797-10-14"
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pr-008-ev-020",
+      "label": {
+        "default": "Oscar"
+      },
+      "kind": "event-kind-event-kind-sibling_of",
+      "relations": [
+        {
+          "entity": "Ida_Laura_Pfeiffer-pr-009",
+          "role": "role-sibling_of"
+        },
+        {
+          "entity": "Ida_Laura_Pfeiffer-pr-008",
+          "role": "role-sibling_of"
+        }
+      ],
+      "startDate": "1797-10-14"
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pr-008-ev-021",
+      "label": {
+        "default": "Alfred"
+      },
+      "kind": "event-kind-event-kind-sibling_of",
+      "relations": [
+        {
+          "entity": "Ida_Laura_Pfeiffer-pr-008",
+          "role": "role-sibling_of"
+        },
+        {
+          "entity": "Ida_Laura_Pfeiffer-pr-009",
+          "role": "role-sibling_of"
+        }
+      ],
+      "startDate": "1797-10-14"
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pr-009-ev-022",
+      "label": {
+        "default": "Oscar"
+      },
+      "kind": "event-kind-event-kind-sibling_of",
+      "relations": [
+        {
+          "entity": "Ida_Laura_Pfeiffer-pr-009",
+          "role": "role-sibling_of"
+        },
+        {
+          "entity": "Ida_Laura_Pfeiffer-pr-008",
+          "role": "role-sibling_of"
+        }
+      ],
+      "startDate": "1797-10-14"
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pr-009-ev-023",
+      "label": {
+        "default": "Alfred"
+      },
+      "kind": "event-kind-event-kind-sibling_of",
+      "relations": [
+        {
+          "entity": "Ida_Laura_Pfeiffer-pr-008",
+          "role": "role-sibling_of"
+        },
+        {
+          "entity": "Ida_Laura_Pfeiffer-pr-009",
+          "role": "role-sibling_of"
+        }
+      ],
+      "startDate": "1797-10-14"
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-ob-001-ev-024",
+      "label": {
+        "default": "Reise nach dem skandinavischen Norden und der Insel Island"
+      },
+      "kind": "event-kind-creation",
+      "relations": [
+        {
+          "entity": "Ida_Laura_Pfeiffer-ob-001",
+          "role": "role-object_created"
+        },
+        {
+          "entity": "Ida_Laura_Pfeiffer-pr-Ida_Laura_Pfeiffer",
+          "role": "role-related_to"
+        }
+      ]
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-ob-002-ev-025",
+      "label": {
+        "default": "Reise einer Wienerin"
+      },
+      "kind": "event-kind-creation",
+      "relations": [
+        {
+          "entity": "Ida_Laura_Pfeiffer-ob-002",
+          "role": "role-object_created"
+        },
+        {
+          "entity": "Ida_Laura_Pfeiffer-pr-Ida_Laura_Pfeiffer",
+          "role": "role-related_to"
+        }
+      ]
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-ob-003-ev-026",
+      "label": {
+        "default": "the Holy Land"
+      },
+      "kind": "event-kind-creation",
+      "relations": [
+        {
+          "entity": "Ida_Laura_Pfeiffer-ob-003",
+          "role": "role-object_created"
+        },
+        {
+          "entity": "Ida_Laura_Pfeiffer-pr-Ida_Laura_Pfeiffer",
+          "role": "role-related_to"
+        }
+      ]
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-ob-004-ev-027",
+      "label": {
+        "default": "Eine Frauenfahrt"
+      },
+      "kind": "event-kind-creation",
+      "relations": [
+        {
+          "entity": "Ida_Laura_Pfeiffer-ob-004",
+          "role": "role-object_created"
+        },
+        {
+          "entity": "Ida_Laura_Pfeiffer-pr-Ida_Laura_Pfeiffer",
+          "role": "role-related_to"
+        }
+      ]
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-ob-005-ev-028",
+      "label": {
+        "default": "Welt (\"A Woman's Journey round the World"
+      },
+      "kind": "event-kind-creation",
+      "relations": [
+        {
+          "entity": "Ida_Laura_Pfeiffer-ob-005",
+          "role": "role-object_created"
+        },
+        {
+          "entity": "Ida_Laura_Pfeiffer-pr-Ida_Laura_Pfeiffer",
+          "role": "role-related_to"
+        }
+      ]
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-ob-006-ev-029",
+      "label": {
+        "default": "A Woman's Journey Round the World"
+      },
+      "kind": "event-kind-creation",
+      "relations": [
+        {
+          "entity": "Ida_Laura_Pfeiffer-ob-006",
+          "role": "role-object_created"
+        },
+        {
+          "entity": "Ida_Laura_Pfeiffer-pr-Ida_Laura_Pfeiffer",
+          "role": "role-related_to"
+        }
+      ]
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-gr-005-ev-030",
+      "label": {
+        "default": "Vienna"
+      },
+      "kind": "event-kind-event-kind-based_in",
+      "relations": [
+        {
+          "entity": "Ida_Laura_Pfeiffer-pl-Vienna",
+          "role": "role-location_of"
+        },
+        {
+          "entity": "Ida_Laura_Pfeiffer-gr-005",
+          "role": "role-based_in"
+        }
+      ]
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pr-015-ev-031",
+      "label": {
+        "default": "James Brooke"
+      },
+      "kind": "event-kind-event-kind-related_to",
+      "relations": [
+        {
+          "entity": "Ida_Laura_Pfeiffer-pr-James_Brooke",
+          "role": "role-unk"
+        },
+        {
+          "entity": "Ida_Laura_Pfeiffer-pr-015",
+          "role": "role-related_to"
+        }
+      ]
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pr-015-ev-032",
+      "label": {
+        "default": "John Brooke"
+      },
+      "kind": "event-kind-event-kind-related_to",
+      "relations": [
+        {
+          "entity": "Ida_Laura_Pfeiffer-pr-015",
+          "role": "role-unk"
+        },
+        {
+          "entity": "Ida_Laura_Pfeiffer-pr-James_Brooke",
+          "role": "role-related_to"
+        }
+      ]
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pr-James_Brooke-ev-033",
+      "label": {
+        "default": "James Brooke"
+      },
+      "kind": "event-kind-event-kind-related_to",
+      "relations": [
+        {
+          "entity": "Ida_Laura_Pfeiffer-pr-James_Brooke",
+          "role": "role-unk"
+        },
+        {
+          "entity": "Ida_Laura_Pfeiffer-pr-015",
+          "role": "role-related_to"
+        }
+      ]
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pr-James_Brooke-ev-034",
+      "label": {
+        "default": "John Brooke"
+      },
+      "kind": "event-kind-event-kind-related_to",
+      "relations": [
+        {
+          "entity": "Ida_Laura_Pfeiffer-pr-015",
+          "role": "role-unk"
+        },
+        {
+          "entity": "Ida_Laura_Pfeiffer-pr-James_Brooke",
+          "role": "role-related_to"
+        }
+      ]
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-ob-007-ev-035",
+      "label": {
+        "default": "A Lady's Second Journey Round the World"
+      },
+      "kind": "event-kind-creation",
+      "relations": [
+        {
+          "entity": "Ida_Laura_Pfeiffer-ob-007",
+          "role": "role-object_created"
+        },
+        {
+          "entity": "Ida_Laura_Pfeiffer-pr-Ida_Laura_Pfeiffer",
+          "role": "role-related_to"
+        }
+      ]
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-ob-008-ev-036",
+      "label": {
+        "default": "Four Years"
+      },
+      "kind": "event-kind-creation",
+      "relations": [
+        {
+          "entity": "Ida_Laura_Pfeiffer-ob-008",
+          "role": "role-object_created"
+        },
+        {
+          "entity": "Ida_Laura_Pfeiffer-pr-Ida_Laura_Pfeiffer",
+          "role": "role-related_to"
+        }
+      ]
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-ob-009-ev-037",
+      "label": {
+        "default": "Meine zweite Weltreise"
+      },
+      "kind": "event-kind-creation",
+      "relations": [
+        {
+          "entity": "Ida_Laura_Pfeiffer-ob-009",
+          "role": "role-object_created"
+        },
+        {
+          "entity": "Ida_Laura_Pfeiffer-pr-Ida_Laura_Pfeiffer",
+          "role": "role-related_to"
+        }
+      ]
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-ob-010-ev-038",
+      "label": {
+        "default": "Second Journey round the World"
+      },
+      "kind": "event-kind-creation",
+      "relations": [
+        {
+          "entity": "Ida_Laura_Pfeiffer-ob-010",
+          "role": "role-object_created"
+        },
+        {
+          "entity": "Ida_Laura_Pfeiffer-pr-Ida_Laura_Pfeiffer",
+          "role": "role-related_to"
+        }
+      ]
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pr-020-ev-039",
+      "label": {
+        "default": "Carl Reyer"
+      },
+      "kind": "event-kind-event-kind-sibling_of",
+      "relations": [
+        {
+          "entity": "Ida_Laura_Pfeiffer-pr-020",
+          "role": "role-sibling_of"
+        },
+        {
+          "entity": "Ida_Laura_Pfeiffer-pr-Ida_Laura_Pfeiffer",
+          "role": "role-sibling_of"
+        }
+      ],
+      "startDate": "1797-10-14"
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pr-020-ev-040",
+      "label": {
+        "default": "Ida Laura Pfeiffer"
+      },
+      "kind": "event-kind-event-kind-sibling_of",
+      "relations": [
+        {
+          "entity": "Ida_Laura_Pfeiffer-pr-Ida_Laura_Pfeiffer",
+          "role": "role-sibling_of"
+        },
+        {
+          "entity": "Ida_Laura_Pfeiffer-pr-020",
+          "role": "role-sibling_of"
+        }
+      ],
+      "startDate": "1797-10-14"
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pr-020-ev-041",
+      "label": {
+        "default": "Vienna"
+      },
+      "kind": "event-kind-event-kind-died_in",
+      "relations": [
+        {
+          "entity": "Ida_Laura_Pfeiffer-pl-Vienna",
+          "role": "role-unk"
+        },
+        {
+          "entity": "Ida_Laura_Pfeiffer-pr-020",
+          "role": "role-died_in"
+        }
+      ]
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-ob-011-ev-042",
+      "label": {
+        "default": "Reise nach Madagaskar (\"Trip to Madagascar"
+      },
+      "kind": "event-kind-creation",
+      "relations": [
+        {
+          "entity": "Ida_Laura_Pfeiffer-ob-011",
+          "role": "role-object_created"
+        },
+        {
+          "entity": "Ida_Laura_Pfeiffer-pr-Ida_Laura_Pfeiffer",
+          "role": "role-related_to"
+        }
+      ]
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-ob-Descent_of_Man-ev-043",
+      "label": {
+        "default": "Descent of Man"
+      },
+      "kind": "event-kind-creation",
+      "relations": [
+        {
+          "entity": "Ida_Laura_Pfeiffer-ob-Descent_of_Man",
+          "role": "role-object_created"
+        },
+        {
+          "entity": "Ida_Laura_Pfeiffer-pr-Ida_Laura_Pfeiffer",
+          "role": "role-related_to"
+        }
+      ]
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pl-031-ev-044",
+      "label": {
+        "default": "Munich"
+      },
+      "kind": "event-kind-event-kind-based_in",
+      "relations": [
+        {
+          "entity": "Ida_Laura_Pfeiffer-pl-Vienna",
+          "role": "role-location_of"
+        },
+        {
+          "entity": "Ida_Laura_Pfeiffer-pl-031",
+          "role": "role-based_in"
+        }
+      ]
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-ob-012-ev-045",
+      "label": {
+        "default": "an \"Ida Pfeiffer Professorship\""
+      },
+      "kind": "event-kind-creation",
+      "relations": [
+        {
+          "entity": "Ida_Laura_Pfeiffer-ob-012",
+          "role": "role-object_created"
+        },
+        {
+          "entity": "Ida_Laura_Pfeiffer-pr-Ida_Laura_Pfeiffer",
+          "role": "role-related_to"
+        }
+      ]
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-ob-013-ev-046",
+      "label": {
+        "default": "Wanderlust Ida and the World Beyond Mount Kaiserzipf"
+      },
+      "kind": "event-kind-creation",
+      "relations": [
+        {
+          "entity": "Ida_Laura_Pfeiffer-ob-013",
+          "role": "role-object_created"
+        },
+        {
+          "entity": "Ida_Laura_Pfeiffer-pr-Ida_Laura_Pfeiffer",
+          "role": "role-related_to"
+        }
+      ]
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-ob-014-ev-047",
+      "label": {
+        "default": "Les aventures d'Ida Pfeiffer"
+      },
+      "kind": "event-kind-creation",
+      "relations": [
+        {
+          "entity": "Ida_Laura_Pfeiffer-ob-014",
+          "role": "role-object_created"
+        },
+        {
+          "entity": "Ida_Laura_Pfeiffer-pr-Ida_Laura_Pfeiffer",
+          "role": "role-related_to"
+        }
+      ]
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pr-Ida_Laura_Pfeiffer-ev-048",
+      "label": {
+        "default": "Pfeiffer gave birth : Alfred in 1821 and Oscar in 1824 in Vienna"
+      },
+      "kind": "event-kind-gave",
+      "relations": [
+        {
+          "entity": "Ida_Laura_Pfeiffer-pr-Ida_Laura_Pfeiffer",
+          "role": "role-related_to"
+        },
+        {
+          "entity": "Ida_Laura_Pfeiffer-pl-Vienna",
+          "role": "role-gave"
+        },
+        {
+          "entity": "Ida_Laura_Pfeiffer-pr-008",
+          "role": "role-gave"
+        },
+        {
+          "entity": "Ida_Laura_Pfeiffer-pr-009",
+          "role": "role-gave"
+        }
+      ],
+      "startDate": "1821-01-01"
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pr-Ida_Laura_Pfeiffer-ev-049",
+      "label": {
+        "default": "Pfeiffer gave birth : Alfred in 1821 and Oscar in 1824 in Vienna"
+      },
+      "kind": "event-kind-gave",
+      "relations": [
+        {
+          "entity": "Ida_Laura_Pfeiffer-pr-Ida_Laura_Pfeiffer",
+          "role": "role-related_to"
+        },
+        {
+          "entity": "Ida_Laura_Pfeiffer-pl-Vienna",
+          "role": "role-gave"
+        },
+        {
+          "entity": "Ida_Laura_Pfeiffer-pr-008",
+          "role": "role-gave"
+        },
+        {
+          "entity": "Ida_Laura_Pfeiffer-pr-009",
+          "role": "role-gave"
+        }
+      ],
+      "startDate": "1824-01-01"
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pr-Ida_Laura_Pfeiffer-ev-050",
+      "label": {
+        "default": "Pfeiffer stayed with the boys in 1833 while Dr. Pfeiffer remained in Lemberg , near his first son in Vienna"
+      },
+      "kind": "event-kind-stayed",
+      "relations": [
+        {
+          "entity": "Ida_Laura_Pfeiffer-pr-Ida_Laura_Pfeiffer",
+          "role": "role-related_to"
+        },
+        {
+          "entity": "Ida_Laura_Pfeiffer-pl-Vienna",
+          "role": "role-stayed"
+        },
+        {
+          "entity": "Ida_Laura_Pfeiffer-pl-Lemberg",
+          "role": "role-stayed"
+        }
+      ],
+      "startDate": "1833-01-01"
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pr-Ida_Laura_Pfeiffer-ev-051",
+      "label": {
+        "default": "Pfeiffer traveled to Istanbul In 1842"
+      },
+      "kind": "event-kind-traveled",
+      "relations": [
+        {
+          "entity": "Ida_Laura_Pfeiffer-pr-Ida_Laura_Pfeiffer",
+          "role": "role-related_to"
+        },
+        {
+          "entity": "Ida_Laura_Pfeiffer-pl-Istanbul",
+          "role": "role-traveled"
+        }
+      ],
+      "startDate": "1842-01-01"
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pr-Ida_Laura_Pfeiffer-ev-052",
+      "label": {
+        "default": "Pfeiffer returned to Beirut on 10 July 1842"
+      },
+      "kind": "event-kind-returned",
+      "relations": [
+        {
+          "entity": "Ida_Laura_Pfeiffer-pr-Ida_Laura_Pfeiffer",
+          "role": "role-related_to"
+        },
+        {
+          "entity": "Ida_Laura_Pfeiffer-pl-Beirut",
+          "role": "role-returned"
+        }
+      ],
+      "startDate": "1842-07-10"
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pr-Ida_Laura_Pfeiffer-ev-053",
+      "label": {
+        "default": "Pfeiffer published an anonymous account of her journey in Reise einer Wienerin in das Heilige Land ( \" A Vienna woman 's trip to the Holy Land , \" 2 vols . , Vienna , 1844 )"
+      },
+      "kind": "event-kind-published",
+      "relations": [
+        {
+          "entity": "Ida_Laura_Pfeiffer-pr-Ida_Laura_Pfeiffer",
+          "role": "role-related_to"
+        },
+        {
+          "entity": "Ida_Laura_Pfeiffer-pl-Vienna",
+          "role": "role-published"
+        },
+        {
+          "entity": "Ida_Laura_Pfeiffer-ob-002",
+          "role": "role-published"
+        },
+        {
+          "entity": "Ida_Laura_Pfeiffer-pl-009",
+          "role": "role-published"
+        },
+        {
+          "entity": "Ida_Laura_Pfeiffer-ob-003",
+          "role": "role-published"
+        },
+        {
+          "entity": "Ida_Laura_Pfeiffer-pl-033",
+          "role": "role-published"
+        },
+        {
+          "entity": "Ida_Laura_Pfeiffer-pl-034",
+          "role": "role-published"
+        }
+      ],
+      "startDate": "1844-01-01"
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pr-Ida_Laura_Pfeiffer-ev-054",
+      "label": {
+        "default": "Pfeiffer came back to Vienna on 4 October 1845"
+      },
+      "kind": "event-kind-came",
+      "relations": [
+        {
+          "entity": "Ida_Laura_Pfeiffer-pr-Ida_Laura_Pfeiffer",
+          "role": "role-related_to"
+        },
+        {
+          "entity": "Ida_Laura_Pfeiffer-pl-Vienna",
+          "role": "role-came"
+        }
+      ],
+      "startDate": "1845-10-04"
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pr-Ida_Laura_Pfeiffer-ev-055",
+      "label": {
+        "default": "Pfeiffer returning to Vienna in 1848"
+      },
+      "kind": "event-kind-returning",
+      "relations": [
+        {
+          "entity": "Ida_Laura_Pfeiffer-pr-Ida_Laura_Pfeiffer",
+          "role": "role-related_to"
+        },
+        {
+          "entity": "Ida_Laura_Pfeiffer-pl-Vienna",
+          "role": "role-returning"
+        }
+      ],
+      "startDate": "1848-01-01"
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pr-Ida_Laura_Pfeiffer-ev-056",
+      "label": {
+        "default": "Pfeiffer boarded the Danish brig Caroline sailing southwest from Hamburg out into the Atlantic and across the equator , entering the harbor of Rio de Janeiro on 16 September 1846"
+      },
+      "kind": "event-kind-boarded",
+      "relations": [
+        {
+          "entity": "Ida_Laura_Pfeiffer-pr-Ida_Laura_Pfeiffer",
+          "role": "role-related_to"
+        },
+        {
+          "entity": "Ida_Laura_Pfeiffer-pl-Rio_de_Janeiro",
+          "role": "role-boarded"
+        },
+        {
+          "entity": "Ida_Laura_Pfeiffer-pl-Hamburg",
+          "role": "role-boarded"
+        },
+        {
+          "entity": "Ida_Laura_Pfeiffer-pl-Atlantic",
+          "role": "role-boarded"
+        },
+        {
+          "entity": "Ida_Laura_Pfeiffer-pl-014",
+          "role": "role-boarded"
+        }
+      ],
+      "startDate": "1846-09-16"
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pr-Ida_Laura_Pfeiffer-ev-057",
+      "label": {
+        "default": "Pfeiffer entering the harbor of Rio de Janeiro on 16 September 1846"
+      },
+      "kind": "event-kind-entering",
+      "relations": [
+        {
+          "entity": "Ida_Laura_Pfeiffer-pr-Ida_Laura_Pfeiffer",
+          "role": "role-related_to"
+        },
+        {
+          "entity": "Ida_Laura_Pfeiffer-pl-Rio_de_Janeiro",
+          "role": "role-entering"
+        },
+        {
+          "entity": "Ida_Laura_Pfeiffer-pl-014",
+          "role": "role-entering"
+        }
+      ],
+      "startDate": "1846-09-16"
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pr-Ida_Laura_Pfeiffer-ev-058",
+      "label": {
+        "default": "Pfeiffer set  Upon her return to Rio arriving at Valparaiso on 2 March 1847"
+      },
+      "kind": "event-kind-set",
+      "relations": [
+        {
+          "entity": "Ida_Laura_Pfeiffer-pr-Ida_Laura_Pfeiffer",
+          "role": "role-related_to"
+        },
+        {
+          "entity": "Ida_Laura_Pfeiffer-pl-014",
+          "role": "role-set"
+        },
+        {
+          "entity": "Ida_Laura_Pfeiffer-pl-Valparaiso",
+          "role": "role-set"
+        }
+      ],
+      "startDate": "1847-03-02"
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pr-Ida_Laura_Pfeiffer-ev-059",
+      "label": {
+        "default": "Pfeiffer arriving at Valparaiso on 2 March 1847"
+      },
+      "kind": "event-kind-arriving",
+      "relations": [
+        {
+          "entity": "Ida_Laura_Pfeiffer-pr-Ida_Laura_Pfeiffer",
+          "role": "role-related_to"
+        },
+        {
+          "entity": "Ida_Laura_Pfeiffer-pl-Valparaiso",
+          "role": "role-arriving"
+        }
+      ],
+      "startDate": "1847-03-02"
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pr-Ida_Laura_Pfeiffer-ev-060",
+      "label": {
+        "default": "Pfeiffer left Bombay On 23 April 1848"
+      },
+      "kind": "event-kind-left",
+      "relations": [
+        {
+          "entity": "Ida_Laura_Pfeiffer-pr-Ida_Laura_Pfeiffer",
+          "role": "role-related_to"
+        },
+        {
+          "entity": "Ida_Laura_Pfeiffer-pl-Bombay",
+          "role": "role-left"
+        }
+      ],
+      "startDate": "1848-04-23"
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pr-Ida_Laura_Pfeiffer-ev-061",
+      "label": {
+        "default": "Pfeiffer boarded a steamer bound for New Orleans where she stayed for three weeks On 31 May 1854"
+      },
+      "kind": "event-kind-boarded",
+      "relations": [
+        {
+          "entity": "Ida_Laura_Pfeiffer-pr-Ida_Laura_Pfeiffer",
+          "role": "role-related_to"
+        },
+        {
+          "entity": "Ida_Laura_Pfeiffer-pl-New_Orleans",
+          "role": "role-boarded"
+        }
+      ],
+      "startDate": "1854-05-31"
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pr-Ida_Laura_Pfeiffer-ev-062",
+      "label": {
+        "default": "Pfeiffer completed her narrative , Meine zweite Weltreise  at the end of July 1855"
+      },
+      "kind": "event-kind-completed",
+      "relations": [
+        {
+          "entity": "Ida_Laura_Pfeiffer-pr-Ida_Laura_Pfeiffer",
+          "role": "role-related_to"
+        },
+        {
+          "entity": "Ida_Laura_Pfeiffer-ob-009",
+          "role": "role-completed"
+        }
+      ],
+      "startDate": "1855-01-01"
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pr-Ida_Laura_Pfeiffer-ev-063",
+      "label": {
+        "default": "Pfeiffer set to explore Madagascar In May 1857"
+      },
+      "kind": "event-kind-set",
+      "relations": [
+        {
+          "entity": "Ida_Laura_Pfeiffer-pr-Ida_Laura_Pfeiffer",
+          "role": "role-related_to"
+        },
+        {
+          "entity": "Ida_Laura_Pfeiffer-pl-Madagascar",
+          "role": "role-set"
+        }
+      ],
+      "startDate": "1857-05-01"
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pr-Ida_Laura_Pfeiffer-ev-064",
+      "label": {
+        "default": "Pfeiffer left for London on 10 March 1858"
+      },
+      "kind": "event-kind-left",
+      "relations": [
+        {
+          "entity": "Ida_Laura_Pfeiffer-pr-Ida_Laura_Pfeiffer",
+          "role": "role-related_to"
+        },
+        {
+          "entity": "Ida_Laura_Pfeiffer-pl-London",
+          "role": "role-left"
+        }
+      ],
+      "startDate": "1858-03-10"
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-pr-Ida_Laura_Pfeiffer-ev-065",
+      "label": {
+        "default": "Pfeiffer died on 1858-10-27"
+      },
+      "kind": "event-kind-died on",
+      "relations": [
+        {
+          "entity": "Ida_Laura_Pfeiffer-pr-Ida_Laura_Pfeiffer",
+          "role": "role-related_to"
+        }
+      ],
+      "startDate": "1858-10-27"
+    }
+  ],
+  "media": [
+    {
+      "id": "Ida_Laura_Pfeiffer-m-001",
+      "label": {
+        "default": "Ida_Laura_Pfeiffer Main Image"
+      },
+      "description": "Ida_Laura_Pfeiffer Main Image",
+      "attribution": "",
+      "url": "http://commons.wikimedia.org/wiki/Special:FilePath/Ida%20Pfeiffer.jpg",
+      "kind": "image"
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-m-002",
+      "label": {
+        "default": "Charles Darwin"
+      },
+      "description": "Charles Darwin",
+      "attribution": "",
+      "url": "http://commons.wikimedia.org/wiki/Special:FilePath/Charles%20Darwin%20by%20Julia%20Margaret%20Cameron%2C%20c.%201868.jpg",
+      "kind": "image"
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-m-003",
+      "label": {
+        "default": "Thoreau"
+      },
+      "description": "Thoreau",
+      "attribution": "",
+      "url": "http://commons.wikimedia.org/wiki/Special:FilePath/Benjamin%20D.%20Maxham%20-%20Henry%20David%20Thoreau%20-%20Restored%20-%20greyscale%20-%20straightened.jpg",
+      "kind": "image"
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-m-004",
+      "label": {
+        "default": "Charles Darwin"
+      },
+      "description": "Charles Darwin",
+      "attribution": "",
+      "url": "http://commons.wikimedia.org/wiki/Special:FilePath/Charles%20Darwin%20by%20Julia%20Margaret%20Cameron%2C%20c.%201868.jpg",
+      "kind": "image"
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-m-005",
+      "label": {
+        "default": "Robinson Crusoe"
+      },
+      "description": "Robinson Crusoe",
+      "attribution": "",
+      "url": "http://commons.wikimedia.org/wiki/Special:FilePath/Robinson%20Crusoe%201719%201st%20edition.jpg",
+      "kind": "image"
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-m-006",
+      "label": {
+        "default": "Alexander von Humboldt"
+      },
+      "description": "Alexander von Humboldt",
+      "attribution": "",
+      "url": "http://commons.wikimedia.org/wiki/Special:FilePath/Stieler%2C%20Joseph%20Karl%20-%20Alexander%20von%20Humboldt%20-%201843.jpg",
+      "kind": "image"
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-m-007",
+      "label": {
+        "default": "William Henry Bartlett"
+      },
+      "description": "William Henry Bartlett",
+      "attribution": "",
+      "url": "http://commons.wikimedia.org/wiki/Special:FilePath/W%20H%20Bartlett%20selfportrait%20cover%201836.jpg",
+      "kind": "image"
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-m-008",
+      "label": {
+        "default": "Count Friedrich von Berchtold"
+      },
+      "description": "Count Friedrich von Berchtold",
+      "attribution": "",
+      "url": "http://commons.wikimedia.org/wiki/Special:FilePath/Bed%C5%99ich%20Karel%20Eugen%20V%C5%A1em%C3%ADr%20hrab%C4%9B%20Berchtold%20z%20Uher%C4%8Dic.jpeg",
+      "kind": "image"
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-m-009",
+      "label": {
+        "default": "Friedrich von Berchtold"
+      },
+      "description": "Friedrich von Berchtold",
+      "attribution": "",
+      "url": "http://commons.wikimedia.org/wiki/Special:FilePath/Bed%C5%99ich%20Karel%20Eugen%20V%C5%A1em%C3%ADr%20hrab%C4%9B%20Berchtold%20z%20Uher%C4%8Dic.jpeg",
+      "kind": "image"
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-m-010",
+      "label": {
+        "default": "Aloys Sprenger"
+      },
+      "description": "Aloys Sprenger",
+      "attribution": "",
+      "url": "http://commons.wikimedia.org/wiki/Special:FilePath/Aloys%20Sprenger%20born%20in%20Nassereith%202015.JPG",
+      "kind": "image"
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-m-011",
+      "label": {
+        "default": "Hormuzd Rassam"
+      },
+      "description": "Hormuzd Rassam",
+      "attribution": "",
+      "url": "http://commons.wikimedia.org/wiki/Special:FilePath/Hormuzd.Rassam.reclined.jpg",
+      "kind": "image"
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-m-012",
+      "label": {
+        "default": "Le Constitutionnel"
+      },
+      "description": "Le Constitutionnel",
+      "attribution": "",
+      "url": "http://commons.wikimedia.org/wiki/Special:FilePath/Le%20Constitutionnel%2C%20journal%20politique.jpg",
+      "kind": "image"
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-m-013",
+      "label": {
+        "default": "The Westminster Review"
+      },
+      "description": "The Westminster Review",
+      "attribution": "",
+      "url": "http://commons.wikimedia.org/wiki/Special:FilePath/Westminster%20Review%20Frontispiece%20volume1.png",
+      "kind": "image"
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-m-014",
+      "label": {
+        "default": "Carl von Schreibers"
+      },
+      "description": "Carl von Schreibers",
+      "attribution": "",
+      "url": "http://commons.wikimedia.org/wiki/Special:FilePath/Karl%20Franz%20Anton%20von%20Schreibers.jpg",
+      "kind": "image"
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-m-015",
+      "label": {
+        "default": "Josef von Arneth"
+      },
+      "description": "Josef von Arneth",
+      "attribution": "",
+      "url": "http://commons.wikimedia.org/wiki/Special:FilePath/Josef%20Arneth.jpg",
+      "kind": "image"
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-m-016",
+      "label": {
+        "default": "Alexander von Humboldt"
+      },
+      "description": "Alexander von Humboldt",
+      "attribution": "",
+      "url": "http://commons.wikimedia.org/wiki/Special:FilePath/Stieler%2C%20Joseph%20Karl%20-%20Alexander%20von%20Humboldt%20-%201843.jpg",
+      "kind": "image"
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-m-017",
+      "label": {
+        "default": "Henry David Thoreau"
+      },
+      "description": "Henry David Thoreau",
+      "attribution": "",
+      "url": "http://commons.wikimedia.org/wiki/Special:FilePath/Benjamin%20D.%20Maxham%20-%20Henry%20David%20Thoreau%20-%20Restored%20-%20greyscale%20-%20straightened.jpg",
+      "kind": "image"
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-m-018",
+      "label": {
+        "default": "John Muir"
+      },
+      "description": "John Muir",
+      "attribution": "",
+      "url": "http://commons.wikimedia.org/wiki/Special:FilePath/Muir%20portrait%201872.jpg",
+      "kind": "image"
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-m-019",
+      "label": {
+        "default": "Ernst Haeckel"
+      },
+      "description": "Ernst Haeckel",
+      "attribution": "",
+      "url": "http://commons.wikimedia.org/wiki/Special:FilePath/Ernst%20Haeckel%201860.jpg",
+      "kind": "image"
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-m-020",
+      "label": {
+        "default": "Carl Ritter"
+      },
+      "description": "Carl Ritter",
+      "attribution": "",
+      "url": "http://commons.wikimedia.org/wiki/Special:FilePath/Carl%20Ritter%20Litho%20%28cropped%29.jpg",
+      "kind": "image"
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-m-021",
+      "label": {
+        "default": "Ritter"
+      },
+      "description": "Ritter",
+      "attribution": "",
+      "url": "http://commons.wikimedia.org/wiki/Special:FilePath/Carl%20Ritter%20Litho%20%28cropped%29.jpg",
+      "kind": "image"
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-m-022",
+      "label": {
+        "default": "Richard Owen"
+      },
+      "description": "Richard Owen",
+      "attribution": "",
+      "url": "http://commons.wikimedia.org/wiki/Special:FilePath/Richard-owen2.jpg",
+      "kind": "image"
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-m-023",
+      "label": {
+        "default": "Augustus Petermann"
+      },
+      "description": "Augustus Petermann",
+      "attribution": "",
+      "url": "http://commons.wikimedia.org/wiki/Special:FilePath/August%20Heinrich%20Petermann.jpg",
+      "kind": "image"
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-m-024",
+      "label": {
+        "default": "Vincenz Kollar"
+      },
+      "description": "Vincenz Kollar",
+      "attribution": "",
+      "url": "http://commons.wikimedia.org/wiki/Special:FilePath/Vincenz%20Kollar%20Litho.jpg",
+      "kind": "image"
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-m-025",
+      "label": {
+        "default": "James Brooke"
+      },
+      "description": "James Brooke",
+      "attribution": "",
+      "url": "http://commons.wikimedia.org/wiki/Special:FilePath/Sir%20James%20Brooke%20%281847%29%20by%20Francis%20Grant.jpg",
+      "kind": "image"
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-m-026",
+      "label": {
+        "default": "Pieter Bleeker"
+      },
+      "description": "Pieter Bleeker",
+      "attribution": "",
+      "url": "http://commons.wikimedia.org/wiki/Special:FilePath/Pieter%20Bleeker.jpg",
+      "kind": "image"
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-m-027",
+      "label": {
+        "default": "Friedrich Hassaurek"
+      },
+      "description": "Friedrich Hassaurek",
+      "attribution": "",
+      "url": "http://commons.wikimedia.org/wiki/Special:FilePath/Hassaurek%2C%20Friedrich.gif",
+      "kind": "image"
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-m-028",
+      "label": {
+        "default": "Washington Irving"
+      },
+      "description": "Washington Irving",
+      "attribution": "",
+      "url": "http://commons.wikimedia.org/wiki/Special:FilePath/Irving-Washington-LOC.jpg",
+      "kind": "image"
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-m-029",
+      "label": {
+        "default": "John Collins Warren"
+      },
+      "description": "John Collins Warren",
+      "attribution": "",
+      "url": "http://commons.wikimedia.org/wiki/Special:FilePath/John%20Collins%20Warren%20daguerreotype%20circa%201855%20%28retouched%29.jpg",
+      "kind": "image"
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-m-030",
+      "label": {
+        "default": "Louis Agassiz"
+      },
+      "description": "Louis Agassiz",
+      "attribution": "",
+      "url": "http://commons.wikimedia.org/wiki/Special:FilePath/Louis%20Agassiz%20H6.jpg",
+      "kind": "image"
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-m-031",
+      "label": {
+        "default": "Joseph-François Lambert"
+      },
+      "description": "Joseph-François Lambert",
+      "attribution": "",
+      "url": "http://commons.wikimedia.org/wiki/Special:FilePath/Joseph-Fran%C3%A7ois%20Lambert%20Charter%20Charte.jpg",
+      "kind": "image"
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-m-032",
+      "label": {
+        "default": "Lambert"
+      },
+      "description": "Lambert",
+      "attribution": "",
+      "url": "http://commons.wikimedia.org/wiki/Special:FilePath/Joseph-Fran%C3%A7ois%20Lambert%20Charter%20Charte.jpg",
+      "kind": "image"
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-m-033",
+      "label": {
+        "default": "Jean Laborde"
+      },
+      "description": "Jean Laborde",
+      "attribution": "",
+      "url": "http://commons.wikimedia.org/wiki/Special:FilePath/Jean%20Laborde.jpg",
+      "kind": "image"
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-m-034",
+      "label": {
+        "default": "Walden"
+      },
+      "description": "Walden",
+      "attribution": "",
+      "url": "http://commons.wikimedia.org/wiki/Special:FilePath/Walden%20Thoreau.jpg",
+      "kind": "image"
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-m-035",
+      "label": {
+        "default": "Henry Walter Bates"
+      },
+      "description": "Henry Walter Bates",
+      "attribution": "",
+      "url": "http://commons.wikimedia.org/wiki/Special:FilePath/Henry%20Walter%20Bates%20Maull%20%26%20Fox%20BNF%20Gallica%20%28cropped%29.jpg",
+      "kind": "image"
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-m-036",
+      "label": {
+        "default": "Royal Geographical Society"
+      },
+      "description": "Royal Geographical Society",
+      "attribution": "",
+      "url": "http://commons.wikimedia.org/wiki/Special:FilePath/The%20Royal%20Geographical%20Society%2C%20Kensington.jpg",
+      "kind": "image"
+    },
+    {
+      "id": "Ida_Laura_Pfeiffer-m-037",
+      "label": {
+        "default": "University of Vienna"
+      },
+      "description": "University of Vienna",
+      "attribution": "",
+      "url": "http://commons.wikimedia.org/wiki/Special:FilePath/Wien%20-%20Universit%C3%A4t%20%282%29.JPG",
+      "kind": "image"
+    }
+  ],
+  "biographies": [
+    {
+      "id": "Ida_Laura_Pfeiffer-bio-001",
+      "text": "Ida Laura Pfeiffer (14 October 1797, Vienna – 27 October 1858, Vienna), née Reyer, an Austrian explorer, travel writer, and ethnographer, became a famous early female traveler; her bestselling journals were translated into seven languages. She journeyed an estimated 32,000 kilometres (20,000 mi) by land and 240,000 kilometres (150,000 mi) by sea through Southeast Asia, the Americas, the Middle East, and Africa, and made two trips around the world between 1846 and 1855. Though a member of the geographical societies of both Berlin and Paris, she was denied membership by the Royal Geographical Society in London as it forbade the election of women before 1913.",
+      "citation": "en_wikipedia"
+    }
+  ],
+  "vocabularies": {
+    "event-kind": [
+      {
+        "id": "event-kind-event-kind-born_in",
+        "label": {
+          "default": "place_of_birth"
+        }
+      },
+      {
+        "id": "event-kind-event-kind-lived_in",
+        "label": {
+          "default": "place_of_residence"
+        }
+      },
+      {
+        "id": "event-kind-event-kind-died_in",
+        "label": {
+          "default": "unk"
+        }
+      },
+      {
+        "id": "event-kind-event-kind-based_in",
+        "label": {
+          "default": "location_of"
+        }
+      },
+      {
+        "id": "event-kind-event-kind-child_of",
+        "label": {
+          "default": "parent_of"
+        }
+      },
+      {
+        "id": "event-kind-event-kind-sibling_of",
+        "label": {
+          "default": "sibling_of"
+        }
+      },
+      {
+        "id": "event-kind-creation",
+        "label": {
+          "default": "object_created"
+        }
+      },
+      {
+        "id": "event-kind-event-kind-related_to",
+        "label": {
+          "default": "unk"
+        }
+      },
+      {
+        "id": "event-kind-event-kind-gave",
+        "label": {
+          "default": "gave"
+        }
+      },
+      {
+        "id": "event-kind-event-kind-stayed",
+        "label": {
+          "default": "stayed"
+        }
+      },
+      {
+        "id": "event-kind-event-kind-traveled",
+        "label": {
+          "default": "traveled"
+        }
+      },
+      {
+        "id": "event-kind-event-kind-returned",
+        "label": {
+          "default": "returned"
+        }
+      },
+      {
+        "id": "event-kind-event-kind-published",
+        "label": {
+          "default": "published"
+        }
+      },
+      {
+        "id": "event-kind-event-kind-came",
+        "label": {
+          "default": "came"
+        }
+      },
+      {
+        "id": "event-kind-event-kind-returning",
+        "label": {
+          "default": "returning"
+        }
+      },
+      {
+        "id": "event-kind-event-kind-boarded",
+        "label": {
+          "default": "boarded"
+        }
+      },
+      {
+        "id": "event-kind-event-kind-entering",
+        "label": {
+          "default": "entering"
+        }
+      },
+      {
+        "id": "event-kind-event-kind-set",
+        "label": {
+          "default": "set"
+        }
+      },
+      {
+        "id": "event-kind-event-kind-arriving",
+        "label": {
+          "default": "arriving"
+        }
+      },
+      {
+        "id": "event-kind-event-kind-left",
+        "label": {
+          "default": "left"
+        }
+      },
+      {
+        "id": "event-kind-event-kind-completed",
+        "label": {
+          "default": "completed"
+        }
+      }
+    ],
+    "role": [
+      {
+        "id": "role-born_in",
+        "label": {
+          "default": "born_in"
+        }
+      },
+      {
+        "id": "role-place_of_birth",
+        "label": {
+          "default": "place_of_birth"
+        }
+      },
+      {
+        "id": "role-lived_in",
+        "label": {
+          "default": "lived_in"
+        }
+      },
+      {
+        "id": "role-place_of_residence",
+        "label": {
+          "default": "place_of_residence"
+        }
+      },
+      {
+        "id": "role-died_in",
+        "label": {
+          "default": "died_in"
+        }
+      },
+      {
+        "id": "role-unk",
+        "label": {
+          "default": "unk"
+        }
+      },
+      {
+        "id": "role-based_in",
+        "label": {
+          "default": "based_in"
+        }
+      },
+      {
+        "id": "role-location_of",
+        "label": {
+          "default": "location_of"
+        }
+      },
+      {
+        "id": "role-child_of",
+        "label": {
+          "default": "child_of"
+        }
+      },
+      {
+        "id": "role-parent_of",
+        "label": {
+          "default": "parent_of"
+        }
+      },
+      {
+        "id": "role-sibling_of",
+        "label": {
+          "default": "sibling_of"
+        }
+      },
+      {
+        "id": "role-related_to",
+        "label": {
+          "default": "related_to"
+        }
+      },
+      {
+        "id": "role-object_created",
+        "label": {
+          "default": "object_created"
+        }
+      },
+      {
+        "id": "role-gave",
+        "label": {
+          "default": "gave"
+        }
+      },
+      {
+        "id": "role-stayed",
+        "label": {
+          "default": "stayed"
+        }
+      },
+      {
+        "id": "role-traveled",
+        "label": {
+          "default": "traveled"
+        }
+      },
+      {
+        "id": "role-returned",
+        "label": {
+          "default": "returned"
+        }
+      },
+      {
+        "id": "role-published",
+        "label": {
+          "default": "published"
+        }
+      },
+      {
+        "id": "role-came",
+        "label": {
+          "default": "came"
+        }
+      },
+      {
+        "id": "role-returning",
+        "label": {
+          "default": "returning"
+        }
+      },
+      {
+        "id": "role-boarded",
+        "label": {
+          "default": "boarded"
+        }
+      },
+      {
+        "id": "role-entering",
+        "label": {
+          "default": "entering"
+        }
+      },
+      {
+        "id": "role-set",
+        "label": {
+          "default": "set"
+        }
+      },
+      {
+        "id": "role-arriving",
+        "label": {
+          "default": "arriving"
+        }
+      },
+      {
+        "id": "role-left",
+        "label": {
+          "default": "left"
+        }
+      },
+      {
+        "id": "role-completed",
+        "label": {
+          "default": "completed"
+        }
+      },
+      {
+        "id": "role-died on",
+        "label": {
+          "default": "died on"
+        }
+      }
+    ]
+  },
+  "unmappedEntities": [],
+  "collections": {}
+}
