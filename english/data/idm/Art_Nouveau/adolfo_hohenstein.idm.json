@@ -1,0 +1,3085 @@
+{
+  "entities": [
+    {
+      "id": "Adolfo_Hohenstein-pr-Adolfo_Hohenstein",
+      "label": {
+        "default": "Adolfo Hohenstein"
+      },
+      "linkedIds": [
+        {
+          "label": "Adolfo_Hohenstein",
+          "url": "https://en.wikipedia.org/wiki/Adolfo_Hohenstein"
+        },
+        {
+          "label": "Q76185",
+          "url": "http://www.wikidata.org/entity/Q76185"
+        }
+      ],
+      "media": [
+        "Adolfo_Hohenstein-m-001"
+      ],
+      "relations": [
+        {
+          "event": "Adolfo_Hohenstein-pr-Adolfo_Hohenstein-ev-001",
+          "role": "role-born_in"
+        },
+        {
+          "event": "Adolfo_Hohenstein-pr-Adolfo_Hohenstein-ev-002",
+          "role": "role-born_in"
+        },
+        {
+          "event": "Adolfo_Hohenstein-pr-Adolfo_Hohenstein-ev-003",
+          "role": "role-child_of"
+        },
+        {
+          "event": "Adolfo_Hohenstein-pr-Adolfo_Hohenstein-ev-004",
+          "role": "role-child_of"
+        },
+        {
+          "event": "Adolfo_Hohenstein-pr-Adolfo_Hohenstein-ev-005",
+          "role": "role-parent_of"
+        },
+        {
+          "event": "Adolfo_Hohenstein-pr-Adolfo_Hohenstein-ev-005",
+          "role": "role-child_of"
+        },
+        {
+          "event": "Adolfo_Hohenstein-pr-Adolfo_Hohenstein-ev-006",
+          "role": "role-parent_of"
+        },
+        {
+          "event": "Adolfo_Hohenstein-pr-Adolfo_Hohenstein-ev-006",
+          "role": "role-child_of"
+        },
+        {
+          "event": "Adolfo_Hohenstein-pr-Adolfo_Hohenstein-ev-007",
+          "role": "role-lived_in"
+        },
+        {
+          "event": "Adolfo_Hohenstein-pr-Adolfo_Hohenstein-ev-008",
+          "role": "role-died_in"
+        },
+        {
+          "event": "Adolfo_Hohenstein-pr-002-ev-013",
+          "role": "role-child_of"
+        },
+        {
+          "event": "Adolfo_Hohenstein-pr-003-ev-017",
+          "role": "role-child_of"
+        },
+        {
+          "event": "Adolfo_Hohenstein-ob-Falstaff_(opera)-ev-023",
+          "role": "role-related_to"
+        },
+        {
+          "event": "Adolfo_Hohenstein-ob-Le_Villi-ev-024",
+          "role": "role-related_to"
+        },
+        {
+          "event": "Adolfo_Hohenstein-ob-Madama_Butterfly-ev-025",
+          "role": "role-related_to"
+        },
+        {
+          "event": "Adolfo_Hohenstein-ob-Edgar_(opera)-ev-026",
+          "role": "role-related_to"
+        },
+        {
+          "event": "Adolfo_Hohenstein-ob-Die_Meistersinger_von_Nürnberg-ev-027",
+          "role": "role-related_to"
+        },
+        {
+          "event": "Adolfo_Hohenstein-ob-Loreley-ev-028",
+          "role": "role-related_to"
+        },
+        {
+          "event": "Adolfo_Hohenstein-ob-La_Wally-ev-029",
+          "role": "role-related_to"
+        },
+        {
+          "event": "Adolfo_Hohenstein-ob-001-ev-030",
+          "role": "role-related_to"
+        },
+        {
+          "event": "Adolfo_Hohenstein-ob-Manon_Lescaut-ev-031",
+          "role": "role-related_to"
+        },
+        {
+          "event": "Adolfo_Hohenstein-ob-Iris_(opera)-ev-032",
+          "role": "role-related_to"
+        },
+        {
+          "event": "Adolfo_Hohenstein-ob-002-ev-033",
+          "role": "role-related_to"
+        },
+        {
+          "event": "Adolfo_Hohenstein-pr-Adolfo_Hohenstein-ev-034",
+          "role": "role-settled"
+        },
+        {
+          "event": "Adolfo_Hohenstein-pr-Adolfo_Hohenstein-ev-035",
+          "role": "role-began"
+        },
+        {
+          "event": "Adolfo_Hohenstein-pr-Adolfo_Hohenstein-ev-036",
+          "role": "role-traveled"
+        },
+        {
+          "event": "Adolfo_Hohenstein-pr-Adolfo_Hohenstein-ev-037",
+          "role": "role-settled"
+        },
+        {
+          "event": "Adolfo_Hohenstein-pr-Adolfo_Hohenstein-ev-038",
+          "role": "role-died"
+        },
+        {
+          "event": "Adolfo_Hohenstein-pr-Adolfo_Hohenstein-ev-039",
+          "role": "role-died on"
+        }
+      ],
+      "kind": "person",
+      "biographies": [
+        "Adolfo_Hohenstein-bio-001"
+      ]
+    },
+    {
+      "id": "Adolfo_Hohenstein-pr-Leopoldo_Metlicovitz",
+      "label": {
+        "default": "Leopoldo Metlicovitz"
+      },
+      "linkedIds": [
+        {
+          "label": "Leopoldo_Metlicovitz",
+          "url": "https://en.wikipedia.org/wiki/Leopoldo_Metlicovitz"
+        },
+        {
+          "label": "Q3229819",
+          "url": "http://www.wikidata.org/entity/Q3229819"
+        }
+      ],
+      "media": [
+        "Adolfo_Hohenstein-m-002"
+      ],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "Adolfo_Hohenstein-pr-Marcello_Dudovich",
+      "label": {
+        "default": "Marcello Dudovich"
+      },
+      "linkedIds": [
+        {
+          "label": "Marcello_Dudovich",
+          "url": "https://en.wikipedia.org/wiki/Marcello_Dudovich"
+        },
+        {
+          "label": "Q1936310",
+          "url": "http://www.wikidata.org/entity/Q1936310"
+        }
+      ],
+      "media": [
+        "Adolfo_Hohenstein-m-003"
+      ],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "Adolfo_Hohenstein-pl-001",
+      "label": {
+        "default": "Italy"
+      },
+      "linkedIds": [],
+      "relations": [
+        {
+          "event": "Adolfo_Hohenstein-pr-Adolfo_Hohenstein-ev-034",
+          "role": "role-settled"
+        },
+        {
+          "event": "Adolfo_Hohenstein-pr-Adolfo_Hohenstein-ev-036",
+          "role": "role-traveled"
+        }
+      ],
+      "kind": "place",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.483333,
+          41.9
+        ]
+      }
+    },
+    {
+      "id": "Adolfo_Hohenstein-pl-Milan",
+      "label": {
+        "default": "Milan"
+      },
+      "linkedIds": [
+        {
+          "label": "Milan",
+          "url": "https://en.wikipedia.org/wiki/Milan"
+        },
+        {
+          "label": "Q490",
+          "url": "http://www.wikidata.org/entity/Q490"
+        }
+      ],
+      "relations": [
+        {
+          "event": "Adolfo_Hohenstein-pr-Adolfo_Hohenstein-ev-034",
+          "role": "role-settled"
+        },
+        {
+          "event": "Adolfo_Hohenstein-pr-Adolfo_Hohenstein-ev-036",
+          "role": "role-traveled"
+        }
+      ],
+      "kind": "place",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.19,
+          45.466944
+        ]
+      }
+    },
+    {
+      "id": "Adolfo_Hohenstein-pl-Bonn",
+      "label": {
+        "default": "Bonn"
+      },
+      "linkedIds": [
+        {
+          "label": "Bonn",
+          "url": "https://en.wikipedia.org/wiki/Bonn"
+        },
+        {
+          "label": "Q586",
+          "url": "http://www.wikidata.org/entity/Q586"
+        }
+      ],
+      "relations": [
+        {
+          "event": "Adolfo_Hohenstein-pr-Adolfo_Hohenstein-ev-008",
+          "role": "role-unk"
+        },
+        {
+          "event": "Adolfo_Hohenstein-pl-Bonn-ev-009",
+          "role": "role-died_in"
+        },
+        {
+          "event": "Adolfo_Hohenstein-pl-Bonn-ev-009",
+          "role": "role-unk"
+        },
+        {
+          "event": "Adolfo_Hohenstein-pr-Adolfo_Hohenstein-ev-036",
+          "role": "role-traveled"
+        },
+        {
+          "event": "Adolfo_Hohenstein-pr-Adolfo_Hohenstein-ev-037",
+          "role": "role-settled"
+        },
+        {
+          "event": "Adolfo_Hohenstein-pr-Adolfo_Hohenstein-ev-038",
+          "role": "role-died"
+        }
+      ],
+      "kind": "place",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.1,
+          50.733333
+        ]
+      }
+    },
+    {
+      "id": "Adolfo_Hohenstein-pl-Teatro_alla_Scala",
+      "label": {
+        "default": "Teatro alla Scala"
+      },
+      "linkedIds": [
+        {
+          "label": "Teatro_alla_Scala",
+          "url": "https://en.wikipedia.org/wiki/Teatro_alla_Scala"
+        }
+      ],
+      "relations": [],
+      "kind": "place"
+    },
+    {
+      "id": "Adolfo_Hohenstein-pl-002",
+      "label": {
+        "default": "Torino"
+      },
+      "linkedIds": [],
+      "relations": [],
+      "kind": "place",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.676111,
+          45.079167
+        ]
+      }
+    },
+    {
+      "id": "Adolfo_Hohenstein-pl-Teatro_Regio_(Turin)",
+      "label": {
+        "default": "Teatro Regio"
+      },
+      "linkedIds": [
+        {
+          "label": "Teatro_Regio_(Turin)",
+          "url": "https://en.wikipedia.org/wiki/Teatro_Regio_%28Turin%29"
+        }
+      ],
+      "relations": [],
+      "kind": "place",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.687778,
+          45.070556
+        ]
+      }
+    },
+    {
+      "id": "Adolfo_Hohenstein-pl-003",
+      "label": {
+        "default": "Rome"
+      },
+      "linkedIds": [],
+      "relations": [],
+      "kind": "place",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.482778,
+          41.893333
+        ]
+      }
+    },
+    {
+      "id": "Adolfo_Hohenstein-pl-Düsseldorf",
+      "label": {
+        "default": "Düsseldorf"
+      },
+      "linkedIds": [
+        {
+          "label": "Düsseldorf",
+          "url": "https://en.wikipedia.org/wiki/D%C3%BCsseldorf"
+        },
+        {
+          "label": "Q1718",
+          "url": "http://www.wikidata.org/entity/Q1718"
+        }
+      ],
+      "relations": [
+        {
+          "event": "Adolfo_Hohenstein-pr-Adolfo_Hohenstein-ev-036",
+          "role": "role-traveled"
+        }
+      ],
+      "kind": "place",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.783333,
+          51.233333
+        ]
+      }
+    },
+    {
+      "id": "Adolfo_Hohenstein-gr-001",
+      "label": {
+        "default": "Kunstpalast"
+      },
+      "linkedIds": [],
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [],
+      "kind": "group",
+      "type": {}
+    },
+    {
+      "id": "Adolfo_Hohenstein-pr-Leonetto_Cappiello",
+      "label": {
+        "default": "Leonetto Cappiello"
+      },
+      "linkedIds": [
+        {
+          "label": "Leonetto_Cappiello",
+          "url": "https://en.wikipedia.org/wiki/Leonetto_Cappiello"
+        },
+        {
+          "label": "Q1915302",
+          "url": "http://www.wikidata.org/entity/Q1915302"
+        }
+      ],
+      "media": [
+        "Adolfo_Hohenstein-m-004"
+      ],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "Adolfo_Hohenstein-pr-Giovanni_Mario_Mataloni",
+      "label": {
+        "default": "Giovanni Mario Mataloni"
+      },
+      "linkedIds": [
+        {
+          "label": "Giovanni_Mario_Mataloni",
+          "url": "https://en.wikipedia.org/wiki/Giovanni_Mario_Mataloni"
+        }
+      ],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "Adolfo_Hohenstein-pl-Saint_Petersburg",
+      "label": {
+        "default": "Saint Petersburg"
+      },
+      "linkedIds": [
+        {
+          "label": "Saint_Petersburg",
+          "url": "https://en.wikipedia.org/wiki/Saint_Petersburg"
+        },
+        {
+          "label": "Q656",
+          "url": "http://www.wikidata.org/entity/Q656"
+        }
+      ],
+      "relations": [
+        {
+          "event": "Adolfo_Hohenstein-pr-Adolfo_Hohenstein-ev-001",
+          "role": "role-place_of_birth"
+        },
+        {
+          "event": "Adolfo_Hohenstein-pl-Saint_Petersburg-ev-010",
+          "role": "role-born_in"
+        },
+        {
+          "event": "Adolfo_Hohenstein-pl-Saint_Petersburg-ev-010",
+          "role": "role-place_of_birth"
+        }
+      ],
+      "kind": "place",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.308611,
+          59.9375
+        ]
+      }
+    },
+    {
+      "id": "Adolfo_Hohenstein-pl-Russian_Empire",
+      "label": {
+        "default": "Russian Empire"
+      },
+      "linkedIds": [
+        {
+          "label": "Russian_Empire",
+          "url": "https://en.wikipedia.org/wiki/Russian_Empire"
+        },
+        {
+          "label": "Q34266",
+          "url": "http://www.wikidata.org/entity/Q34266"
+        }
+      ],
+      "relations": [
+        {
+          "event": "Adolfo_Hohenstein-pr-Adolfo_Hohenstein-ev-002",
+          "role": "role-place_of_birth"
+        },
+        {
+          "event": "Adolfo_Hohenstein-pl-Russian_Empire-ev-011",
+          "role": "role-born_in"
+        },
+        {
+          "event": "Adolfo_Hohenstein-pl-Russian_Empire-ev-011",
+          "role": "role-place_of_birth"
+        }
+      ],
+      "kind": "place",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          70.1167,
+          58.65
+        ]
+      }
+    },
+    {
+      "id": "Adolfo_Hohenstein-pr-002",
+      "label": {
+        "default": "Julius"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [
+        {
+          "event": "Adolfo_Hohenstein-pr-Adolfo_Hohenstein-ev-003",
+          "role": "role-parent_of"
+        },
+        {
+          "event": "Adolfo_Hohenstein-pr-002-ev-012",
+          "role": "role-child_of"
+        },
+        {
+          "event": "Adolfo_Hohenstein-pr-002-ev-012",
+          "role": "role-parent_of"
+        },
+        {
+          "event": "Adolfo_Hohenstein-pr-002-ev-013",
+          "role": "role-parent_of"
+        },
+        {
+          "event": "Adolfo_Hohenstein-pr-002-ev-014",
+          "role": "role-married_to"
+        },
+        {
+          "event": "Adolfo_Hohenstein-pr-002-ev-015",
+          "role": "role-married_to"
+        },
+        {
+          "event": "Adolfo_Hohenstein-pr-002-ev-015",
+          "role": "role-married_to"
+        },
+        {
+          "event": "Adolfo_Hohenstein-pr-003-ev-019",
+          "role": "role-married_to"
+        }
+      ],
+      "kind": "person"
+    },
+    {
+      "id": "Adolfo_Hohenstein-pr-003",
+      "label": {
+        "default": "Laura Irack"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [
+        {
+          "event": "Adolfo_Hohenstein-pr-Adolfo_Hohenstein-ev-004",
+          "role": "role-parent_of"
+        },
+        {
+          "event": "Adolfo_Hohenstein-pr-002-ev-014",
+          "role": "role-married_to"
+        },
+        {
+          "event": "Adolfo_Hohenstein-pr-003-ev-016",
+          "role": "role-child_of"
+        },
+        {
+          "event": "Adolfo_Hohenstein-pr-003-ev-016",
+          "role": "role-parent_of"
+        },
+        {
+          "event": "Adolfo_Hohenstein-pr-003-ev-017",
+          "role": "role-parent_of"
+        },
+        {
+          "event": "Adolfo_Hohenstein-pr-003-ev-018",
+          "role": "role-married_to"
+        },
+        {
+          "event": "Adolfo_Hohenstein-pr-003-ev-018",
+          "role": "role-married_to"
+        },
+        {
+          "event": "Adolfo_Hohenstein-pr-003-ev-019",
+          "role": "role-married_to"
+        }
+      ],
+      "kind": "person"
+    },
+    {
+      "id": "Adolfo_Hohenstein-pl-Vienna",
+      "label": {
+        "default": "Vienna"
+      },
+      "linkedIds": [
+        {
+          "label": "Vienna",
+          "url": "https://en.wikipedia.org/wiki/Vienna"
+        },
+        {
+          "label": "Q1741",
+          "url": "http://www.wikidata.org/entity/Q1741"
+        }
+      ],
+      "relations": [
+        {
+          "event": "Adolfo_Hohenstein-pr-Adolfo_Hohenstein-ev-007",
+          "role": "role-place_of_residence"
+        },
+        {
+          "event": "Adolfo_Hohenstein-pl-Vienna-ev-020",
+          "role": "role-lived_in"
+        },
+        {
+          "event": "Adolfo_Hohenstein-pl-Vienna-ev-020",
+          "role": "role-place_of_residence"
+        }
+      ],
+      "kind": "place",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.3725,
+          48.208333
+        ]
+      }
+    },
+    {
+      "id": "Adolfo_Hohenstein-pl-004",
+      "label": {
+        "default": "India"
+      },
+      "linkedIds": [],
+      "relations": [],
+      "kind": "place",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.208333,
+          28.613889
+        ]
+      }
+    },
+    {
+      "id": "Adolfo_Hohenstein-gr-La_Scala",
+      "label": {
+        "default": "La Scala"
+      },
+      "linkedIds": [
+        {
+          "label": "La_Scala",
+          "url": "https://en.wikipedia.org/wiki/La_Scala"
+        },
+        {
+          "label": "Q5471",
+          "url": "http://www.wikidata.org/entity/Q5471"
+        }
+      ],
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [],
+      "kind": "group",
+      "type": {},
+      "media": [
+        "Adolfo_Hohenstein-m-005"
+      ],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.189167,
+          45.4675
+        ]
+      }
+    },
+    {
+      "id": "Adolfo_Hohenstein-pr-004",
+      "label": {
+        "default": "Giulio Ricordi"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [
+        {
+          "event": "Adolfo_Hohenstein-pr-004-ev-021",
+          "role": "role-employee_of"
+        }
+      ],
+      "kind": "person"
+    },
+    {
+      "id": "Adolfo_Hohenstein-gr-002",
+      "label": {
+        "default": "the Ricordi Graphical Workshops"
+      },
+      "linkedIds": [],
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [
+        {
+          "event": "Adolfo_Hohenstein-pr-004-ev-021",
+          "role": "role-unk"
+        },
+        {
+          "event": "Adolfo_Hohenstein-gr-002-ev-022",
+          "role": "role-employee_of"
+        },
+        {
+          "event": "Adolfo_Hohenstein-gr-002-ev-022",
+          "role": "role-unk"
+        },
+        {
+          "event": "Adolfo_Hohenstein-pr-Adolfo_Hohenstein-ev-035",
+          "role": "role-began"
+        }
+      ],
+      "kind": "group",
+      "type": {}
+    },
+    {
+      "id": "Adolfo_Hohenstein-gr-La_Bohème",
+      "label": {
+        "default": "La Bohème"
+      },
+      "linkedIds": [
+        {
+          "label": "La_Bohème",
+          "url": "https://en.wikipedia.org/wiki/La_Boh%C3%A8me"
+        }
+      ],
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [],
+      "kind": "group",
+      "type": {}
+    },
+    {
+      "id": "Adolfo_Hohenstein-gr-Tosca",
+      "label": {
+        "default": "Tosca"
+      },
+      "linkedIds": [
+        {
+          "label": "Tosca",
+          "url": "https://en.wikipedia.org/wiki/Tosca"
+        },
+        {
+          "label": "Q192941",
+          "url": "http://www.wikidata.org/entity/Q192941"
+        }
+      ],
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [],
+      "kind": "group",
+      "type": {},
+      "media": [
+        "Adolfo_Hohenstein-m-006"
+      ]
+    },
+    {
+      "id": "Adolfo_Hohenstein-gr-Campari",
+      "label": {
+        "default": "Campari"
+      },
+      "linkedIds": [
+        {
+          "label": "Campari",
+          "url": "https://en.wikipedia.org/wiki/Campari"
+        },
+        {
+          "label": "Q899150",
+          "url": "http://www.wikidata.org/entity/Q899150"
+        }
+      ],
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [],
+      "kind": "group",
+      "type": {},
+      "media": [
+        "Adolfo_Hohenstein-m-007"
+      ]
+    },
+    {
+      "id": "Adolfo_Hohenstein-gr-Buitoni",
+      "label": {
+        "default": "Buitoni"
+      },
+      "linkedIds": [
+        {
+          "label": "Buitoni",
+          "url": "https://en.wikipedia.org/wiki/Buitoni"
+        },
+        {
+          "label": "Q1003155",
+          "url": "http://www.wikidata.org/entity/Q1003155"
+        }
+      ],
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [],
+      "kind": "group",
+      "type": {}
+    },
+    {
+      "id": "Adolfo_Hohenstein-gr-Corriere_della_Sera",
+      "label": {
+        "default": "Corriere della Sera"
+      },
+      "linkedIds": [
+        {
+          "label": "Corriere_della_Sera",
+          "url": "https://en.wikipedia.org/wiki/Corriere_della_Sera"
+        },
+        {
+          "label": "Q309135",
+          "url": "http://www.wikidata.org/entity/Q309135"
+        }
+      ],
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [],
+      "kind": "group",
+      "type": {},
+      "media": [
+        "Adolfo_Hohenstein-m-008"
+      ]
+    },
+    {
+      "id": "Adolfo_Hohenstein-pr-005",
+      "label": {
+        "default": "Giuseppe Verdi's"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "Adolfo_Hohenstein-ob-Falstaff_(opera)",
+      "label": {
+        "default": "Falstaff"
+      },
+      "linkedIds": [
+        {
+          "label": "Falstaff_(opera)",
+          "url": "https://en.wikipedia.org/wiki/Falstaff_%28opera%29"
+        }
+      ],
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [
+        {
+          "event": "Adolfo_Hohenstein-ob-Falstaff_(opera)-ev-023",
+          "role": "role-object_created"
+        }
+      ],
+      "kind": "cultural-heritage-object",
+      "type": {}
+    },
+    {
+      "id": "Adolfo_Hohenstein-pr-Giacomo_Puccini",
+      "label": {
+        "default": "Giacomo Puccini"
+      },
+      "linkedIds": [
+        {
+          "label": "Giacomo_Puccini",
+          "url": "https://en.wikipedia.org/wiki/Giacomo_Puccini"
+        },
+        {
+          "label": "Q7311",
+          "url": "http://www.wikidata.org/entity/Q7311"
+        }
+      ],
+      "media": [
+        "Adolfo_Hohenstein-m-009"
+      ],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "Adolfo_Hohenstein-ob-Le_Villi",
+      "label": {
+        "default": "Le Villi"
+      },
+      "linkedIds": [
+        {
+          "label": "Le_Villi",
+          "url": "https://en.wikipedia.org/wiki/Le_Villi"
+        },
+        {
+          "label": "Q845606",
+          "url": "http://www.wikidata.org/entity/Q845606"
+        }
+      ],
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [
+        {
+          "event": "Adolfo_Hohenstein-ob-Le_Villi-ev-024",
+          "role": "role-object_created"
+        }
+      ],
+      "kind": "cultural-heritage-object",
+      "type": {},
+      "media": [
+        "Adolfo_Hohenstein-m-010"
+      ]
+    },
+    {
+      "id": "Adolfo_Hohenstein-ob-Madama_Butterfly",
+      "label": {
+        "default": "Madama Butterfly"
+      },
+      "linkedIds": [
+        {
+          "label": "Madama_Butterfly",
+          "url": "https://en.wikipedia.org/wiki/Madama_Butterfly"
+        },
+        {
+          "label": "Q19005",
+          "url": "http://www.wikidata.org/entity/Q19005"
+        }
+      ],
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [
+        {
+          "event": "Adolfo_Hohenstein-ob-Madama_Butterfly-ev-025",
+          "role": "role-object_created"
+        }
+      ],
+      "kind": "cultural-heritage-object",
+      "type": {},
+      "media": [
+        "Adolfo_Hohenstein-m-011"
+      ]
+    },
+    {
+      "id": "Adolfo_Hohenstein-gr-003",
+      "label": {
+        "default": "Ricordi"
+      },
+      "linkedIds": [],
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [
+        {
+          "event": "Adolfo_Hohenstein-pr-Adolfo_Hohenstein-ev-035",
+          "role": "role-began"
+        }
+      ],
+      "kind": "group",
+      "type": {}
+    },
+    {
+      "id": "Adolfo_Hohenstein-pr-006",
+      "label": {
+        "default": "Katharina Plaskuda"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "Adolfo_Hohenstein-pl-005",
+      "label": {
+        "default": "Germany"
+      },
+      "linkedIds": [],
+      "relations": [
+        {
+          "event": "Adolfo_Hohenstein-pr-Adolfo_Hohenstein-ev-036",
+          "role": "role-traveled"
+        }
+      ],
+      "kind": "place",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.383333,
+          52.516667
+        ]
+      }
+    },
+    {
+      "id": "Adolfo_Hohenstein-pl-006",
+      "label": {
+        "default": "Renania"
+      },
+      "linkedIds": [],
+      "relations": [],
+      "kind": "place"
+    },
+    {
+      "id": "Adolfo_Hohenstein-gr-004",
+      "label": {
+        "default": "Cesare Urtis & Co"
+      },
+      "linkedIds": [],
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [],
+      "kind": "group",
+      "type": {}
+    },
+    {
+      "id": "Adolfo_Hohenstein-pl-007",
+      "label": {
+        "default": "Monte Carlo"
+      },
+      "linkedIds": [],
+      "relations": [],
+      "kind": "place",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.427222,
+          43.739722
+        ]
+      }
+    },
+    {
+      "id": "Adolfo_Hohenstein-pl-008",
+      "label": {
+        "default": "Monaco"
+      },
+      "linkedIds": [],
+      "relations": [],
+      "kind": "place",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.42,
+          43.731111
+        ]
+      }
+    },
+    {
+      "id": "Adolfo_Hohenstein-pr-007",
+      "label": {
+        "default": "Craveri"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "Adolfo_Hohenstein-pl-Teatro_Dal_Verme",
+      "label": {
+        "default": "Teatro Dal Verme"
+      },
+      "linkedIds": [
+        {
+          "label": "Teatro_Dal_Verme",
+          "url": "https://en.wikipedia.org/wiki/Teatro_Dal_Verme"
+        },
+        {
+          "label": "Q1049376",
+          "url": "http://www.wikidata.org/entity/Q1049376"
+        }
+      ],
+      "relations": [],
+      "kind": "place",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.181468,
+          45.467124
+        ]
+      }
+    },
+    {
+      "id": "Adolfo_Hohenstein-ob-Edgar_(opera)",
+      "label": {
+        "default": "Edgar"
+      },
+      "linkedIds": [
+        {
+          "label": "Edgar_(opera)",
+          "url": "https://en.wikipedia.org/wiki/Edgar_%28opera%29"
+        }
+      ],
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [
+        {
+          "event": "Adolfo_Hohenstein-ob-Edgar_(opera)-ev-026",
+          "role": "role-object_created"
+        }
+      ],
+      "kind": "cultural-heritage-object",
+      "type": {}
+    },
+    {
+      "id": "Adolfo_Hohenstein-pr-Richard_Wagner",
+      "label": {
+        "default": "Wagner"
+      },
+      "linkedIds": [
+        {
+          "label": "Richard_Wagner",
+          "url": "https://en.wikipedia.org/wiki/Richard_Wagner"
+        },
+        {
+          "label": "Q1511",
+          "url": "http://www.wikidata.org/entity/Q1511"
+        }
+      ],
+      "media": [
+        "Adolfo_Hohenstein-m-015"
+      ],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "Adolfo_Hohenstein-ob-Die_Meistersinger_von_Nürnberg",
+      "label": {
+        "default": "Mastersingers of Nuremberg"
+      },
+      "linkedIds": [
+        {
+          "label": "Die_Meistersinger_von_Nürnberg",
+          "url": "https://en.wikipedia.org/wiki/Die_Meistersinger_von_N%C3%BCrnberg"
+        },
+        {
+          "label": "Q465540",
+          "url": "http://www.wikidata.org/entity/Q465540"
+        }
+      ],
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [
+        {
+          "event": "Adolfo_Hohenstein-ob-Die_Meistersinger_von_Nürnberg-ev-027",
+          "role": "role-object_created"
+        }
+      ],
+      "kind": "cultural-heritage-object",
+      "type": {},
+      "media": [
+        "Adolfo_Hohenstein-m-016"
+      ]
+    },
+    {
+      "id": "Adolfo_Hohenstein-pr-Alfredo_Catalani",
+      "label": {
+        "default": "Catalani"
+      },
+      "linkedIds": [
+        {
+          "label": "Alfredo_Catalani",
+          "url": "https://en.wikipedia.org/wiki/Alfredo_Catalani"
+        },
+        {
+          "label": "Q352722",
+          "url": "http://www.wikidata.org/entity/Q352722"
+        }
+      ],
+      "media": [
+        "Adolfo_Hohenstein-m-017"
+      ],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "Adolfo_Hohenstein-ob-Loreley",
+      "label": {
+        "default": "Loreley"
+      },
+      "linkedIds": [
+        {
+          "label": "Loreley",
+          "url": "https://en.wikipedia.org/wiki/Loreley"
+        }
+      ],
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [
+        {
+          "event": "Adolfo_Hohenstein-ob-Loreley-ev-028",
+          "role": "role-object_created"
+        }
+      ],
+      "kind": "cultural-heritage-object",
+      "type": {}
+    },
+    {
+      "id": "Adolfo_Hohenstein-ob-La_Wally",
+      "label": {
+        "default": "La Wally"
+      },
+      "linkedIds": [
+        {
+          "label": "La_Wally",
+          "url": "https://en.wikipedia.org/wiki/La_Wally"
+        },
+        {
+          "label": "Q654861",
+          "url": "http://www.wikidata.org/entity/Q654861"
+        }
+      ],
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [
+        {
+          "event": "Adolfo_Hohenstein-ob-La_Wally-ev-029",
+          "role": "role-object_created"
+        }
+      ],
+      "kind": "cultural-heritage-object",
+      "type": {},
+      "media": [
+        "Adolfo_Hohenstein-m-019"
+      ]
+    },
+    {
+      "id": "Adolfo_Hohenstein-pr-Alberto_Franchetti",
+      "label": {
+        "default": "Franchetti"
+      },
+      "linkedIds": [
+        {
+          "label": "Alberto_Franchetti",
+          "url": "https://en.wikipedia.org/wiki/Alberto_Franchetti"
+        },
+        {
+          "label": "Q722975",
+          "url": "http://www.wikidata.org/entity/Q722975"
+        }
+      ],
+      "media": [
+        "Adolfo_Hohenstein-m-020"
+      ],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "Adolfo_Hohenstein-pr-Cristoforo_Colombo_(opera)",
+      "label": {
+        "default": "Cristoforo Colombo"
+      },
+      "linkedIds": [
+        {
+          "label": "Cristoforo_Colombo_(opera)",
+          "url": "https://en.wikipedia.org/wiki/Cristoforo_Colombo_%28opera%29"
+        }
+      ],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "Adolfo_Hohenstein-pr-008",
+      "label": {
+        "default": "van Westerhout"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "Adolfo_Hohenstein-ob-001",
+      "label": {
+        "default": "Cimbelino"
+      },
+      "linkedIds": [],
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [
+        {
+          "event": "Adolfo_Hohenstein-ob-001-ev-030",
+          "role": "role-object_created"
+        }
+      ],
+      "kind": "cultural-heritage-object",
+      "type": {}
+    },
+    {
+      "id": "Adolfo_Hohenstein-pl-Teatro_Argentina",
+      "label": {
+        "default": "Teatro Argentina"
+      },
+      "linkedIds": [
+        {
+          "label": "Teatro_Argentina",
+          "url": "https://en.wikipedia.org/wiki/Teatro_Argentina"
+        },
+        {
+          "label": "Q588377",
+          "url": "http://www.wikidata.org/entity/Q588377"
+        }
+      ],
+      "relations": [],
+      "kind": "place",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.476111,
+          41.895556
+        ]
+      }
+    },
+    {
+      "id": "Adolfo_Hohenstein-ob-Manon_Lescaut",
+      "label": {
+        "default": "Manon Lescaut"
+      },
+      "linkedIds": [
+        {
+          "label": "Manon_Lescaut",
+          "url": "https://en.wikipedia.org/wiki/Manon_Lescaut"
+        },
+        {
+          "label": "Q1141032",
+          "url": "http://www.wikidata.org/entity/Q1141032"
+        }
+      ],
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [
+        {
+          "event": "Adolfo_Hohenstein-ob-Manon_Lescaut-ev-031",
+          "role": "role-object_created"
+        }
+      ],
+      "kind": "cultural-heritage-object",
+      "type": {},
+      "media": [
+        "Adolfo_Hohenstein-m-022"
+      ]
+    },
+    {
+      "id": "Adolfo_Hohenstein-pr-Giuseppe_Verdi",
+      "label": {
+        "default": "Verdi"
+      },
+      "linkedIds": [
+        {
+          "label": "Giuseppe_Verdi",
+          "url": "https://en.wikipedia.org/wiki/Giuseppe_Verdi"
+        },
+        {
+          "label": "Q7317",
+          "url": "http://www.wikidata.org/entity/Q7317"
+        }
+      ],
+      "media": [
+        "Adolfo_Hohenstein-m-023"
+      ],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "Adolfo_Hohenstein-pr-Pietro_Mascagni",
+      "label": {
+        "default": "Mascagni"
+      },
+      "linkedIds": [
+        {
+          "label": "Pietro_Mascagni",
+          "url": "https://en.wikipedia.org/wiki/Pietro_Mascagni"
+        },
+        {
+          "label": "Q181894",
+          "url": "http://www.wikidata.org/entity/Q181894"
+        }
+      ],
+      "media": [
+        "Adolfo_Hohenstein-m-025"
+      ],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "Adolfo_Hohenstein-ob-Iris_(opera)",
+      "label": {
+        "default": "Iris"
+      },
+      "linkedIds": [
+        {
+          "label": "Iris_(opera)",
+          "url": "https://en.wikipedia.org/wiki/Iris_%28opera%29"
+        }
+      ],
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [
+        {
+          "event": "Adolfo_Hohenstein-ob-Iris_(opera)-ev-032",
+          "role": "role-object_created"
+        }
+      ],
+      "kind": "cultural-heritage-object",
+      "type": {}
+    },
+    {
+      "id": "Adolfo_Hohenstein-pl-Teatro_Costanzi",
+      "label": {
+        "default": "Teatro Costanzi"
+      },
+      "linkedIds": [
+        {
+          "label": "Teatro_Costanzi",
+          "url": "https://en.wikipedia.org/wiki/Teatro_Costanzi"
+        }
+      ],
+      "relations": [],
+      "kind": "place"
+    },
+    {
+      "id": "Adolfo_Hohenstein-pl-Germania_(opera)",
+      "label": {
+        "default": "Germania"
+      },
+      "linkedIds": [
+        {
+          "label": "Germania_(opera)",
+          "url": "https://en.wikipedia.org/wiki/Germania_%28opera%29"
+        }
+      ],
+      "relations": [],
+      "kind": "place"
+    },
+    {
+      "id": "Adolfo_Hohenstein-pr-Franco_Alfano",
+      "label": {
+        "default": "Alfano"
+      },
+      "linkedIds": [
+        {
+          "label": "Franco_Alfano",
+          "url": "https://en.wikipedia.org/wiki/Franco_Alfano"
+        },
+        {
+          "label": "Q312638",
+          "url": "http://www.wikidata.org/entity/Q312638"
+        }
+      ],
+      "media": [
+        "Adolfo_Hohenstein-m-029"
+      ],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "Adolfo_Hohenstein-ob-002",
+      "label": {
+        "default": "Risurrezione"
+      },
+      "linkedIds": [],
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [
+        {
+          "event": "Adolfo_Hohenstein-ob-002-ev-033",
+          "role": "role-object_created"
+        }
+      ],
+      "kind": "cultural-heritage-object",
+      "type": {}
+    },
+    {
+      "id": "Adolfo_Hohenstein-pl-Biblioteca_Nazionale_Braidense",
+      "label": {
+        "default": "Biblioteca Nazionale Braidense"
+      },
+      "linkedIds": [
+        {
+          "label": "Biblioteca_Nazionale_Braidense",
+          "url": "https://en.wikipedia.org/wiki/Biblioteca_Nazionale_Braidense"
+        }
+      ],
+      "relations": [],
+      "kind": "place"
+    },
+    {
+      "id": "Adolfo_Hohenstein-pl-Munich",
+      "label": {
+        "default": "Munich"
+      },
+      "linkedIds": [
+        {
+          "label": "Munich",
+          "url": "https://en.wikipedia.org/wiki/Munich"
+        },
+        {
+          "label": "Q1726",
+          "url": "http://www.wikidata.org/entity/Q1726"
+        }
+      ],
+      "relations": [],
+      "kind": "place",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.575,
+          48.1375
+        ]
+      }
+    },
+    {
+      "id": "Adolfo_Hohenstein-gr-005",
+      "label": {
+        "default": "Zentralinstitut für Kunstgeschichte"
+      },
+      "linkedIds": [],
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [],
+      "kind": "group",
+      "type": {}
+    },
+    {
+      "id": "Adolfo_Hohenstein-pl-009",
+      "label": {
+        "default": "Black Forest"
+      },
+      "linkedIds": [],
+      "relations": [],
+      "kind": "place"
+    },
+    {
+      "id": "Adolfo_Hohenstein-gr-006",
+      "label": {
+        "default": "Ricordi Graphical Workshops"
+      },
+      "linkedIds": [],
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [
+        {
+          "event": "Adolfo_Hohenstein-pr-Adolfo_Hohenstein-ev-035",
+          "role": "role-began"
+        }
+      ],
+      "kind": "group",
+      "type": {}
+    },
+    {
+      "id": "Adolfo_Hohenstein-pr-009",
+      "label": {
+        "default": "Onoranze"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "Adolfo_Hohenstein-pr-Alessandro_Volta",
+      "label": {
+        "default": "Volta"
+      },
+      "linkedIds": [
+        {
+          "label": "Alessandro_Volta",
+          "url": "https://en.wikipedia.org/wiki/Alessandro_Volta"
+        },
+        {
+          "label": "Q680",
+          "url": "http://www.wikidata.org/entity/Q680"
+        }
+      ],
+      "media": [
+        "Adolfo_Hohenstein-m-031"
+      ],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "Adolfo_Hohenstein-gr-007",
+      "label": {
+        "default": "Bitter Campari"
+      },
+      "linkedIds": [],
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [],
+      "kind": "group",
+      "type": {}
+    },
+    {
+      "id": "Adolfo_Hohenstein-pr-010",
+      "label": {
+        "default": "del Dottor Craveri"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "Adolfo_Hohenstein-pr-011",
+      "label": {
+        "default": "Birra Italia Giacomo Puccini"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "Adolfo_Hohenstein-pr-012",
+      "label": {
+        "default": "propsGiacomo Puccini"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "Adolfo_Hohenstein-pr-013",
+      "label": {
+        "default": "propsRichard Wagner"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "Adolfo_Hohenstein-pr-014",
+      "label": {
+        "default": "Mastersingers"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "Adolfo_Hohenstein-pl-010",
+      "label": {
+        "default": "Nuremberg"
+      },
+      "linkedIds": [],
+      "relations": [],
+      "kind": "place"
+    },
+    {
+      "id": "Adolfo_Hohenstein-pr-015",
+      "label": {
+        "default": "propsAlfredo Catalani"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "Adolfo_Hohenstein-pr-016",
+      "label": {
+        "default": "costumesAlfredo Catalani"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "Adolfo_Hohenstein-pr-017",
+      "label": {
+        "default": "originaliNiccolò van Westerhout"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "Adolfo_Hohenstein-pr-019",
+      "label": {
+        "default": "propsGiuseppe Verdi"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "Adolfo_Hohenstein-pr-020",
+      "label": {
+        "default": "designsGiacomo Puccini"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "Adolfo_Hohenstein-pr-021",
+      "label": {
+        "default": "propsPietro Mascagni"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "Adolfo_Hohenstein-pr-022",
+      "label": {
+        "default": "MascagniGiacomo Puccini"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "Adolfo_Hohenstein-pr-023",
+      "label": {
+        "default": "propsAlberto Franchetti"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "Adolfo_Hohenstein-pr-024",
+      "label": {
+        "default": "propsFranco Alfano"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "Adolfo_Hohenstein-gr-008",
+      "label": {
+        "default": "Katalog der Großen Kunstausstellung Düsseldorf"
+      },
+      "linkedIds": [],
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [],
+      "kind": "group",
+      "type": {}
+    },
+    {
+      "id": "Adolfo_Hohenstein-gr-009",
+      "label": {
+        "default": "Katalog der Frühjahrs"
+      },
+      "linkedIds": [],
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [],
+      "kind": "group",
+      "type": {}
+    },
+    {
+      "id": "Adolfo_Hohenstein-gr-010",
+      "label": {
+        "default": "Ausstellung"
+      },
+      "linkedIds": [],
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [],
+      "kind": "group",
+      "type": {}
+    },
+    {
+      "id": "Adolfo_Hohenstein-pl-011",
+      "label": {
+        "default": "Kunstchronik"
+      },
+      "linkedIds": [],
+      "relations": [],
+      "kind": "place"
+    },
+    {
+      "id": "Adolfo_Hohenstein-pl-012",
+      "label": {
+        "default": "Neue Folge"
+      },
+      "linkedIds": [],
+      "relations": [],
+      "kind": "place"
+    },
+    {
+      "id": "Adolfo_Hohenstein-pl-Große_Berliner_Kunstausstellung",
+      "label": {
+        "default": "Große Berliner Kunstausstellung"
+      },
+      "linkedIds": [
+        {
+          "label": "Große_Berliner_Kunstausstellung",
+          "url": "https://en.wikipedia.org/wiki/Gro%C3%9Fe_Berliner_Kunstausstellung"
+        },
+        {
+          "label": "Q18624764",
+          "url": "http://www.wikidata.org/entity/Q18624764"
+        }
+      ],
+      "relations": [],
+      "kind": "place"
+    },
+    {
+      "id": "Adolfo_Hohenstein-pr-025",
+      "label": {
+        "default": "Schwarzwaldküche"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    }
+  ],
+  "events": [
+    {
+      "id": "Adolfo_Hohenstein-pr-Adolfo_Hohenstein-ev-001",
+      "label": {
+        "default": "Saint Petersburg"
+      },
+      "kind": "event-kind-event-kind-born_in",
+      "relations": [
+        {
+          "entity": "Adolfo_Hohenstein-pl-Saint_Petersburg",
+          "role": "role-place_of_birth"
+        },
+        {
+          "entity": "Adolfo_Hohenstein-pr-Adolfo_Hohenstein",
+          "role": "role-born_in"
+        }
+      ]
+    },
+    {
+      "id": "Adolfo_Hohenstein-pr-Adolfo_Hohenstein-ev-002",
+      "label": {
+        "default": "Russian Empire"
+      },
+      "kind": "event-kind-event-kind-born_in",
+      "relations": [
+        {
+          "entity": "Adolfo_Hohenstein-pl-Russian_Empire",
+          "role": "role-place_of_birth"
+        },
+        {
+          "entity": "Adolfo_Hohenstein-pr-Adolfo_Hohenstein",
+          "role": "role-born_in"
+        }
+      ]
+    },
+    {
+      "id": "Adolfo_Hohenstein-pr-Adolfo_Hohenstein-ev-003",
+      "label": {
+        "default": "Julius"
+      },
+      "kind": "event-kind-event-kind-child_of",
+      "relations": [
+        {
+          "entity": "Adolfo_Hohenstein-pr-002",
+          "role": "role-parent_of"
+        },
+        {
+          "entity": "Adolfo_Hohenstein-pr-Adolfo_Hohenstein",
+          "role": "role-child_of"
+        }
+      ],
+      "startDate": "1854-03-18"
+    },
+    {
+      "id": "Adolfo_Hohenstein-pr-Adolfo_Hohenstein-ev-004",
+      "label": {
+        "default": "Laura Irack"
+      },
+      "kind": "event-kind-event-kind-child_of",
+      "relations": [
+        {
+          "entity": "Adolfo_Hohenstein-pr-003",
+          "role": "role-parent_of"
+        },
+        {
+          "entity": "Adolfo_Hohenstein-pr-Adolfo_Hohenstein",
+          "role": "role-child_of"
+        }
+      ],
+      "startDate": "1854-03-18"
+    },
+    {
+      "id": "Adolfo_Hohenstein-pr-Adolfo_Hohenstein-ev-005",
+      "label": {
+        "default": "Adolfo Hohenstein"
+      },
+      "kind": "event-kind-event-kind-parent_of",
+      "relations": [
+        {
+          "entity": "Adolfo_Hohenstein-pr-Adolfo_Hohenstein",
+          "role": "role-child_of"
+        },
+        {
+          "entity": "Adolfo_Hohenstein-pr-002",
+          "role": "role-parent_of"
+        }
+      ]
+    },
+    {
+      "id": "Adolfo_Hohenstein-pr-Adolfo_Hohenstein-ev-006",
+      "label": {
+        "default": "Adolfo Hohenstein"
+      },
+      "kind": "event-kind-event-kind-parent_of",
+      "relations": [
+        {
+          "entity": "Adolfo_Hohenstein-pr-Adolfo_Hohenstein",
+          "role": "role-child_of"
+        },
+        {
+          "entity": "Adolfo_Hohenstein-pr-003",
+          "role": "role-parent_of"
+        }
+      ]
+    },
+    {
+      "id": "Adolfo_Hohenstein-pr-Adolfo_Hohenstein-ev-007",
+      "label": {
+        "default": "Vienna"
+      },
+      "kind": "event-kind-event-kind-lived_in",
+      "relations": [
+        {
+          "entity": "Adolfo_Hohenstein-pl-Vienna",
+          "role": "role-place_of_residence"
+        },
+        {
+          "entity": "Adolfo_Hohenstein-pr-Adolfo_Hohenstein",
+          "role": "role-lived_in"
+        }
+      ]
+    },
+    {
+      "id": "Adolfo_Hohenstein-pr-Adolfo_Hohenstein-ev-008",
+      "label": {
+        "default": "Bonn"
+      },
+      "kind": "event-kind-event-kind-died_in",
+      "relations": [
+        {
+          "entity": "Adolfo_Hohenstein-pl-Bonn",
+          "role": "role-unk"
+        },
+        {
+          "entity": "Adolfo_Hohenstein-pr-Adolfo_Hohenstein",
+          "role": "role-died_in"
+        }
+      ]
+    },
+    {
+      "id": "Adolfo_Hohenstein-pl-Bonn-ev-009",
+      "label": {
+        "default": "Bonn"
+      },
+      "kind": "event-kind-event-kind-died_in",
+      "relations": [
+        {
+          "entity": "Adolfo_Hohenstein-pl-Bonn",
+          "role": "role-unk"
+        },
+        {
+          "entity": "Adolfo_Hohenstein-pr-Adolfo_Hohenstein",
+          "role": "role-died_in"
+        }
+      ]
+    },
+    {
+      "id": "Adolfo_Hohenstein-pl-Saint_Petersburg-ev-010",
+      "label": {
+        "default": "Saint Petersburg"
+      },
+      "kind": "event-kind-event-kind-born_in",
+      "relations": [
+        {
+          "entity": "Adolfo_Hohenstein-pl-Saint_Petersburg",
+          "role": "role-place_of_birth"
+        },
+        {
+          "entity": "Adolfo_Hohenstein-pr-Adolfo_Hohenstein",
+          "role": "role-born_in"
+        }
+      ]
+    },
+    {
+      "id": "Adolfo_Hohenstein-pl-Russian_Empire-ev-011",
+      "label": {
+        "default": "Russian Empire"
+      },
+      "kind": "event-kind-event-kind-born_in",
+      "relations": [
+        {
+          "entity": "Adolfo_Hohenstein-pl-Russian_Empire",
+          "role": "role-place_of_birth"
+        },
+        {
+          "entity": "Adolfo_Hohenstein-pr-Adolfo_Hohenstein",
+          "role": "role-born_in"
+        }
+      ]
+    },
+    {
+      "id": "Adolfo_Hohenstein-pr-002-ev-012",
+      "label": {
+        "default": "Julius"
+      },
+      "kind": "event-kind-event-kind-child_of",
+      "relations": [
+        {
+          "entity": "Adolfo_Hohenstein-pr-002",
+          "role": "role-parent_of"
+        },
+        {
+          "entity": "Adolfo_Hohenstein-pr-Adolfo_Hohenstein",
+          "role": "role-child_of"
+        }
+      ],
+      "startDate": "1854-03-18"
+    },
+    {
+      "id": "Adolfo_Hohenstein-pr-002-ev-013",
+      "label": {
+        "default": "Adolfo Hohenstein"
+      },
+      "kind": "event-kind-event-kind-parent_of",
+      "relations": [
+        {
+          "entity": "Adolfo_Hohenstein-pr-Adolfo_Hohenstein",
+          "role": "role-child_of"
+        },
+        {
+          "entity": "Adolfo_Hohenstein-pr-002",
+          "role": "role-parent_of"
+        }
+      ]
+    },
+    {
+      "id": "Adolfo_Hohenstein-pr-002-ev-014",
+      "label": {
+        "default": "Laura Irack"
+      },
+      "kind": "event-kind-event-kind-married_to",
+      "relations": [
+        {
+          "entity": "Adolfo_Hohenstein-pr-003",
+          "role": "role-married_to"
+        },
+        {
+          "entity": "Adolfo_Hohenstein-pr-002",
+          "role": "role-married_to"
+        }
+      ]
+    },
+    {
+      "id": "Adolfo_Hohenstein-pr-002-ev-015",
+      "label": {
+        "default": "Julius"
+      },
+      "kind": "event-kind-event-kind-married_to",
+      "relations": [
+        {
+          "entity": "Adolfo_Hohenstein-pr-002",
+          "role": "role-married_to"
+        },
+        {
+          "entity": "Adolfo_Hohenstein-pr-003",
+          "role": "role-married_to"
+        }
+      ]
+    },
+    {
+      "id": "Adolfo_Hohenstein-pr-003-ev-016",
+      "label": {
+        "default": "Laura Irack"
+      },
+      "kind": "event-kind-event-kind-child_of",
+      "relations": [
+        {
+          "entity": "Adolfo_Hohenstein-pr-003",
+          "role": "role-parent_of"
+        },
+        {
+          "entity": "Adolfo_Hohenstein-pr-Adolfo_Hohenstein",
+          "role": "role-child_of"
+        }
+      ],
+      "startDate": "1854-03-18"
+    },
+    {
+      "id": "Adolfo_Hohenstein-pr-003-ev-017",
+      "label": {
+        "default": "Adolfo Hohenstein"
+      },
+      "kind": "event-kind-event-kind-parent_of",
+      "relations": [
+        {
+          "entity": "Adolfo_Hohenstein-pr-Adolfo_Hohenstein",
+          "role": "role-child_of"
+        },
+        {
+          "entity": "Adolfo_Hohenstein-pr-003",
+          "role": "role-parent_of"
+        }
+      ]
+    },
+    {
+      "id": "Adolfo_Hohenstein-pr-003-ev-018",
+      "label": {
+        "default": "Laura Irack"
+      },
+      "kind": "event-kind-event-kind-married_to",
+      "relations": [
+        {
+          "entity": "Adolfo_Hohenstein-pr-003",
+          "role": "role-married_to"
+        },
+        {
+          "entity": "Adolfo_Hohenstein-pr-002",
+          "role": "role-married_to"
+        }
+      ]
+    },
+    {
+      "id": "Adolfo_Hohenstein-pr-003-ev-019",
+      "label": {
+        "default": "Julius"
+      },
+      "kind": "event-kind-event-kind-married_to",
+      "relations": [
+        {
+          "entity": "Adolfo_Hohenstein-pr-002",
+          "role": "role-married_to"
+        },
+        {
+          "entity": "Adolfo_Hohenstein-pr-003",
+          "role": "role-married_to"
+        }
+      ]
+    },
+    {
+      "id": "Adolfo_Hohenstein-pl-Vienna-ev-020",
+      "label": {
+        "default": "Vienna"
+      },
+      "kind": "event-kind-event-kind-lived_in",
+      "relations": [
+        {
+          "entity": "Adolfo_Hohenstein-pl-Vienna",
+          "role": "role-place_of_residence"
+        },
+        {
+          "entity": "Adolfo_Hohenstein-pr-Adolfo_Hohenstein",
+          "role": "role-lived_in"
+        }
+      ]
+    },
+    {
+      "id": "Adolfo_Hohenstein-pr-004-ev-021",
+      "label": {
+        "default": "the Ricordi Graphical Workshops"
+      },
+      "kind": "event-kind-event-kind-employee_of",
+      "relations": [
+        {
+          "entity": "Adolfo_Hohenstein-gr-002",
+          "role": "role-unk"
+        },
+        {
+          "entity": "Adolfo_Hohenstein-pr-004",
+          "role": "role-employee_of"
+        }
+      ]
+    },
+    {
+      "id": "Adolfo_Hohenstein-gr-002-ev-022",
+      "label": {
+        "default": "the Ricordi Graphical Workshops"
+      },
+      "kind": "event-kind-event-kind-employee_of",
+      "relations": [
+        {
+          "entity": "Adolfo_Hohenstein-gr-002",
+          "role": "role-unk"
+        },
+        {
+          "entity": "Adolfo_Hohenstein-pr-004",
+          "role": "role-employee_of"
+        }
+      ]
+    },
+    {
+      "id": "Adolfo_Hohenstein-ob-Falstaff_(opera)-ev-023",
+      "label": {
+        "default": "Falstaff"
+      },
+      "kind": "event-kind-creation",
+      "relations": [
+        {
+          "entity": "Adolfo_Hohenstein-ob-Falstaff_(opera)",
+          "role": "role-object_created"
+        },
+        {
+          "entity": "Adolfo_Hohenstein-pr-Adolfo_Hohenstein",
+          "role": "role-related_to"
+        }
+      ]
+    },
+    {
+      "id": "Adolfo_Hohenstein-ob-Le_Villi-ev-024",
+      "label": {
+        "default": "Le Villi"
+      },
+      "kind": "event-kind-creation",
+      "relations": [
+        {
+          "entity": "Adolfo_Hohenstein-ob-Le_Villi",
+          "role": "role-object_created"
+        },
+        {
+          "entity": "Adolfo_Hohenstein-pr-Adolfo_Hohenstein",
+          "role": "role-related_to"
+        }
+      ]
+    },
+    {
+      "id": "Adolfo_Hohenstein-ob-Madama_Butterfly-ev-025",
+      "label": {
+        "default": "Madama Butterfly"
+      },
+      "kind": "event-kind-creation",
+      "relations": [
+        {
+          "entity": "Adolfo_Hohenstein-ob-Madama_Butterfly",
+          "role": "role-object_created"
+        },
+        {
+          "entity": "Adolfo_Hohenstein-pr-Adolfo_Hohenstein",
+          "role": "role-related_to"
+        }
+      ]
+    },
+    {
+      "id": "Adolfo_Hohenstein-ob-Edgar_(opera)-ev-026",
+      "label": {
+        "default": "Edgar"
+      },
+      "kind": "event-kind-creation",
+      "relations": [
+        {
+          "entity": "Adolfo_Hohenstein-ob-Edgar_(opera)",
+          "role": "role-object_created"
+        },
+        {
+          "entity": "Adolfo_Hohenstein-pr-Adolfo_Hohenstein",
+          "role": "role-related_to"
+        }
+      ]
+    },
+    {
+      "id": "Adolfo_Hohenstein-ob-Die_Meistersinger_von_Nürnberg-ev-027",
+      "label": {
+        "default": "Mastersingers of Nuremberg"
+      },
+      "kind": "event-kind-creation",
+      "relations": [
+        {
+          "entity": "Adolfo_Hohenstein-ob-Die_Meistersinger_von_Nürnberg",
+          "role": "role-object_created"
+        },
+        {
+          "entity": "Adolfo_Hohenstein-pr-Adolfo_Hohenstein",
+          "role": "role-related_to"
+        }
+      ]
+    },
+    {
+      "id": "Adolfo_Hohenstein-ob-Loreley-ev-028",
+      "label": {
+        "default": "Loreley"
+      },
+      "kind": "event-kind-creation",
+      "relations": [
+        {
+          "entity": "Adolfo_Hohenstein-ob-Loreley",
+          "role": "role-object_created"
+        },
+        {
+          "entity": "Adolfo_Hohenstein-pr-Adolfo_Hohenstein",
+          "role": "role-related_to"
+        }
+      ]
+    },
+    {
+      "id": "Adolfo_Hohenstein-ob-La_Wally-ev-029",
+      "label": {
+        "default": "La Wally"
+      },
+      "kind": "event-kind-creation",
+      "relations": [
+        {
+          "entity": "Adolfo_Hohenstein-ob-La_Wally",
+          "role": "role-object_created"
+        },
+        {
+          "entity": "Adolfo_Hohenstein-pr-Adolfo_Hohenstein",
+          "role": "role-related_to"
+        }
+      ]
+    },
+    {
+      "id": "Adolfo_Hohenstein-ob-001-ev-030",
+      "label": {
+        "default": "Cimbelino"
+      },
+      "kind": "event-kind-creation",
+      "relations": [
+        {
+          "entity": "Adolfo_Hohenstein-ob-001",
+          "role": "role-object_created"
+        },
+        {
+          "entity": "Adolfo_Hohenstein-pr-Adolfo_Hohenstein",
+          "role": "role-related_to"
+        }
+      ]
+    },
+    {
+      "id": "Adolfo_Hohenstein-ob-Manon_Lescaut-ev-031",
+      "label": {
+        "default": "Manon Lescaut"
+      },
+      "kind": "event-kind-creation",
+      "relations": [
+        {
+          "entity": "Adolfo_Hohenstein-ob-Manon_Lescaut",
+          "role": "role-object_created"
+        },
+        {
+          "entity": "Adolfo_Hohenstein-pr-Adolfo_Hohenstein",
+          "role": "role-related_to"
+        }
+      ]
+    },
+    {
+      "id": "Adolfo_Hohenstein-ob-Iris_(opera)-ev-032",
+      "label": {
+        "default": "Iris"
+      },
+      "kind": "event-kind-creation",
+      "relations": [
+        {
+          "entity": "Adolfo_Hohenstein-ob-Iris_(opera)",
+          "role": "role-object_created"
+        },
+        {
+          "entity": "Adolfo_Hohenstein-pr-Adolfo_Hohenstein",
+          "role": "role-related_to"
+        }
+      ]
+    },
+    {
+      "id": "Adolfo_Hohenstein-ob-002-ev-033",
+      "label": {
+        "default": "Risurrezione"
+      },
+      "kind": "event-kind-creation",
+      "relations": [
+        {
+          "entity": "Adolfo_Hohenstein-ob-002",
+          "role": "role-object_created"
+        },
+        {
+          "entity": "Adolfo_Hohenstein-pr-Adolfo_Hohenstein",
+          "role": "role-related_to"
+        }
+      ]
+    },
+    {
+      "id": "Adolfo_Hohenstein-pr-Adolfo_Hohenstein-ev-034",
+      "label": {
+        "default": "Hohenstein settled  In 1879 in Milan , Italy"
+      },
+      "kind": "event-kind-settled",
+      "relations": [
+        {
+          "entity": "Adolfo_Hohenstein-pr-Adolfo_Hohenstein",
+          "role": "role-related_to"
+        },
+        {
+          "entity": "Adolfo_Hohenstein-pl-001",
+          "role": "role-settled"
+        },
+        {
+          "entity": "Adolfo_Hohenstein-pl-Milan",
+          "role": "role-settled"
+        }
+      ],
+      "startDate": "1879-01-01"
+    },
+    {
+      "id": "Adolfo_Hohenstein-pr-Adolfo_Hohenstein-ev-035",
+      "label": {
+        "default": "Hohenstein began to work for the Ricordi Graphical Workshops , where he shortly became the artistic director in charge of the graphical part in 1889 There"
+      },
+      "kind": "event-kind-began",
+      "relations": [
+        {
+          "entity": "Adolfo_Hohenstein-pr-Adolfo_Hohenstein",
+          "role": "role-related_to"
+        },
+        {
+          "entity": "Adolfo_Hohenstein-gr-002",
+          "role": "role-began"
+        },
+        {
+          "entity": "Adolfo_Hohenstein-gr-003",
+          "role": "role-began"
+        },
+        {
+          "entity": "Adolfo_Hohenstein-gr-006",
+          "role": "role-began"
+        }
+      ],
+      "startDate": "1889-01-01"
+    },
+    {
+      "id": "Adolfo_Hohenstein-pr-Adolfo_Hohenstein-ev-036",
+      "label": {
+        "default": "Hohenstein traveled between Italy and Germany till 1906 , when , after winning the competition for the graphical symbol and the poster for the \" Esposizione per il Traforo del Sempione \" , he left Milan for Bonn and Düsseldorf definitively"
+      },
+      "kind": "event-kind-traveled",
+      "relations": [
+        {
+          "entity": "Adolfo_Hohenstein-pr-Adolfo_Hohenstein",
+          "role": "role-related_to"
+        },
+        {
+          "entity": "Adolfo_Hohenstein-pl-001",
+          "role": "role-traveled"
+        },
+        {
+          "entity": "Adolfo_Hohenstein-pl-Milan",
+          "role": "role-traveled"
+        },
+        {
+          "entity": "Adolfo_Hohenstein-pl-Bonn",
+          "role": "role-traveled"
+        },
+        {
+          "entity": "Adolfo_Hohenstein-pl-Düsseldorf",
+          "role": "role-traveled"
+        },
+        {
+          "entity": "Adolfo_Hohenstein-pl-005",
+          "role": "role-traveled"
+        }
+      ],
+      "startDate": "1906-01-01"
+    },
+    {
+      "id": "Adolfo_Hohenstein-pr-Adolfo_Hohenstein-ev-037",
+      "label": {
+        "default": "Hohenstein settled in Bonn in 1918"
+      },
+      "kind": "event-kind-settled",
+      "relations": [
+        {
+          "entity": "Adolfo_Hohenstein-pr-Adolfo_Hohenstein",
+          "role": "role-related_to"
+        },
+        {
+          "entity": "Adolfo_Hohenstein-pl-Bonn",
+          "role": "role-settled"
+        }
+      ],
+      "startDate": "1918-01-01"
+    },
+    {
+      "id": "Adolfo_Hohenstein-pr-Adolfo_Hohenstein-ev-038",
+      "label": {
+        "default": "Hohenstein died  12 April 1928 in Bonn"
+      },
+      "kind": "event-kind-died",
+      "relations": [
+        {
+          "entity": "Adolfo_Hohenstein-pr-Adolfo_Hohenstein",
+          "role": "role-related_to"
+        },
+        {
+          "entity": "Adolfo_Hohenstein-pl-Bonn",
+          "role": "role-died"
+        }
+      ],
+      "startDate": "1928-04-12"
+    },
+    {
+      "id": "Adolfo_Hohenstein-pr-Adolfo_Hohenstein-ev-039",
+      "label": {
+        "default": "Hohenstein died on 1928-04-12"
+      },
+      "kind": "event-kind-died on",
+      "relations": [
+        {
+          "entity": "Adolfo_Hohenstein-pr-Adolfo_Hohenstein",
+          "role": "role-related_to"
+        }
+      ],
+      "startDate": "1928-04-12"
+    }
+  ],
+  "media": [
+    {
+      "id": "Adolfo_Hohenstein-m-001",
+      "label": {
+        "default": "Adolfo_Hohenstein Main Image"
+      },
+      "description": "Adolfo_Hohenstein Main Image",
+      "attribution": "",
+      "url": "http://commons.wikimedia.org/wiki/Special:FilePath/Adolf%20Hohenstein%20%281905%29%20-%20Archivio%20Storico%20Ricordi%20FOTO000048%20A.jpg",
+      "kind": "image"
+    },
+    {
+      "id": "Adolfo_Hohenstein-m-002",
+      "label": {
+        "default": "Leopoldo Metlicovitz"
+      },
+      "description": "Leopoldo Metlicovitz",
+      "attribution": "",
+      "url": "http://commons.wikimedia.org/wiki/Special:FilePath/Leopoldo%20Metlicovitz%20%281900%29%20-%20Archivio%20storico%20Ricordi%20FOTO000757%20%28cropped%29.jpg",
+      "kind": "image"
+    },
+    {
+      "id": "Adolfo_Hohenstein-m-003",
+      "label": {
+        "default": "Marcello Dudovich"
+      },
+      "description": "Marcello Dudovich",
+      "attribution": "",
+      "url": "http://commons.wikimedia.org/wiki/Special:FilePath/Dudovich.JPG",
+      "kind": "image"
+    },
+    {
+      "id": "Adolfo_Hohenstein-m-004",
+      "label": {
+        "default": "Leonetto Cappiello"
+      },
+      "description": "Leonetto Cappiello",
+      "attribution": "",
+      "url": "http://commons.wikimedia.org/wiki/Special:FilePath/Leonetto%20Cappiello.jpg",
+      "kind": "image"
+    },
+    {
+      "id": "Adolfo_Hohenstein-m-005",
+      "label": {
+        "default": "La Scala"
+      },
+      "description": "La Scala",
+      "attribution": "",
+      "url": "http://commons.wikimedia.org/wiki/Special:FilePath/20110725%20Milano%20La%20Scala%205507.jpg",
+      "kind": "image"
+    },
+    {
+      "id": "Adolfo_Hohenstein-m-006",
+      "label": {
+        "default": "Tosca"
+      },
+      "description": "Tosca",
+      "attribution": "",
+      "url": "http://commons.wikimedia.org/wiki/Special:FilePath/Puccini%20Tosca.jpg",
+      "kind": "image"
+    },
+    {
+      "id": "Adolfo_Hohenstein-m-007",
+      "label": {
+        "default": "Campari"
+      },
+      "description": "Campari",
+      "attribution": "",
+      "url": "http://commons.wikimedia.org/wiki/Special:FilePath/Bottle%20of%20Campari%20%28United%20States%29.jpg",
+      "kind": "image"
+    },
+    {
+      "id": "Adolfo_Hohenstein-m-008",
+      "label": {
+        "default": "Corriere della Sera"
+      },
+      "description": "Corriere della Sera",
+      "attribution": "",
+      "url": "http://commons.wikimedia.org/wiki/Special:FilePath/Beltrami%20corriere.jpg",
+      "kind": "image"
+    },
+    {
+      "id": "Adolfo_Hohenstein-m-009",
+      "label": {
+        "default": "Giacomo Puccini"
+      },
+      "description": "Giacomo Puccini",
+      "attribution": "",
+      "url": "http://commons.wikimedia.org/wiki/Special:FilePath/GiacomoPuccini.jpg",
+      "kind": "image"
+    },
+    {
+      "id": "Adolfo_Hohenstein-m-010",
+      "label": {
+        "default": "Le Villi"
+      },
+      "description": "Le Villi",
+      "attribution": "",
+      "url": "http://commons.wikimedia.org/wiki/Special:FilePath/Disegno%20per%20copertina%20di%20libretto%2C%20disegno%20di%20Peter%20Hoffer%20per%20Le%20Villi%20%28s.d.%29%20-%20Archivio%20Storico%20Ricordi%20ICON012374.jpg",
+      "kind": "image"
+    },
+    {
+      "id": "Adolfo_Hohenstein-m-011",
+      "label": {
+        "default": "Madama Butterfly"
+      },
+      "description": "Madama Butterfly",
+      "attribution": "",
+      "url": "http://commons.wikimedia.org/wiki/Special:FilePath/Leopoldo%20Metlicovitz%2C%201904%20-%20Madama%20Butterfly.jpg",
+      "kind": "image"
+    },
+    {
+      "id": "Adolfo_Hohenstein-m-012",
+      "label": {
+        "default": "Corriere della Sera"
+      },
+      "description": "Corriere della Sera",
+      "attribution": "",
+      "url": "http://commons.wikimedia.org/wiki/Special:FilePath/Beltrami%20corriere.jpg",
+      "kind": "image"
+    },
+    {
+      "id": "Adolfo_Hohenstein-m-013",
+      "label": {
+        "default": "Giacomo Puccini"
+      },
+      "description": "Giacomo Puccini",
+      "attribution": "",
+      "url": "http://commons.wikimedia.org/wiki/Special:FilePath/GiacomoPuccini.jpg",
+      "kind": "image"
+    },
+    {
+      "id": "Adolfo_Hohenstein-m-014",
+      "label": {
+        "default": "Puccini"
+      },
+      "description": "Puccini",
+      "attribution": "",
+      "url": "http://commons.wikimedia.org/wiki/Special:FilePath/GiacomoPuccini.jpg",
+      "kind": "image"
+    },
+    {
+      "id": "Adolfo_Hohenstein-m-015",
+      "label": {
+        "default": "Wagner"
+      },
+      "description": "Wagner",
+      "attribution": "",
+      "url": "http://commons.wikimedia.org/wiki/Special:FilePath/Rihard%20Vagner.pdf",
+      "kind": "image"
+    },
+    {
+      "id": "Adolfo_Hohenstein-m-016",
+      "label": {
+        "default": "Mastersingers of Nuremberg"
+      },
+      "description": "Mastersingers of Nuremberg",
+      "attribution": "",
+      "url": "http://commons.wikimedia.org/wiki/Special:FilePath/Wagner%20-%20Die%20Meistersinger%20von%20N%C3%BCrnberg%2C%20act%20I%20-%20Walter%27s%20trial%20-%20The%20Victrola%20book%20of%20the%20opera.jpg",
+      "kind": "image"
+    },
+    {
+      "id": "Adolfo_Hohenstein-m-017",
+      "label": {
+        "default": "Catalani"
+      },
+      "description": "Catalani",
+      "attribution": "",
+      "url": "http://commons.wikimedia.org/wiki/Special:FilePath/Alfredo%20Catalani%20%28before%201893%29%20-%20Archivio%20Storico%20Ricordi%20FOTO000807%20%28cropped%29.jpg",
+      "kind": "image"
+    },
+    {
+      "id": "Adolfo_Hohenstein-m-018",
+      "label": {
+        "default": "Catalani"
+      },
+      "description": "Catalani",
+      "attribution": "",
+      "url": "http://commons.wikimedia.org/wiki/Special:FilePath/Alfredo%20Catalani%20%28before%201893%29%20-%20Archivio%20Storico%20Ricordi%20FOTO000807%20%28cropped%29.jpg",
+      "kind": "image"
+    },
+    {
+      "id": "Adolfo_Hohenstein-m-019",
+      "label": {
+        "default": "La Wally"
+      },
+      "description": "La Wally",
+      "attribution": "",
+      "url": "http://commons.wikimedia.org/wiki/Special:FilePath/Wally%20%28soprano%29%2C%20figurino%20di%20Adolf%20Hohenstein%20per%20La%20Wally%20%281892%29%20-%20Archivio%20Storico%20Ricordi%20ICON004639%20-%20Restoration.jpg",
+      "kind": "image"
+    },
+    {
+      "id": "Adolfo_Hohenstein-m-020",
+      "label": {
+        "default": "Franchetti"
+      },
+      "description": "Franchetti",
+      "attribution": "",
+      "url": "http://commons.wikimedia.org/wiki/Special:FilePath/Alberto%20Franchetti%20%281902%29%20-%20Archivio%20Storico%20Ricordi%20FOTO000791%20C.jpg",
+      "kind": "image"
+    },
+    {
+      "id": "Adolfo_Hohenstein-m-021",
+      "label": {
+        "default": "Puccini"
+      },
+      "description": "Puccini",
+      "attribution": "",
+      "url": "http://commons.wikimedia.org/wiki/Special:FilePath/GiacomoPuccini.jpg",
+      "kind": "image"
+    },
+    {
+      "id": "Adolfo_Hohenstein-m-022",
+      "label": {
+        "default": "Manon Lescaut"
+      },
+      "description": "Manon Lescaut",
+      "attribution": "",
+      "url": "http://commons.wikimedia.org/wiki/Special:FilePath/Histoire%20du%20Chevalier%20des%20Grieux%2C%20et%20de%20Manon%20Lescaut.jpg",
+      "kind": "image"
+    },
+    {
+      "id": "Adolfo_Hohenstein-m-023",
+      "label": {
+        "default": "Verdi"
+      },
+      "description": "Verdi",
+      "attribution": "",
+      "url": "http://commons.wikimedia.org/wiki/Special:FilePath/Verdi%20by%20Giovanni%20Boldini.jpg",
+      "kind": "image"
+    },
+    {
+      "id": "Adolfo_Hohenstein-m-024",
+      "label": {
+        "default": "Puccini"
+      },
+      "description": "Puccini",
+      "attribution": "",
+      "url": "http://commons.wikimedia.org/wiki/Special:FilePath/GiacomoPuccini.jpg",
+      "kind": "image"
+    },
+    {
+      "id": "Adolfo_Hohenstein-m-025",
+      "label": {
+        "default": "Mascagni"
+      },
+      "description": "Mascagni",
+      "attribution": "",
+      "url": "http://commons.wikimedia.org/wiki/Special:FilePath/Pietro%20Mascagni%201.jpg",
+      "kind": "image"
+    },
+    {
+      "id": "Adolfo_Hohenstein-m-026",
+      "label": {
+        "default": "Puccini"
+      },
+      "description": "Puccini",
+      "attribution": "",
+      "url": "http://commons.wikimedia.org/wiki/Special:FilePath/GiacomoPuccini.jpg",
+      "kind": "image"
+    },
+    {
+      "id": "Adolfo_Hohenstein-m-027",
+      "label": {
+        "default": "Tosca"
+      },
+      "description": "Tosca",
+      "attribution": "",
+      "url": "http://commons.wikimedia.org/wiki/Special:FilePath/Puccini%20Tosca.jpg",
+      "kind": "image"
+    },
+    {
+      "id": "Adolfo_Hohenstein-m-028",
+      "label": {
+        "default": "Franchetti"
+      },
+      "description": "Franchetti",
+      "attribution": "",
+      "url": "http://commons.wikimedia.org/wiki/Special:FilePath/Alberto%20Franchetti%20%281902%29%20-%20Archivio%20Storico%20Ricordi%20FOTO000791%20C.jpg",
+      "kind": "image"
+    },
+    {
+      "id": "Adolfo_Hohenstein-m-029",
+      "label": {
+        "default": "Alfano"
+      },
+      "description": "Alfano",
+      "attribution": "",
+      "url": "http://commons.wikimedia.org/wiki/Special:FilePath/Franco%20Alfano%20%28before%201954%29%20-%20Archivio%20Storico%20Ricordi%20FOTO001885.jpg",
+      "kind": "image"
+    },
+    {
+      "id": "Adolfo_Hohenstein-m-030",
+      "label": {
+        "default": "Giuseppe Verdi"
+      },
+      "description": "Giuseppe Verdi",
+      "attribution": "",
+      "url": "http://commons.wikimedia.org/wiki/Special:FilePath/Verdi%20by%20Giovanni%20Boldini.jpg",
+      "kind": "image"
+    },
+    {
+      "id": "Adolfo_Hohenstein-m-031",
+      "label": {
+        "default": "Volta"
+      },
+      "description": "Volta",
+      "attribution": "",
+      "url": "http://commons.wikimedia.org/wiki/Special:FilePath/Alessandro%20Volta.jpeg",
+      "kind": "image"
+    }
+  ],
+  "biographies": [
+    {
+      "id": "Adolfo_Hohenstein-bio-001",
+      "text": "Adolfo Hohenstein (18 March 1854 – 12 April 1928) was a German painter, advertiser, illustrator, set designer and costume designer. Hohenstein is considered the father of Italian poster art and an exponent of the Stile Liberty, the Italian Art Nouveau. Together with Leonetto Cappiello, Giovanni Mario Mataloni, Leopoldo Metlicovitz and Marcello Dudovich, he is considered one of the most important Italian poster designers.\n\n",
+      "citation": "en_wikipedia"
+    }
+  ],
+  "vocabularies": {
+    "event-kind": [
+      {
+        "id": "event-kind-event-kind-born_in",
+        "label": {
+          "default": "place_of_birth"
+        }
+      },
+      {
+        "id": "event-kind-event-kind-child_of",
+        "label": {
+          "default": "parent_of"
+        }
+      },
+      {
+        "id": "event-kind-event-kind-parent_of",
+        "label": {
+          "default": "child_of"
+        }
+      },
+      {
+        "id": "event-kind-event-kind-lived_in",
+        "label": {
+          "default": "place_of_residence"
+        }
+      },
+      {
+        "id": "event-kind-event-kind-died_in",
+        "label": {
+          "default": "unk"
+        }
+      },
+      {
+        "id": "event-kind-event-kind-married_to",
+        "label": {
+          "default": "married_to"
+        }
+      },
+      {
+        "id": "event-kind-event-kind-employee_of",
+        "label": {
+          "default": "unk"
+        }
+      },
+      {
+        "id": "event-kind-creation",
+        "label": {
+          "default": "object_created"
+        }
+      },
+      {
+        "id": "event-kind-event-kind-settled",
+        "label": {
+          "default": "settled"
+        }
+      },
+      {
+        "id": "event-kind-event-kind-began",
+        "label": {
+          "default": "began"
+        }
+      },
+      {
+        "id": "event-kind-event-kind-traveled",
+        "label": {
+          "default": "traveled"
+        }
+      },
+      {
+        "id": "event-kind-event-kind-died",
+        "label": {
+          "default": "died"
+        }
+      }
+    ],
+    "role": [
+      {
+        "id": "role-born_in",
+        "label": {
+          "default": "born_in"
+        }
+      },
+      {
+        "id": "role-place_of_birth",
+        "label": {
+          "default": "place_of_birth"
+        }
+      },
+      {
+        "id": "role-child_of",
+        "label": {
+          "default": "child_of"
+        }
+      },
+      {
+        "id": "role-parent_of",
+        "label": {
+          "default": "parent_of"
+        }
+      },
+      {
+        "id": "role-lived_in",
+        "label": {
+          "default": "lived_in"
+        }
+      },
+      {
+        "id": "role-place_of_residence",
+        "label": {
+          "default": "place_of_residence"
+        }
+      },
+      {
+        "id": "role-died_in",
+        "label": {
+          "default": "died_in"
+        }
+      },
+      {
+        "id": "role-unk",
+        "label": {
+          "default": "unk"
+        }
+      },
+      {
+        "id": "role-married_to",
+        "label": {
+          "default": "married_to"
+        }
+      },
+      {
+        "id": "role-employee_of",
+        "label": {
+          "default": "employee_of"
+        }
+      },
+      {
+        "id": "role-related_to",
+        "label": {
+          "default": "related_to"
+        }
+      },
+      {
+        "id": "role-object_created",
+        "label": {
+          "default": "object_created"
+        }
+      },
+      {
+        "id": "role-settled",
+        "label": {
+          "default": "settled"
+        }
+      },
+      {
+        "id": "role-began",
+        "label": {
+          "default": "began"
+        }
+      },
+      {
+        "id": "role-traveled",
+        "label": {
+          "default": "traveled"
+        }
+      },
+      {
+        "id": "role-died",
+        "label": {
+          "default": "died"
+        }
+      },
+      {
+        "id": "role-died on",
+        "label": {
+          "default": "died on"
+        }
+      }
+    ]
+  },
+  "unmappedEntities": [],
+  "collections": {}
+}

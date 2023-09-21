@@ -1,0 +1,1696 @@
+{
+  "entities": [
+    {
+      "id": "Ludwig_Fahrenkrog-pr-Ludwig_Fahrenkrog",
+      "label": {
+        "default": "Ludwig Fahrenkrog"
+      },
+      "linkedIds": [
+        {
+          "label": "Ludwig_Fahrenkrog",
+          "url": "https://en.wikipedia.org/wiki/Ludwig_Fahrenkrog"
+        },
+        {
+          "label": "Q119891",
+          "url": "http://www.wikidata.org/entity/Q119891"
+        }
+      ],
+      "media": [],
+      "relations": [
+        {
+          "event": "Ludwig_Fahrenkrog-ob-001-ev-007",
+          "role": "role-related_to"
+        },
+        {
+          "event": "Ludwig_Fahrenkrog-ob-002-ev-008",
+          "role": "role-related_to"
+        },
+        {
+          "event": "Ludwig_Fahrenkrog-ob-003-ev-013",
+          "role": "role-related_to"
+        },
+        {
+          "event": "Ludwig_Fahrenkrog-ob-004-ev-020",
+          "role": "role-related_to"
+        },
+        {
+          "event": "Ludwig_Fahrenkrog-ob-005-ev-021",
+          "role": "role-related_to"
+        },
+        {
+          "event": "Ludwig_Fahrenkrog-ob-Edda-ev-022",
+          "role": "role-related_to"
+        },
+        {
+          "event": "Ludwig_Fahrenkrog-pr-Ludwig_Fahrenkrog-ev-023",
+          "role": "role-born"
+        },
+        {
+          "event": "Ludwig_Fahrenkrog-pr-Ludwig_Fahrenkrog-ev-024",
+          "role": "role-attended"
+        },
+        {
+          "event": "Ludwig_Fahrenkrog-pr-Ludwig_Fahrenkrog-ev-025",
+          "role": "role-taught"
+        },
+        {
+          "event": "Ludwig_Fahrenkrog-pr-Ludwig_Fahrenkrog-ev-026",
+          "role": "role-taught"
+        },
+        {
+          "event": "Ludwig_Fahrenkrog-pr-Ludwig_Fahrenkrog-ev-027",
+          "role": "role-appointed"
+        },
+        {
+          "event": "Ludwig_Fahrenkrog-pr-Ludwig_Fahrenkrog-ev-028",
+          "role": "role-received"
+        },
+        {
+          "event": "Ludwig_Fahrenkrog-pr-Ludwig_Fahrenkrog-ev-029",
+          "role": "role-gave"
+        },
+        {
+          "event": "Ludwig_Fahrenkrog-pr-Ludwig_Fahrenkrog-ev-030",
+          "role": "role-died on"
+        }
+      ],
+      "kind": "person",
+      "biographies": [
+        "Ludwig_Fahrenkrog-bio-001"
+      ]
+    },
+    {
+      "id": "Ludwig_Fahrenkrog-gr-001",
+      "label": {
+        "default": "GGG"
+      },
+      "linkedIds": [],
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [
+        {
+          "event": "Ludwig_Fahrenkrog-gr-001-ev-001",
+          "role": "role-alternate_name"
+        },
+        {
+          "event": "Ludwig_Fahrenkrog-gr-001-ev-001",
+          "role": "role-unk"
+        },
+        {
+          "event": "Ludwig_Fahrenkrog-gr-001-ev-002",
+          "role": "role-alternate_name"
+        },
+        {
+          "event": "Ludwig_Fahrenkrog-gr-001-ev-003",
+          "role": "role-alternate_name"
+        },
+        {
+          "event": "Ludwig_Fahrenkrog-gr-001-ev-003",
+          "role": "role-unk"
+        },
+        {
+          "event": "Ludwig_Fahrenkrog-gr-001-ev-004",
+          "role": "role-alternate_name"
+        },
+        {
+          "event": "Ludwig_Fahrenkrog-gr-017-ev-015",
+          "role": "role-unk"
+        },
+        {
+          "event": "Ludwig_Fahrenkrog-gr-Germanic_Faith-Community-ev-018",
+          "role": "role-unk"
+        },
+        {
+          "event": "Ludwig_Fahrenkrog-pr-Ludwig_Fahrenkrog-ev-029",
+          "role": "role-gave"
+        }
+      ],
+      "kind": "group",
+      "type": {}
+    },
+    {
+      "id": "Ludwig_Fahrenkrog-pr-002",
+      "label": {
+        "default": "Marcus Wolff"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "Ludwig_Fahrenkrog-pl-Rendsburg",
+      "label": {
+        "default": "Rendsburg"
+      },
+      "linkedIds": [
+        {
+          "label": "Rendsburg",
+          "url": "https://en.wikipedia.org/wiki/Rendsburg"
+        },
+        {
+          "label": "Q490457",
+          "url": "http://www.wikidata.org/entity/Q490457"
+        }
+      ],
+      "relations": [
+        {
+          "event": "Ludwig_Fahrenkrog-pr-Ludwig_Fahrenkrog-ev-023",
+          "role": "role-born"
+        }
+      ],
+      "kind": "place",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.666667,
+          54.3
+        ]
+      }
+    },
+    {
+      "id": "Ludwig_Fahrenkrog-pl-Prussia",
+      "label": {
+        "default": "Prussia"
+      },
+      "linkedIds": [
+        {
+          "label": "Prussia",
+          "url": "https://en.wikipedia.org/wiki/Prussia"
+        },
+        {
+          "label": "Q38872",
+          "url": "http://www.wikidata.org/entity/Q38872"
+        }
+      ],
+      "relations": [
+        {
+          "event": "Ludwig_Fahrenkrog-pr-Ludwig_Fahrenkrog-ev-023",
+          "role": "role-born"
+        }
+      ],
+      "kind": "place"
+    },
+    {
+      "id": "Ludwig_Fahrenkrog-gr-002",
+      "label": {
+        "default": "the Berlin Royal Art Academy"
+      },
+      "linkedIds": [],
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [
+        {
+          "event": "Ludwig_Fahrenkrog-pr-Ludwig_Fahrenkrog-ev-024",
+          "role": "role-attended"
+        }
+      ],
+      "kind": "group",
+      "type": {}
+    },
+    {
+      "id": "Ludwig_Fahrenkrog-gr-003",
+      "label": {
+        "default": "the School of Arts and Crafts"
+      },
+      "linkedIds": [],
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [
+        {
+          "event": "Ludwig_Fahrenkrog-gr-003-ev-005",
+          "role": "role-based_in"
+        },
+        {
+          "event": "Ludwig_Fahrenkrog-pr-Ludwig_Fahrenkrog-ev-025",
+          "role": "role-taught"
+        },
+        {
+          "event": "Ludwig_Fahrenkrog-pr-Ludwig_Fahrenkrog-ev-026",
+          "role": "role-taught"
+        }
+      ],
+      "kind": "group",
+      "type": {}
+    },
+    {
+      "id": "Ludwig_Fahrenkrog-pl-001",
+      "label": {
+        "default": "Bremen"
+      },
+      "linkedIds": [],
+      "relations": [
+        {
+          "event": "Ludwig_Fahrenkrog-gr-003-ev-005",
+          "role": "role-location_of"
+        },
+        {
+          "event": "Ludwig_Fahrenkrog-pl-001-ev-006",
+          "role": "role-based_in"
+        },
+        {
+          "event": "Ludwig_Fahrenkrog-pl-001-ev-006",
+          "role": "role-location_of"
+        },
+        {
+          "event": "Ludwig_Fahrenkrog-pr-Ludwig_Fahrenkrog-ev-025",
+          "role": "role-taught"
+        },
+        {
+          "event": "Ludwig_Fahrenkrog-pr-Ludwig_Fahrenkrog-ev-026",
+          "role": "role-taught"
+        }
+      ],
+      "kind": "place"
+    },
+    {
+      "id": "Ludwig_Fahrenkrog-gr-004",
+      "label": {
+        "default": "Dakota University"
+      },
+      "linkedIds": [],
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [
+        {
+          "event": "Ludwig_Fahrenkrog-pr-Ludwig_Fahrenkrog-ev-027",
+          "role": "role-appointed"
+        }
+      ],
+      "kind": "group",
+      "type": {}
+    },
+    {
+      "id": "Ludwig_Fahrenkrog-pl-002",
+      "label": {
+        "default": "Grand Palace"
+      },
+      "linkedIds": [],
+      "relations": [
+        {
+          "event": "Ludwig_Fahrenkrog-pr-Ludwig_Fahrenkrog-ev-028",
+          "role": "role-received"
+        }
+      ],
+      "kind": "place"
+    },
+    {
+      "id": "Ludwig_Fahrenkrog-pl-Munich",
+      "label": {
+        "default": "Munich"
+      },
+      "linkedIds": [
+        {
+          "label": "Munich",
+          "url": "https://en.wikipedia.org/wiki/Munich"
+        },
+        {
+          "label": "Q1726",
+          "url": "http://www.wikidata.org/entity/Q1726"
+        }
+      ],
+      "relations": [
+        {
+          "event": "Ludwig_Fahrenkrog-pr-Ludwig_Fahrenkrog-ev-028",
+          "role": "role-received"
+        }
+      ],
+      "kind": "place",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.575,
+          48.1375
+        ]
+      }
+    },
+    {
+      "id": "Ludwig_Fahrenkrog-ob-001",
+      "label": {
+        "default": "Lucifer's Lossage von Gott"
+      },
+      "linkedIds": [],
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [
+        {
+          "event": "Ludwig_Fahrenkrog-ob-001-ev-007",
+          "role": "role-object_created"
+        }
+      ],
+      "kind": "cultural-heritage-object",
+      "type": {}
+    },
+    {
+      "id": "Ludwig_Fahrenkrog-ob-002",
+      "label": {
+        "default": "Renunciation"
+      },
+      "linkedIds": [],
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [
+        {
+          "event": "Ludwig_Fahrenkrog-ob-002-ev-008",
+          "role": "role-object_created"
+        }
+      ],
+      "kind": "cultural-heritage-object",
+      "type": {}
+    },
+    {
+      "id": "Ludwig_Fahrenkrog-gr-005",
+      "label": {
+        "default": "the Deutscher Bund für Persönlichkeitskultur"
+      },
+      "linkedIds": [],
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [
+        {
+          "event": "Ludwig_Fahrenkrog-gr-005-ev-009",
+          "role": "role-alternate_name"
+        },
+        {
+          "event": "Ludwig_Fahrenkrog-gr-005-ev-010",
+          "role": "role-alternate_name"
+        },
+        {
+          "event": "Ludwig_Fahrenkrog-gr-005-ev-010",
+          "role": "role-unk"
+        },
+        {
+          "event": "Ludwig_Fahrenkrog-gr-006-ev-012",
+          "role": "role-unk"
+        }
+      ],
+      "kind": "group",
+      "type": {}
+    },
+    {
+      "id": "Ludwig_Fahrenkrog-gr-006",
+      "label": {
+        "default": "German League for the Culture of the Personality"
+      },
+      "linkedIds": [],
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [
+        {
+          "event": "Ludwig_Fahrenkrog-gr-005-ev-009",
+          "role": "role-unk"
+        },
+        {
+          "event": "Ludwig_Fahrenkrog-gr-006-ev-011",
+          "role": "role-alternate_name"
+        },
+        {
+          "event": "Ludwig_Fahrenkrog-gr-006-ev-011",
+          "role": "role-unk"
+        },
+        {
+          "event": "Ludwig_Fahrenkrog-gr-006-ev-012",
+          "role": "role-alternate_name"
+        }
+      ],
+      "kind": "group",
+      "type": {}
+    },
+    {
+      "id": "Ludwig_Fahrenkrog-ob-003",
+      "label": {
+        "default": "Mehr Licht"
+      },
+      "linkedIds": [],
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [
+        {
+          "event": "Ludwig_Fahrenkrog-ob-003-ev-013",
+          "role": "role-object_created"
+        }
+      ],
+      "kind": "cultural-heritage-object",
+      "type": {}
+    },
+    {
+      "id": "Ludwig_Fahrenkrog-pr-Goethe",
+      "label": {
+        "default": "Goethe"
+      },
+      "linkedIds": [
+        {
+          "label": "Goethe",
+          "url": "https://en.wikipedia.org/wiki/Goethe"
+        }
+      ],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "Ludwig_Fahrenkrog-gr-007",
+      "label": {
+        "default": "the Deutsche Religionsgemeinschaft"
+      },
+      "linkedIds": [],
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [],
+      "kind": "group",
+      "type": {}
+    },
+    {
+      "id": "Ludwig_Fahrenkrog-gr-008",
+      "label": {
+        "default": "German Religious Community"
+      },
+      "linkedIds": [],
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [],
+      "kind": "group",
+      "type": {}
+    },
+    {
+      "id": "Ludwig_Fahrenkrog-gr-009",
+      "label": {
+        "default": "DRG"
+      },
+      "linkedIds": [],
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [],
+      "kind": "group",
+      "type": {}
+    },
+    {
+      "id": "Ludwig_Fahrenkrog-gr-010",
+      "label": {
+        "default": "Germanisch-Deutsche Religionsgemeinschaft"
+      },
+      "linkedIds": [],
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [],
+      "kind": "group",
+      "type": {}
+    },
+    {
+      "id": "Ludwig_Fahrenkrog-gr-011",
+      "label": {
+        "default": "Germanic-German Religious Community"
+      },
+      "linkedIds": [],
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [],
+      "kind": "group",
+      "type": {}
+    },
+    {
+      "id": "Ludwig_Fahrenkrog-gr-012",
+      "label": {
+        "default": "GDRG"
+      },
+      "linkedIds": [],
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [],
+      "kind": "group",
+      "type": {}
+    },
+    {
+      "id": "Ludwig_Fahrenkrog-gr-013",
+      "label": {
+        "default": "the Deutschgläubige Gemeinschaft"
+      },
+      "linkedIds": [],
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [],
+      "kind": "group",
+      "type": {}
+    },
+    {
+      "id": "Ludwig_Fahrenkrog-gr-014",
+      "label": {
+        "default": "Association of the German Faithful"
+      },
+      "linkedIds": [],
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [],
+      "kind": "group",
+      "type": {}
+    },
+    {
+      "id": "Ludwig_Fahrenkrog-gr-015",
+      "label": {
+        "default": "DGG"
+      },
+      "linkedIds": [],
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [],
+      "kind": "group",
+      "type": {}
+    },
+    {
+      "id": "Ludwig_Fahrenkrog-gr-017",
+      "label": {
+        "default": "the Germanische Glaubens-Gemeinschaft"
+      },
+      "linkedIds": [],
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [
+        {
+          "event": "Ludwig_Fahrenkrog-gr-001-ev-002",
+          "role": "role-unk"
+        },
+        {
+          "event": "Ludwig_Fahrenkrog-gr-017-ev-014",
+          "role": "role-alternate_name"
+        },
+        {
+          "event": "Ludwig_Fahrenkrog-gr-017-ev-015",
+          "role": "role-alternate_name"
+        },
+        {
+          "event": "Ludwig_Fahrenkrog-gr-017-ev-016",
+          "role": "role-alternate_name"
+        },
+        {
+          "event": "Ludwig_Fahrenkrog-gr-017-ev-016",
+          "role": "role-unk"
+        }
+      ],
+      "kind": "group",
+      "type": {}
+    },
+    {
+      "id": "Ludwig_Fahrenkrog-gr-Germanic_Faith-Community",
+      "label": {
+        "default": "Germanic Faith-Community"
+      },
+      "linkedIds": [
+        {
+          "label": "Germanic_Faith-Community",
+          "url": "https://en.wikipedia.org/wiki/Germanic_Faith-Community"
+        }
+      ],
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [
+        {
+          "event": "Ludwig_Fahrenkrog-gr-001-ev-004",
+          "role": "role-unk"
+        },
+        {
+          "event": "Ludwig_Fahrenkrog-gr-017-ev-014",
+          "role": "role-unk"
+        },
+        {
+          "event": "Ludwig_Fahrenkrog-gr-Germanic_Faith-Community-ev-017",
+          "role": "role-alternate_name"
+        },
+        {
+          "event": "Ludwig_Fahrenkrog-gr-Germanic_Faith-Community-ev-017",
+          "role": "role-unk"
+        },
+        {
+          "event": "Ludwig_Fahrenkrog-gr-Germanic_Faith-Community-ev-018",
+          "role": "role-alternate_name"
+        },
+        {
+          "event": "Ludwig_Fahrenkrog-gr-Germanic_Faith-Community-ev-019",
+          "role": "role-alternate_name"
+        },
+        {
+          "event": "Ludwig_Fahrenkrog-gr-Germanic_Faith-Community-ev-019",
+          "role": "role-unk"
+        }
+      ],
+      "kind": "group",
+      "type": {}
+    },
+    {
+      "id": "Ludwig_Fahrenkrog-ob-004",
+      "label": {
+        "default": "Das Deutsche Buch"
+      },
+      "linkedIds": [],
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [
+        {
+          "event": "Ludwig_Fahrenkrog-ob-004-ev-020",
+          "role": "role-object_created"
+        }
+      ],
+      "kind": "cultural-heritage-object",
+      "type": {}
+    },
+    {
+      "id": "Ludwig_Fahrenkrog-ob-005",
+      "label": {
+        "default": "The German Book"
+      },
+      "linkedIds": [],
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [
+        {
+          "event": "Ludwig_Fahrenkrog-ob-005-ev-021",
+          "role": "role-object_created"
+        }
+      ],
+      "kind": "cultural-heritage-object",
+      "type": {}
+    },
+    {
+      "id": "Ludwig_Fahrenkrog-pr-003",
+      "label": {
+        "default": "Adolf Kroll"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "Ludwig_Fahrenkrog-ob-Edda",
+      "label": {
+        "default": "Edda"
+      },
+      "linkedIds": [
+        {
+          "label": "Edda",
+          "url": "https://en.wikipedia.org/wiki/Edda"
+        },
+        {
+          "label": "Q108652",
+          "url": "http://www.wikidata.org/entity/Q108652"
+        }
+      ],
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [
+        {
+          "event": "Ludwig_Fahrenkrog-ob-Edda-ev-022",
+          "role": "role-object_created"
+        }
+      ],
+      "kind": "cultural-heritage-object",
+      "type": {},
+      "media": [
+        "Ludwig_Fahrenkrog-m-002"
+      ]
+    },
+    {
+      "id": "Ludwig_Fahrenkrog-pr-004",
+      "label": {
+        "default": "Kroll"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "Ludwig_Fahrenkrog-pr-005",
+      "label": {
+        "default": "Hitler"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "Ludwig_Fahrenkrog-gr-018",
+      "label": {
+        "default": "Berlin Royal Art Academy"
+      },
+      "linkedIds": [],
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [
+        {
+          "event": "Ludwig_Fahrenkrog-pr-Ludwig_Fahrenkrog-ev-024",
+          "role": "role-attended"
+        }
+      ],
+      "kind": "group",
+      "type": {}
+    },
+    {
+      "id": "Ludwig_Fahrenkrog-gr-019",
+      "label": {
+        "default": "School of Arts and Crafts"
+      },
+      "linkedIds": [],
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [
+        {
+          "event": "Ludwig_Fahrenkrog-pr-Ludwig_Fahrenkrog-ev-025",
+          "role": "role-taught"
+        },
+        {
+          "event": "Ludwig_Fahrenkrog-pr-Ludwig_Fahrenkrog-ev-026",
+          "role": "role-taught"
+        }
+      ],
+      "kind": "group",
+      "type": {}
+    },
+    {
+      "id": "Ludwig_Fahrenkrog-pr-Lucifer",
+      "label": {
+        "default": "Lucifer"
+      },
+      "linkedIds": [
+        {
+          "label": "Lucifer",
+          "url": "https://en.wikipedia.org/wiki/Lucifer"
+        },
+        {
+          "label": "Q185498",
+          "url": "http://www.wikidata.org/entity/Q185498"
+        }
+      ],
+      "media": [
+        "Ludwig_Fahrenkrog-m-004"
+      ],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "Ludwig_Fahrenkrog-pr-006",
+      "label": {
+        "default": "Lossage von Gott"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "Ludwig_Fahrenkrog-pr-007",
+      "label": {
+        "default": "Lucifer 's Renunciation of God"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "Ludwig_Fahrenkrog-gr-020",
+      "label": {
+        "default": "Persönlichkeitskultur"
+      },
+      "linkedIds": [],
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [],
+      "kind": "group",
+      "type": {}
+    },
+    {
+      "id": "Ludwig_Fahrenkrog-gr-021",
+      "label": {
+        "default": "Deutsche Religionsgemeinschaft"
+      },
+      "linkedIds": [],
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [],
+      "kind": "group",
+      "type": {}
+    },
+    {
+      "id": "Ludwig_Fahrenkrog-gr-022",
+      "label": {
+        "default": "Germanisch"
+      },
+      "linkedIds": [],
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [],
+      "kind": "group",
+      "type": {}
+    },
+    {
+      "id": "Ludwig_Fahrenkrog-gr-025",
+      "label": {
+        "default": "Deutschgläubige Gemeinschaft"
+      },
+      "linkedIds": [],
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [],
+      "kind": "group",
+      "type": {}
+    },
+    {
+      "id": "Ludwig_Fahrenkrog-gr-026",
+      "label": {
+        "default": "Germanische Glaubens"
+      },
+      "linkedIds": [],
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [],
+      "kind": "group",
+      "type": {}
+    },
+    {
+      "id": "Ludwig_Fahrenkrog-gr-027",
+      "label": {
+        "default": "Gemeinschaft"
+      },
+      "linkedIds": [],
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [],
+      "kind": "group",
+      "type": {}
+    },
+    {
+      "id": "Ludwig_Fahrenkrog-gr-028",
+      "label": {
+        "default": "Germanic Faith"
+      },
+      "linkedIds": [],
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [],
+      "kind": "group",
+      "type": {}
+    },
+    {
+      "id": "Ludwig_Fahrenkrog-gr-029",
+      "label": {
+        "default": "Community"
+      },
+      "linkedIds": [],
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [],
+      "kind": "group",
+      "type": {}
+    }
+  ],
+  "events": [
+    {
+      "id": "Ludwig_Fahrenkrog-gr-001-ev-001",
+      "label": {
+        "default": "GGG"
+      },
+      "kind": "event-kind-event-kind-alternate_name",
+      "relations": [
+        {
+          "entity": "Ludwig_Fahrenkrog-gr-001",
+          "role": "role-unk"
+        },
+        {
+          "entity": "Ludwig_Fahrenkrog-gr-017",
+          "role": "role-alternate_name"
+        }
+      ]
+    },
+    {
+      "id": "Ludwig_Fahrenkrog-gr-001-ev-002",
+      "label": {
+        "default": "the Germanische Glaubens-Gemeinschaft"
+      },
+      "kind": "event-kind-event-kind-alternate_name",
+      "relations": [
+        {
+          "entity": "Ludwig_Fahrenkrog-gr-017",
+          "role": "role-unk"
+        },
+        {
+          "entity": "Ludwig_Fahrenkrog-gr-001",
+          "role": "role-alternate_name"
+        }
+      ]
+    },
+    {
+      "id": "Ludwig_Fahrenkrog-gr-001-ev-003",
+      "label": {
+        "default": "GGG"
+      },
+      "kind": "event-kind-event-kind-alternate_name",
+      "relations": [
+        {
+          "entity": "Ludwig_Fahrenkrog-gr-001",
+          "role": "role-unk"
+        },
+        {
+          "entity": "Ludwig_Fahrenkrog-gr-Germanic_Faith-Community",
+          "role": "role-alternate_name"
+        }
+      ]
+    },
+    {
+      "id": "Ludwig_Fahrenkrog-gr-001-ev-004",
+      "label": {
+        "default": "Germanic Faith-Community"
+      },
+      "kind": "event-kind-event-kind-alternate_name",
+      "relations": [
+        {
+          "entity": "Ludwig_Fahrenkrog-gr-Germanic_Faith-Community",
+          "role": "role-unk"
+        },
+        {
+          "entity": "Ludwig_Fahrenkrog-gr-001",
+          "role": "role-alternate_name"
+        }
+      ]
+    },
+    {
+      "id": "Ludwig_Fahrenkrog-gr-003-ev-005",
+      "label": {
+        "default": "Bremen"
+      },
+      "kind": "event-kind-event-kind-based_in",
+      "relations": [
+        {
+          "entity": "Ludwig_Fahrenkrog-pl-001",
+          "role": "role-location_of"
+        },
+        {
+          "entity": "Ludwig_Fahrenkrog-gr-003",
+          "role": "role-based_in"
+        }
+      ]
+    },
+    {
+      "id": "Ludwig_Fahrenkrog-pl-001-ev-006",
+      "label": {
+        "default": "Bremen"
+      },
+      "kind": "event-kind-event-kind-based_in",
+      "relations": [
+        {
+          "entity": "Ludwig_Fahrenkrog-pl-001",
+          "role": "role-location_of"
+        },
+        {
+          "entity": "Ludwig_Fahrenkrog-gr-003",
+          "role": "role-based_in"
+        }
+      ]
+    },
+    {
+      "id": "Ludwig_Fahrenkrog-ob-001-ev-007",
+      "label": {
+        "default": "Lucifer's Lossage von Gott"
+      },
+      "kind": "event-kind-creation",
+      "relations": [
+        {
+          "entity": "Ludwig_Fahrenkrog-ob-001",
+          "role": "role-object_created"
+        },
+        {
+          "entity": "Ludwig_Fahrenkrog-pr-Ludwig_Fahrenkrog",
+          "role": "role-related_to"
+        }
+      ]
+    },
+    {
+      "id": "Ludwig_Fahrenkrog-ob-002-ev-008",
+      "label": {
+        "default": "Renunciation"
+      },
+      "kind": "event-kind-creation",
+      "relations": [
+        {
+          "entity": "Ludwig_Fahrenkrog-ob-002",
+          "role": "role-object_created"
+        },
+        {
+          "entity": "Ludwig_Fahrenkrog-pr-Ludwig_Fahrenkrog",
+          "role": "role-related_to"
+        }
+      ]
+    },
+    {
+      "id": "Ludwig_Fahrenkrog-gr-005-ev-009",
+      "label": {
+        "default": "German League for the Culture of the Personality"
+      },
+      "kind": "event-kind-event-kind-alternate_name",
+      "relations": [
+        {
+          "entity": "Ludwig_Fahrenkrog-gr-006",
+          "role": "role-unk"
+        },
+        {
+          "entity": "Ludwig_Fahrenkrog-gr-005",
+          "role": "role-alternate_name"
+        }
+      ]
+    },
+    {
+      "id": "Ludwig_Fahrenkrog-gr-005-ev-010",
+      "label": {
+        "default": "the Deutscher Bund für Persönlichkeitskultur"
+      },
+      "kind": "event-kind-event-kind-alternate_name",
+      "relations": [
+        {
+          "entity": "Ludwig_Fahrenkrog-gr-005",
+          "role": "role-unk"
+        },
+        {
+          "entity": "Ludwig_Fahrenkrog-gr-006",
+          "role": "role-alternate_name"
+        }
+      ]
+    },
+    {
+      "id": "Ludwig_Fahrenkrog-gr-006-ev-011",
+      "label": {
+        "default": "German League for the Culture of the Personality"
+      },
+      "kind": "event-kind-event-kind-alternate_name",
+      "relations": [
+        {
+          "entity": "Ludwig_Fahrenkrog-gr-006",
+          "role": "role-unk"
+        },
+        {
+          "entity": "Ludwig_Fahrenkrog-gr-005",
+          "role": "role-alternate_name"
+        }
+      ]
+    },
+    {
+      "id": "Ludwig_Fahrenkrog-gr-006-ev-012",
+      "label": {
+        "default": "the Deutscher Bund für Persönlichkeitskultur"
+      },
+      "kind": "event-kind-event-kind-alternate_name",
+      "relations": [
+        {
+          "entity": "Ludwig_Fahrenkrog-gr-005",
+          "role": "role-unk"
+        },
+        {
+          "entity": "Ludwig_Fahrenkrog-gr-006",
+          "role": "role-alternate_name"
+        }
+      ]
+    },
+    {
+      "id": "Ludwig_Fahrenkrog-ob-003-ev-013",
+      "label": {
+        "default": "Mehr Licht"
+      },
+      "kind": "event-kind-creation",
+      "relations": [
+        {
+          "entity": "Ludwig_Fahrenkrog-ob-003",
+          "role": "role-object_created"
+        },
+        {
+          "entity": "Ludwig_Fahrenkrog-pr-Ludwig_Fahrenkrog",
+          "role": "role-related_to"
+        }
+      ]
+    },
+    {
+      "id": "Ludwig_Fahrenkrog-gr-017-ev-014",
+      "label": {
+        "default": "Germanic Faith-Community"
+      },
+      "kind": "event-kind-event-kind-alternate_name",
+      "relations": [
+        {
+          "entity": "Ludwig_Fahrenkrog-gr-Germanic_Faith-Community",
+          "role": "role-unk"
+        },
+        {
+          "entity": "Ludwig_Fahrenkrog-gr-017",
+          "role": "role-alternate_name"
+        }
+      ]
+    },
+    {
+      "id": "Ludwig_Fahrenkrog-gr-017-ev-015",
+      "label": {
+        "default": "GGG"
+      },
+      "kind": "event-kind-event-kind-alternate_name",
+      "relations": [
+        {
+          "entity": "Ludwig_Fahrenkrog-gr-001",
+          "role": "role-unk"
+        },
+        {
+          "entity": "Ludwig_Fahrenkrog-gr-017",
+          "role": "role-alternate_name"
+        }
+      ]
+    },
+    {
+      "id": "Ludwig_Fahrenkrog-gr-017-ev-016",
+      "label": {
+        "default": "the Germanische Glaubens-Gemeinschaft"
+      },
+      "kind": "event-kind-event-kind-alternate_name",
+      "relations": [
+        {
+          "entity": "Ludwig_Fahrenkrog-gr-017",
+          "role": "role-unk"
+        },
+        {
+          "entity": "Ludwig_Fahrenkrog-gr-001",
+          "role": "role-alternate_name"
+        }
+      ]
+    },
+    {
+      "id": "Ludwig_Fahrenkrog-gr-Germanic_Faith-Community-ev-017",
+      "label": {
+        "default": "Germanic Faith-Community"
+      },
+      "kind": "event-kind-event-kind-alternate_name",
+      "relations": [
+        {
+          "entity": "Ludwig_Fahrenkrog-gr-Germanic_Faith-Community",
+          "role": "role-unk"
+        },
+        {
+          "entity": "Ludwig_Fahrenkrog-gr-017",
+          "role": "role-alternate_name"
+        }
+      ]
+    },
+    {
+      "id": "Ludwig_Fahrenkrog-gr-Germanic_Faith-Community-ev-018",
+      "label": {
+        "default": "GGG"
+      },
+      "kind": "event-kind-event-kind-alternate_name",
+      "relations": [
+        {
+          "entity": "Ludwig_Fahrenkrog-gr-001",
+          "role": "role-unk"
+        },
+        {
+          "entity": "Ludwig_Fahrenkrog-gr-Germanic_Faith-Community",
+          "role": "role-alternate_name"
+        }
+      ]
+    },
+    {
+      "id": "Ludwig_Fahrenkrog-gr-Germanic_Faith-Community-ev-019",
+      "label": {
+        "default": "Germanic Faith-Community"
+      },
+      "kind": "event-kind-event-kind-alternate_name",
+      "relations": [
+        {
+          "entity": "Ludwig_Fahrenkrog-gr-Germanic_Faith-Community",
+          "role": "role-unk"
+        },
+        {
+          "entity": "Ludwig_Fahrenkrog-gr-001",
+          "role": "role-alternate_name"
+        }
+      ]
+    },
+    {
+      "id": "Ludwig_Fahrenkrog-ob-004-ev-020",
+      "label": {
+        "default": "Das Deutsche Buch"
+      },
+      "kind": "event-kind-creation",
+      "relations": [
+        {
+          "entity": "Ludwig_Fahrenkrog-ob-004",
+          "role": "role-object_created"
+        },
+        {
+          "entity": "Ludwig_Fahrenkrog-pr-Ludwig_Fahrenkrog",
+          "role": "role-related_to"
+        }
+      ]
+    },
+    {
+      "id": "Ludwig_Fahrenkrog-ob-005-ev-021",
+      "label": {
+        "default": "The German Book"
+      },
+      "kind": "event-kind-creation",
+      "relations": [
+        {
+          "entity": "Ludwig_Fahrenkrog-ob-005",
+          "role": "role-object_created"
+        },
+        {
+          "entity": "Ludwig_Fahrenkrog-pr-Ludwig_Fahrenkrog",
+          "role": "role-related_to"
+        }
+      ]
+    },
+    {
+      "id": "Ludwig_Fahrenkrog-ob-Edda-ev-022",
+      "label": {
+        "default": "Edda"
+      },
+      "kind": "event-kind-creation",
+      "relations": [
+        {
+          "entity": "Ludwig_Fahrenkrog-ob-Edda",
+          "role": "role-object_created"
+        },
+        {
+          "entity": "Ludwig_Fahrenkrog-pr-Ludwig_Fahrenkrog",
+          "role": "role-related_to"
+        }
+      ]
+    },
+    {
+      "id": "Ludwig_Fahrenkrog-pr-Ludwig_Fahrenkrog-ev-023",
+      "label": {
+        "default": "Fahrenkrog born  in 1867 in Rendsburg , Prussia"
+      },
+      "kind": "event-kind-born",
+      "relations": [
+        {
+          "entity": "Ludwig_Fahrenkrog-pr-Ludwig_Fahrenkrog",
+          "role": "role-related_to"
+        },
+        {
+          "entity": "Ludwig_Fahrenkrog-pl-Rendsburg",
+          "role": "role-born"
+        },
+        {
+          "entity": "Ludwig_Fahrenkrog-pl-Prussia",
+          "role": "role-born"
+        }
+      ],
+      "startDate": "1867-01-01"
+    },
+    {
+      "id": "Ludwig_Fahrenkrog-pr-Ludwig_Fahrenkrog-ev-024",
+      "label": {
+        "default": "Fahrenkrog attended the Berlin Royal Art Academy before being appointed a professor in 1913"
+      },
+      "kind": "event-kind-attended",
+      "relations": [
+        {
+          "entity": "Ludwig_Fahrenkrog-pr-Ludwig_Fahrenkrog",
+          "role": "role-related_to"
+        },
+        {
+          "entity": "Ludwig_Fahrenkrog-gr-002",
+          "role": "role-attended"
+        },
+        {
+          "entity": "Ludwig_Fahrenkrog-gr-018",
+          "role": "role-attended"
+        }
+      ],
+      "startDate": "1913-01-01"
+    },
+    {
+      "id": "Ludwig_Fahrenkrog-pr-Ludwig_Fahrenkrog-ev-025",
+      "label": {
+        "default": "Fahrenkrog taught  from 1898 to 1931 at the School of Arts and Crafts in Bremen"
+      },
+      "kind": "event-kind-taught",
+      "relations": [
+        {
+          "entity": "Ludwig_Fahrenkrog-pr-Ludwig_Fahrenkrog",
+          "role": "role-related_to"
+        },
+        {
+          "entity": "Ludwig_Fahrenkrog-gr-003",
+          "role": "role-taught"
+        },
+        {
+          "entity": "Ludwig_Fahrenkrog-pl-001",
+          "role": "role-taught"
+        },
+        {
+          "entity": "Ludwig_Fahrenkrog-gr-019",
+          "role": "role-taught"
+        }
+      ],
+      "startDate": "1898-01-01"
+    },
+    {
+      "id": "Ludwig_Fahrenkrog-pr-Ludwig_Fahrenkrog-ev-026",
+      "label": {
+        "default": "Fahrenkrog taught  from 1898 to 1931 at the School of Arts and Crafts in Bremen"
+      },
+      "kind": "event-kind-taught",
+      "relations": [
+        {
+          "entity": "Ludwig_Fahrenkrog-pr-Ludwig_Fahrenkrog",
+          "role": "role-related_to"
+        },
+        {
+          "entity": "Ludwig_Fahrenkrog-gr-003",
+          "role": "role-taught"
+        },
+        {
+          "entity": "Ludwig_Fahrenkrog-pl-001",
+          "role": "role-taught"
+        },
+        {
+          "entity": "Ludwig_Fahrenkrog-gr-019",
+          "role": "role-taught"
+        }
+      ],
+      "startDate": "1931-01-01"
+    },
+    {
+      "id": "Ludwig_Fahrenkrog-pr-Ludwig_Fahrenkrog-ev-027",
+      "label": {
+        "default": "Fahrenkrog appointed a guest professorship at Dakota University in 1925"
+      },
+      "kind": "event-kind-appointed",
+      "relations": [
+        {
+          "entity": "Ludwig_Fahrenkrog-pr-Ludwig_Fahrenkrog",
+          "role": "role-related_to"
+        },
+        {
+          "entity": "Ludwig_Fahrenkrog-gr-004",
+          "role": "role-appointed"
+        }
+      ],
+      "startDate": "1925-01-01"
+    },
+    {
+      "id": "Ludwig_Fahrenkrog-pr-Ludwig_Fahrenkrog-ev-028",
+      "label": {
+        "default": "Fahrenkrog received first prize In 1928 at the Grand Palace exhibition in Munich"
+      },
+      "kind": "event-kind-received",
+      "relations": [
+        {
+          "entity": "Ludwig_Fahrenkrog-pr-Ludwig_Fahrenkrog",
+          "role": "role-related_to"
+        },
+        {
+          "entity": "Ludwig_Fahrenkrog-pl-002",
+          "role": "role-received"
+        },
+        {
+          "entity": "Ludwig_Fahrenkrog-pl-Munich",
+          "role": "role-received"
+        }
+      ],
+      "startDate": "1928-01-01"
+    },
+    {
+      "id": "Ludwig_Fahrenkrog-pr-Ludwig_Fahrenkrog-ev-029",
+      "label": {
+        "default": "Fahrenkrog gave a speech that emphasized the non - political nature of the group , and stated the goal of \" ascent and united will of all Germanic people In 1923 , the GGG 's sixth year of existence"
+      },
+      "kind": "event-kind-gave",
+      "relations": [
+        {
+          "entity": "Ludwig_Fahrenkrog-pr-Ludwig_Fahrenkrog",
+          "role": "role-related_to"
+        },
+        {
+          "entity": "Ludwig_Fahrenkrog-gr-001",
+          "role": "role-gave"
+        }
+      ],
+      "startDate": "1923-01-01"
+    },
+    {
+      "id": "Ludwig_Fahrenkrog-pr-Ludwig_Fahrenkrog-ev-030",
+      "label": {
+        "default": "Fahrenkrog died on 1952-10-27"
+      },
+      "kind": "event-kind-died on",
+      "relations": [
+        {
+          "entity": "Ludwig_Fahrenkrog-pr-Ludwig_Fahrenkrog",
+          "role": "role-related_to"
+        }
+      ],
+      "startDate": "1952-10-27"
+    }
+  ],
+  "media": [
+    {
+      "id": "Ludwig_Fahrenkrog-m-002",
+      "label": {
+        "default": "Edda"
+      },
+      "description": "Edda",
+      "attribution": "",
+      "url": "http://commons.wikimedia.org/wiki/Special:FilePath/Edda.jpg",
+      "kind": "image"
+    },
+    {
+      "id": "Ludwig_Fahrenkrog-m-003",
+      "label": {
+        "default": "Edda"
+      },
+      "description": "Edda",
+      "attribution": "",
+      "url": "http://commons.wikimedia.org/wiki/Special:FilePath/Edda.jpg",
+      "kind": "image"
+    },
+    {
+      "id": "Ludwig_Fahrenkrog-m-004",
+      "label": {
+        "default": "Lucifer"
+      },
+      "description": "Lucifer",
+      "attribution": "",
+      "url": "http://commons.wikimedia.org/wiki/Special:FilePath/Lucifer%20%28the%20morning%20star%29.%20Engraving%20by%20G.H.%20Frezza%2C%201704%2C%20Wellcome%20V0035916.jpg",
+      "kind": "image"
+    }
+  ],
+  "biographies": [
+    {
+      "id": "Ludwig_Fahrenkrog-bio-001",
+      "text": "Ludwig Fahrenkrog (20 October 1867 – 27 October 1952) was a German painter, illustrator, sculptor and writer. He was born in Rendsburg, Prussia, in 1867. He started his career as an artist in his youth, and attended the Berlin Royal Art Academy before being appointed a professor in 1913. He taught at the School of Arts and Crafts in Bremen from 1898 to 1931. He was also involved in the founding of a series of modern Pagan religious groups in the early 20th century, as part of a movement to create what its adherents referred to as a \"Germanic religious community\".\n\n",
+      "citation": "en_wikipedia"
+    }
+  ],
+  "vocabularies": {
+    "event-kind": [
+      {
+        "id": "event-kind-event-kind-alternate_name",
+        "label": {
+          "default": "unk"
+        }
+      },
+      {
+        "id": "event-kind-event-kind-based_in",
+        "label": {
+          "default": "location_of"
+        }
+      },
+      {
+        "id": "event-kind-creation",
+        "label": {
+          "default": "object_created"
+        }
+      },
+      {
+        "id": "event-kind-event-kind-born",
+        "label": {
+          "default": "born"
+        }
+      },
+      {
+        "id": "event-kind-event-kind-attended",
+        "label": {
+          "default": "attended"
+        }
+      },
+      {
+        "id": "event-kind-event-kind-taught",
+        "label": {
+          "default": "taught"
+        }
+      },
+      {
+        "id": "event-kind-event-kind-appointed",
+        "label": {
+          "default": "appointed"
+        }
+      },
+      {
+        "id": "event-kind-event-kind-received",
+        "label": {
+          "default": "received"
+        }
+      },
+      {
+        "id": "event-kind-event-kind-gave",
+        "label": {
+          "default": "gave"
+        }
+      }
+    ],
+    "role": [
+      {
+        "id": "role-alternate_name",
+        "label": {
+          "default": "alternate_name"
+        }
+      },
+      {
+        "id": "role-unk",
+        "label": {
+          "default": "unk"
+        }
+      },
+      {
+        "id": "role-based_in",
+        "label": {
+          "default": "based_in"
+        }
+      },
+      {
+        "id": "role-location_of",
+        "label": {
+          "default": "location_of"
+        }
+      },
+      {
+        "id": "role-related_to",
+        "label": {
+          "default": "related_to"
+        }
+      },
+      {
+        "id": "role-object_created",
+        "label": {
+          "default": "object_created"
+        }
+      },
+      {
+        "id": "role-born",
+        "label": {
+          "default": "born"
+        }
+      },
+      {
+        "id": "role-attended",
+        "label": {
+          "default": "attended"
+        }
+      },
+      {
+        "id": "role-taught",
+        "label": {
+          "default": "taught"
+        }
+      },
+      {
+        "id": "role-appointed",
+        "label": {
+          "default": "appointed"
+        }
+      },
+      {
+        "id": "role-received",
+        "label": {
+          "default": "received"
+        }
+      },
+      {
+        "id": "role-gave",
+        "label": {
+          "default": "gave"
+        }
+      },
+      {
+        "id": "role-died on",
+        "label": {
+          "default": "died on"
+        }
+      }
+    ]
+  },
+  "unmappedEntities": [],
+  "collections": {}
+}

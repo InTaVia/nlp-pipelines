@@ -4,7 +4,6 @@
 .DS_Store
 # english/resources/
 cheche*
-Art_nouveau/
 english/data/wikipedia/top*/*
 english/data/wikipedia/women_*
 english/flask_app/

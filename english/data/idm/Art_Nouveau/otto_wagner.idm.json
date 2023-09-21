@@ -1,0 +1,4608 @@
+{
+  "entities": [
+    {
+      "id": "Otto_Wagner-pr-Otto_Wagner",
+      "label": {
+        "default": "Otto Koloman Wagner"
+      },
+      "linkedIds": [],
+      "media": [
+        "Otto_Wagner-m-001"
+      ],
+      "relations": [
+        {
+          "event": "Otto_Wagner-pr-Otto_Wagner-ev-001",
+          "role": "role-born_in"
+        },
+        {
+          "event": "Otto_Wagner-pr-Otto_Wagner-ev-002",
+          "role": "role-born_in"
+        },
+        {
+          "event": "Otto_Wagner-pr-Otto_Wagner-ev-003",
+          "role": "role-employee_of"
+        },
+        {
+          "event": "Otto_Wagner-pr-Otto_Wagner-ev-004",
+          "role": "role-died_in"
+        },
+        {
+          "event": "Otto_Wagner-pr-Otto_Wagner-ev-005",
+          "role": "role-died_in"
+        },
+        {
+          "event": "Otto_Wagner-ob-001-ev-028",
+          "role": "role-related_to"
+        },
+        {
+          "event": "Otto_Wagner-ob-003-ev-031",
+          "role": "role-related_to"
+        },
+        {
+          "event": "Otto_Wagner-ob-004-ev-035",
+          "role": "role-related_to"
+        },
+        {
+          "event": "Otto_Wagner-ob-005-ev-037",
+          "role": "role-related_to"
+        },
+        {
+          "event": "Otto_Wagner-ob-007-ev-038",
+          "role": "role-related_to"
+        },
+        {
+          "event": "Otto_Wagner-ob-008-ev-039",
+          "role": "role-related_to"
+        },
+        {
+          "event": "Otto_Wagner-ob-009-ev-041",
+          "role": "role-related_to"
+        },
+        {
+          "event": "Otto_Wagner-pr-Otto_Wagner-ev-042",
+          "role": "role-was"
+        },
+        {
+          "event": "Otto_Wagner-pr-Otto_Wagner-ev-043",
+          "role": "role-born"
+        },
+        {
+          "event": "Otto_Wagner-pr-Otto_Wagner-ev-044",
+          "role": "role-traveled"
+        },
+        {
+          "event": "Otto_Wagner-pr-Otto_Wagner-ev-045",
+          "role": "role-studied"
+        },
+        {
+          "event": "Otto_Wagner-pr-Otto_Wagner-ev-046",
+          "role": "role-returned"
+        },
+        {
+          "event": "Otto_Wagner-pr-Otto_Wagner-ev-047",
+          "role": "role-described"
+        },
+        {
+          "event": "Otto_Wagner-pr-Otto_Wagner-ev-048",
+          "role": "role-wrote"
+        },
+        {
+          "event": "Otto_Wagner-pr-Otto_Wagner-ev-049",
+          "role": "role-began"
+        },
+        {
+          "event": "Otto_Wagner-pr-Otto_Wagner-ev-050",
+          "role": "role-designed"
+        },
+        {
+          "event": "Otto_Wagner-pr-Otto_Wagner-ev-051",
+          "role": "role-won"
+        },
+        {
+          "event": "Otto_Wagner-pr-Otto_Wagner-ev-052",
+          "role": "role-modified"
+        },
+        {
+          "event": "Otto_Wagner-pr-Otto_Wagner-ev-053",
+          "role": "role-became"
+        },
+        {
+          "event": "Otto_Wagner-pr-Otto_Wagner-ev-054",
+          "role": "role-named"
+        },
+        {
+          "event": "Otto_Wagner-pr-Otto_Wagner-ev-055",
+          "role": "role-became"
+        },
+        {
+          "event": "Otto_Wagner-pr-Otto_Wagner-ev-056",
+          "role": "role-expressed"
+        },
+        {
+          "event": "Otto_Wagner-pr-Otto_Wagner-ev-057",
+          "role": "role-published"
+        },
+        {
+          "event": "Otto_Wagner-pr-Otto_Wagner-ev-058",
+          "role": "role-aligned"
+        },
+        {
+          "event": "Otto_Wagner-pr-Otto_Wagner-ev-059",
+          "role": "role-had"
+        },
+        {
+          "event": "Otto_Wagner-pr-Otto_Wagner-ev-060",
+          "role": "role-achieved"
+        },
+        {
+          "event": "Otto_Wagner-pr-Otto_Wagner-ev-061",
+          "role": "role-published"
+        },
+        {
+          "event": "Otto_Wagner-pr-Otto_Wagner-ev-062",
+          "role": "role-traveled"
+        },
+        {
+          "event": "Otto_Wagner-pr-Otto_Wagner-ev-063",
+          "role": "role-participated"
+        },
+        {
+          "event": "Otto_Wagner-pr-Otto_Wagner-ev-064",
+          "role": "role-named"
+        },
+        {
+          "event": "Otto_Wagner-pr-Otto_Wagner-ev-065",
+          "role": "role-proposed"
+        },
+        {
+          "event": "Otto_Wagner-pr-Otto_Wagner-ev-066",
+          "role": "role-became"
+        },
+        {
+          "event": "Otto_Wagner-pr-Otto_Wagner-ev-067",
+          "role": "role-sold"
+        },
+        {
+          "event": "Otto_Wagner-pr-Otto_Wagner-ev-068",
+          "role": "role-died on"
+        }
+      ],
+      "kind": "person",
+      "biographies": [
+        "Otto_Wagner-bio-001"
+      ]
+    },
+    {
+      "id": "Otto_Wagner-pl-Vienna",
+      "label": {
+        "default": "Vienna"
+      },
+      "linkedIds": [
+        {
+          "label": "Vienna",
+          "url": "https://en.wikipedia.org/wiki/Vienna"
+        },
+        {
+          "label": "Q1741",
+          "url": "http://www.wikidata.org/entity/Q1741"
+        }
+      ],
+      "relations": [
+        {
+          "event": "Otto_Wagner-pr-Otto_Wagner-ev-002",
+          "role": "role-place_of_birth"
+        },
+        {
+          "event": "Otto_Wagner-pr-Otto_Wagner-ev-005",
+          "role": "role-unk"
+        },
+        {
+          "event": "Otto_Wagner-pl-Vienna-ev-006",
+          "role": "role-born_in"
+        },
+        {
+          "event": "Otto_Wagner-pl-Vienna-ev-006",
+          "role": "role-place_of_birth"
+        },
+        {
+          "event": "Otto_Wagner-pl-Vienna-ev-007",
+          "role": "role-based_in"
+        },
+        {
+          "event": "Otto_Wagner-pl-Vienna-ev-007",
+          "role": "role-location_of"
+        },
+        {
+          "event": "Otto_Wagner-pl-Vienna-ev-008",
+          "role": "role-based_in"
+        },
+        {
+          "event": "Otto_Wagner-pl-Vienna-ev-008",
+          "role": "role-location_of"
+        },
+        {
+          "event": "Otto_Wagner-pl-Vienna-ev-009",
+          "role": "role-based_in"
+        },
+        {
+          "event": "Otto_Wagner-pl-Vienna-ev-009",
+          "role": "role-location_of"
+        },
+        {
+          "event": "Otto_Wagner-pl-Vienna-ev-010",
+          "role": "role-based_in"
+        },
+        {
+          "event": "Otto_Wagner-pl-Vienna-ev-010",
+          "role": "role-location_of"
+        },
+        {
+          "event": "Otto_Wagner-pl-Vienna-ev-011",
+          "role": "role-based_in"
+        },
+        {
+          "event": "Otto_Wagner-pl-Vienna-ev-011",
+          "role": "role-location_of"
+        },
+        {
+          "event": "Otto_Wagner-pl-Vienna-ev-012",
+          "role": "role-died_in"
+        },
+        {
+          "event": "Otto_Wagner-pl-Vienna-ev-012",
+          "role": "role-unk"
+        },
+        {
+          "event": "Otto_Wagner-gr-Länderbank-ev-029",
+          "role": "role-location_of"
+        },
+        {
+          "event": "Otto_Wagner-gr-008-ev-032",
+          "role": "role-location_of"
+        },
+        {
+          "event": "Otto_Wagner-gr-009-ev-033",
+          "role": "role-location_of"
+        },
+        {
+          "event": "Otto_Wagner-pl-021-ev-034",
+          "role": "role-location_of"
+        },
+        {
+          "event": "Otto_Wagner-gr-010-ev-036",
+          "role": "role-location_of"
+        },
+        {
+          "event": "Otto_Wagner-pr-Otto_Wagner-ev-042",
+          "role": "role-was"
+        },
+        {
+          "event": "Otto_Wagner-pr-Otto_Wagner-ev-043",
+          "role": "role-born"
+        },
+        {
+          "event": "Otto_Wagner-pr-Otto_Wagner-ev-046",
+          "role": "role-returned"
+        },
+        {
+          "event": "Otto_Wagner-pr-Otto_Wagner-ev-050",
+          "role": "role-designed"
+        },
+        {
+          "event": "Otto_Wagner-pr-Otto_Wagner-ev-055",
+          "role": "role-became"
+        },
+        {
+          "event": "Otto_Wagner-pr-Otto_Wagner-ev-058",
+          "role": "role-aligned"
+        },
+        {
+          "event": "Otto_Wagner-pr-Otto_Wagner-ev-060",
+          "role": "role-achieved"
+        },
+        {
+          "event": "Otto_Wagner-pr-Otto_Wagner-ev-065",
+          "role": "role-proposed"
+        }
+      ],
+      "kind": "place",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.3725,
+          48.208333
+        ]
+      }
+    },
+    {
+      "id": "Otto_Wagner-pr-Joseph_Maria_Olbrich",
+      "label": {
+        "default": "Joseph Maria Olbrich"
+      },
+      "linkedIds": [
+        {
+          "label": "Joseph_Maria_Olbrich",
+          "url": "https://en.wikipedia.org/wiki/Joseph_Maria_Olbrich"
+        },
+        {
+          "label": "Q44911",
+          "url": "http://www.wikidata.org/entity/Q44911"
+        }
+      ],
+      "media": [
+        "Otto_Wagner-m-002"
+      ],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "Otto_Wagner-pr-Koloman_Moser",
+      "label": {
+        "default": "Koloman Moser"
+      },
+      "linkedIds": [
+        {
+          "label": "Koloman_Moser",
+          "url": "https://en.wikipedia.org/wiki/Koloman_Moser"
+        },
+        {
+          "label": "Q45055",
+          "url": "http://www.wikidata.org/entity/Q45055"
+        }
+      ],
+      "media": [
+        "Otto_Wagner-m-003"
+      ],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "Otto_Wagner-pr-Josef_Hoffmann",
+      "label": {
+        "default": "Josef Hoffmann"
+      },
+      "linkedIds": [
+        {
+          "label": "Josef_Hoffmann",
+          "url": "https://en.wikipedia.org/wiki/Josef_Hoffmann"
+        },
+        {
+          "label": "Q84250",
+          "url": "http://www.wikidata.org/entity/Q84250"
+        }
+      ],
+      "media": [
+        "Otto_Wagner-m-004"
+      ],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "Otto_Wagner-pr-Othmar_Schimkowitz",
+      "label": {
+        "default": "Othmar Schimkowitz"
+      },
+      "linkedIds": [
+        {
+          "label": "Othmar_Schimkowitz",
+          "url": "https://en.wikipedia.org/wiki/Othmar_Schimkowitz"
+        },
+        {
+          "label": "Q2036946",
+          "url": "http://www.wikidata.org/entity/Q2036946"
+        }
+      ],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "Otto_Wagner-pl-001",
+      "label": {
+        "default": "Paris"
+      },
+      "linkedIds": [],
+      "relations": [
+        {
+          "event": "Otto_Wagner-pl-001-ev-013",
+          "role": "role-based_in"
+        },
+        {
+          "event": "Otto_Wagner-pl-001-ev-013",
+          "role": "role-location_of"
+        },
+        {
+          "event": "Otto_Wagner-gr-015-ev-040",
+          "role": "role-location_of"
+        },
+        {
+          "event": "Otto_Wagner-pr-Otto_Wagner-ev-059",
+          "role": "role-had"
+        },
+        {
+          "event": "Otto_Wagner-pr-Otto_Wagner-ev-064",
+          "role": "role-named"
+        }
+      ],
+      "kind": "place"
+    },
+    {
+      "id": "Otto_Wagner-pl-002",
+      "label": {
+        "default": "Döblergasse"
+      },
+      "linkedIds": [],
+      "relations": [
+        {
+          "event": "Otto_Wagner-pr-Otto_Wagner-ev-004",
+          "role": "role-unk"
+        },
+        {
+          "event": "Otto_Wagner-pl-002-ev-014",
+          "role": "role-died_in"
+        },
+        {
+          "event": "Otto_Wagner-pl-002-ev-014",
+          "role": "role-unk"
+        }
+      ],
+      "kind": "place"
+    },
+    {
+      "id": "Otto_Wagner-pl-003",
+      "label": {
+        "default": "Neustiftgasse"
+      },
+      "linkedIds": [],
+      "relations": [],
+      "kind": "place"
+    },
+    {
+      "id": "Otto_Wagner-pl-004",
+      "label": {
+        "default": "the house"
+      },
+      "linkedIds": [],
+      "relations": [
+        {
+          "event": "Otto_Wagner-pr-Otto_Wagner-ev-052",
+          "role": "role-modified"
+        },
+        {
+          "event": "Otto_Wagner-pr-Otto_Wagner-ev-067",
+          "role": "role-sold"
+        }
+      ],
+      "kind": "place"
+    },
+    {
+      "id": "Otto_Wagner-pl-005",
+      "label": {
+        "default": "Vienna Metro"
+      },
+      "linkedIds": [],
+      "relations": [],
+      "kind": "place"
+    },
+    {
+      "id": "Otto_Wagner-pl-Penzing_(Vienna)",
+      "label": {
+        "default": "Penzing"
+      },
+      "linkedIds": [
+        {
+          "label": "Penzing_(Vienna)",
+          "url": "https://en.wikipedia.org/wiki/Penzing_%28Vienna%29"
+        }
+      ],
+      "relations": [
+        {
+          "event": "Otto_Wagner-pr-Otto_Wagner-ev-001",
+          "role": "role-place_of_birth"
+        },
+        {
+          "event": "Otto_Wagner-pl-Penzing_(Vienna)-ev-015",
+          "role": "role-born_in"
+        },
+        {
+          "event": "Otto_Wagner-pl-Penzing_(Vienna)-ev-015",
+          "role": "role-place_of_birth"
+        },
+        {
+          "event": "Otto_Wagner-pr-Otto_Wagner-ev-043",
+          "role": "role-born"
+        }
+      ],
+      "kind": "place"
+    },
+    {
+      "id": "Otto_Wagner-pr-002",
+      "label": {
+        "default": "Suzanne"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [
+        {
+          "event": "Otto_Wagner-pr-002-ev-016",
+          "role": "role-related_to"
+        },
+        {
+          "event": "Otto_Wagner-pr-002-ev-017",
+          "role": "role-related_to"
+        },
+        {
+          "event": "Otto_Wagner-pr-002-ev-018",
+          "role": "role-married_to"
+        },
+        {
+          "event": "Otto_Wagner-pr-002-ev-018",
+          "role": "role-married_to"
+        },
+        {
+          "event": "Otto_Wagner-pr-002-ev-019",
+          "role": "role-married_to"
+        },
+        {
+          "event": "Otto_Wagner-pr-002-ev-019",
+          "role": "role-married_to"
+        },
+        {
+          "event": "Otto_Wagner-pr-003-ev-021",
+          "role": "role-married_to"
+        },
+        {
+          "event": "Otto_Wagner-pr-004-ev-025",
+          "role": "role-married_to"
+        }
+      ],
+      "kind": "person"
+    },
+    {
+      "id": "Otto_Wagner-pr-003",
+      "label": {
+        "default": "Helffenstorffer-Hueber"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [
+        {
+          "event": "Otto_Wagner-pr-002-ev-016",
+          "role": "role-unk"
+        },
+        {
+          "event": "Otto_Wagner-pr-003-ev-020",
+          "role": "role-related_to"
+        },
+        {
+          "event": "Otto_Wagner-pr-003-ev-020",
+          "role": "role-unk"
+        },
+        {
+          "event": "Otto_Wagner-pr-003-ev-021",
+          "role": "role-married_to"
+        },
+        {
+          "event": "Otto_Wagner-pr-003-ev-022",
+          "role": "role-married_to"
+        },
+        {
+          "event": "Otto_Wagner-pr-003-ev-023",
+          "role": "role-married_to"
+        },
+        {
+          "event": "Otto_Wagner-pr-003-ev-023",
+          "role": "role-married_to"
+        },
+        {
+          "event": "Otto_Wagner-pr-004-ev-027",
+          "role": "role-married_to"
+        }
+      ],
+      "kind": "person"
+    },
+    {
+      "id": "Otto_Wagner-pr-004",
+      "label": {
+        "default": "Rudolf Simeon Wagner"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [
+        {
+          "event": "Otto_Wagner-pr-002-ev-017",
+          "role": "role-unk"
+        },
+        {
+          "event": "Otto_Wagner-pr-003-ev-022",
+          "role": "role-married_to"
+        },
+        {
+          "event": "Otto_Wagner-pr-004-ev-024",
+          "role": "role-related_to"
+        },
+        {
+          "event": "Otto_Wagner-pr-004-ev-024",
+          "role": "role-unk"
+        },
+        {
+          "event": "Otto_Wagner-pr-004-ev-025",
+          "role": "role-married_to"
+        },
+        {
+          "event": "Otto_Wagner-pr-004-ev-026",
+          "role": "role-married_to"
+        },
+        {
+          "event": "Otto_Wagner-pr-004-ev-026",
+          "role": "role-married_to"
+        },
+        {
+          "event": "Otto_Wagner-pr-004-ev-027",
+          "role": "role-married_to"
+        }
+      ],
+      "kind": "person"
+    },
+    {
+      "id": "Otto_Wagner-gr-001",
+      "label": {
+        "default": "the Royal Hungarian Court"
+      },
+      "linkedIds": [],
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [],
+      "kind": "group",
+      "type": {}
+    },
+    {
+      "id": "Otto_Wagner-gr-002",
+      "label": {
+        "default": "the Vienna Polytechnic Institute"
+      },
+      "linkedIds": [],
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [],
+      "kind": "group",
+      "type": {}
+    },
+    {
+      "id": "Otto_Wagner-pl-006",
+      "label": {
+        "default": "Berlin"
+      },
+      "linkedIds": [],
+      "relations": [
+        {
+          "event": "Otto_Wagner-pr-Otto_Wagner-ev-044",
+          "role": "role-traveled"
+        }
+      ],
+      "kind": "place",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.405,
+          52.52
+        ]
+      }
+    },
+    {
+      "id": "Otto_Wagner-gr-003",
+      "label": {
+        "default": "the Royal Academy of Architecture"
+      },
+      "linkedIds": [],
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [],
+      "kind": "group",
+      "type": {}
+    },
+    {
+      "id": "Otto_Wagner-pr-005",
+      "label": {
+        "default": "Carl Ferdinand Busse"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [
+        {
+          "event": "Otto_Wagner-pr-Otto_Wagner-ev-045",
+          "role": "role-studied"
+        }
+      ],
+      "kind": "person"
+    },
+    {
+      "id": "Otto_Wagner-pr-Karl_Friedrich_Schinkel",
+      "label": {
+        "default": "Karl Friedrich Schinkel"
+      },
+      "linkedIds": [
+        {
+          "label": "Karl_Friedrich_Schinkel",
+          "url": "https://en.wikipedia.org/wiki/Karl_Friedrich_Schinkel"
+        },
+        {
+          "label": "Q151759",
+          "url": "http://www.wikidata.org/entity/Q151759"
+        }
+      ],
+      "media": [
+        "Otto_Wagner-m-005"
+      ],
+      "relations": [
+        {
+          "event": "Otto_Wagner-pr-Otto_Wagner-ev-045",
+          "role": "role-studied"
+        }
+      ],
+      "kind": "person"
+    },
+    {
+      "id": "Otto_Wagner-gr-004",
+      "label": {
+        "default": "the Vienna Academy of Fine Arts"
+      },
+      "linkedIds": [],
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [],
+      "kind": "group",
+      "type": {}
+    },
+    {
+      "id": "Otto_Wagner-pr-006",
+      "label": {
+        "default": "August Sicard von von Sicardsburg"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "Otto_Wagner-pr-007",
+      "label": {
+        "default": "Edouard von der Nüll"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "Otto_Wagner-pl-Vienna_State_Opera",
+      "label": {
+        "default": "Vienna State Opera"
+      },
+      "linkedIds": [
+        {
+          "label": "Vienna_State_Opera",
+          "url": "https://en.wikipedia.org/wiki/Vienna_State_Opera"
+        },
+        {
+          "label": "Q209937",
+          "url": "http://www.wikidata.org/entity/Q209937"
+        }
+      ],
+      "relations": [],
+      "kind": "place",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.368472,
+          48.202778
+        ]
+      }
+    },
+    {
+      "id": "Otto_Wagner-pl-007",
+      "label": {
+        "default": "the Vienna Ringstraße"
+      },
+      "linkedIds": [],
+      "relations": [],
+      "kind": "place"
+    },
+    {
+      "id": "Otto_Wagner-pr-Ludwig_von_Förster",
+      "label": {
+        "default": "Ludwig von Förster"
+      },
+      "linkedIds": [
+        {
+          "label": "Ludwig_von_Förster",
+          "url": "https://en.wikipedia.org/wiki/Ludwig_von_F%C3%B6rster"
+        }
+      ],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "Otto_Wagner-pl-Ringstraße",
+      "label": {
+        "default": "Ringstraße"
+      },
+      "linkedIds": [
+        {
+          "label": "Ringstraße",
+          "url": "https://en.wikipedia.org/wiki/Ringstra%C3%9Fe"
+        }
+      ],
+      "relations": [],
+      "kind": "place"
+    },
+    {
+      "id": "Otto_Wagner-pr-008",
+      "label": {
+        "default": "Renaissance"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [
+        {
+          "event": "Otto_Wagner-pr-Otto_Wagner-ev-047",
+          "role": "role-described"
+        }
+      ],
+      "kind": "person"
+    },
+    {
+      "id": "Otto_Wagner-pl-008",
+      "label": {
+        "default": "the Orthodox Synagogue"
+      },
+      "linkedIds": [],
+      "relations": [],
+      "kind": "place"
+    },
+    {
+      "id": "Otto_Wagner-pl-009",
+      "label": {
+        "default": "Rumbach Street"
+      },
+      "linkedIds": [],
+      "relations": [],
+      "kind": "place"
+    },
+    {
+      "id": "Otto_Wagner-pl-Budapest",
+      "label": {
+        "default": "Budapest"
+      },
+      "linkedIds": [
+        {
+          "label": "Budapest",
+          "url": "https://en.wikipedia.org/wiki/Budapest"
+        },
+        {
+          "label": "Q1781",
+          "url": "http://www.wikidata.org/entity/Q1781"
+        }
+      ],
+      "relations": [],
+      "kind": "place",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.040833,
+          47.498333
+        ]
+      }
+    },
+    {
+      "id": "Otto_Wagner-ob-001",
+      "label": {
+        "default": "Modern Architecture"
+      },
+      "linkedIds": [],
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [
+        {
+          "event": "Otto_Wagner-ob-001-ev-028",
+          "role": "role-object_created"
+        },
+        {
+          "event": "Otto_Wagner-pr-Otto_Wagner-ev-048",
+          "role": "role-wrote"
+        },
+        {
+          "event": "Otto_Wagner-pr-Otto_Wagner-ev-057",
+          "role": "role-published"
+        }
+      ],
+      "kind": "cultural-heritage-object",
+      "type": {}
+    },
+    {
+      "id": "Otto_Wagner-pl-010",
+      "label": {
+        "default": "Stadiongasse"
+      },
+      "linkedIds": [],
+      "relations": [
+        {
+          "event": "Otto_Wagner-pr-Otto_Wagner-ev-050",
+          "role": "role-designed"
+        }
+      ],
+      "kind": "place"
+    },
+    {
+      "id": "Otto_Wagner-pl-011",
+      "label": {
+        "default": "Parliament"
+      },
+      "linkedIds": [],
+      "relations": [
+        {
+          "event": "Otto_Wagner-pr-Otto_Wagner-ev-050",
+          "role": "role-designed"
+        }
+      ],
+      "kind": "place"
+    },
+    {
+      "id": "Otto_Wagner-gr-Länderbank",
+      "label": {
+        "default": "Länderbank"
+      },
+      "linkedIds": [
+        {
+          "label": "Länderbank",
+          "url": "https://en.wikipedia.org/wiki/L%C3%A4nderbank"
+        },
+        {
+          "label": "Q1426044",
+          "url": "http://www.wikidata.org/entity/Q1426044"
+        }
+      ],
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [
+        {
+          "event": "Otto_Wagner-gr-Länderbank-ev-029",
+          "role": "role-based_in"
+        }
+      ],
+      "kind": "group",
+      "type": {},
+      "media": [
+        "Otto_Wagner-m-006"
+      ]
+    },
+    {
+      "id": "Otto_Wagner-gr-005",
+      "label": {
+        "default": "the Postal Savings Bank"
+      },
+      "linkedIds": [],
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [],
+      "kind": "group",
+      "type": {}
+    },
+    {
+      "id": "Otto_Wagner-pl-012",
+      "label": {
+        "default": "Vienna.The"
+      },
+      "linkedIds": [],
+      "relations": [],
+      "kind": "place"
+    },
+    {
+      "id": "Otto_Wagner-pl-013",
+      "label": {
+        "default": "Villa Wagner"
+      },
+      "linkedIds": [],
+      "relations": [],
+      "kind": "place"
+    },
+    {
+      "id": "Otto_Wagner-pr-Palladio",
+      "label": {
+        "default": "Palladio"
+      },
+      "linkedIds": [
+        {
+          "label": "Palladio",
+          "url": "https://en.wikipedia.org/wiki/Palladio"
+        }
+      ],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "Otto_Wagner-pr-Adolf_Böhm",
+      "label": {
+        "default": "Adolf Böhm"
+      },
+      "linkedIds": [
+        {
+          "label": "Adolf_Böhm",
+          "url": "https://en.wikipedia.org/wiki/Adolf_B%C3%B6hm"
+        },
+        {
+          "label": "Q6777691",
+          "url": "http://www.wikidata.org/entity/Q6777691"
+        }
+      ],
+      "media": [
+        "Otto_Wagner-m-007"
+      ],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "Otto_Wagner-pl-014",
+      "label": {
+        "default": "Universitätsstrase"
+      },
+      "linkedIds": [],
+      "relations": [],
+      "kind": "place"
+    },
+    {
+      "id": "Otto_Wagner-pl-015",
+      "label": {
+        "default": "Zum Anker"
+      },
+      "linkedIds": [],
+      "relations": [],
+      "kind": "place"
+    },
+    {
+      "id": "Otto_Wagner-pl-016",
+      "label": {
+        "default": "Spiegelgasse"
+      },
+      "linkedIds": [],
+      "relations": [],
+      "kind": "place"
+    },
+    {
+      "id": "Otto_Wagner-pl-017",
+      "label": {
+        "default": "Graben"
+      },
+      "linkedIds": [],
+      "relations": [],
+      "kind": "place"
+    },
+    {
+      "id": "Otto_Wagner-pl-Wiener_Stadtbahn",
+      "label": {
+        "default": "Stadtbahn"
+      },
+      "linkedIds": [
+        {
+          "label": "Wiener_Stadtbahn",
+          "url": "https://en.wikipedia.org/wiki/Wiener_Stadtbahn"
+        }
+      ],
+      "relations": [
+        {
+          "event": "Otto_Wagner-pr-Otto_Wagner-ev-003",
+          "role": "role-unk"
+        },
+        {
+          "event": "Otto_Wagner-pl-Wiener_Stadtbahn-ev-030",
+          "role": "role-employee_of"
+        },
+        {
+          "event": "Otto_Wagner-pl-Wiener_Stadtbahn-ev-030",
+          "role": "role-unk"
+        },
+        {
+          "event": "Otto_Wagner-pr-Otto_Wagner-ev-054",
+          "role": "role-named"
+        }
+      ],
+      "kind": "place"
+    },
+    {
+      "id": "Otto_Wagner-pr-009",
+      "label": {
+        "default": "Josef Hoffmann.The"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "Otto_Wagner-pl-018",
+      "label": {
+        "default": "Karlsplatz station"
+      },
+      "linkedIds": [],
+      "relations": [],
+      "kind": "place"
+    },
+    {
+      "id": "Otto_Wagner-gr-006",
+      "label": {
+        "default": "the Academy of Fine Arts Vienna"
+      },
+      "linkedIds": [],
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [
+        {
+          "event": "Otto_Wagner-pr-Otto_Wagner-ev-055",
+          "role": "role-became"
+        }
+      ],
+      "kind": "group",
+      "type": {}
+    },
+    {
+      "id": "Otto_Wagner-gr-007",
+      "label": {
+        "default": "Academy"
+      },
+      "linkedIds": [],
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [
+        {
+          "event": "Otto_Wagner-pr-Otto_Wagner-ev-055",
+          "role": "role-became"
+        },
+        {
+          "event": "Otto_Wagner-pr-Otto_Wagner-ev-066",
+          "role": "role-became"
+        }
+      ],
+      "kind": "group",
+      "type": {}
+    },
+    {
+      "id": "Otto_Wagner-ob-003",
+      "label": {
+        "default": "Architecture"
+      },
+      "linkedIds": [],
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [
+        {
+          "event": "Otto_Wagner-ob-003-ev-031",
+          "role": "role-object_created"
+        },
+        {
+          "event": "Otto_Wagner-pr-Otto_Wagner-ev-048",
+          "role": "role-wrote"
+        },
+        {
+          "event": "Otto_Wagner-pr-Otto_Wagner-ev-055",
+          "role": "role-became"
+        },
+        {
+          "event": "Otto_Wagner-pr-Otto_Wagner-ev-057",
+          "role": "role-published"
+        },
+        {
+          "event": "Otto_Wagner-pr-Otto_Wagner-ev-063",
+          "role": "role-participated"
+        }
+      ],
+      "kind": "cultural-heritage-object",
+      "type": {}
+    },
+    {
+      "id": "Otto_Wagner-gr-Vienna_Secession",
+      "label": {
+        "default": "Vienna Secession"
+      },
+      "linkedIds": [
+        {
+          "label": "Vienna_Secession",
+          "url": "https://en.wikipedia.org/wiki/Vienna_Secession"
+        },
+        {
+          "label": "Q208208",
+          "url": "http://www.wikidata.org/entity/Q208208"
+        }
+      ],
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [
+        {
+          "event": "Otto_Wagner-pr-Otto_Wagner-ev-042",
+          "role": "role-was"
+        },
+        {
+          "event": "Otto_Wagner-pr-Otto_Wagner-ev-058",
+          "role": "role-aligned"
+        },
+        {
+          "event": "Otto_Wagner-pr-Otto_Wagner-ev-060",
+          "role": "role-achieved"
+        }
+      ],
+      "kind": "group",
+      "type": {},
+      "media": [
+        "Otto_Wagner-m-008"
+      ]
+    },
+    {
+      "id": "Otto_Wagner-gr-008",
+      "label": {
+        "default": "the Association of Austrian plastic artists"
+      },
+      "linkedIds": [],
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [
+        {
+          "event": "Otto_Wagner-gr-008-ev-032",
+          "role": "role-based_in"
+        },
+        {
+          "event": "Otto_Wagner-pr-Otto_Wagner-ev-058",
+          "role": "role-aligned"
+        }
+      ],
+      "kind": "group",
+      "type": {}
+    },
+    {
+      "id": "Otto_Wagner-pr-Gustav_Klimt",
+      "label": {
+        "default": "Gustav Klimt"
+      },
+      "linkedIds": [
+        {
+          "label": "Gustav_Klimt",
+          "url": "https://en.wikipedia.org/wiki/Gustav_Klimt"
+        },
+        {
+          "label": "Q34661",
+          "url": "http://www.wikidata.org/entity/Q34661"
+        }
+      ],
+      "media": [
+        "Otto_Wagner-m-009"
+      ],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "Otto_Wagner-pr-010",
+      "label": {
+        "default": "Olbrich"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "Otto_Wagner-pl-Secession_Building",
+      "label": {
+        "default": "Secession Building"
+      },
+      "linkedIds": [
+        {
+          "label": "Secession_Building",
+          "url": "https://en.wikipedia.org/wiki/Secession_Building"
+        },
+        {
+          "label": "Q265129",
+          "url": "http://www.wikidata.org/entity/Q265129"
+        }
+      ],
+      "relations": [],
+      "kind": "place",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.365675,
+          48.200517
+        ]
+      }
+    },
+    {
+      "id": "Otto_Wagner-pr-Carl_Moll",
+      "label": {
+        "default": "Carl Moll"
+      },
+      "linkedIds": [
+        {
+          "label": "Carl_Moll",
+          "url": "https://en.wikipedia.org/wiki/Carl_Moll"
+        },
+        {
+          "label": "Q697780",
+          "url": "http://www.wikidata.org/entity/Q697780"
+        }
+      ],
+      "media": [
+        "Otto_Wagner-m-012"
+      ],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "Otto_Wagner-gr-009",
+      "label": {
+        "default": "the Academy of Fine Arts"
+      },
+      "linkedIds": [],
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [
+        {
+          "event": "Otto_Wagner-gr-009-ev-033",
+          "role": "role-based_in"
+        },
+        {
+          "event": "Otto_Wagner-pr-Otto_Wagner-ev-055",
+          "role": "role-became"
+        }
+      ],
+      "kind": "group",
+      "type": {}
+    },
+    {
+      "id": "Otto_Wagner-pr-Karl_Ehn",
+      "label": {
+        "default": "Karl Ehn"
+      },
+      "linkedIds": [
+        {
+          "label": "Karl_Ehn",
+          "url": "https://en.wikipedia.org/wiki/Karl_Ehn"
+        },
+        {
+          "label": "Q86616",
+          "url": "http://www.wikidata.org/entity/Q86616"
+        }
+      ],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "Otto_Wagner-pr-Jože_Plečnik",
+      "label": {
+        "default": "Jože Plečnik"
+      },
+      "linkedIds": [
+        {
+          "label": "Jože_Plečnik",
+          "url": "https://en.wikipedia.org/wiki/Jo%C5%BEe_Ple%C4%8Dnik"
+        },
+        {
+          "label": "Q314886",
+          "url": "http://www.wikidata.org/entity/Q314886"
+        }
+      ],
+      "media": [
+        "Otto_Wagner-m-019"
+      ],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "Otto_Wagner-pr-Max_Fabiani",
+      "label": {
+        "default": "Max Fabiani"
+      },
+      "linkedIds": [
+        {
+          "label": "Max_Fabiani",
+          "url": "https://en.wikipedia.org/wiki/Max_Fabiani"
+        },
+        {
+          "label": "Q597895",
+          "url": "http://www.wikidata.org/entity/Q597895"
+        }
+      ],
+      "media": [
+        "Otto_Wagner-m-020"
+      ],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "Otto_Wagner-pr-Rudolph_Schindler_(architect)",
+      "label": {
+        "default": "Rudolph Schindler"
+      },
+      "linkedIds": [
+        {
+          "label": "Rudolph_Schindler_(architect)",
+          "url": "https://en.wikipedia.org/wiki/Rudolph_Schindler_%28architect%29"
+        }
+      ],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "Otto_Wagner-pr-Charles_Rennie_Mackintosh",
+      "label": {
+        "default": "Mackintosh"
+      },
+      "linkedIds": [
+        {
+          "label": "Charles_Rennie_Mackintosh",
+          "url": "https://en.wikipedia.org/wiki/Charles_Rennie_Mackintosh"
+        },
+        {
+          "label": "Q220703",
+          "url": "http://www.wikidata.org/entity/Q220703"
+        }
+      ],
+      "media": [
+        "Otto_Wagner-m-021"
+      ],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "Otto_Wagner-pl-019",
+      "label": {
+        "default": "Scotland"
+      },
+      "linkedIds": [],
+      "relations": [],
+      "kind": "place"
+    },
+    {
+      "id": "Otto_Wagner-pr-Louis_Sullivan",
+      "label": {
+        "default": "Louis Sullivan"
+      },
+      "linkedIds": [
+        {
+          "label": "Louis_Sullivan",
+          "url": "https://en.wikipedia.org/wiki/Louis_Sullivan"
+        },
+        {
+          "label": "Q243240",
+          "url": "http://www.wikidata.org/entity/Q243240"
+        }
+      ],
+      "media": [
+        "Otto_Wagner-m-022"
+      ],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "Otto_Wagner-pl-020",
+      "label": {
+        "default": "Chicago"
+      },
+      "linkedIds": [],
+      "relations": [],
+      "kind": "place",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.627778,
+          41.881944
+        ]
+      }
+    },
+    {
+      "id": "Otto_Wagner-pl-021",
+      "label": {
+        "default": "The Linke Wienzeile Buildings"
+      },
+      "linkedIds": [],
+      "relations": [
+        {
+          "event": "Otto_Wagner-pl-021-ev-034",
+          "role": "role-based_in"
+        }
+      ],
+      "kind": "place"
+    },
+    {
+      "id": "Otto_Wagner-pl-022",
+      "label": {
+        "default": "the Majolica House"
+      },
+      "linkedIds": [],
+      "relations": [],
+      "kind": "place"
+    },
+    {
+      "id": "Otto_Wagner-pl-023",
+      "label": {
+        "default": "Linke Wienzeile"
+      },
+      "linkedIds": [],
+      "relations": [],
+      "kind": "place"
+    },
+    {
+      "id": "Otto_Wagner-pr-Alois_Ludwig",
+      "label": {
+        "default": "Alois Ludwig"
+      },
+      "linkedIds": [
+        {
+          "label": "Alois_Ludwig",
+          "url": "https://en.wikipedia.org/wiki/Alois_Ludwig"
+        }
+      ],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "Otto_Wagner-pl-025",
+      "label": {
+        "default": "House with medallions"
+      },
+      "linkedIds": [],
+      "relations": [],
+      "kind": "place"
+    },
+    {
+      "id": "Otto_Wagner-ob-004",
+      "label": {
+        "default": "the Angels on"
+      },
+      "linkedIds": [],
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [
+        {
+          "event": "Otto_Wagner-ob-004-ev-035",
+          "role": "role-object_created"
+        }
+      ],
+      "kind": "cultural-heritage-object",
+      "type": {}
+    },
+    {
+      "id": "Otto_Wagner-pl-Kirche_am_Steinhof",
+      "label": {
+        "default": "Kirche am Steinhof"
+      },
+      "linkedIds": [
+        {
+          "label": "Kirche_am_Steinhof",
+          "url": "https://en.wikipedia.org/wiki/Kirche_am_Steinhof"
+        },
+        {
+          "label": "Q441668",
+          "url": "http://www.wikidata.org/entity/Q441668"
+        }
+      ],
+      "relations": [],
+      "kind": "place",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.27879,
+          48.210627
+        ]
+      }
+    },
+    {
+      "id": "Otto_Wagner-gr-010",
+      "label": {
+        "default": "the Austrian Postal Savings Bank"
+      },
+      "linkedIds": [],
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [
+        {
+          "event": "Otto_Wagner-gr-010-ev-036",
+          "role": "role-based_in"
+        }
+      ],
+      "kind": "group",
+      "type": {}
+    },
+    {
+      "id": "Otto_Wagner-gr-011",
+      "label": {
+        "default": "The Church of St. Leopold"
+      },
+      "linkedIds": [],
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [],
+      "kind": "group",
+      "type": {}
+    },
+    {
+      "id": "Otto_Wagner-ob-005",
+      "label": {
+        "default": "The Modern style in Church construction"
+      },
+      "linkedIds": [],
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [
+        {
+          "event": "Otto_Wagner-ob-005-ev-037",
+          "role": "role-object_created"
+        }
+      ],
+      "kind": "cultural-heritage-object",
+      "type": {}
+    },
+    {
+      "id": "Otto_Wagner-gr-012",
+      "label": {
+        "default": "Die Zeit"
+      },
+      "linkedIds": [],
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [],
+      "kind": "group",
+      "type": {}
+    },
+    {
+      "id": "Otto_Wagner-pl-026",
+      "label": {
+        "default": "the"
+      },
+      "linkedIds": [],
+      "relations": [
+        {
+          "event": "Otto_Wagner-pr-Otto_Wagner-ev-042",
+          "role": "role-was"
+        },
+        {
+          "event": "Otto_Wagner-pr-Otto_Wagner-ev-045",
+          "role": "role-studied"
+        },
+        {
+          "event": "Otto_Wagner-pr-Otto_Wagner-ev-049",
+          "role": "role-began"
+        },
+        {
+          "event": "Otto_Wagner-pr-Otto_Wagner-ev-050",
+          "role": "role-designed"
+        },
+        {
+          "event": "Otto_Wagner-pr-Otto_Wagner-ev-051",
+          "role": "role-won"
+        },
+        {
+          "event": "Otto_Wagner-pr-Otto_Wagner-ev-052",
+          "role": "role-modified"
+        },
+        {
+          "event": "Otto_Wagner-pr-Otto_Wagner-ev-053",
+          "role": "role-became"
+        },
+        {
+          "event": "Otto_Wagner-pr-Otto_Wagner-ev-054",
+          "role": "role-named"
+        },
+        {
+          "event": "Otto_Wagner-pr-Otto_Wagner-ev-055",
+          "role": "role-became"
+        },
+        {
+          "event": "Otto_Wagner-pr-Otto_Wagner-ev-056",
+          "role": "role-expressed"
+        },
+        {
+          "event": "Otto_Wagner-pr-Otto_Wagner-ev-057",
+          "role": "role-published"
+        },
+        {
+          "event": "Otto_Wagner-pr-Otto_Wagner-ev-058",
+          "role": "role-aligned"
+        },
+        {
+          "event": "Otto_Wagner-pr-Otto_Wagner-ev-059",
+          "role": "role-had"
+        },
+        {
+          "event": "Otto_Wagner-pr-Otto_Wagner-ev-060",
+          "role": "role-achieved"
+        },
+        {
+          "event": "Otto_Wagner-pr-Otto_Wagner-ev-061",
+          "role": "role-published"
+        },
+        {
+          "event": "Otto_Wagner-pr-Otto_Wagner-ev-063",
+          "role": "role-participated"
+        },
+        {
+          "event": "Otto_Wagner-pr-Otto_Wagner-ev-064",
+          "role": "role-named"
+        },
+        {
+          "event": "Otto_Wagner-pr-Otto_Wagner-ev-066",
+          "role": "role-became"
+        },
+        {
+          "event": "Otto_Wagner-pr-Otto_Wagner-ev-067",
+          "role": "role-sold"
+        }
+      ],
+      "kind": "place"
+    },
+    {
+      "id": "Otto_Wagner-pl-027",
+      "label": {
+        "default": "the Palace of Peace"
+      },
+      "linkedIds": [],
+      "relations": [],
+      "kind": "place"
+    },
+    {
+      "id": "Otto_Wagner-pr-Andrew_Carnegie",
+      "label": {
+        "default": "Andrew Carnegie"
+      },
+      "linkedIds": [
+        {
+          "label": "Andrew_Carnegie",
+          "url": "https://en.wikipedia.org/wiki/Andrew_Carnegie"
+        },
+        {
+          "label": "Q484265",
+          "url": "http://www.wikidata.org/entity/Q484265"
+        }
+      ],
+      "media": [
+        "Otto_Wagner-m-023"
+      ],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "Otto_Wagner-ob-007",
+      "label": {
+        "default": "Sketches, Projects, Constructions"
+      },
+      "linkedIds": [],
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [
+        {
+          "event": "Otto_Wagner-ob-007-ev-038",
+          "role": "role-object_created"
+        }
+      ],
+      "kind": "cultural-heritage-object",
+      "type": {}
+    },
+    {
+      "id": "Otto_Wagner-ob-008",
+      "label": {
+        "default": "\"The Great City\""
+      },
+      "linkedIds": [],
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [
+        {
+          "event": "Otto_Wagner-ob-008-ev-039",
+          "role": "role-object_created"
+        }
+      ],
+      "kind": "cultural-heritage-object",
+      "type": {}
+    },
+    {
+      "id": "Otto_Wagner-pl-028",
+      "label": {
+        "default": "London"
+      },
+      "linkedIds": [],
+      "relations": [
+        {
+          "event": "Otto_Wagner-pr-Otto_Wagner-ev-063",
+          "role": "role-participated"
+        }
+      ],
+      "kind": "place",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1275,
+          51.507222
+        ]
+      }
+    },
+    {
+      "id": "Otto_Wagner-pl-029",
+      "label": {
+        "default": "New York"
+      },
+      "linkedIds": [],
+      "relations": [
+        {
+          "event": "Otto_Wagner-pr-Otto_Wagner-ev-062",
+          "role": "role-traveled"
+        }
+      ],
+      "kind": "place"
+    },
+    {
+      "id": "Otto_Wagner-gr-015",
+      "label": {
+        "default": "the Permanent Commission of Congress of Fine Arts"
+      },
+      "linkedIds": [],
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [
+        {
+          "event": "Otto_Wagner-gr-015-ev-040",
+          "role": "role-based_in"
+        },
+        {
+          "event": "Otto_Wagner-pr-Otto_Wagner-ev-064",
+          "role": "role-named"
+        }
+      ],
+      "kind": "group",
+      "type": {}
+    },
+    {
+      "id": "Otto_Wagner-pr-012",
+      "label": {
+        "default": "Franz-Joseph"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "Otto_Wagner-gr-Wiener_Werkstätte",
+      "label": {
+        "default": "Wiener Werkstätte"
+      },
+      "linkedIds": [
+        {
+          "label": "Wiener_Werkstätte",
+          "url": "https://en.wikipedia.org/wiki/Wiener_Werkst%C3%A4tte"
+        },
+        {
+          "label": "Q241338",
+          "url": "http://www.wikidata.org/entity/Q241338"
+        }
+      ],
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [],
+      "kind": "group",
+      "type": {}
+    },
+    {
+      "id": "Otto_Wagner-pl-030",
+      "label": {
+        "default": "the Second Wagner Villa"
+      },
+      "linkedIds": [],
+      "relations": [],
+      "kind": "place"
+    },
+    {
+      "id": "Otto_Wagner-pl-031",
+      "label": {
+        "default": "Hüttelbergstrasse"
+      },
+      "linkedIds": [],
+      "relations": [],
+      "kind": "place"
+    },
+    {
+      "id": "Otto_Wagner-pr-013",
+      "label": {
+        "default": "Marcel Kammerer"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "Otto_Wagner-pr-014",
+      "label": {
+        "default": "Otto"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "Otto_Wagner-ob-009",
+      "label": {
+        "default": "Modern Architecture: A Guidebook for His Students to This Field of Art"
+      },
+      "linkedIds": [],
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [
+        {
+          "event": "Otto_Wagner-ob-009-ev-041",
+          "role": "role-object_created"
+        }
+      ],
+      "kind": "cultural-heritage-object",
+      "type": {}
+    },
+    {
+      "id": "Otto_Wagner-pr-015",
+      "label": {
+        "default": "Harry F. Mallgrave"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "Otto_Wagner-pl-032",
+      "label": {
+        "default": "Santa Monica"
+      },
+      "linkedIds": [],
+      "relations": [],
+      "kind": "place",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.481389,
+          34.021944
+        ]
+      }
+    },
+    {
+      "id": "Otto_Wagner-gr-018",
+      "label": {
+        "default": "Getty Center for the History of Art and the Humanities"
+      },
+      "linkedIds": [],
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [],
+      "kind": "group",
+      "type": {}
+    },
+    {
+      "id": "Otto_Wagner-gr-019",
+      "label": {
+        "default": "ˈɔto ˈkoːloman"
+      },
+      "linkedIds": [],
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [],
+      "kind": "group",
+      "type": {}
+    },
+    {
+      "id": "Otto_Wagner-pr-Art_Nouveau",
+      "label": {
+        "default": "Art Nouveau"
+      },
+      "linkedIds": [
+        {
+          "label": "Art_Nouveau",
+          "url": "https://en.wikipedia.org/wiki/Art_Nouveau"
+        },
+        {
+          "label": "Q34636",
+          "url": "http://www.wikidata.org/entity/Q34636"
+        }
+      ],
+      "media": [
+        "Otto_Wagner-m-025"
+      ],
+      "relations": [
+        {
+          "event": "Otto_Wagner-pr-Otto_Wagner-ev-042",
+          "role": "role-was"
+        }
+      ],
+      "kind": "person"
+    },
+    {
+      "id": "Otto_Wagner-pr-016",
+      "label": {
+        "default": "née von Helffenstorffer"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "Otto_Wagner-gr-020",
+      "label": {
+        "default": "Hueber"
+      },
+      "linkedIds": [],
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [],
+      "kind": "group",
+      "type": {}
+    },
+    {
+      "id": "Otto_Wagner-gr-021",
+      "label": {
+        "default": "Royal Hungarian Court"
+      },
+      "linkedIds": [],
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [],
+      "kind": "group",
+      "type": {}
+    },
+    {
+      "id": "Otto_Wagner-gr-022",
+      "label": {
+        "default": "Vienna Polytechnic Institute"
+      },
+      "linkedIds": [],
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [],
+      "kind": "group",
+      "type": {}
+    },
+    {
+      "id": "Otto_Wagner-gr-023",
+      "label": {
+        "default": "Royal Academy of Architecture"
+      },
+      "linkedIds": [],
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [],
+      "kind": "group",
+      "type": {}
+    },
+    {
+      "id": "Otto_Wagner-gr-024",
+      "label": {
+        "default": "Vienna Academy of Fine Arts"
+      },
+      "linkedIds": [],
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [],
+      "kind": "group",
+      "type": {}
+    },
+    {
+      "id": "Otto_Wagner-pr-017",
+      "label": {
+        "default": "Sicard von von Sicardsburg"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "Otto_Wagner-pl-033",
+      "label": {
+        "default": "Vienna Ringstraße"
+      },
+      "linkedIds": [],
+      "relations": [],
+      "kind": "place"
+    },
+    {
+      "id": "Otto_Wagner-pr-018",
+      "label": {
+        "default": "Renassiance"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "Otto_Wagner-pl-034",
+      "label": {
+        "default": "Orthodox Synagogue"
+      },
+      "linkedIds": [],
+      "relations": [],
+      "kind": "place"
+    },
+    {
+      "id": "Otto_Wagner-gr-025",
+      "label": {
+        "default": "Postal Savings Bank"
+      },
+      "linkedIds": [],
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [],
+      "kind": "group",
+      "type": {}
+    },
+    {
+      "id": "Otto_Wagner-pr-019",
+      "label": {
+        "default": "Necessity"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "Otto_Wagner-pl-Karlsplatz",
+      "label": {
+        "default": "Karlsplatz"
+      },
+      "linkedIds": [
+        {
+          "label": "Karlsplatz",
+          "url": "https://en.wikipedia.org/wiki/Karlsplatz"
+        },
+        {
+          "label": "Q700753",
+          "url": "http://www.wikidata.org/entity/Q700753"
+        }
+      ],
+      "relations": [],
+      "kind": "place",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.37,
+          48.1992
+        ]
+      }
+    },
+    {
+      "id": "Otto_Wagner-gr-026",
+      "label": {
+        "default": "Professor of Architecture"
+      },
+      "linkedIds": [],
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [
+        {
+          "event": "Otto_Wagner-pr-Otto_Wagner-ev-055",
+          "role": "role-became"
+        }
+      ],
+      "kind": "group",
+      "type": {}
+    },
+    {
+      "id": "Otto_Wagner-gr-Academy_of_Fine_Arts_Vienna",
+      "label": {
+        "default": "Academy of Fine Arts Vienna"
+      },
+      "linkedIds": [
+        {
+          "label": "Academy_of_Fine_Arts_Vienna",
+          "url": "https://en.wikipedia.org/wiki/Academy_of_Fine_Arts_Vienna"
+        },
+        {
+          "label": "Q414219",
+          "url": "http://www.wikidata.org/entity/Q414219"
+        }
+      ],
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [
+        {
+          "event": "Otto_Wagner-pr-Otto_Wagner-ev-055",
+          "role": "role-became"
+        }
+      ],
+      "kind": "group",
+      "type": {},
+      "media": [
+        "Otto_Wagner-m-026"
+      ]
+    },
+    {
+      "id": "Otto_Wagner-gr-028",
+      "label": {
+        "default": "Academy of Fine Arts"
+      },
+      "linkedIds": [],
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [
+        {
+          "event": "Otto_Wagner-pr-Otto_Wagner-ev-055",
+          "role": "role-became"
+        }
+      ],
+      "kind": "group",
+      "type": {}
+    },
+    {
+      "id": "Otto_Wagner-gr-Linke_Wienzeile_Buildings",
+      "label": {
+        "default": "Linke Wienzeile Buildings"
+      },
+      "linkedIds": [
+        {
+          "label": "Linke_Wienzeile_Buildings",
+          "url": "https://en.wikipedia.org/wiki/Linke_Wienzeile_Buildings"
+        },
+        {
+          "label": "Q876177",
+          "url": "http://www.wikidata.org/entity/Q876177"
+        }
+      ],
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [],
+      "kind": "group",
+      "type": {},
+      "media": [
+        "Otto_Wagner-m-028"
+      ]
+    },
+    {
+      "id": "Otto_Wagner-pl-Majolica_House",
+      "label": {
+        "default": "Majolica House"
+      },
+      "linkedIds": [
+        {
+          "label": "Majolica_House",
+          "url": "https://en.wikipedia.org/wiki/Majolica_House"
+        }
+      ],
+      "relations": [],
+      "kind": "place"
+    },
+    {
+      "id": "Otto_Wagner-gr-Majolica_House",
+      "label": {
+        "default": "House"
+      },
+      "linkedIds": [
+        {
+          "label": "Majolica_House",
+          "url": "https://en.wikipedia.org/wiki/Majolica_House"
+        }
+      ],
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [],
+      "kind": "group",
+      "type": {}
+    },
+    {
+      "id": "Otto_Wagner-pr-020",
+      "label": {
+        "default": "The Criers"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "Otto_Wagner-gr-030",
+      "label": {
+        "default": "Angels"
+      },
+      "linkedIds": [],
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [],
+      "kind": "group",
+      "type": {}
+    },
+    {
+      "id": "Otto_Wagner-gr-Austrian_Postal_Savings_Bank",
+      "label": {
+        "default": "Austrian Postal Savings Bank"
+      },
+      "linkedIds": [
+        {
+          "label": "Austrian_Postal_Savings_Bank",
+          "url": "https://en.wikipedia.org/wiki/Austrian_Postal_Savings_Bank"
+        },
+        {
+          "label": "Q877570",
+          "url": "http://www.wikidata.org/entity/Q877570"
+        }
+      ],
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [],
+      "kind": "group",
+      "type": {},
+      "media": [
+        "Otto_Wagner-m-029"
+      ]
+    },
+    {
+      "id": "Otto_Wagner-pl-035",
+      "label": {
+        "default": "Köstlergasse"
+      },
+      "linkedIds": [],
+      "relations": [],
+      "kind": "place"
+    },
+    {
+      "id": "Otto_Wagner-pl-The_Hague",
+      "label": {
+        "default": "Hague"
+      },
+      "linkedIds": [
+        {
+          "label": "The_Hague",
+          "url": "https://en.wikipedia.org/wiki/The_Hague"
+        },
+        {
+          "label": "Q36600",
+          "url": "http://www.wikidata.org/entity/Q36600"
+        }
+      ],
+      "relations": [],
+      "kind": "place",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.31,
+          52.08
+        ]
+      }
+    },
+    {
+      "id": "Otto_Wagner-gr-031",
+      "label": {
+        "default": "The Great City"
+      },
+      "linkedIds": [],
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [
+        {
+          "event": "Otto_Wagner-pr-Otto_Wagner-ev-061",
+          "role": "role-published"
+        }
+      ],
+      "kind": "group",
+      "type": {}
+    },
+    {
+      "id": "Otto_Wagner-gr-032",
+      "label": {
+        "default": "International Congress of Architecture"
+      },
+      "linkedIds": [],
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [
+        {
+          "event": "Otto_Wagner-pr-Otto_Wagner-ev-063",
+          "role": "role-participated"
+        }
+      ],
+      "kind": "group",
+      "type": {}
+    },
+    {
+      "id": "Otto_Wagner-gr-033",
+      "label": {
+        "default": "International Congress of Urban Art"
+      },
+      "linkedIds": [],
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [],
+      "kind": "group",
+      "type": {}
+    },
+    {
+      "id": "Otto_Wagner-gr-035",
+      "label": {
+        "default": "Permanent Commission of Congress of Fine Arts"
+      },
+      "linkedIds": [],
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [
+        {
+          "event": "Otto_Wagner-pr-Otto_Wagner-ev-064",
+          "role": "role-named"
+        }
+      ],
+      "kind": "group",
+      "type": {}
+    },
+    {
+      "id": "Otto_Wagner-pr-021",
+      "label": {
+        "default": "Emperor Franz"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [
+        {
+          "event": "Otto_Wagner-pr-Otto_Wagner-ev-065",
+          "role": "role-proposed"
+        }
+      ],
+      "kind": "person"
+    },
+    {
+      "id": "Otto_Wagner-pr-022",
+      "label": {
+        "default": "Joseph"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [
+        {
+          "event": "Otto_Wagner-pr-Otto_Wagner-ev-065",
+          "role": "role-proposed"
+        }
+      ],
+      "kind": "person"
+    },
+    {
+      "id": "Otto_Wagner-pl-036",
+      "label": {
+        "default": "Getty Center"
+      },
+      "linkedIds": [],
+      "relations": [],
+      "kind": "place"
+    },
+    {
+      "id": "Otto_Wagner-gr-037",
+      "label": {
+        "default": "History of Art"
+      },
+      "linkedIds": [],
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [],
+      "kind": "group",
+      "type": {}
+    },
+    {
+      "id": "Otto_Wagner-gr-038",
+      "label": {
+        "default": "Humanities"
+      },
+      "linkedIds": [],
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [],
+      "kind": "group",
+      "type": {}
+    }
+  ],
+  "events": [
+    {
+      "id": "Otto_Wagner-pr-Otto_Wagner-ev-001",
+      "label": {
+        "default": "Penzing"
+      },
+      "kind": "event-kind-event-kind-born_in",
+      "relations": [
+        {
+          "entity": "Otto_Wagner-pl-Penzing_(Vienna)",
+          "role": "role-place_of_birth"
+        },
+        {
+          "entity": "Otto_Wagner-pr-Otto_Wagner",
+          "role": "role-born_in"
+        }
+      ]
+    },
+    {
+      "id": "Otto_Wagner-pr-Otto_Wagner-ev-002",
+      "label": {
+        "default": "Vienna"
+      },
+      "kind": "event-kind-event-kind-born_in",
+      "relations": [
+        {
+          "entity": "Otto_Wagner-pl-Vienna",
+          "role": "role-place_of_birth"
+        },
+        {
+          "entity": "Otto_Wagner-pr-Otto_Wagner",
+          "role": "role-born_in"
+        }
+      ]
+    },
+    {
+      "id": "Otto_Wagner-pr-Otto_Wagner-ev-003",
+      "label": {
+        "default": "Stadtbahn"
+      },
+      "kind": "event-kind-event-kind-employee_of",
+      "relations": [
+        {
+          "entity": "Otto_Wagner-pl-Wiener_Stadtbahn",
+          "role": "role-unk"
+        },
+        {
+          "entity": "Otto_Wagner-pr-Otto_Wagner",
+          "role": "role-employee_of"
+        }
+      ]
+    },
+    {
+      "id": "Otto_Wagner-pr-Otto_Wagner-ev-004",
+      "label": {
+        "default": "Döblergasse"
+      },
+      "kind": "event-kind-event-kind-died_in",
+      "relations": [
+        {
+          "entity": "Otto_Wagner-pl-002",
+          "role": "role-unk"
+        },
+        {
+          "entity": "Otto_Wagner-pr-Otto_Wagner",
+          "role": "role-died_in"
+        }
+      ]
+    },
+    {
+      "id": "Otto_Wagner-pr-Otto_Wagner-ev-005",
+      "label": {
+        "default": "Vienna"
+      },
+      "kind": "event-kind-event-kind-died_in",
+      "relations": [
+        {
+          "entity": "Otto_Wagner-pl-Vienna",
+          "role": "role-unk"
+        },
+        {
+          "entity": "Otto_Wagner-pr-Otto_Wagner",
+          "role": "role-died_in"
+        }
+      ]
+    },
+    {
+      "id": "Otto_Wagner-pl-Vienna-ev-006",
+      "label": {
+        "default": "Vienna"
+      },
+      "kind": "event-kind-event-kind-born_in",
+      "relations": [
+        {
+          "entity": "Otto_Wagner-pl-Vienna",
+          "role": "role-place_of_birth"
+        },
+        {
+          "entity": "Otto_Wagner-pr-Otto_Wagner",
+          "role": "role-born_in"
+        }
+      ]
+    },
+    {
+      "id": "Otto_Wagner-pl-Vienna-ev-007",
+      "label": {
+        "default": "Vienna"
+      },
+      "kind": "event-kind-event-kind-based_in",
+      "relations": [
+        {
+          "entity": "Otto_Wagner-pl-Vienna",
+          "role": "role-location_of"
+        },
+        {
+          "entity": "Otto_Wagner-gr-009",
+          "role": "role-based_in"
+        }
+      ]
+    },
+    {
+      "id": "Otto_Wagner-pl-Vienna-ev-008",
+      "label": {
+        "default": "Vienna"
+      },
+      "kind": "event-kind-event-kind-based_in",
+      "relations": [
+        {
+          "entity": "Otto_Wagner-pl-Vienna",
+          "role": "role-location_of"
+        },
+        {
+          "entity": "Otto_Wagner-gr-Länderbank",
+          "role": "role-based_in"
+        }
+      ]
+    },
+    {
+      "id": "Otto_Wagner-pl-Vienna-ev-009",
+      "label": {
+        "default": "Vienna"
+      },
+      "kind": "event-kind-event-kind-based_in",
+      "relations": [
+        {
+          "entity": "Otto_Wagner-pl-Vienna",
+          "role": "role-location_of"
+        },
+        {
+          "entity": "Otto_Wagner-gr-008",
+          "role": "role-based_in"
+        }
+      ]
+    },
+    {
+      "id": "Otto_Wagner-pl-Vienna-ev-010",
+      "label": {
+        "default": "Vienna"
+      },
+      "kind": "event-kind-event-kind-based_in",
+      "relations": [
+        {
+          "entity": "Otto_Wagner-pl-Vienna",
+          "role": "role-location_of"
+        },
+        {
+          "entity": "Otto_Wagner-pl-021",
+          "role": "role-based_in"
+        }
+      ]
+    },
+    {
+      "id": "Otto_Wagner-pl-Vienna-ev-011",
+      "label": {
+        "default": "Vienna"
+      },
+      "kind": "event-kind-event-kind-based_in",
+      "relations": [
+        {
+          "entity": "Otto_Wagner-pl-Vienna",
+          "role": "role-location_of"
+        },
+        {
+          "entity": "Otto_Wagner-gr-010",
+          "role": "role-based_in"
+        }
+      ]
+    },
+    {
+      "id": "Otto_Wagner-pl-Vienna-ev-012",
+      "label": {
+        "default": "Vienna"
+      },
+      "kind": "event-kind-event-kind-died_in",
+      "relations": [
+        {
+          "entity": "Otto_Wagner-pl-Vienna",
+          "role": "role-unk"
+        },
+        {
+          "entity": "Otto_Wagner-pr-Otto_Wagner",
+          "role": "role-died_in"
+        }
+      ]
+    },
+    {
+      "id": "Otto_Wagner-pl-001-ev-013",
+      "label": {
+        "default": "Paris"
+      },
+      "kind": "event-kind-event-kind-based_in",
+      "relations": [
+        {
+          "entity": "Otto_Wagner-pl-001",
+          "role": "role-location_of"
+        },
+        {
+          "entity": "Otto_Wagner-gr-015",
+          "role": "role-based_in"
+        }
+      ]
+    },
+    {
+      "id": "Otto_Wagner-pl-002-ev-014",
+      "label": {
+        "default": "Döblergasse"
+      },
+      "kind": "event-kind-event-kind-died_in",
+      "relations": [
+        {
+          "entity": "Otto_Wagner-pl-002",
+          "role": "role-unk"
+        },
+        {
+          "entity": "Otto_Wagner-pr-Otto_Wagner",
+          "role": "role-died_in"
+        }
+      ]
+    },
+    {
+      "id": "Otto_Wagner-pl-Penzing_(Vienna)-ev-015",
+      "label": {
+        "default": "Penzing"
+      },
+      "kind": "event-kind-event-kind-born_in",
+      "relations": [
+        {
+          "entity": "Otto_Wagner-pl-Penzing_(Vienna)",
+          "role": "role-place_of_birth"
+        },
+        {
+          "entity": "Otto_Wagner-pr-Otto_Wagner",
+          "role": "role-born_in"
+        }
+      ]
+    },
+    {
+      "id": "Otto_Wagner-pr-002-ev-016",
+      "label": {
+        "default": "Helffenstorffer-Hueber"
+      },
+      "kind": "event-kind-event-kind-related_to",
+      "relations": [
+        {
+          "entity": "Otto_Wagner-pr-003",
+          "role": "role-unk"
+        },
+        {
+          "entity": "Otto_Wagner-pr-002",
+          "role": "role-related_to"
+        }
+      ]
+    },
+    {
+      "id": "Otto_Wagner-pr-002-ev-017",
+      "label": {
+        "default": "Rudolf Simeon Wagner"
+      },
+      "kind": "event-kind-event-kind-related_to",
+      "relations": [
+        {
+          "entity": "Otto_Wagner-pr-004",
+          "role": "role-unk"
+        },
+        {
+          "entity": "Otto_Wagner-pr-002",
+          "role": "role-related_to"
+        }
+      ]
+    },
+    {
+      "id": "Otto_Wagner-pr-002-ev-018",
+      "label": {
+        "default": "Suzanne"
+      },
+      "kind": "event-kind-event-kind-married_to",
+      "relations": [
+        {
+          "entity": "Otto_Wagner-pr-002",
+          "role": "role-married_to"
+        },
+        {
+          "entity": "Otto_Wagner-pr-003",
+          "role": "role-married_to"
+        }
+      ]
+    },
+    {
+      "id": "Otto_Wagner-pr-002-ev-019",
+      "label": {
+        "default": "Suzanne"
+      },
+      "kind": "event-kind-event-kind-married_to",
+      "relations": [
+        {
+          "entity": "Otto_Wagner-pr-002",
+          "role": "role-married_to"
+        },
+        {
+          "entity": "Otto_Wagner-pr-004",
+          "role": "role-married_to"
+        }
+      ]
+    },
+    {
+      "id": "Otto_Wagner-pr-003-ev-020",
+      "label": {
+        "default": "Helffenstorffer-Hueber"
+      },
+      "kind": "event-kind-event-kind-related_to",
+      "relations": [
+        {
+          "entity": "Otto_Wagner-pr-003",
+          "role": "role-unk"
+        },
+        {
+          "entity": "Otto_Wagner-pr-002",
+          "role": "role-related_to"
+        }
+      ]
+    },
+    {
+      "id": "Otto_Wagner-pr-003-ev-021",
+      "label": {
+        "default": "Suzanne"
+      },
+      "kind": "event-kind-event-kind-married_to",
+      "relations": [
+        {
+          "entity": "Otto_Wagner-pr-002",
+          "role": "role-married_to"
+        },
+        {
+          "entity": "Otto_Wagner-pr-003",
+          "role": "role-married_to"
+        }
+      ]
+    },
+    {
+      "id": "Otto_Wagner-pr-003-ev-022",
+      "label": {
+        "default": "Rudolf Simeon Wagner"
+      },
+      "kind": "event-kind-event-kind-married_to",
+      "relations": [
+        {
+          "entity": "Otto_Wagner-pr-004",
+          "role": "role-married_to"
+        },
+        {
+          "entity": "Otto_Wagner-pr-003",
+          "role": "role-married_to"
+        }
+      ]
+    },
+    {
+      "id": "Otto_Wagner-pr-003-ev-023",
+      "label": {
+        "default": "Helffenstorffer-Hueber"
+      },
+      "kind": "event-kind-event-kind-married_to",
+      "relations": [
+        {
+          "entity": "Otto_Wagner-pr-003",
+          "role": "role-married_to"
+        },
+        {
+          "entity": "Otto_Wagner-pr-004",
+          "role": "role-married_to"
+        }
+      ]
+    },
+    {
+      "id": "Otto_Wagner-pr-004-ev-024",
+      "label": {
+        "default": "Rudolf Simeon Wagner"
+      },
+      "kind": "event-kind-event-kind-related_to",
+      "relations": [
+        {
+          "entity": "Otto_Wagner-pr-004",
+          "role": "role-unk"
+        },
+        {
+          "entity": "Otto_Wagner-pr-002",
+          "role": "role-related_to"
+        }
+      ]
+    },
+    {
+      "id": "Otto_Wagner-pr-004-ev-025",
+      "label": {
+        "default": "Suzanne"
+      },
+      "kind": "event-kind-event-kind-married_to",
+      "relations": [
+        {
+          "entity": "Otto_Wagner-pr-002",
+          "role": "role-married_to"
+        },
+        {
+          "entity": "Otto_Wagner-pr-004",
+          "role": "role-married_to"
+        }
+      ]
+    },
+    {
+      "id": "Otto_Wagner-pr-004-ev-026",
+      "label": {
+        "default": "Rudolf Simeon Wagner"
+      },
+      "kind": "event-kind-event-kind-married_to",
+      "relations": [
+        {
+          "entity": "Otto_Wagner-pr-004",
+          "role": "role-married_to"
+        },
+        {
+          "entity": "Otto_Wagner-pr-003",
+          "role": "role-married_to"
+        }
+      ]
+    },
+    {
+      "id": "Otto_Wagner-pr-004-ev-027",
+      "label": {
+        "default": "Helffenstorffer-Hueber"
+      },
+      "kind": "event-kind-event-kind-married_to",
+      "relations": [
+        {
+          "entity": "Otto_Wagner-pr-003",
+          "role": "role-married_to"
+        },
+        {
+          "entity": "Otto_Wagner-pr-004",
+          "role": "role-married_to"
+        }
+      ]
+    },
+    {
+      "id": "Otto_Wagner-ob-001-ev-028",
+      "label": {
+        "default": "Modern Architecture"
+      },
+      "kind": "event-kind-creation",
+      "relations": [
+        {
+          "entity": "Otto_Wagner-ob-001",
+          "role": "role-object_created"
+        },
+        {
+          "entity": "Otto_Wagner-pr-Otto_Wagner",
+          "role": "role-related_to"
+        }
+      ]
+    },
+    {
+      "id": "Otto_Wagner-gr-Länderbank-ev-029",
+      "label": {
+        "default": "Vienna"
+      },
+      "kind": "event-kind-event-kind-based_in",
+      "relations": [
+        {
+          "entity": "Otto_Wagner-pl-Vienna",
+          "role": "role-location_of"
+        },
+        {
+          "entity": "Otto_Wagner-gr-Länderbank",
+          "role": "role-based_in"
+        }
+      ]
+    },
+    {
+      "id": "Otto_Wagner-pl-Wiener_Stadtbahn-ev-030",
+      "label": {
+        "default": "Stadtbahn"
+      },
+      "kind": "event-kind-event-kind-employee_of",
+      "relations": [
+        {
+          "entity": "Otto_Wagner-pl-Wiener_Stadtbahn",
+          "role": "role-unk"
+        },
+        {
+          "entity": "Otto_Wagner-pr-Otto_Wagner",
+          "role": "role-employee_of"
+        }
+      ]
+    },
+    {
+      "id": "Otto_Wagner-ob-003-ev-031",
+      "label": {
+        "default": "Architecture"
+      },
+      "kind": "event-kind-creation",
+      "relations": [
+        {
+          "entity": "Otto_Wagner-ob-003",
+          "role": "role-object_created"
+        },
+        {
+          "entity": "Otto_Wagner-pr-Otto_Wagner",
+          "role": "role-related_to"
+        }
+      ]
+    },
+    {
+      "id": "Otto_Wagner-gr-008-ev-032",
+      "label": {
+        "default": "Vienna"
+      },
+      "kind": "event-kind-event-kind-based_in",
+      "relations": [
+        {
+          "entity": "Otto_Wagner-pl-Vienna",
+          "role": "role-location_of"
+        },
+        {
+          "entity": "Otto_Wagner-gr-008",
+          "role": "role-based_in"
+        }
+      ]
+    },
+    {
+      "id": "Otto_Wagner-gr-009-ev-033",
+      "label": {
+        "default": "Vienna"
+      },
+      "kind": "event-kind-event-kind-based_in",
+      "relations": [
+        {
+          "entity": "Otto_Wagner-pl-Vienna",
+          "role": "role-location_of"
+        },
+        {
+          "entity": "Otto_Wagner-gr-009",
+          "role": "role-based_in"
+        }
+      ]
+    },
+    {
+      "id": "Otto_Wagner-pl-021-ev-034",
+      "label": {
+        "default": "Vienna"
+      },
+      "kind": "event-kind-event-kind-based_in",
+      "relations": [
+        {
+          "entity": "Otto_Wagner-pl-Vienna",
+          "role": "role-location_of"
+        },
+        {
+          "entity": "Otto_Wagner-pl-021",
+          "role": "role-based_in"
+        }
+      ]
+    },
+    {
+      "id": "Otto_Wagner-ob-004-ev-035",
+      "label": {
+        "default": "the Angels on"
+      },
+      "kind": "event-kind-creation",
+      "relations": [
+        {
+          "entity": "Otto_Wagner-ob-004",
+          "role": "role-object_created"
+        },
+        {
+          "entity": "Otto_Wagner-pr-Otto_Wagner",
+          "role": "role-related_to"
+        }
+      ]
+    },
+    {
+      "id": "Otto_Wagner-gr-010-ev-036",
+      "label": {
+        "default": "Vienna"
+      },
+      "kind": "event-kind-event-kind-based_in",
+      "relations": [
+        {
+          "entity": "Otto_Wagner-pl-Vienna",
+          "role": "role-location_of"
+        },
+        {
+          "entity": "Otto_Wagner-gr-010",
+          "role": "role-based_in"
+        }
+      ]
+    },
+    {
+      "id": "Otto_Wagner-ob-005-ev-037",
+      "label": {
+        "default": "The Modern style in Church construction"
+      },
+      "kind": "event-kind-creation",
+      "relations": [
+        {
+          "entity": "Otto_Wagner-ob-005",
+          "role": "role-object_created"
+        },
+        {
+          "entity": "Otto_Wagner-pr-Otto_Wagner",
+          "role": "role-related_to"
+        }
+      ]
+    },
+    {
+      "id": "Otto_Wagner-ob-007-ev-038",
+      "label": {
+        "default": "Sketches, Projects, Constructions"
+      },
+      "kind": "event-kind-creation",
+      "relations": [
+        {
+          "entity": "Otto_Wagner-ob-007",
+          "role": "role-object_created"
+        },
+        {
+          "entity": "Otto_Wagner-pr-Otto_Wagner",
+          "role": "role-related_to"
+        }
+      ]
+    },
+    {
+      "id": "Otto_Wagner-ob-008-ev-039",
+      "label": {
+        "default": "\"The Great City\""
+      },
+      "kind": "event-kind-creation",
+      "relations": [
+        {
+          "entity": "Otto_Wagner-ob-008",
+          "role": "role-object_created"
+        },
+        {
+          "entity": "Otto_Wagner-pr-Otto_Wagner",
+          "role": "role-related_to"
+        }
+      ]
+    },
+    {
+      "id": "Otto_Wagner-gr-015-ev-040",
+      "label": {
+        "default": "Paris"
+      },
+      "kind": "event-kind-event-kind-based_in",
+      "relations": [
+        {
+          "entity": "Otto_Wagner-pl-001",
+          "role": "role-location_of"
+        },
+        {
+          "entity": "Otto_Wagner-gr-015",
+          "role": "role-based_in"
+        }
+      ]
+    },
+    {
+      "id": "Otto_Wagner-ob-009-ev-041",
+      "label": {
+        "default": "Modern Architecture: A Guidebook for His Students to This Field of Art"
+      },
+      "kind": "event-kind-creation",
+      "relations": [
+        {
+          "entity": "Otto_Wagner-ob-009",
+          "role": "role-object_created"
+        },
+        {
+          "entity": "Otto_Wagner-pr-Otto_Wagner",
+          "role": "role-related_to"
+        }
+      ]
+    },
+    {
+      "id": "Otto_Wagner-pr-Otto_Wagner-ev-042",
+      "label": {
+        "default": "Wagner was a leading member of the Vienna Secession movement of architecture , founded in 1897 , and the broader Art Nouveau movement"
+      },
+      "kind": "event-kind-was",
+      "relations": [
+        {
+          "entity": "Otto_Wagner-pr-Otto_Wagner",
+          "role": "role-related_to"
+        },
+        {
+          "entity": "Otto_Wagner-pl-Vienna",
+          "role": "role-was"
+        },
+        {
+          "entity": "Otto_Wagner-gr-Vienna_Secession",
+          "role": "role-was"
+        },
+        {
+          "entity": "Otto_Wagner-pl-026",
+          "role": "role-was"
+        },
+        {
+          "entity": "Otto_Wagner-pr-Art_Nouveau",
+          "role": "role-was"
+        }
+      ],
+      "startDate": "1897-01-01"
+    },
+    {
+      "id": "Otto_Wagner-pr-Otto_Wagner-ev-043",
+      "label": {
+        "default": "Wagner born  in 1841 in Penzing , a district in Vienna"
+      },
+      "kind": "event-kind-born",
+      "relations": [
+        {
+          "entity": "Otto_Wagner-pr-Otto_Wagner",
+          "role": "role-related_to"
+        },
+        {
+          "entity": "Otto_Wagner-pl-Vienna",
+          "role": "role-born"
+        },
+        {
+          "entity": "Otto_Wagner-pl-Penzing_(Vienna)",
+          "role": "role-born"
+        }
+      ],
+      "startDate": "1841-01-01"
+    },
+    {
+      "id": "Otto_Wagner-pr-Otto_Wagner-ev-044",
+      "label": {
+        "default": "Wagner traveled to Berlin in 1860"
+      },
+      "kind": "event-kind-traveled",
+      "relations": [
+        {
+          "entity": "Otto_Wagner-pr-Otto_Wagner",
+          "role": "role-related_to"
+        },
+        {
+          "entity": "Otto_Wagner-pl-006",
+          "role": "role-traveled"
+        }
+      ],
+      "startDate": "1860-01-01"
+    },
+    {
+      "id": "Otto_Wagner-pr-Otto_Wagner-ev-045",
+      "label": {
+        "default": "Wagner studied  in 1860 under Carl Ferdinand Busse , a classicist and student of Karl Friedrich Schinkel , the leader of the German school of neoclassical and neo - Gothic architecture"
+      },
+      "kind": "event-kind-studied",
+      "relations": [
+        {
+          "entity": "Otto_Wagner-pr-Otto_Wagner",
+          "role": "role-related_to"
+        },
+        {
+          "entity": "Otto_Wagner-pr-005",
+          "role": "role-studied"
+        },
+        {
+          "entity": "Otto_Wagner-pr-Karl_Friedrich_Schinkel",
+          "role": "role-studied"
+        },
+        {
+          "entity": "Otto_Wagner-pl-026",
+          "role": "role-studied"
+        }
+      ],
+      "startDate": "1860-01-01"
+    },
+    {
+      "id": "Otto_Wagner-pr-Otto_Wagner-ev-046",
+      "label": {
+        "default": "Wagner returned to Vienna in 1861"
+      },
+      "kind": "event-kind-returned",
+      "relations": [
+        {
+          "entity": "Otto_Wagner-pr-Otto_Wagner",
+          "role": "role-related_to"
+        },
+        {
+          "entity": "Otto_Wagner-pl-Vienna",
+          "role": "role-returned"
+        }
+      ],
+      "startDate": "1861-01-01"
+    },
+    {
+      "id": "Otto_Wagner-pr-Otto_Wagner-ev-047",
+      "label": {
+        "default": "Wagner described his own style as \" a sort of free Renaissance \" During this period , which lasted until about 1880"
+      },
+      "kind": "event-kind-described",
+      "relations": [
+        {
+          "entity": "Otto_Wagner-pr-Otto_Wagner",
+          "role": "role-related_to"
+        },
+        {
+          "entity": "Otto_Wagner-pr-008",
+          "role": "role-described"
+        }
+      ],
+      "startDate": "1880-01-01"
+    },
+    {
+      "id": "Otto_Wagner-pr-Otto_Wagner-ev-048",
+      "label": {
+        "default": "Wagner wrote only that which is practical can be beautiful In 1896 in his book Modern Architecture"
+      },
+      "kind": "event-kind-wrote",
+      "relations": [
+        {
+          "entity": "Otto_Wagner-pr-Otto_Wagner",
+          "role": "role-related_to"
+        },
+        {
+          "entity": "Otto_Wagner-ob-001",
+          "role": "role-wrote"
+        },
+        {
+          "entity": "Otto_Wagner-ob-003",
+          "role": "role-wrote"
+        }
+      ],
+      "startDate": "1896-01-01"
+    },
+    {
+      "id": "Otto_Wagner-pr-Otto_Wagner-ev-049",
+      "label": {
+        "default": "Wagner began to construct buildings of which he was both the architect and investor in the project , sharing in the financial benefits In the 1880s"
+      },
+      "kind": "event-kind-began",
+      "relations": [
+        {
+          "entity": "Otto_Wagner-pr-Otto_Wagner",
+          "role": "role-related_to"
+        },
+        {
+          "entity": "Otto_Wagner-pl-026",
+          "role": "role-began"
+        }
+      ],
+      "startDate": "1880-01-01"
+    },
+    {
+      "id": "Otto_Wagner-pr-Otto_Wagner-ev-050",
+      "label": {
+        "default": "Wagner designed a luxury apartment building on Stadiongasse in Vienna , close to the Parliament and the city hall In 1882"
+      },
+      "kind": "event-kind-designed",
+      "relations": [
+        {
+          "entity": "Otto_Wagner-pr-Otto_Wagner",
+          "role": "role-related_to"
+        },
+        {
+          "entity": "Otto_Wagner-pl-Vienna",
+          "role": "role-designed"
+        },
+        {
+          "entity": "Otto_Wagner-pl-010",
+          "role": "role-designed"
+        },
+        {
+          "entity": "Otto_Wagner-pl-011",
+          "role": "role-designed"
+        },
+        {
+          "entity": "Otto_Wagner-pl-026",
+          "role": "role-designed"
+        }
+      ],
+      "startDate": "1882-01-01"
+    },
+    {
+      "id": "Otto_Wagner-pr-Otto_Wagner-ev-051",
+      "label": {
+        "default": "Wagner won the design competition in 1882"
+      },
+      "kind": "event-kind-won",
+      "relations": [
+        {
+          "entity": "Otto_Wagner-pr-Otto_Wagner",
+          "role": "role-related_to"
+        },
+        {
+          "entity": "Otto_Wagner-pl-026",
+          "role": "role-won"
+        }
+      ],
+      "startDate": "1882-01-01"
+    },
+    {
+      "id": "Otto_Wagner-pr-Otto_Wagner-ev-052",
+      "label": {
+        "default": "Wagner modified the house In 1895"
+      },
+      "kind": "event-kind-modified",
+      "relations": [
+        {
+          "entity": "Otto_Wagner-pr-Otto_Wagner",
+          "role": "role-related_to"
+        },
+        {
+          "entity": "Otto_Wagner-pl-004",
+          "role": "role-modified"
+        },
+        {
+          "entity": "Otto_Wagner-pl-026",
+          "role": "role-modified"
+        }
+      ],
+      "startDate": "1895-01-01"
+    },
+    {
+      "id": "Otto_Wagner-pr-Otto_Wagner-ev-053",
+      "label": {
+        "default": "Wagner became increasingly interested in urban planning In the 1890s"
+      },
+      "kind": "event-kind-became",
+      "relations": [
+        {
+          "entity": "Otto_Wagner-pr-Otto_Wagner",
+          "role": "role-related_to"
+        },
+        {
+          "entity": "Otto_Wagner-pl-026",
+          "role": "role-became"
+        }
+      ],
+      "startDate": "1890-01-01"
+    },
+    {
+      "id": "Otto_Wagner-pr-Otto_Wagner-ev-054",
+      "label": {
+        "default": "Wagner named artistic counselor for the new Stadtbahn In April 1894"
+      },
+      "kind": "event-kind-named",
+      "relations": [
+        {
+          "entity": "Otto_Wagner-pr-Otto_Wagner",
+          "role": "role-related_to"
+        },
+        {
+          "entity": "Otto_Wagner-pl-Wiener_Stadtbahn",
+          "role": "role-named"
+        },
+        {
+          "entity": "Otto_Wagner-pl-026",
+          "role": "role-named"
+        }
+      ],
+      "startDate": "1894-04-01"
+    },
+    {
+      "id": "Otto_Wagner-pr-Otto_Wagner-ev-055",
+      "label": {
+        "default": "Wagner became Professor of Architecture at the Academy of Fine Arts Vienna In 1894"
+      },
+      "kind": "event-kind-became",
+      "relations": [
+        {
+          "entity": "Otto_Wagner-pr-Otto_Wagner",
+          "role": "role-related_to"
+        },
+        {
+          "entity": "Otto_Wagner-pl-Vienna",
+          "role": "role-became"
+        },
+        {
+          "entity": "Otto_Wagner-gr-006",
+          "role": "role-became"
+        },
+        {
+          "entity": "Otto_Wagner-gr-007",
+          "role": "role-became"
+        },
+        {
+          "entity": "Otto_Wagner-ob-003",
+          "role": "role-became"
+        },
+        {
+          "entity": "Otto_Wagner-gr-009",
+          "role": "role-became"
+        },
+        {
+          "entity": "Otto_Wagner-pl-026",
+          "role": "role-became"
+        },
+        {
+          "entity": "Otto_Wagner-gr-026",
+          "role": "role-became"
+        },
+        {
+          "entity": "Otto_Wagner-gr-Academy_of_Fine_Arts_Vienna",
+          "role": "role-became"
+        },
+        {
+          "entity": "Otto_Wagner-gr-028",
+          "role": "role-became"
+        }
+      ],
+      "startDate": "1894-01-01"
+    },
+    {
+      "id": "Otto_Wagner-pr-Otto_Wagner-ev-056",
+      "label": {
+        "default": "Wagner expressed the necessity of leaving behind historical forms and romanticism and developing Architectural Realism , where the form was determined by the function of the building In 1894 increasingly"
+      },
+      "kind": "event-kind-expressed",
+      "relations": [
+        {
+          "entity": "Otto_Wagner-pr-Otto_Wagner",
+          "role": "role-related_to"
+        },
+        {
+          "entity": "Otto_Wagner-pl-026",
+          "role": "role-expressed"
+        }
+      ],
+      "startDate": "1894-01-01"
+    },
+    {
+      "id": "Otto_Wagner-pr-Otto_Wagner-ev-057",
+      "label": {
+        "default": "Wagner published a textbook entitled Modern Architecture in which he expressed his ideas about the role of the architect In 1896"
+      },
+      "kind": "event-kind-published",
+      "relations": [
+        {
+          "entity": "Otto_Wagner-pr-Otto_Wagner",
+          "role": "role-related_to"
+        },
+        {
+          "entity": "Otto_Wagner-ob-001",
+          "role": "role-published"
+        },
+        {
+          "entity": "Otto_Wagner-ob-003",
+          "role": "role-published"
+        },
+        {
+          "entity": "Otto_Wagner-pl-026",
+          "role": "role-published"
+        }
+      ],
+      "startDate": "1896-01-01"
+    },
+    {
+      "id": "Otto_Wagner-pr-Otto_Wagner-ev-058",
+      "label": {
+        "default": "Wagner aligned himself with Vienna Secession , a movement started by fifty Vienna artists formally known as the Association of Austrian plastic artists In 1897"
+      },
+      "kind": "event-kind-aligned",
+      "relations": [
+        {
+          "entity": "Otto_Wagner-pr-Otto_Wagner",
+          "role": "role-related_to"
+        },
+        {
+          "entity": "Otto_Wagner-pl-Vienna",
+          "role": "role-aligned"
+        },
+        {
+          "entity": "Otto_Wagner-gr-Vienna_Secession",
+          "role": "role-aligned"
+        },
+        {
+          "entity": "Otto_Wagner-gr-008",
+          "role": "role-aligned"
+        },
+        {
+          "entity": "Otto_Wagner-pl-026",
+          "role": "role-aligned"
+        }
+      ],
+      "startDate": "1897-01-01"
+    },
+    {
+      "id": "Otto_Wagner-pr-Otto_Wagner-ev-059",
+      "label": {
+        "default": "Wagner had the bathroom displayed at the 1900 Paris Universal Exposition"
+      },
+      "kind": "event-kind-had",
+      "relations": [
+        {
+          "entity": "Otto_Wagner-pr-Otto_Wagner",
+          "role": "role-related_to"
+        },
+        {
+          "entity": "Otto_Wagner-pl-001",
+          "role": "role-had"
+        },
+        {
+          "entity": "Otto_Wagner-pl-026",
+          "role": "role-had"
+        }
+      ],
+      "startDate": "1900-01-01"
+    },
+    {
+      "id": "Otto_Wagner-pr-Otto_Wagner-ev-060",
+      "label": {
+        "default": "Wagner achieved an international reputation By 1905 , the year he left the Vienna Secession"
+      },
+      "kind": "event-kind-achieved",
+      "relations": [
+        {
+          "entity": "Otto_Wagner-pr-Otto_Wagner",
+          "role": "role-related_to"
+        },
+        {
+          "entity": "Otto_Wagner-pl-Vienna",
+          "role": "role-achieved"
+        },
+        {
+          "entity": "Otto_Wagner-gr-Vienna_Secession",
+          "role": "role-achieved"
+        },
+        {
+          "entity": "Otto_Wagner-pl-026",
+          "role": "role-achieved"
+        }
+      ],
+      "startDate": "1905-01-01"
+    },
+    {
+      "id": "Otto_Wagner-pr-Otto_Wagner-ev-061",
+      "label": {
+        "default": "Wagner published a series of books on topics including theater architecture , hotel architecture , and a particularly forward - looking work , \" The Great City \" , published in 1911 , devoted to urban planning , explaining how the expansion of large cities should be managed"
+      },
+      "kind": "event-kind-published",
+      "relations": [
+        {
+          "entity": "Otto_Wagner-pr-Otto_Wagner",
+          "role": "role-related_to"
+        },
+        {
+          "entity": "Otto_Wagner-pl-026",
+          "role": "role-published"
+        },
+        {
+          "entity": "Otto_Wagner-gr-031",
+          "role": "role-published"
+        }
+      ],
+      "startDate": "1911-01-01"
+    },
+    {
+      "id": "Otto_Wagner-pr-Otto_Wagner-ev-062",
+      "label": {
+        "default": "Wagner traveled to New York in 1910"
+      },
+      "kind": "event-kind-traveled",
+      "relations": [
+        {
+          "entity": "Otto_Wagner-pr-Otto_Wagner",
+          "role": "role-related_to"
+        },
+        {
+          "entity": "Otto_Wagner-pl-029",
+          "role": "role-traveled"
+        }
+      ],
+      "startDate": "1910-01-01"
+    },
+    {
+      "id": "Otto_Wagner-pr-Otto_Wagner-ev-063",
+      "label": {
+        "default": "Wagner participated in the International Congress of Architecture in London in 1906"
+      },
+      "kind": "event-kind-participated",
+      "relations": [
+        {
+          "entity": "Otto_Wagner-pr-Otto_Wagner",
+          "role": "role-related_to"
+        },
+        {
+          "entity": "Otto_Wagner-ob-003",
+          "role": "role-participated"
+        },
+        {
+          "entity": "Otto_Wagner-pl-026",
+          "role": "role-participated"
+        },
+        {
+          "entity": "Otto_Wagner-pl-028",
+          "role": "role-participated"
+        },
+        {
+          "entity": "Otto_Wagner-gr-032",
+          "role": "role-participated"
+        }
+      ],
+      "startDate": "1906-01-01"
+    },
+    {
+      "id": "Otto_Wagner-pr-Otto_Wagner-ev-064",
+      "label": {
+        "default": "Wagner named Vice President of the Permanent Commission of Congress of Fine Arts in Paris in 1912"
+      },
+      "kind": "event-kind-named",
+      "relations": [
+        {
+          "entity": "Otto_Wagner-pr-Otto_Wagner",
+          "role": "role-related_to"
+        },
+        {
+          "entity": "Otto_Wagner-pl-001",
+          "role": "role-named"
+        },
+        {
+          "entity": "Otto_Wagner-pl-026",
+          "role": "role-named"
+        },
+        {
+          "entity": "Otto_Wagner-gr-015",
+          "role": "role-named"
+        },
+        {
+          "entity": "Otto_Wagner-gr-035",
+          "role": "role-named"
+        }
+      ],
+      "startDate": "1912-01-01"
+    },
+    {
+      "id": "Otto_Wagner-pr-Otto_Wagner-ev-065",
+      "label": {
+        "default": "Wagner proposed a very modern municipal museum for Vienna dedicated to The Emperor Franz - Joseph In 1912"
+      },
+      "kind": "event-kind-proposed",
+      "relations": [
+        {
+          "entity": "Otto_Wagner-pr-Otto_Wagner",
+          "role": "role-related_to"
+        },
+        {
+          "entity": "Otto_Wagner-pl-Vienna",
+          "role": "role-proposed"
+        },
+        {
+          "entity": "Otto_Wagner-pr-021",
+          "role": "role-proposed"
+        },
+        {
+          "entity": "Otto_Wagner-pr-022",
+          "role": "role-proposed"
+        }
+      ],
+      "startDate": "1912-01-01"
+    },
+    {
+      "id": "Otto_Wagner-pr-Otto_Wagner-ev-066",
+      "label": {
+        "default": "Wagner became an honorary professor at the Academy In 1913"
+      },
+      "kind": "event-kind-became",
+      "relations": [
+        {
+          "entity": "Otto_Wagner-pr-Otto_Wagner",
+          "role": "role-related_to"
+        },
+        {
+          "entity": "Otto_Wagner-gr-007",
+          "role": "role-became"
+        },
+        {
+          "entity": "Otto_Wagner-pl-026",
+          "role": "role-became"
+        }
+      ],
+      "startDate": "1913-01-01"
+    },
+    {
+      "id": "Otto_Wagner-pr-Otto_Wagner-ev-067",
+      "label": {
+        "default": "Wagner sold the house in September 1916"
+      },
+      "kind": "event-kind-sold",
+      "relations": [
+        {
+          "entity": "Otto_Wagner-pr-Otto_Wagner",
+          "role": "role-related_to"
+        },
+        {
+          "entity": "Otto_Wagner-pl-004",
+          "role": "role-sold"
+        },
+        {
+          "entity": "Otto_Wagner-pl-026",
+          "role": "role-sold"
+        }
+      ],
+      "startDate": "1916-09-01"
+    },
+    {
+      "id": "Otto_Wagner-pr-Otto_Wagner-ev-068",
+      "label": {
+        "default": "Wagner died on 1918-04-11"
+      },
+      "kind": "event-kind-died on",
+      "relations": [
+        {
+          "entity": "Otto_Wagner-pr-Otto_Wagner",
+          "role": "role-related_to"
+        }
+      ],
+      "startDate": "1918-04-11"
+    }
+  ],
+  "media": [
+    {
+      "id": "Otto_Wagner-m-001",
+      "label": {
+        "default": "Otto_Wagner Main Image"
+      },
+      "description": "Otto_Wagner Main Image",
+      "attribution": "",
+      "url": "http://commons.wikimedia.org/wiki/Special:FilePath/Otto%20Wagner%20%281841%E2%80%931918%29.jpg",
+      "kind": "image"
+    },
+    {
+      "id": "Otto_Wagner-m-002",
+      "label": {
+        "default": "Joseph Maria Olbrich"
+      },
+      "description": "Joseph Maria Olbrich",
+      "attribution": "",
+      "url": "http://commons.wikimedia.org/wiki/Special:FilePath/Joseph%20Maria%20Olbrich%201908.jpg",
+      "kind": "image"
+    },
+    {
+      "id": "Otto_Wagner-m-003",
+      "label": {
+        "default": "Koloman Moser"
+      },
+      "description": "Koloman Moser",
+      "attribution": "",
+      "url": "http://commons.wikimedia.org/wiki/Special:FilePath/Koloman%20Moser.jpg",
+      "kind": "image"
+    },
+    {
+      "id": "Otto_Wagner-m-004",
+      "label": {
+        "default": "Josef Hoffmann"
+      },
+      "description": "Josef Hoffmann",
+      "attribution": "",
+      "url": "http://commons.wikimedia.org/wiki/Special:FilePath/Josef-Hoffmann.jpg",
+      "kind": "image"
+    },
+    {
+      "id": "Otto_Wagner-m-005",
+      "label": {
+        "default": "Karl Friedrich Schinkel"
+      },
+      "description": "Karl Friedrich Schinkel",
+      "attribution": "",
+      "url": "http://commons.wikimedia.org/wiki/Special:FilePath/Schinkel1.jpg",
+      "kind": "image"
+    },
+    {
+      "id": "Otto_Wagner-m-006",
+      "label": {
+        "default": "Länderbank"
+      },
+      "description": "Länderbank",
+      "attribution": "",
+      "url": "http://commons.wikimedia.org/wiki/Special:FilePath/Am%20Hof%202%20Ansicht%201.jpg",
+      "kind": "image"
+    },
+    {
+      "id": "Otto_Wagner-m-007",
+      "label": {
+        "default": "Adolf Böhm"
+      },
+      "description": "Adolf Böhm",
+      "attribution": "",
+      "url": "http://commons.wikimedia.org/wiki/Special:FilePath/Adolf%20B%C3%B6hm.jpeg",
+      "kind": "image"
+    },
+    {
+      "id": "Otto_Wagner-m-008",
+      "label": {
+        "default": "Vienna Secession"
+      },
+      "description": "Vienna Secession",
+      "attribution": "",
+      "url": "http://commons.wikimedia.org/wiki/Special:FilePath/Wien%20-%20Secessionsgeb%C3%A4ude.JPG",
+      "kind": "image"
+    },
+    {
+      "id": "Otto_Wagner-m-009",
+      "label": {
+        "default": "Gustav Klimt"
+      },
+      "description": "Gustav Klimt",
+      "attribution": "",
+      "url": "http://commons.wikimedia.org/wiki/Special:FilePath/Klimt.jpg",
+      "kind": "image"
+    },
+    {
+      "id": "Otto_Wagner-m-010",
+      "label": {
+        "default": "Secession"
+      },
+      "description": "Secession",
+      "attribution": "",
+      "url": "http://commons.wikimedia.org/wiki/Special:FilePath/Wien%20-%20Secessionsgeb%C3%A4ude.JPG",
+      "kind": "image"
+    },
+    {
+      "id": "Otto_Wagner-m-011",
+      "label": {
+        "default": "Secession"
+      },
+      "description": "Secession",
+      "attribution": "",
+      "url": "http://commons.wikimedia.org/wiki/Special:FilePath/Wien%20-%20Secessionsgeb%C3%A4ude.JPG",
+      "kind": "image"
+    },
+    {
+      "id": "Otto_Wagner-m-012",
+      "label": {
+        "default": "Carl Moll"
+      },
+      "description": "Carl Moll",
+      "attribution": "",
+      "url": "http://commons.wikimedia.org/wiki/Special:FilePath/Carl%20Moll%2C%20attributed%20to%20Ludwig%20Michalek.jpg",
+      "kind": "image"
+    },
+    {
+      "id": "Otto_Wagner-m-013",
+      "label": {
+        "default": "Secession"
+      },
+      "description": "Secession",
+      "attribution": "",
+      "url": "http://commons.wikimedia.org/wiki/Special:FilePath/Wien%20-%20Secessionsgeb%C3%A4ude.JPG",
+      "kind": "image"
+    },
+    {
+      "id": "Otto_Wagner-m-014",
+      "label": {
+        "default": "Secession"
+      },
+      "description": "Secession",
+      "attribution": "",
+      "url": "http://commons.wikimedia.org/wiki/Special:FilePath/Wien%20-%20Secessionsgeb%C3%A4ude.JPG",
+      "kind": "image"
+    },
+    {
+      "id": "Otto_Wagner-m-015",
+      "label": {
+        "default": "Klimt"
+      },
+      "description": "Klimt",
+      "attribution": "",
+      "url": "http://commons.wikimedia.org/wiki/Special:FilePath/Klimt.jpg",
+      "kind": "image"
+    },
+    {
+      "id": "Otto_Wagner-m-016",
+      "label": {
+        "default": "Klimt"
+      },
+      "description": "Klimt",
+      "attribution": "",
+      "url": "http://commons.wikimedia.org/wiki/Special:FilePath/Klimt.jpg",
+      "kind": "image"
+    },
+    {
+      "id": "Otto_Wagner-m-017",
+      "label": {
+        "default": "Moser"
+      },
+      "description": "Moser",
+      "attribution": "",
+      "url": "http://commons.wikimedia.org/wiki/Special:FilePath/Koloman%20Moser.jpg",
+      "kind": "image"
+    },
+    {
+      "id": "Otto_Wagner-m-018",
+      "label": {
+        "default": "Hoffmann"
+      },
+      "description": "Hoffmann",
+      "attribution": "",
+      "url": "http://commons.wikimedia.org/wiki/Special:FilePath/Josef-Hoffmann.jpg",
+      "kind": "image"
+    },
+    {
+      "id": "Otto_Wagner-m-019",
+      "label": {
+        "default": "Jože Plečnik"
+      },
+      "description": "Jože Plečnik",
+      "attribution": "",
+      "url": "http://commons.wikimedia.org/wiki/Special:FilePath/Jo%C5%BEe%20Ple%C4%8Dnik%20%281943%29%2C%20Zbirka%20upodobitev%20znanih%20Slovencev%20NUK%20-%20Crop1.jpg",
+      "kind": "image"
+    },
+    {
+      "id": "Otto_Wagner-m-020",
+      "label": {
+        "default": "Max Fabiani"
+      },
+      "description": "Max Fabiani",
+      "attribution": "",
+      "url": "http://commons.wikimedia.org/wiki/Special:FilePath/Max%20Fabiani%201902%20%28cropped%29.jpg",
+      "kind": "image"
+    },
+    {
+      "id": "Otto_Wagner-m-021",
+      "label": {
+        "default": "Mackintosh"
+      },
+      "description": "Mackintosh",
+      "attribution": "",
+      "url": "http://commons.wikimedia.org/wiki/Special:FilePath/Charles-Rennie-Mackintosh.jpg",
+      "kind": "image"
+    },
+    {
+      "id": "Otto_Wagner-m-022",
+      "label": {
+        "default": "Louis Sullivan"
+      },
+      "description": "Louis Sullivan",
+      "attribution": "",
+      "url": "http://commons.wikimedia.org/wiki/Special:FilePath/LouisSullivan.jpg",
+      "kind": "image"
+    },
+    {
+      "id": "Otto_Wagner-m-023",
+      "label": {
+        "default": "Andrew Carnegie"
+      },
+      "description": "Andrew Carnegie",
+      "attribution": "",
+      "url": "http://commons.wikimedia.org/wiki/Special:FilePath/Andrew%20Carnegie%2C%20three-quarter%20length%20portrait%2C%20seated%2C%20facing%20slightly%20left%2C%201913-crop.jpg",
+      "kind": "image"
+    },
+    {
+      "id": "Otto_Wagner-m-024",
+      "label": {
+        "default": "Vienna Secession"
+      },
+      "description": "Vienna Secession",
+      "attribution": "",
+      "url": "http://commons.wikimedia.org/wiki/Special:FilePath/Wien%20-%20Secessionsgeb%C3%A4ude.JPG",
+      "kind": "image"
+    },
+    {
+      "id": "Otto_Wagner-m-025",
+      "label": {
+        "default": "Art Nouveau"
+      },
+      "description": "Art Nouveau",
+      "attribution": "",
+      "url": "http://commons.wikimedia.org/wiki/Special:FilePath/Alfons%20Mucha%20-%20Fruit2.jpg",
+      "kind": "image"
+    },
+    {
+      "id": "Otto_Wagner-m-026",
+      "label": {
+        "default": "Academy of Fine Arts Vienna"
+      },
+      "description": "Academy of Fine Arts Vienna",
+      "attribution": "",
+      "url": "http://commons.wikimedia.org/wiki/Special:FilePath/Akademie%20der%20bildenden%20Kuenste%20DSC%202400w.jpg",
+      "kind": "image"
+    },
+    {
+      "id": "Otto_Wagner-m-027",
+      "label": {
+        "default": "Secession"
+      },
+      "description": "Secession",
+      "attribution": "",
+      "url": "http://commons.wikimedia.org/wiki/Special:FilePath/Wien%20-%20Secessionsgeb%C3%A4ude.JPG",
+      "kind": "image"
+    },
+    {
+      "id": "Otto_Wagner-m-028",
+      "label": {
+        "default": "Linke Wienzeile Buildings"
+      },
+      "description": "Linke Wienzeile Buildings",
+      "attribution": "",
+      "url": "http://commons.wikimedia.org/wiki/Special:FilePath/Wienzeilenh%C3%A4user%201.JPG",
+      "kind": "image"
+    },
+    {
+      "id": "Otto_Wagner-m-029",
+      "label": {
+        "default": "Austrian Postal Savings Bank"
+      },
+      "description": "Austrian Postal Savings Bank",
+      "attribution": "",
+      "url": "http://commons.wikimedia.org/wiki/Special:FilePath/Wien%20-%20%C3%96sterreichische%20Postsparkasse%2C%20Georg-Coch-Platz.JPG",
+      "kind": "image"
+    },
+    {
+      "id": "Otto_Wagner-m-030",
+      "label": {
+        "default": "Austrian Postal Savings Bank"
+      },
+      "description": "Austrian Postal Savings Bank",
+      "attribution": "",
+      "url": "http://commons.wikimedia.org/wiki/Special:FilePath/Wien%20-%20%C3%96sterreichische%20Postsparkasse%2C%20Georg-Coch-Platz.JPG",
+      "kind": "image"
+    }
+  ],
+  "biographies": [
+    {
+      "id": "Otto_Wagner-bio-001",
+      "text": "Otto Koloman Wagner (German: [ˈɔto ˈkoːloman ˈvaːɡnɐ] (listen); 13 July 1841 – 11 April 1918) was an Austrian architect, furniture designer and urban planner. He was a leading member of the Vienna Secession movement of architecture, founded in 1897, and the broader Art Nouveau movement. Many of his works are found in his native city of Vienna, and illustrate the rapid evolution of architecture during the period. His early works were inspired by classical architecture.  By mid-1890s, he had already designed several buildings in what became known as the Vienna Secession style.  Beginning in 1898, with his designs of Vienna Metro stations, his style became floral and Art Nouveau,  with decoration by Koloman Moser. His later works, 1906 until his death in 1918,  had geometric forms and minimal ornament, clearly expressing their function. They are considered predecessors to   modern architecture.\n\n",
+      "citation": "en_wikipedia"
+    }
+  ],
+  "vocabularies": {
+    "event-kind": [
+      {
+        "id": "event-kind-event-kind-born_in",
+        "label": {
+          "default": "place_of_birth"
+        }
+      },
+      {
+        "id": "event-kind-event-kind-employee_of",
+        "label": {
+          "default": "unk"
+        }
+      },
+      {
+        "id": "event-kind-event-kind-died_in",
+        "label": {
+          "default": "unk"
+        }
+      },
+      {
+        "id": "event-kind-event-kind-based_in",
+        "label": {
+          "default": "location_of"
+        }
+      },
+      {
+        "id": "event-kind-event-kind-related_to",
+        "label": {
+          "default": "unk"
+        }
+      },
+      {
+        "id": "event-kind-event-kind-married_to",
+        "label": {
+          "default": "married_to"
+        }
+      },
+      {
+        "id": "event-kind-creation",
+        "label": {
+          "default": "object_created"
+        }
+      },
+      {
+        "id": "event-kind-event-kind-was",
+        "label": {
+          "default": "was"
+        }
+      },
+      {
+        "id": "event-kind-event-kind-born",
+        "label": {
+          "default": "born"
+        }
+      },
+      {
+        "id": "event-kind-event-kind-traveled",
+        "label": {
+          "default": "traveled"
+        }
+      },
+      {
+        "id": "event-kind-event-kind-studied",
+        "label": {
+          "default": "studied"
+        }
+      },
+      {
+        "id": "event-kind-event-kind-returned",
+        "label": {
+          "default": "returned"
+        }
+      },
+      {
+        "id": "event-kind-event-kind-described",
+        "label": {
+          "default": "described"
+        }
+      },
+      {
+        "id": "event-kind-event-kind-wrote",
+        "label": {
+          "default": "wrote"
+        }
+      },
+      {
+        "id": "event-kind-event-kind-began",
+        "label": {
+          "default": "began"
+        }
+      },
+      {
+        "id": "event-kind-event-kind-designed",
+        "label": {
+          "default": "designed"
+        }
+      },
+      {
+        "id": "event-kind-event-kind-won",
+        "label": {
+          "default": "won"
+        }
+      },
+      {
+        "id": "event-kind-event-kind-modified",
+        "label": {
+          "default": "modified"
+        }
+      },
+      {
+        "id": "event-kind-event-kind-became",
+        "label": {
+          "default": "became"
+        }
+      },
+      {
+        "id": "event-kind-event-kind-named",
+        "label": {
+          "default": "named"
+        }
+      },
+      {
+        "id": "event-kind-event-kind-expressed",
+        "label": {
+          "default": "expressed"
+        }
+      },
+      {
+        "id": "event-kind-event-kind-published",
+        "label": {
+          "default": "published"
+        }
+      },
+      {
+        "id": "event-kind-event-kind-aligned",
+        "label": {
+          "default": "aligned"
+        }
+      },
+      {
+        "id": "event-kind-event-kind-had",
+        "label": {
+          "default": "had"
+        }
+      },
+      {
+        "id": "event-kind-event-kind-achieved",
+        "label": {
+          "default": "achieved"
+        }
+      },
+      {
+        "id": "event-kind-event-kind-participated",
+        "label": {
+          "default": "participated"
+        }
+      },
+      {
+        "id": "event-kind-event-kind-proposed",
+        "label": {
+          "default": "proposed"
+        }
+      },
+      {
+        "id": "event-kind-event-kind-sold",
+        "label": {
+          "default": "sold"
+        }
+      }
+    ],
+    "role": [
+      {
+        "id": "role-born_in",
+        "label": {
+          "default": "born_in"
+        }
+      },
+      {
+        "id": "role-place_of_birth",
+        "label": {
+          "default": "place_of_birth"
+        }
+      },
+      {
+        "id": "role-employee_of",
+        "label": {
+          "default": "employee_of"
+        }
+      },
+      {
+        "id": "role-unk",
+        "label": {
+          "default": "unk"
+        }
+      },
+      {
+        "id": "role-died_in",
+        "label": {
+          "default": "died_in"
+        }
+      },
+      {
+        "id": "role-based_in",
+        "label": {
+          "default": "based_in"
+        }
+      },
+      {
+        "id": "role-location_of",
+        "label": {
+          "default": "location_of"
+        }
+      },
+      {
+        "id": "role-related_to",
+        "label": {
+          "default": "related_to"
+        }
+      },
+      {
+        "id": "role-married_to",
+        "label": {
+          "default": "married_to"
+        }
+      },
+      {
+        "id": "role-object_created",
+        "label": {
+          "default": "object_created"
+        }
+      },
+      {
+        "id": "role-was",
+        "label": {
+          "default": "was"
+        }
+      },
+      {
+        "id": "role-born",
+        "label": {
+          "default": "born"
+        }
+      },
+      {
+        "id": "role-traveled",
+        "label": {
+          "default": "traveled"
+        }
+      },
+      {
+        "id": "role-studied",
+        "label": {
+          "default": "studied"
+        }
+      },
+      {
+        "id": "role-returned",
+        "label": {
+          "default": "returned"
+        }
+      },
+      {
+        "id": "role-described",
+        "label": {
+          "default": "described"
+        }
+      },
+      {
+        "id": "role-wrote",
+        "label": {
+          "default": "wrote"
+        }
+      },
+      {
+        "id": "role-began",
+        "label": {
+          "default": "began"
+        }
+      },
+      {
+        "id": "role-designed",
+        "label": {
+          "default": "designed"
+        }
+      },
+      {
+        "id": "role-won",
+        "label": {
+          "default": "won"
+        }
+      },
+      {
+        "id": "role-modified",
+        "label": {
+          "default": "modified"
+        }
+      },
+      {
+        "id": "role-became",
+        "label": {
+          "default": "became"
+        }
+      },
+      {
+        "id": "role-named",
+        "label": {
+          "default": "named"
+        }
+      },
+      {
+        "id": "role-expressed",
+        "label": {
+          "default": "expressed"
+        }
+      },
+      {
+        "id": "role-published",
+        "label": {
+          "default": "published"
+        }
+      },
+      {
+        "id": "role-aligned",
+        "label": {
+          "default": "aligned"
+        }
+      },
+      {
+        "id": "role-had",
+        "label": {
+          "default": "had"
+        }
+      },
+      {
+        "id": "role-achieved",
+        "label": {
+          "default": "achieved"
+        }
+      },
+      {
+        "id": "role-participated",
+        "label": {
+          "default": "participated"
+        }
+      },
+      {
+        "id": "role-proposed",
+        "label": {
+          "default": "proposed"
+        }
+      },
+      {
+        "id": "role-sold",
+        "label": {
+          "default": "sold"
+        }
+      },
+      {
+        "id": "role-died on",
+        "label": {
+          "default": "died on"
+        }
+      }
+    ]
+  },
+  "unmappedEntities": [],
+  "collections": {}
+}

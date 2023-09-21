@@ -1,0 +1,625 @@
+{
+  "entities": [
+    {
+      "id": "Hede_Von_Trapp-pr-Hede_Von_Trapp",
+      "label": {
+        "default": "Hede von Trapp"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [
+        {
+          "event": "Hede_Von_Trapp-pr-Hede_Von_Trapp-ev-001",
+          "role": "role-born_in"
+        },
+        {
+          "event": "Hede_Von_Trapp-pr-Hede_Von_Trapp-ev-002",
+          "role": "role-born_in"
+        },
+        {
+          "event": "Hede_Von_Trapp-pr-Hede_Von_Trapp-ev-003",
+          "role": "role-died_in"
+        },
+        {
+          "event": "Hede_Von_Trapp-ob-The_Sound_of_Music-ev-006",
+          "role": "role-related_to"
+        },
+        {
+          "event": "Hede_Von_Trapp-pr-Hede_Von_Trapp-ev-008",
+          "role": "role-had"
+        }
+      ],
+      "kind": "person",
+      "biographies": [
+        "Hede_Von_Trapp-bio-001"
+      ]
+    },
+    {
+      "id": "Hede_Von_Trapp-pl-Pula",
+      "label": {
+        "default": "Pula"
+      },
+      "linkedIds": [
+        {
+          "label": "Pula",
+          "url": "https://en.wikipedia.org/wiki/Pula"
+        },
+        {
+          "label": "Q4656",
+          "url": "http://www.wikidata.org/entity/Q4656"
+        }
+      ],
+      "relations": [
+        {
+          "event": "Hede_Von_Trapp-pr-Hede_Von_Trapp-ev-001",
+          "role": "role-place_of_birth"
+        },
+        {
+          "event": "Hede_Von_Trapp-pl-Pula-ev-004",
+          "role": "role-born_in"
+        },
+        {
+          "event": "Hede_Von_Trapp-pl-Pula-ev-004",
+          "role": "role-place_of_birth"
+        }
+      ],
+      "kind": "place",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.845556,
+          44.870278
+        ]
+      }
+    },
+    {
+      "id": "Hede_Von_Trapp-pl-Austria-Hungary",
+      "label": {
+        "default": "Austria-Hungary"
+      },
+      "linkedIds": [
+        {
+          "label": "Austria-Hungary",
+          "url": "https://en.wikipedia.org/wiki/Austria-Hungary"
+        },
+        {
+          "label": "Q28513",
+          "url": "http://www.wikidata.org/entity/Q28513"
+        }
+      ],
+      "relations": [
+        {
+          "event": "Hede_Von_Trapp-pr-Hede_Von_Trapp-ev-002",
+          "role": "role-place_of_birth"
+        },
+        {
+          "event": "Hede_Von_Trapp-pl-Austria-Hungary-ev-005",
+          "role": "role-born_in"
+        },
+        {
+          "event": "Hede_Von_Trapp-pl-Austria-Hungary-ev-005",
+          "role": "role-place_of_birth"
+        }
+      ],
+      "kind": "place",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.35,
+          48.2
+        ]
+      }
+    },
+    {
+      "id": "Hede_Von_Trapp-pr-002",
+      "label": {
+        "default": "the August von Trapp"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "Hede_Von_Trapp-pr-Georg_Ritter_von_Trapp",
+      "label": {
+        "default": "Georg Ritter von Trapp"
+      },
+      "linkedIds": [
+        {
+          "label": "Georg_Ritter_von_Trapp",
+          "url": "https://en.wikipedia.org/wiki/Georg_Ritter_von_Trapp"
+        }
+      ],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "Hede_Von_Trapp-pr-003",
+      "label": {
+        "default": "Trapp"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "Hede_Von_Trapp-ob-The_Sound_of_Music",
+      "label": {
+        "default": "The Sound of Music"
+      },
+      "linkedIds": [
+        {
+          "label": "The_Sound_of_Music",
+          "url": "https://en.wikipedia.org/wiki/The_Sound_of_Music"
+        },
+        {
+          "label": "Q1022513",
+          "url": "http://www.wikidata.org/entity/Q1022513"
+        }
+      ],
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [
+        {
+          "event": "Hede_Von_Trapp-ob-The_Sound_of_Music-ev-006",
+          "role": "role-object_created"
+        }
+      ],
+      "kind": "cultural-heritage-object",
+      "type": {}
+    },
+    {
+      "id": "Hede_Von_Trapp-pl-001",
+      "label": {
+        "default": "Berlin"
+      },
+      "linkedIds": [],
+      "relations": [],
+      "kind": "place",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.405,
+          52.52
+        ]
+      }
+    },
+    {
+      "id": "Hede_Von_Trapp-pr-Erich_Ludwig_Stahl",
+      "label": {
+        "default": "Erich Ludwig Stahl"
+      },
+      "linkedIds": [
+        {
+          "label": "Erich_Ludwig_Stahl",
+          "url": "https://en.wikipedia.org/wiki/Erich_Ludwig_Stahl"
+        }
+      ],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    },
+    {
+      "id": "Hede_Von_Trapp-gr-001",
+      "label": {
+        "default": "the Miethke Gallery"
+      },
+      "linkedIds": [],
+      "description": "",
+      "source": {
+        "citation": "Wikipedia"
+      },
+      "relations": [
+        {
+          "event": "Hede_Von_Trapp-pr-Hede_Von_Trapp-ev-008",
+          "role": "role-had"
+        }
+      ],
+      "kind": "group",
+      "type": {}
+    },
+    {
+      "id": "Hede_Von_Trapp-pl-Vienna",
+      "label": {
+        "default": "Vienna"
+      },
+      "linkedIds": [
+        {
+          "label": "Vienna",
+          "url": "https://en.wikipedia.org/wiki/Vienna"
+        },
+        {
+          "label": "Q1741",
+          "url": "http://www.wikidata.org/entity/Q1741"
+        }
+      ],
+      "relations": [
+        {
+          "event": "Hede_Von_Trapp-pr-Hede_Von_Trapp-ev-008",
+          "role": "role-had"
+        }
+      ],
+      "kind": "place",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.3725,
+          48.208333
+        ]
+      }
+    },
+    {
+      "id": "Hede_Von_Trapp-pl-002",
+      "label": {
+        "default": "the Kunsthalle Bremen"
+      },
+      "linkedIds": [],
+      "relations": [],
+      "kind": "place"
+    },
+    {
+      "id": "Hede_Von_Trapp-pl-Korneuburg",
+      "label": {
+        "default": "Korneuburg"
+      },
+      "linkedIds": [
+        {
+          "label": "Korneuburg",
+          "url": "https://en.wikipedia.org/wiki/Korneuburg"
+        },
+        {
+          "label": "Q659841",
+          "url": "http://www.wikidata.org/entity/Q659841"
+        }
+      ],
+      "relations": [],
+      "kind": "place",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.333056,
+          48.345278
+        ]
+      }
+    },
+    {
+      "id": "Hede_Von_Trapp-pl-003",
+      "label": {
+        "default": "the Hede-von-Trapp-Straße"
+      },
+      "linkedIds": [],
+      "relations": [],
+      "kind": "place"
+    },
+    {
+      "id": "Hede_Von_Trapp-pl-Austria",
+      "label": {
+        "default": "Austria"
+      },
+      "linkedIds": [
+        {
+          "label": "Austria",
+          "url": "https://en.wikipedia.org/wiki/Austria"
+        },
+        {
+          "label": "Q40",
+          "url": "http://www.wikidata.org/entity/Q40"
+        }
+      ],
+      "relations": [
+        {
+          "event": "Hede_Von_Trapp-pr-Hede_Von_Trapp-ev-003",
+          "role": "role-unk"
+        },
+        {
+          "event": "Hede_Von_Trapp-pl-Austria-ev-007",
+          "role": "role-died_in"
+        },
+        {
+          "event": "Hede_Von_Trapp-pl-Austria-ev-007",
+          "role": "role-unk"
+        }
+      ],
+      "kind": "place",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.35,
+          48.2
+        ]
+      }
+    },
+    {
+      "id": "Hede_Von_Trapp-pl-004",
+      "label": {
+        "default": "Hungary"
+      },
+      "linkedIds": [],
+      "relations": [],
+      "kind": "place"
+    },
+    {
+      "id": "Hede_Von_Trapp-pl-005",
+      "label": {
+        "default": "Miethke Gallery"
+      },
+      "linkedIds": [],
+      "relations": [
+        {
+          "event": "Hede_Von_Trapp-pr-Hede_Von_Trapp-ev-008",
+          "role": "role-had"
+        }
+      ],
+      "kind": "place"
+    },
+    {
+      "id": "Hede_Von_Trapp-pl-Kunsthalle_Bremen",
+      "label": {
+        "default": "Kunsthalle Bremen"
+      },
+      "linkedIds": [
+        {
+          "label": "Kunsthalle_Bremen",
+          "url": "https://en.wikipedia.org/wiki/Kunsthalle_Bremen"
+        },
+        {
+          "label": "Q693591",
+          "url": "http://www.wikidata.org/entity/Q693591"
+        }
+      ],
+      "relations": [],
+      "kind": "place",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.813611,
+          53.072778
+        ]
+      }
+    },
+    {
+      "id": "Hede_Von_Trapp-pr-005",
+      "label": {
+        "default": "Straße"
+      },
+      "linkedIds": [],
+      "media": [],
+      "relations": [],
+      "kind": "person"
+    }
+  ],
+  "events": [
+    {
+      "id": "Hede_Von_Trapp-pr-Hede_Von_Trapp-ev-001",
+      "label": {
+        "default": "Pula"
+      },
+      "kind": "event-kind-event-kind-born_in",
+      "relations": [
+        {
+          "entity": "Hede_Von_Trapp-pl-Pula",
+          "role": "role-place_of_birth"
+        },
+        {
+          "entity": "Hede_Von_Trapp-pr-Hede_Von_Trapp",
+          "role": "role-born_in"
+        }
+      ]
+    },
+    {
+      "id": "Hede_Von_Trapp-pr-Hede_Von_Trapp-ev-002",
+      "label": {
+        "default": "Austria-Hungary"
+      },
+      "kind": "event-kind-event-kind-born_in",
+      "relations": [
+        {
+          "entity": "Hede_Von_Trapp-pl-Austria-Hungary",
+          "role": "role-place_of_birth"
+        },
+        {
+          "entity": "Hede_Von_Trapp-pr-Hede_Von_Trapp",
+          "role": "role-born_in"
+        }
+      ]
+    },
+    {
+      "id": "Hede_Von_Trapp-pr-Hede_Von_Trapp-ev-003",
+      "label": {
+        "default": "Austria"
+      },
+      "kind": "event-kind-event-kind-died_in",
+      "relations": [
+        {
+          "entity": "Hede_Von_Trapp-pl-Austria",
+          "role": "role-unk"
+        },
+        {
+          "entity": "Hede_Von_Trapp-pr-Hede_Von_Trapp",
+          "role": "role-died_in"
+        }
+      ]
+    },
+    {
+      "id": "Hede_Von_Trapp-pl-Pula-ev-004",
+      "label": {
+        "default": "Pula"
+      },
+      "kind": "event-kind-event-kind-born_in",
+      "relations": [
+        {
+          "entity": "Hede_Von_Trapp-pl-Pula",
+          "role": "role-place_of_birth"
+        },
+        {
+          "entity": "Hede_Von_Trapp-pr-Hede_Von_Trapp",
+          "role": "role-born_in"
+        }
+      ]
+    },
+    {
+      "id": "Hede_Von_Trapp-pl-Austria-Hungary-ev-005",
+      "label": {
+        "default": "Austria-Hungary"
+      },
+      "kind": "event-kind-event-kind-born_in",
+      "relations": [
+        {
+          "entity": "Hede_Von_Trapp-pl-Austria-Hungary",
+          "role": "role-place_of_birth"
+        },
+        {
+          "entity": "Hede_Von_Trapp-pr-Hede_Von_Trapp",
+          "role": "role-born_in"
+        }
+      ]
+    },
+    {
+      "id": "Hede_Von_Trapp-ob-The_Sound_of_Music-ev-006",
+      "label": {
+        "default": "The Sound of Music"
+      },
+      "kind": "event-kind-creation",
+      "relations": [
+        {
+          "entity": "Hede_Von_Trapp-ob-The_Sound_of_Music",
+          "role": "role-object_created"
+        },
+        {
+          "entity": "Hede_Von_Trapp-pr-Hede_Von_Trapp",
+          "role": "role-related_to"
+        }
+      ]
+    },
+    {
+      "id": "Hede_Von_Trapp-pl-Austria-ev-007",
+      "label": {
+        "default": "Austria"
+      },
+      "kind": "event-kind-event-kind-died_in",
+      "relations": [
+        {
+          "entity": "Hede_Von_Trapp-pl-Austria",
+          "role": "role-unk"
+        },
+        {
+          "entity": "Hede_Von_Trapp-pr-Hede_Von_Trapp",
+          "role": "role-died_in"
+        }
+      ]
+    },
+    {
+      "id": "Hede_Von_Trapp-pr-Hede_Von_Trapp-ev-008",
+      "label": {
+        "default": "Trapp had an exhibition with 70 pen drawings and etchings In July 1911 in the Miethke Gallery in Vienna"
+      },
+      "kind": "event-kind-had",
+      "relations": [
+        {
+          "entity": "Hede_Von_Trapp-pr-Hede_Von_Trapp",
+          "role": "role-died_in"
+        },
+        {
+          "entity": "Hede_Von_Trapp-gr-001",
+          "role": "role-had"
+        },
+        {
+          "entity": "Hede_Von_Trapp-pl-Vienna",
+          "role": "role-had"
+        },
+        {
+          "entity": "Hede_Von_Trapp-pl-005",
+          "role": "role-had"
+        }
+      ],
+      "startDate": "1911-07-01"
+    }
+  ],
+  "media": [],
+  "biographies": [
+    {
+      "id": "Hede_Von_Trapp-bio-001",
+      "text": "Hede von Trapp (18 November 1877 – 29 December 1947) was an Austrian poet, painter and graphic designer of the Art Nouveau movement.\n\n",
+      "citation": "en_wikipedia"
+    }
+  ],
+  "vocabularies": {
+    "event-kind": [
+      {
+        "id": "event-kind-event-kind-born_in",
+        "label": {
+          "default": "place_of_birth"
+        }
+      },
+      {
+        "id": "event-kind-event-kind-died_in",
+        "label": {
+          "default": "unk"
+        }
+      },
+      {
+        "id": "event-kind-creation",
+        "label": {
+          "default": "object_created"
+        }
+      },
+      {
+        "id": "event-kind-event-kind-had",
+        "label": {
+          "default": "had"
+        }
+      }
+    ],
+    "role": [
+      {
+        "id": "role-born_in",
+        "label": {
+          "default": "born_in"
+        }
+      },
+      {
+        "id": "role-place_of_birth",
+        "label": {
+          "default": "place_of_birth"
+        }
+      },
+      {
+        "id": "role-died_in",
+        "label": {
+          "default": "died_in"
+        }
+      },
+      {
+        "id": "role-unk",
+        "label": {
+          "default": "unk"
+        }
+      },
+      {
+        "id": "role-related_to",
+        "label": {
+          "default": "related_to"
+        }
+      },
+      {
+        "id": "role-object_created",
+        "label": {
+          "default": "object_created"
+        }
+      },
+      {
+        "id": "role-had",
+        "label": {
+          "default": "had"
+        }
+      }
+    ]
+  },
+  "unmappedEntities": [],
+  "collections": {}
+}
