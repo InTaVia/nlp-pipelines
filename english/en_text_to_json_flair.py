@@ -14,8 +14,8 @@ import spacy
 from spacy import __version__ as spacy_version
 from spacy.tokens import Doc
 
-from python_heideltime import Heideltime
-from utils.nlp_heideltime import add_json_heideltime
+# from python_heideltime import Heideltime
+# from utils.nlp_heideltime import add_json_heideltime
 
 from flair import __version__ as flair_version
 from flair.splitter import SegtokSentenceSplitter
@@ -30,12 +30,12 @@ from utils.nlp_common import preprocess_and_clean_text, create_nlp_template, run
 spacy_model = "en_core_web_lg"
 spacy_nlp = spacy.load("en_core_web_lg")
 
-heideltime_parser = Heideltime()
-heideltime_parser.set_language('ENGLISH')
-heideltime_parser.set_document_type('NARRATIVES')
+# heideltime_parser = Heideltime()
+# heideltime_parser.set_language('ENGLISH')
+# heideltime_parser.set_document_type('NARRATIVES')
 
 splitter = SegtokSentenceSplitter()
-ner_tagger = Classifier.load('ner-ontonotes-large')
+ner_tagger = Classifier.load('flair/ner-english-ontonotes')
 rel_tagger = Classifier.load('relations')
 frames_tagger = Classifier.load('frame')
 linker_tagger = Classifier.load('linker')
@@ -85,7 +85,7 @@ def run_flair_pipeline(text: str):
     nlp_dict['morpho_syntax'][f'spacy_{spacy_model}_{spacy_version}'] = add_morphosyntax(spacy_dict['token_objs'])
 
     # # Run Heideltime
-    nlp_dict['time_expressions'] = add_json_heideltime(text, heideltime_parser)
+    # nlp_dict['time_expressions'] = add_json_heideltime(text, heideltime_parser)
 
     # Run Flair Taggers
     frame_list = run_flair(sentences, "frames", flair_models)["tagged_entities"]

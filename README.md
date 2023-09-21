@@ -1,8 +1,6 @@
 # nlp-pipelines
 Scripts for different languages to go form text to structured data
 
-## Intavia Hackathon June-2023
-
 ### In A Nutshell
 
 The **english** section of this repository contains two separate cooperative pipelines. You can run them independently (in that case you just need to install one of the environments), or, if you install both environments and you want to combine outputs in a single JSON, you must run first the Flair pipeline and then the AllenNLP pipeline.
@@ -30,7 +28,7 @@ Each pipeline predicts different NLP layers:
 
 ### Quick Start
 
-1. Install everything necessary for the Flair Pipeline. Run the following commands in the project root directory:
+1. Install everything necessary for the Flair Pipeline. To do this, run the following commands in the project root directory:
 ```
 conda create -n intavia_flair python=3.10
 conda activate intavia_flair

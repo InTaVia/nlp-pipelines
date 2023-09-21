@@ -25,12 +25,12 @@ srl_predictor = Predictor.from_path("https://storage.googleapis.com/allennlp-pub
 ner_predictor = Predictor.from_path("https://storage.googleapis.com/allennlp-public-models/ner-elmo.2021-02-12.tar.gz")
 coref_predictor = Predictor.from_path("https://storage.googleapis.com/allennlp-public-models/coref-spanbert-large-2021.03.10.tar.gz")
 
-# Heideltime Functions
-from python_heideltime import Heideltime
-from utils.nlp_heideltime import add_json_heideltime
-heideltime_parser = Heideltime()
-heideltime_parser.set_language('ENGLISH')
-heideltime_parser.set_document_type('NARRATIVES')
+# # Heideltime Functions
+# from python_heideltime import Heideltime
+# from utils.nlp_heideltime import add_json_heideltime
+# heideltime_parser = Heideltime()
+# heideltime_parser.set_language('ENGLISH')
+# heideltime_parser.set_document_type('NARRATIVES')
 
 
 

@@ -7,6 +7,9 @@ from utils.wikidata_querier import get_wikidata_basic_info
 from urllib.parse import unquote
 import datetime
 import dateutil.parser as parser
+import argparse, glob
+import unicodedata
+
 
 inverse_relations_dict = {
     "based_in": "location_of",
@@ -480,7 +483,7 @@ def convert_nlp_to_idm_json(nlp_path: str, idm_out_path: str, wiki_root_path: st
                 obj_role = inverse_relations_dict.get(rel_obj['relationValue'], 'unk')
                 event_info = {"full_event_id": f"{ev_sub_id}-ev-{stringify_id(event_ix)}", 
                               "event_label": rel_obj["surfaceFormObj"], 
-                              "event_kind": f"event-kind-{subj_role}", 
+                              "event_kind": subj_role, 
                               "subj_role": subj_role, 
                               "obj_role": obj_role}
                 if main_birth_date and (subj_role == "date_of_birth" or subj_role == "child_of" or subj_role == "sibling_of"):
@@ -534,14 +537,14 @@ def convert_nlp_to_idm_json(nlp_path: str, idm_out_path: str, wiki_root_path: st
             # Add one relation per entity match
             event_relations = [{ "entity": subj_idm_id, "role": f"role-{event_info['subj_role']}" }]
             role_vocab[f"role-{subj_role}"] = { "id": f"role-{subj_role}", "label": { "default": subj_role}}
-            event_kind = f"event-kind-{subj_role}"
+            event_kind = event_obj["kind"]
             for entity_found in contains_entities:
                 obj_idm_ent = idm_entity_dict[idm_id2univ_id[entity_found]]
                 obj_role = event_triple[1]
                 event_relations.append({ "entity": obj_idm_ent["id"], "role": f"role-{obj_role}"})
                 obj_idm_ent["relations"].append({"event": full_event_id, "role": f"role-{obj_role}"})
                 role_vocab[f"role-{obj_role}"] = { "id": f"role-{obj_role}", "label": { "default": obj_role}}
-                event_vocab[f"event-kind-{event_kind}"] = {"id": f"event-kind-{event_kind}", "label": {"default": f"{obj_role}"}}
+                event_vocab[event_kind] = {"id": event_kind, "label": {"default": f"{obj_role}"}}
 
             event_obj["relations"] = event_relations
             subj_idm_ent["relations"].append({"event": full_event_id, "role": f"role-{subj_role}"})            
@@ -798,7 +801,34 @@ def get_media_item(media_id, media_title, media_url):
     
 
 if __name__ == "__main__":
-    # convert_nlp_to_idm_json("data/json/albrecht_dürer.json", "data/idm/albrecht_dürer.idm.json")
-    # convert_nlp_to_idm_json("data/wikipedia/Art_Nouveau/hede_von_trapp.nlp.json","data/idm/Art_Nouveau/hede_von_trapp.idm.json", wiki_root_path = "data/wikipedia/Art_Nouveau")
-    convert_nlp_to_idm_json("data/wikipedia/Art_Nouveau/alphonse_mucha.nlp.json","data/idm/Art_Nouveau/alphonse_mucha.idm.json", wiki_root_path = "data/wikipedia/Art_Nouveau")
-    # convert_nlp_to_idm_json("english/data/json/ida_laura_pfeiffer.json", "english/data/idm/ida_pfeiffer.idm.json")
+    # GENERAL SYSTEM PARAMS
+    arg_parser = argparse.ArgumentParser()
+    arg_parser.add_argument('-n', '--name', help='A string with a full name', default=None)
+    args = arg_parser.parse_args()
+
+    if args.name:
+        norm_name = args.name.lower().replace(" ", "_")
+        input_nlp_file = f"data/wikipedia/{norm_name}.nlp.json"
+        if os.path.exists(input_nlp_file):
+            output_file = f"data/idm/{norm_name}.idm.json"
+            convert_nlp_to_idm_json(input_nlp_file, output_file)
+        else:
+            input_nlp_file = None
+            name_elems = norm_name.split("_")
+            for file in glob.glob("data/wikipedia/*.nlp.json"):
+                file_name_ascii = str(unicodedata.normalize('NFD', file).encode('ascii', 'ignore'))
+                if all([ne in file_name_ascii for ne in name_elems]):
+                    input_nlp_file = file.split("/")[-1]
+                    break
+            if input_nlp_file:
+                output_file = f"data/idm/{input_nlp_file.replace('.nlp.json', '.idm.json')}"
+                input_nlp_file = f"data/wikipedia/{input_nlp_file}"
+                convert_nlp_to_idm_json(input_nlp_file, output_file)
+            else:
+                print(f"Could not find a file for {norm_name} in the 'data/wikipedia/' directory. Easy fix: Change the wikipedia NLP file to match '{norm_name}.nlp.json'")
+    else: # Run Test Case by default...
+        # convert_nlp_to_idm_json("data/json/albrecht_dürer.json", "data/idm/albrecht_dürer.idm.json")
+        # convert_nlp_to_idm_json("data/wikipedia/Art_Nouveau/hede_von_trapp.nlp.json","data/idm/Art_Nouveau/hede_von_trapp.idm.json", wiki_root_path = "data/wikipedia/Art_Nouveau")
+        convert_nlp_to_idm_json("data/wikipedia/Art_Nouveau/alphonse_mucha.nlp.json","data/idm/Art_Nouveau/alphonse_mucha.idm.json", wiki_root_path = "data/wikipedia/Art_Nouveau")
+        # convert_nlp_to_idm_json("data/wikipedia/ida_laura_pfeiffer.nlp.json", "data/idm/ida_pfeiffer.idm.json")
+        # convert_nlp_to_idm_json("data/wikipedia/benito_juárez.nlp.json", "data/idm/benito_juárez.idm.json")
