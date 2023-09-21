@@ -61,7 +61,10 @@ def get_wikidata_basic_info(wikipedia_url: str) -> Dict[str, Any]:
         for item in data["results"]["bindings"]:
             wikidata_id = item["wikidataID"]["value"]
             main_image = item.get("image", {}).get("value", {})
-            if main_image == {}: main_image = None
+            if main_image == {}: 
+                main_image = None
+            else:
+                main_image = main_image.replace("http://", "https://")
             if not birth_date:
                 birth_date = item.get("birthDate", {}).get("value", {})
             if not death_date:
